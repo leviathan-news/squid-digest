@@ -12,9 +12,13 @@ cp .env.example .env
 python manage.py runserver
 ```
 
-# Config
+## Config
 .env controls:
 * TIME_ZONE
 * DJANGO_DEBUG
 * DJANGO_ALLOWED_HOSTS
 * DJANGO_SECRET_KEY
+
+## Usage
+
+`python manage.py pull_news --limit 5`
