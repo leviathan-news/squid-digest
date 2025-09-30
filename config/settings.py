@@ -131,3 +131,9 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# API Configuration
+PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
+GHOST_API_KEY = os.getenv("GHOST_API_KEY")
+GHOST_URL = os.getenv("GHOST_URL")
+GHOST_ADMIN_API_KEY = os.getenv("GHOST_ADMIN_API_KEY")
