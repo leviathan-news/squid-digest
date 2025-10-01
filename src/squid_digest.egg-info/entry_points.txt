@@ -1,0 +1,2 @@
+[console_scripts]
+digest-news = digest.cli:main
