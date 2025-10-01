@@ -125,7 +125,7 @@ Make it engaging and valuable for crypto/tech professionals who want to stay inf
             }
             
             payload = {
-                "model": "sonar",
+                "model": "sonar-reasoning-pro",
                 "messages": [
                     {
                         "role": "system",
