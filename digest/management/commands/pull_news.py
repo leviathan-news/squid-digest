@@ -1,10 +1,10 @@
-import os
 import sys
-import json
-import httpx
-from datetime import datetime
 from django.core.management.base import BaseCommand
 from django.conf import settings
+
+from digest.clients import LeviathanNewsClient, PerplexityClient, GhostClient
+from digest.services import DigestService
+
 
 class Command(BaseCommand):
     help = "Pull news from Leviathan API, generate digest with Perplexity, and send via Ghost"
@@ -15,55 +15,90 @@ class Command(BaseCommand):
         parser.add_argument("--test", action="store_true", help="Use test data instead of API call")
 
     def handle(self, *args, **opts):
-        # Get news items
-        if opts["test"]:
-            items = self._get_test_data()
-        else:
-            items = self._fetch_news_items(opts["limit"])
-        
-        if not items:
-            self.stdout.write(self.style.WARNING("No news items to process"))
-            return
+        """
+        Main entry point for the pull_news command.
 
-        # Generate digest with Perplexity
-        digest_content = self._generate_digest_with_perplexity(items)
-        if not digest_content:
-            self.stderr.write(self.style.ERROR("Failed to generate digest"))
+        Flow:
+        1. Get news items (from API or test data)
+        2. Generate digest with Perplexity AI
+        3. Publish to Ghost (unless --dry-run)
+        """
+        try:
+            # Get news items
+            if opts["test"]:
+                items = self._get_test_data()
+                self.stdout.write(self.style.SUCCESS(f"Using {len(items)} test news items"))
+            else:
+                items = self._fetch_news(opts["limit"])
+
+            if not items:
+                self.stdout.write(self.style.WARNING("No news items to process"))
+                return
+
+            # Generate and optionally publish digest
+            digest_content = self._run_digest_pipeline(items, opts["dry_run"])
+
+            # Output results
+            if opts["dry_run"]:
+                self._display_dry_run_output(digest_content)
+            else:
+                self.stdout.write(self.style.SUCCESS("✓ Digest sent to Ghost successfully!"))
+
+        except Exception as e:
+            self.stderr.write(self.style.ERROR(f"Pipeline failed: {e}"))
             sys.exit(1)
 
-        # Send to Ghost (unless dry run)
-        if not opts["dry_run"]:
-            success = self._send_to_ghost(digest_content)
-            if success:
-                self.stdout.write(self.style.SUCCESS("Digest sent to Ghost successfully!"))
-            else:
-                self.stderr.write(self.style.ERROR("Failed to send digest to Ghost"))
-                sys.exit(1)
-        else:
-            self.stdout.write(self.style.WARNING("DRY RUN - Digest generated but not sent:"))
-            self.stdout.write("\n" + "="*80 + "\n")
-            self.stdout.write(digest_content)
-            self.stdout.write("\n" + "="*80 + "\n")
-
-    def _fetch_news_items(self, limit):
-        """Fetch news items from Leviathan API"""
-        url = "https://api.leviathannews.xyz/api/v1/news/?sort_type=hot&sort_timeframe=1"
-        
+    def _fetch_news(self, limit: int):
+        """Fetch news using LeviathanNewsClient."""
         try:
-            with httpx.Client(timeout=20) as client:
-                r = client.get(url, params={"limit": limit})
-                r.raise_for_status()
-                data = r.json()
+            client = LeviathanNewsClient()
+            items = client.fetch_top_news(limit=limit)
+            self.stdout.write(self.style.SUCCESS(f"✓ Fetched {len(items)} news items"))
+            return items
         except Exception as e:
             self.stderr.write(self.style.ERROR(f"Failed to fetch news: {e}"))
             return []
 
-        items = data if isinstance(data, list) else data.get("results") or data.get("items") or []
-        self.stdout.write(self.style.SUCCESS(f"Fetched {len(items)} news items"))
-        return items
+    def _run_digest_pipeline(self, items, dry_run: bool):
+        """Run the digest generation and publishing pipeline."""
+        # Initialize clients
+        leviathan_client = LeviathanNewsClient()
+        perplexity_client = PerplexityClient(api_key=settings.PERPLEXITY_API_KEY)
+        ghost_client = GhostClient(
+            ghost_url=settings.GHOST_URL,
+            admin_api_key=settings.GHOST_ADMIN_API_KEY
+        )
+
+        # Initialize service
+        service = DigestService(
+            leviathan_client=leviathan_client,
+            perplexity_client=perplexity_client,
+            ghost_client=ghost_client
+        )
+
+        # Generate digest
+        self.stdout.write("Generating digest with Perplexity AI...")
+        digest_content = service.generate_digest(items)
+        self.stdout.write(self.style.SUCCESS("✓ Digest generated"))
+
+        # Publish unless dry run
+        if not dry_run:
+            self.stdout.write("Publishing to Ghost...")
+            service.publish_digest(digest_content)
+            self.stdout.write(self.style.SUCCESS("✓ Published to Ghost"))
+
+        return digest_content
+
+    def _display_dry_run_output(self, content):
+        """Display digest content for dry runs."""
+        self.stdout.write(self.style.WARNING("\n" + "="*80))
+        self.stdout.write(self.style.WARNING("DRY RUN - Digest generated but not published"))
+        self.stdout.write(self.style.WARNING("="*80 + "\n"))
+        self.stdout.write(content)
+        self.stdout.write("\n" + "="*80 + "\n")
 
     def _get_test_data(self):
-        """Return test data for development"""
+        """Return test data for development without API calls."""
         return [
             {
                 "headline": "Ambitious Yearn dev shares one neat trick that made him $40 from ChatGPT",
@@ -84,123 +119,3 @@ class Command(BaseCommand):
                 "tags": [{"name": "AI"}, {"name": "JPMorgan Chase"}, {"name": "investment"}]
             }
         ]
-
-    def _generate_digest_with_perplexity(self, items):
-        """Generate digest using Perplexity API"""
-        if not settings.PERPLEXITY_API_KEY:
-            self.stderr.write(self.style.ERROR("PERPLEXITY_API_KEY not configured"))
-            return None
-
-        # Prepare headlines for the prompt
-        headlines_text = "\n".join([
-            f"• {item.get('headline', 'No headline')} (Source: {item.get('source', 'Unknown')})"
-            for item in items
-        ])
-
-        prompt = f"""You are a crypto and tech news analyst creating a daily digest. Based on these top headlines from Leviathan News, create a compelling daily digest that:
-
-1. **Summarizes the key themes** across all stories
-2. **Explains the significance** of each major story in 2-3 sentences
-3. **Identifies trends** and patterns in the news
-4. **Provides context** about why these stories matter to crypto/tech audiences
-5. **Writes in an engaging, newsletter-style tone** that's informative but accessible
-
-Today's Top Headlines:
-{headlines_text}
-
-Format your response as a newsletter digest with:
-- A compelling subject line
-- Brief intro paragraph
-- 3-4 main story summaries with analysis
-- A closing section highlighting key trends
-- Keep it concise but insightful (aim for 300-500 words total)
-
-Make it engaging and valuable for crypto/tech professionals who want to stay informed but don't have time to read everything."""
-
-        try:
-            # Use httpx directly for Perplexity API
-            headers = {
-                "Authorization": f"Bearer {settings.PERPLEXITY_API_KEY}",
-                "Content-Type": "application/json"
-            }
-            
-            payload = {
-                "model": "sonar",
-                "messages": [
-                    {
-                        "role": "system",
-                        "content": "You are an expert crypto and tech news analyst who creates engaging daily digests."
-                    },
-                    {
-                        "role": "user", 
-                        "content": prompt
-                    }
-                ],
-                "stream": False,
-                "temperature": 0.7,
-                "max_tokens": 1000
-            }
-            
-            with httpx.Client(timeout=60) as client:
-                response = client.post(
-                    "https://api.perplexity.ai/chat/completions",
-                    headers=headers,
-                    json=payload
-                )
-                response.raise_for_status()
-                data = response.json()
-            
-            digest = data["choices"][0]["message"]["content"]
-            self.stdout.write(self.style.SUCCESS("Digest generated with Perplexity"))
-            return digest
-            
-        except httpx.HTTPStatusError as e:
-            self.stderr.write(self.style.ERROR(f"Perplexity API HTTP error: {e}"))
-            self.stderr.write(self.style.ERROR(f"Response: {e.response.text}"))
-            return None
-        except Exception as e:
-            self.stderr.write(self.style.ERROR(f"Perplexity API error: {e}"))
-            return None
-
-    def _send_to_ghost(self, content):
-        """Send digest to Ghost as a post"""
-        if not all([settings.GHOST_URL, settings.GHOST_ADMIN_API_KEY]):
-            self.stderr.write(self.style.ERROR("Ghost configuration missing"))
-            return False
-
-        # Extract subject line and body from content
-        lines = content.strip().split('\n')
-        subject_line = lines[0] if lines else "Daily Crypto & Tech Digest"
-        body_content = '\n'.join(lines[1:]) if len(lines) > 1 else content
-
-        post_data = {
-            "posts": [{
-                "title": subject_line,
-                "html": f"<p>{body_content.replace(chr(10), '</p><p>')}</p>",
-                "status": "published",
-                "tags": ["digest", "crypto", "tech", "news"],
-                "meta_title": subject_line,
-                "meta_description": "Daily digest of top crypto and tech news from Leviathan News"
-            }]
-        }
-
-        try:
-            headers = {
-                "Authorization": f"Ghost {settings.GHOST_ADMIN_API_KEY}",
-                "Content-Type": "application/json"
-            }
-            
-            with httpx.Client(timeout=30) as client:
-                r = client.post(
-                    f"{settings.GHOST_URL}/ghost/api/admin/posts/",
-                    headers=headers,
-                    json=post_data
-                )
-                r.raise_for_status()
-                
-            self.stdout.write(self.style.SUCCESS("Post created in Ghost"))
-            return True
-            
-        except Exception as e:
-            self.stderr.write(self.style.ERROR(f"Ghost API error: {e}"))
-            return False
