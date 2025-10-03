@@ -4,6 +4,7 @@ __pycache__/
 *.sqlite3
 .env
 .DS_Store
+.pytest_cache/
 
 # Django: ignore all migrations, keep package marker
 **/migrations/**
@@ -33,3 +34,4 @@ share/python-wheels/
 *.egg
 MANIFEST
 .temp/
+.data/

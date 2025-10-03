@@ -9,6 +9,13 @@ dependencies = [
     "httpx>=0.27.0",
     "python-dotenv>=1.0.0",
     "pytest>=8.4.2",
+    "langchain-core>=0.3.77",
+    "langchain-openai>=0.3.34",
+    "beautifulsoup4>=4.14.2",
+    "selenium>=4.36.0",
+    "trafilatura>=2.0.0",
+    "langchain-community>=0.3.30",
+    "langfuse>=3.6.1",
 ]
 
 [tool.uv.sources]

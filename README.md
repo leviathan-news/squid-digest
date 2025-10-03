@@ -1,84 +1,76 @@
 # squid-digest
 
-AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through Perplexity AI, and publishes to Ghost.
+AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM provider, and publishes to Ghost.
 
 ## Features
 
-- 🔥 Fetches trending crypto/tech news from Leviathan News API
-- 🤖 Generates intelligent digests using Perplexity AI
+- 🔥 Fetches crypto/tech news from Leviathan News API 
+- 🤖 Generates intelligent digests using OpenAI / Claude / Perplexity AI
+- 📝 Save writeup for each news content or bundle all news content
 - 📧 Publishes digest directly to Ghost CMS
-- 🧪 Test mode for development and debugging
-- ⚙️ Configurable via environment variables
 
 ## Quickstart
 
-### Automated Setup
+### Setup
+
+- With [uv](https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
-./setup.sh
+uv sync
 ```
 
-### Manual Setup
+- With [venv](https://docs.python.org/3/library/venv.html)
 ```bash
-# Create virtual environment
 python3 -m venv venv
 source venv/bin/activate
-
-# Install dependencies
-pip install pip-tools
-pip-compile requirements.in
 pip install -r requirements.txt
 
 # Configure environment
-cp env.template .env
+cp .env.example .env
 # Edit .env with your API keys
 ```
 
-## Configuration
 
-Create a `.env` file with the following variables:
+### Run digest pipeline
 
+- Fetch all news contents, bundle all to one writeup
 ```bash
-# Django Configuration
-DJANGO_SECRET_KEY=your-secret-key-here
-DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
-TIME_ZONE=America/Los_Angeles
-
-# API Keys
-PERPLEXITY_API_KEY=your-perplexity-api-key-here
-GHOST_URL=https://your-ghost-site.com
-GHOST_ADMIN_API_KEY=your-ghost-admin-api-key-here
+python scripts/digest.py --fetch-news --bundle-writeup
+# or simply as fetch-news and bundle-writeup are defaulted
+python scripts/digest.py
 ```
 
-## Usage
-
-### Generate and Send Digest
+- Fetch all news contents, save writeup for each news content
 ```bash
-python manage.py pull_news --limit 10
+python scripts/digest.py --fetch-news --each-news
+# or
+uv run scripts/digest.py --fetch-news --each-news
 ```
 
-### Test Mode (Dry Run)
-```bash
-python manage.py pull_news --test --dry-run
+
+## Architecture
+
+```
+squid_digest/
+├── config.py                       # Configuration management (LLM providers, API keys)
+├── core/                           # Core business logic
+│   └── digest_engine.py            # Main digest generation pipeline
+├── llm/                            # LLM provider implementations
+│   └── providers.py                # OpenAI, Claude, Perplexity providers
+├── tools/                          # External service integrations
+│   └── leviathan.py                # Leviathan News API client
+└── context/                        # Context and prompt management
+    └── prompts/
+        └── template.py             # System prompts and templates
 ```
 
-### Command Options
-- `--limit N`: Number of news items to process (default: 10)
-- `--dry-run`: Generate digest but don't send to Ghost
-- `--test`: Use test data instead of fetching from API
+### `tools/leviathan`
+- Fetch news from Leviathan News API
+- Get redirect url for each news
+- **Fetch news content from each news**
 
-## How It Works
+### Tracability
+- Langfuse for tracing the pipeline
 
-1. **News Fetching**: Pulls top headlines from Leviathan News API
-2. **AI Processing**: Sends headlines to Perplexity AI with a specialized prompt
-3. **Digest Generation**: Creates an engaging newsletter-style digest
-4. **Ghost Publishing**: Automatically publishes the digest to your Ghost site
 
-## API Keys Required
-
-- **Perplexity API**: Get your key from [perplexity.ai](https://perplexity.ai)
-- **Ghost Admin API**: Generate from your Ghost admin panel
-
-## Development
-
-The command includes test data for development. Use `--test --dry-run` to see the digest generation without API calls or publishing.
+### LLM Providers
+OpenAI, Claude, Perplexity can be switched easily

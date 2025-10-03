@@ -1,3 +1,3 @@
-from leviathan import LeviathanNewsFetcher
+from .leviathan import LeviathanNewsFetcher
 
 __all__ = ["LeviathanNewsFetcher"]

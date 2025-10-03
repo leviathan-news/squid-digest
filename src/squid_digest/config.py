@@ -1,5 +1,6 @@
 import os
 from typing import Dict, Any
+from pathlib import Path
 
 # Base LLM configuration
 LLM_CHAT_PROVIDER = os.getenv("LLM_CHAT_PROVIDER", "openai")
@@ -11,6 +12,9 @@ OPENAI_CHAT_MODEL = {
     "TEMPERATURE": float(os.getenv("OPENAI_TEMPERATURE", 0.7)),
     "MAX_TOKENS": int(os.getenv("OPENAI_MAX_TOKENS", 1000)),
 }
+
+WRITEUP_DIR = Path("writeup")
+WRITEUP_DIR.mkdir(exist_ok=True)
 
 
 # Unified LLM configuration based on provider
