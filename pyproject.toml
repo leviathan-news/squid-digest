@@ -11,11 +11,8 @@ dependencies = [
     "pytest>=8.4.2",
 ]
 
-[project.scripts]
-digest-news = "digest.cli:main"
-
 [tool.uv.sources]
-digest = { path = "./src/digest" }
+squid_digest = { path = "./src/squid_digest" }
 
 [tool.uv]
 package = true

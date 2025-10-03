@@ -1,0 +1,2 @@
+from squid_digest.context.prompts.template import SYSTEM_MESSAGE
+from langchain_core.prompts import SystemMessagePromptTemplate

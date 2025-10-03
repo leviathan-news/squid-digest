@@ -1,9 +1,10 @@
 """Client for Leviathan News API."""
+
 import httpx
 from typing import List, Dict, Any
 
 
-class LeviathanNewsClient:
+class LeviathanNewsFetcher:
     """Fetches news from Leviathan News API."""
 
     BASE_URL = "https://api.leviathannews.xyz/api/v1/news/"
@@ -24,11 +25,7 @@ class LeviathanNewsClient:
         Raises:
             httpx.HTTPStatusError: If API request fails
         """
-        params = {
-            "limit": limit,
-            "sort_type": "hot",
-            "sort_timeframe": 1
-        }
+        params = {"sort_type": "hot", "sort_timeframe": 1}
 
         with httpx.Client(timeout=self.timeout) as client:
             response = client.get(self.BASE_URL, params=params)
@@ -37,5 +34,5 @@ class LeviathanNewsClient:
 
         # Handle different response formats
         if isinstance(data, list):
-            return data
-        return data.get("results") or data.get("items") or []
+            return data[:limit]
+        return data.get("results")[:limit] or data.get("items")[:limit] or []
