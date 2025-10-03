@@ -32,19 +32,11 @@ cp .env.example .env
 
 ### Run digest pipeline
 
-- Fetch all news contents, bundle all to one writeup
+- Fetch (5) news contents, bundle all to one writeup
 ```bash
-python scripts/digest.py --fetch-news --bundle-writeup
-# or simply as fetch-news and bundle-writeup are defaulted
 python scripts/digest.py
 ```
 
-- Fetch all news contents, save writeup for each news content
-```bash
-python scripts/digest.py --fetch-news --each-news
-# or
-uv run scripts/digest.py --fetch-news --each-news
-```
 
 
 ## Architecture
