@@ -99,16 +99,23 @@ class PerplexityLangChainModel(BaseChatModel):
 
         # Convert LangChain messages to Perplexity format
         api_messages = []
+        user_content = ""
+        
         for message in messages:
             if hasattr(message, 'content'):
                 role = "system" if message.__class__.__name__ == "SystemMessage" else "user"
                 api_messages.append({"role": role, "content": message.content})
+                if role == "user":
+                    user_content = message.content
         
         # Ensure last message is from user (Perplexity requirement)
         if api_messages and api_messages[-1]["role"] == "system":
             # Move system message to beginning and add a user message
             system_msg = api_messages[-1]
-            api_messages = [system_msg] + [{"role": "user", "content": "Please analyze the provided content."}]
+            # If no user content found, use a default prompt
+            if not user_content:
+                user_content = "Please analyze the provided crypto headlines and provide market insights."
+            api_messages = [system_msg] + [{"role": "user", "content": user_content}]
 
         payload = {
             "model": self.model,
@@ -139,16 +146,23 @@ class PerplexityLangChainModel(BaseChatModel):
 
         # Convert LangChain messages to Perplexity format
         api_messages = []
+        user_content = ""
+        
         for message in messages:
             if hasattr(message, 'content'):
                 role = "system" if message.__class__.__name__ == "SystemMessage" else "user"
                 api_messages.append({"role": role, "content": message.content})
+                if role == "user":
+                    user_content = message.content
         
         # Ensure last message is from user (Perplexity requirement)
         if api_messages and api_messages[-1]["role"] == "system":
             # Move system message to beginning and add a user message
             system_msg = api_messages[-1]
-            api_messages = [system_msg] + [{"role": "user", "content": "Please analyze the provided content."}]
+            # If no user content found, use a default prompt
+            if not user_content:
+                user_content = "Please analyze the provided crypto headlines and provide market insights."
+            api_messages = [system_msg] + [{"role": "user", "content": user_content}]
 
         payload = {
             "model": self.model,
