@@ -1,13 +1,13 @@
 """Classes for LLM chat providers."""
 
-# import httpx
+import httpx
 import os
 from abc import ABC, abstractmethod
 from typing import Optional, List
 from langchain_core.language_models import BaseChatModel
 from langchain_openai import ChatOpenAI
 
-from squid_digest.config import OPENAI_CHAT_MODEL
+from squid_digest.config import OPENAI_CHAT_MODEL, PERPLEXITY_CHAT_MODEL
 
 
 class LLMChatProvider(ABC):
@@ -49,58 +49,123 @@ class OpenAIChatProvider(LLMChatProvider):
         )
 
 
-# class PerplexityProvider:
-#     """Generates AI content using Perplexity API."""
+class PerplexityChatProvider(LLMChatProvider):
+    """Perplexity LLM chat provider."""
 
-#     API_URL = "https://api.perplexity.ai/chat/completions"
-#     DEFAULT_MODEL = "sonar"
+    def __init__(self, api_key: Optional[str] = None, model: Optional[str] = None):
+        super().__init__(api_key, model)
+        self.api_key = api_key or PERPLEXITY_CHAT_MODEL["API_KEY"]
 
-#     def __init__(self, api_key: str, timeout: int = 60):
-#         self.api_key = api_key
-#         self.timeout = timeout
+        if not self.api_key:
+            raise ValueError("PERPLEXITY_API_KEY environment variable is required")
 
-#     def generate_completion(
-#         self,
-#         prompt: str,
-#         system_message: str = "You are a helpful assistant.",
-#         temperature: float = 0.7,
-#         max_tokens: int = 1000,
-#     ) -> str:
-#         """
-#         Generate AI completion from Perplexity.
+    def get_default_model(self) -> str:
+        """Get default Perplexity model."""
+        return PERPLEXITY_CHAT_MODEL["MODEL"]
 
-#         Args:
-#             prompt: User prompt to send
-#             system_message: System message for context
-#             temperature: Sampling temperature (0-1)
-#             max_tokens: Maximum tokens in response
+    def get_model(self, **kwargs) -> BaseChatModel:
+        """Get Perplexity chat model instance."""
+        # For now, we'll use a simple HTTP-based implementation
+        # In the future, this could be replaced with a proper LangChain integration
+        return PerplexityLangChainModel(
+            model=self.model or self.get_default_model(),
+            api_key=self.api_key,
+            **kwargs
+        )
 
-#         Returns:
-#             Generated text content
 
-#         Raises:
-#             httpx.HTTPStatusError: If API request fails
-#             KeyError: If response format is unexpected
-#         """
-#         headers = {
-#             "Authorization": f"Bearer {self.api_key}",
-#             "Content-Type": "application/json",
-#         }
+class PerplexityLangChainModel(BaseChatModel):
+    """Custom LangChain model for Perplexity API."""
+    
+    API_URL: str = "https://api.perplexity.ai/chat/completions"
+    model: str
+    api_key: str
+    temperature: float = 0.7
+    max_tokens: int = 1000
+    
+    def __init__(self, model: str, api_key: str, temperature: float = 0.7, max_tokens: int = 1000, **kwargs):
+        super().__init__(model=model, api_key=api_key, temperature=temperature, max_tokens=max_tokens, **kwargs)
 
-#         payload = {
-#             "model": self.DEFAULT_MODEL,
-#             "messages": [
-#                 {"role": "system", "content": system_message},
-#                 {"role": "user", "content": prompt},
-#             ],
-#             "stream": False,
-#             "temperature": temperature,
-#             "max_tokens": max_tokens,
-#         }
+    @property
+    def _llm_type(self) -> str:
+        return "perplexity"
 
-#         with httpx.Client(timeout=self.timeout) as client:
-#             response = client.post(self.API_URL, headers=headers, json=payload)
-#             response.raise_for_status()
-#             data = response.json()
+    def _generate(self, messages, stop=None, run_manager=None, **kwargs):
+        """Generate response from Perplexity API."""
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
 
-#         return data["choices"][0]["message"]["content"]
+        # Convert LangChain messages to Perplexity format
+        api_messages = []
+        for message in messages:
+            if hasattr(message, 'content'):
+                role = "system" if message.__class__.__name__ == "SystemMessage" else "user"
+                api_messages.append({"role": role, "content": message.content})
+        
+        # Ensure last message is from user (Perplexity requirement)
+        if api_messages and api_messages[-1]["role"] == "system":
+            # Move system message to beginning and add a user message
+            system_msg = api_messages[-1]
+            api_messages = [system_msg] + [{"role": "user", "content": "Please analyze the provided content."}]
+
+        payload = {
+            "model": self.model,
+            "messages": api_messages,
+            "stream": False,
+            "temperature": self.temperature,
+            "max_tokens": self.max_tokens,
+        }
+
+        with httpx.Client(timeout=60) as client:
+            response = client.post(self.API_URL, headers=headers, json=payload)
+            response.raise_for_status()
+            data = response.json()
+
+        content = data["choices"][0]["message"]["content"]
+        
+        # Return in LangChain format
+        from langchain_core.messages import AIMessage
+        from langchain_core.outputs import ChatGeneration, ChatResult
+        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=content))])
+
+    async def _agenerate(self, messages, stop=None, run_manager=None, **kwargs):
+        """Async generate response from Perplexity API."""
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+
+        # Convert LangChain messages to Perplexity format
+        api_messages = []
+        for message in messages:
+            if hasattr(message, 'content'):
+                role = "system" if message.__class__.__name__ == "SystemMessage" else "user"
+                api_messages.append({"role": role, "content": message.content})
+        
+        # Ensure last message is from user (Perplexity requirement)
+        if api_messages and api_messages[-1]["role"] == "system":
+            # Move system message to beginning and add a user message
+            system_msg = api_messages[-1]
+            api_messages = [system_msg] + [{"role": "user", "content": "Please analyze the provided content."}]
+
+        payload = {
+            "model": self.model,
+            "messages": api_messages,
+            "stream": False,
+            "temperature": self.temperature,
+            "max_tokens": self.max_tokens,
+        }
+
+        async with httpx.AsyncClient(timeout=60) as client:
+            response = await client.post(self.API_URL, headers=headers, json=payload)
+            response.raise_for_status()
+            data = response.json()
+
+        content = data["choices"][0]["message"]["content"]
+        
+        # Return in LangChain format
+        from langchain_core.messages import AIMessage
+        from langchain_core.outputs import ChatGeneration, ChatResult
+        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=content))])

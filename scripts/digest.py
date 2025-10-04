@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from squid_digest.tools.leviathan import LeviathanNewsFetcher
 from squid_digest.core.digest_engine import DigestEngine
-from squid_digest.llm import OpenAIChatProvider
+from squid_digest.llm import PerplexityChatProvider
 from squid_digest.config import WRITEUP_DIR
 import logging
 
@@ -35,7 +35,7 @@ async def each_news_content(limit=5):
     """
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
-        llm_chat_provider=OpenAIChatProvider(),
+        llm_chat_provider=PerplexityChatProvider(),
     )
     with open(".data/leviathan_news_content.json", "r") as f:
         news_content = json.load(f)
@@ -51,7 +51,7 @@ async def each_news_content(limit=5):
 async def bundle_writeup():
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
-        llm_chat_provider=OpenAIChatProvider(),
+        llm_chat_provider=PerplexityChatProvider(),
     )
     with open(".data/leviathan_news_content.json", "r") as f:
         news_content = json.load(f)
@@ -63,7 +63,7 @@ async def bundle_writeup():
         f.write(response_content)
 
 
-async def main(fetch=False, limit=5, each_news=False, bundle=True):
+async def main(fetch=True, limit=5, each_news=False, bundle=True):
     if fetch:
         logger.info("Fetching news from Leviathan News")
         fetch_news(limit)
@@ -76,4 +76,17 @@ async def main(fetch=False, limit=5, each_news=False, bundle=True):
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    parser = argparse.ArgumentParser(description="Generate AI-powered news digests from Leviathan News")
+    parser.add_argument("--limit", type=int, default=5, help="Number of news items to fetch (default: 5)")
+    parser.add_argument("--no-fetch", action="store_true", help="Skip fetching news (use cached data)")
+    parser.add_argument("--each-news", action="store_true", help="Generate writeup for each news item individually")
+    parser.add_argument("--no-bundle", action="store_true", help="Skip generating bundled writeup")
+    
+    args = parser.parse_args()
+    
+    # Convert argparse args to main() parameters
+    fetch = not args.no_fetch
+    each_news = args.each_news
+    bundle = not args.no_bundle
+    
+    asyncio.run(main(fetch=fetch, limit=args.limit, each_news=each_news, bundle=bundle))

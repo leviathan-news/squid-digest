@@ -3,7 +3,7 @@ from typing import Dict, Any
 from pathlib import Path
 
 # Base LLM configuration
-LLM_CHAT_PROVIDER = os.getenv("LLM_CHAT_PROVIDER", "openai")
+LLM_CHAT_PROVIDER = os.getenv("LLM_CHAT_PROVIDER", "perplexity")
 
 # Individual provider configurations
 OPENAI_CHAT_MODEL = {
@@ -11,6 +11,13 @@ OPENAI_CHAT_MODEL = {
     "MODEL": os.getenv("OPENAI_CHAT_MODEL", "gpt-4.1"),
     "TEMPERATURE": float(os.getenv("OPENAI_TEMPERATURE", 0.7)),
     "MAX_TOKENS": int(os.getenv("OPENAI_MAX_TOKENS", 1000)),
+}
+
+PERPLEXITY_CHAT_MODEL = {
+    "API_KEY": os.getenv("PERPLEXITY_API_KEY"),
+    "MODEL": os.getenv("PERPLEXITY_CHAT_MODEL", "sonar"),
+    "TEMPERATURE": float(os.getenv("PERPLEXITY_TEMPERATURE", 0.7)),
+    "MAX_TOKENS": int(os.getenv("PERPLEXITY_MAX_TOKENS", 1000)),
 }
 
 WRITEUP_DIR = Path("writeup")
@@ -25,7 +32,11 @@ def get_llm_config() -> Dict[str, Any]:
             "PROVIDER": "openai",
             "CHAT_MODEL": OPENAI_CHAT_MODEL,
         }
-
+    elif LLM_CHAT_PROVIDER == "perplexity":
+        return {
+            "PROVIDER": "perplexity",
+            "CHAT_MODEL": PERPLEXITY_CHAT_MODEL,
+        }
     else:
         raise ValueError(f"Unsupported LLM provider: {LLM_CHAT_PROVIDER}")
 

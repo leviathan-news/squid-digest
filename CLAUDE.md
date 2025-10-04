@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Squid Digest is a Django-based automation tool that generates AI-powered daily news digests. It fetches trending crypto/tech news from Leviathan News API, processes headlines through Perplexity AI to generate intelligent summaries, and publishes the digest to Ghost CMS.
+Squid Digest is a Django-based automation tool that generates AI-powered daily news digests. It fetches trending crypto/tech news from Leviathan News API, processes headlines through Perplexity AI (or OpenAI) to generate intelligent summaries, and publishes the digest to Ghost CMS.
 
 ## Python Environment
 
@@ -19,8 +19,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Configure environment (copy .env.example to .env and fill in API keys)
-cp .env.example .env
+# Configure environment (copy env.template to .env and fill in API keys)
+cp env.template .env
 ```
 
 ### Running the Digest Pipeline
@@ -90,7 +90,8 @@ digest/clients/                             ← API clients (data access layer)
 
 **3. Client Layer** ([digest/clients/](digest/clients/))
 - **LeviathanNewsClient** ([leviathan.py](digest/clients/leviathan.py)): Fetches news from https://api.leviathannews.xyz
-- **PerplexityClient** ([perplexity.py](digest/clients/perplexity.py)): Calls Perplexity AI API with "sonar" model
+- **PerplexityClient** ([perplexity.py](digest/clients/perplexity.py)): Calls Perplexity AI API with "sonar" model (default)
+- **OpenAIClient** ([openai.py](digest/clients/openai.py)): Alternative OpenAI API client
 - **GhostClient** ([ghost.py](digest/clients/ghost.py)): Publishes posts to Ghost CMS via Admin API
 
 ### Data Flow
@@ -108,7 +109,7 @@ User runs: python manage.py pull_news --limit 10
 
 3. DigestService.generate_digest(items)
    → formats items into prompt
-   → PerplexityClient.generate_completion(prompt)
+   → PerplexityClient.generate_completion(prompt) (or OpenAI if configured)
    → returns AI-generated digest text
 
 4. DigestService.publish_digest(content)
@@ -127,12 +128,15 @@ User runs: python manage.py pull_news --limit 10
 ### Configuration
 All configuration via environment variables in `.env`:
 - `DJANGO_SECRET_KEY`, `DJANGO_DEBUG`, `DJANGO_ALLOWED_HOSTS`, `TIME_ZONE` - Django settings
-- `PERPLEXITY_API_KEY` - Perplexity AI authentication
+- `PERPLEXITY_API_KEY` - Perplexity AI authentication (default)
+- `OPENAI_API_KEY` - OpenAI authentication (optional)
+- `LLM_CHAT_PROVIDER` - LLM provider selection (perplexity/openai)
 - `GHOST_URL`, `GHOST_ADMIN_API_KEY` - Ghost CMS configuration
 
 ### External APIs
 - **Leviathan News**: Public API, no auth required, returns trending crypto/tech news
-- **Perplexity AI**: Requires API key, uses "sonar" model for completions
+- **Perplexity AI**: Requires API key, uses "sonar" model for completions (default)
+- **OpenAI**: Requires API key, uses GPT models for completions (optional)
 - **Ghost Admin API**: Requires URL and Admin API key for post creation
 
 ## Development Patterns

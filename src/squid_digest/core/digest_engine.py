@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 from langfuse.langchain import CallbackHandler
 from squid_digest.tools import LeviathanNewsFetcher
-from squid_digest.llm import OpenAIChatProvider, LLMChatProvider
+from squid_digest.llm import OpenAIChatProvider, PerplexityChatProvider, LLMChatProvider
 from squid_digest.context.prompts.template import SYSTEM_MESSAGE
 
 load_dotenv()

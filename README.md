@@ -5,7 +5,7 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## Features
 
 - 🔥 Fetches crypto/tech news from Leviathan News API 
-- 🤖 Generates intelligent digests using OpenAI / Claude / Perplexity AI
+- 🤖 Generates intelligent digests using Perplexity AI (with OpenAI/Claude support)
 - 📝 Save writeup for each news content or bundle all news content
 - 📧 Publishes digest directly to Ghost CMS
 
@@ -25,8 +25,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Configure environment
-cp .env.example .env
-# Edit .env with your API keys
+cp env.template .env
+# Edit .env with your API keys (PERPLEXITY_API_KEY is required)
 ```
 
 
@@ -65,4 +65,4 @@ squid_digest/
 
 
 ### LLM Providers
-OpenAI, Claude, Perplexity can be switched easily
+Perplexity AI (default), OpenAI, and Claude can be switched easily via `LLM_CHAT_PROVIDER` environment variable
