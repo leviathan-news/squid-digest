@@ -43,17 +43,18 @@ class DigestEngine:
         self.llm_chat_provider = llm_chat_provider
         # self.ghost = ghost_client
 
-    async def generate_writeup(self, text):
+    async def generate_writeup(self, headlines: str, token_list: str = ""):
         """
-        Generate digest content using llm provider.
+        Generate trading signals using llm provider.
 
         Args:
-            news_items: List of news items with headline, source, etc.
+            headlines: Formatted string of news headlines with URLs
+            token_list: Formatted string of tracked tokens
 
         Returns:
-            Generated digest content, save to markdown file, in this repo
+            Generated trading signals content
         """
-        prompt = SYSTEM_MESSAGE.format(headlines=text)
+        prompt = SYSTEM_MESSAGE.format(headlines=headlines, token_list=token_list)
 
         # Create a simple chain with the formatted prompt
         prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])

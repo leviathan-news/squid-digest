@@ -70,6 +70,7 @@ class LeviathanNewsFetcher:
     """Fetches news from Leviathan News API."""
 
     BASE_URL = "https://api.leviathannews.xyz/api/v1/news/"
+    TOKEN_URL = "https://api.leviathannews.xyz/api/v1/token/"
     SAVE_DIR = Path(".data")
     SAVE_DIR.mkdir(exist_ok=True)
 
@@ -78,7 +79,7 @@ class LeviathanNewsFetcher:
 
     def fetch_news(self, limit: int = 10, save: bool = True) -> List[Dict[str, Any]]:
         """
-        Fetch top news items sorted by hot/trending.
+        Fetch top news items sorted by top/trending.
 
         Args:
             limit: Number of news items to fetch
@@ -89,7 +90,7 @@ class LeviathanNewsFetcher:
         Raises:
             requests.HTTPError: If API request fails
         """
-        params = {"sort_type": "hot", "sort_timeframe": 1}
+        params = {"sort_type": "top", "sort_timeframe": 1}
 
         response = requests.get(self.BASE_URL, params=params, timeout=self.timeout)
         response.raise_for_status()
@@ -159,3 +160,46 @@ class LeviathanNewsFetcher:
             with open(self.SAVE_DIR / "leviathan_news_content.json", "w") as f:
                 json.dump(news_with_content, f)
         return news_with_content
+
+    def fetch_tokens(self, save: bool = True) -> Dict[str, Any]:
+        """
+        Fetch all tracked tokens from Leviathan News API.
+        
+        Returns:
+            Dictionary with token metadata including:
+            - count: total number of tokens
+            - total_pages: number of pages available
+            - results: list of token data
+        
+        Raises:
+            requests.HTTPError: If API request fails
+        """
+        all_tokens = []
+        page = 1
+        
+        # Fetch first page to get total_pages
+        response = requests.get(self.TOKEN_URL, params={"page": page}, timeout=self.timeout)
+        response.raise_for_status()
+        data = response.json()
+        
+        total_pages = data.get("total_pages", 1)
+        all_tokens.extend(data.get("results", []))
+        
+        # Fetch remaining pages
+        for page in range(2, total_pages + 1):
+            response = requests.get(self.TOKEN_URL, params={"page": page}, timeout=self.timeout)
+            response.raise_for_status()
+            data = response.json()
+            all_tokens.extend(data.get("results", []))
+        
+        token_data = {
+            "count": data.get("count", len(all_tokens)),
+            "total_pages": total_pages,
+            "tokens": all_tokens
+        }
+        
+        if save:
+            with open(self.SAVE_DIR / "leviathan_tokens.json", "w") as f:
+                json.dump(token_data, f)
+        
+        return token_data
