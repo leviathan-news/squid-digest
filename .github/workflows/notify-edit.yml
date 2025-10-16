@@ -1,0 +1,84 @@
+name: Notify on Digest Edit
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'writeup/*.md' ]
+
+jobs:
+  notify-edit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2  # Need previous commit to detect changes
+    
+    - name: Check if edit is in review window
+      id: check_window
+      run: |
+        # Check if current time is between 5 AM and 6 AM PT (13:00-14:00 UTC)
+        CURRENT_HOUR=$(date -u +%H)
+        if [ "$CURRENT_HOUR" -ge 13 ] && [ "$CURRENT_HOUR" -lt 14 ]; then
+          echo "in_window=true" >> $GITHUB_OUTPUT
+          echo "Edit detected within review window (5-6 AM PT)"
+        else
+          echo "in_window=false" >> $GITHUB_OUTPUT
+          echo "Edit detected outside review window - skipping notification"
+        fi
+    
+    - name: Set up Python
+      if: steps.check_window.outputs.in_window == 'true'
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      if: steps.check_window.outputs.in_window == 'true'
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      if: steps.check_window.outputs.in_window == 'true'
+      run: |
+        uv sync
+        uv pip install -e .
+    
+    - name: Detect changes and notify
+      if: steps.check_window.outputs.in_window == 'true'
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
+      run: |
+        # Get list of modified files
+        MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^writeup/.*\.md$' || true)
+        
+        if [ -z "$MODIFIED_FILES" ]; then
+          echo "No markdown files in writeup/ were modified"
+          exit 0
+        fi
+        
+        echo "Modified files: $MODIFIED_FILES"
+        
+        # Send notification for each modified file
+        for file in $MODIFIED_FILES; do
+          if [ -f "$file" ]; then
+            # Create GitHub URL
+            GITHUB_URL="https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/$file"
+            
+            # Generate changes summary
+            CHANGES_SUMMARY=$(git diff HEAD~1 HEAD -- "$file" | head -20)
+            
+            echo "Sending edit notification for: $file"
+            echo "GitHub URL: $GITHUB_URL"
+            
+            python scripts/send_email.py \
+              --type edit \
+              --digest-file "$file" \
+              --github-url "$GITHUB_URL" \
+              --changes-summary "$CHANGES_SUMMARY"
+          fi
+        done

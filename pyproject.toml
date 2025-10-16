@@ -16,6 +16,7 @@ dependencies = [
     "trafilatura>=2.0.0",
     "langchain-community>=0.3.30",
     "langfuse>=3.6.1",
+    "markdown2>=2.4.0",
 ]
 
 [tool.uv.sources]

@@ -1,0 +1,79 @@
+name: Generate Daily Digest Draft
+
+on:
+  schedule:
+    # Run at 5 AM PT (13:00 UTC - works for PDT, close enough for PST)
+    - cron: '0 13 * * *'
+  workflow_dispatch:  # Allow manual triggering for testing
+
+jobs:
+  generate-draft:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        uv sync
+        uv pip install -e .
+    
+    - name: Generate digest
+      env:
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
+        PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'ghall1@gmail.com,curvedefi@gmail.com' }}
+      run: |
+        python scripts/digest.py --verbose
+    
+    - name: Commit and push digest
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are any changes to commit
+        if git diff --quiet; then
+          echo "No changes to commit"
+        else
+          git add writeup/
+          git commit -m "🤖 Auto-generated daily digest draft - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
+    
+    - name: Send admin notification
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
+      run: |
+        # Find the most recent digest file
+        DIGEST_FILE=$(ls -t writeup/trading_signals_*.md | head -n1)
+        if [ -z "$DIGEST_FILE" ]; then
+          echo "No digest file found"
+          exit 1
+        fi
+        
+        # Create GitHub URL
+        GITHUB_URL="https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/$DIGEST_FILE"
+        
+        echo "Sending admin notification for: $DIGEST_FILE"
+        echo "GitHub URL: $GITHUB_URL"
+        
+        python scripts/send_email.py \
+          --type admin \
+          --digest-file "$DIGEST_FILE" \
+          --github-url "$GITHUB_URL"

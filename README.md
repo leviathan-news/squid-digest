@@ -7,7 +7,9 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 - 🔥 Fetches crypto/tech news from Leviathan News API 
 - 🤖 Generates intelligent digests using Perplexity AI (with OpenAI/Claude support)
 - 📝 Save writeup for each news content or bundle all news content
-- 📧 Publishes digest directly to Ghost CMS
+- 📧 Automated email delivery via Ghost CMS with GitHub Actions
+- ⏰ Scheduled daily digest generation (5 AM PT draft, 6 AM PT send)
+- ✏️ Admin review workflow with edit notifications
 
 ## Quickstart
 
@@ -26,7 +28,7 @@ pip install -r requirements.txt
 
 # Configure environment
 cp env.template .env
-# Edit .env with your API keys (PERPLEXITY_API_KEY is required)
+# Edit .env with your API keys (PERPLEXITY_API_KEY and GHOST_ADMIN_API_KEY are required)
 ```
 
 
@@ -35,6 +37,41 @@ cp env.template .env
 - Fetch (5) news contents, bundle all to one writeup
 ```bash
 python scripts/digest.py
+```
+
+### Email Automation Setup
+
+The project includes automated email delivery via GitHub Actions and Ghost CMS:
+
+#### 1. Ghost CMS Setup
+1. Ensure your Ghost site is set up and accessible
+2. Generate an Admin API key in Ghost dashboard (Settings → Integrations → Add custom integration)
+3. Add `GHOST_URL` and `GHOST_ADMIN_API_KEY` to your `.env` file
+
+#### 2. GitHub Secrets Configuration
+Configure these secrets in your GitHub repository settings:
+- `GHOST_URL`: Your Ghost site URL
+- `GHOST_ADMIN_API_KEY`: Your Ghost Admin API key
+- `PERPLEXITY_API_KEY`: Your Perplexity API key
+- `ADMIN_EMAILS`: Comma-separated admin emails (optional, defaults to ghall1@gmail.com)
+- `PUBLIC_EMAILS`: Comma-separated public recipient emails (optional, defaults to ghall1@gmail.com,curvedefi@gmail.com)
+
+#### 3. Automated Schedule
+- **5:00 AM PT**: Generates daily digest draft and emails admins for review
+- **6:00 AM PT**: Sends digest to public email list
+- **Edit Detection**: If admins edit the draft between 5-6 AM PT, all admins are notified
+
+#### 4. Manual Email Testing
+Test email functionality locally:
+```bash
+# Test admin notification
+python scripts/send_email.py --type admin --digest-file writeup/trading_signals_2025-01-15.md --github-url https://github.com/user/repo/blob/main/writeup/file.md
+
+# Test public digest
+python scripts/send_email.py --type public --digest-file writeup/trading_signals_2025-01-15.md
+
+# Dry run (no actual email sent)
+python scripts/send_email.py --type admin --digest-file writeup/trading_signals_2025-01-15.md --github-url https://github.com/user/repo/blob/main/writeup/file.md --dry-run
 ```
 
 

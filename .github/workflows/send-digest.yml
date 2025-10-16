@@ -1,0 +1,49 @@
+name: Send Daily Digest
+
+on:
+  schedule:
+    # Run at 6 AM PT (14:00 UTC)
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # Allow manual triggering for testing
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        uv sync
+        uv pip install -e .
+    
+    - name: Send digest email
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'ghall1@gmail.com,curvedefi@gmail.com' }}
+      run: |
+        # Find the most recent digest file
+        DIGEST_FILE=$(ls -t writeup/trading_signals_*.md | head -n1)
+        if [ -z "$DIGEST_FILE" ]; then
+          echo "No digest file found"
+          exit 1
+        fi
+        
+        echo "Sending digest email for: $DIGEST_FILE"
+        
+        python scripts/send_email.py \
+          --type public \
+          --digest-file "$DIGEST_FILE"
