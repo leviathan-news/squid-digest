@@ -15,7 +15,7 @@ OPENAI_CHAT_MODEL = {
 
 PERPLEXITY_CHAT_MODEL = {
     "API_KEY": os.getenv("PERPLEXITY_API_KEY"),
-    "MODEL": os.getenv("PERPLEXITY_CHAT_MODEL", "sonar"),
+    "MODEL": os.getenv("PERPLEXITY_CHAT_MODEL", "sonar-reasoning-pro"),
     "TEMPERATURE": float(os.getenv("PERPLEXITY_TEMPERATURE", 0.7)),
     "MAX_TOKENS": int(os.getenv("PERPLEXITY_MAX_TOKENS", 1000)),
 }
