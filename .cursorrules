@@ -1,0 +1,34 @@
+# Cursor Rules for Squid Digest Project
+
+## Project Setup
+- This project uses `uv` for package management (not pip)
+- Always use `uv sync` for initial setup, not `pip install -r requirements.txt`
+- The project uses `src/` layout - package must be installed with `uv pip install -e .` to be importable
+- Always activate virtual environment before running commands: `source venv/bin/activate`
+
+## Code Style
+- Use type annotations for all class attributes (especially for Pydantic models)
+- Class variables should be annotated with `ClassVar` or proper type hints
+- Follow existing patterns in the codebase
+
+## LLM Provider Pattern
+- The project supports multiple LLM providers (Perplexity, OpenAI)
+- Default provider is Perplexity (set via `LLM_CHAT_PROVIDER=perplexity`)
+- Provider implementations should follow the `LLMChatProvider` abstract base class
+- Use simple httpx calls for API integration, not complex LangChain wrappers unless necessary
+
+## Environment Configuration
+- Primary API key: `PERPLEXITY_API_KEY` (required)
+- Optional: `OPENAI_API_KEY` for OpenAI provider
+- Provider selection: `LLM_CHAT_PROVIDER` (perplexity/openai)
+- Ghost CMS: `GHOST_URL` and `GHOST_ADMIN_API_KEY`
+
+## Testing
+- Always test with `python scripts/digest.py` after making changes
+- Check for proper error messages (should ask for PERPLEXITY_API_KEY, not OPENAI_API_KEY)
+- Use `--dry-run` flag for testing without publishing
+
+## Documentation Updates
+- When changing default providers, update README.md, USAGE.md, and CLAUDE.md
+- Keep env.template up to date with required vs optional variables
+- Update cost estimates and troubleshooting sections
