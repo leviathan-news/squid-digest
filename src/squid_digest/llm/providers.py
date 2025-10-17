@@ -2,8 +2,11 @@
 
 import httpx
 import os
+import re
 from abc import ABC, abstractmethod
 from typing import Optional, List
+from datetime import datetime
+from pathlib import Path
 from langchain_core.language_models import BaseChatModel
 from langchain_openai import ChatOpenAI
 
@@ -63,13 +66,14 @@ class PerplexityChatProvider(LLMChatProvider):
         """Get default Perplexity model."""
         return PERPLEXITY_CHAT_MODEL["MODEL"]
 
-    def get_model(self, **kwargs) -> BaseChatModel:
+    def get_model(self, prompt_type: str = "signals", **kwargs) -> BaseChatModel:
         """Get Perplexity chat model instance."""
         # For now, we'll use a simple HTTP-based implementation
         # In the future, this could be replaced with a proper LangChain integration
         return PerplexityLangChainModel(
             model=self.model or self.get_default_model(),
             api_key=self.api_key,
+            prompt_type=prompt_type,
             **kwargs
         )
 
@@ -82,9 +86,59 @@ class PerplexityLangChainModel(BaseChatModel):
     api_key: str
     temperature: float = 0.7
     max_tokens: int = 1000
+    prompt_type: str = "signals"
     
-    def __init__(self, model: str, api_key: str, temperature: float = 0.7, max_tokens: int = 1000, **kwargs):
-        super().__init__(model=model, api_key=api_key, temperature=temperature, max_tokens=max_tokens, **kwargs)
+    def __init__(self, model: str, api_key: str, temperature: float = 0.7, max_tokens: int = 1000, prompt_type: str = "signals", **kwargs):
+        super().__init__(model=model, api_key=api_key, temperature=temperature, max_tokens=max_tokens, prompt_type=prompt_type, **kwargs)
+    
+    def _extract_and_log_thinking(self, content: str, prompt_type: str = None) -> str:
+        """
+        Extract thinking content from <think> tags and save to log file.
+        Returns cleaned content without thinking tags.
+        """
+        # Use instance prompt type if not provided
+        if prompt_type is None:
+            prompt_type = self.prompt_type
+        
+        # Create thinking logs directory
+        thinking_logs_dir = Path("writeup/thinking_logs")
+        thinking_logs_dir.mkdir(exist_ok=True)
+        
+        # Generate log filename
+        today = datetime.now().strftime("%Y-%m-%d")
+        log_filename = thinking_logs_dir / f"{prompt_type}_{today}_thinking.log"
+        
+        # Extract thinking content using regex
+        # Pattern 1: <think>...</think> (closed tags)
+        closed_pattern = r'<think>(.*?)</think>'
+        closed_matches = re.findall(closed_pattern, content, re.DOTALL)
+        
+        # Pattern 2: <think>... (unclosed tag - everything after <think>)
+        unclosed_pattern = r'<think>(.*)$'
+        unclosed_match = re.search(unclosed_pattern, content, re.DOTALL)
+        
+        thinking_content = ""
+        cleaned_content = content
+        
+        if closed_matches:
+            # Handle closed tags
+            thinking_content = "\n\n".join(closed_matches)
+            cleaned_content = re.sub(closed_pattern, '', content, flags=re.DOTALL)
+        elif unclosed_match:
+            # Handle unclosed tag
+            thinking_content = unclosed_match.group(1)
+            cleaned_content = re.sub(unclosed_pattern, '', content, flags=re.DOTALL)
+        
+        # Save thinking content to log file if any was found
+        if thinking_content.strip():
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            log_entry = f"\n{'='*60}\n[{timestamp}] Thinking Log for {prompt_type}\n{'='*60}\n{thinking_content.strip()}\n"
+            
+            with open(log_filename, "a", encoding="utf-8") as f:
+                f.write(log_entry)
+        
+        # Clean up any remaining whitespace and return
+        return cleaned_content.strip()
 
     @property
     def _llm_type(self) -> str:
@@ -132,10 +186,13 @@ class PerplexityLangChainModel(BaseChatModel):
 
         content = data["choices"][0]["message"]["content"]
         
+        # Extract and log thinking content, return cleaned content
+        cleaned_content = self._extract_and_log_thinking(content)
+        
         # Return in LangChain format
         from langchain_core.messages import AIMessage
         from langchain_core.outputs import ChatGeneration, ChatResult
-        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=content))])
+        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=cleaned_content))])
 
     async def _agenerate(self, messages, stop=None, run_manager=None, **kwargs):
         """Async generate response from Perplexity API."""
@@ -179,7 +236,10 @@ class PerplexityLangChainModel(BaseChatModel):
 
         content = data["choices"][0]["message"]["content"]
         
+        # Extract and log thinking content, return cleaned content
+        cleaned_content = self._extract_and_log_thinking(content)
+        
         # Return in LangChain format
         from langchain_core.messages import AIMessage
         from langchain_core.outputs import ChatGeneration, ChatResult
-        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=content))])
+        return ChatResult(generations=[ChatGeneration(message=AIMessage(content=cleaned_content))])

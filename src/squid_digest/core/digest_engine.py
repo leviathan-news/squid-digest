@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 from langfuse.langchain import CallbackHandler
 from squid_digest.tools import LeviathanNewsFetcher
 from squid_digest.llm import OpenAIChatProvider, PerplexityChatProvider, LLMChatProvider
-from squid_digest.context.prompts.template import SYSTEM_MESSAGE
+from squid_digest.context.prompts.template import SYSTEM_MESSAGE, ACTIVE_PROMPT
 
 load_dotenv()
 
@@ -43,6 +43,30 @@ class DigestEngine:
         self.llm_chat_provider = llm_chat_provider
         # self.ghost = ghost_client
 
+    async def generate_writeup_with_prompt(self, headlines: str, token_list: str = "", system_message: str = None, prompt_type: str = "signals"):
+        """
+        Generate trading signals using custom system message and prompt type.
+
+        Args:
+            headlines: Formatted string of news headlines with URLs
+            token_list: Formatted string of tracked tokens
+            system_message: Custom system message to use
+            prompt_type: Type of prompt for thinking logs
+
+        Returns:
+            Generated trading signals content
+        """
+        if system_message is None:
+            system_message = SYSTEM_MESSAGE
+        
+        prompt = system_message.format(headlines=headlines, token_list=token_list)
+
+        # Create a simple chain with the formatted prompt
+        prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
+        chain = prompt_template | self.llm_chat_provider.get_model(prompt_type=prompt_type)
+        response = await chain.ainvoke({}, callbacks=[langfuse_handler])
+        return response.content
+
     async def generate_writeup(self, headlines: str, token_list: str = ""):
         """
         Generate trading signals using llm provider.
@@ -58,7 +82,7 @@ class DigestEngine:
 
         # Create a simple chain with the formatted prompt
         prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
-        chain = prompt_template | self.llm_chat_provider.get_model()
+        chain = prompt_template | self.llm_chat_provider.get_model(prompt_type=ACTIVE_PROMPT)
         response = await chain.ainvoke({}, callbacks=[langfuse_handler])
         return response.content
 
