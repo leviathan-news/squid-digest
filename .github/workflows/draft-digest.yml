@@ -60,8 +60,8 @@ jobs:
         GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
         ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
       run: |
-        # Find the most recent digest file
-        DIGEST_FILE=$(ls -t writeup/trading_signals_*.md | head -n1)
+        # Find the most recent digest file (prefer digest over signals)
+        DIGEST_FILE=$(ls -t writeup/digest_*.md writeup/signals_*.md writeup/trading_signals_*.md 2>/dev/null | head -n1)
         if [ -z "$DIGEST_FILE" ]; then
           echo "No digest file found"
           exit 1
