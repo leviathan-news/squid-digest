@@ -8,14 +8,18 @@ from langchain_core.prompts import (
 )
 from dotenv import load_dotenv
 
-from langfuse.langchain import CallbackHandler
 from squid_digest.tools import LeviathanNewsFetcher
 from squid_digest.llm import OpenAIChatProvider, PerplexityChatProvider, LLMChatProvider
 from squid_digest.context.prompts.template import SYSTEM_MESSAGE, ACTIVE_PROMPT
 
 load_dotenv()
 
-langfuse_handler = CallbackHandler()
+# Make langfuse optional
+try:
+    from langfuse.langchain import CallbackHandler
+    langfuse_handler = CallbackHandler()
+except ImportError:
+    langfuse_handler = None
 
 
 class DigestEngine:
@@ -64,7 +68,7 @@ class DigestEngine:
         # Create a simple chain with the formatted prompt
         prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
         chain = prompt_template | self.llm_chat_provider.get_model(prompt_type=prompt_type)
-        response = await chain.ainvoke({}, callbacks=[langfuse_handler])
+        response = await chain.ainvoke({}, callbacks=[langfuse_handler] if langfuse_handler else [])
         return response.content
 
     async def generate_writeup(self, headlines: str, token_list: str = ""):
@@ -83,7 +87,7 @@ class DigestEngine:
         # Create a simple chain with the formatted prompt
         prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
         chain = prompt_template | self.llm_chat_provider.get_model(prompt_type=ACTIVE_PROMPT)
-        response = await chain.ainvoke({}, callbacks=[langfuse_handler])
+        response = await chain.ainvoke({}, callbacks=[langfuse_handler] if langfuse_handler else [])
         return response.content
 
     def publish_writeup(self, digest_content: str) -> dict:
