@@ -110,19 +110,22 @@ jobs:
         # Create Ghost drafts with actual digest content for both versions
         echo "Creating Ghost drafts for admin review..."
         
-        # Find the most recent signals and digest files
-        SIGNALS_FILE=$(ls -t writeup/signals_*.md 2>/dev/null | head -n1)
-        DIGEST_FILE=$(ls -t writeup/digest_*.md 2>/dev/null | head -n1)
+        # Use today's date to find the specific files we just generated
+        TODAY=$(date -u '+%Y-%m-%d')
+        SIGNALS_FILE="writeup/signals_${TODAY}.md"
+        DIGEST_FILE="writeup/digest_${TODAY}.md"
         
-        if [ -z "$SIGNALS_FILE" ] || [ -z "$DIGEST_FILE" ]; then
-          echo "Error: Could not find both signals and digest files"
-          echo "Signals file: $SIGNALS_FILE"
-          echo "Digest file: $DIGEST_FILE"
-          exit 1
-        fi
-        
+        echo "Looking for today's files:"
         echo "Signals file: $SIGNALS_FILE"
         echo "Digest file: $DIGEST_FILE"
+        
+        # Check if today's files exist
+        if [ ! -f "$SIGNALS_FILE" ] || [ ! -f "$DIGEST_FILE" ]; then
+          echo "Error: Could not find today's files"
+          echo "Available files:"
+          ls -la writeup/*.md
+          exit 1
+        fi
         
         # Create Ghost drafts with actual content
         python -c "
