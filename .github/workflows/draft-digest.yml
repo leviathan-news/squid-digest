@@ -9,6 +9,9 @@ on:
 jobs:
   generate-draft:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing commits
+      pull-requests: read  # Allow reading PRs if needed
     
     steps:
     - name: Checkout repository

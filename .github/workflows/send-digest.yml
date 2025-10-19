@@ -9,6 +9,8 @@ on:
 jobs:
   send-digest:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read  # Allow reading repository contents
     
     steps:
     - name: Checkout repository
