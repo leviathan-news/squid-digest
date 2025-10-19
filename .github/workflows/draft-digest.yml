@@ -47,6 +47,34 @@ jobs:
         ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
         PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'ghall1@gmail.com,curvedefi@gmail.com' }}
       run: |
+        # Generate signals version
+        echo "Generating signals version..."
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from squid_digest.context.prompts.template import ACTIVE_PROMPT
+        # Set to signals
+        import squid_digest.context.prompts.template as template_module
+        template_module.ACTIVE_PROMPT = 'signals'
+        print('Set ACTIVE_PROMPT to signals')
+        "
+        python scripts/digest.py --verbose
+        if [ $? -ne 0 ]; then
+          echo "Signals generation failed with exit code $?"
+          exit 1
+        fi
+        
+        # Generate digest version  
+        echo "Generating digest version..."
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from squid_digest.context.prompts.template import ACTIVE_PROMPT
+        # Set to digest
+        import squid_digest.context.prompts.template as template_module
+        template_module.ACTIVE_PROMPT = 'digest'
+        print('Set ACTIVE_PROMPT to digest')
+        "
         python scripts/digest.py --verbose
         if [ $? -ne 0 ]; then
           echo "Digest generation failed with exit code $?"
@@ -79,20 +107,49 @@ jobs:
         GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
         ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'ghall1@gmail.com' }}
       run: |
-        # Find the most recent digest file (prefer digest over signals)
-        DIGEST_FILE=$(ls -t writeup/digest_*.md writeup/signals_*.md writeup/trading_signals_*.md 2>/dev/null | head -n1)
-        if [ -z "$DIGEST_FILE" ]; then
-          echo "No digest file found"
+        # Create Ghost drafts with actual digest content for both versions
+        echo "Creating Ghost drafts for admin review..."
+        
+        # Find the most recent signals and digest files
+        SIGNALS_FILE=$(ls -t writeup/signals_*.md 2>/dev/null | head -n1)
+        DIGEST_FILE=$(ls -t writeup/digest_*.md 2>/dev/null | head -n1)
+        
+        if [ -z "$SIGNALS_FILE" ] || [ -z "$DIGEST_FILE" ]; then
+          echo "Error: Could not find both signals and digest files"
+          echo "Signals file: $SIGNALS_FILE"
+          echo "Digest file: $DIGEST_FILE"
           exit 1
         fi
         
-        # Create GitHub URL
-        GITHUB_URL="https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/$DIGEST_FILE"
+        echo "Signals file: $SIGNALS_FILE"
+        echo "Digest file: $DIGEST_FILE"
         
-        echo "Sending admin notification for: $DIGEST_FILE"
-        echo "GitHub URL: $GITHUB_URL"
+        # Create Ghost drafts with actual content
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from squid_digest.email import GhostEmailClient
+        from pathlib import Path
         
-        python scripts/send_email.py \
-          --type admin \
-          --digest-file "$DIGEST_FILE" \
-          --github-url "$GITHUB_URL"
+        client = GhostEmailClient()
+        
+        # Create signals draft
+        signals_path = Path('$SIGNALS_FILE')
+        if signals_path.exists():
+            content = signals_path.read_text()
+            html_content = client.format_digest_html(content)
+            title = f'📊 Trading Signals Draft - {signals_path.stem.split(\"_\")[-1]}'
+            post = client.create_post(title, html_content, status='draft')
+            print(f'✓ Created signals draft: {post.get(\"id\", \"unknown\")}')
+        
+        # Create digest draft  
+        digest_path = Path('$DIGEST_FILE')
+        if digest_path.exists():
+            content = digest_path.read_text()
+            html_content = client.format_digest_html(content)
+            title = f'📰 Daily Digest Draft - {digest_path.stem.split(\"_\")[-1]}'
+            post = client.create_post(title, html_content, status='draft')
+            print(f'✓ Created digest draft: {post.get(\"id\", \"unknown\")}')
+        
+        print('✓ Both drafts created successfully for admin review')
+        "
