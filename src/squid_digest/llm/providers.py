@@ -179,7 +179,7 @@ class PerplexityLangChainModel(BaseChatModel):
             "max_tokens": self.max_tokens,
         }
 
-        with httpx.Client(timeout=60) as client:
+        with httpx.Client(timeout=120) as client:
             response = client.post(self.API_URL, headers=headers, json=payload)
             response.raise_for_status()
             data = response.json()
@@ -229,7 +229,7 @@ class PerplexityLangChainModel(BaseChatModel):
             "max_tokens": self.max_tokens,
         }
 
-        async with httpx.AsyncClient(timeout=60) as client:
+        async with httpx.AsyncClient(timeout=120) as client:
             response = await client.post(self.API_URL, headers=headers, json=payload)
             response.raise_for_status()
             data = response.json()
