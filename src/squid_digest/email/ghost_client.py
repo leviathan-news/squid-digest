@@ -534,9 +534,15 @@ class GhostEmailClient:
             post = self.create_post(title, html_content, status="draft")
             print(f"✓ Created Ghost notification post: {post.get('id', 'unknown')}")
             
-            # Try to send email to admin members
-            success = self.send_email_to_members(post["id"], "label:admin")
-            return success
+            # Keep as draft so it shows up in admin panel for review
+            print(f"✓ Post {post.get('id', 'unknown')} created as draft")
+            print(f"✓ Post URL: {post.get('url', 'N/A')}")
+            print("📧 Note: Email delivery requires Ghost admin panel configuration")
+            print("   - Go to Ghost admin → Settings → Email newsletter")
+            print("   - Configure email service (SendGrid, Mailgun, etc.)")
+            print("   - Set up automatic newsletter delivery")
+            
+            return True
             
         except Exception as e:
             print(f"Error: Could not create Ghost notification post: {e}")

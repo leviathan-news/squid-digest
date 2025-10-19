@@ -62,7 +62,7 @@ jobs:
         git config --local user.name "GitHub Action"
         
         # Check if there are any changes to commit
-        if git diff --quiet; then
+        if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
           echo "No changes to commit"
         else
           git add writeup/
