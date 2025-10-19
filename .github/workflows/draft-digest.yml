@@ -39,6 +39,16 @@ jobs:
         PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'ghall1@gmail.com,curvedefi@gmail.com' }}
       run: |
         python scripts/digest.py --verbose
+        if [ $? -ne 0 ]; then
+          echo "Digest generation failed with exit code $?"
+          exit 1
+        fi
+        
+        # Debug: List created files
+        echo "Files created in writeup/:"
+        ls -la writeup/
+        echo "Files created in writeup/thinking_logs/:"
+        ls -la writeup/thinking_logs/ || echo "No thinking_logs directory"
     
     - name: Commit and push digest
       run: |
