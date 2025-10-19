@@ -12,7 +12,11 @@ from squid_digest.tools.leviathan import LeviathanNewsFetcher
 from squid_digest.core.digest_engine import DigestEngine
 from squid_digest.llm import PerplexityChatProvider
 from squid_digest.config import WRITEUP_DIR
-from squid_digest.context.prompts.template import ACTIVE_PROMPT
+import os
+from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT
+
+# Allow ACTIVE_PROMPT to be overridden by environment variable
+ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
 import logging
 
 logger = logging.getLogger(__name__)

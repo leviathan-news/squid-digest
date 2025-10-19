@@ -49,16 +49,7 @@ jobs:
       run: |
         # Generate signals version
         echo "Generating signals version..."
-        python -c "
-        import sys
-        sys.path.insert(0, 'src')
-        from squid_digest.context.prompts.template import ACTIVE_PROMPT
-        # Set to signals
-        import squid_digest.context.prompts.template as template_module
-        template_module.ACTIVE_PROMPT = 'signals'
-        print('Set ACTIVE_PROMPT to signals')
-        "
-        python scripts/digest.py --verbose
+        ACTIVE_PROMPT=signals python scripts/digest.py --verbose
         if [ $? -ne 0 ]; then
           echo "Signals generation failed with exit code $?"
           exit 1
@@ -66,16 +57,7 @@ jobs:
         
         # Generate digest version  
         echo "Generating digest version..."
-        python -c "
-        import sys
-        sys.path.insert(0, 'src')
-        from squid_digest.context.prompts.template import ACTIVE_PROMPT
-        # Set to digest
-        import squid_digest.context.prompts.template as template_module
-        template_module.ACTIVE_PROMPT = 'digest'
-        print('Set ACTIVE_PROMPT to digest')
-        "
-        python scripts/digest.py --verbose
+        ACTIVE_PROMPT=digest python scripts/digest.py --verbose
         if [ $? -ne 0 ]; then
           echo "Digest generation failed with exit code $?"
           exit 1
