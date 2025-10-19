@@ -26,8 +26,9 @@ jobs:
     
     - name: Install dependencies
       run: |
-        uv sync
-        uv pip install -e .
+        # Install dependencies using pip (more reliable in GitHub Actions)
+        pip install -r requirements.txt
+        pip install -e .
     
     - name: Send digest email
       env:

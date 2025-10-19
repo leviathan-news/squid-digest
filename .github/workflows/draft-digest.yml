@@ -28,8 +28,14 @@ jobs:
     
     - name: Install dependencies
       run: |
-        uv sync
-        uv pip install -e .
+        # Install dependencies using pip (more reliable in GitHub Actions)
+        pip install -r requirements.txt
+        pip install -e .
+        
+        # Verify key dependencies are installed
+        python -c "import dotenv; print('dotenv installed')"
+        python -c "import httpx; print('httpx installed')"
+        python -c "import langchain_core; print('langchain_core installed')"
     
     - name: Generate digest
       env:
