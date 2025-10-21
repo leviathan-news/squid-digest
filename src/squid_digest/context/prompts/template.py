@@ -3,7 +3,10 @@ Simple configuration for trading signals prompts and system settings.
 All prompts and templates in one place for MVP.
 """
 
-ACTIVE_PROMPT = 'digest'
+import os
+
+# Allow ACTIVE_PROMPT to be overridden by environment variable
+ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', 'digest')
 
 
 SIGNALS_MESSAGE = """You're generating trading signals for Leviathan News - the edgy crypto publication that gives traders actionable alpha. Your audience is crypto natives who want clear, actionable trading signals based on recent news.
@@ -75,4 +78,6 @@ Channel that Leviathan voice - sharp, contextual, and always adding value beyond
 
 
 prompts = {'signals': SIGNALS_MESSAGE, 'digest': DIGEST_MESSAGE}
+
+# Dynamically set SYSTEM_MESSAGE based on ACTIVE_PROMPT
 SYSTEM_MESSAGE = prompts[ACTIVE_PROMPT]
