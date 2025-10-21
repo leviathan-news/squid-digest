@@ -85,10 +85,13 @@ class PerplexityLangChainModel(BaseChatModel):
     model: str
     api_key: str
     temperature: float = 0.7
-    max_tokens: int = 1000
+    max_tokens: int = PERPLEXITY_CHAT_MODEL["MAX_TOKENS"]
     prompt_type: str = "signals"
     
-    def __init__(self, model: str, api_key: str, temperature: float = 0.7, max_tokens: int = 1000, prompt_type: str = "signals", **kwargs):
+    def __init__(self, model: str, api_key: str, temperature: float = 0.7, max_tokens: int = None, prompt_type: str = "signals", **kwargs):
+        # Use config default if max_tokens not provided
+        if max_tokens is None:
+            max_tokens = PERPLEXITY_CHAT_MODEL["MAX_TOKENS"]
         super().__init__(model=model, api_key=api_key, temperature=temperature, max_tokens=max_tokens, prompt_type=prompt_type, **kwargs)
     
     def _extract_and_log_thinking(self, content: str, prompt_type: str = None) -> str:

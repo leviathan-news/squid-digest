@@ -17,7 +17,7 @@ PERPLEXITY_CHAT_MODEL = {
     "API_KEY": os.getenv("PERPLEXITY_API_KEY"),
     "MODEL": os.getenv("PERPLEXITY_CHAT_MODEL", "sonar-reasoning-pro"),
     "TEMPERATURE": float(os.getenv("PERPLEXITY_TEMPERATURE", 0.7)),
-    "MAX_TOKENS": int(os.getenv("PERPLEXITY_MAX_TOKENS", 1000)),
+    "MAX_TOKENS": int(os.getenv("PERPLEXITY_MAX_TOKENS", 4000)),
 }
 
 WRITEUP_DIR = Path("writeup")
