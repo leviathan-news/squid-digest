@@ -1,4 +1,4 @@
-"""
+f"""
 Simple configuration for trading signals prompts and system settings.
 All prompts and templates in one place for MVP.
 """

@@ -1,9 +1,47 @@
 """Client for Leviathan News API."""
 
 import requests, json, re
+import time
+import logging
 from typing import List, Dict, Any
 from pathlib import Path
 from langchain_community.document_loaders import WebBaseLoader
+
+logger = logging.getLogger(__name__)
+
+
+def retry_request_with_backoff(func, max_retries=3, base_delay=1):
+    """
+    Retry a function with exponential backoff.
+    
+    Args:
+        func: Function to retry
+        max_retries: Maximum number of retry attempts
+        base_delay: Base delay in seconds for exponential backoff
+    
+    Returns:
+        Result of the function call
+        
+    Raises:
+        The last exception if all retries fail
+    """
+    for attempt in range(max_retries + 1):
+        try:
+            return func()
+        except (requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout, 
+                requests.exceptions.ConnectionError) as e:
+            if attempt == max_retries:
+                logger.error(f"All {max_retries + 1} attempts failed. Last error: {e}")
+                raise
+            
+            delay = base_delay * (2 ** attempt)
+            logger.warning(f"Attempt {attempt + 1} failed with {type(e).__name__}: {e}. "
+                          f"Retrying in {delay} seconds...")
+            time.sleep(delay)
+        except Exception as e:
+            # Don't retry for other types of errors
+            logger.error(f"Non-retryable error: {e}")
+            raise
 
 
 def get_redirect_url(url: str) -> str:
@@ -74,7 +112,7 @@ class LeviathanNewsFetcher:
     SAVE_DIR = Path(".data")
     SAVE_DIR.mkdir(exist_ok=True)
 
-    def __init__(self, timeout: int = 20):
+    def __init__(self, timeout: int = 60):
         self.timeout = timeout
 
     def fetch_news(self, limit: int = 10, save: bool = True) -> List[Dict[str, Any]]:
@@ -92,9 +130,25 @@ class LeviathanNewsFetcher:
         """
         params = {"sort_type": "top", "sort_timeframe": 1}
 
-        response = requests.get(self.BASE_URL, params=params, timeout=self.timeout)
-        response.raise_for_status()
-        data = response.json()
+        def make_request():
+            response = requests.get(self.BASE_URL, params=params, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+
+        try:
+            data = retry_request_with_backoff(make_request)
+        except Exception as e:
+            logger.error(f"Failed to fetch news after retries: {e}")
+            # Try to load cached data as fallback
+            cached_file = self.SAVE_DIR / "leviathan_news.json"
+            if cached_file.exists():
+                logger.warning("Using cached news data as fallback")
+                with open(cached_file, "r") as f:
+                    cached_data = json.load(f)
+                return cached_data[:limit] if isinstance(cached_data, list) else []
+            else:
+                logger.error("No cached data available and API request failed")
+                raise
 
         # Handle different response formats
         if isinstance(data, list):
@@ -177,20 +231,37 @@ class LeviathanNewsFetcher:
         all_tokens = []
         page = 1
         
-        # Fetch first page to get total_pages
-        response = requests.get(self.TOKEN_URL, params={"page": page}, timeout=self.timeout)
-        response.raise_for_status()
-        data = response.json()
+        def fetch_page(page_num):
+            response = requests.get(self.TOKEN_URL, params={"page": page_num}, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        
+        try:
+            # Fetch first page to get total_pages
+            data = retry_request_with_backoff(lambda: fetch_page(page))
+        except Exception as e:
+            logger.error(f"Failed to fetch tokens after retries: {e}")
+            # Try to load cached data as fallback
+            cached_file = self.SAVE_DIR / "leviathan_tokens.json"
+            if cached_file.exists():
+                logger.warning("Using cached token data as fallback")
+                with open(cached_file, "r") as f:
+                    return json.load(f)
+            else:
+                logger.error("No cached token data available and API request failed")
+                raise
         
         total_pages = data.get("total_pages", 1)
         all_tokens.extend(data.get("results", []))
         
         # Fetch remaining pages
         for page in range(2, total_pages + 1):
-            response = requests.get(self.TOKEN_URL, params={"page": page}, timeout=self.timeout)
-            response.raise_for_status()
-            data = response.json()
-            all_tokens.extend(data.get("results", []))
+            try:
+                data = retry_request_with_backoff(lambda: fetch_page(page))
+                all_tokens.extend(data.get("results", []))
+            except Exception as e:
+                logger.warning(f"Failed to fetch page {page} of tokens: {e}. Continuing with available data.")
+                break
         
         token_data = {
             "count": data.get("count", len(all_tokens)),
