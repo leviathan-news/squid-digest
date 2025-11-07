@@ -138,3 +138,62 @@ jobs:
         
         print('✓ Both drafts created successfully for admin review')
         "
+    
+    - name: Post to Telegram
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+      continue-on-error: true
+      run: |
+        # Post signals digest to Telegram planning channel
+        echo "Posting signals digest to Telegram..."
+        
+        # Use today's date to find the signals file
+        TODAY=$(date -u '+%Y-%m-%d')
+        SIGNALS_FILE="writeup/signals_${TODAY}.md"
+        
+        if [ ! -f "$SIGNALS_FILE" ]; then
+          echo "Warning: Signals file not found: $SIGNALS_FILE"
+          echo "Skipping Telegram post"
+          exit 0
+        fi
+        
+        # Check if Telegram credentials are set
+        if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHANNEL_ID" ]; then
+          echo "Warning: Telegram credentials not configured"
+          echo "Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID secrets to enable Telegram posting"
+          exit 0
+        fi
+        
+        # Post to Telegram
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from squid_digest.telegram import TelegramClient, format_for_telegram
+        from pathlib import Path
+        
+        try:
+            client = TelegramClient()
+            signals_path = Path('$SIGNALS_FILE')
+            
+            if not signals_path.exists():
+                print('Error: Signals file not found')
+                sys.exit(1)
+            
+            # Read and format content
+            content = signals_path.read_text()
+            messages = format_for_telegram(content)
+            
+            print(f'Formatted into {len(messages)} message(s)')
+            
+            # Send messages
+            results = client.send_multiple_messages(messages)
+            
+            success_count = sum(1 for r in results if r.get('ok', False))
+            print(f'✓ Successfully sent {success_count}/{len(messages)} message(s) to Telegram')
+            
+        except Exception as e:
+            print(f'Error posting to Telegram: {e}')
+            # Don't fail the workflow - Telegram is optional
+            sys.exit(0)
+        "
