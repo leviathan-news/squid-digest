@@ -33,6 +33,7 @@ venv.bak/
 .env
 .env.local
 .env.*.local
+.env_protected
 
 # IDE
 .vscode/
@@ -67,3 +68,4 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
