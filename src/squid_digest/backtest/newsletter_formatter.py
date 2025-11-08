@@ -36,8 +36,6 @@ def format_backtest_for_newsletter(results: Dict) -> str:
     if positions:
         lines.append("### Current Positions")
         lines.append("")
-        lines.append("| Symbol | Quantity | Entry Price | Current Price | Value | P&L |")
-        lines.append("|--------|----------|-------------|---------------|-------|-----|")
         
         for pos in positions:
             symbol = pos['symbol']
@@ -51,16 +49,17 @@ def format_backtest_for_newsletter(results: Dict) -> str:
                 price_str = f"${current_price:.2f}"
                 value_str = f"${current_value:,.2f}"
                 if unrealized_pnl is not None:
-                    pnl_str = f"${unrealized_pnl:+,.2f}"
+                    pnl_str = f" (P&L: ${unrealized_pnl:+,.2f})"
                 else:
-                    pnl_str = "-"
+                    pnl_str = ""
             else:
                 price_str = "N/A"
                 value_str = "N/A"
-                pnl_str = "-"
+                pnl_str = ""
             
+            # Format as: **BTC**: 0.0196 @ $101983.74 entry, $101983.74 current = $2,000.00 (P&L: $+0.00)
             lines.append(
-                f"| {symbol} | {quantity:.4f} | ${entry_price:.2f} | {price_str} | {value_str} | {pnl_str} |"
+                f"- **{symbol}**: {quantity:.4f} @ ${entry_price:.2f} entry, {price_str} current = {value_str}{pnl_str}"
             )
         lines.append("")
     else:
@@ -131,4 +130,5 @@ def format_backtest_for_newsletter(results: Dict) -> str:
     lines.append("")
     
     return "\n".join(lines)
+
 
