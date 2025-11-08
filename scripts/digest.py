@@ -11,9 +11,12 @@ load_dotenv()
 from squid_digest.tools.leviathan import LeviathanNewsFetcher
 from squid_digest.core.digest_engine import DigestEngine
 from squid_digest.llm import PerplexityChatProvider
-from squid_digest.config import WRITEUP_DIR
+from squid_digest.config import WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE
 import os
 from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT
+from squid_digest.backtest.incremental_backtest import IncrementalBacktest
+from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsletter
+from squid_digest.backtest.signal_parser import SignalParser
 
 # Allow ACTIVE_PROMPT to be overridden by environment variable
 ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
@@ -290,6 +293,54 @@ async def bundle_writeup(verbose=False):
     
     today = datetime.now().strftime("%Y-%m-%d")
     filename = f"{WRITEUP_DIR}/{ACTIVE_PROMPT}_{today}.md"
+    
+    # Run incremental backtest and append results (only for signals, not digest)
+    backtest_section = ""
+    if ACTIVE_PROMPT == 'signals':
+        try:
+            if verbose:
+                logger.info("Running incremental backtest...")
+            
+            # Parse today's signals from the generated content
+            # First, write the file so we can parse it
+            temp_file = Path(filename)
+            temp_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(temp_file, "w") as f:
+                f.write(full_writeup)
+            
+            # Parse signals from the file
+            signal_parser = SignalParser(WRITEUP_DIR)
+            today_date = datetime.now()
+            today_signals = signal_parser.parse_file(temp_file)
+            
+            if today_signals:
+                # Run backtest
+                backtest = IncrementalBacktest(
+                    state_file=BACKTEST_PORTFOLIO_STATE_FILE,
+                    writeup_dir=WRITEUP_DIR,
+                    initial_capital=BACKTEST_INITIAL_CAPITAL
+                )
+                
+                backtest_results = backtest.run(today_date, today_signals)
+                backtest.close()
+                
+                if backtest_results:
+                    backtest_section = "\n\n" + format_backtest_for_newsletter(backtest_results)
+                    if verbose:
+                        logger.info("✓ Backtest completed successfully")
+                else:
+                    if verbose:
+                        logger.warning("Backtest returned no results (continuing without backtest section)")
+            else:
+                if verbose:
+                    logger.info("No signals found for today, skipping backtest")
+        except Exception as e:
+            logger.warning(f"Error running backtest: {e}", exc_info=True)
+            # Continue without backtest section
+    
+    # Append backtest section if available
+    if backtest_section:
+        full_writeup += backtest_section
     
     if verbose:
         logger.info(f"Writing trading signals to: {Path(filename).absolute()}")

@@ -23,6 +23,10 @@ PERPLEXITY_CHAT_MODEL = {
 WRITEUP_DIR = Path("writeup")
 WRITEUP_DIR.mkdir(exist_ok=True)
 
+# Backtest configuration
+BACKTEST_INITIAL_CAPITAL = 10000.0
+BACKTEST_PORTFOLIO_STATE_FILE = WRITEUP_DIR / "portfolio_state.json"
+
 
 # Unified LLM configuration based on provider
 def get_llm_config() -> Dict[str, Any]:

@@ -43,8 +43,13 @@ class SignalParser:
         """Parse a single signals markdown file."""
         signals = []
         
-        # Extract date from filename: signals_2025-10-17.md -> 2025-10-17
+        # Extract date from filename: signals_2025-10-17.md or digest_2025-10-17.md -> 2025-10-17
+        # Try signals_ prefix first, then any prefix with date pattern
         match = re.search(r'signals_(\d{4}-\d{2}-\d{2})\.md', filepath.name)
+        if not match:
+            # Try any prefix with date pattern (e.g., digest_2025-10-17.md)
+            match = re.search(r'_(\d{4}-\d{2}-\d{2})\.md', filepath.name)
+        
         if not match:
             return signals
         
