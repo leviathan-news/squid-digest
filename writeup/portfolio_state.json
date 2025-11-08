@@ -1,0 +1,55 @@
+{
+  "start_date": "2025-11-08T13:21:56.489318",
+  "initial_capital": 10000.0,
+  "cash": 7000.0,
+  "positions": {
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.01961096968016825,
+      "entry_price": 101983.73831675014,
+      "entry_date": "2025-11-08T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 2077.9143299886814,
+      "entry_price": 0.4812517944401717,
+      "entry_date": "2025-11-08T00:00:00",
+      "entry_signal": "BUY"
+    }
+  },
+  "trades": [
+    {
+      "date": "2025-11-08T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.01961096968016825,
+      "price": 101983.73831675014,
+      "value": 2000.0,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-08T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 2077.9143299886814,
+      "price": 0.4812517944401717,
+      "value": 1000.0,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    }
+  ],
+  "daily_values": [
+    [
+      "2025-11-08T13:21:56.489318",
+      10000.0
+    ]
+  ]
+}
