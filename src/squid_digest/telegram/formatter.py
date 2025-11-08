@@ -177,7 +177,16 @@ def _clean_telegram_html(html_content: str) -> str:
     html_content = re.sub(r'<hr\s*/?>', '\n━━━━━━━━━━━━━━━━━━━━\n', html_content, flags=re.IGNORECASE)
     
     # Remove unsupported tags but keep content
-    unsupported_tags = ['span', 'div', 'p']
+    # Remove list tags (ul, ol, li) - convert to plain text with newlines
+    html_content = re.sub(r'<ul[^>]*>', '', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'</ul>', '', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<ol[^>]*>', '', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'</ol>', '', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<li[^>]*>', '- ', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'</li>', '\n', html_content, flags=re.IGNORECASE)
+    
+    # Remove other unsupported tags
+    unsupported_tags = ['span', 'div', 'p', 'thead', 'tbody', 'th', 'td', 'tr', 'table']
     for tag in unsupported_tags:
         html_content = re.sub(f'<{tag}[^>]*>', '', html_content, flags=re.IGNORECASE)
         html_content = re.sub(f'</{tag}>', '', html_content, flags=re.IGNORECASE)
