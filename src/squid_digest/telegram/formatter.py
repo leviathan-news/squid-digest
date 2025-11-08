@@ -173,6 +173,9 @@ def _clean_telegram_html(html_content: str) -> str:
     # Remove img tags (Telegram doesn't support inline images in text messages)
     html_content = re.sub(r'<img[^>]*>', '', html_content, flags=re.IGNORECASE)
     
+    # Replace <hr> and <hr/> tags with a visual separator (Telegram doesn't support hr)
+    html_content = re.sub(r'<hr\s*/?>', '\n━━━━━━━━━━━━━━━━━━━━\n', html_content, flags=re.IGNORECASE)
+    
     # Remove unsupported tags but keep content
     unsupported_tags = ['span', 'div', 'p']
     for tag in unsupported_tags:
@@ -240,6 +243,12 @@ def _clean_telegram_html(html_content: str) -> str:
             # Unescape href if needed
             clean_href = href.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
             html_content = html_content.replace(escaped_placeholder, f'<a href="{clean_href}">')
+    
+    # Clean up any escaped hr tags that might have slipped through after escaping
+    html_content = re.sub(r'&lt;hr\s*/?&gt;', '\n━━━━━━━━━━━━━━━━━━━━\n', html_content, flags=re.IGNORECASE)
+    
+    # Clean up extra whitespace around separators
+    html_content = re.sub(r'\n{3,}', '\n\n', html_content)
     
     return html_content
 
