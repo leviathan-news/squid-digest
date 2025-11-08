@@ -279,3 +279,4 @@ class Portfolio:
         total_value = self.get_total_value(prices)
         self.daily_values.append((date, total_value))
 
+
