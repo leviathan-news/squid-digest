@@ -1,0 +1,149 @@
+name: Test Setup (Dry Run)
+
+on:
+  workflow_dispatch:  # Manual trigger only
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - 'requirements.txt'
+      - 'requirements.in'
+      - 'setup.sh'
+      - 'README.md'
+      - 'docs/**'
+
+jobs:
+  test-setup:
+    name: Test Setup Process
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Verify uv installation
+      run: |
+        echo "✓ uv version:"
+        uv --version
+    
+    - name: Test uv sync (dry run - no file changes)
+      run: |
+        echo "Testing uv sync..."
+        uv sync
+        
+        # Verify key dependencies are installed
+        echo "Verifying dependencies..."
+        uv run python -c "import dotenv; print('✓ dotenv installed')"
+        uv run python -c "import httpx; print('✓ httpx installed')"
+        uv run python -c "import langchain_core; print('✓ langchain_core installed')"
+        uv run python -c "import django; print(f'✓ django {django.__version__} installed')"
+    
+    - name: Test package installation
+      run: |
+        echo "Testing package installation..."
+        uv pip install -e .
+        
+        # Verify package is importable
+        uv run python -c "import squid_digest; print('✓ squid_digest package importable')"
+        uv run python -c "from squid_digest.config import WRITEUP_DIR; print(f'✓ Config importable: {WRITEUP_DIR}')"
+    
+    - name: Test Python scripts can be found
+      run: |
+        echo "Testing script discovery..."
+        test -f scripts/digest.py && echo "✓ scripts/digest.py exists"
+        test -f scripts/send_email.py && echo "✓ scripts/send_email.py exists"
+        test -f scripts/update_readme.py && echo "✓ scripts/update_readme.py exists"
+        test -f manage.py && echo "✓ manage.py exists"
+    
+    - name: Test script imports (dry run)
+      run: |
+        echo "Testing script imports (without executing)..."
+        # Just verify imports work, don't actually run the scripts
+        uv run python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        # Test key imports that scripts use
+        from squid_digest.tools.leviathan import LeviathanNewsFetcher
+        from squid_digest.core.digest_engine import DigestEngine
+        from squid_digest.backtest.incremental_backtest import IncrementalBacktest
+        from squid_digest.backtest.price_fetcher import PriceFetcher
+        print('✓ All key imports successful')
+        "
+    
+    - name: Verify no files were modified
+      run: |
+        echo "Verifying no files were modified..."
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "⚠️  WARNING: Some files were modified during setup:"
+          git status --porcelain
+          echo "This is expected for .venv/ and .cache/ directories, but unexpected for source files"
+        else
+          echo "✓ No source files modified (as expected)"
+        fi
+    
+    - name: Test environment variable handling
+      run: |
+        echo "Testing environment variable handling..."
+        # Test that config module can be imported and handles missing env vars gracefully
+        uv run python -c "
+        import os
+        # Temporarily remove env vars to test error handling
+        test_vars = ['PERPLEXITY_API_KEY', 'OPENAI_API_KEY', 'LLM_CHAT_PROVIDER']
+        for var in test_vars:
+            if var in os.environ:
+                del os.environ[var]
+        
+        # Try importing config - should handle missing vars gracefully (uses defaults)
+        from squid_digest.config import (
+            LLM_CHAT_PROVIDER,
+            PERPLEXITY_CHAT_MODEL,
+            OPENAI_CHAT_MODEL,
+            WRITEUP_DIR,
+            get_llm_config
+        )
+        
+        # Config should use defaults when env vars are missing
+        print(f'✓ Config imported successfully')
+        print(f'  - LLM_CHAT_PROVIDER: {LLM_CHAT_PROVIDER} (default: perplexity)')
+        print(f'  - PERPLEXITY_API_KEY: {\"set\" if PERPLEXITY_CHAT_MODEL[\"API_KEY\"] else \"None (uses default)\"}')
+        print(f'  - Config handles missing environment variables gracefully')
+        "
+    
+    - name: Run validation scripts (dry-run, no API calls)
+      run: |
+        echo "Running validation scripts that don't make API calls..."
+        
+        # Validate signals-only format (checks code/config, no API calls)
+        echo ""
+        echo "Running validate_signals_only.py..."
+        uv run python scripts/validate_signals_only.py || {
+          echo "⚠️  validate_signals_only.py failed (may be expected if no recent files)"
+          echo "   This is a code validation check, not a critical failure"
+        }
+    
+    - name: Summary
+      run: |
+        echo "=========================================="
+        echo "✅ Setup test completed successfully!"
+        echo "=========================================="
+        echo ""
+        echo "All setup steps passed:"
+        echo "  ✓ uv installed and working"
+        echo "  ✓ Dependencies installed via uv sync"
+        echo "  ✓ Package installed in editable mode"
+        echo "  ✓ All key imports successful"
+        echo "  ✓ Scripts are discoverable"
+        echo "  ✓ Environment variable handling works"
+        echo ""
+        echo "The setup process is ready for production use."

@@ -1,0 +1,44 @@
+# Pre-commit hooks configuration for Squid Digest
+# Install with: pre-commit install
+# Run manually with: pre-commit run --all-files
+
+repos:
+  # Python syntax checking with ruff
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: [--select, E999, --select, F821]
+        types: [python]
+        # E999: Syntax errors
+        # F821: Undefined name (undefined variables, functions, etc.)
+
+  # Run tests before commit
+  - repo: local
+    hooks:
+      - id: run-tests
+        name: Run all tests
+        entry: python scripts/run_all_tests.py
+        language: system
+        pass_filenames: false
+        always_run: true
+
+  # Check Python file syntax
+  - repo: local
+    hooks:
+      - id: python-syntax-check
+        name: Check Python syntax
+        entry: python -m py_compile
+        language: system
+        types: [python]
+        pass_filenames: true
+
+  # Validate signals-only format (digest is DEPRECATED)
+  - repo: local
+    hooks:
+      - id: validate-signals-only
+        name: Validate signals format only (digest deprecated)
+        entry: python scripts/validate_signals_only.py
+        language: system
+        pass_filenames: false
+        always_run: true

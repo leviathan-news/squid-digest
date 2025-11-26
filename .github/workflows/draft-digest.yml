@@ -1,0 +1,308 @@
+name: Generate Daily Digest Draft
+
+on:
+  schedule:
+    # Run at 5 AM PT (13:00 UTC - works for PDT, close enough for PST)
+    - cron: '0 13 * * *'
+  workflow_dispatch:  # Allow manual triggering for testing
+
+jobs:
+  generate-draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing commits
+      pull-requests: read  # Allow reading PRs if needed
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        # Install dependencies using uv (project standard)
+        uv sync
+        uv pip install -e .
+        
+        # Verify key dependencies are installed
+        uv run python -c "import dotenv; print('dotenv installed')"
+        uv run python -c "import httpx; print('httpx installed')"
+        uv run python -c "import langchain_core; print('langchain_core installed')"
+    
+    - name: Validate required secrets
+      run: |
+        # Check for required secrets
+        if [ -z "${{ secrets.COINGECKO_API_KEY }}" ]; then
+          echo "❌ ERROR: COINGECKO_API_KEY secret is not set!"
+          echo "This is REQUIRED for market snapshot generation."
+          echo "Please add COINGECKO_API_KEY to your GitHub repository secrets."
+          exit 1
+        fi
+        if [ -z "${{ secrets.PERPLEXITY_API_KEY }}" ]; then
+          echo "❌ ERROR: PERPLEXITY_API_KEY secret is not set!"
+          exit 1
+        fi
+        echo "✅ All required secrets are configured"
+    
+    - name: Clear stale price cache for today
+      run: |
+        # Clear any cached price data for today to ensure fresh data with API key
+        # This prevents using stale/incomplete cache from previous failed runs
+        TODAY=$(date -u '+%Y%m%d')
+        if [ -d ".cache/prices" ]; then
+          echo "Clearing price cache files that include today's date..."
+          find .cache/prices -name "*_*${TODAY}.json" -delete 2>/dev/null || true
+          echo "✓ Cleared stale cache files"
+        else
+          echo "No cache directory found, skipping"
+        fi
+    
+    - name: Generate digest
+      env:
+        PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'squid@leviathannews.xyz' }}
+        PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'squid@leviathannews.xyz,kraken@leviathannews.xyz' }}
+      run: |
+        # Generate signals version only
+        echo "Generating signals version..."
+        ACTIVE_PROMPT=signals uv run python scripts/digest.py --verbose
+        if [ $? -ne 0 ]; then
+          echo "Signals generation failed with exit code $?"
+          exit 1
+        fi
+        
+        # Debug: List created files
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        echo "Files created in writeup/${YEAR}/${MONTH}/${DAY}/:"
+        ls -la writeup/${YEAR}/${MONTH}/${DAY}/ || echo "No files in date directory"
+        echo "Files created in writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/:"
+        ls -la writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/ || echo "No thinking_logs directory"
+    
+    - name: Commit and push digest
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Check if there are any changes to commit
+        if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+          echo "No changes to commit"
+        else
+          git add writeup/
+          git commit -m "🤖 Auto-generated daily digest draft - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
+
+    - name: Update README with today's signals
+      run: |
+        echo "Updating README with today's signals..."
+        uv run python scripts/update_readme.py
+        if [ $? -ne 0 ]; then
+          echo "Warning: README update failed, but continuing workflow"
+        else
+          echo "✓ README updated successfully"
+        fi
+
+    - name: Update writeup README with recent headlines
+      run: |
+        echo "Updating writeup README with recent headlines and navigation..."
+        uv run python scripts/update_writeup_readme.py
+        if [ $? -ne 0 ]; then
+          echo "Warning: Writeup README update failed, but continuing workflow"
+        else
+          echo "✓ Writeup README updated successfully"
+        fi
+
+    - name: Commit and push README updates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Check if README files were modified
+        if git diff --quiet README.md writeup/README.md; then
+          echo "No README changes to commit"
+        else
+          git add README.md writeup/README.md
+          git commit -m "📊 Update READMEs with daily signals and navigation - $(date -u '+%Y-%m-%d')"
+          git push
+          echo "✓ README changes pushed successfully"
+        fi
+
+    - name: Send admin notification
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'squid@leviathannews.xyz' }}
+      run: |
+        # Create Ghost drafts with actual digest content for both versions
+        echo "Creating Ghost drafts for admin review..."
+        
+        # Use today's date to find the signals file we just generated
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        SIGNALS_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
+        
+        echo "Looking for today's signals file:"
+        echo "Signals file: $SIGNALS_FILE"
+        
+        # Check if today's signals file exists
+        if [ ! -f "$SIGNALS_FILE" ]; then
+          echo "Error: Could not find today's signals file"
+          echo "Expected: $SIGNALS_FILE"
+          echo "Available files in date directory:"
+          ls -la writeup/${YEAR}/${MONTH}/${DAY}/ || echo "Date directory does not exist"
+          exit 1
+        fi
+        
+        # Create Ghost draft with actual content
+        uv run python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from squid_digest.email import GhostEmailClient
+        from pathlib import Path
+        
+        client = GhostEmailClient()
+        
+        # Create signals draft
+        signals_path = Path('$SIGNALS_FILE')
+        if signals_path.exists():
+            content = signals_path.read_text()
+            html_content = client.format_digest_html(content)
+            title = f'📊 Trading Signals Draft - {signals_path.stem.split(\"_\")[-1]}'
+            post = client.create_post(title, html_content, status='draft')
+            print(f'✓ Created signals draft: {post.get(\"id\", \"unknown\")}')
+        
+        print('✓ Draft created successfully for admin review')
+        "
+    
+    - name: Post to Telegram
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+      continue-on-error: true
+      run: |
+        # Post signals digest to Telegram planning channel
+        echo "Posting signals digest to Telegram..."
+        
+        # Use today's date to find the signals file
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        SIGNALS_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
+        
+        if [ ! -f "$SIGNALS_FILE" ]; then
+          echo "Warning: Signals file not found: $SIGNALS_FILE"
+          echo "Skipping Telegram post"
+          exit 0
+        fi
+        
+        # Check if Telegram credentials are set
+        if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHANNEL_ID" ]; then
+          echo "Warning: Telegram credentials not configured"
+          echo "Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID secrets to enable Telegram posting"
+          exit 0
+        fi
+        
+        # Post to Telegram
+        uv run python -c "
+        import sys
+        import traceback
+        sys.path.insert(0, 'src')
+        from squid_digest.telegram import TelegramClient, format_for_telegram
+        from pathlib import Path
+        
+        try:
+            # Validate file exists before proceeding
+            signals_path = Path('$SIGNALS_FILE')
+            if not signals_path.exists():
+                print(f'ERROR: Signals file not found: {signals_path}')
+                print('Available files in writeup/ (recursive search):')
+                from pathlib import Path
+                writeup_dir = Path('writeup')
+                for f in sorted(writeup_dir.rglob('*.md')):
+                    print(f'  - {f.relative_to(writeup_dir)}')
+                sys.exit(1)
+            
+            # Validate Telegram credentials are set
+            import os
+            if not os.getenv('TELEGRAM_BOT_TOKEN'):
+                print('ERROR: TELEGRAM_BOT_TOKEN environment variable not set')
+                sys.exit(1)
+            if not os.getenv('TELEGRAM_CHANNEL_ID'):
+                print('ERROR: TELEGRAM_CHANNEL_ID environment variable not set')
+                sys.exit(1)
+            
+            # Initialize client (will validate credentials)
+            print('Initializing Telegram client...')
+            client = TelegramClient()
+            
+            # Read and format content
+            print(f'Reading signals file: {signals_path}')
+            content = signals_path.read_text()
+            
+            if not content or len(content.strip()) == 0:
+                print('ERROR: Signals file is empty')
+                sys.exit(1)
+            
+            print('Formatting content for Telegram...')
+            messages = format_for_telegram(content)
+            
+            if not messages or len(messages) == 0:
+                print('ERROR: No messages generated from content')
+                sys.exit(1)
+            
+            print(f'Formatted into {len(messages)} message(s)')
+            
+            # Validate message lengths
+            for i, msg in enumerate(messages, 1):
+                if len(msg) > 4096:
+                    print(f'WARNING: Message {i} exceeds Telegram limit ({len(msg)} chars)')
+                print(f'  Message {i}: {len(msg)} characters')
+            
+            # Send messages
+            print('Sending messages to Telegram...')
+            results = client.send_multiple_messages(messages)
+            
+            success_count = sum(1 for r in results if r.get('ok', False))
+            failed_count = len(messages) - success_count
+            
+            if success_count == len(messages):
+                print(f'✓ Successfully sent {success_count}/{len(messages)} message(s) to Telegram')
+            else:
+                print(f'⚠ Partially sent: {success_count}/{len(messages)} message(s) succeeded, {failed_count} failed')
+                # Print error details for failed messages
+                for i, result in enumerate(results, 1):
+                    if not result.get('ok', False):
+                        print(f'  Message {i} failed: {result.get(\"error\", \"Unknown error\")}')
+                sys.exit(1)
+            
+        except Exception as e:
+            print('=' * 80)
+            print('ERROR posting to Telegram:')
+            print(f'Exception type: {type(e).__name__}')
+            print(f'Exception message: {str(e)}')
+            print('=' * 80)
+            print('Full traceback:')
+            traceback.print_exc()
+            print('=' * 80)
+            # Exit with 0 to not fail workflow, but errors are now visible
+            sys.exit(0)
+        "

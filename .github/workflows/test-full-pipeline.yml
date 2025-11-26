@@ -1,0 +1,137 @@
+name: Test Full Pipeline (End-to-End)
+
+on:
+  workflow_dispatch:  # Manual trigger only - uses API credits!
+  # Optionally trigger on schedule for daily validation (uses API credits)
+  # schedule:
+  #   - cron: '0 6 * * *'  # Run daily at 6 AM UTC
+
+jobs:
+  test-full-pipeline:
+    name: Test Full Pipeline End-to-End
+    runs-on: ubuntu-latest
+    
+    # This workflow uses API credits (Perplexity, CoinGecko, Leviathan)
+    # Only run when you need to validate the full pipeline works
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        uv sync
+        uv pip install -e .
+    
+    - name: Validate required secrets
+      run: |
+        # Check for required secrets (but don't fail if missing - test will fail gracefully)
+        if [ -z "${{ secrets.PERPLEXITY_API_KEY }}" ]; then
+          echo "⚠️  WARNING: PERPLEXITY_API_KEY secret is not set!"
+          echo "   The test will fail when trying to generate signals"
+        else
+          echo "✓ PERPLEXITY_API_KEY is set"
+        fi
+        
+        if [ -z "${{ secrets.COINGECKO_API_KEY }}" ]; then
+          echo "⚠️  WARNING: COINGECKO_API_KEY secret is not set!"
+          echo "   Price fetching may be rate-limited"
+        else
+          echo "✓ COINGECKO_API_KEY is set"
+        fi
+    
+    - name: Configure environment
+      run: |
+        # Set up minimal .env for testing (secrets come from GitHub Secrets)
+        cat > .env << EOF
+        PERPLEXITY_API_KEY=${{ secrets.PERPLEXITY_API_KEY }}
+        COINGECKO_API_KEY=${{ secrets.COINGECKO_API_KEY }}
+        LLM_CHAT_PROVIDER=perplexity
+        DJANGO_SECRET_KEY=test-secret-key-not-for-production
+        DJANGO_DEBUG=False
+        DJANGO_ALLOWED_HOSTS=localhost
+        TIME_ZONE=UTC
+        EOF
+        echo "✓ Environment configured (API keys from secrets)"
+    
+    - name: Run full pipeline test
+      run: |
+        echo "=========================================="
+        echo "🧪 Running Full Pipeline Test"
+        echo "=========================================="
+        echo ""
+        echo "⚠️  This test will:"
+        echo "  - Fetch news from Leviathan API"
+        echo "  - Generate signals using Perplexity API (uses credits)"
+        echo "  - Fetch prices from CoinGecko API"
+        echo "  - Generate backtest results"
+        echo "  - Create test files"
+        echo "  - Auto-cleanup test files after completion"
+        echo ""
+        echo "Starting test..."
+        echo ""
+        
+        # Run the test script with auto-cleanup
+        # This will use API credits but clean up after itself
+        uv run python scripts/test_refactor_locally.py --auto-cleanup || {
+          echo ""
+          echo "❌ Full pipeline test failed!"
+          echo "   Check the logs above for details"
+          exit 1
+        }
+    
+    - name: Verify cleanup
+      run: |
+        echo "Verifying cleanup..."
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        
+        # Check if test files were cleaned up
+        if [ -d "writeup/${YEAR}/${MONTH}/${DAY}" ]; then
+          # Check if directory is empty or only contains pre-existing files
+          files_in_dir=$(find "writeup/${YEAR}/${MONTH}/${DAY}" -type f 2>/dev/null | wc -l)
+          if [ "$files_in_dir" -gt 0 ]; then
+            echo "⚠️  WARNING: Test files may not have been fully cleaned up"
+            echo "   Found $files_in_dir file(s) in writeup/${YEAR}/${MONTH}/${DAY}/"
+            echo "   These may be pre-existing files (not from this test)"
+            ls -la "writeup/${YEAR}/${MONTH}/${DAY}/" || true
+          else
+            echo "✓ Test directory is empty (cleanup successful)"
+          fi
+        else
+          echo "✓ Test directory doesn't exist (cleanup successful)"
+        fi
+    
+    - name: Summary
+      run: |
+        echo ""
+        echo "=========================================="
+        echo "✅ Full Pipeline Test Completed!"
+        echo "=========================================="
+        echo ""
+        echo "The full pipeline was tested end-to-end:"
+        echo "  ✓ Dependencies installed"
+        echo "  ✓ News fetched from Leviathan API"
+        echo "  ✓ Signals generated using Perplexity API"
+        echo "  ✓ Prices fetched from CoinGecko API"
+        echo "  ✓ Backtest executed"
+        echo "  ✓ Files generated and cleaned up"
+        echo ""
+        echo "⚠️  Note: This test used API credits"
+        echo "   - Perplexity API: ~1-2 API calls"
+        echo "   - CoinGecko API: Multiple price fetches"
+        echo "   - Leviathan API: News fetch"
+        echo ""
+        echo "The pipeline is ready for production use!"

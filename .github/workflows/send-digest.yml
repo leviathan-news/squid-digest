@@ -1,0 +1,73 @@
+name: Send Daily Digest
+
+on:
+  schedule:
+    # Run at 6 AM PT (14:00 UTC)
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # Allow manual triggering for testing
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read  # Allow reading repository contents
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        # Install dependencies using uv (project standard)
+        uv sync
+        uv pip install -e .
+    
+    - name: Send digest email
+      env:
+        GHOST_URL: ${{ secrets.GHOST_URL }}
+        GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+        PUBLIC_EMAILS: ${{ secrets.PUBLIC_EMAILS || 'squid@leviathannews.xyz,kraken@leviathannews.xyz' }}
+      run: |
+        # Use today's date to find the correct file
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        echo "Looking for digest file for date: $TODAY"
+        echo "Checking in: writeup/${YEAR}/${MONTH}/${DAY}/"
+
+        # Try signals_YYYY-MM-DD.md first, then trading_signals_YYYY-MM-DD.md
+        if [ -f "writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md" ]; then
+          DIGEST_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
+        elif [ -f "writeup/${YEAR}/${MONTH}/${DAY}/trading_signals_${TODAY}.md" ]; then
+          DIGEST_FILE="writeup/${YEAR}/${MONTH}/${DAY}/trading_signals_${TODAY}.md"
+        else
+          echo "❌ No digest file found for today: $TODAY"
+          echo "Expected: writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md or writeup/${YEAR}/${MONTH}/${DAY}/trading_signals_${TODAY}.md"
+          echo "Available files in date directory:"
+          ls -1 writeup/${YEAR}/${MONTH}/${DAY}/*.md 2>/dev/null || echo "  None found in date directory"
+          echo "Searching recursively for any signals files:"
+          find writeup -name "signals_*.md" -o -name "trading_signals_*.md" | head -5 || echo "  None found"
+          exit 1
+        fi
+
+        echo "📧 Sending digest email for: $DIGEST_FILE"
+        echo "Using Ghost URL: $GHOST_URL"
+
+        # Send the email
+        if uv run python scripts/send_email.py --type public --digest-file "$DIGEST_FILE"; then
+          echo "✅ Email sent successfully!"
+        else
+          echo "❌ Failed to send email"
+          exit 1
+        fi

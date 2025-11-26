@@ -1,0 +1,21 @@
+# ⚠️ DEPRECATED: This file is kept for backward compatibility only.
+# This project now uses `uv` for dependency management.
+# 
+# For new setups, use: uv sync
+# See README.md for installation instructions.
+#
+# This file may be removed in a future version.
+
+# Core Django dependencies
+Django>=5.0,<6.0
+python-dotenv>=1.0.0
+
+# HTTP client
+httpx>=0.28.0
+
+# Development tools
+black>=25.0.0
+flake8>=7.0.0
+isort>=6.0.0
+mypy-extensions>=1.0.0
+

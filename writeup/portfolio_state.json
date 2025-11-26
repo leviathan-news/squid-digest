@@ -1,0 +1,243 @@
+{
+  "start_date": "2025-11-08T13:21:56.489318",
+  "initial_capital": 10000.0,
+  "cash": 3814.194210019488,
+  "positions": {
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.01961096968016825,
+      "entry_price": 101983.73831675014,
+      "entry_date": "2025-11-08T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 2077.9143299886814,
+      "entry_price": 0.4812517944401717,
+      "entry_date": "2025-11-08T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": 1608.015376885017,
+      "entry_price": 0.2932795004782887,
+      "entry_date": "2025-11-15T00:00:00",
+      "entry_signal": "WEAK BUY"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "quantity": 5.307484864327462,
+      "entry_price": 177.2497513995439,
+      "entry_date": "2025-11-16T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.44849275509246267,
+      "entry_price": 3110.796557041815,
+      "entry_date": "2025-11-17T00:00:00",
+      "entry_signal": "WEAK BUY"
+    }
+  },
+  "trades": [
+    {
+      "date": "2025-11-08T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.01961096968016825,
+      "price": 101983.73831675014,
+      "value": 2000.0,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-08T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 2077.9143299886814,
+      "price": 0.4812517944401717,
+      "value": 1000.0,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-09T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.14480372410715772,
+      "price": 3452.1731045037695,
+      "value": 499.88752179471396,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-11T00:00:00",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "BUY",
+      "quantity": 238.0868510521645,
+      "price": 8.476073494277713,
+      "value": 2018.0416475392974,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-13T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.2845408420789695,
+      "price": 3467.7363208886572,
+      "value": 986.7126128534861,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-14T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.2993154852096792,
+      "price": 3096.806894535601,
+      "value": 926.9222582386033,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-15T00:00:00",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 1608.015376885017,
+      "price": 0.2932795004782887,
+      "value": 471.597946494245,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-15T00:00:00",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SELL",
+      "quantity": 238.0868510521645,
+      "price": 7.3290159412700975,
+      "value": 1744.942326768113,
+      "signal_type": "WEAK SELL",
+      "pnl": -273.09932077118447,
+      "entry_price": 8.476073494277713
+    },
+    {
+      "date": "2025-11-16T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 5.307484864327462,
+      "price": 177.2497513995439,
+      "value": 940.7503727588846,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-16T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 0.7286600513958065,
+      "price": 3167.916172855419,
+      "value": 2308.333961330436,
+      "signal_type": "WEAK SELL",
+      "pnl": -105.1884315563675,
+      "entry_price": 3312.2748917873414
+    },
+    {
+      "date": "2025-11-17T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.1484978219777782,
+      "price": 3149.292078811102,
+      "value": 467.663014475318,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-19T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.29999493311468445,
+      "price": 3091.7412314091926,
+      "value": 927.5067039245129,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    }
+  ],
+  "daily_values": [
+    [
+      "2025-11-08T13:21:56.489318",
+      10000.0
+    ],
+    [
+      "2025-11-09T13:21:34.594240",
+      10000.0
+    ],
+    [
+      "2025-11-10T13:29:24.606211",
+      10000.0
+    ],
+    [
+      "2025-11-11T13:28:46.322246",
+      10000.0
+    ],
+    [
+      "2025-11-12T13:31:10.163117",
+      10000.0
+    ],
+    [
+      "2025-11-13T13:31:20.677716",
+      10000.0
+    ],
+    [
+      "2025-11-14T13:27:57.527212",
+      10000.0
+    ],
+    [
+      "2025-11-15T13:21:53.755076",
+      9729.342235226723
+    ],
+    [
+      "2025-11-16T13:21:40.293470",
+      9624.673736348079
+    ],
+    [
+      "2025-11-17T13:29:52.096865",
+      9624.673736348079
+    ],
+    [
+      "2025-11-18T13:30:10.553359",
+      9624.673736348079
+    ],
+    [
+      "2025-11-19T13:29:54.532376",
+      9275.067039245128
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+[project]
+name = "squid-digest"
+version = "0.1.0"
+description = "AI-powered daily news digest generator"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.0",
+    "Django>=5.0,<6.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.4.2",
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.77",
+    "langchain-openai>=0.3.34",
+    "beautifulsoup4>=4.14.2",
+    "selenium>=4.36.0",
+    "trafilatura>=2.0.0",
+    "langchain-community>=0.3.30",
+    "langfuse>=3.6.1",
+    "markdown2>=2.4.0",
+    "pre-commit>=3.0.0",
+    "PyJWT>=2.0.0",
+]
+
+[tool.uv.sources]
+squid_digest = { path = "./src/squid_digest" }
+
+[tool.uv]
+package = true
