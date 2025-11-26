@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 5590.259131779238,
+  "cash": 5882.412086070302,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -66,6 +66,22 @@
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.0033723451889808103,
+      "entry_price": 86631.98395160704,
+      "entry_date": "2025-11-26T00:00:00",
+      "entry_signal": "WEAK BUY"
+    },
+    "JESSE": {
+      "symbol": "JESSE",
+      "token_name": "jesse",
+      "quantity": -60756.71194280648,
+      "entry_price": 0.009617141709909642,
+      "entry_date": "2025-11-26T00:00:00",
+      "entry_signal": "SELL"
     }
   },
   "trades": [
@@ -536,6 +552,30 @@
       "signal_type": "WEAK BUY",
       "pnl": -6.797557588319933,
       "entry_price": 86524.88848268654
+    },
+    {
+      "date": "2025-11-26T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0033723451889808103,
+      "price": 86631.98395160704,
+      "value": 292.15295429106476,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-26T00:00:00",
+      "symbol": "JESSE",
+      "token_name": "jesse",
+      "action": "SHORT",
+      "quantity": 60756.71194280648,
+      "price": 0.009617141709909642,
+      "value": 584.3059085821295,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -618,6 +658,10 @@
     [
       "2025-11-25T13:31:44.537164",
       11627.115214186502
+    ],
+    [
+      "2025-11-26T13:32:33.441926",
+      11686.118171642589
     ]
   ],
   "strategy": "buy_the_news"
