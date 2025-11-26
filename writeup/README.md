@@ -15,26 +15,25 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 25, 2025)
+## 🔥 Latest Headlines (November 26, 2025)
 
-- **Pangea report finds fxUSD peg held strong amidst a turbulent year** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Curvance is live on Monad mainnet! 
+- **BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins.** [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **JPMorgan rolls out a leveraged note tied to BlackRock’s IBIT, offering 1.5× upside into the 2028 halving cycle with partial downside protection marking a sharp pivot as the bank re-enters Bitcoin despite its recent criticism of crypto firms.** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/21356?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Congress introduces a bipartisan bill to crack down on AI-powered impersonation and fraud, raising penalties to $2M and up to 30 years in prison after hackers used AI to mimic top U.S. officials.** [𝕏/@RepTedLieu](https://leviathannews.xyz/redirect/21351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **The UNIfication proposal created by Uniswap Labs and Uniswap Foundation has passed** [𝕏/@haydenzadams](https://leviathannews.xyz/redirect/21347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Risky retail trading is roaring back—and Robinhood CEO Vlad Tenev has become the movement’s cult hero as the app fuels a surge in options, crypto, and prediction-market gambling.** [archive.ph](https://leviathannews.xyz/redirect/21345?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-Deposit, borrow, and access leverage with capital efficiency up to 3x higher than legacy lending platforms. 
-
-Month one features over $750,000 in liquid incentives across supported vaults! Try the system and see how far lending mechanics can go when built for performance.** [app.curvance](https://leviathannews.xyz/redirect/21194?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Trade Equity Perps on MetaMask Mobile. Go long or short on NVDA, AAPL, TSLA and more** [𝕏/@metamask](https://leviathannews.xyz/redirect/21218?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **BitMine doubles down on Ethereum with a fresh $200M buy, boosting its stash to 3% of all ETH—even as the recent price slump chops the value of its 3.63M-ETH treasury from $12B to $10.2B.** [The Block](https://leviathannews.xyz/redirect/21192?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Strategy pauses its weekly BTC buys as MSCI risks and market pressure mount, while Saylor points to a surge in Bitcoin-backed credit demand—with weekly issuance jumping from ~$4M to nearly $20M.** [coinpedia.org](https://leviathannews.xyz/redirect/21200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-📊 [View Full Analysis →](writeup/2025/11/25/signals_2025-11-25.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/25/signals_2025-11-25.md)
+📊 [View Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/26/signals_2025-11-26.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 18 - Nov 25)
+### 📅 This Week (Nov 21 - Nov 26)
+
+[**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
+BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -51,10 +50,10 @@ Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Last Week (Nov 12 - Nov 18)
+
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 11 - Nov 17)
 
 [**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
 Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -74,10 +73,10 @@ Balancer team identifies issue with v2 meta-stable pools and performs white hat 
 [**Wednesday, November 12, 2025**](writeup/2025/11/12/signals_2025-11-12.md)
 MacciNFT release the first chapter of her Madoll manga [𝕏/@MAcciNFT](https://leviathannews.xyz/redirect/20390?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 05 - Nov 11
+
 [**Tuesday, November 11, 2025**](writeup/2025/11/11/signals_2025-11-11.md)
 Crypto hacks hit record highs in 2025, with $2.2 billion stolen in the first half of the year, pushing investors toward hardware wallets like Ledger and Trezor for safer crypto storage. [crypto.news](https://leviathannews.xyz/redirect/20300?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 04 - Nov 10
 
 [**Monday, November 10, 2025**](writeup/2025/11/10/signals_2025-11-10.md)
 Yield Basis: upcoming migration to new pools implementation [𝕏/@yieldbasis](https://leviathannews.xyz/redirect/20296?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -97,10 +96,10 @@ Lista DAO flags mounting risks in MEVCapital’s USDT Vault and Re7Labs’ USD1 
 [**Wednesday, November 05, 2025**](writeup/2025/11/05/signals_2025-11-05.md)
 Ongoing attacker quietly drains multiple lending protocols over the past month, with projects remaining silent on undisclosed exploits. [𝕏/@specteranalyst](https://leviathannews.xyz/redirect/20005?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Oct 30 - Nov 04
+
 [**Tuesday, November 04, 2025**](writeup/2025/11/04/signals_2025-11-04.md)
 ⚠️Suspected oracle exploit hits MoonwellDeFi on Base and Optimism — attackers manipulated the rsETH/ETH price feed, draining over $1M in what appears to be a MEV-driven attack. [𝕏/@Phalcon_xyz](https://leviathannews.xyz/redirect/20001?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Oct 29 - Nov 03
 
 [**Monday, November 03, 2025**](writeup/2025/11/03/signals_2025-11-03.md)
 Phalcon identifies the root cause of the Balancer hack, now up to 120M drained [𝕏/@phalcon_xyz](https://leviathannews.xyz/redirect/19917?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -116,9 +115,6 @@ f(x) Protocol launches fxMINT, a way to mint fxUSD while keeping your BTC/ETH ex
 
 [**Thursday, October 30, 2025**](writeup/2025/10/30/signals_2025-10-30.md)
 JPMorgan tokenizes a private-equity fund on its own blockchain in a landmark move to bring alternative investments onchain and mark the first step toward a broader rollout of its fund tokenization platform. [WSJ](https://leviathannews.xyz/redirect/19657?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Wednesday, October 29, 2025**](writeup/2025/10/29/signals_2025-10-29.md)
-AI’s corporate reckoning deepens as Amazon, Target, and UPS slash tens of thousands of white-collar jobs, signaling a seismic shift in office work and leaving displaced employees facing a shrinking job market.** [archive.ph](https://leviathannews.xyz/redirect/19579?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---

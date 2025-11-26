@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 25, 2025)
+## 📊 Latest News Headlines (November 26, 2025)
 
 ### 🔥 Top Headlines
-- **Pangea report finds fxUSD peg held strong amidst a turbulent year** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curvance is live on Monad mainnet! Deposit, borrow, and access leverage with capital efficiency up to 3x higher than legacy lending platforms. Month one features over $750,000 in liquid incentives across supported vaults! Try the system and see how far lending mechanics can go when built for performance.** [app.curvance](https://leviathannews.xyz/redirect/21194?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trade Equity Perps on MetaMask Mobile. Go long or short on NVDA, AAPL, TSLA and more** [𝕏/@metamask](https://leviathannews.xyz/redirect/21218?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BitMine doubles down on Ethereum with a fresh $200M buy, boosting its stash to 3% of all ETH—even as the recent price slump chops the value of its 3.63M-ETH treasury from $12B to $10.2B.** [The Block](https://leviathannews.xyz/redirect/21192?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy pauses its weekly BTC buys as MSCI risks and market pressure mount, while Saylor points to a surge in Bitcoin-backed credit demand—with weekly issuance jumping from ~$4M to nearly $20M.** [coinpedia.org](https://leviathannews.xyz/redirect/21200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins.** [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan rolls out a leveraged note tied to BlackRock’s IBIT, offering 1.5× upside into the 2028 halving cycle with partial downside protection marking a sharp pivot as the bank re-enters Bitcoin despite its recent criticism of crypto firms.** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/21356?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Congress introduces a bipartisan bill to crack down on AI-powered impersonation and fraud, raising penalties to $2M and up to 30 years in prison after hackers used AI to mimic top U.S. officials.** [𝕏/@RepTedLieu](https://leviathannews.xyz/redirect/21351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The UNIfication proposal created by Uniswap Labs and Uniswap Foundation has passed** [𝕏/@haydenzadams](https://leviathannews.xyz/redirect/21347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Risky retail trading is roaring back—and Robinhood CEO Vlad Tenev has become the movement’s cult hero as the app fuels a surge in options, crypto, and prediction-market gambling.** [archive.ph](https://leviathannews.xyz/redirect/21345?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,627.12 (+16.27%) | [Full Analysis →](writeup/2025/11/25/signals_2025-11-25.md)
-**Sell Strategy:** $7,356.09 (-26.44%) | [Full Analysis →](writeup/2025/11/25/signals_2025-11-25.md)
+**Buy Strategy:** $11,686.12 (+16.86%) | [Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md)
+**Sell Strategy:** $7,551.24 (-24.49%) | [Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md)
 
-**GitHub:** 11-25-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-25-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 11-26-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 11-26-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
