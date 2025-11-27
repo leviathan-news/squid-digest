@@ -17,11 +17,11 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 <!-- DAILY_UPDATE_START -->
 ## 🔥 Latest Headlines (November 27, 2025)
 
-- **Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **The Katana Warriors NFT whitelist application is live in the katana_network telegram. A DeFi-enabled NFT where staked NFTs earn yield from the NFT treasury.** [𝕏/@katana](https://leviathannews.xyz/redirect/21359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Aerodrome releases FAQ with more details on the previously announced AERO product** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/21363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards.** [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 - **Conor McGregor Calls Out Khabib’s NFT Drop, but ZachXBT Lands the Real Punch.** [CoinTelegraph](https://leviathannews.xyz/redirect/21393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 - **Aramco and Pasqal make history with Saudi Arabia’s first quantum computer, renewing questions about the future of blockchain security for Bitcoin and other blockchain networks.** [decrypt.co](https://leviathannews.xyz/redirect/21353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **UAE’s new financial law brings crypto and blockchain into traditional finance and under Central Bank’s supervision, aiming to position the country as a global financial innovation hub. The law requires all crypto and blockchain organizations operating in or from the UAE to be licensed by the CBUAE, with fines for unlicensed operations reaching up to 1 billion dinars ($272 million).New regulations include faster licensing decisions, risk-based capital rules, and enhanced Shari’ah governance, promoting innovation and compliance in the digital asset space.** [Coindesk](https://leviathannews.xyz/redirect/21371?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **SpaceX quietly shifted 1,163 BTC to a Coinbase Prime-linked wallet, sparking speculation about a strategic custody reshuffle. With holdings now at 6,095 BTC, analysts say it’s restructuring.** [crypto.news](https://leviathannews.xyz/redirect/21394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 📊 [View Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/27/signals_2025-11-27.md)
 
@@ -33,7 +33,7 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ### 📅 This Week (Nov 21 - Nov 27)
 
 [**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
-Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes. [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards. [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)

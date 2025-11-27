@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 26, 2025)
+## 📊 Latest News Headlines (November 27, 2025)
 
 ### 🔥 Top Headlines
-- **Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Katana Warriors NFT whitelist application is live in the katana_network telegram. A DeFi-enabled NFT where staked NFTs earn yield from the NFT treasury.** [𝕏/@katana](https://leviathannews.xyz/redirect/21359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aerodrome releases FAQ with more details on the previously announced AERO product** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/21363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards.** [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 - **Conor McGregor Calls Out Khabib’s NFT Drop, but ZachXBT Lands the Real Punch.** [CoinTelegraph](https://leviathannews.xyz/redirect/21393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 - **Aramco and Pasqal make history with Saudi Arabia’s first quantum computer, renewing questions about the future of blockchain security for Bitcoin and other blockchain networks.** [decrypt.co](https://leviathannews.xyz/redirect/21353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UAE’s new financial law brings crypto and blockchain into traditional finance and under Central Bank’s supervision, aiming to position the country as a global financial innovation hub. The law requires all crypto and blockchain organizations operating in or from the UAE to be licensed by the CBUAE, with fines for unlicensed operations reaching up to 1 billion dinars ($272 million).New regulations include faster licensing decisions, risk-based capital rules, and enhanced Shari’ah governance, promoting innovation and compliance in the digital asset space.** [Coindesk](https://leviathannews.xyz/redirect/21371?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SpaceX quietly shifted 1,163 BTC to a Coinbase Prime-linked wallet, sparking speculation about a strategic custody reshuffle. With holdings now at 6,095 BTC, analysts say it’s restructuring.** [crypto.news](https://leviathannews.xyz/redirect/21394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,686.12 (+16.86%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
-**Sell Strategy:** $7,551.24 (-24.49%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
+**Buy Strategy:** $11,548.68 (+15.49%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
+**Sell Strategy:** $7,477.81 (-25.22%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
 
-**GitHub:** 11-26-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-26-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 11-27-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 11-27-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
