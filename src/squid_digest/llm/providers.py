@@ -102,35 +102,41 @@ class PerplexityLangChainModel(BaseChatModel):
         """
         Extract thinking content from <think> tags and save to log file.
         Returns cleaned content without thinking tags.
+
+        IMPORTANT: Also logs warning if thinking is missing AND response is short,
+        which may indicate an LLM generation error.
         """
+        import logging
+        logger = logging.getLogger(__name__)
+
         # Use instance prompt type if not provided
         if prompt_type is None:
             prompt_type = self.prompt_type
-        
+
         # Get date-based directory for thinking logs
         today = datetime.now()
         date_dir = get_writeup_date_path(today)
-        
+
         # Create thinking_logs subdirectory in the date directory
         thinking_logs_dir = date_dir / "thinking_logs"
         thinking_logs_dir.mkdir(exist_ok=True)
-        
+
         # Generate log filename
         today_str = today.strftime("%Y-%m-%d")
         log_filename = thinking_logs_dir / f"{prompt_type}_{today_str}_thinking.log"
-        
+
         # Extract thinking content using regex
         # Pattern 1: <think>...</think> (closed tags)
         closed_pattern = r'<think>(.*?)</think>'
         closed_matches = re.findall(closed_pattern, content, re.DOTALL)
-        
+
         # Pattern 2: <think>... (unclosed tag - everything after <think>)
         unclosed_pattern = r'<think>(.*)$'
         unclosed_match = re.search(unclosed_pattern, content, re.DOTALL)
-        
+
         thinking_content = ""
         cleaned_content = content
-        
+
         if closed_matches:
             # Handle closed tags
             thinking_content = "\n\n".join(closed_matches)
@@ -139,15 +145,25 @@ class PerplexityLangChainModel(BaseChatModel):
             # Handle unclosed tag
             thinking_content = unclosed_match.group(1)
             cleaned_content = re.sub(unclosed_pattern, '', content, flags=re.DOTALL)
-        
+
         # Save thinking content to log file if any was found
         if thinking_content.strip():
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             log_entry = f"\n{'='*60}\n[{timestamp}] Thinking Log for {prompt_type}\n{'='*60}\n{thinking_content.strip()}\n"
-            
+
             with open(log_filename, "a", encoding="utf-8") as f:
                 f.write(log_entry)
-        
+        else:
+            # Log warning if no thinking content AND response is suspiciously short
+            # This may indicate an API error or generation failure
+            cleaned_len = len(cleaned_content.strip())
+            if cleaned_len < 100:
+                logger.warning(
+                    f"LLM ({prompt_type}) response has no thinking content AND is suspiciously short "
+                    f"({cleaned_len} chars). This may indicate an API error or incomplete generation. "
+                    f"Response preview: {cleaned_content.strip()[:100]}..."
+                )
+
         # Clean up any remaining whitespace and return
         return cleaned_content.strip()
 

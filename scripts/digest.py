@@ -885,12 +885,51 @@ async def bundle_writeup(verbose=False):
         logger.info(headlines_summary)
     
     trading_signals = await engine.generate_writeup(headlines=headlines_summary, token_list=token_list_str)
-    
-    # Parse signals BEFORE transformation (for backtesting)
-    # Create a temporary file with original format for parsing
+
+    # Prepare date and filename variables for error reporting
     today = datetime.now()
     today_str = today.strftime("%Y-%m-%d")
     filename = get_writeup_file_path(f"{ACTIVE_PROMPT}_{today_str}.md", today)
+
+    # VALIDATION: Check that LLM response is not empty or suspiciously short
+    if not trading_signals or len(trading_signals.strip()) < 50:
+        error_msg = (
+            f"CRITICAL: LLM generated empty or suspiciously short response ({len(trading_signals.strip()) if trading_signals else 0} chars). "
+            f"This indicates a potential API error or generation failure.\n"
+            f"Response content: {trading_signals[:500] if trading_signals else '(empty)'}"
+        )
+        logger.error(error_msg)
+
+        # Save diagnostic file for debugging
+        diagnostic_file = filename.parent / f"diagnostic_{today_str}.txt"
+        try:
+            with open(diagnostic_file, "w") as f:
+                f.write(f"Signal Generation Failure Diagnostic\n")
+                f.write(f"=====================================\n\n")
+                f.write(f"Error: {error_msg}\n\n")
+                f.write(f"News items sent ({len(news_data)}):\n")
+                f.write(f"{headlines_summary}\n\n")
+                f.write(f"Token list sent ({len(tokens_to_include)} tokens):\n")
+                f.write(f"{token_list_str[:500]}...\n\n")
+                f.write(f"LLM Response:\n")
+                f.write(f"{trading_signals}\n")
+            logger.error(f"Diagnostic file saved to: {diagnostic_file}")
+        except Exception as diag_error:
+            logger.error(f"Could not save diagnostic file: {diag_error}")
+
+        raise ValueError(error_msg)
+
+    # VALIDATION: Check that response contains expected signal patterns
+    import re
+    if not re.search(r'\*\*\$[A-Z]+.*?:(STRONG )?(BUY|SELL|WEAK)', trading_signals):
+        logger.warning(
+            f"LLM response doesn't match expected signal format. "
+            f"Response length: {len(trading_signals)} chars. "
+            f"First 300 chars: {trading_signals[:300]}"
+        )
+        # Don't raise here - let it continue but log warning for debugging
+
+    # Parse signals BEFORE transformation (for backtesting)
     
     # Run incremental backtest FIRST (before transformation, so parser can read original format)
     backtest_section = ""
@@ -929,20 +968,20 @@ async def bundle_writeup(verbose=False):
                     initial_capital=BACKTEST_INITIAL_CAPITAL,
                     strategy='buy_the_news'
                 )
-                
+
                 sell_backtest = IncrementalBacktest(
                     state_file=BACKTEST_PORTFOLIO_STATE_FILE_SELL,
                     writeup_dir=WRITEUP_DIR,
                     initial_capital=BACKTEST_INITIAL_CAPITAL,
                     strategy='sell_the_news'
                 )
-                
+
                 buy_results = buy_backtest.run(today, today_signals)
                 sell_results = sell_backtest.run(today, today_signals)
-                
+
                 buy_backtest.close()
                 sell_backtest.close()
-                
+
                 if buy_results and sell_results:
                     backtest_section = "\n\n" + format_backtest_for_newsletter(buy_results, sell_results)
                     if verbose:
@@ -951,11 +990,27 @@ async def bundle_writeup(verbose=False):
                     if verbose:
                         logger.warning("Backtest returned no results (continuing without backtest section)")
             else:
-                if verbose:
-                    logger.info("No signals found for today, skipping backtest")
+                # VALIDATION: Detect when signal generation failed silently
+                # If we have news and tokens but no signals parsed, this is likely an error
+                if len(news_data) > 0 and len(tokens_to_include) > 0:
+                    error_msg = (
+                        f"CRITICAL: Signal generation produced ZERO signals despite having "
+                        f"{len(news_data)} news items and {len(tokens_to_include)} tracked tokens. "
+                        f"This indicates an LLM generation failure, response parsing issue, or prompt configuration problem. "
+                        f"Check diagnostic file for details."
+                    )
+                    logger.error(error_msg)
+                    raise ValueError(error_msg)
+                else:
+                    if verbose:
+                        logger.info("No signals found for today (no news/tokens available), skipping backtest")
+        except ValueError as e:
+            # Re-raise validation errors (e.g., zero signals when data exists)
+            logger.error(f"Signal validation failed: {e}")
+            raise
         except Exception as e:
             logger.warning(f"Error running backtest: {e}", exc_info=True)
-            # Continue without backtest section
+            # Continue without backtest section for other errors
     
     # NOW transform trading signals to new format (after parsing for backtest)
     trading_signals = transform_trading_signals_markdown(trading_signals)
