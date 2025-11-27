@@ -88,6 +88,42 @@ Example format (notice: ONLY list tokens with signals, never mention skipped tok
 
 Be sharp, direct, and actionable. Only generate signals when there's real alpha. No fluff, no disclaimers, no fake signals."""
 
+SIGNALS_MESSAGE_FALLBACK = """You're generating trading signals for Leviathan News. Your audience is crypto traders who need actionable signals even from subtle news catalysts.
+
+Tracked Tokens:
+{token_list}
+
+Recent Headlines:
+{headlines}
+
+Generate trading signals in this exact format:
+
+**[Token Symbol] [Token Name]: [SIGNAL]** - [One sentence reason] ([more info](LINK))
+
+SIGNAL TYPES:
+- STRONG BUY: High conviction buy
+- BUY: Positive signal
+- WEAK BUY: Slight positive signal
+- WEAK SELL: Slight negative signal
+- SELL: Clear negative signal
+- STRONG SELL: High conviction sell
+
+IMPORTANT RULES:
+1. You MUST generate at least 3-5 signals for today - traders need actionable direction
+2. Analyze news that mentions any tracked tokens - be more inclusive than strict
+3. Use subtle catalysts: technical upgrades, partnerships, regulatory news, ecosystem growth
+4. WEAK BUY/WEAK SELL signals are acceptable for minor catalysts - provide nuanced viewpoint
+5. If a token appears in headlines at all, it deserves at least a WEAK signal
+6. Format: **$SYMBOL Token Name: SIGNAL** - reason ([more info](URL))
+7. One signal per line, no headers, no commentary, just signals
+8. Order by conviction: STRONG BUY first, then BUY, then WEAK signals
+
+Example (more inclusive than strict mode):
+**$ETH Ethereum: WEAK BUY** - Gas optimization proposals keep improving scalability ([more info](URL))
+**$MON Monad: BUY** - Continued ecosystem momentum with new DeFi protocols ([more info](URL))
+
+Generate actionable signals. Even with modest catalysts, provide direction to traders."""
+
 DIGEST_MESSAGE = """You're writing for Leviathan News - the edgy, irreverent crypto publication that cuts through the BS. Your audience is crypto natives who want alpha, not corporate fluff.
 
 Headlines:
@@ -114,7 +150,7 @@ Write a crypto analysis in this style:
 Channel that Leviathan voice - sharp, contextual, and always adding value beyond the obvious."""
 
 
-prompts = {'signals': SIGNALS_MESSAGE, 'digest': DIGEST_MESSAGE}
+prompts = {'signals': SIGNALS_MESSAGE, 'signals_fallback': SIGNALS_MESSAGE_FALLBACK, 'digest': DIGEST_MESSAGE}
 
 # Function to get SYSTEM_MESSAGE dynamically based on current ACTIVE_PROMPT
 # This ensures it reads the environment variable at call time, not import time
@@ -149,3 +185,12 @@ class SystemMessage:
         return get_system_message().format(**kwargs)
 
 SYSTEM_MESSAGE = SystemMessage()
+
+
+def get_fallback_system_message():
+    """Get fallback signal message when initial generation produces zero signals.
+
+    This more inclusive prompt is used for retry when the strict prompt
+    produces no signals despite having news and tokens available.
+    """
+    return prompts.get('signals_fallback', SIGNALS_MESSAGE_FALLBACK)

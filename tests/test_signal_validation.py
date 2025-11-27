@@ -191,9 +191,17 @@ class TestSignalGenerationValidation:
     """Test validation during signal generation process."""
 
     def test_zero_signals_detection(self):
-        """Test that zero signals with available data triggers error."""
-        # This would be an integration test that would require mocking the LLM
-        # For now, we document the expected behavior
+        """Test that zero signals with available data triggers error or retry.
+
+        Regression test for 2025-11-27 failure where LLM generated zero signals
+        due to strict prompt rules despite having valid news and token data.
+
+        Expected behavior:
+        1. First attempt with strict prompt may produce zero signals
+        2. If zero signals detected, system retries with fallback (more inclusive) prompt
+        3. If fallback produces signals, use them (success)
+        4. If both fail, raise ValueError with diagnostic info
+        """
         pytest.skip("Integration test - requires LLM mocking")
 
     def test_malformed_llm_response_detection(self):

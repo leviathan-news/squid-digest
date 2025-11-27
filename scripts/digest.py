@@ -14,7 +14,7 @@ from squid_digest.core.digest_engine import DigestEngine
 from squid_digest.llm import PerplexityChatProvider
 from squid_digest.config import WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE, BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL, get_writeup_file_path
 import os
-from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT
+from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
 from squid_digest.backtest.incremental_backtest import IncrementalBacktest
 from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsletter
 from squid_digest.backtest.signal_parser import SignalParser
@@ -990,17 +990,94 @@ async def bundle_writeup(verbose=False):
                     if verbose:
                         logger.warning("Backtest returned no results (continuing without backtest section)")
             else:
-                # VALIDATION: Detect when signal generation failed silently
-                # If we have news and tokens but no signals parsed, this is likely an error
+                # VALIDATION: Detect when signal generation produced zero signals
+                # If we have news and tokens but no signals parsed, try retry with fallback prompt
                 if len(news_data) > 0 and len(tokens_to_include) > 0:
-                    error_msg = (
-                        f"CRITICAL: Signal generation produced ZERO signals despite having "
+                    logger.warning(
+                        f"Initial signal generation produced ZERO signals despite having "
                         f"{len(news_data)} news items and {len(tokens_to_include)} tracked tokens. "
-                        f"This indicates an LLM generation failure, response parsing issue, or prompt configuration problem. "
-                        f"Check diagnostic file for details."
+                        f"This may indicate the prompt was too strict. Retrying with fallback (more inclusive) prompt..."
                     )
-                    logger.error(error_msg)
-                    raise ValueError(error_msg)
+
+                    # RETRY: Use fallback prompt that's more inclusive
+                    try:
+                        if verbose:
+                            logger.info("Retrying signal generation with fallback prompt...")
+
+                        fallback_prompt = get_fallback_system_message()
+                        retry_signals = await engine.generate_writeup_with_prompt(
+                            headlines=headlines_summary,
+                            token_list=token_list_str,
+                            system_message=fallback_prompt,  # Use fallback instead of default
+                            prompt_type="signals"
+                        )
+
+                        # Check if retry produced signals
+                        if retry_signals and len(retry_signals.strip()) > 50:
+                            logger.info("✓ Fallback prompt generated signals successfully")
+                            trading_signals = retry_signals  # Use retry results
+
+                            # Re-parse signals from retry
+                            temp_dir = Path(tempfile.gettempdir())
+                            temp_filename = f"signals_{today_str}_retry.md"
+                            tmp_path = temp_dir / temp_filename
+
+                            with open(tmp_path, 'w') as tmp_file:
+                                tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
+
+                            try:
+                                today_signals = signal_parser.parse_file(tmp_path)
+                                if verbose and today_signals:
+                                    logger.info(f"✓ Parsed {len(today_signals)} signals from retry for backtesting")
+                            finally:
+                                if tmp_path.exists():
+                                    tmp_path.unlink()
+
+                            # Continue with backtest using retry signals
+                            if today_signals:
+                                buy_backtest = IncrementalBacktest(
+                                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_BUY,
+                                    writeup_dir=WRITEUP_DIR,
+                                    initial_capital=BACKTEST_INITIAL_CAPITAL,
+                                    strategy='buy_the_news'
+                                )
+                                sell_backtest = IncrementalBacktest(
+                                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_SELL,
+                                    writeup_dir=WRITEUP_DIR,
+                                    initial_capital=BACKTEST_INITIAL_CAPITAL,
+                                    strategy='sell_the_news'
+                                )
+
+                                buy_results = buy_backtest.run(today, today_signals)
+                                sell_results = sell_backtest.run(today, today_signals)
+
+                                buy_backtest.close()
+                                sell_backtest.close()
+
+                                if buy_results and sell_results:
+                                    backtest_section = "\n\n" + format_backtest_for_newsletter(buy_results, sell_results)
+                                    if verbose:
+                                        logger.info("✓ Backtest completed with retry signals")
+                        else:
+                            # Fallback also failed
+                            error_msg = (
+                                f"CRITICAL: Both initial AND fallback signal generation failed. "
+                                f"Initial response: {len(trading_signals)} chars, Retry response: {len(retry_signals) if retry_signals else 0} chars. "
+                                f"This indicates a systemic LLM issue or API failure."
+                            )
+                            logger.error(error_msg)
+                            raise ValueError(error_msg)
+
+                    except ValueError:
+                        # Re-raise ValueError (real errors)
+                        raise
+                    except Exception as e:
+                        logger.error(f"Error during retry: {e}", exc_info=True)
+                        error_msg = (
+                            f"CRITICAL: Retry with fallback prompt failed with exception: {e}. "
+                            f"Original generation also produced zero signals."
+                        )
+                        raise ValueError(error_msg)
                 else:
                     if verbose:
                         logger.info("No signals found for today (no news/tokens available), skipping backtest")
