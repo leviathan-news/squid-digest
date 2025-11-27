@@ -15,22 +15,25 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 26, 2025)
+## 🔥 Latest Headlines (November 27, 2025)
 
-- **BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins.** [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **JPMorgan rolls out a leveraged note tied to BlackRock’s IBIT, offering 1.5× upside into the 2028 halving cycle with partial downside protection marking a sharp pivot as the bank re-enters Bitcoin despite its recent criticism of crypto firms.** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/21356?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Congress introduces a bipartisan bill to crack down on AI-powered impersonation and fraud, raising penalties to $2M and up to 30 years in prison after hackers used AI to mimic top U.S. officials.** [𝕏/@RepTedLieu](https://leviathannews.xyz/redirect/21351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **The UNIfication proposal created by Uniswap Labs and Uniswap Foundation has passed** [𝕏/@haydenzadams](https://leviathannews.xyz/redirect/21347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Risky retail trading is roaring back—and Robinhood CEO Vlad Tenev has become the movement’s cult hero as the app fuels a surge in options, crypto, and prediction-market gambling.** [archive.ph](https://leviathannews.xyz/redirect/21345?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **The Katana Warriors NFT whitelist application is live in the katana_network telegram. A DeFi-enabled NFT where staked NFTs earn yield from the NFT treasury.** [𝕏/@katana](https://leviathannews.xyz/redirect/21359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Aerodrome releases FAQ with more details on the previously announced AERO product** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/21363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Conor McGregor Calls Out Khabib’s NFT Drop, but ZachXBT Lands the Real Punch.** [CoinTelegraph](https://leviathannews.xyz/redirect/21393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Aramco and Pasqal make history with Saudi Arabia’s first quantum computer, renewing questions about the future of blockchain security for Bitcoin and other blockchain networks.** [decrypt.co](https://leviathannews.xyz/redirect/21353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-📊 [View Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/26/signals_2025-11-26.md)
+📊 [View Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/27/signals_2025-11-27.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 21 - Nov 26)
+### 📅 This Week (Nov 21 - Nov 27)
+
+[**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
+Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes. [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -50,7 +53,7 @@ Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-### 📅 Last Week (Nov 12 - Nov 18)
+### 📅 Last Week (Nov 13 - Nov 18)
 
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -70,10 +73,10 @@ Bitcoin Depot, North America's largest Bitcoin ATM operator hits Hong Kong, kick
 [**Thursday, November 13, 2025**](writeup/2025/11/13/signals_2025-11-13.md)
 Balancer team identifies issue with v2 meta-stable pools and performs white hat recovery of $4.1M in coordination with Certora and Seal [𝕏/@Balancer](https://leviathannews.xyz/redirect/20465?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 06 - Nov 12
+
 [**Wednesday, November 12, 2025**](writeup/2025/11/12/signals_2025-11-12.md)
 MacciNFT release the first chapter of her Madoll manga [𝕏/@MAcciNFT](https://leviathannews.xyz/redirect/20390?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 05 - Nov 11
 
 [**Tuesday, November 11, 2025**](writeup/2025/11/11/signals_2025-11-11.md)
 Crypto hacks hit record highs in 2025, with $2.2 billion stolen in the first half of the year, pushing investors toward hardware wallets like Ledger and Trezor for safer crypto storage. [crypto.news](https://leviathannews.xyz/redirect/20300?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -93,10 +96,10 @@ Startup founders are cashing out early as VCs embrace secondary sales—Mesh’s
 [**Thursday, November 06, 2025**](writeup/2025/11/06/signals_2025-11-06.md)
 Lista DAO flags mounting risks in MEVCapital’s USDT Vault and Re7Labs’ USD1 Vault as collateral faces soaring borrowing rates and no repayments, urging both projects to act immediately [𝕏/@lista_dao](https://leviathannews.xyz/redirect/20117?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Oct 31 - Nov 05
+
 [**Wednesday, November 05, 2025**](writeup/2025/11/05/signals_2025-11-05.md)
 Ongoing attacker quietly drains multiple lending protocols over the past month, with projects remaining silent on undisclosed exploits. [𝕏/@specteranalyst](https://leviathannews.xyz/redirect/20005?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Oct 30 - Nov 04
 
 [**Tuesday, November 04, 2025**](writeup/2025/11/04/signals_2025-11-04.md)
 ⚠️Suspected oracle exploit hits MoonwellDeFi on Base and Optimism — attackers manipulated the rsETH/ETH price feed, draining over $1M in what appears to be a MEV-driven attack. [𝕏/@Phalcon_xyz](https://leviathannews.xyz/redirect/20001?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -112,9 +115,6 @@ Sequoia and a16z fuel $3.9B crypto funding wave in October, pouring capital into
 
 [**Friday, October 31, 2025**](writeup/2025/10/31/signals_2025-10-31.md)
 f(x) Protocol launches fxMINT, a way to mint fxUSD while keeping your BTC/ETH exposure, by only paying a one-time open/close fee on the borrowed fxUSD [𝕏/@protocol_fx](https://leviathannews.xyz/redirect/19674?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Thursday, October 30, 2025**](writeup/2025/10/30/signals_2025-10-30.md)
-JPMorgan tokenizes a private-equity fund on its own blockchain in a landmark move to bring alternative investments onchain and mark the first step toward a broader rollout of its fund tokenization platform. [WSJ](https://leviathannews.xyz/redirect/19657?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---

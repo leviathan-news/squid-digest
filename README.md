@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (November 26, 2025)
 
 ### 🔥 Top Headlines
-- **BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins.** [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan rolls out a leveraged note tied to BlackRock’s IBIT, offering 1.5× upside into the 2028 halving cycle with partial downside protection marking a sharp pivot as the bank re-enters Bitcoin despite its recent criticism of crypto firms.** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/21356?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Congress introduces a bipartisan bill to crack down on AI-powered impersonation and fraud, raising penalties to $2M and up to 30 years in prison after hackers used AI to mimic top U.S. officials.** [𝕏/@RepTedLieu](https://leviathannews.xyz/redirect/21351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The UNIfication proposal created by Uniswap Labs and Uniswap Foundation has passed** [𝕏/@haydenzadams](https://leviathannews.xyz/redirect/21347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Risky retail trading is roaring back—and Robinhood CEO Vlad Tenev has become the movement’s cult hero as the app fuels a surge in options, crypto, and prediction-market gambling.** [archive.ph](https://leviathannews.xyz/redirect/21345?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik proposes a 5× gas-limit boost and 5× higher costs for heavy ops as Ethereum shifts to “targeted optimization” to scale throughput without overloading nodes.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Katana Warriors NFT whitelist application is live in the katana_network telegram. A DeFi-enabled NFT where staked NFTs earn yield from the NFT treasury.** [𝕏/@katana](https://leviathannews.xyz/redirect/21359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aerodrome releases FAQ with more details on the previously announced AERO product** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/21363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Conor McGregor Calls Out Khabib’s NFT Drop, but ZachXBT Lands the Real Punch.** [CoinTelegraph](https://leviathannews.xyz/redirect/21393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aramco and Pasqal make history with Saudi Arabia’s first quantum computer, renewing questions about the future of blockchain security for Bitcoin and other blockchain networks.** [decrypt.co](https://leviathannews.xyz/redirect/21353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,686.12 (+16.86%) | [Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md)
-**Sell Strategy:** $7,551.24 (-24.49%) | [Full Analysis →](writeup/2025/11/26/signals_2025-11-26.md)
+**Buy Strategy:** $11,686.12 (+16.86%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
+**Sell Strategy:** $7,551.24 (-24.49%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
 
 **GitHub:** 11-26-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 11-26-25 | [Archives](https://digest.leviathannews.xyz)
