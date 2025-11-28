@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 27, 2025)
+## 📊 Latest News Headlines (November 28, 2025)
 
 ### 🔥 Top Headlines
-- **The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards.** [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Conor McGregor Calls Out Khabib’s NFT Drop, but ZachXBT Lands the Real Punch.** [CoinTelegraph](https://leviathannews.xyz/redirect/21393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aramco and Pasqal make history with Saudi Arabia’s first quantum computer, renewing questions about the future of blockchain security for Bitcoin and other blockchain networks.** [decrypt.co](https://leviathannews.xyz/redirect/21353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UAE’s new financial law brings crypto and blockchain into traditional finance and under Central Bank’s supervision, aiming to position the country as a global financial innovation hub. The law requires all crypto and blockchain organizations operating in or from the UAE to be licensed by the CBUAE, with fines for unlicensed operations reaching up to 1 billion dinars ($272 million).New regulations include faster licensing decisions, risk-based capital rules, and enhanced Shari’ah governance, promoting innovation and compliance in the digital asset space.** [Coindesk](https://leviathannews.xyz/redirect/21371?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SpaceX quietly shifted 1,163 BTC to a Coinbase Prime-linked wallet, sparking speculation about a strategic custody reshuffle. With holdings now at 6,095 BTC, analysts say it’s restructuring.** [crypto.news](https://leviathannews.xyz/redirect/21394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet.** [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether CEO Paolo Ardoino blasts S&P’s “weak” rating for USDT, accusing the agency of defending a broken TradFi system and insisting Tether is overcapitalized and unfairly judged for holding Bitcoin and other nontraditional reserves.** [𝕏/@paoloardoino](https://leviathannews.xyz/redirect/21402?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MegaETH is refunding all pre-deposit funds after outages, cap misfires, and a rogue multisig triggered early deposits. The team now promises a clean restart before Frontier mainnet.** [The Block](https://leviathannews.xyz/redirect/21417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Balancer DAO forum put up a proposal discussing $8M recovery plan after $110M exploit cut TVL by two-thirds. The recovered tokens, spanning multiple networks and assets, will be paid out in the same tokens as originally provided, with a claim mechanism being developed.** [𝕏/@Balancer](https://leviathannews.xyz/redirect/21416?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Creator Zun Cracks a Lost Wallet: One Missing Seed Word, 24,576 Attempts, and a Wild On-Chain Rescue** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/21414?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,548.68 (+15.49%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
-**Sell Strategy:** $7,477.81 (-25.22%) | [Full Analysis →](writeup/2025/11/27/signals_2025-11-27.md)
+**Buy Strategy:** $11,454.13 (+14.54%) | [Full Analysis →](writeup/2025/11/28/signals_2025-11-28.md)
+**Sell Strategy:** $7,477.99 (-25.22%) | [Full Analysis →](writeup/2025/11/28/signals_2025-11-28.md)
 
-**GitHub:** 11-27-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-27-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 11-28-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 11-28-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
