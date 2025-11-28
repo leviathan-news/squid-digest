@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 5593.695097740273,
+  "cash": 6149.169682765107,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 20.95027799244787,
-      "entry_price": 162.70057278202387,
+      "quantity": 24.04099349885364,
+      "entry_price": 165.60583817595386,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -34,14 +34,6 @@
       "entry_price": 1.9186360245044702,
       "entry_date": "2025-11-22T00:00:00",
       "entry_signal": "BUY"
-    },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": 8.002332881994464,
-      "entry_price": 129.24205560619836,
-      "entry_date": "2025-11-22T00:00:00",
-      "entry_signal": "WEAK BUY"
     },
     "ADA": {
       "symbol": "ADA",
@@ -588,6 +580,30 @@
       "signal_type": "WEAK BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-11-28T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 3.0907155064057714,
+      "price": 185.29905080536665,
+      "value": 572.7066496464175,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-28T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SELL",
+      "quantity": 8.002332881994464,
+      "price": 140.9815426711003,
+      "value": 1128.1812346712516,
+      "signal_type": "WEAK SELL",
+      "pnl": 93.94328335721343,
+      "entry_price": 129.24205560619836
     }
   ],
   "daily_values": [
@@ -678,6 +694,10 @@
     [
       "2025-11-27T14:59:43.450853",
       11548.679533201182
+    ],
+    [
+      "2025-11-28T13:27:47.136892",
+      11454.13299292835
     ]
   ],
   "strategy": "buy_the_news"
