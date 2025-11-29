@@ -166,12 +166,12 @@ def _format_strategy_results(lines: list, results: Dict) -> None:
             
             # Format as: 🟢 **BTC**: 0.0196 @ $101,983.74 entry, $101,983.74 current = $2,000.00 (P/L: $+0.00)
             # For shorts: 🔴 **BTC**: -0.0196 (SHORT) @ $101,983.74 entry, ...
-            # Format large quantities with commas (e.g., 1,176.5698)
+            # Format large quantities with commas (e.g., 1,176.56985)
             def format_quantity(qty):
                 # Split into integer and decimal parts
-                parts = f"{abs(qty):.4f}".split(".")
+                parts = f"{abs(qty):.5f}".split(".")
                 integer_part = int(parts[0]) if parts[0] else 0
-                decimal_part = parts[1] if len(parts) > 1 else "0000"
+                decimal_part = parts[1] if len(parts) > 1 else "00000"
                 return f"{integer_part:,}.{decimal_part}"
             
             if is_short:

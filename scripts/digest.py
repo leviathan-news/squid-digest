@@ -484,9 +484,9 @@ def generate_market_snapshot(verbose=False):
             
             if canonical_tag:
                 link = f"https://leviathannews.xyz/t/{canonical_tag}/{symbol}?utm_medium=digest&utm_source=digest&utm_campaign=market_snapshot"
-                return f"* **[{symbol}]({link})**: {price_str} ({emoji} {sign}{change:.2f}%)"
+                return f"* {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.2f}%)"
             else:
-                return f"* **{symbol}**: {price_str} ({emoji} {sign}{change:.2f}%)"
+                return f"* {emoji} **{symbol}**: {price_str} ({sign}{change:.2f}%)"
 
         major_coins = [
             format_major_coin("BTC", btc_price, btc_change),
@@ -531,9 +531,11 @@ def generate_market_snapshot(verbose=False):
                         if change_24h and abs(change_24h) > 0.1:  # Only include meaningful changes
                             # Find symbol from mapping
                             symbol = next((sym for sym, cg_id in token_mapping.items() if cg_id == coin_id), coin_id.upper())
+                            price = data.get("usd", 0)
                             all_movers.append({
                                 "symbol": symbol.upper() if len(symbol) <= 6 else coin_id.upper(),
-                                "change": change_24h
+                                "change": change_24h,
+                                "price": price
                             })
                 except Exception as e:
                     if verbose:
@@ -552,7 +554,16 @@ def generate_market_snapshot(verbose=False):
             symbol = mover['symbol']
             change = mover['change']
             sign = "+" if change >= 0 else ""
-            price_str = f"${mover.get('price', 0):,.2f}" if 'price' in mover else ""
+            emoji = "🟢" if is_gainer else "🔴"
+            price = mover.get('price', 0)
+            
+            # Format price - use comma for prices >= 1000, otherwise no comma
+            if price >= 1000:
+                price_str = f"${price:,.2f}"
+            elif price >= 1:
+                price_str = f"${price:.2f}"
+            else:
+                price_str = f"${price:.4f}"
             
             # Get token canonical_tag for link
             token_info = token_id_map.get(symbol, {})
@@ -560,15 +571,9 @@ def generate_market_snapshot(verbose=False):
             
             if canonical_tag:
                 link = f"https://leviathannews.xyz/t/{canonical_tag}/{symbol}?utm_medium=digest&utm_source=digest&utm_campaign=market_snapshot"
-                if price_str:
-                    return f"* **[{symbol}]({link})**: {price_str} ({sign}{change:.1f}%)"
-                else:
-                    return f"* **[{symbol}]({link})**: ({sign}{change:.1f}%)"
+                return f"* {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.1f}%)"
             else:
-                if price_str:
-                    return f"* **{symbol}**: {price_str} ({sign}{change:.1f}%)"
-                else:
-                    return f"* **{symbol}**: ({sign}{change:.1f}%)"
+                return f"* {emoji} **{symbol}**: {price_str} ({sign}{change:.1f}%)"
 
         gainers_lines = [format_mover(g, is_gainer=True) for g in top_gainers] if top_gainers else ["* No significant gainers"]
         losers_lines = [format_mover(l, is_gainer=False) for l in top_losers] if top_losers else ["* No significant losers"]
