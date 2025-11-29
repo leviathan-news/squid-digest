@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 17723.657712981716,
+  "cash": 18833.034734197867,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -62,8 +62,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.004238061804228262,
-      "entry_price": 88655.24195320283,
+      "quantity": -0.012388712639813578,
+      "entry_price": 90026.38998123004,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -74,6 +74,14 @@
       "entry_price": 0.009617141709909642,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "BUY"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -0.12342483900414151,
+      "entry_price": 2996.0933584282434,
+      "entry_date": "2025-11-29T00:00:00",
+      "entry_signal": "SELL"
     }
   },
   "trades": [
@@ -664,6 +672,30 @@
       "signal_type": "WEAK BUY",
       "pnl": -205.2916618775721,
       "entry_price": 127.74517100051774
+    },
+    {
+      "date": "2025-11-29T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008150650835585317,
+      "price": 90739.34041951336,
+      "value": 739.5846808107672,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-29T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.12342483900414151,
+      "price": 2996.0933584282434,
+      "value": 369.7923404053836,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -758,6 +790,10 @@
     [
       "2025-11-28T13:27:47.136892",
       7477.989210737547
+    ],
+    [
+      "2025-11-29T14:18:12.143544",
+      7395.846808107672
     ]
   ],
   "strategy": "sell_the_news"
