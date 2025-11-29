@@ -8,7 +8,7 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 28, 2025)
+## 📊 Latest News Headlines (November 29, 2025)
 
 ### 🔥 Top Headlines
 - **Ethereum's upgrade 'Fusaka' is going live December 3rd** [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
@@ -18,11 +18,11 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 - **VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.** [DL News](https://leviathannews.xyz/redirect/21457?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,454.13 (+14.54%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
-**Sell Strategy:** $7,477.99 (-25.22%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
+**Buy Strategy:** $11,576.68 (+15.77%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
+**Sell Strategy:** $7,395.85 (-26.04%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
 
-**GitHub:** 11-28-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-28-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 11-29-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 11-29-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
