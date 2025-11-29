@@ -15,22 +15,25 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 28, 2025)
+## 🔥 Latest Headlines (November 29, 2025)
 
-- **A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet.** [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Tether CEO Paolo Ardoino blasts S&P’s “weak” rating for USDT, accusing the agency of defending a broken TradFi system and insisting Tether is overcapitalized and unfairly judged for holding Bitcoin and other nontraditional reserves.** [𝕏/@paoloardoino](https://leviathannews.xyz/redirect/21402?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **MegaETH is refunding all pre-deposit funds after outages, cap misfires, and a rogue multisig triggered early deposits. The team now promises a clean restart before Frontier mainnet.** [The Block](https://leviathannews.xyz/redirect/21417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Balancer DAO forum put up a proposal discussing $8M recovery plan after $110M exploit cut TVL by two-thirds. The recovered tokens, spanning multiple networks and assets, will be paid out in the same tokens as originally provided, with a claim mechanism being developed.** [𝕏/@Balancer](https://leviathannews.xyz/redirect/21416?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Creator Zun Cracks a Lost Wallet: One Missing Seed Word, 24,576 Attempts, and a Wild On-Chain Rescue** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/21414?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Ethereum's upgrade 'Fusaka' is going live December 3rd** [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **The Coinbase Bitcoin Premium flipped positive for the first time in weeks, signalling a rebound in US demand as silver hits a record high and hard-asset appetite returns. With seller exhaustion and Fed-pivot hopes rising, Bitcoin could see a more active December.** [Beincrypto](https://leviathannews.xyz/redirect/21443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **São Paulo will launch blockchain-based microloans for farmers next month, using Tanssi-powered infrastructure to deliver fast, reliable loans of up to R$15,000 ($2,800) after a successful rural pilot.** [Coindesk](https://leviathannews.xyz/redirect/21455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Mobile privacy in 2025 is basically dead on stock Android and iOS. Pixels + GrapheneOS are now the gold standard. If you’re not hardening your device, you’re handing Big Tech your entire life.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/21458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.** [DL News](https://leviathannews.xyz/redirect/21457?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-📊 [View Full Analysis →](writeup/2025/11/28/signals_2025-11-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/28/signals_2025-11-28.md)
+📊 [View Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/29/signals_2025-11-29.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 21 - Nov 28)
+### 📅 This Week (Nov 22 - Nov 29)
+
+[**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
+Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -53,10 +56,10 @@ SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as s
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Last Week (Nov 15 - Nov 21)
+
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 14 - Nov 18)
 
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -70,10 +73,10 @@ ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology pl
 [**Saturday, November 15, 2025**](writeup/2025/11/15/signals_2025-11-15.md)
 Zama promises to employ a 'burn and mint model' that reward operators, announcing their token launch which will be used for protocol fees and staking. [𝕏/@zama](https://leviathannews.xyz/redirect/20577?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 08 - Nov 14
+
 [**Friday, November 14, 2025**](writeup/2025/11/14/signals_2025-11-14.md)
 Bitcoin Depot, North America's largest Bitcoin ATM operator hits Hong Kong, kicking off their plans of expansion in the Asian market. [CoinTelegraph](https://leviathannews.xyz/redirect/20473?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 07 - Nov 13
 
 [**Thursday, November 13, 2025**](writeup/2025/11/13/signals_2025-11-13.md)
 Balancer team identifies issue with v2 meta-stable pools and performs white hat recovery of $4.1M in coordination with Certora and Seal [𝕏/@Balancer](https://leviathannews.xyz/redirect/20465?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -93,10 +96,10 @@ Kodiak launches points for perps! [𝕏/@KodiakFi](https://leviathannews.xyz/red
 [**Saturday, November 08, 2025**](writeup/2025/11/08/signals_2025-11-08.md)
 November SQUID Drop (covering October) Discussion Thread [leviathannews.substack](https://leviathannews.xyz/redirect/20160?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 02 - Nov 07
+
 [**Friday, November 07, 2025**](writeup/2025/11/07/signals_2025-11-07.md)
 Startup founders are cashing out early as VCs embrace secondary sales—Mesh’s $20M and Farcaster’s $15M founder payouts highlight a growing trend of “taking some off the table” before exits. [view.mail.fortune](https://leviathannews.xyz/redirect/20126?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 01 - Nov 06
 
 [**Thursday, November 06, 2025**](writeup/2025/11/06/signals_2025-11-06.md)
 Lista DAO flags mounting risks in MEVCapital’s USDT Vault and Re7Labs’ USD1 Vault as collateral faces soaring borrowing rates and no repayments, urging both projects to act immediately [𝕏/@lista_dao](https://leviathannews.xyz/redirect/20117?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -112,9 +115,6 @@ Phalcon identifies the root cause of the Balancer hack, now up to 120M drained [
 
 [**Sunday, November 02, 2025**](writeup/2025/11/02/signals_2025-11-02.md)
 Circle CEO Jeremy Allaire calls Arc “an economic OS for the internet,” highlighting its dollar-based fees, sub-second finality, and enterprise privacy features as USDC adoption surges across emerging markets ahead of Arc’s 2026 mainnet launch. [Coindesk](https://leviathannews.xyz/redirect/19839?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Saturday, November 01, 2025**](writeup/2025/11/01/signals_2025-11-01.md)
-Sequoia and a16z fuel $3.9B crypto funding wave in October, pouring capital into projects like Stripe’s Tempo and Polymarket as venture appetite defies market turmoil. [DL News](https://leviathannews.xyz/redirect/19756?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---

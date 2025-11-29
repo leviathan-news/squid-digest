@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (November 28, 2025)
 
 ### 🔥 Top Headlines
-- **A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet.** [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether CEO Paolo Ardoino blasts S&P’s “weak” rating for USDT, accusing the agency of defending a broken TradFi system and insisting Tether is overcapitalized and unfairly judged for holding Bitcoin and other nontraditional reserves.** [𝕏/@paoloardoino](https://leviathannews.xyz/redirect/21402?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MegaETH is refunding all pre-deposit funds after outages, cap misfires, and a rogue multisig triggered early deposits. The team now promises a clean restart before Frontier mainnet.** [The Block](https://leviathannews.xyz/redirect/21417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Balancer DAO forum put up a proposal discussing $8M recovery plan after $110M exploit cut TVL by two-thirds. The recovered tokens, spanning multiple networks and assets, will be paid out in the same tokens as originally provided, with a claim mechanism being developed.** [𝕏/@Balancer](https://leviathannews.xyz/redirect/21416?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Creator Zun Cracks a Lost Wallet: One Missing Seed Word, 24,576 Attempts, and a Wild On-Chain Rescue** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/21414?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum's upgrade 'Fusaka' is going live December 3rd** [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Coinbase Bitcoin Premium flipped positive for the first time in weeks, signalling a rebound in US demand as silver hits a record high and hard-asset appetite returns. With seller exhaustion and Fed-pivot hopes rising, Bitcoin could see a more active December.** [Beincrypto](https://leviathannews.xyz/redirect/21443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **São Paulo will launch blockchain-based microloans for farmers next month, using Tanssi-powered infrastructure to deliver fast, reliable loans of up to R$15,000 ($2,800) after a successful rural pilot.** [Coindesk](https://leviathannews.xyz/redirect/21455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mobile privacy in 2025 is basically dead on stock Android and iOS. Pixels + GrapheneOS are now the gold standard. If you’re not hardening your device, you’re handing Big Tech your entire life.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/21458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.** [DL News](https://leviathannews.xyz/redirect/21457?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,454.13 (+14.54%) | [Full Analysis →](writeup/2025/11/28/signals_2025-11-28.md)
-**Sell Strategy:** $7,477.99 (-25.22%) | [Full Analysis →](writeup/2025/11/28/signals_2025-11-28.md)
+**Buy Strategy:** $11,454.13 (+14.54%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
+**Sell Strategy:** $7,477.99 (-25.22%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
 
 **GitHub:** 11-28-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 11-28-25 | [Archives](https://digest.leviathannews.xyz)
