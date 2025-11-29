@@ -212,6 +212,138 @@ class TestSignalGenerationValidation:
         """Test that empty LLM responses are rejected with diagnostic info."""
         pytest.skip("Integration test - requires LLM mocking")
 
+    def test_wrong_format_llm_response_rejection(self):
+        """Test that LLM responses in wrong format are rejected.
+
+        Regression test for 2025-11-29 failure where LLM output emojis
+        instead of the expected **$SYMBOL Token: SIGNAL** format.
+
+        Expected behavior:
+        1. LLM generates signals in wrong format (e.g., with emojis)
+        2. Format validation detects mismatch and rejects response
+        3. ValueError is raised with diagnostic info
+        4. Diagnostic file is saved for debugging
+        """
+        pytest.skip("Integration test - requires LLM mocking")
+
+
+class TestBacktestValidation:
+    """Test backtest section validation."""
+
+    def test_missing_backtest_section_detected(self):
+        """Test that missing backtest sections are caught.
+
+        Regression test for 2025-11-29 where signals were present but
+        backtest section was missing due to parsing failure.
+        """
+        from scripts.validate_signals_output import validate_signals_file
+
+        # Content with signals but NO backtest section
+        signals_without_backtest = """# Crypto Trading Signals
+
+## 💰 Market Snapshot
+
+Some market data
+
+## 🎯 Trading Signals
+
+🟢 Bitcoin (<a href="url">$BTC</a>): STRONG BUY - Reason 1
+🟢 Ethereum (<a href="url">$ETH</a>): BUY - Reason 2
+
+---
+*Disclaimer*
+"""
+
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write(signals_without_backtest)
+            f.flush()
+            temp_path = Path(f.name)
+
+        try:
+            is_valid, message = validate_signals_file(temp_path)
+            assert not is_valid, "Signals without backtest should fail validation"
+            assert "backtest section is missing" in message.lower()
+            assert "2 signals" in message  # Should detect 2 signals
+        finally:
+            temp_path.unlink()
+
+    def test_backtest_section_present_passes(self):
+        """Test that files with proper backtest sections pass validation."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        complete_signals_file = """# Crypto Trading Signals
+
+## 💰 Market Snapshot
+
+Some market data
+
+## 🎯 Trading Signals
+
+🟢 Bitcoin (<a href="url">$BTC</a>): STRONG BUY - Reason 1
+🟢 Ethereum (<a href="url">$ETH</a>): BUY - Reason 2
+
+## 📈 Backtest Results
+### Buy the News Strategy
+
+*How would a portfolio perform if it traded daily on Leviathan News headlines?*
+
+- **Portfolio Value:** `$11,454.13`
+- **Total Return:** +14.54%
+
+### Sell the News Strategy
+
+*How would a portfolio perform if it traded daily on Leviathan News headlines?*
+
+- **Portfolio Value:** `$8,123.45`
+- **Total Return:** -18.77%
+
+---
+*Disclaimer*
+"""
+
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write(complete_signals_file)
+            f.flush()
+            temp_path = Path(f.name)
+
+        try:
+            is_valid, message = validate_signals_file(temp_path)
+            assert is_valid, f"Complete signals file should pass. Message: {message}"
+            assert "2 valid signals" in message
+            assert "backtest section present" in message
+        finally:
+            temp_path.unlink()
+
+    def test_incomplete_backtest_section_detected(self):
+        """Test that incomplete backtest sections are caught."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        signals_with_incomplete_backtest = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+🟢 Bitcoin (<a href="url">$BTC</a>): STRONG BUY - Reason 1
+
+## 📈 Backtest Results
+
+Just a header, no real content.
+
+---
+*Disclaimer*
+"""
+
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write(signals_with_incomplete_backtest)
+            f.flush()
+            temp_path = Path(f.name)
+
+        try:
+            is_valid, message = validate_signals_file(temp_path)
+            assert not is_valid, "Incomplete backtest should fail validation"
+            assert "missing required content" in message.lower() or "too short" in message.lower()
+        finally:
+            temp_path.unlink()
+
 
 class TestSignalParserRobustness:
     """Test that signal parser handles edge cases."""

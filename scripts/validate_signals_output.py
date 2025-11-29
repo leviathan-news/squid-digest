@@ -119,8 +119,50 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
             f"Sample line: {signal_lines[0] if signal_lines else '(none)'}"
         )
 
+    # CRITICAL: Check for backtest section
+    # If trading signals exist, we MUST have backtest results
+    # This prevents the 2025-11-29 failure mode where signals were generated but not backtested
+    backtest_header = "## 📈 Backtest Results"
+    if backtest_header not in content:
+        return False, (
+            f"CRITICAL: Trading signals found ({len(valid_signals)} signals) but backtest section is missing! "
+            f"This indicates signal parsing failed (likely LLM format mismatch). "
+            f"Expected to find '{backtest_header}' section after trading signals."
+        )
+
+    # Extract backtest section and validate it has content
+    backtest_parts = content.split(backtest_header, 1)
+    if len(backtest_parts) < 2:
+        return False, "Could not extract backtest section"
+
+    backtest_section = backtest_parts[1]
+    # Find the end of backtest section (--- separator or end of file)
+    separator_match = re.search(r'\n---\n', backtest_section)
+    if separator_match:
+        backtest_section = backtest_section[:separator_match.start()]
+
+    backtest_section = backtest_section.strip()
+
+    # Check for meaningful backtest content
+    # Should contain portfolio values, strategy names, etc.
+    if len(backtest_section) < 100:
+        return False, (
+            f"Backtest section exists but is too short ({len(backtest_section)} chars). "
+            f"This indicates backtest may have failed."
+        )
+
+    # Check for key backtest indicators
+    required_backtest_terms = ["Buy the News", "Sell the News", "Portfolio Value"]
+    missing_terms = [term for term in required_backtest_terms if term not in backtest_section]
+
+    if missing_terms:
+        return False, (
+            f"Backtest section missing required content: {', '.join(missing_terms)}. "
+            f"This indicates incomplete backtest results."
+        )
+
     # All validations passed
-    message = f"✓ Signals file validation passed ({len(valid_signals)} valid signals found)"
+    message = f"✓ Signals file validation passed ({len(valid_signals)} valid signals found, backtest section present)"
     return True, message
 
 
