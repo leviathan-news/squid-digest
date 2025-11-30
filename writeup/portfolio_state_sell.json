@@ -62,8 +62,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.012388712639813578,
-      "entry_price": 90026.38998123004,
+      "quantity": -0.020687945171397208,
+      "entry_price": 90697.563041158,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -82,6 +82,14 @@
       "entry_price": 2996.0933584282434,
       "entry_date": "2025-11-29T00:00:00",
       "entry_signal": "SELL"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "quantity": 57.72169968213566,
+      "entry_price": 13.184558668377209,
+      "entry_date": "2025-11-30T00:00:00",
+      "entry_signal": "STRONG BUY"
     }
   },
   "trades": [
@@ -696,6 +704,30 @@
       "signal_type": "SELL",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-11-30T00:00:00",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "BUY",
+      "quantity": 57.72169968213566,
+      "price": 13.184558668377209,
+      "value": 761.0351358975677,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-11-30T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008299232531583628,
+      "price": 91699.45931763764,
+      "value": 761.0351358975677,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -794,6 +826,10 @@
     [
       "2025-11-29T14:18:12.143544",
       7395.846808107672
+    ],
+    [
+      "2025-11-30T13:23:07.143165",
+      7610.351358975677
     ]
   ],
   "strategy": "sell_the_news"
