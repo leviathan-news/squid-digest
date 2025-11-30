@@ -8,21 +8,20 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 29, 2025)
+## 📊 Latest News Headlines (November 30, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum's upgrade 'Fusaka' is going live December 3rd** [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Coinbase Bitcoin Premium flipped positive for the first time in weeks, signalling a rebound in US demand as silver hits a record high and hard-asset appetite returns. With seller exhaustion and Fed-pivot hopes rising, Bitcoin could see a more active December.** [Beincrypto](https://leviathannews.xyz/redirect/21443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **São Paulo will launch blockchain-based microloans for farmers next month, using Tanssi-powered infrastructure to deliver fast, reliable loans of up to R$15,000 ($2,800) after a successful rural pilot.** [Coindesk](https://leviathannews.xyz/redirect/21455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mobile privacy in 2025 is basically dead on stock Android and iOS. Pixels + GrapheneOS are now the gold standard. If you’re not hardening your device, you’re handing Big Tech your entire life.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/21458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.** [DL News](https://leviathannews.xyz/redirect/21457?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years.** [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink is sliding despite next week’s LINK ETF launch, with price down 53% and exchange reserves collapsing to multi-year lows. A bearish head-and-shoulders pattern now puts $10—and possibly $8—in sight.** [crypto.news](https://leviathannews.xyz/redirect/21459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin ETFs are now BlackRock’s top revenue source, Exec says. The firm's US-listed spot bitcoin ETF IBIT, launched in January 2024, reached $70 billion in assets in record time and has generated hundreds of millions in fees. IBIT now holds over 3% of bitcoin's total supply, and BlackRock's own Strategic Income Opportunities Portfolio has increased its stake in IBIT by 14%, betting on the ETF's continued growth.** [archive.is](https://leviathannews.xyz/redirect/21468?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto payments firm Truther to launch non-custodial USDT Visa Card in El Salvador on January 29, 2026. The card doesn't require preloading funds or custodial services, and carries a 2% fee on currency conversions, with no IOF tax for Brazilian users. Truther plans to expand its services to other countries, including Argentina, Mexico, Colombia, and Russia, and will integrate more local stablecoins into its self-custody wallet by early 2026.** [archive.is](https://leviathannews.xyz/redirect/21466?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,576.68 (+15.77%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
-**Sell Strategy:** $7,395.85 (-26.04%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
+**Buy Strategy:** $11,275.37 (+12.75%) | [Full Analysis →](writeup/2025/11/30/signals_2025-11-30.md)
+**Sell Strategy:** $7,610.35 (-23.90%) | [Full Analysis →](writeup/2025/11/30/signals_2025-11-30.md)
 
-**GitHub:** 11-29-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-29-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 11-30-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 11-30-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
