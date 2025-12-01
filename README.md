@@ -8,20 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 30, 2025)
+## 📊 Latest News Headlines (December 01, 2025)
 
 ### 🔥 Top Headlines
-- **Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years.** [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink is sliding despite next week’s LINK ETF launch, with price down 53% and exchange reserves collapsing to multi-year lows. A bearish head-and-shoulders pattern now puts $10—and possibly $8—in sight.** [crypto.news](https://leviathannews.xyz/redirect/21459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin ETFs are now BlackRock’s top revenue source, Exec says. The firm's US-listed spot bitcoin ETF IBIT, launched in January 2024, reached $70 billion in assets in record time and has generated hundreds of millions in fees. IBIT now holds over 3% of bitcoin's total supply, and BlackRock's own Strategic Income Opportunities Portfolio has increased its stake in IBIT by 14%, betting on the ETF's continued growth.** [archive.is](https://leviathannews.xyz/redirect/21468?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto payments firm Truther to launch non-custodial USDT Visa Card in El Salvador on January 29, 2026. The card doesn't require preloading funds or custodial services, and carries a 2% fee on currency conversions, with no IOF tax for Brazilian users. Truther plans to expand its services to other countries, including Argentina, Mexico, Colombia, and Russia, and will integrate more local stablecoins into its self-custody wallet by early 2026.** [archive.is](https://leviathannews.xyz/redirect/21466?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash** [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.** [Paragraph](https://leviathannews.xyz/redirect/21472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Telegram launches Cocoon a confidential compute network for developers powered by TON token** [ꘜ/@durov](https://leviathannews.xyz/redirect/21471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kodiak perps have now surpassed $500M in lifetime volume!** [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/21470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korea is fast-tracking a bank-led stablecoin framework, aiming to pass its digital asset act by January. Clearer rules, tighter security, and a push to stay competitive are driving the urgency.** [crypto.news](https://leviathannews.xyz/redirect/21478?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,275.37 (+12.75%) | [Full Analysis →](writeup/2025/11/30/signals_2025-11-30.md)
-**Sell Strategy:** $7,610.35 (-23.90%) | [Full Analysis →](writeup/2025/11/30/signals_2025-11-30.md)
+**Buy Strategy:** $10,779.35 (+7.79%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
+**Sell Strategy:** $8,469.37 (-15.31%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
 
-**GitHub:** 11-30-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-30-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-01-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-01-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

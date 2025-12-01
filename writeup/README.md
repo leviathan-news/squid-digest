@@ -15,21 +15,25 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 30, 2025)
+## 🔥 Latest Headlines (December 01, 2025)
 
-- **Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years.** [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Chainlink is sliding despite next week’s LINK ETF launch, with price down 53% and exchange reserves collapsing to multi-year lows. A bearish head-and-shoulders pattern now puts $10—and possibly $8—in sight.** [crypto.news](https://leviathannews.xyz/redirect/21459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Bitcoin ETFs are now BlackRock’s top revenue source, Exec says. The firm's US-listed spot bitcoin ETF IBIT, launched in January 2024, reached $70 billion in assets in record time and has generated hundreds of millions in fees. IBIT now holds over 3% of bitcoin's total supply, and BlackRock's own Strategic Income Opportunities Portfolio has increased its stake in IBIT by 14%, betting on the ETF's continued growth.** [archive.is](https://leviathannews.xyz/redirect/21468?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Crypto payments firm Truther to launch non-custodial USDT Visa Card in El Salvador on January 29, 2026. The card doesn't require preloading funds or custodial services, and carries a 2% fee on currency conversions, with no IOF tax for Brazilian users. Truther plans to expand its services to other countries, including Argentina, Mexico, Colombia, and Russia, and will integrate more local stablecoins into its self-custody wallet by early 2026.** [archive.is](https://leviathannews.xyz/redirect/21466?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash** [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.** [Paragraph](https://leviathannews.xyz/redirect/21472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Telegram launches Cocoon a confidential compute network for developers powered by TON token** [ꘜ/@durov](https://leviathannews.xyz/redirect/21471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Kodiak perps have now surpassed $500M in lifetime volume!** [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/21470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **South Korea is fast-tracking a bank-led stablecoin framework, aiming to pass its digital asset act by January. Clearer rules, tighter security, and a push to stay competitive are driving the urgency.** [crypto.news](https://leviathannews.xyz/redirect/21478?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-📊 [View Full Analysis →](writeup/2025/11/30/signals_2025-11-30.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/11/30/signals_2025-11-30.md)
+📊 [View Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/01/signals_2025-12-01.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 23 - Nov 30)
+### 📅 This Week (Nov 24 - Dec 01)
+
+[**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
+Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
 Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -52,10 +56,10 @@ Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pang
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Last Week (Nov 17 - Nov 23)
+
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 16 - Nov 22)
 
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -69,10 +73,10 @@ Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that
 [**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
 Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 10 - Nov 16
+
 [**Sunday, November 16, 2025**](writeup/2025/11/16/signals_2025-11-16.md)
 ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M. [Globenewswire](https://leviathannews.xyz/redirect/20601?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 09 - Nov 15
 
 [**Saturday, November 15, 2025**](writeup/2025/11/15/signals_2025-11-15.md)
 Zama promises to employ a 'burn and mint model' that reward operators, announcing their token launch which will be used for protocol fees and staking. [𝕏/@zama](https://leviathannews.xyz/redirect/20577?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -92,10 +96,10 @@ Crypto hacks hit record highs in 2025, with $2.2 billion stolen in the first hal
 [**Monday, November 10, 2025**](writeup/2025/11/10/signals_2025-11-10.md)
 Yield Basis: upcoming migration to new pools implementation [𝕏/@yieldbasis](https://leviathannews.xyz/redirect/20296?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 04 - Nov 09
+
 [**Sunday, November 09, 2025**](writeup/2025/11/09/signals_2025-11-09.md)
 Kodiak launches points for perps! [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/20226?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 03 - Nov 08
 
 [**Saturday, November 08, 2025**](writeup/2025/11/08/signals_2025-11-08.md)
 November SQUID Drop (covering October) Discussion Thread [leviathannews.substack](https://leviathannews.xyz/redirect/20160?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -111,9 +115,6 @@ Ongoing attacker quietly drains multiple lending protocols over the past month, 
 
 [**Tuesday, November 04, 2025**](writeup/2025/11/04/signals_2025-11-04.md)
 ⚠️Suspected oracle exploit hits MoonwellDeFi on Base and Optimism — attackers manipulated the rsETH/ETH price feed, draining over $1M in what appears to be a MEV-driven attack. [𝕏/@Phalcon_xyz](https://leviathannews.xyz/redirect/20001?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Monday, November 03, 2025**](writeup/2025/11/03/signals_2025-11-03.md)
-Phalcon identifies the root cause of the Balancer hack, now up to 120M drained [𝕏/@phalcon_xyz](https://leviathannews.xyz/redirect/19917?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
