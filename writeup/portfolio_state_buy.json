@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 4412.667060838797,
+  "cash": 3873.699754953282,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -62,8 +62,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.03160634605987439,
-      "entry_price": 90680.372128018,
+      "quantity": 0.03787859810082811,
+      "entry_price": 89893.57312374764,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -90,6 +90,22 @@
       "entry_price": 13.184558668377209,
       "entry_date": "2025-11-30T00:00:00",
       "entry_signal": "STRONG SELL"
+    },
+    "YFI": {
+      "symbol": "YFI",
+      "token_name": "yearn.finance",
+      "quantity": -0.2802227512076091,
+      "entry_price": 3846.706261806765,
+      "entry_date": "2025-12-01T00:00:00",
+      "entry_signal": "STRONG SELL"
+    },
+    "TON": {
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "quantity": 720.4564579118403,
+      "entry_price": 1.4961828711970988,
+      "entry_date": "2025-12-01T00:00:00",
+      "entry_signal": "STRONG BUY"
     }
   },
   "trades": [
@@ -668,6 +684,42 @@
       "signal_type": "STRONG BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-01T00:00:00",
+      "symbol": "YFI",
+      "token_name": "yearn.finance",
+      "action": "SHORT",
+      "quantity": 0.2802227512076091,
+      "price": 3846.706261806765,
+      "value": 1077.934611771029,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-01T00:00:00",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "BUY",
+      "quantity": 720.4564579118403,
+      "price": 1.4961828711970988,
+      "value": 1077.934611771029,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-01T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.006272252040953719,
+      "price": 85928.83423153426,
+      "value": 538.9673058855145,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -770,6 +822,10 @@
     [
       "2025-11-30T13:23:07.143165",
       11275.368650776905
+    ],
+    [
+      "2025-12-01T13:32:22.641852",
+      10779.346117710289
     ]
   ],
   "strategy": "buy_the_news"
