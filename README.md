@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (November 29, 2025)
+## 📊 Latest News Headlines (December 01, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum's upgrade 'Fusaka' is going live December 3rd** [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Coinbase Bitcoin Premium flipped positive for the first time in weeks, signalling a rebound in US demand as silver hits a record high and hard-asset appetite returns. With seller exhaustion and Fed-pivot hopes rising, Bitcoin could see a more active December.** [Beincrypto](https://leviathannews.xyz/redirect/21443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **São Paulo will launch blockchain-based microloans for farmers next month, using Tanssi-powered infrastructure to deliver fast, reliable loans of up to R$15,000 ($2,800) after a successful rural pilot.** [Coindesk](https://leviathannews.xyz/redirect/21455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mobile privacy in 2025 is basically dead on stock Android and iOS. Pixels + GrapheneOS are now the gold standard. If you’re not hardening your device, you’re handing Big Tech your entire life.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/21458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.** [DL News](https://leviathannews.xyz/redirect/21457?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash** [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.** [Paragraph](https://leviathannews.xyz/redirect/21472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Telegram launches Cocoon a confidential compute network for developers powered by TON token** [ꘜ/@durov](https://leviathannews.xyz/redirect/21471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kodiak perps have now surpassed $500M in lifetime volume!** [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/21470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korea is fast-tracking a bank-led stablecoin framework, aiming to pass its digital asset act by January. Clearer rules, tighter security, and a push to stay competitive are driving the urgency.** [crypto.news](https://leviathannews.xyz/redirect/21478?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,576.68 (+15.77%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
-**Sell Strategy:** $7,395.85 (-26.04%) | [Full Analysis →](writeup/2025/11/29/signals_2025-11-29.md)
+**Buy Strategy:** $10,779.35 (+7.79%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
+**Sell Strategy:** $8,469.37 (-15.31%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
 
-**GitHub:** 11-29-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 11-29-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-01-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-01-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
