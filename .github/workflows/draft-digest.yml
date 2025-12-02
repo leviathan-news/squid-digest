@@ -122,6 +122,7 @@ jobs:
         else
           git add writeup/
           git commit -m "🤖 Auto-generated daily digest draft - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
         fi
 
@@ -156,6 +157,7 @@ jobs:
         else
           git add README.md writeup/README.md
           git commit -m "📊 Update READMEs with daily signals and navigation - $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
           git push
           echo "✓ README changes pushed successfully"
         fi
