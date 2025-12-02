@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 19256.50304245994,
+  "cash": 19063.26711034066,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -106,6 +106,14 @@
       "entry_price": 1.4961828711970988,
       "entry_date": "2025-12-01T00:00:00",
       "entry_signal": "STRONG SELL"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 1.392716862451671,
+      "entry_price": 138.74746355774997,
+      "entry_date": "2025-12-02T00:00:00",
+      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -780,6 +788,18 @@
       "signal_type": "SELL",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-02T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 1.392716862451671,
+      "price": 138.74746355774997,
+      "value": 193.2359321192771,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -886,6 +906,10 @@
     [
       "2025-12-01T13:32:22.641852",
       8469.36616524144
+    ],
+    [
+      "2025-12-02T16:35:31.335516",
+      7729.437284771084
     ]
   ],
   "strategy": "sell_the_news"
