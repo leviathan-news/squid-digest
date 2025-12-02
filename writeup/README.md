@@ -141,6 +141,51 @@ Circle CEO Jeremy Allaire calls Arc “an economic OS for the internet,” highl
 - Latest writeups are published to: [https://digest.leviathannews.xyz](https://digest.leviathannews.xyz)
 - This is the polished, web-friendly version of our trading signals
 
+---
+
+## 📡 RSS Feed
+
+Subscribe to get daily digests delivered automatically to your RSS feed reader!
+
+### Feed URL
+
+```
+https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/feed.xml
+```
+
+### How to Subscribe
+
+**RSS Feed Readers:**
+1. Copy the feed URL above
+2. Paste it into your RSS reader (Feedly, NewsBlur, Inoreader, etc.)
+3. Get new digests automatically every day
+
+**Substack Import:**
+1. Go to your Substack Settings → Import
+2. Select "RSS feed"
+3. Paste the feed URL
+4. Substack will automatically import new digests daily
+
+**Email Notifications:**
+- Use services like [Blogtrottr](https://blogtrottr.com/) or [IFTTT](https://ifttt.com/) to receive email alerts when new feed items are published
+
+### What's in the Feed?
+
+- **Last 30 daily digests** (signals_YYYY-MM-DD.md)
+- **Full HTML content** formatted for easy reading
+- **Trading signals** with backtest results
+- **Market snapshots** and top stories
+- **Direct links** to original markdown files on GitHub
+
+### Feed Details
+
+- **Format**: RSS 2.0 with full content
+- **Update frequency**: Daily (after each digest generation)
+- **Content**: Complete digest with HTML formatting
+- **Limit**: Most recent 30 items
+
+---
+
 ## 📖 Understanding the Files
 
 ### Trading Signals Files

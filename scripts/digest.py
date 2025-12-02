@@ -1264,6 +1264,27 @@ async def bundle_writeup(verbose=False):
         logger.info(f"✓ Created: {filename}")
         logger.info("Trading signals generation completed successfully")
 
+    # Generate RSS feed
+    if verbose:
+        logger.info("Generating RSS feed...")
+
+    try:
+        from squid_digest.rss.feed_generator import RSSFeedGenerator
+        from squid_digest.rss.digest_scanner import DigestScanner
+
+        scanner = DigestScanner(WRITEUP_DIR)
+        digests = scanner.scan(limit=30, file_pattern="signals_*.md")
+
+        generator = RSSFeedGenerator()
+        feed_path = WRITEUP_DIR / "feed.xml"
+        items_added = generator.generate_feed(digests, feed_path)
+
+        if verbose:
+            logger.info(f"✓ Generated RSS feed: {feed_path} ({items_added} items)")
+    except Exception as e:
+        logger.warning(f"Could not generate RSS feed: {e}")
+        # Continue without RSS (non-critical)
+
 
 async def main(fetch=True, limit=10, each_news=False, bundle=True, verbose=False, resolve_urls=False, fetch_tokens_flag=True):
     if verbose:

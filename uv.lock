@@ -415,6 +415,16 @@ wheels = [
 ]
 
 [[package]]
+name = "feedgen"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lxml" },
+    { name = "python-dateutil" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6b/59/be0a6f852b5dfbf19e6c8e962c8f41407697f9f52a7902250ed98683ae89/feedgen-1.0.0.tar.gz", hash = "sha256:d9bd51c3b5e956a2a52998c3708c4d2c729f2fcc311188e1e5d3b9726393546a", size = 258496, upload-time = "2023-12-25T18:04:08.421Z" }
+
+[[package]]
 name = "filelock"
 version = "3.20.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2233,6 +2243,7 @@ dependencies = [
     { name = "beautifulsoup4" },
     { name = "click" },
     { name = "django" },
+    { name = "feedgen" },
     { name = "httpx" },
     { name = "langchain" },
     { name = "langchain-community" },
@@ -2253,6 +2264,7 @@ requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.14.2" },
     { name = "click", specifier = ">=8.1.0" },
     { name = "django", specifier = ">=5.0,<6.0" },
+    { name = "feedgen", specifier = ">=1.0.0" },
     { name = "httpx", specifier = ">=0.27.0" },
     { name = "langchain", specifier = ">=0.3.0" },
     { name = "langchain-community", specifier = ">=0.3.30" },
