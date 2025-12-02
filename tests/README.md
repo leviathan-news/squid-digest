@@ -33,33 +33,30 @@ This directory contains tests to verify functionality and catch regressions.
 
 ```bash
 # Install dependencies first
-pip install -r requirements.txt
-pip install -e .
+uv sync
 
 # Run all tests
-python scripts/run_all_tests.py
+uv run python scripts/run_all_tests.py
 ```
 
 ### Option 2: Using pytest
 
 ```bash
 # Install dependencies first
-pip install -r requirements.txt
-pip install -e .
+uv sync
 
 # Run all tests
-pytest tests/ -v
+uv run pytest tests/ -v
 
 # Run specific test file
-pytest tests/test_telegram_integration.py -v
+uv run pytest tests/test_telegram_integration.py -v
 ```
 
 ### Option 3: Using unittest directly
 
 ```bash
 # Install dependencies first
-pip install -r requirements.txt
-pip install -e .
+uv sync
 
 # Run tests
 python -m unittest discover tests/ -v
@@ -132,8 +129,8 @@ The tests verify:
 
 ### Import Errors
 If you get import errors, make sure:
-1. Dependencies are installed: `pip install -r requirements.txt`
-2. Package is installed in editable mode: `pip install -e .`
+1. Dependencies are installed: `uv sync`
+2. You're running commands with `uv run` (e.g., `uv run python ...`)
 3. You're running from the project root directory
 
 ### Test Failures

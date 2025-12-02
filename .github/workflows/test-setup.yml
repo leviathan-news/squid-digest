@@ -7,7 +7,6 @@ on:
       - '.github/workflows/**'
       - 'pyproject.toml'
       - 'uv.lock'
-      - 'requirements.txt'
       - 'requirements.in'
       - 'setup.sh'
       - 'README.md'
