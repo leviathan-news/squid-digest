@@ -134,13 +134,13 @@ def generate_squid_pass_winner_section(winner_data):
     section += f"      <h3 style=\"margin-top: 0; color: #FF6B35;\">🏆 SQUID Pass Winner</h3>\n"
     # Remove headline hyperlink, only link source (redirect URL with UTM codes)
     redirect_url = f"https://leviathannews.xyz/redirect/{news_id}?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true"
-    section += f"      <strong style=\"font-size: 1.1em;\">{headline}</strong> - <a href=\"{redirect_url}\">{source}</a>\n"
-    
+    section += f"      {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a>\n"
+
     if tags_str:
         section += f"      <br><span style=\"font-size: 0.9em;\">🏷️ {tags_str}</span>\n"
-    
+
     if top_comment:
-        section += f"      <br>{top_comment}\n"
+        section += f"      <br><blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
     
     section += "    </td>\n"
     section += "  </tr>\n"
@@ -148,24 +148,25 @@ def generate_squid_pass_winner_section(winner_data):
     return section
 
 
-def generate_top_stories_section(news_data, limit=5):
+def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None):
     """
     Generate a formatted top stories section from Leviathan News data.
-    
+
     Args:
         news_data: List of news items from Leviathan API
         limit: Number of top stories to include
-        
+        squid_pass_winner_data: Optional SQUID Pass winner data to insert after story 5
+
     Returns:
         Formatted markdown string for the top stories section
     """
     top_stories = news_data[:limit]
-    
+
     section = "## 🔥 Top Stories\n\n"
     # Wrap table in div for styling (orange border for SQUID Pass Winner row)
     section += "<div style=\"border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;\">\n"
     section += "<table style=\"width: 100%; border-collapse: collapse;\">\n"
-    
+
     for i, story in enumerate(top_stories, 1):
         # Extract story data
         headline = story.get('headline', 'No headline')
@@ -213,17 +214,70 @@ def generate_top_stories_section(news_data, limit=5):
         # Remove headline hyperlink, only link source (redirect URL with UTM codes)
         news_id = story.get('id', '')
         redirect_url = f"https://leviathannews.xyz/redirect/{news_id}?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true"
-        section += f"      <strong>{i}. {headline}</strong> - <a href=\"{redirect_url}\">{source}</a>\n"
-        
+        section += f"      {i}. {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a>\n"
+
         if tags_str:
             section += f"      <br><span style=\"font-size: 0.9em;\">🏷️ {tags_str}</span>\n"
-        
+
         if top_comment:
-            section += f"      <br>{top_comment}\n"
-        
+            section += f"      <br><blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
+
         section += "    </td>\n"
         section += "  </tr>\n"
-    
+        section += "  <tr><td colspan=\"2\" style=\"height: 1px; background-color: #e0e0e0;\"></td></tr>\n"
+
+    # Insert SQUID Pass Winner after story 5 (if available)
+    if squid_pass_winner_data:
+        headline = squid_pass_winner_data.get('headline', 'No headline')
+        source = squid_pass_winner_data.get('source', 'Unknown source')
+        media_url = squid_pass_winner_data.get('media', '')
+        tags = squid_pass_winner_data.get('tags', [])
+        top_yaps = squid_pass_winner_data.get('top_yaps', [])
+        news_id = squid_pass_winner_data.get('id', '')
+
+        # Format tags
+        tag_links = []
+        for tag in tags[:3]:
+            tag_name = tag.get('name', '')
+            tag_id = tag.get('id', '')
+            tag_slug = tag.get('slug', '')
+            if tag_name and tag_id and tag_slug:
+                tag_links.append(f'<a href="https://leviathannews.xyz/tag/{tag_id}/{tag_slug}">{tag_name}</a>')
+
+        tags_str = " • ".join(tag_links) if tag_links else ""
+
+        # Get top comment
+        top_comment = ""
+        if top_yaps:
+            top_yap = top_yaps[0]
+            comment_text = top_yap.get('text', '')
+            comment_author = top_yap.get('author', {}).get('display_name', 'Anonymous')
+            if comment_text:
+                comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
+                top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+
+        # Add SQUID Pass Winner row with orange background
+        section += "  <tr style=\"background-color: #FFF5F2;\">\n"
+        section += "    <td style=\"width: 525px; min-width: 525px; vertical-align: center; padding: 16px 12px 16px 16px;\">\n"
+        if media_url:
+            proxied_url = proxy_image_url_for_github(media_url)
+            section += f"      <img src=\"{proxied_url}\" alt=\"SQUID Pass Winner\" width=\"525\" style=\"min-width: 525px; max-width: 100%; height: auto; border-radius: 4px;\">\n"
+        section += "    </td>\n"
+
+        section += "    <td style=\"vertical-align: center; padding: 16px;\">\n"
+        section += f"      <h3 style=\"margin-top: 0; color: #FF6B35;\">🏆 SQUID Pass Winner</h3>\n"
+        redirect_url = f"https://leviathannews.xyz/redirect/{news_id}?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true"
+        section += f"      {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a>\n"
+
+        if tags_str:
+            section += f"      <br><span style=\"font-size: 0.9em;\">🏷️ {tags_str}</span>\n"
+
+        if top_comment:
+            section += f"      <br><blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
+
+        section += "    </td>\n"
+        section += "  </tr>\n"
+
     section += "</table>\n"
     section += "</div>\n"
 
@@ -781,11 +835,11 @@ async def bundle_writeup(verbose=False):
     except Exception as e:
         logger.warning(f"Error fetching SQUID Pass winner: {e}. Continuing without featured section.")
     
-    # Generate the featured SQUID Pass winner section (if available)
-    squid_pass_section = generate_squid_pass_winner_section(squid_pass_winner_data)
-    
-    # Generate the top stories section
-    top_stories_section = generate_top_stories_section(news_data, limit=5)
+    # Generate the top stories section (which includes SQUID Pass Winner after story 5)
+    top_stories_section = generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=squid_pass_winner_data)
+
+    # squid_pass_section is now included in top_stories_section, so we can set it to empty
+    squid_pass_section = ""
     
     # Extract tokens from ALL news items' tags (to catch long-tail tokens)
     # This ensures tokens mentioned in stories beyond the top 10 are included
