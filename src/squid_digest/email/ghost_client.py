@@ -371,10 +371,10 @@ class GhostEmailClient:
     
     def format_digest_html(self, markdown_content: str) -> str:
         """Convert markdown digest content to HTML with improved formatting.
-        
+
         Args:
             markdown_content: Raw markdown content
-            
+
         Returns:
             HTML formatted content
         """
@@ -384,7 +384,8 @@ class GhostEmailClient:
             extras=[
                 'fenced-code-blocks',
                 'tables',
-                'header-ids'
+                'header-ids',
+                'extra'  # Enables better list formatting
             ]
         )
         
