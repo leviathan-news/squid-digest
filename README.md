@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 01, 2025)
+## 📊 Latest News Headlines (December 02, 2025)
 
 ### 🔥 Top Headlines
-- **Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash** [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.** [Paragraph](https://leviathannews.xyz/redirect/21472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Telegram launches Cocoon a confidential compute network for developers powered by TON token** [ꘜ/@durov](https://leviathannews.xyz/redirect/21471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kodiak perps have now surpassed $500M in lifetime volume!** [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/21470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **South Korea is fast-tracking a bank-led stablecoin framework, aiming to pass its digital asset act by January. Clearer rules, tighter security, and a push to stay competitive are driving the urgency.** [crypto.news](https://leviathannews.xyz/redirect/21478?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings** [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto has taken over the Champions League, with 48 sponsorships this season and 24 clubs tied to crypto brands. Crypto dot com now sponsors the entire league, marking football’s most crypto-heavy era yet.** [𝕏/@Protos](https://leviathannews.xyz/redirect/21520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin: 'Dark hand' of token voting could erode Zcash privacy. A committee endorsement has reignited long-running questions about whether Zcash should preserve its off-chain governance structure.** [decrypt.co](https://leviathannews.xyz/redirect/21516?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Goldman Sachs to buy ETF sponsor Innovator in $2 billion cash-and-stock deal  as the Wall Street bank seeks to expand in one of the fastest-growing asset management segments. Active funds have regained lost ground in the last few years as investors favor a more hands-on approach following lower returns from passively managed index products amid tighter monetary policy.** [Reuters](https://leviathannews.xyz/redirect/21534?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi makes move to court crypto traders with tokenized betting contracts, Kalshi told CNBC. The move mirrors features popularized by crypto-native prediction platform Polymarket and is designed to appeal to on-chain traders. The company said tapping crypto liquidity could help scale its markets as prediction-market volume surges.** [CNBC](https://leviathannews.xyz/redirect/21523?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,779.35 (+7.79%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
-**Sell Strategy:** $8,469.37 (-15.31%) | [Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md)
+**Buy Strategy:** $11,305.17 (+13.05%) | [Full Analysis →](writeup/2025/12/02/signals_2025-12-02.md)
+**Sell Strategy:** $7,729.44 (-22.71%) | [Full Analysis →](writeup/2025/12/02/signals_2025-12-02.md)
 
-**GitHub:** 12-01-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-01-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-02-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-02-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

@@ -15,22 +15,25 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 01, 2025)
+## 🔥 Latest Headlines (December 02, 2025)
 
-- **Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash** [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.** [Paragraph](https://leviathannews.xyz/redirect/21472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Telegram launches Cocoon a confidential compute network for developers powered by TON token** [ꘜ/@durov](https://leviathannews.xyz/redirect/21471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **Kodiak perps have now surpassed $500M in lifetime volume!** [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/21470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-- **South Korea is fast-tracking a bank-led stablecoin framework, aiming to pass its digital asset act by January. Clearer rules, tighter security, and a push to stay competitive are driving the urgency.** [crypto.news](https://leviathannews.xyz/redirect/21478?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings** [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Crypto has taken over the Champions League, with 48 sponsorships this season and 24 clubs tied to crypto brands. Crypto dot com now sponsors the entire league, marking football’s most crypto-heavy era yet.** [𝕏/@Protos](https://leviathannews.xyz/redirect/21520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Vitalik Buterin: 'Dark hand' of token voting could erode Zcash privacy. A committee endorsement has reignited long-running questions about whether Zcash should preserve its off-chain governance structure.** [decrypt.co](https://leviathannews.xyz/redirect/21516?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Goldman Sachs to buy ETF sponsor Innovator in $2 billion cash-and-stock deal  as the Wall Street bank seeks to expand in one of the fastest-growing asset management segments. Active funds have regained lost ground in the last few years as investors favor a more hands-on approach following lower returns from passively managed index products amid tighter monetary policy.** [Reuters](https://leviathannews.xyz/redirect/21534?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
+- **Kalshi makes move to court crypto traders with tokenized betting contracts, Kalshi told CNBC. The move mirrors features popularized by crypto-native prediction platform Polymarket and is designed to appeal to on-chain traders. The company said tapping crypto liquidity could help scale its markets as prediction-market volume surges.** [CNBC](https://leviathannews.xyz/redirect/21523?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-📊 [View Full Analysis →](writeup/2025/12/01/signals_2025-12-01.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/01/signals_2025-12-01.md)
+📊 [View Full Analysis →](writeup/2025/12/02/signals_2025-12-02.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/02/signals_2025-12-02.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 24 - Dec 01)
+### 📅 This Week (Nov 25 - Dec 02)
+
+[**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
+OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
 Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -53,10 +56,10 @@ BIS warns that tokenised money market funds are rapidly linking DeFi with tradit
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Last Week (Nov 18 - Nov 24)
+
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 17 - Nov 23)
 
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -70,10 +73,10 @@ BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 11 - Nov 17
+
 [**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
 Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 10 - Nov 16
 
 [**Sunday, November 16, 2025**](writeup/2025/11/16/signals_2025-11-16.md)
 ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M. [Globenewswire](https://leviathannews.xyz/redirect/20601?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -93,10 +96,10 @@ MacciNFT release the first chapter of her Madoll manga [𝕏/@MAcciNFT](https://
 [**Tuesday, November 11, 2025**](writeup/2025/11/11/signals_2025-11-11.md)
 Crypto hacks hit record highs in 2025, with $2.2 billion stolen in the first half of the year, pushing investors toward hardware wallets like Ledger and Trezor for safer crypto storage. [crypto.news](https://leviathannews.xyz/redirect/20300?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 05 - Nov 10
+
 [**Monday, November 10, 2025**](writeup/2025/11/10/signals_2025-11-10.md)
 Yield Basis: upcoming migration to new pools implementation [𝕏/@yieldbasis](https://leviathannews.xyz/redirect/20296?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 04 - Nov 09
 
 [**Sunday, November 09, 2025**](writeup/2025/11/09/signals_2025-11-09.md)
 Kodiak launches points for perps! [𝕏/@KodiakFi](https://leviathannews.xyz/redirect/20226?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -112,9 +115,6 @@ Lista DAO flags mounting risks in MEVCapital’s USDT Vault and Re7Labs’ USD1 
 
 [**Wednesday, November 05, 2025**](writeup/2025/11/05/signals_2025-11-05.md)
 Ongoing attacker quietly drains multiple lending protocols over the past month, with projects remaining silent on undisclosed exploits. [𝕏/@specteranalyst](https://leviathannews.xyz/redirect/20005?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Tuesday, November 04, 2025**](writeup/2025/11/04/signals_2025-11-04.md)
-⚠️Suspected oracle exploit hits MoonwellDeFi on Base and Optimism — attackers manipulated the rsETH/ETH price feed, draining over $1M in what appears to be a MEV-driven attack. [𝕏/@Phalcon_xyz](https://leviathannews.xyz/redirect/20001?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---

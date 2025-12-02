@@ -1,0 +1,35 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 284 chars. First 500 chars: **$SOL Solana: WEAK SELL** - Forward Industries' Solana treasury plunged 40% in value, signaling institutional SOL holders are taking significant losses ([more info](https://leviathannews.xyz/redirect/21524?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true))
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+**$SOL Solana: WEAK SELL** - Forward Industries' Solana treasury plunged 40% in value, signaling institutional SOL holders are taking significant losses ([more info](https://leviathannews.xyz/redirect/21524?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true))
+
+News items sent (10):
+[1] OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings - https://leviathannews.xyz/redirect/21512?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Crypto has taken over the Champions League, with 48 sponsorships this season and 24 clubs tied to crypto brands. Crypto dot com now sponsors the entire league, marking football’s most crypto-heavy era yet. - https://leviathannews.xyz/redirect/21520?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Vitalik Buterin: 'Dark hand' of token voting could erode Zcash privacy. A committee endorsement has reignited long-running questions about whether Zcash should preserve its off-chain governance structure. - https://leviathannews.xyz/redirect/21516?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Goldman Sachs to buy ETF sponsor Innovator in $2 billion cash-and-stock deal  as the Wall Street bank seeks to expand in one of the fastest-growing asset management segments. Active funds have regained lost ground in the last few years as investors favor a more hands-on approach following lower returns from passively managed index products amid tighter monetary policy. - https://leviathannews.xyz/redirect/21534?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Kalshi makes move to court crypto traders with tokenized betting contracts, Kalshi told CNBC. The move mirrors features popularized by crypto-native prediction platform Polymarket and is designed to appeal to on-chain traders. The company said tapping crypto liquidity could help scale its markets as prediction-market volume surges. - https://leviathannews.xyz/redirect/21523?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Forward Industries has recruited former ParaFi MD Ryan Navi as CIO after its Solana treasury plunged over 40% in value. He’s tasked with reshaping strategy and boosting long-term SOL performance amid market pressure. - https://leviathannews.xyz/redirect/21524?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Fintech infrastructure platform and API provider Fern has been acquired by Rain, a stablecoin infrastructure company. The acquisition will integrate Fern's payment routing technology and developer tools into Rain's platform to create a more comprehensive financial solution. Fern has confirmed that its existing customers will continue to be supported without interruption. - https://leviathannews.xyz/redirect/21544?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] In 2021, two big spikes in memecoins preceded two crashes in Bitcoin. - https://leviathannews.xyz/redirect/21536?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Washington State regulators order CoinMe to halt all money transfer activity in the state - https://leviathannews.xyz/redirect/21529?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Tokenization is rapidly reshaping global markets, with leaders arguing it will streamline infrastructure and bridge traditional and digital finance. Fink and Goldstein say efficiency, transparency, and access are the drivers of this next evolution. - https://leviathannews.xyz/redirect/21519?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 494 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 292 news articles (TVL: $100,000)
+$SOL Solana - 64 news articles (TVL: $800,000,000,000)
+$BNB BNB - 59 news articles (TVL: $81,240,000,000)
+$OPEN Open Stablecoin Index - 37 news articles (TVL: $400,000)
+$ETH Ethereum - 520 news articles (TVL: $68,433,138)
+$AAVE Aave - 247 news articles (TVL: $636,416,718)
+$HYPE HYPE - 72 news articles (TVL: $12,000,000,000)
+$XRP XRP - 71 news articles (TVL: $636,416,718)
+$CRV Curve DA...
