@@ -929,22 +929,49 @@ async def bundle_writeup(verbose=False):
     # **$SYMBOL Token Name: SIGNAL TYPE** - reason
     # If it outputs emojis or wrong format, parsing will fail and no backtests will run
     import re
-    if not re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+)?(BUY|SELL)', trading_signals, re.IGNORECASE):
+
+    # Check format validity
+    format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+)?(BUY|SELL)', trading_signals, re.IGNORECASE)
+
+    # Detect LLM refusal patterns
+    refusal_patterns = [
+        r'insufficient.*catalyst',
+        r'cannot generate signal',
+        r'not enough information',
+        r'unable to provide',
+        r'no actionable',
+        r'insufficient.*news',
+    ]
+    is_refusal = any(re.search(pattern, trading_signals, re.IGNORECASE) for pattern in refusal_patterns)
+
+    # Flag to trigger fallback retry
+    retry_with_fallback = False
+
+    if not format_valid:
         error_msg = (
-            f"CRITICAL: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). "
-            f"This will cause parsing failure and missing backtests. "
+            f"LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). "
             f"Response length: {len(trading_signals)} chars. "
             f"First 500 chars: {trading_signals[:500]}"
         )
-        logger.error(error_msg)
+        logger.warning(f"⚠️ {error_msg}")
 
-        # Save diagnostic file for debugging
-        diagnostic_file = filename.parent / f"diagnostic_format_error_{today_str}.txt"
+        if is_refusal:
+            logger.warning("⚠️ LLM explicitly refused to generate signals (detected refusal pattern)")
+            logger.warning("Triggering fallback retry with more inclusive prompt...")
+            retry_with_fallback = True
+        else:
+            logger.warning("Format issue detected but not a clear refusal - will attempt parsing")
+            logger.warning("If parsing fails, fallback will be triggered")
+
+        # Save diagnostic file for debugging (but don't crash)
+        diagnostic_file = filename.parent / f"diagnostic_format_warning_{today_str}.txt"
         try:
             with open(diagnostic_file, "w") as f:
-                f.write(f"Signal Format Validation Failure\n")
-                f.write(f"==================================\n\n")
-                f.write(f"Error: {error_msg}\n\n")
+                f.write(f"Signal Format Validation Warning\n")
+                f.write(f"=================================\n\n")
+                f.write(f"Warning: {error_msg}\n\n")
+                if is_refusal:
+                    f.write(f"Refusal detected: LLM explicitly refused to generate signals\n\n")
                 f.write(f"Expected format examples:\n")
                 f.write(f"**$BTC Bitcoin: STRONG BUY** - reason\n")
                 f.write(f"**$ETH Ethereum: WEAK BUY** - reason\n\n")
@@ -954,44 +981,50 @@ async def bundle_writeup(verbose=False):
                 f.write(f"{headlines_summary}\n\n")
                 f.write(f"Token list sent ({len(tokens_to_include)} tokens):\n")
                 f.write(f"{token_list_str[:500]}...\n")
-            logger.error(f"Diagnostic file saved to: {diagnostic_file}")
+            logger.warning(f"Diagnostic saved: {diagnostic_file}")
         except Exception as diag_error:
-            logger.error(f"Could not save diagnostic file: {diag_error}")
-
-        raise ValueError(error_msg)
+            logger.warning(f"Could not save diagnostic file: {diag_error}")
 
     # Parse signals BEFORE transformation (for backtesting)
-    
+
     # Run incremental backtest FIRST (before transformation, so parser can read original format)
     backtest_section = ""
     today_signals = []
     if ACTIVE_PROMPT == 'signals':
         try:
-            if verbose:
-                logger.info("Running incremental backtest...")
-            
-            # Parse signals from the original format (before transformation)
-            signal_parser = SignalParser(WRITEUP_DIR)
-            # Create a temporary file with proper filename pattern for parsing
-            # The parser requires filename with date pattern: signals_YYYY-MM-DD.md
-            import tempfile
-            temp_dir = Path(tempfile.gettempdir())
-            temp_filename = f"signals_{today_str}.md"
-            tmp_path = temp_dir / temp_filename
-            
-            # Write original format signals to temp file
-            with open(tmp_path, 'w') as tmp_file:
-                tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
-            
-            try:
-                today_signals = signal_parser.parse_file(tmp_path)
-                if verbose and today_signals:
-                    logger.info(f"✓ Parsed {len(today_signals)} signals for backtesting")
-            finally:
-                if tmp_path.exists():
-                    tmp_path.unlink()
-            
-            if today_signals:
+            # If format validation detected refusal, skip parsing and trigger fallback immediately
+            if not retry_with_fallback:
+                if verbose:
+                    logger.info("Running incremental backtest...")
+
+                # Parse signals from the original format (before transformation)
+                signal_parser = SignalParser(WRITEUP_DIR)
+                # Create a temporary file with proper filename pattern for parsing
+                # The parser requires filename with date pattern: signals_YYYY-MM-DD.md
+                import tempfile
+                temp_dir = Path(tempfile.gettempdir())
+                temp_filename = f"signals_{today_str}.md"
+                tmp_path = temp_dir / temp_filename
+
+                # Write original format signals to temp file
+                with open(tmp_path, 'w') as tmp_file:
+                    tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
+
+                try:
+                    today_signals = signal_parser.parse_file(tmp_path)
+                    if verbose and today_signals:
+                        logger.info(f"✓ Parsed {len(today_signals)} signals for backtesting")
+                except Exception as parse_error:
+                    logger.warning(f"⚠️ Signal parsing failed: {parse_error}")
+                    logger.warning("Triggering fallback retry with more inclusive prompt...")
+                    retry_with_fallback = True
+                finally:
+                    if tmp_path.exists():
+                        tmp_path.unlink()
+            else:
+                logger.info("Skipping initial parsing due to format validation failure, will retry with fallback")
+
+            if today_signals and not retry_with_fallback:
                 # Run both strategies
                 buy_backtest = IncrementalBacktest(
                     state_file=BACKTEST_PORTFOLIO_STATE_FILE_BUY,
@@ -1021,14 +1054,18 @@ async def bundle_writeup(verbose=False):
                     if verbose:
                         logger.warning("Backtest returned no results (continuing without backtest section)")
             else:
-                # VALIDATION: Detect when signal generation produced zero signals
-                # If we have news and tokens but no signals parsed, try retry with fallback prompt
-                if len(news_data) > 0 and len(tokens_to_include) > 0:
-                    logger.warning(
-                        f"Initial signal generation produced ZERO signals despite having "
-                        f"{len(news_data)} news items and {len(tokens_to_include)} tracked tokens. "
-                        f"This may indicate the prompt was too strict. Retrying with fallback (more inclusive) prompt..."
-                    )
+                # VALIDATION: Trigger fallback retry if:
+                # 1. Format validation detected refusal (retry_with_fallback flag set)
+                # 2. Signal generation produced zero signals despite having news and tokens
+                if retry_with_fallback or (len(news_data) > 0 and len(tokens_to_include) > 0):
+                    if retry_with_fallback:
+                        logger.warning("Format validation detected issue - retrying with fallback (more inclusive) prompt...")
+                    else:
+                        logger.warning(
+                            f"Initial signal generation produced ZERO signals despite having "
+                            f"{len(news_data)} news items and {len(tokens_to_include)} tracked tokens. "
+                            f"This may indicate the prompt was too strict. Retrying with fallback (more inclusive) prompt..."
+                        )
 
                     # RETRY: Use fallback prompt that's more inclusive
                     try:
@@ -1045,6 +1082,37 @@ async def bundle_writeup(verbose=False):
 
                         # Check if retry produced signals
                         if retry_signals and len(retry_signals.strip()) > 50:
+                            # Validate fallback response format
+                            fallback_format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+)?(BUY|SELL)', retry_signals, re.IGNORECASE)
+                            fallback_is_refusal = any(re.search(pattern, retry_signals, re.IGNORECASE) for pattern in refusal_patterns)
+
+                            if not fallback_format_valid:
+                                logger.error("CRITICAL: Fallback prompt ALSO failed to generate valid signals")
+                                logger.error(f"Response length: {len(retry_signals)} chars")
+                                logger.error(f"First 500 chars: {retry_signals[:500]}")
+
+                                # Save diagnostic for fallback failure
+                                fallback_diagnostic_file = filename.parent / f"diagnostic_fallback_failure_{today_str}.txt"
+                                try:
+                                    with open(fallback_diagnostic_file, "w") as f:
+                                        f.write(f"BOTH Strict AND Fallback Prompts Failed\n")
+                                        f.write(f"==========================================\n\n")
+                                        f.write(f"Strict prompt response:\n{trading_signals[:1000]}\n\n")
+                                        f.write(f"Fallback prompt response:\n{retry_signals[:1000]}\n\n")
+                                        if fallback_is_refusal:
+                                            f.write(f"Fallback also contained refusal pattern\n\n")
+                                        f.write(f"News items: {len(news_data)}\n")
+                                        f.write(f"Tokens: {len(tokens_to_include)}\n")
+                                    logger.error(f"Diagnostic saved: {fallback_diagnostic_file}")
+                                except Exception:
+                                    pass
+
+                                raise ValueError(
+                                    f"CRITICAL: Both strict and fallback prompts failed to generate valid signals. "
+                                    f"LLM may need prompt adjustment or there may be insufficient news catalysts. "
+                                    f"See diagnostic file for details."
+                                )
+
                             logger.info("✓ Fallback prompt generated signals successfully")
                             trading_signals = retry_signals  # Use retry results
 
