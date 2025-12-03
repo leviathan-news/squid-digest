@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 02, 2025)
+## 📊 Latest News Headlines (December 03, 2025)
 
 ### 🔥 Top Headlines
-- **OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings** [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto has taken over the Champions League, with 48 sponsorships this season and 24 clubs tied to crypto brands. Crypto dot com now sponsors the entire league, marking football’s most crypto-heavy era yet.** [𝕏/@Protos](https://leviathannews.xyz/redirect/21520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin: 'Dark hand' of token voting could erode Zcash privacy. A committee endorsement has reignited long-running questions about whether Zcash should preserve its off-chain governance structure.** [decrypt.co](https://leviathannews.xyz/redirect/21516?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Goldman Sachs to buy ETF sponsor Innovator in $2 billion cash-and-stock deal  as the Wall Street bank seeks to expand in one of the fastest-growing asset management segments. Active funds have regained lost ground in the last few years as investors favor a more hands-on approach following lower returns from passively managed index products amid tighter monetary policy.** [Reuters](https://leviathannews.xyz/redirect/21534?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi makes move to court crypto traders with tokenized betting contracts, Kalshi told CNBC. The move mirrors features popularized by crypto-native prediction platform Polymarket and is designed to appeal to on-chain traders. The company said tapping crypto liquidity could help scale its markets as prediction-market volume surges.** [CNBC](https://leviathannews.xyz/redirect/21523?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market.** [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance appoints co-founder Yi He as co-CEO alongside Richard Teng, creating a dual leadership team focused on global expansion and stronger compliance as the exchange enters its post-CZ era.** [Reuters](https://leviathannews.xyz/redirect/21575?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kamino, the main lending platform on Solana, blocked loan migration to their competitor Jupiter Lend** [𝕏/@prady_v](https://leviathannews.xyz/redirect/21537?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MetaMask just dropped Transaction Shield — wallet protection that covers up to $10K/month for verified transactions. A big move toward safer DeFi interactions and user confidence in Web3 wallets.** [𝕏/@Crypto_Briefing](https://leviathannews.xyz/redirect/21550?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mt Pelerin introduces the personal crypto IBAN - receive bank transfers from anyone, directly converted into crypto in your own wallet, and send bank transfers to anyone, using over 30 available crypto assets on 15 chains** [Mtpelerin](https://leviathannews.xyz/redirect/21553?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,305.17 (+13.05%) | [Full Analysis →](writeup/2025/12/02/signals_2025-12-02.md)
-**Sell Strategy:** $7,729.44 (-22.71%) | [Full Analysis →](writeup/2025/12/02/signals_2025-12-02.md)
+**Buy Strategy:** $11,470.45 (+14.70%) | [Full Analysis →](writeup/2025/12/03/signals_2025-12-03.md)
+**Sell Strategy:** $7,447.50 (-25.52%) | [Full Analysis →](writeup/2025/12/03/signals_2025-12-03.md)
 
-**GitHub:** 12-02-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-02-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-03-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-03-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
