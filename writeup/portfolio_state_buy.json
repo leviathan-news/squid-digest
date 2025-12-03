@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 4156.328957318531,
+  "cash": 3582.806435775299,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -62,8 +62,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.03787859810082811,
-      "entry_price": 89893.57312374764,
+      "quantity": 0.04404540782076203,
+      "entry_price": 90328.71408377934,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -110,10 +110,18 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -2.0370044620499463,
-      "entry_price": 138.74746355774997,
+      "quantity": -4.058943303083753,
+      "entry_price": 140.28046725961278,
       "entry_date": "2025-12-02T00:00:00",
       "entry_signal": "WEAK SELL"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 0.3175107389035379,
+      "entry_price": 903.1545256134978,
+      "entry_date": "2025-12-03T00:00:00",
+      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -740,6 +748,42 @@
       "signal_type": "WEAK SELL",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-03T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.006166809719933922,
+      "price": 93001.4947095493,
+      "value": 573.5225215432318,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-03T00:00:00",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.3175107389035379,
+      "price": 903.1545256134978,
+      "value": 286.7612607716159,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-03T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.021938841033806,
+      "price": 141.8248934893582,
+      "value": 286.7612607716159,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -850,6 +894,10 @@
     [
       "2025-12-02T16:35:31.335516",
       11305.16809460996
+    ],
+    [
+      "2025-12-03T13:33:00.583250",
+      11470.450430864637
     ]
   ],
   "strategy": "buy_the_news"
