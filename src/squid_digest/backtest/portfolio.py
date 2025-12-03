@@ -408,6 +408,251 @@ class Portfolio:
         self.trades.append(trade)
         return trade
     
+    def execute_partial_sell(
+        self,
+        symbol: str,
+        token_name: str,
+        price: float,
+        date: datetime,
+        signal_type: str,
+        percentage: float = 0.5
+    ) -> Optional[Trade]:
+        """Execute a partial sell order (for long positions).
+        
+        Args:
+            symbol: Token symbol
+            token_name: Token name
+            price: Current price
+            date: Trade date
+            signal_type: Reason for trade (e.g., 'PROFIT_TAKE')
+            percentage: Percentage of position to sell (default 0.5 = 50%)
+        
+        Returns:
+            Trade object if successful, None otherwise
+        """
+        if symbol not in self.positions:
+            return None
+        
+        position = self.positions[symbol]
+        
+        # Can only sell long positions
+        if position.is_short():
+            return None
+        
+        # Sell percentage of position
+        sell_quantity = position.quantity * percentage
+        trade_value = sell_quantity * price
+        
+        # Calculate P&L for the portion being sold
+        entry_value = sell_quantity * position.entry_price
+        pnl = trade_value - entry_value
+        
+        # Execute trade
+        self.cash += trade_value
+        
+        # Update position: reduce quantity, keep same entry price
+        remaining_quantity = position.quantity - sell_quantity
+        if remaining_quantity < 0.0001:  # Essentially zero, remove position
+            del self.positions[symbol]
+        else:
+            self.positions[symbol] = Position(
+                symbol=symbol,
+                token_name=token_name,
+                quantity=remaining_quantity,
+                entry_price=position.entry_price,  # Keep original entry price
+                entry_date=position.entry_date,
+                entry_signal=position.entry_signal
+            )
+        
+        trade = Trade(
+            date=date,
+            symbol=symbol,
+            token_name=token_name,
+            action='SELL',
+            quantity=sell_quantity,
+            price=price,
+            value=trade_value,
+            signal_type=signal_type,
+            pnl=pnl,
+            entry_price=position.entry_price
+        )
+        
+        self.trades.append(trade)
+        return trade
+    
+    def execute_partial_cover(
+        self,
+        symbol: str,
+        token_name: str,
+        price: float,
+        date: datetime,
+        signal_type: str,
+        percentage: float = 0.5
+    ) -> Optional[Trade]:
+        """Execute a partial cover order (for short positions).
+        
+        Args:
+            symbol: Token symbol
+            token_name: Token name
+            price: Current price
+            date: Trade date
+            signal_type: Reason for trade (e.g., 'PROFIT_TAKE')
+            percentage: Percentage of position to cover (default 0.5 = 50%)
+        
+        Returns:
+            Trade object if successful, None otherwise
+        """
+        if symbol not in self.positions:
+            return None
+        
+        position = self.positions[symbol]
+        
+        # Can only cover short positions
+        if not position.is_short():
+            return None
+        
+        # Cover percentage of short position
+        short_quantity = position.quantity  # Negative
+        cover_quantity = abs(short_quantity) * percentage
+        trade_value = cover_quantity * price
+        
+        # Calculate P&L: we sold at entry_price, buying back at current price
+        # Profit if current_price < entry_price
+        entry_value = cover_quantity * position.entry_price
+        pnl = entry_value - trade_value  # Profit when price drops
+        
+        # Execute trade: pay cash to buy back tokens
+        if trade_value > self.cash:
+            # Not enough cash, skip
+            return None
+        
+        self.cash -= trade_value
+        
+        # Update position: reduce quantity, keep same entry price
+        remaining_short_quantity = short_quantity + cover_quantity  # Add positive to negative
+        if abs(remaining_short_quantity) < 0.0001:  # Essentially zero, remove position
+            del self.positions[symbol]
+        else:
+            self.positions[symbol] = Position(
+                symbol=symbol,
+                token_name=token_name,
+                quantity=remaining_short_quantity,
+                entry_price=position.entry_price,  # Keep original entry price
+                entry_date=position.entry_date,
+                entry_signal=position.entry_signal
+            )
+        
+        trade = Trade(
+            date=date,
+            symbol=symbol,
+            token_name=token_name,
+            action='COVER',
+            quantity=cover_quantity,
+            price=price,
+            value=trade_value,
+            signal_type=signal_type,
+            pnl=pnl,
+            entry_price=position.entry_price
+        )
+        
+        self.trades.append(trade)
+        return trade
+    
+    def check_stop_loss_and_profit_taking(
+        self,
+        date: datetime,
+        prices: Dict[str, float]
+    ) -> List[Trade]:
+        """Check all positions for stop loss and profit-taking triggers.
+        
+        Stop loss: -20% (exit entire position)
+        Profit-taking: +20% (sell/cover 50% of position)
+        
+        Args:
+            date: Current date
+            prices: Dict of symbol -> current price
+        
+        Returns:
+            List of trades executed
+        """
+        trades = []
+        stop_loss_threshold = -0.20  # -20%
+        profit_take_threshold = 0.20  # +20%
+        
+        # Create a copy of positions dict keys to iterate over
+        # (since we may modify positions during iteration)
+        symbols_to_check = list(self.positions.keys())
+        
+        for symbol in symbols_to_check:
+            if symbol not in self.positions:
+                continue  # Position was already closed
+            
+            position = self.positions[symbol]
+            current_price = prices.get(symbol)
+            
+            if current_price is None:
+                continue  # Skip if no price available
+            
+            if position.is_short():
+                # Short position: profit when price goes down
+                # Calculate return: (entry_price - current_price) / entry_price
+                # Positive return = profit, negative return = loss
+                return_pct = (position.entry_price - current_price) / position.entry_price
+                
+                if return_pct <= stop_loss_threshold:
+                    # Stop loss triggered: price went up 20%+, cover entire position
+                    trade = self.execute_cover(
+                        symbol,
+                        position.token_name,
+                        current_price,
+                        date,
+                        'STOP_LOSS'
+                    )
+                    if trade:
+                        trades.append(trade)
+                elif return_pct >= profit_take_threshold:
+                    # Profit-taking triggered: price went down 20%+, cover 50%
+                    trade = self.execute_partial_cover(
+                        symbol,
+                        position.token_name,
+                        current_price,
+                        date,
+                        'PROFIT_TAKE',
+                        0.5
+                    )
+                    if trade:
+                        trades.append(trade)
+            else:
+                # Long position: profit when price goes up
+                # Calculate return: (current_price - entry_price) / entry_price
+                return_pct = (current_price - position.entry_price) / position.entry_price
+                
+                if return_pct <= stop_loss_threshold:
+                    # Stop loss triggered: price went down 20%+, sell entire position
+                    trade = self.execute_sell(
+                        symbol,
+                        position.token_name,
+                        current_price,
+                        date,
+                        'STOP_LOSS'
+                    )
+                    if trade:
+                        trades.append(trade)
+                elif return_pct >= profit_take_threshold:
+                    # Profit-taking triggered: price went up 20%+, sell 50%
+                    trade = self.execute_partial_sell(
+                        symbol,
+                        position.token_name,
+                        current_price,
+                        date,
+                        'PROFIT_TAKE',
+                        0.5
+                    )
+                    if trade:
+                        trades.append(trade)
+        
+        return trades
+    
     def process_signal(
         self,
         signal: Signal,
@@ -559,7 +804,13 @@ class Portfolio:
         return trades
     
     def record_daily_value(self, date: datetime, prices: Dict[str, float]):
-        """Record portfolio value for a specific date."""
+        """Record portfolio value for a specific date.
+        
+        Also checks for stop loss and profit-taking triggers before recording.
+        """
+        # Check for stop loss and profit-taking before recording daily value
+        self.check_stop_loss_and_profit_taking(date, prices)
+        
         total_value = self.get_total_value(prices)
         self.daily_values.append((date, total_value))
     
