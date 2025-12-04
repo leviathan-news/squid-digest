@@ -45,29 +45,82 @@ def extract_headlines(signals_file: Path, limit: int = 5) -> List[Tuple[str, str
     Returns:
         List of tuples: [(headline, url, source), ...]
     """
-    content = signals_file.read_text()
+    # Validate file exists and has content
+    if not signals_file.exists():
+        print(f"Error: Signals file does not exist: {signals_file}")
+        return []
+    
+    try:
+        content = signals_file.read_text(encoding='utf-8')
+    except Exception as e:
+        print(f"Error: Could not read signals file: {e}")
+        return []
+    
+    if not content or len(content.strip()) == 0:
+        print(f"Warning: Signals file is empty: {signals_file}")
+        return []
 
     headlines = []
 
     # Find the Top Stories section
     top_stories_match = re.search(r'## 🔥 Top Stories(.+?)(?=##|$)', content, re.DOTALL)
     if not top_stories_match:
-        print("Warning: Could not find Top Stories section")
+        print("Warning: Could not find '## 🔥 Top Stories' section in file")
+        print(f"  File size: {len(content)} bytes")
+        print(f"  First 500 chars: {content[:500]}")
+        # Try to find any section that might contain stories
+        if "Top Stories" in content or "top stories" in content.lower():
+            print("  Note: Found 'Top Stories' text but not in expected format")
         return headlines
 
     top_stories_content = top_stories_match.group(1)
+    
+    # Debug: Show a snippet of the content we're searching
+    print(f"  Found Top Stories section ({len(top_stories_content)} chars)")
 
     # Extract headlines with URLs and sources from table rows
-    # Pattern: <strong>N. HEADLINE</strong> - <a href="URL">SOURCE</a>
-    # This pattern matches the format in the signals files
-    pattern = r'<strong[^>]*>(\d+)\.\s*([^<]+)</strong>\s*-\s*<a[^>]*href="([^"]+)"[^>]*>([^<]+)</a>'
+    # Support multiple formats:
+    # Format 1 (old): <strong>N. HEADLINE</strong> - <a href="URL">SOURCE</a>
+    # Format 2 (new): N. HEADLINE - <a href="URL"><strong>SOURCE</strong></a>
+    patterns = [
+        # Old format: <strong>N. HEADLINE</strong> - <a href="URL">SOURCE</a>
+        (r'<strong[^>]*>(\d+)\.\s*([^<]+)</strong>\s*-\s*<a[^>]*href="([^"]+)"[^>]*>([^<]+)</a>', 'old'),
+        # New format: N. HEADLINE - <a href="URL"><strong>SOURCE</strong></a>
+        # Match headline up to the dash and link, stopping before < tag (but allow - in headline)
+        (r'(\d+)\.\s*([^<]+?)\s*-\s*<a[^>]*href="([^"]+)"[^>]*><strong[^>]*>([^<]+)</strong></a>', 'new'),
+    ]
     
-    matches = re.findall(pattern, top_stories_content)
+    matches = []
+    used_pattern = None
+    
+    for pattern, pattern_name in patterns:
+        pattern_matches = re.findall(pattern, top_stories_content)
+        if pattern_matches:
+            matches = pattern_matches
+            used_pattern = pattern_name
+            print(f"  Found {len(matches)} headline matches using {pattern_name} format")
+            break
+    
+    if not matches:
+        print("Warning: No numbered headlines found matching expected patterns")
+        print("  Tried patterns:")
+        print("    1. <strong>N. HEADLINE</strong> - <a href=\"URL\">SOURCE</a>")
+        print("    2. N. HEADLINE - <a href=\"URL\"><strong>SOURCE</strong></a>")
+        print(f"  Content preview (first 1000 chars): {top_stories_content[:1000]}")
+        return headlines
 
-    for num, headline, url, source in matches[:limit]:
-        # Clean up the headline
-        headline = headline.strip()
-        headlines.append((headline, url, source))
+    for match in matches[:limit]:
+        if len(match) == 4:
+            num, headline, url, source = match
+            # Clean up the headline
+            headline = headline.strip()
+            source = source.strip()
+            if headline and url and source:
+                headlines.append((headline, url, source))
+            else:
+                print(f"  Warning: Skipping incomplete headline match: num={num}, headline={headline[:50]}...")
+        else:
+            print(f"  Warning: Unexpected match format (expected 4 groups, got {len(match)}): {match}")
 
     return headlines
 
@@ -144,10 +197,13 @@ def format_above_fold_section(
     date_mmddyy = date_obj.strftime('%m-%d-%y')
 
     # Format headlines as bullets with links
-    headline_bullets = "\n".join([
-        f"- **{headline}** [{source}]({url})"
-        for headline, url, source in headlines
-    ])
+    if headlines:
+        headline_bullets = "\n".join([
+            f"- **{headline}** [{source}]({url})"
+            for headline, url, source in headlines
+        ])
+    else:
+        headline_bullets = "*No headlines available*"
 
     # Format return signs
     buy_return_sign = "+" if buy_total_return_pct >= 0 else ""
@@ -232,6 +288,11 @@ def main():
         action="store_true",
         help="Print output without updating README"
     )
+    parser.add_argument(
+        "--allow-empty-headlines",
+        action="store_true",
+        help="Continue even if no headlines can be extracted (use empty list)"
+    )
 
     args = parser.parse_args()
 
@@ -249,14 +310,39 @@ def main():
         return 1
 
     print(f"✓ Found: {signals_file.relative_to(Path.cwd())}")
+    
+    # Validate file exists and has content
+    if not signals_file.exists():
+        print(f"✗ Error: Signals file does not exist: {signals_file}")
+        return 1
+    
+    file_size = signals_file.stat().st_size
+    print(f"  File size: {file_size} bytes")
+    
+    if file_size == 0:
+        print("✗ Error: Signals file is empty")
+        return 1
 
     # Extract headlines
     print("\nExtracting headlines...")
     headlines = extract_headlines(signals_file, limit=5)
 
     if not headlines:
-        print("✗ Error: Could not extract headlines")
-        return 1
+        if args.allow_empty_headlines:
+            print("⚠ Warning: Could not extract headlines, but continuing with empty list")
+            print("  This may result in an incomplete README update")
+        else:
+            print("✗ Error: Could not extract headlines")
+            print("\nDiagnostic information:")
+            print(f"  File: {signals_file}")
+            print(f"  File exists: {signals_file.exists()}")
+            print(f"  File size: {file_size} bytes")
+            try:
+                content_preview = signals_file.read_text(encoding='utf-8')[:500]
+                print(f"  Content preview (first 500 chars):\n{content_preview}")
+            except Exception as e:
+                print(f"  Could not read file: {e}")
+            return 1
 
     print(f"✓ Extracted {len(headlines)} headlines")
     for i, (headline, url, source) in enumerate(headlines, 1):

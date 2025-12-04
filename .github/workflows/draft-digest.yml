@@ -127,13 +127,21 @@ jobs:
         fi
 
     - name: Update README with today's signals
+      continue-on-error: true
       run: |
         echo "Updating README with today's signals..."
-        uv run python scripts/update_readme.py
-        if [ $? -ne 0 ]; then
-          echo "Warning: README update failed, but continuing workflow"
-        else
+        if uv run python scripts/update_readme.py --allow-empty-headlines; then
           echo "✓ README updated successfully"
+        else
+          echo "⚠ Warning: README update failed or incomplete"
+          echo "This may be due to:"
+          echo "  - Signals file not found or empty"
+          echo "  - Unexpected file format"
+          echo "  - Missing Top Stories section"
+          echo ""
+          echo "Workflow will continue, but README may not be updated."
+          echo "Check the logs above for diagnostic information."
+          exit 0  # Don't fail the workflow
         fi
 
     - name: Update writeup README with recent headlines
