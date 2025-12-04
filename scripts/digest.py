@@ -985,7 +985,9 @@ async def bundle_writeup(verbose=False):
     import re
 
     # Check format validity
-    format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+)?(BUY|SELL)', trading_signals, re.IGNORECASE)
+    # Match formats like: **$SYMBOL Token: (STRONG|WEAK)? BUY/SELL**
+    # Supports: STRONG BUY, WEAK BUY, BUY, STRONG SELL, WEAK SELL, SELL
+    format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+|WEAK\s+)?(BUY|SELL)', trading_signals, re.IGNORECASE)
 
     # Detect LLM refusal patterns
     refusal_patterns = [
