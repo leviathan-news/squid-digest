@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 03, 2025)
+## 📊 Latest News Headlines (December 04, 2025)
 
 ### 🔥 Top Headlines
-- **Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market.** [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance appoints co-founder Yi He as co-CEO alongside Richard Teng, creating a dual leadership team focused on global expansion and stronger compliance as the exchange enters its post-CZ era.** [Reuters](https://leviathannews.xyz/redirect/21575?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kamino, the main lending platform on Solana, blocked loan migration to their competitor Jupiter Lend** [𝕏/@prady_v](https://leviathannews.xyz/redirect/21537?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MetaMask just dropped Transaction Shield — wallet protection that covers up to $10K/month for verified transactions. A big move toward safer DeFi interactions and user confidence in Web3 wallets.** [𝕏/@Crypto_Briefing](https://leviathannews.xyz/redirect/21550?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mt Pelerin introduces the personal crypto IBAN - receive bank transfers from anyone, directly converted into crypto in your own wallet, and send bank transfers to anyone, using over 30 available crypto assets on 15 chains** [Mtpelerin](https://leviathannews.xyz/redirect/21553?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **USDCx Launches on Canton: Circle, Digital Asset, and Loop Wallet deliver privacy-first, Cross-Chain USDC Liquidity** [Circle](https://leviathannews.xyz/redirect/21632?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance introduces Binance Junior, a parent-controlled app and sub-account for kids and teens.** [𝕏/@binance](https://leviathannews.xyz/redirect/21588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paradex (a ‘decentralized’ perp DEX) just stole $218,922 from a user and now calls the user an exploiter.** [𝕏/@SystemicStratHL](https://leviathannews.xyz/redirect/21613?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum Foundation Co-Executive Director Tomasz Stańczak speaks with Coinage about the Fusaka Upgrade** [youtu.be](https://leviathannews.xyz/redirect/21597?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Visualized strategy reveals how Polymarket’s smartest bot turns volatility into guaranteed payouts.** [𝕏/@Jaydenatwar](https://leviathannews.xyz/redirect/21607?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,470.45 (+14.70%) | [Full Analysis →](writeup/2025/12/03/signals_2025-12-03.md)
-**Sell Strategy:** $7,447.50 (-25.52%) | [Full Analysis →](writeup/2025/12/03/signals_2025-12-03.md)
+**Buy Strategy:** $11,386.27 (+13.86%) | [Full Analysis →](writeup/2025/12/04/signals_2025-12-04.md)
+**Sell Strategy:** $7,572.26 (-24.28%) | [Full Analysis →](writeup/2025/12/04/signals_2025-12-04.md)
 
-**GitHub:** 12-03-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-03-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-04-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-04-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
