@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 3582.806435775299,
+  "cash": 2585.5409445527084,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 24.04099349885364,
-      "entry_price": 165.60583817595386,
+      "quantity": 26.98404013591153,
+      "entry_price": 168.66025701480376,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -51,14 +51,6 @@
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "BUY"
     },
-    "MON": {
-      "symbol": "MON",
-      "token_name": "Monad",
-      "quantity": 29921.32039394996,
-      "entry_price": 0.03885896431407982,
-      "entry_date": "2025-11-25T00:00:00",
-      "entry_signal": "STRONG BUY"
-    },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
@@ -66,14 +58,6 @@
       "entry_price": 90328.71408377934,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK BUY"
-    },
-    "JESSE": {
-      "symbol": "JESSE",
-      "token_name": "jesse",
-      "quantity": -60756.71194280648,
-      "entry_price": 0.009617141709909642,
-      "entry_date": "2025-11-26T00:00:00",
-      "entry_signal": "SELL"
     },
     "ETH": {
       "symbol": "ETH",
@@ -122,6 +106,14 @@
       "entry_price": 903.1545256134978,
       "entry_date": "2025-12-03T00:00:00",
       "entry_signal": "WEAK BUY"
+    },
+    "SYRUP": {
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "quantity": 2375.3424037889995,
+      "entry_price": 0.23988384358877468,
+      "entry_date": "2025-12-04T00:00:00",
+      "entry_signal": "BUY"
     }
   },
   "trades": [
@@ -784,6 +776,54 @@
       "signal_type": "WEAK SELL",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-04T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 2.9430466370578907,
+      "price": 193.61102147872492,
+      "value": 569.8062656603045,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-04T00:00:00",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "BUY",
+      "quantity": 2375.3424037889995,
+      "price": 0.23988384358877468,
+      "value": 569.8062656603045,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-04T13:34:12.089812",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "SELL",
+      "quantity": 29921.32039394996,
+      "price": 0.029391377346134284,
+      "value": 879.4288183931667,
+      "signal_type": "STOP_LOSS",
+      "pnl": -283.28270302548367,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-04T13:34:12.089812",
+      "symbol": "JESSE",
+      "token_name": "jesse",
+      "action": "COVER",
+      "quantity": 60756.71194280648,
+      "price": 0.01213169302165336,
+      "value": 737.0817782951488,
+      "signal_type": "STOP_LOSS",
+      "pnl": -152.77586971301923,
+      "entry_price": 0.009617141709909642
     }
   ],
   "daily_values": [
@@ -898,6 +938,10 @@
     [
       "2025-12-03T13:33:00.583250",
       11470.450430864637
+    ],
+    [
+      "2025-12-04T13:34:12.089812",
+      11396.125313206088
     ]
   ],
   "strategy": "buy_the_news"
