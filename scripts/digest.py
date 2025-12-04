@@ -102,7 +102,7 @@ def generate_squid_pass_winner_section(winner_data):
         tag_id = tag.get('id', '')
         tag_slug = tag.get('slug', '')
         if tag_name and tag_id and tag_slug:
-            tag_links.append(f'<a href="https://leviathannews.xyz/tag/{tag_id}/{tag_slug}">{tag_name}</a>')
+            tag_links.append(f'<a href="https://leviathannews.xyz/t/{tag_id}/{tag_slug}">{tag_name}</a>')
     
     tags_str = " • ".join(tag_links) if tag_links else ""
     
@@ -183,7 +183,7 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
             tag_id = tag.get('id', '')
             tag_slug = tag.get('slug', '')
             if tag_name and tag_id and tag_slug:
-                tag_links.append(f'<a href="https://leviathannews.xyz/tag/{tag_id}/{tag_slug}">{tag_name}</a>')
+                tag_links.append(f'<a href="https://leviathannews.xyz/t/{tag_id}/{tag_slug}">{tag_name}</a>')
         
         tags_str = " • ".join(tag_links) if tag_links else ""
         
@@ -242,7 +242,7 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
             tag_id = tag.get('id', '')
             tag_slug = tag.get('slug', '')
             if tag_name and tag_id and tag_slug:
-                tag_links.append(f'<a href="https://leviathannews.xyz/tag/{tag_id}/{tag_slug}">{tag_name}</a>')
+                tag_links.append(f'<a href="https://leviathannews.xyz/t/{tag_id}/{tag_slug}">{tag_name}</a>')
 
         tags_str = " • ".join(tag_links) if tag_links else ""
 
