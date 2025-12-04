@@ -1,0 +1,117 @@
+name: Import RSS to Substack
+
+on:
+  schedule:
+    # Run at 6:15 AM PT (14:15 UTC) - 15 minutes after digest generation
+    # This gives time for the RSS feed to be updated
+    - cron: '15 14 * * *'
+  workflow_dispatch:  # Allow manual triggering for testing
+
+jobs:
+  import-rss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read  # Only need read access
+    
+    # This workflow is completely isolated - failures won't affect other workflows
+    continue-on-error: true
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+    
+    - name: Install dependencies
+      run: |
+        # Install dependencies using uv (project standard)
+        uv sync
+        uv pip install -e .
+    
+    - name: Install Playwright browsers
+      run: |
+        # Install Playwright and Chromium browser
+        uv run playwright install chromium
+        uv run playwright install-deps chromium
+    
+    - name: Validate required secrets
+      run: |
+        # Check for at least one authentication method
+        if [ -z "${{ secrets.SUBSTACK_SESSION_COOKIES }}" ] && \
+           ([ -z "${{ secrets.SUBSTACK_EMAIL }}" ] || [ -z "${{ secrets.SUBSTACK_PASSWORD }}" ]); then
+          echo "❌ ERROR: No authentication method configured!"
+          echo ""
+          echo "Please set one of the following in GitHub Secrets:"
+          echo "  1. SUBSTACK_SESSION_COOKIES (JSON string with cookies array)"
+          echo "  2. SUBSTACK_EMAIL and SUBSTACK_PASSWORD (for fallback login)"
+          echo ""
+          echo "See docs/SUBSTACK_AUTOMATION.md for setup instructions."
+          exit 1
+        fi
+        echo "✅ Authentication method configured"
+    
+    - name: Import RSS feed to Substack
+      env:
+        SUBSTACK_SESSION_COOKIES: ${{ secrets.SUBSTACK_SESSION_COOKIES }}
+        SUBSTACK_EMAIL: ${{ secrets.SUBSTACK_EMAIL }}
+        SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
+        SUBSTACK_URL: ${{ secrets.SUBSTACK_URL || 'https://leviathannews.substack.com' }}
+      continue-on-error: true
+      run: |
+        echo "=========================================="
+        echo "🚀 Starting Substack RSS Import"
+        echo "=========================================="
+        echo ""
+        echo "This workflow automates RSS feed import to Substack."
+        echo "Failures are isolated and won't affect email delivery."
+        echo ""
+        
+        # Run the import script
+        uv run python scripts/import_to_substack.py \
+          --substack-url "$SUBSTACK_URL" \
+          --headless \
+          --timeout 60000
+        
+        EXIT_CODE=$?
+        
+        if [ $EXIT_CODE -eq 0 ]; then
+          echo ""
+          echo "=========================================="
+          echo "✅ Substack RSS import completed successfully"
+          echo "=========================================="
+        else
+          echo ""
+          echo "=========================================="
+          echo "⚠️  Substack RSS import failed (exit code: $EXIT_CODE)"
+          echo "=========================================="
+          echo ""
+          echo "This failure is isolated and does not affect:"
+          echo "  - Email delivery (send-digest.yml)"
+          echo "  - Digest generation (draft-digest.yml)"
+          echo ""
+          echo "Check the logs above for error details."
+          echo "See docs/SUBSTACK_AUTOMATION.md for troubleshooting."
+        fi
+        
+        # Always exit with 0 to prevent workflow failure
+        # (continue-on-error handles this, but being explicit)
+        exit 0
+    
+    - name: Summary
+      if: always()
+      run: |
+        echo "=========================================="
+        echo "Substack RSS Import Workflow Complete"
+        echo "=========================================="
+        echo ""
+        echo "This workflow is isolated from other systems."
+        echo "Failures here do not affect email delivery or digest generation."
+
