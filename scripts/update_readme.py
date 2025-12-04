@@ -30,8 +30,28 @@ def find_latest_signals_file(writeup_dir: Path) -> Optional[Path]:
         return None
 
     # Sort by modification time, most recent first
-    signals_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
-    return signals_files[0]
+    # Use st_mtime (modification time) for better reliability
+    try:
+        signals_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    except OSError as e:
+        # If stat fails, try sorting by filename (which contains date)
+        print(f"  Warning: Could not stat files, sorting by filename: {e}")
+        signals_files.sort(key=lambda p: p.name, reverse=True)
+    
+    latest_file = signals_files[0]
+    
+    # Validate the file is readable and not empty
+    try:
+        if latest_file.stat().st_size == 0:
+            print(f"  Warning: Latest signals file is empty: {latest_file}")
+            # Try the next file if available
+            if len(signals_files) > 1:
+                print(f"  Falling back to: {signals_files[1]}")
+                return signals_files[1]
+    except OSError:
+        pass  # If we can't stat, continue anyway
+    
+    return latest_file
 
 
 def extract_headlines(signals_file: Path, limit: int = 5) -> List[Tuple[str, str, str]]:
@@ -136,10 +156,23 @@ def get_portfolio_snapshot(portfolio_file: Path) -> Tuple[float, float, str]:
         Tuple of (portfolio_value, total_return_pct, date)
     """
     if not portfolio_file.exists():
+        print(f"  Warning: Portfolio file not found: {portfolio_file}")
+        print(f"  Using default values (0.0, 0.0, today's date)")
         return (0.0, 0.0, datetime.now().strftime('%Y-%m-%d'))
 
-    with open(portfolio_file, 'r') as f:
-        state = json.load(f)
+    try:
+        with open(portfolio_file, 'r', encoding='utf-8') as f:
+            state = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"  Error: Invalid JSON in portfolio file: {portfolio_file}")
+        print(f"  JSON error: {e}")
+        print(f"  Using default values")
+        return (0.0, 0.0, datetime.now().strftime('%Y-%m-%d'))
+    except Exception as e:
+        print(f"  Error: Could not read portfolio file: {portfolio_file}")
+        print(f"  Error: {e}")
+        print(f"  Using default values")
+        return (0.0, 0.0, datetime.now().strftime('%Y-%m-%d'))
 
     # Calculate portfolio value
     cash = state.get('cash', 0)
@@ -148,21 +181,39 @@ def get_portfolio_snapshot(portfolio_file: Path) -> Tuple[float, float, str]:
     # Get latest daily value if available
     daily_values = state.get('daily_values', [])
     if daily_values:
-        latest = daily_values[-1]
-        # daily_values format: [timestamp, value] or {"date": ..., "total_value": ...}
-        if isinstance(latest, list):
-            date_str = latest[0].split('T')[0]  # Extract date from ISO timestamp
-            portfolio_value = latest[1]
-        else:
-            portfolio_value = latest.get('total_value', cash)
-            date_str = latest.get('date', datetime.now().strftime('%Y-%m-%d'))
+        try:
+            latest = daily_values[-1]
+            # daily_values format: [timestamp, value] or {"date": ..., "total_value": ...}
+            if isinstance(latest, list) and len(latest) >= 2:
+                date_str = latest[0].split('T')[0]  # Extract date from ISO timestamp
+                portfolio_value = float(latest[1])
+            elif isinstance(latest, dict):
+                portfolio_value = float(latest.get('total_value', cash))
+                date_str = latest.get('date', datetime.now().strftime('%Y-%m-%d'))
+            else:
+                print(f"  Warning: Unexpected daily_values format, using cash value")
+                portfolio_value = float(cash)
+                date_str = datetime.now().strftime('%Y-%m-%d')
+        except (ValueError, TypeError, IndexError) as e:
+            print(f"  Warning: Error parsing daily_values: {e}")
+            print(f"  Using cash value instead")
+            portfolio_value = float(cash)
+            date_str = datetime.now().strftime('%Y-%m-%d')
     else:
-        portfolio_value = cash
+        portfolio_value = float(cash)
         date_str = datetime.now().strftime('%Y-%m-%d')
 
     # Calculate return percentage
-    initial_capital = state.get('initial_capital', 10000)
-    total_return_pct = ((portfolio_value - initial_capital) / initial_capital) * 100
+    try:
+        initial_capital = float(state.get('initial_capital', 10000))
+        if initial_capital > 0:
+            total_return_pct = ((portfolio_value - initial_capital) / initial_capital) * 100
+        else:
+            print(f"  Warning: initial_capital is 0 or invalid, return % will be 0")
+            total_return_pct = 0.0
+    except (ValueError, TypeError) as e:
+        print(f"  Warning: Error calculating return percentage: {e}")
+        total_return_pct = 0.0
 
     return (portfolio_value, total_return_pct, date_str)
 
@@ -191,10 +242,27 @@ def format_above_fold_section(
     Returns:
         Formatted markdown string
     """
-    # Format date
-    date_obj = datetime.strptime(date, '%Y-%m-%d')
-    date_formatted = date_obj.strftime('%B %d, %Y')
-    date_mmddyy = date_obj.strftime('%m-%d-%y')
+    # Format date with error handling
+    try:
+        date_obj = datetime.strptime(date, '%Y-%m-%d')
+        date_formatted = date_obj.strftime('%B %d, %Y')
+        date_mmddyy = date_obj.strftime('%m-%d-%y')
+    except ValueError:
+        # If date parsing fails, try to extract from filename or use today
+        print(f"  Warning: Could not parse date '{date}', trying to extract from filename")
+        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', signals_file.name)
+        if date_match:
+            date = date_match.group(1)
+            try:
+                date_obj = datetime.strptime(date, '%Y-%m-%d')
+                date_formatted = date_obj.strftime('%B %d, %Y')
+                date_mmddyy = date_obj.strftime('%m-%d-%y')
+            except ValueError:
+                date_formatted = date
+                date_mmddyy = date[-5:] if len(date) >= 5 else date
+        else:
+            date_formatted = datetime.now().strftime('%B %d, %Y')
+            date_mmddyy = datetime.now().strftime('%m-%d-%y')
 
     # Format headlines as bullets with links
     if headlines:
@@ -244,16 +312,25 @@ def update_readme(readme_path: Path, new_section: str) -> bool:
         print(f"Error: README not found at {readme_path}")
         return False
 
-    content = readme_path.read_text()
+    try:
+        content = readme_path.read_text(encoding='utf-8')
+    except Exception as e:
+        print(f"Error: Could not read README file: {e}")
+        return False
 
     # Define markers
     start_marker = "<!-- DAILY_UPDATE_START -->"
     end_marker = "<!-- DAILY_UPDATE_END -->"
 
     # Check if markers exist
-    if start_marker not in content or end_marker not in content:
-        print(f"Error: Markers not found in README")
-        print(f"Please add {start_marker} and {end_marker} to README.md")
+    if start_marker not in content:
+        print(f"Error: Start marker not found in README")
+        print(f"Please add {start_marker} to README.md")
+        return False
+    
+    if end_marker not in content:
+        print(f"Error: End marker not found in README")
+        print(f"Please add {end_marker} to README.md")
         return False
 
     # Replace content between markers
@@ -261,12 +338,22 @@ def update_readme(readme_path: Path, new_section: str) -> bool:
     replacement = f"{start_marker}\n{new_section}{end_marker}"
 
     updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+    
+    # Verify the replacement actually happened
+    if updated_content == content:
+        print(f"Warning: Content replacement did not change the file")
+        print(f"  This might indicate the markers are malformed or the pattern didn't match")
+        return False
 
     # Write back
-    readme_path.write_text(updated_content)
-    print(f"✓ README updated successfully")
-    print(f"  Headlines: {len(new_section.splitlines())} lines")
-    return True
+    try:
+        readme_path.write_text(updated_content, encoding='utf-8')
+        print(f"✓ README updated successfully")
+        print(f"  Headlines: {len(new_section.splitlines())} lines")
+        return True
+    except Exception as e:
+        print(f"Error: Could not write README file: {e}")
+        return False
 
 
 def main():
@@ -355,11 +442,23 @@ def main():
 
     print(f"\nReading buy strategy portfolio state from {buy_portfolio_file}...")
     buy_portfolio_value, buy_total_return_pct, date = get_portfolio_snapshot(buy_portfolio_file)
+    if buy_portfolio_value == 0.0 and not buy_portfolio_file.exists():
+        print(f"  ⚠ Warning: Buy portfolio file missing, using default values")
     print(f"✓ Buy Strategy: ${buy_portfolio_value:,.2f} ({buy_total_return_pct:+.2f}%)")
 
     print(f"\nReading sell strategy portfolio state from {sell_portfolio_file}...")
     sell_portfolio_value, sell_total_return_pct, _ = get_portfolio_snapshot(sell_portfolio_file)
+    if sell_portfolio_value == 0.0 and not sell_portfolio_file.exists():
+        print(f"  ⚠ Warning: Sell portfolio file missing, using default values")
     print(f"✓ Sell Strategy: ${sell_portfolio_value:,.2f} ({sell_total_return_pct:+.2f}%)")
+    
+    # Validate date was extracted
+    if not date or date == datetime.now().strftime('%Y-%m-%d'):
+        # Try to extract date from signals file name as fallback
+        signals_date_match = re.search(r'(\d{4}-\d{2}-\d{2})', signals_file.name)
+        if signals_date_match:
+            date = signals_date_match.group(1)
+            print(f"  Using date from signals filename: {date}")
 
     # Format above-the-fold section
     print("\nFormatting above-the-fold section...")
