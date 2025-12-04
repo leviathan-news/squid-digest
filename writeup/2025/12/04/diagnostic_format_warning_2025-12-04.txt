@@ -1,0 +1,35 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 405 chars. First 500 chars: **$BTC Bitcoin: WEAK BUY** - Rebounded above $93,000 after early December's 7% drop with three supporting factors (macro policy shifts, institutional access, compressed technicals signaling bounce), but macro headwinds and negative ETF flows create reversal risk above $100,000 ([more info](https://www.marketpulse.com/markets/bitcoin-btcusd-price-alert-bitcoin-breaks-major-resistance-next-stop-100000/))
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+**$BTC Bitcoin: WEAK BUY** - Rebounded above $93,000 after early December's 7% drop with three supporting factors (macro policy shifts, institutional access, compressed technicals signaling bounce), but macro headwinds and negative ETF flows create reversal risk above $100,000 ([more info](https://www.marketpulse.com/markets/bitcoin-btcusd-price-alert-bitcoin-breaks-major-resistance-next-stop-100000/))
+
+News items sent (10):
+[1] USDCx Launches on Canton: Circle, Digital Asset, and Loop Wallet deliver privacy-first, Cross-Chain USDC Liquidity - https://leviathannews.xyz/redirect/21632?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Binance introduces Binance Junior, a parent-controlled app and sub-account for kids and teens. - https://leviathannews.xyz/redirect/21588?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Paradex (a ‘decentralized’ perp DEX) just stole $218,922 from a user and now calls the user an exploiter. - https://leviathannews.xyz/redirect/21613?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Ethereum Foundation Co-Executive Director Tomasz Stańczak speaks with Coinage about the Fusaka Upgrade - https://leviathannews.xyz/redirect/21597?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Visualized strategy reveals how Polymarket’s smartest bot turns volatility into guaranteed payouts. - https://leviathannews.xyz/redirect/21607?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] YO launches yoGOLD, the first institutional-grade yield vault for tokenized gold powered by Tether Gold. - https://leviathannews.xyz/redirect/21594?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Maple Finance's syrupUSDC is now available for borrowing on Aave mainnet - https://leviathannews.xyz/redirect/21628?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Haiku raises $1M pre-seed to unify deFi execution. The round was led by Big Brain Holdings, with participation from Auros, Frostlight, Daedalus Syndicate, and Biconomy CEO Ahmed Al-Balaghi. - https://leviathannews.xyz/redirect/21615?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Native USDC and CCTP are now live on Starknet Mainnet. Users and builders can now access the world’s largest regulated stablecoin natively on Starknet, with the benefits of Circle’s burn-and-mint infrastructure. A massive unlock for the stablecoin ecosystem, fixing liquidity fragmentation and greatly improving institutional onboarding. - https://leviathannews.xyz/redirect/21589?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Predictions goes live in Trust Wallet, the first major wallet with native predictions. Trade sports, crypto, politics & more in one place & self-custodial. Powered by MyriadMarkets (live), Polymarket & Kalshi coming soon. - https://leviathannews.xyz/redirect/21630?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$SOL Solana - 65 news articles (TVL: $800,000,000,000)
+$USDtb USDtb - 6 news articles (TVL: $1,456,521,690)
+$ETH Ethereum - 521 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 495 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 292 news articles (TVL: $100,000)
+$AAVE Aave - 249 news articles (TVL: $636,416,718)
+$HYPE HYPE - 72 news articles (TVL: $12,000,000,000)
+$XRP XRP - 71 news articles (TVL: $636,416,718)
+$CRV Curve DAO Token - 60 news articles (TVL: $5,647,064)
+$BNB BNB - 59 ne...

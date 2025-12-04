@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 20150.84018273929,
+  "cash": 20319.676020645707,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -9465.114076517093,
+      "quantity": -4732.5570382585465,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -62,15 +62,15 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.029620041689897438,
-      "entry_price": 90215.59082022792,
+      "quantity": -0.03165980153611815,
+      "entry_price": 90382.6303641793,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK SELL"
     },
     "JESSE": {
       "symbol": "JESSE",
       "token_name": "jesse",
-      "quantity": 19629.64003481898,
+      "quantity": 9814.82001740949,
       "entry_price": 0.009617141709909642,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "BUY"
@@ -900,6 +900,42 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 49.35973709861108,
       "entry_price": 0.009617141709909642
+    },
+    {
+      "date": "2025-12-04T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0020397598462207106,
+      "price": 92808.26800229102,
+      "value": 189.30657846836363,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-04T13:43:49.871194",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 4732.5570382585465,
+      "price": 0.029451163127090056,
+      "value": 139.37930934201063,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 44.52295572202553,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-04T13:43:49.871194",
+      "symbol": "JESSE",
+      "token_name": "jesse",
+      "action": "SELL",
+      "quantity": 9814.82001740949,
+      "price": 0.012115206246180892,
+      "value": 118.9085687800607,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 24.518053815375808,
+      "entry_price": 0.009617141709909642
     }
   ],
   "daily_values": [
@@ -1018,6 +1054,10 @@
     [
       "2025-12-04T13:34:12.089812",
       7552.500032807775
+    ],
+    [
+      "2025-12-04T13:43:49.871194",
+      7572.263138734552
     ]
   ],
   "strategy": "sell_the_news"
