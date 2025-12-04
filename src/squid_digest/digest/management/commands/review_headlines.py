@@ -564,7 +564,18 @@ class Command(BaseCommand):
                     format_str = 'TAG' + (f', {", ".join(f for f in formats if f != "TAG")}' if len(formats) > 1 else '')
                 else:
                     format_str = ', '.join(formats)
-                self.stdout.write(f'  ✓ {token} ({count}x) [{format_str}]')
+                
+                # Extract article IDs from occurrences
+                article_ids = [str(occ.get('id', '')) for occ in occurrences if occ.get('id')]
+                if article_ids:
+                    article_ids_str = ', '.join(article_ids[:10])  # Show first 10 IDs
+                    if len(article_ids) > 10:
+                        article_ids_str += f' ... (+{len(article_ids) - 10} more)'
+                    self.stdout.write(f'  ✓ {token} ({count}x) [{format_str}]')
+                    self.stdout.write(f'    Article IDs: {article_ids_str}')
+                else:
+                    self.stdout.write(f'  ✓ {token} ({count}x) [{format_str}]')
+                
                 if verbose and occurrences:
                     # Prefer showing tag-based occurrence
                     tag_occ = next((occ for occ in occurrences if occ.get('format') == 'TAG'), occurrences[0])
