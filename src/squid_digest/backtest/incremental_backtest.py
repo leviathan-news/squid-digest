@@ -97,8 +97,13 @@ class IncrementalBacktest:
                 trades = portfolio.process_signal(signal, price, current_prices)
                 trades_today.extend(trades)
             
-            # Record daily portfolio value
+            # Record daily portfolio value (this also checks for stop loss/profit-taking)
+            # Capture trades from stop loss/profit-taking checks
+            trades_before_check = len(portfolio.trades)
             portfolio.record_daily_value(current_date, current_prices)
+            # Add any new trades from stop loss/profit-taking to trades_today
+            if len(portfolio.trades) > trades_before_check:
+                trades_today.extend(portfolio.trades[trades_before_check:])
             
             # Calculate current portfolio value
             portfolio_value = portfolio.get_total_value(current_prices)
