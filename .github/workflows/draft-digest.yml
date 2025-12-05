@@ -120,13 +120,15 @@ jobs:
         git status --porcelain
         echo "========================================"
 
-        # Check if there are any changes to commit
-        if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+        # Stage and commit ALL changes in one atomic operation
+        # This ensures we capture any files modified by the digest script (feed.xml, portfolio state, etc)
+        # even if they were modified after the digest script completed
+        git add -A
+
+        if git diff --cached --quiet; then
           echo "No changes to commit"
         else
-          git add writeup/
-
-          echo "=== Files Staged for Commit ==="
+          echo "=== Files to be Committed ==="
           git diff --cached --name-only
           echo "================================"
 
