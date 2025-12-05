@@ -116,14 +116,25 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
+        echo "=== Git Status Before Digest Commit ==="
+        git status --porcelain
+        echo "========================================"
+
         # Check if there are any changes to commit
         if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
           echo "No changes to commit"
         else
           git add writeup/
+
+          echo "=== Files Staged for Commit ==="
+          git diff --cached --name-only
+          echo "================================"
+
           git commit -m "🤖 Auto-generated daily digest draft - $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
+
+          echo "✓ Digest committed and pushed successfully"
         fi
 
     - name: Update README with today's signals
@@ -159,14 +170,33 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-        # Check if README files were modified
-        if git diff --quiet README.md writeup/README.md; then
-          echo "No README changes to commit"
+        echo "=== Git Status Before README Commit ==="
+        git status --porcelain
+        echo "========================================"
+
+        # Stage portfolio state files if modified (ROOT CAUSE FIX)
+        if [ -f "writeup/portfolio_state_buy.json" ] || [ -f "writeup/portfolio_state_sell.json" ]; then
+          echo "Checking for portfolio state changes..."
+          if ! git diff --quiet writeup/portfolio_state_buy.json 2>/dev/null || ! git diff --quiet writeup/portfolio_state_sell.json 2>/dev/null; then
+            echo "Portfolio state files were modified, staging them..."
+            git add writeup/portfolio_state_buy.json writeup/portfolio_state_sell.json 2>/dev/null || true
+          fi
+        fi
+
+        # Check if any changes to commit (READMEs or portfolio state)
+        if git diff --quiet README.md writeup/README.md && git diff --cached --quiet; then
+          echo "No changes to commit"
         else
           git add README.md writeup/README.md
+
+          echo "=== Files Staged for Commit ==="
+          git diff --cached --name-only
+          echo "================================"
+
           git commit -m "📊 Update READMEs with daily signals and navigation - $(date -u '+%Y-%m-%d')"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
+
           echo "✓ README changes pushed successfully"
         fi
 
