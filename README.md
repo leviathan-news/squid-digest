@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 04, 2025)
+## 📊 Latest News Headlines (December 05, 2025)
 
 ### 🔥 Top Headlines
-- **USDCx Launches on Canton: Circle, Digital Asset, and Loop Wallet deliver privacy-first, Cross-Chain USDC Liquidity** [Circle](https://leviathannews.xyz/redirect/21632?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance introduces Binance Junior, a parent-controlled app and sub-account for kids and teens.** [𝕏/@binance](https://leviathannews.xyz/redirect/21588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Paradex (a ‘decentralized’ perp DEX) just stole $218,922 from a user and now calls the user an exploiter.** [𝕏/@SystemicStratHL](https://leviathannews.xyz/redirect/21613?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum Foundation Co-Executive Director Tomasz Stańczak speaks with Coinage about the Fusaka Upgrade** [youtu.be](https://leviathannews.xyz/redirect/21597?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Visualized strategy reveals how Polymarket’s smartest bot turns volatility into guaranteed payouts.** [𝕏/@Jaydenatwar](https://leviathannews.xyz/redirect/21607?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WisdomTree Launches First Fully-Staked Ethereum ETP Backed by Lido stETH, Bringing Institutional-Grade Staking Directly to TradFi Markets** [blog.lido.fi](https://leviathannews.xyz/redirect/21661?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum faces major near-meltdown as an unexpected Fusaka upgrade bug threatens chain stability.** [Cryptonews](https://leviathannews.xyz/redirect/21676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance's CZ hands Peter Schiff a gold bar and asks if it's real gold. Peter says that he don't know. With Bitcoin, there are no doubts. There are only real Bitcoins on the blockchain.** [𝕏/@DegenerateNews](https://leviathannews.xyz/redirect/21634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **December SQUID Drop (covering November) Discussion Thread** [leviathannews.substack](https://leviathannews.xyz/redirect/21672?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lighter introduces Spot. Users can now deposit, withdraw, and transfer ETH, the first native asset on the Ethereum L2 DEX. Later this week, Lighter will enable spot trading and begin rolling out additional markets.** [𝕏/@Lighter_xyz](https://leviathannews.xyz/redirect/21639?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,386.27 (+13.86%) | [Full Analysis →](writeup/2025/12/04/signals_2025-12-04.md)
-**Sell Strategy:** $7,572.26 (-24.28%) | [Full Analysis →](writeup/2025/12/04/signals_2025-12-04.md)
+**Buy Strategy:** $11,271.20 (+12.71%) | [Full Analysis →](writeup/2025/12/05/signals_2025-12-05.md)
+**Sell Strategy:** $7,874.60 (-21.25%) | [Full Analysis →](writeup/2025/12/05/signals_2025-12-05.md)
 
-**GitHub:** 12-04-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-04-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-05-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-05-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
