@@ -20,13 +20,32 @@ class Signal:
 class SignalParser:
     """Parse trading signals from markdown signal files."""
     
-    # Pattern to match signal lines like:
+    # Pattern to match signal lines in ACTUAL format (after digest.py transformation):
+    # 🟡 Bitcoin (<a href="url">$BTC</a>): WEAK BUY - reason text
+    # OR the original LLM format (for temp file parsing before transformation):
     # **$LINK ChainLink Token: STRONG BUY** - reason text
-    # Handles tokens with parentheses and special chars in name
-    # Symbol can have lowercase (e.g., fxUSD)
-    # NOW: Case-insensitive to handle "Strong Buy", "STRONG BUY", "strong buy", etc.
-    SIGNAL_PATTERN = re.compile(
+    #
+    # Handles both emoji-prefixed HTML format and bold markdown format
+    # Case-insensitive to handle "Strong Buy", "STRONG BUY", "strong buy", etc.
+
+    # Pattern 1: Emoji + HTML format (final output format)
+    # Matches: 🟡 Bitcoin (<a href="...">$BTC</a>): WEAK BUY - reason
+    SIGNAL_PATTERN_HTML = re.compile(
+        r'[🟢🔴🟡🟠⚪]\s*([^(]+?)\s*\(<a[^>]*>\$([A-Za-z0-9]+)</a>\):\s*([A-Za-z\s]+?)\s*-\s*(.+?)(?:\s*$)',
+        re.MULTILINE | re.DOTALL | re.IGNORECASE
+    )
+
+    # Pattern 2: Bold markdown format (raw LLM output format)
+    # Matches: **$LINK ChainLink Token: STRONG BUY** - reason text
+    SIGNAL_PATTERN_BOLD = re.compile(
         r'\*\*\$([A-Za-z0-9]+)\s+([^:]+?):\s+([A-Za-z\s]+?)\*\*\s*-\s*(.+?)(?:\s*\(\[more info\]|$)',
+        re.MULTILINE | re.DOTALL | re.IGNORECASE
+    )
+
+    # Pattern 3: Emoji + markdown link format (intermediate format)
+    # Matches: 🟡 Bitcoin ([$BTC](url)): WEAK BUY - reason
+    SIGNAL_PATTERN_MD_LINK = re.compile(
+        r'[🟢🔴🟡🟠⚪]\s*([^(]+?)\s*\(\[\$([A-Za-z0-9]+)\]\([^)]+\)\):\s*([A-Za-z\s]+?)\s*-\s*(.+?)(?:\s*$)',
         re.MULTILINE | re.DOTALL | re.IGNORECASE
     )
     
@@ -70,29 +89,56 @@ class SignalParser:
         
         signals_content = content[signals_section_start:]
         
-        # Find all signal matches
-        for match in self.SIGNAL_PATTERN.finditer(signals_content):
-            symbol = match.group(1)
-            token_name = match.group(2).strip()
-            signal_type_raw = match.group(3).strip()
-            signal_type = signal_type_raw.upper()  # Normalize to uppercase canonical form
-            reason = match.group(4).strip()
+        # Try multiple patterns to handle different format variations
+        # Pattern 1: Emoji + HTML (final output) - groups: (token_name, symbol, signal_type, reason)
+        # Pattern 2: Bold markdown (LLM raw) - groups: (symbol, token_name, signal_type, reason)
+        # Pattern 3: Emoji + markdown link - groups: (token_name, symbol, signal_type, reason)
 
-            # Clean up reason (remove markdown links)
-            reason = re.sub(r'\(\[more info\]\([^)]+\)\)', '', reason).strip()
+        patterns_to_try = [
+            ('html', self.SIGNAL_PATTERN_HTML),      # token_name, symbol, signal, reason
+            ('bold', self.SIGNAL_PATTERN_BOLD),      # symbol, token_name, signal, reason
+            ('md_link', self.SIGNAL_PATTERN_MD_LINK) # token_name, symbol, signal, reason
+        ]
 
-            # Validate signal type (after normalization)
-            if signal_type not in self.VALID_SIGNALS:
-                print(f"Warning: Unknown signal type '{signal_type_raw}' (normalized: '{signal_type}') for {symbol} on {date_str}")
-                continue
-            
-            signals.append(Signal(
-                date=signal_date,
-                symbol=symbol,
-                token_name=token_name,
-                signal_type=signal_type,
-                reason=reason
-            ))
+        for pattern_name, pattern in patterns_to_try:
+            matches = list(pattern.finditer(signals_content))
+            if matches:
+                for match in matches:
+                    # Extract groups based on pattern type
+                    if pattern_name == 'bold':
+                        # Bold format: **$SYMBOL Token: SIGNAL** - reason
+                        symbol = match.group(1)
+                        token_name = match.group(2).strip()
+                    else:
+                        # HTML and MD link formats: emoji Token ($SYMBOL): SIGNAL - reason
+                        token_name = match.group(1).strip()
+                        symbol = match.group(2)
+
+                    signal_type_raw = match.group(3).strip()
+                    signal_type = signal_type_raw.upper()  # Normalize to uppercase
+                    reason = match.group(4).strip()
+
+                    # Clean up reason (remove markdown links and trailing content)
+                    reason = re.sub(r'\(\[more info\]\([^)]+\)\)', '', reason).strip()
+                    # Remove any trailing HTML or markdown artifacts
+                    reason = re.sub(r'\s*<[^>]+>\s*$', '', reason).strip()
+
+                    # Validate signal type (after normalization)
+                    if signal_type not in self.VALID_SIGNALS:
+                        print(f"Warning: Unknown signal type '{signal_type_raw}' (normalized: '{signal_type}') for {symbol} on {date_str}")
+                        continue
+
+                    signals.append(Signal(
+                        date=signal_date,
+                        symbol=symbol,
+                        token_name=token_name,
+                        signal_type=signal_type,
+                        reason=reason
+                    ))
+
+                # If we found signals with this pattern, don't try other patterns
+                if signals:
+                    break
         
         return signals
     
