@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 20319.676020645707,
+  "cash": 20661.49532013105,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -14,8 +14,8 @@
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": -1176.5698259924072,
-      "entry_price": 0.42496415338398,
+      "quantity": -2160.1861316491295,
+      "entry_price": 0.41372814927975027,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -54,7 +54,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -4732.5570382585465,
+      "quantity": -2366.2785191292733,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -62,8 +62,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.03165980153611815,
-      "entry_price": 90382.6303641793,
+      "quantity": -0.03602293671175866,
+      "entry_price": 90365.36848831219,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -74,14 +74,6 @@
       "entry_price": 0.009617141709909642,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "BUY"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.12342483900414151,
-      "entry_price": 2996.0933584282434,
-      "entry_date": "2025-11-29T00:00:00",
-      "entry_signal": "SELL"
     },
     "LINK": {
       "symbol": "LINK",
@@ -936,6 +928,54 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 24.518053815375808,
       "entry_price": 0.009617141709909642
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "SHORT",
+      "quantity": 983.6163056567225,
+      "price": 0.40028800669799697,
+      "value": 393.72981034697716,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.004363135175640509,
+      "price": 90240.11278522386,
+      "value": 393.72981034697705,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.12342483900414151,
+      "price": 3102.263389178514,
+      "value": 382.8963593578005,
+      "signal_type": "WEAK BUY",
+      "pnl": -13.104018952416936,
+      "entry_price": 2996.0933584282434
+    },
+    {
+      "date": "2025-12-05T14:55:36.553897",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 2366.2785191292733,
+      "price": 0.026515881940177753,
+      "value": 62.74396185081046,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 29.20717068120762,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1058,6 +1098,10 @@
     [
       "2025-12-04T13:43:49.871194",
       7572.263138734552
+    ],
+    [
+      "2025-12-05T14:55:36.553897",
+      7874.596206939539
     ]
   ],
   "strategy": "sell_the_news"
