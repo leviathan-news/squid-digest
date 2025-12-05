@@ -24,9 +24,10 @@ class SignalParser:
     # **$LINK ChainLink Token: STRONG BUY** - reason text
     # Handles tokens with parentheses and special chars in name
     # Symbol can have lowercase (e.g., fxUSD)
+    # NOW: Case-insensitive to handle "Strong Buy", "STRONG BUY", "strong buy", etc.
     SIGNAL_PATTERN = re.compile(
-        r'\*\*\$([A-Za-z0-9]+)\s+([^:]+?):\s+([A-Z\s]+)\*\*\s*-\s*(.+?)(?:\s*\(\[more info\]|$)',
-        re.MULTILINE | re.DOTALL
+        r'\*\*\$([A-Za-z0-9]+)\s+([^:]+?):\s+([A-Za-z\s]+?)\*\*\s*-\s*(.+?)(?:\s*\(\[more info\]|$)',
+        re.MULTILINE | re.DOTALL | re.IGNORECASE
     )
     
     # Signal types we recognize
@@ -73,15 +74,16 @@ class SignalParser:
         for match in self.SIGNAL_PATTERN.finditer(signals_content):
             symbol = match.group(1)
             token_name = match.group(2).strip()
-            signal_type = match.group(3).strip()
+            signal_type_raw = match.group(3).strip()
+            signal_type = signal_type_raw.upper()  # Normalize to uppercase canonical form
             reason = match.group(4).strip()
-            
+
             # Clean up reason (remove markdown links)
             reason = re.sub(r'\(\[more info\]\([^)]+\)\)', '', reason).strip()
-            
-            # Validate signal type
+
+            # Validate signal type (after normalization)
             if signal_type not in self.VALID_SIGNALS:
-                print(f"Warning: Unknown signal type '{signal_type}' for {symbol} on {date_str}")
+                print(f"Warning: Unknown signal type '{signal_type_raw}' (normalized: '{signal_type}') for {symbol} on {date_str}")
                 continue
             
             signals.append(Signal(
