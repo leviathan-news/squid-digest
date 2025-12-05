@@ -163,9 +163,8 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
     top_stories = news_data[:limit]
 
     section = "## 🔥 Top Stories\n\n"
-    # Wrap table in div for styling (orange border for SQUID Pass Winner row)
+    # Use vertical layout (image on top, text below) for better Ghost compatibility
     section += "<div style=\"border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;\">\n"
-    section += "<table style=\"width: 100%; border-collapse: collapse;\">\n"
 
     for i, story in enumerate(top_stories, 1):
         # Extract story data
@@ -198,33 +197,28 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
                 comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
                 top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
         
-        # Format as HTML table row
-        section += "  <tr>\n"
+        # Format as vertical div (image on top, text below) for Ghost compatibility
+        section += "  <div style=\"padding: 16px; border-bottom: 1px solid #e0e0e0;\">\n"
         
-        # Image cell - make images 50% wider (525px)
-        section += "    <td style=\"width: 525px; min-width: 525px; vertical-align: center; padding-right: 12px;\">\n"
+        # Image on top
         if media_url:
             # Use proxied URL for GitHub markdown compatibility
             proxied_url = proxy_image_url_for_github(media_url)
-            section += f"      <img src=\"{proxied_url}\" alt=\"Story Image\" width=\"525\" style=\"min-width: 525px; max-width: 100%; height: auto; border-radius: 4px;\">\n"
-        section += "    </td>\n"
+            section += f"    <img src=\"{proxied_url}\" alt=\"Story Image\" style=\"width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;\">\n"
         
-        # Content cell
-        section += "    <td style=\"vertical-align: center;\">\n"
+        # Content below image
         # Remove headline hyperlink, only link source (redirect URL with UTM codes)
         news_id = story.get('id', '')
         redirect_url = f"https://leviathannews.xyz/redirect/{news_id}?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true"
-        section += f"      {i}. {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a>\n"
+        section += f"    <p style=\"margin: 0 0 8px 0;\">{i}. {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a></p>\n"
 
         if tags_str:
-            section += f"      <br><span style=\"font-size: 0.9em;\">🏷️ {tags_str}</span>\n"
+            section += f"    <p style=\"margin: 0 0 8px 0; font-size: 0.9em;\">🏷️ {tags_str}</p>\n"
 
         if top_comment:
-            section += f"      <br><blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
+            section += f"    <blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
 
-        section += "    </td>\n"
-        section += "  </tr>\n"
-        section += "  <tr><td colspan=\"2\" style=\"height: 1px; background-color: #e0e0e0;\"></td></tr>\n"
+        section += "  </div>\n"
 
     # Insert SQUID Pass Winner after story 5 (if available)
     if squid_pass_winner_data:
@@ -256,29 +250,27 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
                 comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
                 top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
 
-        # Add SQUID Pass Winner row with orange background
-        section += "  <tr style=\"background-color: #FFF5F2;\">\n"
-        section += "    <td style=\"width: 525px; min-width: 525px; vertical-align: center; padding: 16px 12px 16px 16px;\">\n"
+        # Add SQUID Pass Winner with orange background (vertical layout)
+        section += "  <div style=\"padding: 16px; background-color: #FFF5F2;\">\n"
+        
+        # Image on top
         if media_url:
             proxied_url = proxy_image_url_for_github(media_url)
-            section += f"      <img src=\"{proxied_url}\" alt=\"SQUID Pass Winner\" width=\"525\" style=\"min-width: 525px; max-width: 100%; height: auto; border-radius: 4px;\">\n"
-        section += "    </td>\n"
+            section += f"    <img src=\"{proxied_url}\" alt=\"SQUID Pass Winner\" style=\"width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;\">\n"
 
-        section += "    <td style=\"vertical-align: center; padding: 16px;\">\n"
-        section += f"      <h3 style=\"margin-top: 0; color: #FF6B35;\">🏆 SQUID Pass Winner</h3>\n"
+        # Content below image
+        section += f"    <h3 style=\"margin-top: 0; color: #FF6B35;\">🏆 SQUID Pass Winner</h3>\n"
         redirect_url = f"https://leviathannews.xyz/redirect/{news_id}?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true"
-        section += f"      {headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a>\n"
+        section += f"    <p style=\"margin: 0 0 8px 0;\">{headline} - <a href=\"{redirect_url}\"><strong>{source}</strong></a></p>\n"
 
         if tags_str:
-            section += f"      <br><span style=\"font-size: 0.9em;\">🏷️ {tags_str}</span>\n"
+            section += f"    <p style=\"margin: 0 0 8px 0; font-size: 0.9em;\">🏷️ {tags_str}</p>\n"
 
         if top_comment:
-            section += f"      <br><blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
+            section += f"    <blockquote style=\"margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;\">{top_comment}</blockquote>\n"
 
-        section += "    </td>\n"
-        section += "  </tr>\n"
+        section += "  </div>\n"
 
-    section += "</table>\n"
     section += "</div>\n"
 
     return section

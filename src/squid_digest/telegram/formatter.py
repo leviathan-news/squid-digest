@@ -127,9 +127,10 @@ def _convert_tables_to_lists(html_content: str) -> str:
     Returns:
         HTML content with tables converted to lists
     """
-    # Pattern to match story table rows (including SQUID Pass)
-    # Matches: <tr> with image in first td, content in second td
-    story_pattern = r'<tr[^>]*>\s*<td[^>]*>\s*<img[^>]*src="([^"]*)"[^>]*>\s*</td>\s*<td[^>]*>\s*(.*?)\s*</td>\s*</tr>'
+    # Pattern to match story divs (new vertical format)
+    # Matches: <div> with padding and border-bottom containing image and content
+    # Also matches SQUID Pass divs with background-color: #FFF5F2
+    story_pattern = r'<div[^>]*style="[^"]*padding:\s*16px[^"]*"[^>]*>\s*(?:<img[^>]*src="([^"]*)"[^>]*>)?\s*(.*?)\s*</div>'
     
     def replace_story(match):
         img_url = match.group(1)
@@ -188,44 +189,49 @@ def _convert_tables_to_lists(html_content: str) -> str:
             
             return "\n".join(parts) + "\n"
         
-        # Extract story title (first <strong><a> tag)
-        title_match = re.search(r'<strong><a[^>]*href="([^"]*)"[^>]*>([^<]*)</a></strong>', content)
-        if title_match:
-            story_url = title_match.group(1)
-            story_title = title_match.group(2)
+        # Extract story headline and number from paragraph
+        # New format: <p>1. Headline text - <a><strong>Source</strong></a></p>
+        # Old format: "1. Headline text - <a><strong>Source</strong></a>"
+        # Try to find paragraph with story number and headline
+        p_match = re.search(r'<p[^>]*>(\d+)\.\s*([^<]+)\s*-\s*<a[^>]*href="([^"]*)"[^>]*><strong>([^<]+)</strong></a></p>', content)
+        if p_match:
+            story_num = p_match.group(1)
+            story_title = p_match.group(2).strip()
+            source_url = p_match.group(3)
+            source_text = p_match.group(4).strip()
         else:
-            # Fallback: try to find any strong tag
-            title_match = re.search(r'<strong>([^<]*)</strong>', content)
-            if title_match:
-                story_title = title_match.group(1)
-                story_url = "#"
+            # Fallback: extract from text before first <a> tag
+            text_before_link = re.split(r'<a[^>]*>', content)[0]
+            # Strip HTML tags from this text to get plain text
+            text_clean = re.sub(r'<[^>]+>', '', text_before_link).strip()
+            
+            # Extract story number and title from the text
+            # Format: "1. Headline text -" or "1. Headline text"
+            number_match = re.match(r'^(\d+)\.\s*(.*?)(?:\s*-\s*)?$', text_clean)
+            if number_match:
+                story_num = number_match.group(1)
+                story_title = number_match.group(2).strip()
+                # Remove trailing dash if present
+                story_title = re.sub(r'\s*-\s*$', '', story_title).strip()
             else:
-                story_title = "Story"
-                story_url = "#"
+                story_num = "?"
+                story_title = text_clean if text_clean else "Story"
+            
+            # Extract source separately if not found in paragraph
+            source_match = re.search(r'<a[^>]*href="([^"]*)"[^>]*>\s*<strong>([^<]*)</strong>\s*</a>', content)
+            if source_match:
+                source_url = source_match.group(1)
+                source_text = source_match.group(2).strip()
+            else:
+                source_url = "#"
+                source_text = ""
         
-        # Extract story number from title (e.g., "1. Story Title" -> "1")
-        number_match = re.match(r'^(\d+)\.\s*(.*)', story_title)
-        if number_match:
-            story_num = number_match.group(1)
-            story_title = number_match.group(2).strip()
-        else:
-            story_num = "?"
-        
-        # Extract source (second <a> tag, after the title)
-        all_links = re.findall(r'<a[^>]*href="([^"]*)"[^>]*>([^<]*)</a>', content)
-        source_text = ""
-        source_url = ""
-        if len(all_links) >= 2:
-            # Second link is usually the source
-            source_url = all_links[1][0]
-            source_text = all_links[1][1]
-        elif len(all_links) == 1:
-            # Only one link, might be the source
-            source_url = all_links[0][0]
-            source_text = all_links[0][1]
-        
-        # Extract tags from span element
-        tags_match = re.search(r'<span[^>]*>🏷️\s*(.*?)</span>', content, re.DOTALL)
+        # Extract tags from paragraph (new format) or span (old format)
+        # New format: <p>🏷️ <a>tag1</a> • <a>tag2</a></p>
+        # Old format: <span>🏷️ <a>tag1</a> • <a>tag2</a></span>
+        tags_match = re.search(r'<p[^>]*>🏷️\s*(.*?)</p>', content, re.DOTALL)
+        if not tags_match:
+            tags_match = re.search(r'<span[^>]*>🏷️\s*(.*?)</span>', content, re.DOTALL)
         tags_html = ""
         if tags_match:
             # Extract individual tag links
@@ -246,8 +252,13 @@ def _convert_tables_to_lists(html_content: str) -> str:
                     tags_html = f"🏷️ {tags_text_clean}"
 
         # Extract comment and username
-        # Use non-greedy match with DOTALL to capture multi-line comments
-        comment_match = re.search(r'💬\s*<i>(.*?)</i>\s*—\s*@([^<\s]*)', content, re.DOTALL)
+        # Pattern matches: <blockquote>💬 <i>comment</i> — <a>@username</a></blockquote>
+        # or just: 💬 <i>comment</i> — <a>@username</a>
+        comment_match = re.search(
+            r'(?:<blockquote[^>]*>)?\s*💬\s*<i>(.*?)</i>\s*—\s*<a[^>]*href="[^"]*"[^>]*>@?([^<\s]*)</a>\s*(?:</blockquote>)?',
+            content,
+            re.DOTALL
+        )
         comment_html = ""
         if comment_match:
             # Unescape HTML entities - final escaping will happen in _clean_telegram_html
@@ -276,10 +287,10 @@ def _convert_tables_to_lists(html_content: str) -> str:
         
         return "\n".join(parts) + "\n"
     
-    # Replace all story table rows (including SQUID Pass)
+    # Replace all story divs (including SQUID Pass)
     html_content = re.sub(story_pattern, replace_story, html_content, flags=re.DOTALL)
     
-    # Remove remaining table tags
+    # Remove remaining table tags (if any from old format)
     html_content = re.sub(r'<table[^>]*>', '', html_content)
     html_content = re.sub(r'</table>', '', html_content)
     html_content = re.sub(r'<tr[^>]*>', '', html_content)
