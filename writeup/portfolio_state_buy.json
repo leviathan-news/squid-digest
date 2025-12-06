@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 2300.8841743544967,
+  "cash": 1773.1104538636873,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -14,8 +14,8 @@
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": 1176.5698259924072,
-      "entry_price": 0.42496415338398,
+      "quantity": 2584.45560827419,
+      "entry_price": 0.4115217882029065,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -54,18 +54,10 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.04711255664624367,
-      "entry_price": 90490.13943256663,
+      "quantity": 0.053357670665430755,
+      "entry_price": 90460.8756940822,
       "entry_date": "2025-11-26T00:00:00",
       "entry_signal": "WEAK BUY"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": 0.1931963186929621,
-      "entry_price": 2996.0933584282434,
-      "entry_date": "2025-11-29T00:00:00",
-      "entry_signal": "BUY"
     },
     "LINK": {
       "symbol": "LINK",
@@ -836,6 +828,42 @@
       "signal_type": "WEAK BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 1407.8857822817831,
+      "price": 0.40028800669799697,
+      "value": 563.5597934480251,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.006245114019187083,
+      "price": 90240.11278522386,
+      "value": 563.5597934480251,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 0.1931963186929621,
+      "price": 3102.263389178514,
+      "value": 599.3458664052409,
+      "signal_type": "WEAK SELL",
+      "pnl": 20.511659096470908,
+      "entry_price": 2996.0933584282434
     }
   ],
   "daily_values": [
@@ -958,6 +986,10 @@
     [
       "2025-12-04T13:43:49.871194",
       11386.270807928475
+    ],
+    [
+      "2025-12-05T14:55:36.553897",
+      11271.195868960502
     ]
   ],
   "strategy": "buy_the_news"

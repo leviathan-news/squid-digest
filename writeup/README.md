@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 04, 2025)
+## 🔥 Latest Headlines (December 05, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/04/signals_2025-12-04.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/04/signals_2025-12-04.md)
+📊 [View Full Analysis →](writeup/2025/12/05/signals_2025-12-05.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/05/signals_2025-12-05.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 27 - Dec 04)
+### 📅 This Week (Nov 28 - Dec 05)
+
+[**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
 [**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 
@@ -48,10 +50,10 @@ Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Last Week (Nov 21 - Nov 27)
+
 [**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
 The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards. [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 21 - Nov 26)
 
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -71,7 +73,7 @@ Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-### 📅 Week of Nov 13 - Nov 18
+### 📅 Week of Nov 14 - Nov 18
 
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -88,10 +90,10 @@ Zama promises to employ a 'burn and mint model' that reward operators, announcin
 [**Friday, November 14, 2025**](writeup/2025/11/14/signals_2025-11-14.md)
 Bitcoin Depot, North America's largest Bitcoin ATM operator hits Hong Kong, kicking off their plans of expansion in the Asian market. [CoinTelegraph](https://leviathannews.xyz/redirect/20473?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 08 - Nov 13
+
 [**Thursday, November 13, 2025**](writeup/2025/11/13/signals_2025-11-13.md)
 Balancer team identifies issue with v2 meta-stable pools and performs white hat recovery of $4.1M in coordination with Certora and Seal [𝕏/@Balancer](https://leviathannews.xyz/redirect/20465?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 07 - Nov 12
 
 [**Wednesday, November 12, 2025**](writeup/2025/11/12/signals_2025-11-12.md)
 MacciNFT release the first chapter of her Madoll manga [𝕏/@MAcciNFT](https://leviathannews.xyz/redirect/20390?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -107,9 +109,6 @@ Kodiak launches points for perps! [𝕏/@KodiakFi](https://leviathannews.xyz/red
 
 [**Saturday, November 08, 2025**](writeup/2025/11/08/signals_2025-11-08.md)
 November SQUID Drop (covering October) Discussion Thread [leviathannews.substack](https://leviathannews.xyz/redirect/20160?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Friday, November 07, 2025**](writeup/2025/11/07/signals_2025-11-07.md)
-Startup founders are cashing out early as VCs embrace secondary sales—Mesh’s $20M and Farcaster’s $15M founder payouts highlight a growing trend of “taking some off the table” before exits. [view.mail.fortune](https://leviathannews.xyz/redirect/20126?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
