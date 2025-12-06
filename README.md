@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 05, 2025)
+## 📊 Latest News Headlines (December 06, 2025)
 
 ### 🔥 Top Headlines
-- **WisdomTree Launches First Fully-Staked Ethereum ETP Backed by Lido stETH, Bringing Institutional-Grade Staking Directly to TradFi Markets** [blog.lido.fi](https://leviathannews.xyz/redirect/21661?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum faces major near-meltdown as an unexpected Fusaka upgrade bug threatens chain stability.** [Cryptonews](https://leviathannews.xyz/redirect/21676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance's CZ hands Peter Schiff a gold bar and asks if it's real gold. Peter says that he don't know. With Bitcoin, there are no doubts. There are only real Bitcoins on the blockchain.** [𝕏/@DegenerateNews](https://leviathannews.xyz/redirect/21634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **December SQUID Drop (covering November) Discussion Thread** [leviathannews.substack](https://leviathannews.xyz/redirect/21672?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lighter introduces Spot. Users can now deposit, withdraw, and transfer ETH, the first native asset on the Ethereum L2 DEX. Later this week, Lighter will enable spot trading and begin rolling out additional markets.** [𝕏/@Lighter_xyz](https://leviathannews.xyz/redirect/21639?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The economy of access -Imagine a world with smart locks on property, biometric gates on money, algorithms that execute without appeal. Early experiments left people locked out, stranded, starving. Now it could be tokenized at scale. Were dystopian writers telling fiction or prophecy?** [rekt.news](https://leviathannews.xyz/redirect/21686?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeepMind’s Demis Hassabis Warns That Real-World AI Threats—Including Infrastructure Attacks—Are Already Here** [Axios](https://leviathannews.xyz/redirect/21663?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin treasuries face nearly $1B in unrealised losses as BTC hovers around $89K, hammering firms that bought above $100K. Premiums have flipped to deep discounts, signalling collapsing confidence in the corporate Bitcoin treasury model.** [DL News](https://leviathannews.xyz/redirect/21748?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Man snipes 70% of $WET presale using 1,000+ wallets, demands refund; HumidiFi cancels bot allocations, issues pro-rata airdrop, and announces new audited token launch to protect legitimate investors.** [Cryptonews](https://leviathannews.xyz/redirect/21749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Second Me is a platform that creates an AI identity based on you: (1) It takes your photos, (2) it takes your voice, (3) it takes your notes. And it creates a second you (a virtual copy). It's an AI-powered identity that sounds and acts like you.** [𝕏/@svpino](https://leviathannews.xyz/redirect/21719?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,271.20 (+12.71%) | [Full Analysis →](writeup/2025/12/05/signals_2025-12-05.md)
-**Sell Strategy:** $7,874.60 (-21.25%) | [Full Analysis →](writeup/2025/12/05/signals_2025-12-05.md)
+**Buy Strategy:** $11,202.28 (+12.02%) | [Full Analysis →](writeup/2025/12/06/signals_2025-12-06.md)
+**Sell Strategy:** $8,014.97 (-19.85%) | [Full Analysis →](writeup/2025/12/06/signals_2025-12-06.md)
 
-**GitHub:** 12-05-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-05-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-06-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-06-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
