@@ -221,13 +221,14 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
         section += "  </div>\n"
 
     # Insert SQUID Pass Winner after story 5 (if available)
-    if squid_pass_winner_data:
-        headline = squid_pass_winner_data.get('headline', 'No headline')
-        source = squid_pass_winner_data.get('source', 'Unknown source')
-        media_url = squid_pass_winner_data.get('media', '')
-        tags = squid_pass_winner_data.get('tags', [])
-        top_yaps = squid_pass_winner_data.get('top_yaps', [])
-        news_id = squid_pass_winner_data.get('id', '')
+    if squid_pass_winner_data and squid_pass_winner_data.get('squid_pass_winner'):
+        winner = squid_pass_winner_data.get('squid_pass_winner', {})
+        headline = winner.get('headline', 'No headline')
+        source = winner.get('source', 'Unknown source')
+        media_url = winner.get('media', '')
+        tags = winner.get('tags', [])
+        top_yaps = winner.get('top_yaps', [])
+        news_id = winner.get('id', '')
 
         # Format tags
         tag_links = []
