@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 1773.1104538636873,
+  "cash": 6555.274012558935,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -50,14 +50,6 @@
       "entry_price": 6.251774608838872,
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "BUY"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.053357670665430755,
-      "entry_price": 90460.8756940822,
-      "entry_date": "2025-11-26T00:00:00",
-      "entry_signal": "WEAK BUY"
     },
     "LINK": {
       "symbol": "LINK",
@@ -864,6 +856,18 @@
       "signal_type": "WEAK SELL",
       "pnl": 20.511659096470908,
       "entry_price": 2996.0933584282434
+    },
+    {
+      "date": "2025-12-06T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.053357670665430755,
+      "price": 89624.66875064516,
+      "value": 4782.163558695248,
+      "signal_type": "WEAK SELL",
+      "pnl": -44.618054696060426,
+      "entry_price": 90460.8756940822
     }
   ],
   "daily_values": [
@@ -990,6 +994,10 @@
     [
       "2025-12-05T14:55:36.553897",
       11271.195868960502
+    ],
+    [
+      "2025-12-06T13:23:39.875652",
+      11202.277592817994
     ]
   ],
   "strategy": "buy_the_news"

@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 20661.49532013105,
+  "cash": 17401.572134121965,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,18 +54,10 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -2366.2785191292733,
+      "quantity": -1183.1392595646366,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.03602293671175866,
-      "entry_price": 90365.36848831219,
-      "entry_date": "2025-11-26T00:00:00",
-      "entry_signal": "WEAK SELL"
     },
     "JESSE": {
       "symbol": "JESSE",
@@ -976,6 +968,30 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 29.20717068120762,
       "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-06T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.03602293671175866,
+      "price": 89624.66875064516,
+      "value": 3228.543770216824,
+      "signal_type": "WEAK BUY",
+      "pnl": 26.68217977239601,
+      "entry_price": 90365.36848831219
+    },
+    {
+      "date": "2025-12-06T13:23:39.875652",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 1183.1392595646366,
+      "price": 0.026522165956867783,
+      "value": 31.37941579225896,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 14.596150473750079,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1102,6 +1118,10 @@
     [
       "2025-12-05T14:55:36.553897",
       7874.596206939539
+    ],
+    [
+      "2025-12-06T13:23:39.875652",
+      8014.974015817894
     ]
   ],
   "strategy": "sell_the_news"
