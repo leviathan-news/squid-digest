@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 17401.572134121965,
+  "cash": 18169.564246219787,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -1183.1392595646366,
+      "quantity": -591.5696297823183,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -114,6 +114,14 @@
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "SELL"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.008780017043304836,
+      "entry_price": 89290.36690393212,
+      "entry_date": "2025-12-07T00:00:00",
+      "entry_signal": "STRONG SELL"
     }
   },
   "trades": [
@@ -992,6 +1000,30 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 14.596150473750079,
       "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-07T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008780017043304836,
+      "price": 89290.36690393212,
+      "value": 783.9709432194661,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-07T13:22:16.029177",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 591.5696297823183,
+      "price": 0.027010905085714815,
+      "value": 15.978831121641653,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 7.008952011362867,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1122,6 +1154,10 @@
     [
       "2025-12-06T13:23:39.875652",
       8014.974015817894
+    ],
+    [
+      "2025-12-07T13:22:16.029177",
+      7839.709432194655
     ]
   ],
   "strategy": "sell_the_news"
