@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 06, 2025)
+## 📊 Latest News Headlines (December 07, 2025)
 
 ### 🔥 Top Headlines
-- **The economy of access -Imagine a world with smart locks on property, biometric gates on money, algorithms that execute without appeal. Early experiments left people locked out, stranded, starving. Now it could be tokenized at scale. Were dystopian writers telling fiction or prophecy?** [rekt.news](https://leviathannews.xyz/redirect/21686?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeepMind’s Demis Hassabis Warns That Real-World AI Threats—Including Infrastructure Attacks—Are Already Here** [Axios](https://leviathannews.xyz/redirect/21663?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin treasuries face nearly $1B in unrealised losses as BTC hovers around $89K, hammering firms that bought above $100K. Premiums have flipped to deep discounts, signalling collapsing confidence in the corporate Bitcoin treasury model.** [DL News](https://leviathannews.xyz/redirect/21748?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Man snipes 70% of $WET presale using 1,000+ wallets, demands refund; HumidiFi cancels bot allocations, issues pro-rata airdrop, and announces new audited token launch to protect legitimate investors.** [Cryptonews](https://leviathannews.xyz/redirect/21749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Second Me is a platform that creates an AI identity based on you: (1) It takes your photos, (2) it takes your voice, (3) it takes your notes. And it creates a second you (a virtual copy). It's an AI-powered identity that sounds and acts like you.** [𝕏/@svpino](https://leviathannews.xyz/redirect/21719?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Market week ahead: Fed’s Expected December Rate Cut Poised to Set the Tone for Global Central Banks in a Pivotal Week for Monetary Policy.** [CNBC](https://leviathannews.xyz/redirect/21806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Deep dive by intern_cc auditing the financial health of Aave** [𝕏/@intern_cc](https://leviathannews.xyz/redirect/21789?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik proposes a trustless onchain gas futures market to allow hedging against gas price changes** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21782?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto is dangerous as builder reflects on eight years in crypto, calling the industry a massive casino that lost its purpose and corrupted its ideals, arguing speculation has replaced innovation and warning of long-term harm to younger generations.** [𝕏/@kenchangh](https://leviathannews.xyz/redirect/21801?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn security posts incident disclosure on the yETH hack, including recovery of 857.49 pxETH with the assistance of Plume and Dinero teams** [Github](https://leviathannews.xyz/redirect/21784?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,202.28 (+12.02%) | [Full Analysis →](writeup/2025/12/06/signals_2025-12-06.md)
-**Sell Strategy:** $8,014.97 (-19.85%) | [Full Analysis →](writeup/2025/12/06/signals_2025-12-06.md)
+**Buy Strategy:** $11,372.10 (+13.72%) | [Full Analysis →](writeup/2025/12/07/signals_2025-12-07.md)
+**Sell Strategy:** $7,839.71 (-21.60%) | [Full Analysis →](writeup/2025/12/07/signals_2025-12-07.md)
 
-**GitHub:** 12-06-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-06-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-07-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-07-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
