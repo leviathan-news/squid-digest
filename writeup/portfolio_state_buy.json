@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 5418.063579042294,
+  "cash": 9728.03491242645,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -26,14 +26,6 @@
       "entry_price": 0.14394011591277503,
       "entry_date": "2025-11-22T00:00:00",
       "entry_signal": "STRONG SELL"
-    },
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": 1499.7621296435702,
-      "entry_price": 1.9186360245044702,
-      "entry_date": "2025-11-22T00:00:00",
-      "entry_signal": "BUY"
     },
     "ADA": {
       "symbol": "ADA",
@@ -98,14 +90,6 @@
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.012736093186179541,
-      "entry_price": 89290.36690393212,
-      "entry_date": "2025-12-07T00:00:00",
-      "entry_signal": "STRONG BUY"
     }
   },
   "trades": [
@@ -888,6 +872,30 @@
       "signal_type": "STRONG BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-08T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.012736093186179541,
+      "price": 91666.13984087991,
+      "value": 1167.4684990308117,
+      "signal_type": "WEAK SELL",
+      "pnl": 30.25806551417054,
+      "entry_price": 89290.36690393212
+    },
+    {
+      "date": "2025-12-08T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SELL",
+      "quantity": 1499.7621296435702,
+      "price": 2.0953341681591766,
+      "value": 3142.5028343533454,
+      "signal_type": "WEAK SELL",
+      "pnl": 265.00518423164795,
+      "entry_price": 1.9186360245044702
     }
   ],
   "daily_values": [
@@ -1022,6 +1030,10 @@
     [
       "2025-12-07T13:22:16.029177",
       11372.104335166412
+    ],
+    [
+      "2025-12-08T13:32:04.926059",
+      11565.121278252454
     ]
   ],
   "strategy": "buy_the_news"
