@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 07, 2025)
+## 📊 Latest News Headlines (December 08, 2025)
 
 ### 🔥 Top Headlines
-- **Market week ahead: Fed’s Expected December Rate Cut Poised to Set the Tone for Global Central Banks in a Pivotal Week for Monetary Policy.** [CNBC](https://leviathannews.xyz/redirect/21806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Deep dive by intern_cc auditing the financial health of Aave** [𝕏/@intern_cc](https://leviathannews.xyz/redirect/21789?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik proposes a trustless onchain gas futures market to allow hedging against gas price changes** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/21782?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto is dangerous as builder reflects on eight years in crypto, calling the industry a massive casino that lost its purpose and corrupted its ideals, arguing speculation has replaced innovation and warning of long-term harm to younger generations.** [𝕏/@kenchangh](https://leviathannews.xyz/redirect/21801?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Yearn security posts incident disclosure on the yETH hack, including recovery of 857.49 pxETH with the assistance of Plume and Dinero teams** [Github](https://leviathannews.xyz/redirect/21784?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC Clears Ondo Finance After Two-Year Investigation, Paving Way for US Expansion of Tokenized Securities** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/21930?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Beyond the GPU: Why TPUs are the hidden engine for post-quantum blockchain. This article analyzes the hardware evolution, compares the architectures, and explains why the TPU—not the GPU—may be the superior engine for the mathematical heavy lifting required to secure the decentralized web against quantum threats.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/21847?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Canada Revenue Agency targets 2,500 Dapper Labs users in its second crypto tax probe; collected ~$72M USD from audits over 3 years, but no criminal charges filed. CRA cites enforcement gaps and challenges with cross-border crypto compliance.** [The Block](https://leviathannews.xyz/redirect/21827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZachXBT Criticizes InfoFi Projects for AI Bot Pollution, Calls for Country-Level Content Filtering** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/21880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Reforming ETH public goods funding in 2026+. This article discuss where a reformed space PGF space could go.** [𝕏/@owocki](https://leviathannews.xyz/redirect/21848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,372.10 (+13.72%) | [Full Analysis →](writeup/2025/12/07/signals_2025-12-07.md)
-**Sell Strategy:** $7,839.71 (-21.60%) | [Full Analysis →](writeup/2025/12/07/signals_2025-12-07.md)
+**Buy Strategy:** $11,565.12 (+15.65%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
+**Sell Strategy:** $7,514.55 (-24.85%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
 
-**GitHub:** 12-07-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-07-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-08-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-08-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
