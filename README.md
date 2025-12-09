@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 08, 2025)
+## 📊 Latest News Headlines (December 09, 2025)
 
 ### 🔥 Top Headlines
-- **SEC Clears Ondo Finance After Two-Year Investigation, Paving Way for US Expansion of Tokenized Securities** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/21930?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Beyond the GPU: Why TPUs are the hidden engine for post-quantum blockchain. This article analyzes the hardware evolution, compares the architectures, and explains why the TPU—not the GPU—may be the superior engine for the mathematical heavy lifting required to secure the decentralized web against quantum threats.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/21847?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Canada Revenue Agency targets 2,500 Dapper Labs users in its second crypto tax probe; collected ~$72M USD from audits over 3 years, but no criminal charges filed. CRA cites enforcement gaps and challenges with cross-border crypto compliance.** [The Block](https://leviathannews.xyz/redirect/21827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZachXBT Criticizes InfoFi Projects for AI Bot Pollution, Calls for Country-Level Content Filtering** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/21880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Reforming ETH public goods funding in 2026+. This article discuss where a reformed space PGF space could go.** [𝕏/@owocki](https://leviathannews.xyz/redirect/21848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance wins full ADGM approval for exchange, clearing, and brokerage operations. The approval allows Binance to structure its operations into three regulated entities under the Nest brand, covering exchange, clearing, and trading functions.** [archive.is](https://leviathannews.xyz/redirect/21887?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why This Week Could Be Make or Break for Crypto** [coinage.substack](https://leviathannews.xyz/redirect/21986?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A nice AIOZ Network write up by decrypt tells us why we need decentralization now and forever** [𝕏/@DecryptMedia](https://leviathannews.xyz/redirect/21965?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Argentina's Central Bank set to greenlight crypto services for domestic banks in 2026. The new rules for banks could be ready as soon as April 2026, La Nacion reported, quoting sources close to the BCRA.** [archive.ph](https://leviathannews.xyz/redirect/21985?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC Chairman Pham announces launch of digital assets pilot program for tokenized collateral in derivatives markets** [cftc.gov](https://leviathannews.xyz/redirect/21980?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,565.12 (+15.65%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
-**Sell Strategy:** $7,514.55 (-24.85%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
+**Buy Strategy:** $11,309.32 (+13.09%) | [Full Analysis →](writeup/2025/12/09/signals_2025-12-09.md)
+**Sell Strategy:** $7,738.12 (-22.62%) | [Full Analysis →](writeup/2025/12/09/signals_2025-12-09.md)
 
-**GitHub:** 12-08-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-08-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-09-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-09-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
