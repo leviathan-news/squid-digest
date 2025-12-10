@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 8597.103264936222,
+  "cash": 6299.697781780603,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -98,6 +98,30 @@
       "entry_price": 3133.6840182951996,
       "entry_date": "2025-12-09T00:00:00",
       "entry_signal": "STRONG BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.01248268011577255,
+      "entry_price": 92023.72654942592,
+      "entry_date": "2025-12-10T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "quantity": 19.847539288253415,
+      "entry_price": 28.9381652026168,
+      "entry_date": "2025-12-10T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": 2142.779528812024,
+      "entry_price": 0.2680403480928018,
+      "entry_date": "2025-12-10T00:00:00",
+      "entry_signal": "BUY"
     }
   },
   "trades": [
@@ -916,6 +940,42 @@
       "signal_type": "STRONG BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.01248268011577255,
+      "price": 92023.72654942592,
+      "value": 1148.7027415778095,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 19.847539288253415,
+      "price": 28.9381652026168,
+      "value": 574.3513707889048,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 2142.779528812024,
+      "price": 0.2680403480928018,
+      "value": 574.3513707889048,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1058,6 +1118,10 @@
     [
       "2025-12-09T13:33:14.193450",
       11309.316474902282
+    ],
+    [
+      "2025-12-10T13:34:23.922756",
+      11487.027415778095
     ]
   ],
   "strategy": "buy_the_news"
