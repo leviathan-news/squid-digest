@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 09, 2025)
+## 📊 Latest News Headlines (December 10, 2025)
 
 ### 🔥 Top Headlines
-- **Binance wins full ADGM approval for exchange, clearing, and brokerage operations. The approval allows Binance to structure its operations into three regulated entities under the Nest brand, covering exchange, clearing, and trading functions.** [archive.is](https://leviathannews.xyz/redirect/21887?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Why This Week Could Be Make or Break for Crypto** [coinage.substack](https://leviathannews.xyz/redirect/21986?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A nice AIOZ Network write up by decrypt tells us why we need decentralization now and forever** [𝕏/@DecryptMedia](https://leviathannews.xyz/redirect/21965?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Argentina's Central Bank set to greenlight crypto services for domestic banks in 2026. The new rules for banks could be ready as soon as April 2026, La Nacion reported, quoting sources close to the BCRA.** [archive.ph](https://leviathannews.xyz/redirect/21985?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CFTC Chairman Pham announces launch of digital assets pilot program for tokenized collateral in derivatives markets** [cftc.gov](https://leviathannews.xyz/redirect/21980?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PNC rolled out Portfolio View, letting eligible private banking clients trade and hold Bitcoin directly through its digital platform powered by Coinbase. This marks the first integrated spot Bitcoin access from a major U.S. bank, building on their earlier partnership. Coinbase CEO Brian Armstrong called it a key step for institutional crypto adoption, amid clearer regulations and rising demand for digital assets.** [Coinbase](https://leviathannews.xyz/redirect/22026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US Regulator Clears Banks to Intermediate Crypto Transactions, Marking Another Step Toward Tighter Integration of TradFi and Digital Assets** [Reuters](https://leviathannews.xyz/redirect/22030?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Introducing HyENA - the internet trading engine with native rewards. Live now, built by Based,  powered by Ethena Labs and built entirely on Hyperliquid's HIP-3.** [𝕏/@hyenatrade](https://leviathannews.xyz/redirect/22028?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CZ debunks fake BlackRock Aster ETF filing. The hoax claimed BlackRock filed for a staked Aster ETF, but SEC records confirm no such filing exists.** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/22027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ether Fi Ventures team breaks down the HIP-3 business model and what it means for the Hyperliquid ecosystem. Long-term thinking is needed to create winners.** [𝕏/@etherfi_VC](https://leviathannews.xyz/redirect/22054?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,309.32 (+13.09%) | [Full Analysis →](writeup/2025/12/09/signals_2025-12-09.md)
-**Sell Strategy:** $7,738.12 (-22.62%) | [Full Analysis →](writeup/2025/12/09/signals_2025-12-09.md)
+**Buy Strategy:** $11,487.03 (+14.87%) | [Full Analysis →](writeup/2025/12/10/signals_2025-12-10.md)
+**Sell Strategy:** $7,575.72 (-24.24%) | [Full Analysis →](writeup/2025/12/10/signals_2025-12-10.md)
 
-**GitHub:** 12-09-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-09-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-10-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-10-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
