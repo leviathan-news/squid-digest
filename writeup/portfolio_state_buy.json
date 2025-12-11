@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 6299.697781780603,
+  "cash": 82.48212048866935,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -27,14 +27,6 @@
       "entry_date": "2025-11-22T00:00:00",
       "entry_signal": "STRONG SELL"
     },
-    "ADA": {
-      "symbol": "ADA",
-      "token_name": "Cardano",
-      "quantity": -5354.206180388843,
-      "entry_price": 0.41436955615094173,
-      "entry_date": "2025-11-23T00:00:00",
-      "entry_signal": "STRONG SELL"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -42,14 +34,6 @@
       "entry_price": 6.251774608838872,
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "BUY"
-    },
-    "LINK": {
-      "symbol": "LINK",
-      "token_name": "ChainLink Token",
-      "quantity": -85.5195000028371,
-      "entry_price": 13.184558668377209,
-      "entry_date": "2025-11-30T00:00:00",
-      "entry_signal": "STRONG SELL"
     },
     "YFI": {
       "symbol": "YFI",
@@ -66,14 +50,6 @@
       "entry_price": 1.4961828711970988,
       "entry_date": "2025-12-01T00:00:00",
       "entry_signal": "STRONG BUY"
-    },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": -4.058943303083753,
-      "entry_price": 140.28046725961278,
-      "entry_date": "2025-12-02T00:00:00",
-      "entry_signal": "WEAK SELL"
     },
     "BNB": {
       "symbol": "BNB",
@@ -121,6 +97,30 @@
       "quantity": 2142.779528812024,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": 570.5208197702622,
+      "entry_price": 2.011772273576973,
+      "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": 43.06774336360485,
+      "entry_price": 13.325030255499199,
+      "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 371.9386673979181,
+      "entry_price": 1.5429398276091195,
+      "entry_date": "2025-12-11T00:00:00",
       "entry_signal": "BUY"
     }
   },
@@ -976,6 +976,78 @@
       "signal_type": "BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 570.5208197702622,
+      "price": 2.011772273576973,
+      "value": 1147.7579667122188,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "COVER",
+      "quantity": 4.058943303083753,
+      "price": 131.17613467933748,
+      "value": 532.4364933811094,
+      "signal_type": "BUY",
+      "pnl": 36.953969755755566,
+      "entry_price": 140.28046725961278
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 43.06774336360485,
+      "price": 13.325030255499199,
+      "value": 573.8789833561094,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 371.9386673979181,
+      "price": 1.5429398276091195,
+      "value": 573.8789833561094,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "LINK",
+      "token_name": "ChainLink",
+      "action": "COVER",
+      "quantity": 85.5195000028371,
+      "price": 13.615403778623067,
+      "value": 1164.3825234845838,
+      "signal_type": "BUY",
+      "pnl": -36.84565840689311,
+      "entry_price": 13.184558668377209
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "COVER",
+      "quantity": 5354.206180388843,
+      "price": 0.41553885600278156,
+      "value": 2224.8807110018024,
+      "signal_type": "WEAK BUY",
+      "pnl": -6.26067249344851,
+      "entry_price": 0.41436955615094173
     }
   ],
   "daily_values": [
@@ -1122,6 +1194,10 @@
     [
       "2025-12-10T13:34:23.922756",
       11487.027415778095
+    ],
+    [
+      "2025-12-11T13:36:20.859597",
+      11477.579667122187
     ]
   ],
   "strategy": "buy_the_news"
