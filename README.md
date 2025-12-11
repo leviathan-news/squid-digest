@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 10, 2025)
+## 📊 Latest News Headlines (December 11, 2025)
 
 ### 🔥 Top Headlines
-- **PNC rolled out Portfolio View, letting eligible private banking clients trade and hold Bitcoin directly through its digital platform powered by Coinbase. This marks the first integrated spot Bitcoin access from a major U.S. bank, building on their earlier partnership. Coinbase CEO Brian Armstrong called it a key step for institutional crypto adoption, amid clearer regulations and rising demand for digital assets.** [Coinbase](https://leviathannews.xyz/redirect/22026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **US Regulator Clears Banks to Intermediate Crypto Transactions, Marking Another Step Toward Tighter Integration of TradFi and Digital Assets** [Reuters](https://leviathannews.xyz/redirect/22030?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Introducing HyENA - the internet trading engine with native rewards. Live now, built by Based,  powered by Ethena Labs and built entirely on Hyperliquid's HIP-3.** [𝕏/@hyenatrade](https://leviathannews.xyz/redirect/22028?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CZ debunks fake BlackRock Aster ETF filing. The hoax claimed BlackRock filed for a staked Aster ETF, but SEC records confirm no such filing exists.** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/22027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ether Fi Ventures team breaks down the HIP-3 business model and what it means for the Hyperliquid ecosystem. Long-term thinking is needed to create winners.** [𝕏/@etherfi_VC](https://leviathannews.xyz/redirect/22054?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Warns Musk That X’s “Coordinated Hate Sessions” Risk Undermining Free Speech and Fueling a Backlash, Calling Recent Anti-Europe Rhetoric Extreme and Misaligned with Reality** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/22094?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Instant account funding via stablecoins on IBKR goes live, powered by zerohash. No more going via a bank, no more 3-5 business days waiting for the money to arrive and lower account funding costs for traders & brokerages.** [𝕏/@zerohashx](https://leviathannews.xyz/redirect/22096?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CoinGecko partners with SerenAI to offer free AI-data hosting and premium API access via x402 Micropayments on Base.** [Serendb](https://leviathannews.xyz/redirect/22107?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LlamaRisk Insights: GHO’s backing and RWA integration, a portfolio analysis.** [governance.aave](https://leviathannews.xyz/redirect/22105?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Gemini gets CFTC approval for prediction market, launching Gemini Titan with binary contracts. Platform may expand into crypto futures, options, and perps, joining rivals like Kalshi and Crypto dot com.** [The Block](https://leviathannews.xyz/redirect/22150?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,487.03 (+14.87%) | [Full Analysis →](writeup/2025/12/10/signals_2025-12-10.md)
-**Sell Strategy:** $7,575.72 (-24.24%) | [Full Analysis →](writeup/2025/12/10/signals_2025-12-10.md)
+**Buy Strategy:** $11,477.58 (+14.78%) | [Full Analysis →](writeup/2025/12/11/signals_2025-12-11.md)
+**Sell Strategy:** $7,599.72 (-24.00%) | [Full Analysis →](writeup/2025/12/11/signals_2025-12-11.md)
 
-**GitHub:** 12-10-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-10-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-11-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-11-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
