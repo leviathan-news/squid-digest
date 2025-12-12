@@ -1,12 +1,12 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 82.48212048866935,
+  "cash": 3903.0396580393426,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 26.98404013591153,
+      "quantity": 13.492020067955766,
       "entry_price": 168.66025701480376,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
@@ -75,14 +75,6 @@
       "entry_date": "2025-12-09T00:00:00",
       "entry_signal": "STRONG BUY"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.01248268011577255,
-      "entry_price": 92023.72654942592,
-      "entry_date": "2025-12-10T00:00:00",
-      "entry_signal": "STRONG BUY"
-    },
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
@@ -121,6 +113,14 @@
       "quantity": 371.9386673979181,
       "entry_price": 1.5429398276091195,
       "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 0.5921968135499815,
+      "entry_price": 139.28160132139556,
+      "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "BUY"
     }
   },
@@ -1048,6 +1048,42 @@
       "signal_type": "WEAK BUY",
       "pnl": -6.26067249344851,
       "entry_price": 0.41436955615094173
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 0.5921968135499815,
+      "price": 139.28160132139556,
+      "value": 82.48212048866935,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.01248268011577255,
+      "price": 92311.90874778699,
+      "value": 1152.300027775011,
+      "signal_type": "WEAK SELL",
+      "pnl": 3.597286197201356,
+      "entry_price": 92023.72654942592
+    },
+    {
+      "date": "2025-12-12T13:31:34.538699",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SELL",
+      "quantity": 13.492020067955766,
+      "price": 203.87900524973855,
+      "value": 2750.7396302643315,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 475.17205795402197,
+      "entry_price": 168.66025701480376
     }
   ],
   "daily_values": [
@@ -1198,6 +1234,10 @@
     [
       "2025-12-11T13:36:20.859597",
       11477.579667122187
+    ],
+    [
+      "2025-12-12T13:31:34.538699",
+      12092.670747584916
     ]
   ],
   "strategy": "buy_the_news"
