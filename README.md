@@ -8,21 +8,22 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 11, 2025)
+## 📊 Latest News Headlines (December 12, 2025)
 
 ### 🔥 Top Headlines
-- **Vitalik Warns Musk That X’s “Coordinated Hate Sessions” Risk Undermining Free Speech and Fueling a Backlash, Calling Recent Anti-Europe Rhetoric Extreme and Misaligned with Reality** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/22094?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Instant account funding via stablecoins on IBKR goes live, powered by zerohash. No more going via a bank, no more 3-5 business days waiting for the money to arrive and lower account funding costs for traders & brokerages.** [𝕏/@zerohashx](https://leviathannews.xyz/redirect/22096?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CoinGecko partners with SerenAI to offer free AI-data hosting and premium API access via x402 Micropayments on Base.** [Serendb](https://leviathannews.xyz/redirect/22107?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LlamaRisk Insights: GHO’s backing and RWA integration, a portfolio analysis.** [governance.aave](https://leviathannews.xyz/redirect/22105?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Gemini gets CFTC approval for prediction market, launching Gemini Titan with binary contracts. Platform may expand into crypto futures, options, and perps, joining rivals like Kalshi and Crypto dot com.** [The Block](https://leviathannews.xyz/redirect/22150?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether Explores Tokenizing Its Shares After $20 Billion Raise as It Moves to Rein in Discounted Secondary Sales** [archive.ph](https://leviathannews.xyz/redirect/22284?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AlphaGrowth launches largest crypto VC and DAO treasury dataset on SerenAI x402 payment gateway with over 70,000 deals tracked** [Serendb](https://leviathannews.xyz/redirect/22223?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Do Kwon sentenced to 15 years prison, to serve second half of sentence in South Korea** [ꘜ/@SynopticNewswire](https://leviathannews.xyz/redirect/22227?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Silver out performs BTC 2025.
+Silver Soars 115% to Record Highs as Investors Bet the “Sleeping Beauty” Metal Could Push Toward Triple Digits** [archive.ph](https://leviathannews.xyz/redirect/22216?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **TRM says U.S. sanctions have pushed Venezuela to rely on USDT and informal P2P crypto markets, creating both vital financial access and heightened sanctions-evasion risks as U.S.** [decrypt.co](https://leviathannews.xyz/redirect/22213?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,477.58 (+14.78%) | [Full Analysis →](writeup/2025/12/11/signals_2025-12-11.md)
-**Sell Strategy:** $7,599.72 (-24.00%) | [Full Analysis →](writeup/2025/12/11/signals_2025-12-11.md)
+**Buy Strategy:** $12,092.67 (+20.93%) | [Full Analysis →](writeup/2025/12/12/signals_2025-12-12.md)
+**Sell Strategy:** $7,070.43 (-29.30%) | [Full Analysis →](writeup/2025/12/12/signals_2025-12-12.md)
 
-**GitHub:** 12-11-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-11-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-12-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-12-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
