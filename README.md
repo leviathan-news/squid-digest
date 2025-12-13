@@ -8,22 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 12, 2025)
+## 📊 Latest News Headlines (December 13, 2025)
 
 ### 🔥 Top Headlines
-- **Tether Explores Tokenizing Its Shares After $20 Billion Raise as It Moves to Rein in Discounted Secondary Sales** [archive.ph](https://leviathannews.xyz/redirect/22284?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AlphaGrowth launches largest crypto VC and DAO treasury dataset on SerenAI x402 payment gateway with over 70,000 deals tracked** [Serendb](https://leviathannews.xyz/redirect/22223?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Do Kwon sentenced to 15 years prison, to serve second half of sentence in South Korea** [ꘜ/@SynopticNewswire](https://leviathannews.xyz/redirect/22227?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Silver out performs BTC 2025.
-Silver Soars 115% to Record Highs as Investors Bet the “Sleeping Beauty” Metal Could Push Toward Triple Digits** [archive.ph](https://leviathannews.xyz/redirect/22216?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **TRM says U.S. sanctions have pushed Venezuela to rely on USDT and informal P2P crypto markets, creating both vital financial access and heightened sanctions-evasion risks as U.S.** [decrypt.co](https://leviathannews.xyz/redirect/22213?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoins don’t replace banks—they route around them. Nearly all “onchain” payments still rely on fiat rails, FX liquidity, and banking buffers, meaning real speed and reliability belong to teams that control underlying fiat infrastructure.** [Stabledash](https://leviathannews.xyz/redirect/22429?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Carl Rinsch, director of 47 Ronin, was found guilty of defrauding Netflix and diverting $11M into crypto speculation and luxury purchases. He faces up to 90 years as prosecutors detail losses, Dogecoin bets, and extravagant spending.** [decrypt.co](https://leviathannews.xyz/redirect/22282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UAE’s largest fuel retailer ADNOC Distribution will accept stablecoin in 980 stations in three countries. The company has partnered with Al Maryah Community Bank to enable AE Coin payments via the AEC Wallet at fuel pumps, convenience stores, and car washes. AE Coin, the UAE's first stablecoin licensed by the Central Bank, is backed 1:1 with dirhams.** [Zawya](https://leviathannews.xyz/redirect/22334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Phantom Prediction Markets have entered the chat, powered by Kalshi. The new feature was announced at Solana's Breakpoint conference in Abu Dhabi.** [𝕏/@phantom](https://leviathannews.xyz/redirect/22308?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Introducing the new Kamino -A refreshed brand, six new products and a platform built for the next generation of assets and institutions** [𝕏/@kamino](https://leviathannews.xyz/redirect/22288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $12,092.67 (+20.93%) | [Full Analysis →](writeup/2025/12/12/signals_2025-12-12.md)
-**Sell Strategy:** $7,070.43 (-29.30%) | [Full Analysis →](writeup/2025/12/12/signals_2025-12-12.md)
+**Buy Strategy:** $11,935.77 (+19.36%) | [Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md)
+**Sell Strategy:** $7,107.92 (-28.92%) | [Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md)
 
-**GitHub:** 12-12-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-12-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-13-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-13-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

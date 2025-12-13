@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 12, 2025)
+## 🔥 Latest Headlines (December 13, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/12/signals_2025-12-12.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/12/signals_2025-12-12.md)
+📊 [View Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/13/signals_2025-12-13.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 05 - Dec 12)
+### 📅 This Week (Dec 06 - Dec 13)
+
+[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
 [**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
-[**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
+### 📅 Last Week (Nov 29 - Dec 05)
 
-### 📅 Last Week (Nov 28 - Dec 04)
+[**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
 [**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 
@@ -63,10 +65,10 @@ Meet the billion-dollar crypto founder who started trading at 9 years old. Denis
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 22 - Nov 28
+
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 21 - Nov 27
 
 [**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
 The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards. [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -86,10 +88,10 @@ SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as s
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 16 - Nov 21
+
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 15 - Nov 18
 
 [**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
 Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
@@ -99,9 +101,6 @@ Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: C
 
 [**Sunday, November 16, 2025**](writeup/2025/11/16/signals_2025-11-16.md)
 ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M. [Globenewswire](https://leviathannews.xyz/redirect/20601?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Saturday, November 15, 2025**](writeup/2025/11/15/signals_2025-11-15.md)
-Zama promises to employ a 'burn and mint model' that reward operators, announcing their token launch which will be used for protocol fees and staking. [𝕏/@zama](https://leviathannews.xyz/redirect/20577?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
