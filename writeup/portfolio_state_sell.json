@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 10300.847861940627,
+  "cash": 10122.931387550077,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -18.486550930697447,
+      "quantity": -9.243275465348724,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -130,6 +130,22 @@
       "entry_price": 139.28160132139556,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "SELL"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": 2551.5733656696675,
+      "entry_price": 0.1392850701144044,
+      "entry_date": "2025-12-13T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.0019663969096107427,
+      "entry_price": 90367.32955649802,
+      "entry_date": "2025-12-13T00:00:00",
+      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -1272,6 +1288,42 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.23650465306869156,
       "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 2551.5733656696675,
+      "price": 0.1392850701144044,
+      "value": 355.39607513934646,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0019663969096107427,
+      "price": 90367.32955649802,
+      "value": 177.69803756967323,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-13T13:24:15.707909",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 9.243275465348724,
+      "price": 0.02363197133900667,
+      "value": 0.2184368208756646,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.14074729057753102,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1426,6 +1478,10 @@
     [
       "2025-12-12T13:31:34.538699",
       7070.43302869298
+    ],
+    [
+      "2025-12-13T13:24:15.707909",
+      7107.921502786929
     ]
   ],
   "strategy": "sell_the_news"

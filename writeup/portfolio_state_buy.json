@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 3903.0396580393426,
+  "cash": 4201.433796537955,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -122,6 +122,22 @@
       "entry_price": 139.28160132139556,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "BUY"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": -4284.6535993200105,
+      "entry_price": 0.1392850701144044,
+      "entry_date": "2025-12-13T00:00:00",
+      "entry_signal": "SELL"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.0033020134595440733,
+      "entry_price": 90367.32955649802,
+      "entry_date": "2025-12-13T00:00:00",
+      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -1084,6 +1100,30 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 475.17205795402197,
       "entry_price": 168.66025701480376
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 4284.6535993200105,
+      "price": 0.1392850701144044,
+      "value": 596.7882769972229,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0033020134595440733,
+      "price": 90367.32955649802,
+      "value": 298.3941384986114,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1238,6 +1278,10 @@
     [
       "2025-12-12T13:31:34.538699",
       12092.670747584916
+    ],
+    [
+      "2025-12-13T13:24:15.707909",
+      11935.765539944456
     ]
   ],
   "strategy": "buy_the_news"
