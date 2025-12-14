@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 13, 2025)
+## 📊 Latest News Headlines (December 14, 2025)
 
 ### 🔥 Top Headlines
-- **Stablecoins don’t replace banks—they route around them. Nearly all “onchain” payments still rely on fiat rails, FX liquidity, and banking buffers, meaning real speed and reliability belong to teams that control underlying fiat infrastructure.** [Stabledash](https://leviathannews.xyz/redirect/22429?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Carl Rinsch, director of 47 Ronin, was found guilty of defrauding Netflix and diverting $11M into crypto speculation and luxury purchases. He faces up to 90 years as prosecutors detail losses, Dogecoin bets, and extravagant spending.** [decrypt.co](https://leviathannews.xyz/redirect/22282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UAE’s largest fuel retailer ADNOC Distribution will accept stablecoin in 980 stations in three countries. The company has partnered with Al Maryah Community Bank to enable AE Coin payments via the AEC Wallet at fuel pumps, convenience stores, and car washes. AE Coin, the UAE's first stablecoin licensed by the Central Bank, is backed 1:1 with dirhams.** [Zawya](https://leviathannews.xyz/redirect/22334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Phantom Prediction Markets have entered the chat, powered by Kalshi. The new feature was announced at Solana's Breakpoint conference in Abu Dhabi.** [𝕏/@phantom](https://leviathannews.xyz/redirect/22308?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Introducing the new Kamino -A refreshed brand, six new products and a platform built for the next generation of assets and institutions** [𝕏/@kamino](https://leviathannews.xyz/redirect/22288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A look into the ways China has used blockchain technology to lift 98 million people out of poverty since 2012.** [Paragraph](https://leviathannews.xyz/redirect/22431?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Oracle configuration to blame for the latest ribbonfinance attack** [𝕏/@hklst4r](https://leviathannews.xyz/redirect/22441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As DeFi cards like Ether.fi Cash bring real-world spending to crypto, on-chain transparency exposes links between spending wallets and broader portfolios. Using Hinkal Wallet as an intermediary breaks this traceability, allowing users to fund Ether.fi Cash while preserving financial privacy without sacrificing DeFi functionality.** [𝕏/@Hinkal_Protocol](https://leviathannews.xyz/redirect/22415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hollywood filmmaker Carl Erik Rinsch scammed Netflix out of $11 million and blew the cash on crypto memes making some profits with Dogecoin** [DL News](https://leviathannews.xyz/redirect/22436?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US prosecutors expanded charges against crypto promoter Rodney Burton over the $1.8B HyperFund fraud, citing wire fraud, money laundering, and flight risk after bail denial.** [Cryptonews](https://leviathannews.xyz/redirect/22444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,935.77 (+19.36%) | [Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md)
-**Sell Strategy:** $7,107.92 (-28.92%) | [Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md)
+**Buy Strategy:** $11,808.68 (+18.09%) | [Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md)
+**Sell Strategy:** $7,161.43 (-28.39%) | [Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md)
 
-**GitHub:** 12-13-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-13-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-14-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-14-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

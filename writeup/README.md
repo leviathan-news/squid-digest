@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 13, 2025)
+## 🔥 Latest Headlines (December 14, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/13/signals_2025-12-13.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/13/signals_2025-12-13.md)
+📊 [View Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/14/signals_2025-12-14.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 06 - Dec 13)
+### 📅 This Week (Dec 07 - Dec 14)
+
+[**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
 [**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
 
-[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
+### 📅 Last Week (Nov 30 - Dec 06)
 
-### 📅 Last Week (Nov 29 - Dec 05)
+[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
@@ -62,10 +64,10 @@ Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent
 [**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
 Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 23 - Nov 29
+
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 22 - Nov 28
 
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -85,10 +87,10 @@ A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after ho
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 17 - Nov 22
+
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 16 - Nov 21
 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -98,9 +100,6 @@ Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that
 
 [**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
 Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Sunday, November 16, 2025**](writeup/2025/11/16/signals_2025-11-16.md)
-ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M. [Globenewswire](https://leviathannews.xyz/redirect/20601?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
