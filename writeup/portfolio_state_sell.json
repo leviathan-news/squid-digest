@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 10122.931387550077,
+  "cash": 10305.436860495238,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -9.243275465348724,
+      "quantity": -4.621637732674362,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -126,8 +126,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -2.5381791139727756,
-      "entry_price": 139.28160132139556,
+      "quantity": -5.267925097067348,
+      "entry_price": 135.0803211632621,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "SELL"
     },
@@ -138,14 +138,6 @@
       "entry_price": 0.1392850701144044,
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "BUY"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.0019663969096107427,
-      "entry_price": 90367.32955649802,
-      "entry_date": "2025-12-13T00:00:00",
-      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -1324,6 +1316,42 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.14074729057753102,
       "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.7297459830945723,
+      "price": 131.17387652872006,
+      "value": 358.07136254121696,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.0019663969096107427,
+      "price": 89231.87855032661,
+      "value": 175.46529022012336,
+      "signal_type": "WEAK BUY",
+      "pnl": 2.232747349549868,
+      "entry_price": 90367.32955649802
+    },
+    {
+      "date": "2025-12-14T13:24:11.668250",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 4.621637732674362,
+      "price": 0.02176704054964294,
+      "value": 0.10059937593288269,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.07899267979371512,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1482,6 +1510,10 @@
     [
       "2025-12-13T13:24:15.707909",
       7107.921502786929
+    ],
+    [
+      "2025-12-14T13:24:11.668250",
+      7161.4272508243375
     ]
   ],
   "strategy": "sell_the_news"

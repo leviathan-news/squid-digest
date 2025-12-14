@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 4201.433796537955,
+  "cash": 3905.644779498956,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -118,8 +118,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 0.5921968135499815,
-      "entry_price": 139.28160132139556,
+      "quantity": 5.093351286203734,
+      "entry_price": 132.11655032394168,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "BUY"
     },
@@ -130,14 +130,6 @@
       "entry_price": 0.1392850701144044,
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "SELL"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.0033020134595440733,
-      "entry_price": 90367.32955649802,
-      "entry_date": "2025-12-13T00:00:00",
-      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -1124,6 +1116,30 @@
       "signal_type": "WEAK BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.501154472653752,
+      "price": 131.17387652872006,
+      "value": 590.4338810325794,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.0033020134595440733,
+      "price": 89231.87855032661,
+      "value": 294.64486399358054,
+      "signal_type": "WEAK SELL",
+      "pnl": -3.7492745050308827,
+      "entry_price": 90367.32955649802
     }
   ],
   "daily_values": [
@@ -1282,6 +1298,10 @@
     [
       "2025-12-13T13:24:15.707909",
       11935.765539944456
+    ],
+    [
+      "2025-12-14T13:24:11.668250",
+      11808.677620651588
     ]
   ],
   "strategy": "buy_the_news"
