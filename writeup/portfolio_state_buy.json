@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 3905.644779498956,
+  "cash": 2179.560640777745,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -77,9 +77,9 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "token_name": "HYPE",
-      "quantity": 19.847539288253415,
-      "entry_price": 28.9381652026168,
+      "token_name": "Hyperliquid",
+      "quantity": 61.8816998048597,
+      "entry_price": 27.876967429406406,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "BUY"
     },
@@ -130,6 +130,14 @@
       "entry_price": 0.1392850701144044,
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "SELL"
+    },
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": 1962.3736958349873,
+      "entry_price": 0.29319664281828917,
+      "entry_date": "2025-12-16T00:00:00",
+      "entry_signal": "BUY"
     }
   },
   "trades": [
@@ -1140,6 +1148,30 @@
       "signal_type": "WEAK SELL",
       "pnl": -3.7492745050308827,
       "entry_price": 90367.32955649802
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "HYPE",
+      "token_name": "Hyperliquid",
+      "action": "BUY",
+      "quantity": 42.034160516606285,
+      "price": 27.375894867529517,
+      "value": 1150.7227591474739,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "BUY",
+      "quantity": 1962.3736958349873,
+      "price": 0.29319664281828917,
+      "value": 575.3613795737368,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1302,6 +1334,10 @@
     [
       "2025-12-14T13:24:11.668250",
       11808.677620651588
+    ],
+    [
+      "2025-12-16T13:35:44.812650",
+      11507.227591474737
     ]
   ],
   "strategy": "buy_the_news"

@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 10305.436860495238,
+  "cash": 11396.541497678649,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -4.621637732674362,
+      "quantity": -2.310818866337181,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -85,9 +85,9 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "token_name": "HYPE",
-      "quantity": -13.089495473529206,
-      "entry_price": 28.9381652026168,
+      "token_name": "Hyperliquid",
+      "quantity": -39.661557868087584,
+      "entry_price": 27.89149061259751,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
     },
@@ -138,6 +138,14 @@
       "entry_price": 0.1392850701144044,
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "BUY"
+    },
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": -1240.5223667204427,
+      "entry_price": 0.29319664281828917,
+      "entry_date": "2025-12-16T00:00:00",
+      "entry_signal": "SELL"
     }
   },
   "trades": [
@@ -1352,6 +1360,42 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.07899267979371512,
       "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "HYPE",
+      "token_name": "Hyperliquid",
+      "action": "SHORT",
+      "quantity": 26.572062394558376,
+      "price": 27.375894867529517,
+      "value": 727.4339865268647,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 1240.5223667204427,
+      "price": 0.29319664281828917,
+      "value": 363.71699326343236,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-16T13:35:44.812650",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 2.310818866337181,
+      "price": 0.020054625466794464,
+      "value": 0.04634260688599474,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.04345342097730417,
+      "entry_price": 0.03885896431407982
     }
   ],
   "daily_values": [
@@ -1514,6 +1558,10 @@
     [
       "2025-12-14T13:24:11.668250",
       7161.4272508243375
+    ],
+    [
+      "2025-12-16T13:35:44.812650",
+      7274.339865268647
     ]
   ],
   "strategy": "sell_the_news"
