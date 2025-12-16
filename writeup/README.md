@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 14, 2025)
+## 🔥 Latest Headlines (December 16, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/14/signals_2025-12-14.md)
+📊 [View Full Analysis →](writeup/2025/12/16/signals_2025-12-16.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/16/signals_2025-12-16.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 07 - Dec 14)
+### 📅 This Week (Dec 09 - Dec 16)
+
+[**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
 
 [**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
@@ -40,11 +42,11 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
+### 📅 Last Week (Dec 02 - Dec 08)
+
 [**Monday, December 08, 2025**](writeup/2025/12/08/signals_2025-12-08.md)
 
 [**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
-
-### 📅 Last Week (Nov 30 - Dec 06)
 
 [**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
@@ -58,13 +60,13 @@ Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qival
 [**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
 OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 25 - Dec 01
+
 [**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
 Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
 Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 23 - Nov 29
 
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -81,25 +83,19 @@ BIS warns that tokenised money market funds are rapidly linking DeFi with tradit
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 21 - Nov 24
+
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
-### 📅 Week of Nov 17 - Nov 22
-
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
-Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
-Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---

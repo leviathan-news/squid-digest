@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 14, 2025)
+## 📊 Latest News Headlines (December 16, 2025)
 
 ### 🔥 Top Headlines
-- **A look into the ways China has used blockchain technology to lift 98 million people out of poverty since 2012.** [Paragraph](https://leviathannews.xyz/redirect/22431?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Oracle configuration to blame for the latest ribbonfinance attack** [𝕏/@hklst4r](https://leviathannews.xyz/redirect/22441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **As DeFi cards like Ether.fi Cash bring real-world spending to crypto, on-chain transparency exposes links between spending wallets and broader portfolios. Using Hinkal Wallet as an intermediary breaks this traceability, allowing users to fund Ether.fi Cash while preserving financial privacy without sacrificing DeFi functionality.** [𝕏/@Hinkal_Protocol](https://leviathannews.xyz/redirect/22415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hollywood filmmaker Carl Erik Rinsch scammed Netflix out of $11 million and blew the cash on crypto memes making some profits with Dogecoin** [DL News](https://leviathannews.xyz/redirect/22436?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **US prosecutors expanded charges against crypto promoter Rodney Burton over the $1.8B HyperFund fraud, citing wire fraud, money laundering, and flight risk after bail denial.** [Cryptonews](https://leviathannews.xyz/redirect/22444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Custodia Bank asks full federal appeals court to reconsider ruling upholding the Fed’s denial of its master account, arguing the decision misreads banking law and undermines state authority.** [𝕏/@EleanorTerrett](https://leviathannews.xyz/redirect/22544?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **North Korean hackers are using fake Zoom and Teams calls to install malware that drains crypto wallets via social engineering. Security researchers say the tactic has already stolen over $300M from victims.** [Cryptonews](https://leviathannews.xyz/redirect/22482?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ripple announced plans to expand its $1.3B RLUSD stablecoin to Ethereum layer-2 networks next year, including Optimism, Base, Kraken’s Ink, and Unichain, using Wormhole for interoperability. The move aims to boost DeFi adoption, payments, and on-chain utility as Ripple pushes a multichain strategy, following recent approval to pursue a national trust banking charter.** [decrypt.co](https://leviathannews.xyz/redirect/22510?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Gnosis is considering a hard fork to recover ~$9.4M in funds from the Balancer hack** [𝕏/@DefiIgnas](https://leviathannews.xyz/redirect/22509?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RWA DeFi moves into sports finance with tokenized football club revenues. A new protocol on Chiliz is providing football clubs with faster access to liquidity by converting future media and broadcasting revenues into tokenized, onchain assets.** [archive.ph](https://leviathannews.xyz/redirect/22504?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,808.68 (+18.09%) | [Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md)
-**Sell Strategy:** $7,161.43 (-28.39%) | [Full Analysis →](writeup/2025/12/14/signals_2025-12-14.md)
+**Buy Strategy:** $11,507.23 (+15.07%) | [Full Analysis →](writeup/2025/12/16/signals_2025-12-16.md)
+**Sell Strategy:** $7,274.34 (-27.26%) | [Full Analysis →](writeup/2025/12/16/signals_2025-12-16.md)
 
-**GitHub:** 12-14-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-14-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-16-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-16-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
