@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 2179.560640777745,
+  "cash": 2633.1641894556146,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 13.492020067955766,
-      "entry_price": 168.66025701480376,
+      "quantity": 15.041033776776453,
+      "entry_price": 170.24040316997596,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -83,14 +83,6 @@
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "BUY"
     },
-    "ENA": {
-      "symbol": "ENA",
-      "token_name": "Ethena",
-      "quantity": 2142.779528812024,
-      "entry_price": 0.2680403480928018,
-      "entry_date": "2025-12-10T00:00:00",
-      "entry_signal": "BUY"
-    },
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
@@ -138,6 +130,14 @@
       "entry_price": 0.29319664281828917,
       "entry_date": "2025-12-16T00:00:00",
       "entry_signal": "BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.0032717448349766664,
+      "entry_price": 87116.84324959679,
+      "entry_date": "2025-12-17T00:00:00",
+      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -1172,6 +1172,42 @@
       "signal_type": "BUY",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 1.5490137088206881,
+      "price": 184.00358906980736,
+      "value": 285.0240819413401,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0032717448349766664,
+      "price": 87116.84324959679,
+      "value": 285.02408194134017,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-17T13:31:33.031623",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SELL",
+      "quantity": 2142.779528812024,
+      "price": 0.2116893234131984,
+      "value": 453.60354867786947,
+      "signal_type": "STOP_LOSS",
+      "pnl": -120.7478221110353,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1338,6 +1374,10 @@
     [
       "2025-12-16T13:35:44.812650",
       11507.227591474737
+    ],
+    [
+      "2025-12-17T13:31:33.031623",
+      11400.963277653605
     ]
   ],
   "strategy": "buy_the_news"
