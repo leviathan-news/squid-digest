@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 16, 2025)
+## 🔥 Latest Headlines (December 17, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/16/signals_2025-12-16.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/16/signals_2025-12-16.md)
+📊 [View Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/17/signals_2025-12-17.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 09 - Dec 16)
+### 📅 This Week (Dec 10 - Dec 17)
+
+[**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
 
 [**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
 
@@ -40,9 +42,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
 
-[**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
+### 📅 Last Week (Dec 03 - Dec 09)
 
-### 📅 Last Week (Dec 02 - Dec 08)
+[**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
 [**Monday, December 08, 2025**](writeup/2025/12/08/signals_2025-12-08.md)
 
@@ -57,10 +59,10 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Wednesday, December 03, 2025**](writeup/2025/12/03/signals_2025-12-03.md)
 Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market. [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 26 - Dec 02
+
 [**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
 OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 25 - Dec 01
 
 [**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
 Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -80,10 +82,10 @@ The top-performing stablecoin vaults of November 2025 show strong gains across n
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 21 - Nov 25
+
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 21 - Nov 24
 
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
