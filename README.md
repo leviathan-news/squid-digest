@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 08, 2025)
+## 📊 Latest News Headlines (December 17, 2025)
 
 ### 🔥 Top Headlines
-- **SEC Clears Ondo Finance After Two-Year Investigation, Paving Way for US Expansion of Tokenized Securities** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/21930?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Beyond the GPU: Why TPUs are the hidden engine for post-quantum blockchain. This article analyzes the hardware evolution, compares the architectures, and explains why the TPU—not the GPU—may be the superior engine for the mathematical heavy lifting required to secure the decentralized web against quantum threats.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/21847?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Canada Revenue Agency targets 2,500 Dapper Labs users in its second crypto tax probe; collected ~$72M USD from audits over 3 years, but no criminal charges filed. CRA cites enforcement gaps and challenges with cross-border crypto compliance.** [The Block](https://leviathannews.xyz/redirect/21827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZachXBT Criticizes InfoFi Projects for AI Bot Pollution, Calls for Country-Level Content Filtering** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/21880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Reforming ETH public goods funding in 2026+. This article discuss where a reformed space PGF space could go.** [𝕏/@owocki](https://leviathannews.xyz/redirect/21848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Elizabeth Warren Seeks DOJ and Treasury Review of National Security Risks Posed by DeFi Exchanges** [banking.senate.gov](https://leviathannews.xyz/redirect/22616?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Proposal from BGD Labs on the AAVE governance forum to explicitly define the brand ownership and it's allowed use by third-party (also that the editor posted both of stani's tweet but not this one is quite tellin' of the power of the aave handle 😛)** [governance.aave](https://leviathannews.xyz/redirect/22615?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI Models Are Rapidly Advancing Toward Autonomous Cyberattacks, Raising Alarms Among Researchers and Lawmakers** [Axios](https://leviathannews.xyz/redirect/22614?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Russia’s top crypto lawmaker says Bitcoin will never be allowed for payments, insisting goods and services must be paid in rubles. Crypto may only serve as an investment, aligning with the central bank’s long-standing opposition.** [DL News](https://leviathannews.xyz/redirect/22575?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SerenAI joins MongoDB Startups to enable pay-per-call x402 payments on MongoDB and Base** [Serendb](https://leviathannews.xyz/redirect/22559?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,565.12 (+15.65%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
-**Sell Strategy:** $7,514.55 (-24.85%) | [Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md)
+**Buy Strategy:** $11,400.96 (+14.01%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
+**Sell Strategy:** $7,324.19 (-26.76%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
 
-**GitHub:** 12-08-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-08-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-17-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-17-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

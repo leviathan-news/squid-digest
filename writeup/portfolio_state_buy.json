@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 9728.03491242645,
+  "cash": 2633.1641894556146,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 26.98404013591153,
-      "entry_price": 168.66025701480376,
+      "quantity": 15.041033776776453,
+      "entry_price": 170.24040316997596,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -27,14 +27,6 @@
       "entry_date": "2025-11-22T00:00:00",
       "entry_signal": "STRONG SELL"
     },
-    "ADA": {
-      "symbol": "ADA",
-      "token_name": "Cardano",
-      "quantity": -5354.206180388843,
-      "entry_price": 0.41436955615094173,
-      "entry_date": "2025-11-23T00:00:00",
-      "entry_signal": "STRONG SELL"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -42,14 +34,6 @@
       "entry_price": 6.251774608838872,
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "BUY"
-    },
-    "LINK": {
-      "symbol": "LINK",
-      "token_name": "ChainLink Token",
-      "quantity": -85.5195000028371,
-      "entry_price": 13.184558668377209,
-      "entry_date": "2025-11-30T00:00:00",
-      "entry_signal": "STRONG SELL"
     },
     "YFI": {
       "symbol": "YFI",
@@ -67,14 +51,6 @@
       "entry_date": "2025-12-01T00:00:00",
       "entry_signal": "STRONG BUY"
     },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": -4.058943303083753,
-      "entry_price": 140.28046725961278,
-      "entry_date": "2025-12-02T00:00:00",
-      "entry_signal": "WEAK SELL"
-    },
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
@@ -90,6 +66,78 @@
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.36089524051805405,
+      "entry_price": 3133.6840182951996,
+      "entry_date": "2025-12-09T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "Hyperliquid",
+      "quantity": 61.8816998048597,
+      "entry_price": 27.876967429406406,
+      "entry_date": "2025-12-10T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": 570.5208197702622,
+      "entry_price": 2.011772273576973,
+      "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "STRONG BUY"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": 43.06774336360485,
+      "entry_price": 13.325030255499199,
+      "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 371.9386673979181,
+      "entry_price": 1.5429398276091195,
+      "entry_date": "2025-12-11T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 5.093351286203734,
+      "entry_price": 132.11655032394168,
+      "entry_date": "2025-12-12T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": -4284.6535993200105,
+      "entry_price": 0.1392850701144044,
+      "entry_date": "2025-12-13T00:00:00",
+      "entry_signal": "SELL"
+    },
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": 1962.3736958349873,
+      "entry_price": 0.29319664281828917,
+      "entry_date": "2025-12-16T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.0032717448349766664,
+      "entry_price": 87116.84324959679,
+      "entry_date": "2025-12-17T00:00:00",
+      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -896,6 +944,270 @@
       "signal_type": "WEAK SELL",
       "pnl": 265.00518423164795,
       "entry_price": 1.9186360245044702
+    },
+    {
+      "date": "2025-12-09T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.36089524051805405,
+      "price": 3133.6840182951996,
+      "value": 1130.9316474902282,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.01248268011577255,
+      "price": 92023.72654942592,
+      "value": 1148.7027415778095,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 19.847539288253415,
+      "price": 28.9381652026168,
+      "value": 574.3513707889048,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 2142.779528812024,
+      "price": 0.2680403480928018,
+      "value": 574.3513707889048,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 570.5208197702622,
+      "price": 2.011772273576973,
+      "value": 1147.7579667122188,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "COVER",
+      "quantity": 4.058943303083753,
+      "price": 131.17613467933748,
+      "value": 532.4364933811094,
+      "signal_type": "BUY",
+      "pnl": 36.953969755755566,
+      "entry_price": 140.28046725961278
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 43.06774336360485,
+      "price": 13.325030255499199,
+      "value": 573.8789833561094,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 371.9386673979181,
+      "price": 1.5429398276091195,
+      "value": 573.8789833561094,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "LINK",
+      "token_name": "ChainLink",
+      "action": "COVER",
+      "quantity": 85.5195000028371,
+      "price": 13.615403778623067,
+      "value": 1164.3825234845838,
+      "signal_type": "BUY",
+      "pnl": -36.84565840689311,
+      "entry_price": 13.184558668377209
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "COVER",
+      "quantity": 5354.206180388843,
+      "price": 0.41553885600278156,
+      "value": 2224.8807110018024,
+      "signal_type": "WEAK BUY",
+      "pnl": -6.26067249344851,
+      "entry_price": 0.41436955615094173
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 0.5921968135499815,
+      "price": 139.28160132139556,
+      "value": 82.48212048866935,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.01248268011577255,
+      "price": 92311.90874778699,
+      "value": 1152.300027775011,
+      "signal_type": "WEAK SELL",
+      "pnl": 3.597286197201356,
+      "entry_price": 92023.72654942592
+    },
+    {
+      "date": "2025-12-12T13:31:34.538699",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SELL",
+      "quantity": 13.492020067955766,
+      "price": 203.87900524973855,
+      "value": 2750.7396302643315,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 475.17205795402197,
+      "entry_price": 168.66025701480376
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 4284.6535993200105,
+      "price": 0.1392850701144044,
+      "value": 596.7882769972229,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0033020134595440733,
+      "price": 90367.32955649802,
+      "value": 298.3941384986114,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.501154472653752,
+      "price": 131.17387652872006,
+      "value": 590.4338810325794,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.0033020134595440733,
+      "price": 89231.87855032661,
+      "value": 294.64486399358054,
+      "signal_type": "WEAK SELL",
+      "pnl": -3.7492745050308827,
+      "entry_price": 90367.32955649802
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "HYPE",
+      "token_name": "Hyperliquid",
+      "action": "BUY",
+      "quantity": 42.034160516606285,
+      "price": 27.375894867529517,
+      "value": 1150.7227591474739,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "BUY",
+      "quantity": 1962.3736958349873,
+      "price": 0.29319664281828917,
+      "value": 575.3613795737368,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 1.5490137088206881,
+      "price": 184.00358906980736,
+      "value": 285.0240819413401,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0032717448349766664,
+      "price": 87116.84324959679,
+      "value": 285.02408194134017,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-17T13:31:33.031623",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SELL",
+      "quantity": 2142.779528812024,
+      "price": 0.2116893234131984,
+      "value": 453.60354867786947,
+      "signal_type": "STOP_LOSS",
+      "pnl": -120.7478221110353,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1034,6 +1346,38 @@
     [
       "2025-12-08T13:32:04.926059",
       11565.121278252454
+    ],
+    [
+      "2025-12-09T13:33:14.193450",
+      11309.316474902282
+    ],
+    [
+      "2025-12-10T13:34:23.922756",
+      11487.027415778095
+    ],
+    [
+      "2025-12-11T13:36:20.859597",
+      11477.579667122187
+    ],
+    [
+      "2025-12-12T13:31:34.538699",
+      12092.670747584916
+    ],
+    [
+      "2025-12-13T13:24:15.707909",
+      11935.765539944456
+    ],
+    [
+      "2025-12-14T13:24:11.668250",
+      11808.677620651588
+    ],
+    [
+      "2025-12-16T13:35:44.812650",
+      11507.227591474737
+    ],
+    [
+      "2025-12-17T13:31:33.031623",
+      11400.963277653605
     ]
   ],
   "strategy": "buy_the_news"

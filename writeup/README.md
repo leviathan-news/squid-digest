@@ -15,18 +15,36 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 08, 2025)
+## 🔥 Latest Headlines (December 17, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/08/signals_2025-12-08.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/08/signals_2025-12-08.md)
+📊 [View Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/17/signals_2025-12-17.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 01 - Dec 08)
+### 📅 This Week (Dec 10 - Dec 17)
+
+[**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
+
+[**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
+
+[**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
+
+[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
+
+[**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
+
+[**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
+
+[**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
+
+### 📅 Last Week (Dec 03 - Dec 09)
+
+[**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
 [**Monday, December 08, 2025**](writeup/2025/12/08/signals_2025-12-08.md)
 
@@ -41,13 +59,13 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Wednesday, December 03, 2025**](writeup/2025/12/03/signals_2025-12-03.md)
 Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market. [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 26 - Dec 02
+
 [**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
 OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
 Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Last Week (Nov 24 - Nov 30)
 
 [**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
 Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -64,13 +82,13 @@ The top-performing stablecoin vaults of November 2025 show strong gains across n
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 21 - Nov 25
+
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 17 - Nov 23
 
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -80,32 +98,6 @@ Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as 
 
 [**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
 BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Tuesday, November 18, 2025**](writeup/2025/11/18/signals_2025-11-18.md)
-Tether invests in Ledn to expand bitcoin-backed lending, backing a platform that’s originated $2.8B in loans and now exceeds $100M in annual recurring revenue. [tether.io](https://leviathannews.xyz/redirect/20787?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Monday, November 17, 2025**](writeup/2025/11/17/signals_2025-11-17.md)
-Alibaba to use JPMorgan’s blockchain for tokenized dollar and Euro payments: CNBC. The technology aims to expedite transactions and eliminate intermediaries, enabling the direct transfer of digital currencies over a blockchain-based system. Alibaba will initially focus on bank-issued digital tokens, rather than stablecoins, for regulatory and operational clarity, and may explore stablecoins in the future. [archive.ph](https://leviathannews.xyz/redirect/20664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 11 - Nov 16
-
-[**Sunday, November 16, 2025**](writeup/2025/11/16/signals_2025-11-16.md)
-ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M. [Globenewswire](https://leviathannews.xyz/redirect/20601?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Saturday, November 15, 2025**](writeup/2025/11/15/signals_2025-11-15.md)
-Zama promises to employ a 'burn and mint model' that reward operators, announcing their token launch which will be used for protocol fees and staking. [𝕏/@zama](https://leviathannews.xyz/redirect/20577?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Friday, November 14, 2025**](writeup/2025/11/14/signals_2025-11-14.md)
-Bitcoin Depot, North America's largest Bitcoin ATM operator hits Hong Kong, kicking off their plans of expansion in the Asian market. [CoinTelegraph](https://leviathannews.xyz/redirect/20473?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Thursday, November 13, 2025**](writeup/2025/11/13/signals_2025-11-13.md)
-Balancer team identifies issue with v2 meta-stable pools and performs white hat recovery of $4.1M in coordination with Certora and Seal [𝕏/@Balancer](https://leviathannews.xyz/redirect/20465?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Wednesday, November 12, 2025**](writeup/2025/11/12/signals_2025-11-12.md)
-MacciNFT release the first chapter of her Madoll manga [𝕏/@MAcciNFT](https://leviathannews.xyz/redirect/20390?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
-
-[**Tuesday, November 11, 2025**](writeup/2025/11/11/signals_2025-11-11.md)
-Crypto hacks hit record highs in 2025, with $2.2 billion stolen in the first half of the year, pushing investors toward hardware wallets like Ledger and Trezor for safer crypto storage. [crypto.news](https://leviathannews.xyz/redirect/20300?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
