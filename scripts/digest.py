@@ -3,6 +3,7 @@ Script for generating writeup for each news content or bundle all news content
 """
 
 import asyncio, json, argparse, random
+import tempfile
 from datetime import datetime
 from dotenv import load_dotenv
 from pathlib import Path
@@ -1145,7 +1146,6 @@ async def bundle_writeup(verbose=False):
                 signal_parser = SignalParser(WRITEUP_DIR)
                 # Create a temporary file with proper filename pattern for parsing
                 # The parser requires filename with date pattern: signals_YYYY-MM-DD.md
-                import tempfile
                 temp_dir = Path(tempfile.gettempdir())
                 temp_filename = f"signals_{today_str}.md"
                 tmp_path = temp_dir / temp_filename
