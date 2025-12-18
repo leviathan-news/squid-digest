@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 17, 2025)
+## 📊 Latest News Headlines (December 18, 2025)
 
 ### 🔥 Top Headlines
-- **Elizabeth Warren Seeks DOJ and Treasury Review of National Security Risks Posed by DeFi Exchanges** [banking.senate.gov](https://leviathannews.xyz/redirect/22616?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Proposal from BGD Labs on the AAVE governance forum to explicitly define the brand ownership and it's allowed use by third-party (also that the editor posted both of stani's tweet but not this one is quite tellin' of the power of the aave handle 😛)** [governance.aave](https://leviathannews.xyz/redirect/22615?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI Models Are Rapidly Advancing Toward Autonomous Cyberattacks, Raising Alarms Among Researchers and Lawmakers** [Axios](https://leviathannews.xyz/redirect/22614?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Russia’s top crypto lawmaker says Bitcoin will never be allowed for payments, insisting goods and services must be paid in rubles. Crypto may only serve as an investment, aligning with the central bank’s long-standing opposition.** [DL News](https://leviathannews.xyz/redirect/22575?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SerenAI joins MongoDB Startups to enable pay-per-call x402 payments on MongoDB and Base** [Serendb](https://leviathannews.xyz/redirect/22559?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FTX insider Caroline Ellison has been quietly moved out of prison after serving 11 months over FTX collapse.** [Businessinsider](https://leviathannews.xyz/redirect/22680?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoins are not enough: The case for global, yield-bearing primitives.** [𝕏/@EtherfuseDave](https://leviathannews.xyz/redirect/22684?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Introducing Coinbase Custom Stablecoins. Businesses can create a branded stablecoin, backed 1:1 by collateral custodied by Coinbase.** [Coinbase](https://leviathannews.xyz/redirect/22683?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan’s tokenized dollars are quietly rewiring how Wall Street moves money. The Wall Street titan’s recent embrace of a public blockchain Base is a harbinger of things to come.** [archive.ph](https://leviathannews.xyz/redirect/22697?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC Tells Broker-Dealers They Must Control Crypto Private Keys to Meet Customer Protection Rules** [The Block](https://leviathannews.xyz/redirect/22690?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,400.96 (+14.01%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
-**Sell Strategy:** $7,324.19 (-26.76%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
+**Buy Strategy:** $10,700.65 (+7.01%) | [Full Analysis →](writeup/2025/12/18/signals_2025-12-18.md)
+**Sell Strategy:** $7,636.89 (-23.63%) | [Full Analysis →](writeup/2025/12/18/signals_2025-12-18.md)
 
-**GitHub:** 12-17-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-17-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-18-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-18-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
