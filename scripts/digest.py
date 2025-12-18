@@ -449,6 +449,129 @@ def _coerce_hold_like_signal_type(reason: str) -> str:
     return "WEAK BUY"
 
 
+def canonicalize_trading_signals_to_bold_lines(trading_signals_text: str) -> str:
+    """Convert common non-standard LLM outputs into the expected bold-per-line format.
+
+    The backtest parser is most reliable when signals look like:
+    **$SYMBOL Token Name: SIGNAL TYPE** - reason ([more info](URL))
+    """
+    import re
+
+    if not trading_signals_text:
+        return trading_signals_text
+
+    # If the model already produced bold $SYMBOL lines, keep as-is.
+    if re.search(r'^\s*(?:[-*]\s*)?\*\*\$[A-Za-z0-9]+', trading_signals_text, flags=re.MULTILINE):
+        return trading_signals_text
+
+    signal_emojis = {'🟢', '🔴', '🟡', '🟠', '⚪'}
+    dash_separators = [' - ', ' — ', ' – ', ' -', ' —', ' –']
+
+    def extract_url(text: str) -> str | None:
+        # Prefer explicit markdown link URL, else any http(s) URL.
+        m = re.search(r'\(\s*https?://[^)\s]+\s*\)', text)
+        if m:
+            return m.group(0).strip('()').strip()
+        m = re.search(r'https?://[^\s)]+', text)
+        return m.group(0) if m else None
+
+    out_lines: list[str] = []
+    for raw_line in trading_signals_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if line.startswith('#'):
+            continue
+        if line.startswith('```') or line.startswith('---'):
+            continue
+
+        # Strip bullet/list prefix.
+        line = re.sub(r'^\s*[-*]\s+', '', line)
+
+        url = extract_url(line)
+
+        # Find symbol ($XYZ preferred).
+        sym_match = re.search(r'\$([A-Za-z0-9]{2,12})', line)
+        symbol = sym_match.group(1).upper() if sym_match else None
+
+        # Emoji-only symbol formats like: 🟢 BTC: Buy signal - reason
+        if symbol is None and line and line[0] in signal_emojis:
+            m = re.match(r'^[🟢🔴🟡🟠⚪]\s*([A-Za-z0-9]{2,12})\b', line)
+            if m:
+                symbol = m.group(1).upper()
+
+        if symbol is None:
+            # As a last resort, pick the first ALLCAPS token-like word if we see a buy/sell-ish keyword.
+            if re.search(r'\b(buy|sell|hold|neutral|short|long)\b', line, re.IGNORECASE):
+                m = re.search(r'\b([A-Z]{2,12})\b', line)
+                if m:
+                    symbol = m.group(1).upper()
+
+        if symbol is None:
+            continue
+
+        # Detect signal type from explicit labels or keywords.
+        explicit_label = None
+        for candidate in SignalParser.VALID_SIGNALS:
+            pattern = r'\b' + re.escape(candidate).replace(r'\ ', r'\s+') + r'\b'
+            if re.search(pattern, line, re.IGNORECASE):
+                explicit_label = candidate
+                break
+
+        if explicit_label:
+            signal_type = explicit_label
+        else:
+            # Try keywords around ':' / '-' separators.
+            after = line
+            # Prefer substring after ':' if present.
+            if ':' in after:
+                after = after.split(':', 1)[1]
+            signal_type = SignalParser.normalize_signal_type(after) or SignalParser.normalize_signal_type(line)
+
+        if signal_type is None:
+            # If we can’t classify it, skip; better than creating junk trades.
+            continue
+
+        # Extract a token name if present (e.g., "Bitcoin ($BTC)" or "Bitcoin - $BTC").
+        token_name = None
+        name_match = re.search(rf'([A-Za-z][A-Za-z0-9 .&/-]{{2,}})\s*\(\s*\${symbol}\s*\)', line)
+        if name_match:
+            token_name = name_match.group(1).strip()
+        if token_name is None and line and line[0] in signal_emojis:
+            # Emoji line, take leading words before '(' or ':' as name.
+            name_part = re.sub(r'^[🟢🔴🟡🟠⚪]\s*', '', line)
+            name_part = name_part.split('(', 1)[0].split(':', 1)[0].strip()
+            # Avoid using the symbol itself as a "name".
+            if name_part and name_part.upper() != symbol:
+                token_name = name_part
+        if token_name is None:
+            token_name = symbol
+
+        # Extract reason: prefer content after a dash separator; else after the signal label keyword.
+        reason = ""
+        for sep in dash_separators:
+            if sep in line:
+                reason = line.split(sep, 1)[1].strip()
+                break
+        if not reason:
+            # Fallback: use everything after ':' as "reason", stripping obvious label words.
+            reason = line.split(':', 1)[1].strip() if ':' in line else line
+            # Remove leading signal-ish words.
+            reason = re.sub(r'^(strong\s+)?(buy|sell|weak\s+buy|weak\s+sell|hold|neutral)\b[:\-\s]*', '', reason, flags=re.IGNORECASE).strip()
+
+        # Remove any embedded URLs from the reason (we append as more info below).
+        reason = re.sub(r'https?://[^\s)]+', '', reason).strip()
+        if not reason:
+            reason = "News-driven catalyst noted in today’s headlines"
+
+        out = f"**${symbol} {token_name}: {signal_type}** - {reason}"
+        if url:
+            out += f" ([more info]({url}))"
+        out_lines.append(out)
+
+    return "\n".join(out_lines) if out_lines else trading_signals_text
+
+
 def coerce_trading_signals_to_supported_types(
     trading_signals_text: str,
     *,
@@ -1054,8 +1177,8 @@ async def bundle_writeup(verbose=False):
 
         raise ValueError(error_msg)
 
-    # Normalize signal labels early (e.g., "Strong Buy" -> "STRONG BUY") so both
-    # parsing and downstream formatting stay consistent.
+    # Canonicalize + normalize signal labels early so parsing/backtesting is robust.
+    trading_signals = canonicalize_trading_signals_to_bold_lines(trading_signals)
     trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
         trading_signals,
         allow_hold_coercion=False,
@@ -1262,7 +1385,8 @@ async def bundle_writeup(verbose=False):
                                 )
 
                             logger.info("✓ Fallback prompt generated signals successfully")
-                            # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
+                        # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
+                            retry_signals = canonicalize_trading_signals_to_bold_lines(retry_signals)
                             trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
                                 retry_signals,
                                 allow_hold_coercion=True,
@@ -1288,6 +1412,26 @@ async def bundle_writeup(verbose=False):
                             finally:
                                 if tmp_path.exists():
                                     tmp_path.unlink()
+
+                            # If parsing still failed, try one more time with canonicalized output.
+                            if not today_signals:
+                                logger.warning("⚠️ Retry signals still did not parse; attempting canonicalization+reparse")
+                                canonical = canonicalize_trading_signals_to_bold_lines(trading_signals)
+                                canonical, _ = coerce_trading_signals_to_supported_types(
+                                    canonical,
+                                    allow_hold_coercion=True,
+                                )
+
+                                tmp_path = temp_dir / f"signals_{today_str}_retry_canonical.md"
+                                with open(tmp_path, 'w') as tmp_file:
+                                    tmp_file.write(f"## 🎯 Trading Signals\n\n{canonical}")
+                                try:
+                                    today_signals = signal_parser.parse_file(tmp_path)
+                                    if verbose and today_signals:
+                                        logger.info(f"✓ Parsed {len(today_signals)} signals after canonicalization")
+                                finally:
+                                    if tmp_path.exists():
+                                        tmp_path.unlink()
 
                             # Continue with backtest using retry signals
                             if today_signals:
