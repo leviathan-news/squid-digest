@@ -54,6 +54,40 @@ class SignalParser:
         'STRONG BUY', 'BUY', 'WEAK BUY',
         'WEAK SELL', 'SELL', 'STRONG SELL'
     }
+
+    @staticmethod
+    def normalize_signal_type(raw_signal_type: str) -> Optional[str]:
+        """Normalize common LLM variations to a supported signal type.
+
+        Returns a canonical signal type from VALID_SIGNALS, or None if unknown.
+        """
+        if not raw_signal_type:
+            return None
+
+        # Normalize separators/markup and collapse whitespace.
+        normalized = re.sub(r'[^A-Za-z\s]+', ' ', raw_signal_type).upper()
+        normalized = ' '.join(normalized.split())
+
+        if normalized in SignalParser.VALID_SIGNALS:
+            return normalized
+
+        # Handle common variants/synonyms.
+        # Prefer explicit STRONG/WEAK qualifiers when present.
+        if 'BUY' in normalized or 'LONG' in normalized or 'ACCUMULATE' in normalized or 'ADD' in normalized:
+            if 'STRONG' in normalized or 'HIGH CONVICTION' in normalized:
+                return 'STRONG BUY'
+            if 'WEAK' in normalized or 'LIGHT' in normalized or 'LOW CONVICTION' in normalized:
+                return 'WEAK BUY'
+            return 'BUY'
+
+        if 'SELL' in normalized or 'SHORT' in normalized or 'REDUCE' in normalized or 'TRIM' in normalized or 'AVOID' in normalized or 'EXIT' in normalized:
+            if 'STRONG' in normalized or 'HIGH CONVICTION' in normalized:
+                return 'STRONG SELL'
+            if 'WEAK' in normalized or 'LIGHT' in normalized or 'LOW CONVICTION' in normalized:
+                return 'WEAK SELL'
+            return 'SELL'
+
+        return None
     
     def __init__(self, writeup_dir: Path):
         """Initialize parser with writeup directory."""
@@ -115,7 +149,7 @@ class SignalParser:
                         symbol = match.group(2)
 
                     signal_type_raw = match.group(3).strip()
-                    signal_type = signal_type_raw.upper()  # Normalize to uppercase
+                    signal_type = self.normalize_signal_type(signal_type_raw)
                     reason = match.group(4).strip()
 
                     # Clean up reason (remove markdown links and trailing content)
@@ -123,9 +157,9 @@ class SignalParser:
                     # Remove any trailing HTML or markdown artifacts
                     reason = re.sub(r'\s*<[^>]+>\s*$', '', reason).strip()
 
-                    # Validate signal type (after normalization)
-                    if signal_type not in self.VALID_SIGNALS:
-                        print(f"Warning: Unknown signal type '{signal_type_raw}' (normalized: '{signal_type}') for {symbol} on {date_str}")
+                    # Validate / normalize signal type
+                    if not signal_type:
+                        print(f"Warning: Unknown signal type '{signal_type_raw}' for {symbol} on {date_str}")
                         continue
 
                     signals.append(Signal(

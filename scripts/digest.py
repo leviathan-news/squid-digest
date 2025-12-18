@@ -422,6 +422,88 @@ def transform_trading_signals_markdown(trading_signals_text: str) -> str:
     return transformed
 
 
+def _coerce_hold_like_signal_type(reason: str) -> str:
+    """Coerce HOLD/NEUTRAL-like outputs into WEAK BUY/WEAK SELL as last resort.
+
+    This is only used when the LLM outputs disallowed labels (e.g., HOLD/NEUTRAL),
+    which would otherwise break downstream parsing/backtesting and fail the run.
+    """
+    reason_lower = (reason or "").lower()
+
+    bearish_keywords = [
+        "exploit", "hack", "drain", "vulnerability", "breach", "lawsuit", "ban",
+        "investigation", "charges", "risk", "concern", "downgrade", "outage",
+        "bearish", "headwind", "liquidat", "sell-off", "scam",
+    ]
+    bullish_keywords = [
+        "upgrade", "launch", "partnership", "adoption", "growth", "integrat",
+        "approval", "win", "expand", "bullish", "tailwind", "support",
+    ]
+
+    if any(k in reason_lower for k in bearish_keywords):
+        return "WEAK SELL"
+    if any(k in reason_lower for k in bullish_keywords):
+        return "WEAK BUY"
+    # Default to the least opinionated "action" label (still valid for pipeline).
+    return "WEAK BUY"
+
+
+def coerce_trading_signals_to_supported_types(
+    trading_signals_text: str,
+    *,
+    allow_hold_coercion: bool,
+) -> tuple[str, list[dict]]:
+    """Normalize signal type labels to supported values used by parsing/backtests.
+
+    This keeps the original tokens/reasons, but rewrites the signal label to one of:
+    STRONG BUY, BUY, WEAK BUY, WEAK SELL, SELL, STRONG SELL.
+    """
+    import re
+
+    if not trading_signals_text:
+        return trading_signals_text, []
+
+    changes: list[dict] = []
+    out_lines: list[str] = []
+
+    # Expected base format (from prompts): **$SYMBOL Token Name: SIGNAL** - reason ...
+    # We only rewrite lines that already look like signals in this form.
+    line_re = re.compile(
+        r'^\s*\*\*\$([A-Za-z0-9]+)\s+([^:]+?):\s+([^*]+?)\*\*\s*-\s*(.+?)\s*$',
+        re.IGNORECASE
+    )
+
+    for raw_line in trading_signals_text.splitlines():
+        line = raw_line.strip()
+        m = line_re.match(line)
+        if not m:
+            out_lines.append(raw_line)
+            continue
+
+        symbol = m.group(1).upper()
+        token_name = m.group(2).strip()
+        raw_signal_type = m.group(3).strip()
+        reason = m.group(4).strip()
+
+        normalized = SignalParser.normalize_signal_type(raw_signal_type)
+        if normalized is None and allow_hold_coercion:
+            holdish = raw_signal_type.upper()
+            if any(word in holdish for word in ["HOLD", "NEUTRAL", "WAIT", "WATCH", "NO TRADE", "NO-TRADE"]):
+                normalized = _coerce_hold_like_signal_type(reason)
+
+        if normalized and raw_signal_type.strip() != normalized:
+            changes.append({
+                "symbol": symbol,
+                "from": raw_signal_type,
+                "to": normalized,
+            })
+            out_lines.append(f"**${symbol} {token_name}: {normalized}** - {reason}")
+        else:
+            out_lines.append(raw_line)
+
+    return "\n".join(out_lines), changes
+
+
 def generate_market_snapshot(verbose=False):
     """
     Generate a market snapshot with BTC, ETH, OPEN prices and notable movers.
@@ -971,6 +1053,15 @@ async def bundle_writeup(verbose=False):
 
         raise ValueError(error_msg)
 
+    # Normalize signal labels early (e.g., "Strong Buy" -> "STRONG BUY") so both
+    # parsing and downstream formatting stay consistent.
+    trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
+        trading_signals,
+        allow_hold_coercion=False,
+    )
+    if coercion_changes:
+        logger.warning(f"⚠️ Normalized {len(coercion_changes)} signal label(s) to supported types")
+
     # VALIDATION: Check that response contains expected signal patterns
     # The LLM must output signals in the exact format specified in prompts:
     # **$SYMBOL Token Name: SIGNAL TYPE** - reason
@@ -978,9 +1069,13 @@ async def bundle_writeup(verbose=False):
     import re
 
     # Check format validity
-    # Match formats like: **$SYMBOL Token: (STRONG|WEAK)? BUY/SELL**
-    # Supports: STRONG BUY, WEAK BUY, BUY, STRONG SELL, WEAK SELL, SELL
-    format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+|WEAK\s+)?(BUY|SELL)', trading_signals, re.IGNORECASE)
+    # Match formats like: **$SYMBOL Token: SIGNAL** - reason
+    valid_signal_type_re = r'(STRONG\s+BUY|BUY|WEAK\s+BUY|WEAK\s+SELL|SELL|STRONG\s+SELL)'
+    format_valid = re.search(
+        rf'^\s*\*\*\$[A-Za-z0-9]+\s+[^:]+?:\s+{valid_signal_type_re}\*\*\s*-\s*.+$',
+        trading_signals,
+        re.IGNORECASE | re.MULTILINE
+    )
 
     # Detect LLM refusal patterns
     refusal_patterns = [
@@ -1132,7 +1227,11 @@ async def bundle_writeup(verbose=False):
                         # Check if retry produced signals
                         if retry_signals and len(retry_signals.strip()) > 50:
                             # Validate fallback response format
-                            fallback_format_valid = re.search(r'\*\*\$[A-Za-z0-9]+.*?:\s*(STRONG\s+)?(BUY|SELL)', retry_signals, re.IGNORECASE)
+                            fallback_format_valid = re.search(
+                                rf'^\s*\*\*\$[A-Za-z0-9]+\s+[^:]+?:\s+{valid_signal_type_re}\*\*\s*-\s*.+$',
+                                retry_signals,
+                                re.IGNORECASE | re.MULTILINE
+                            )
                             fallback_is_refusal = any(re.search(pattern, retry_signals, re.IGNORECASE) for pattern in refusal_patterns)
 
                             if not fallback_format_valid:
@@ -1163,7 +1262,16 @@ async def bundle_writeup(verbose=False):
                                 )
 
                             logger.info("✓ Fallback prompt generated signals successfully")
-                            trading_signals = retry_signals  # Use retry results
+                            # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
+                            trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
+                                retry_signals,
+                                allow_hold_coercion=True,
+                            )
+                            if coercion_changes:
+                                logger.warning(
+                                    f"⚠️ Coerced {len(coercion_changes)} invalid signal label(s) to supported types "
+                                    f"(saved in output for pipeline safety)"
+                                )
 
                             # Re-parse signals from retry
                             temp_dir = Path(tempfile.gettempdir())

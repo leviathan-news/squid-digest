@@ -8,6 +8,7 @@ import shutil
 import asyncio
 from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
+from datetime import datetime
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
@@ -187,7 +188,8 @@ class TestDigestGeneration(unittest.TestCase):
                     sys.path.insert(0, scripts_path)
                 import digest
                 bundle_writeup = digest.bundle_writeup
-                
+                from squid_digest.backtest.signal_parser import Signal
+
                 # Change to temp directory so relative paths work
                 original_cwd = os.getcwd()
                 try:
@@ -197,18 +199,43 @@ class TestDigestGeneration(unittest.TestCase):
                     with patch('digest.DigestEngine') as MockEngine, \
                          patch('digest.WRITEUP_DIR', writeup_dir), \
                          patch('digest.ACTIVE_PROMPT', 'signals'), \
-                         patch('digest.SignalParser') as MockSignalParser, \
-                         patch('digest.IncrementalBacktest') as MockBacktest:
+                         patch('digest.SignalParser.parse_file', return_value=[
+                             Signal(
+                                 date=datetime(2025, 12, 18),
+                                 symbol="BTC",
+                                 token_name="Bitcoin",
+                                 signal_type="BUY",
+                                 reason="Mock reason",
+                             )
+                         ]), \
+                         patch('digest.IncrementalBacktest') as MockBacktest, \
+                         patch('digest.generate_market_snapshot', return_value="## 💰 Market Snapshot\n\n* mock *"), \
+                         patch('digest._get_token_id_map', return_value={
+                             'BTC': {'canonical_tag': 'btc', 'name': 'Bitcoin'},
+                             'ETH': {'canonical_tag': 'eth', 'name': 'Ethereum'},
+                             'OPEN': {'canonical_tag': 'open', 'name': 'OPEN'},
+                         }), \
+                         patch('digest.format_backtest_for_newsletter', return_value=(
+                             "## 📈 Backtest Results\n"
+                             "### Buy the News Strategy\n\n"
+                             "- **Portfolio Value:** `$10,000.00`\n\n"
+                             "### Sell the News Strategy\n\n"
+                             "- **Portfolio Value:** `$10,000.00`\n"
+                         )):
                         
-                        # Mock backtest to return None (skip backtest)
-                        MockSignalParser.return_value.parse_file.return_value = []
+                        MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
                         
                         # Create mock engine instance
                         mock_engine = MagicMock()
                         mock_engine.news_fetcher = MagicMock()
                         mock_engine.news_fetcher.fetch_all_news_24h = MagicMock(return_value=news_data)
                         mock_engine.news_fetcher.fetch_squid_pass_winner = MagicMock(return_value=None)
-                        mock_engine.generate_writeup = AsyncMock(return_value="## Mock Trading Signals\n\n🟢 BTC: Buy signal - price momentum looking strong\n🔴 ETH: Sell signal - consolidation pattern detected\n🟡 OPEN: Hold signal - awaiting breakout")
+                        mock_engine.generate_writeup = AsyncMock(return_value=(
+                            "**$BTC Bitcoin: STRONG BUY** - price momentum looking strong ([more info](https://example.com/btc))\n"
+                            "**$ETH Ethereum: SELL** - consolidation pattern detected ([more info](https://example.com/eth))\n"
+                            "**$OPEN OPEN: WEAK BUY** - awaiting breakout ([more info](https://example.com/open))\n"
+                        ))
+                        mock_engine.generate_writeup_with_prompt = AsyncMock(return_value=mock_engine.generate_writeup.return_value)
                         
                         MockEngine.return_value = mock_engine
                         
@@ -228,8 +255,10 @@ class TestDigestGeneration(unittest.TestCase):
                         signals_file = signals_files[0]
                         content = signals_file.read_text()
                         self.assertIn("Crypto Trading Signals", content)
-                        self.assertIn("🟢 BTC", content)
-                        self.assertIn("🔴 ETH", content)
+                        self.assertIn("## 🎯 Trading Signals", content)
+                        self.assertIn("## 📈 Backtest Results", content)
+                        self.assertIn("🟢 Bitcoin", content)
+                        self.assertIn("🔴 Ethereum", content)
                 finally:
                     os.chdir(original_cwd)
             

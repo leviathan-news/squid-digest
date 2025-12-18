@@ -93,6 +93,18 @@ jobs:
         ls -la writeup/${YEAR}/${MONTH}/${DAY}/ || echo "No files in date directory"
         echo "Files created in writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/:"
         ls -la writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/ || echo "No thinking_logs directory"
+
+    - name: Upload diagnostics (on failure)
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: squid-digest-diagnostics-${{ github.run_id }}
+        path: |
+          writeup/**/diagnostic_*.txt
+          writeup/**/diagnostic_*_*.txt
+          .data/leviathan_news.json
+          .data/leviathan_tokens.json
+        if-no-files-found: ignore
     
     - name: Validate signals output
       run: |

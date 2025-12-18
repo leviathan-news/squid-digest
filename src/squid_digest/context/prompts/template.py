@@ -80,6 +80,7 @@ SIGNAL TYPES (use exactly these labels):
 13. NEVER mention tokens that you didn't generate signals for - if there's no signal, don't mention the token at all
 14. ONLY output trading signals - NO other sections, NO "Market Context", NO commentary, NO headers, NO separators - JUST the signals, one per line
 15. Each signal MUST be on its own separate line - never put multiple signals on the same line
+16. NEVER use labels like HOLD/NEUTRAL/WATCH - if you would output HOLD, choose WEAK BUY or WEAK SELL instead (pick the closest direction)
 
 Example format (notice: ONLY list tokens with signals, never mention skipped tokens):
 **$BTC Bitcoin: STRONG BUY** - Recent leverage cascade created a rare buying opportunity for blue chips ([more info](https://example.com/article1))
@@ -117,6 +118,7 @@ IMPORTANT RULES:
 6. Format: **$SYMBOL Token Name: SIGNAL** - reason ([more info](URL))
 7. One signal per line, no headers, no commentary, just signals
 8. Order by conviction: STRONG BUY first, then BUY, then WEAK signals
+9. NEVER use labels like HOLD/NEUTRAL/WATCH - if you would output HOLD, choose WEAK BUY or WEAK SELL instead (pick the closest direction)
 
 Example (more inclusive than strict mode):
 **$ETH Ethereum: WEAK BUY** - Gas optimization proposals keep improving scalability ([more info](URL))
