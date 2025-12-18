@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 11246.941907463492,
+  "cash": 11086.183999469748,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -22,7 +22,7 @@
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": -66.56899803955142,
+      "quantity": -33.28449901977571,
       "entry_price": 6.251774608838872,
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "SELL"
@@ -30,18 +30,10 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -1.1554094331685905,
+      "quantity": -0.5777047165842952,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
-    },
-    "JESSE": {
-      "symbol": "JESSE",
-      "token_name": "jesse",
-      "quantity": 9814.82001740949,
-      "entry_price": 0.009617141709909642,
-      "entry_date": "2025-11-26T00:00:00",
-      "entry_signal": "BUY"
     },
     "YFI": {
       "symbol": "YFI",
@@ -94,7 +86,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -706.5838877002735,
+      "quantity": -353.29194385013676,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -1460,6 +1452,54 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 39.81672609400823,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-18T21:08:17.948361",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "COVER",
+      "quantity": 33.28449901977571,
+      "price": 4.91748780343537,
+      "value": 163.6761179732036,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 44.411067866552514,
+      "entry_price": 6.251774608838872
+    },
+    {
+      "date": "2025-12-18T21:08:17.948361",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.5777047165842952,
+      "price": 0.01691005905783678,
+      "value": 0.009769020875431291,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.012679986090393435,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-18T21:08:17.948361",
+      "symbol": "JESSE",
+      "token_name": "jesse",
+      "action": "SELL",
+      "quantity": 9814.82001740949,
+      "price": 0.0073034288676000906,
+      "value": 71.6818398454477,
+      "signal_type": "STOP_LOSS",
+      "pnl": -22.7086751192372,
+      "entry_price": 0.009617141709909642
+    },
+    {
+      "date": "2025-12-18T21:08:17.948361",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 353.29194385013676,
+      "price": 0.19460919514846853,
+      "value": 68.75386084511305,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 25.942634762860195,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1630,6 +1670,10 @@
     [
       "2025-12-17T13:31:33.031623",
       7324.189403367786
+    ],
+    [
+      "2025-12-18T21:08:17.948361",
+      7636.888242841641
     ]
   ],
   "strategy": "sell_the_news"

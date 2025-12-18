@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 2633.1641894556146,
+  "cash": 3070.7696309973694,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -26,14 +26,6 @@
       "entry_price": 0.14394011591277503,
       "entry_date": "2025-11-22T00:00:00",
       "entry_signal": "STRONG SELL"
-    },
-    "UNI": {
-      "symbol": "UNI",
-      "token_name": "UNI",
-      "quantity": 88.98963434866933,
-      "entry_price": 6.251774608838872,
-      "entry_date": "2025-11-23T00:00:00",
-      "entry_signal": "BUY"
     },
     "YFI": {
       "symbol": "YFI",
@@ -1208,6 +1200,18 @@
       "signal_type": "STOP_LOSS",
       "pnl": -120.7478221110353,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-18T21:08:17.948361",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SELL",
+      "quantity": 88.98963434866933,
+      "price": 4.91748780343537,
+      "value": 437.6054415417547,
+      "signal_type": "STOP_LOSS",
+      "pnl": -118.73769492911168,
+      "entry_price": 6.251774608838872
     }
   ],
   "daily_values": [
@@ -1378,6 +1382,10 @@
     [
       "2025-12-17T13:31:33.031623",
       11400.963277653605
+    ],
+    [
+      "2025-12-18T21:08:17.948361",
+      10700.647131134578
     ]
   ],
   "strategy": "buy_the_news"
