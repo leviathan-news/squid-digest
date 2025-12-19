@@ -8,125 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Dec 2025 21:08:50 +0000</lastBuildDate>
-    <item>
-      <title>📊 Crypto Trading Signals - November 16, 2025</title>
-      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2025/11/16/signals_2025-11-16.md</link>
-      <description>Daily crypto trading signals powered by AI analysis of Leviathan News</description>
-      <content:encoded>&lt;h1 id="crypto-trading-signals-november-16-2025"&gt;📊 Crypto Trading Signals - November 16, 2025&lt;/h1&gt;
-
-&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td style="width: 140px; vertical-align: center; padding-right: 12px;"&gt;
-      &lt;img src="https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115141414_xpjevJP-TKk=.jpg" alt="Story Image" width="120" style="border-radius: 4px;"&gt;
-    &lt;/td&gt;
-    &lt;td style="vertical-align: center;"&gt;
-      &lt;strong&gt;&lt;a href="https://leviathannews.xyz/news/20601"&gt;1. ETH treasury company 'Intchains Group' acquires the Proof-of-Stake technology platform under ECHOLINK for $1.3M.&lt;/a&gt;&lt;/strong&gt; - &lt;a href="https://leviathannews.xyz/redirect/20601?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;Globenewswire&lt;/a&gt;
-      &lt;br&gt;&lt;span style="font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/tag/227/eth"&gt;$ETH&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/569/technology"&gt;Technology&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/2262/ethereum-treasury"&gt;Ethereum Treasury&lt;/a&gt;&lt;/span&gt;
-      &lt;br&gt;💬 &lt;i&gt;Good one right there . Eth team knows ball &lt;/i&gt; — @Danicjade
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style="width: 140px; vertical-align: center; padding-right: 12px;"&gt;
-      &lt;img src="https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115143819_gr8RqUf1X8E=.jpg" alt="Story Image" width="120" style="border-radius: 4px;"&gt;
-    &lt;/td&gt;
-    &lt;td style="vertical-align: center;"&gt;
-      &lt;strong&gt;&lt;a href="https://leviathannews.xyz/news/20603"&gt;2. The Aave Finance Committee increased the buybacks rate at the maximum authorised&lt;/a&gt;&lt;/strong&gt; - &lt;a href="https://leviathannews.xyz/redirect/20603?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;𝕏/@lemiscate&lt;/a&gt;
-      &lt;br&gt;&lt;span style="font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/tag/269/aave"&gt;Aave&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/516/governance"&gt;Governance&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/946/buybacks"&gt;Buybacks&lt;/a&gt;&lt;/span&gt;
-      &lt;br&gt;💬 &lt;i&gt;Do they burn the buybacks or?&lt;/i&gt; — @Hades
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style="width: 140px; vertical-align: center; padding-right: 12px;"&gt;
-      &lt;img src="https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115193747_8mFI5gv8FAM=.jpg&amp;publishedDate=1763234128534" alt="Story Image" width="120" style="border-radius: 4px;"&gt;
-    &lt;/td&gt;
-    &lt;td style="vertical-align: center;"&gt;
-      &lt;strong&gt;&lt;a href="https://leviathannews.xyz/news/20606"&gt;3. Dromos Labs announce Aero, the new liquidity hub meant to unite and bring together the best of both Aerodrome and Velodrome, built on the new MetaDEX03 architecture&lt;/a&gt;&lt;/strong&gt; - &lt;a href="https://leviathannews.xyz/redirect/20606?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;Paragraph&lt;/a&gt;
-      &lt;br&gt;&lt;span style="font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/tag/697/aerodrome"&gt;Aerodrome&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/1116/liquidity"&gt;Liquidity&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/2012/aero"&gt;AERO&lt;/a&gt;&lt;/span&gt;
-      &lt;br&gt;💬 &lt;i&gt;Hopefully it works out &lt;/i&gt; — @Danicjade
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style="width: 140px; vertical-align: center; padding-right: 12px;"&gt;
-      &lt;img src="https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115172106_pS6IRMTGu-c=.jpg" alt="Story Image" width="120" style="border-radius: 4px;"&gt;
-    &lt;/td&gt;
-    &lt;td style="vertical-align: center;"&gt;
-      &lt;strong&gt;&lt;a href="https://leviathannews.xyz/news/20605"&gt;4. 60 Minutes reveals upcoming story on Trump’s CZ pardon inspired by Web3 media DAO Coinage Media&lt;/a&gt;&lt;/strong&gt; - &lt;a href="https://leviathannews.xyz/redirect/20605?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;𝕏/@zGuz&lt;/a&gt;
-      &lt;br&gt;&lt;span style="font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/tag/463/coinage"&gt;Coinage&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/535/cz"&gt;CZ&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/tag/547/trump"&gt;Trump&lt;/a&gt;&lt;/span&gt;
-      &lt;br&gt;💬 &lt;i&gt;Let's go 
-This will be so much fun 😺&lt;/i&gt; — @Danicjade
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td style="width: 140px; vertical-align: center; padding-right: 12px;"&gt;
-      &lt;img src="https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115143718_po_yoErMMpg=.jpg" alt="Story Image" width="120" style="border-radius: 4px;"&gt;
-    &lt;/td&gt;
-    &lt;td style="vertical-align: center;"&gt;
-      &lt;strong&gt;&lt;a href="https://leviathannews.xyz/news/20602"&gt;5. Applied Digital plans to raise $2.35B through a private placement of senior secured notes by it's subsidiary.&lt;/a&gt;&lt;/strong&gt; - &lt;a href="https://leviathannews.xyz/redirect/20602?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;Globenewswire&lt;/a&gt;
-      &lt;br&gt;💬 &lt;i&gt;TL;DR:
-Applied Digital priced a $2.35B senior secured notes offering at 9.25% interest, due 2030. The funds will help build two major data centers (100MW + 150MW) at its North Dakota campus, repay existing debt, and cover project costs. The notes are backed by first-priority liens on key assets and subsidiaries. Offering closes around Nov 20, pending conditions.&lt;/i&gt; — @Danicjade
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;$AAVE Aave: BUY&lt;/strong&gt; - Aave Finance Committee maximized buyback authorization, signaling institutional confidence and active supply reduction during market weakness (&lt;a href="https://leviathannews.xyz/redirect/20603?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;more info&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;$BTC Bitcoin: BUY&lt;/strong&gt; - The Scaramuccis led major funding for American Bitcoin to expand mining operations and treasury accumulation, demonstrating sustained institutional conviction post-crash (&lt;a href="https://leviathannews.xyz/redirect/20624?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;more info&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;$ETH Ethereum: WEAK SELL&lt;/strong&gt; - Arthur Hayes dumped significant ETH holdings after the market crash despite prior promises to hold, signaling reduced conviction from a key market figure (&lt;a href="https://leviathannews.xyz/redirect/20627?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;more info&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;$ENA Ethena: WEAK SELL&lt;/strong&gt; - Arthur Hayes liquidated large ENA positions post-crash, contradicting previous commitment to hold through volatility (&lt;a href="https://leviathannews.xyz/redirect/20627?utm_medium=api&amp;utm_source=leviathan_api&amp;utm_campaign=news&amp;skip_landing=true"&gt;more info&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2 id="backtest-results"&gt;📈 Backtest Results&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; $9,407.50&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; -5.92%&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Days Since Start:&lt;/strong&gt; 7 (since 2025-11-08)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; $5,209.36&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC&lt;/strong&gt;: 0.0196 @ $101983.74 entry, $95741.20 current = $1,877.58 (P/L: $-122.42)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CRV&lt;/strong&gt;: 2077.9143 @ $0.48 entry, $0.43 current = $903.77 (P/L: $-96.23)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TRX&lt;/strong&gt;: 1608.0154 @ $0.29 entry, $0.30 current = $476.04 (P/L: $+4.44)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AAVE&lt;/strong&gt;: 5.3075 @ $177.25 entry, $177.25 current = $940.75 (P/L: $+0.00)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="trades-today"&gt;Trades Today&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BUY&lt;/strong&gt; 5.3075 AAVE @ $177.25 ($940.75)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SELL&lt;/strong&gt; 0.7287 ETH @ $3167.92 ($2,308.33) (P/L: $-105.19)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="performance-vs-benchmarks"&gt;Performance vs Benchmarks&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC Only:&lt;/strong&gt; N/A&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BTC + ETH (50/50):&lt;/strong&gt; N/A&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BTC + ETH + OPEN (33.3% each):&lt;/strong&gt; N/A&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Generated by Squid Digest - AI-powered trading signals for crypto natives&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: These signals are for informational purposes only and do not constitute financial advice. Cryptocurrency trading involves substantial risk of loss. Past performance does not guarantee future results. Always do your own research and consult with a qualified financial advisor before making investment decisions.&lt;/em&gt;&lt;/p&gt;
-</content:encoded>
-      <author>squid@leviathannews.xyz (Squid Digest)</author>
-      <guid isPermaLink="false">squid-digest-2025-11-16</guid>
-      <category>trading-signals</category>
-      <category>crypto</category>
-      <category>ai-analysis</category>
-      <pubDate>Sun, 16 Nov 2025 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 19 Dec 2025 13:31:21 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - November 17, 2025</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2025/11/17/signals_2025-11-17.md</link>
@@ -5753,6 +5635,206 @@ Gemach is building “DeFi that thinks for itself” — an AI-driven, cross-cha
       <category>crypto</category>
       <category>ai-analysis</category>
       <pubDate>Thu, 18 Dec 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>📊 Crypto Trading Signals - December 19, 2025</title>
+      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2025/12/19/signals_2025-12-19.md</link>
+      <description>Market: BTC $87,993. (-0.15%), ETH $2,964. (+1.89%) | 49 trading signals</description>
+      <content:encoded>&lt;h1 id="crypto-trading-signals-december-19-2025"&gt;📊 Crypto Trading Signals - December 19, 2025&lt;/h1&gt;
+
+&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $87,993.00 (-0.15%)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,964.58 (+1.89%)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.7074 (-0.53%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
+* 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/451/ASF?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ASF&lt;/a&gt;&lt;/strong&gt;: $0.0949 (+14.6%)
+* 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.2936 (+4.2%)
+* 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2356/COW?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;COW&lt;/a&gt;&lt;/strong&gt;: $0.1948 (+3.3%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
+* 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2366/AIOZ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AIOZ&lt;/a&gt;&lt;/strong&gt;: $0.0991 (-3.5%)
+* 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/914/TON?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;TON&lt;/a&gt;&lt;/strong&gt;: $1.44 (-3.5%)
+* 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/226/FRAX?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;FRAX&lt;/a&gt;&lt;/strong&gt;: $0.6182 (-3.5%)&lt;/p&gt;
+
+&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
+
+&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251218111849_dsI7FX2nQ9U%3D.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. Yearn developer Schlag gives feedback on basic onchain integration of Uniswap V4 and their universal router - &lt;a href="https://leviathannews.xyz/redirect/22694?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@Schlagonia&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/711/yearn"&gt;Yearn&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2052/integration"&gt;Integration&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/453/uniswap"&gt;Uniswap&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Yeah, not a fan of UniswapV4&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/HappyPsyduck/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@HappyPsyduck&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251218160156_OOs_g91RlJg%3D.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. Pumpfun and Solana Face $5.5B RICO Lawsuit Alleging Coordinated Memecoin Scheme That Wiped Out Retail Investors - &lt;a href="https://leviathannews.xyz/redirect/22716?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@mastrxyz&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/495/pump-dotfun"&gt;pump.fun&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/338/solana"&gt;Solana&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1203/lawsuit"&gt;Lawsuit&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;This is really going to get interesting 
+Hopefully, it doesn't dent the Solana &lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Danicjade/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Danicjade&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251218151225_6hAFnfqEAGk%3D.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. JPMorgan’s tokenized dollars are quietly rewiring how Wall Street moves money. The Wall Street titan’s recent embrace of a public blockchain Base is a harbinger of things to come. - &lt;a href="https://leviathannews.xyz/redirect/22697?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;archive.ph&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1169/jpmorgan"&gt;JPMorgan&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/430/base"&gt;Base Chain&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Bring wall street to blockchain &lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Danicjade/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Danicjade&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251219005940_jIcJd5xPjtM%3D.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Vitalik's latest views on popups, network states, coordi-nations, zones, and where all of these things could lead us. "Let a thousand societies bloom". He calls for simpler Ethereum design and pluralistic societies. - &lt;a href="https://leviathannews.xyz/redirect/22772?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;vitalik.eth.limo&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/897/ign"&gt;IGN&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/227/eth"&gt;$ETH&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/232/ethereum"&gt;Ethereum&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Damn sure the future is bright 🌄&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Danicjade/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Danicjade&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251219060615_1LKLqAv0R5A%3D.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. The fat app thesis is dead: Welcome to the fat distribution era. - &lt;a href="https://leviathannews.xyz/redirect/22778?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@MattFiebach&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2278/app"&gt;App&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;TL;DR:
+Crypto has moved past fat protocols and fat apps into a fat distribution era. Apps themselves are becoming commoditized backends, while the real value accrues to whoever controls user distribution and trusted frontends (Web2/TradFi platforms like Coinbase, Robinhood, banks). Years of infra optimization now deliver diminishing user value; users care more about familiar interfaces than marginally better on-chain rates or mechanics. As a result, DeFi apps are increasingly positioning as pipes integrated into larger platforms (B2B2C), where distribution—not liquidity or UX—becomes the moat. A few apps will still win B2C, but only by fully rethinking strategy; overall, frontends win, backends compete on price, and distribution captures the upside.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Danicjade/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Danicjade&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; background-color: #FFF5F2;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20251216223138_fid2ywQ_gnQ%3D.jpg" alt="SQUID Pass Winner" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;h3 style="margin-top: 0; color: #FF6B35;"&gt;🏆 SQUID Pass Winner&lt;/h3&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;This Thursday December 18th, RAAC is officially launching its gold-backed stablecoin $pmUSD!
+
+The launch is via a bond sale on Apebond, where $1M pmUSD will be available with a reward going from 2 to 5%!
+
+This means: for every $1 USDT / USDC you deposit, you receive up to $1.05 pmUSD after the locking period. On top of that, this sale also marks the start of the RAAC points program, and participating in this sale will grant the biggest point multiplier of the program!
+
+Finally, this sale is private for the RAAC Bots holder, the Llamas and the ApeBond premium users!
+
+Follow RAAC on X for additional details! - &lt;a href="https://leviathannews.xyz/redirect/22588?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@i&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1183/bond"&gt;Bond&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/223/usdt"&gt;$USDT&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/388/llamas"&gt;WenLLama&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
+
+&lt;p&gt;🟢 80K ($80K): BUY - The crypto market faced a challenging November 2025, with total market capitalization declining 15.43% amid Federal Reserve policy uncertainty and Bank of Japan rate hike expectations.[1] Bitcoin fell 16.7% to briefly touch $80K before rebounding to $87K, while ETH dropped 21.3% and BNB declined 18.4%.[1] Notably, Bitcoin's realized capitalization reached a record $1.125 trillion despite the 36% price correction, signaling that long-term holders are not capitulating.[4]&lt;/p&gt;
+
+&lt;p&gt;🟠 60M ($60M): WEAK SELL - XRP emerged as a bright spot with both Franklin and Grayscale launching spot ETFs that attracted over $60M in net inflows on day one.[1] In contrast, Grayscale's DOGE ETF launched with weak volume, reflecting institutional reluctance toward speculative assets during risk-off periods. However, BTC spot ETFs experienced nearly $4B in outflows driven by panic selling.[1]&lt;/p&gt;
+
+&lt;p&gt;🟢 84K ($84K): BUY - Bitcoin is consolidating between $84K-$90K with options markets hedging against a break below $85K.[2] Large holders appear to be quietly exiting altcoins over the past three to five months, visible across Ethereum, XRP, and Solana, while Bitcoin maintains support from consistent buyers preventing sharp declines.[2]&lt;/p&gt;
+
+&lt;h2 id="backtest-results"&gt;📈 Backtest Results&lt;/h2&gt;
+
+&lt;h3 id="buy-the-news-strategy"&gt;Buy the News Strategy&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;How would a portfolio perform if it traded daily on Leviathan News headlines?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Strategy includes risk management: -20% stop loss on all positions, +20% profit-taking (50% position reduction) on all positions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$10,920.78&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; +9.21%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days Since Start:&lt;/strong&gt; 29 (since 2025-11-19)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$3,070.77&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="current-positions"&gt;Current Positions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🟢 &lt;strong&gt;AAVE&lt;/strong&gt;: 15.04103 @ &lt;code&gt;$170.24&lt;/code&gt; entry, &lt;code&gt;$182.04&lt;/code&gt; current = &lt;code&gt;$2,738.09&lt;/code&gt; (P/L: &lt;code&gt;$+177.50&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;CRV&lt;/strong&gt;: 2,584.45561 @ &lt;code&gt;$0.41&lt;/code&gt; entry, &lt;code&gt;$0.35&lt;/code&gt; current = &lt;code&gt;$892.21&lt;/code&gt; (P/L: &lt;code&gt;$-171.35&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;WLFI&lt;/strong&gt;: 13,327.29069 (SHORT) @ &lt;code&gt;$0.14&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;YFI&lt;/strong&gt;: 0.28022 (SHORT) @ &lt;code&gt;$3,846.71&lt;/code&gt; entry, &lt;code&gt;$3,236.51&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+170.99&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;TON&lt;/strong&gt;: 720.45646 @ &lt;code&gt;$1.50&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;BNB&lt;/strong&gt;: 0.31751 @ &lt;code&gt;$903.15&lt;/code&gt; entry, &lt;code&gt;$847.44&lt;/code&gt; current = &lt;code&gt;$269.07&lt;/code&gt; (P/L: &lt;code&gt;$-17.69&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;SYRUP&lt;/strong&gt;: 2,375.34240 @ &lt;code&gt;$0.24&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;ETH&lt;/strong&gt;: 0.36090 @ &lt;code&gt;$3,133.68&lt;/code&gt; entry, &lt;code&gt;$2,964.66&lt;/code&gt; current = &lt;code&gt;$1,069.93&lt;/code&gt; (P/L: &lt;code&gt;$-61.00&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;HYPE&lt;/strong&gt;: 61.88170 @ &lt;code&gt;$27.88&lt;/code&gt; entry, &lt;code&gt;$24.30&lt;/code&gt; current = &lt;code&gt;$1,503.88&lt;/code&gt; (P/L: &lt;code&gt;$-221.19&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;XRP&lt;/strong&gt;: 570.52082 @ &lt;code&gt;$2.01&lt;/code&gt; entry, &lt;code&gt;$1.88&lt;/code&gt; current = &lt;code&gt;$1,072.48&lt;/code&gt; (P/L: &lt;code&gt;$-75.28&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;AVAX&lt;/strong&gt;: 43.06774 @ &lt;code&gt;$13.33&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;SUI&lt;/strong&gt;: 371.93867 @ &lt;code&gt;$1.54&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;SOL&lt;/strong&gt;: 5.09335 @ &lt;code&gt;$132.12&lt;/code&gt; entry, &lt;code&gt;$126.33&lt;/code&gt; current = &lt;code&gt;$643.43&lt;/code&gt; (P/L: &lt;code&gt;$-29.49&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;DOGE&lt;/strong&gt;: 4,284.65360 (SHORT) @ &lt;code&gt;$0.14&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;OP&lt;/strong&gt;: 1,962.37370 @ &lt;code&gt;$0.29&lt;/code&gt; entry, N/A current = N/A&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;BTC&lt;/strong&gt;: 0.00327 (SHORT) @ &lt;code&gt;$87,116.84&lt;/code&gt; entry, &lt;code&gt;$87,989.15&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$-2.85&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="trades-today"&gt;Trades Today&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;No trades executed today&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="sell-the-news-strategy"&gt;Sell the News Strategy&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Once it's in the headlines, it's supposedly too late! How would your portfolio perform if you did the opposite of the signal?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Strategy includes risk management: -20% stop loss on all positions, +20% profit-taking (50% position reduction) on all positions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$7,469.08&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; -25.31%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days Since Start:&lt;/strong&gt; 29 (since 2025-11-19)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$10,587.84&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="current-positions-2"&gt;Current Positions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🔴 &lt;strong&gt;CRV&lt;/strong&gt;: 2,160.18613 (SHORT) @ &lt;code&gt;$0.41&lt;/code&gt; entry, &lt;code&gt;$0.35&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+147.98&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;WLFI&lt;/strong&gt;: 14,468.18589 @ &lt;code&gt;$0.14&lt;/code&gt; entry, &lt;code&gt;$0.13&lt;/code&gt; current = &lt;code&gt;$1,886.24&lt;/code&gt; (P/L: &lt;code&gt;$-196.31&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;UNI&lt;/strong&gt;: 33.28450 (SHORT) @ &lt;code&gt;$6.25&lt;/code&gt; entry, &lt;code&gt;$5.19&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+35.37&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;MON&lt;/strong&gt;: 0.28885 (SHORT) @ &lt;code&gt;$0.04&lt;/code&gt; entry, &lt;code&gt;$0.02&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+0.01&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;YFI&lt;/strong&gt;: 0.22017 @ &lt;code&gt;$3,846.71&lt;/code&gt; entry, &lt;code&gt;$3,236.51&lt;/code&gt; current = &lt;code&gt;$712.59&lt;/code&gt; (P/L: &lt;code&gt;$-134.35&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;TON&lt;/strong&gt;: 566.06491 (SHORT) @ &lt;code&gt;$1.50&lt;/code&gt; entry, &lt;code&gt;$1.44&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+29.86&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;BNB&lt;/strong&gt;: 0.20615 (SHORT) @ &lt;code&gt;$903.15&lt;/code&gt; entry, &lt;code&gt;$847.44&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+11.49&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;ETH&lt;/strong&gt;: 0.24693 (SHORT) @ &lt;code&gt;$3,133.68&lt;/code&gt; entry, &lt;code&gt;$2,964.66&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+41.74&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;HYPE&lt;/strong&gt;: 39.66156 (SHORT) @ &lt;code&gt;$27.89&lt;/code&gt; entry, &lt;code&gt;$24.30&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+142.35&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;ENA&lt;/strong&gt;: 176.64597 (SHORT) @ &lt;code&gt;$0.27&lt;/code&gt; entry, &lt;code&gt;$0.20&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+11.24&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;XRP&lt;/strong&gt;: 377.76238 (SHORT) @ &lt;code&gt;$2.01&lt;/code&gt; entry, &lt;code&gt;$1.88&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+49.85&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;AVAX&lt;/strong&gt;: 28.51670 (SHORT) @ &lt;code&gt;$13.33&lt;/code&gt; entry, &lt;code&gt;$11.99&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+37.94&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;SUI&lt;/strong&gt;: 246.27399 (SHORT) @ &lt;code&gt;$1.54&lt;/code&gt; entry, &lt;code&gt;$1.44&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+24.73&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;SOL&lt;/strong&gt;: 5.26793 (SHORT) @ &lt;code&gt;$135.08&lt;/code&gt; entry, &lt;code&gt;$126.33&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+46.11&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;DOGE&lt;/strong&gt;: 2,551.57337 @ &lt;code&gt;$0.14&lt;/code&gt; entry, &lt;code&gt;$0.13&lt;/code&gt; current = &lt;code&gt;$328.51&lt;/code&gt; (P/L: &lt;code&gt;$-26.89&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;OP&lt;/strong&gt;: 1,240.52237 (SHORT) @ &lt;code&gt;$0.29&lt;/code&gt; entry, &lt;code&gt;$0.27&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+29.05&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🔴 &lt;strong&gt;AAVE&lt;/strong&gt;: 0.99512 (SHORT) @ &lt;code&gt;$184.00&lt;/code&gt; entry, &lt;code&gt;$182.04&lt;/code&gt; current = &lt;code&gt;$0.00&lt;/code&gt; (P/L: &lt;code&gt;$+1.95&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;BTC&lt;/strong&gt;: 0.00210 @ &lt;code&gt;$87,116.84&lt;/code&gt; entry, &lt;code&gt;$87,989.15&lt;/code&gt; current = &lt;code&gt;$184.94&lt;/code&gt; (P/L: &lt;code&gt;$+1.83&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="trades-today-2"&gt;Trades Today&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🟢 &lt;strong&gt;COVER&lt;/strong&gt; 0.2889 MON @ &lt;code&gt;$0.02&lt;/code&gt; (&lt;code&gt;$0.01&lt;/code&gt;, P/L: &lt;code&gt;$+0.01&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;COVER&lt;/strong&gt; 1574.1994 SYRUP @ &lt;code&gt;$0.29&lt;/code&gt; (&lt;code&gt;$462.23&lt;/code&gt;, P/L: &lt;code&gt;$-84.60&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;COVER&lt;/strong&gt; 176.6460 ENA @ &lt;code&gt;$0.20&lt;/code&gt; (&lt;code&gt;$36.11&lt;/code&gt;, P/L: &lt;code&gt;$+11.24&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="performance-vs-benchmarks"&gt;Performance vs Benchmarks&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Benchmark returns show the benchmark's performance since portfolio start. Portfolio returns show how much better/worse the portfolio performed relative to the benchmark.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BTC Only:&lt;/strong&gt; -5.20%
+&lt;ul&gt;
+&lt;li&gt;Buy: +14.41%&lt;/li&gt;
+&lt;li&gt;Sell: -20.10%&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BTC + ETH (50/50):&lt;/strong&gt; -5.05%
+&lt;ul&gt;
+&lt;li&gt;Buy: +14.26%&lt;/li&gt;
+&lt;li&gt;Sell: -20.26%&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BTC + ETH + OPEN (33/33/33):&lt;/strong&gt; -9.91%
+&lt;ul&gt;
+&lt;li&gt;Buy: +19.12%&lt;/li&gt;
+&lt;li&gt;Sell: -15.40%&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete weirdo to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+</content:encoded>
+      <author>squid@leviathannews.xyz (Squid Digest)</author>
+      <guid isPermaLink="false">squid-digest-2025-12-19</guid>
+      <category>trading-signals</category>
+      <category>crypto</category>
+      <category>ai-analysis</category>
+      <pubDate>Fri, 19 Dec 2025 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
