@@ -361,5 +361,88 @@ class TestSignalParserRobustness:
         pytest.skip("Integration test - requires parser instantiation")
 
 
+class TestSignalParserFilenamePatterns:
+    """Test that signal parser handles various filename patterns including retry suffixes.
+
+    This tests the fix for a bug where temp files with _retry or _retry_canonical
+    suffixes (e.g., signals_2025-12-20_retry.md) failed to parse because the
+    filename regex didn't extract the date correctly.
+    """
+
+    def test_parse_standard_signals_filename(self):
+        """Test that standard signals_YYYY-MM-DD.md files are parsed correctly."""
+        from squid_digest.backtest.signal_parser import SignalParser
+
+        valid_content = """## 🎯 Trading Signals
+
+**$BTC Bitcoin: STRONG BUY** - Test reason for buy signal
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            parser = SignalParser(Path(tmpdir))
+            filepath = Path(tmpdir) / "signals_2025-12-20.md"
+            filepath.write_text(valid_content)
+
+            signals = parser.parse_file(filepath)
+            assert len(signals) == 1
+            assert signals[0].symbol == "BTC"
+            assert signals[0].signal_type == "STRONG BUY"
+
+    def test_parse_retry_suffix_filename(self):
+        """Test that signals_YYYY-MM-DD_retry.md files are parsed correctly.
+
+        This is the primary bug fix - retry temp files were failing to parse.
+        """
+        from squid_digest.backtest.signal_parser import SignalParser
+
+        valid_content = """## 🎯 Trading Signals
+
+**$ETH Ethereum: BUY** - Test reason for ETH buy signal
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            parser = SignalParser(Path(tmpdir))
+            filepath = Path(tmpdir) / "signals_2025-12-20_retry.md"
+            filepath.write_text(valid_content)
+
+            signals = parser.parse_file(filepath)
+            assert len(signals) == 1, "Retry suffix filename should parse correctly"
+            assert signals[0].symbol == "ETH"
+            assert signals[0].signal_type == "BUY"
+
+    def test_parse_retry_canonical_suffix_filename(self):
+        """Test that signals_YYYY-MM-DD_retry_canonical.md files are parsed correctly."""
+        from squid_digest.backtest.signal_parser import SignalParser
+
+        valid_content = """## 🎯 Trading Signals
+
+**$SOL Solana: WEAK SELL** - Test reason for SOL signal
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            parser = SignalParser(Path(tmpdir))
+            filepath = Path(tmpdir) / "signals_2025-12-20_retry_canonical.md"
+            filepath.write_text(valid_content)
+
+            signals = parser.parse_file(filepath)
+            assert len(signals) == 1, "Retry canonical suffix filename should parse correctly"
+            assert signals[0].symbol == "SOL"
+            assert signals[0].signal_type == "WEAK SELL"
+
+    def test_parse_digest_prefix_with_suffix(self):
+        """Test that digest_YYYY-MM-DD_suffix.md files are parsed correctly."""
+        from squid_digest.backtest.signal_parser import SignalParser
+
+        valid_content = """## 🎯 Trading Signals
+
+**$AAVE Aave: SELL** - Test reason
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            parser = SignalParser(Path(tmpdir))
+            filepath = Path(tmpdir) / "digest_2025-12-20_test.md"
+            filepath.write_text(valid_content)
+
+            signals = parser.parse_file(filepath)
+            assert len(signals) == 1
+            assert signals[0].symbol == "AAVE"
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
