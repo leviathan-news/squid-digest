@@ -65,17 +65,26 @@ def main():
     session_cookies_json = os.getenv("SUBSTACK_SESSION_COOKIES")
     substack_email = os.getenv("SUBSTACK_EMAIL")
     substack_password = os.getenv("SUBSTACK_PASSWORD")
-    
+
+    # Gmail API credentials for email verification auth
+    google_service_account_json = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
+    gmail_impersonate_email = os.getenv("GMAIL_IMPERSONATE_EMAIL")
+    has_gmail_auth = bool(google_service_account_json and gmail_impersonate_email)
+
     # Validate that we have at least one authentication method
-    if not session_cookies_json and not (substack_email and substack_password):
-        print("❌ ERROR: No authentication method configured!")
+    if not session_cookies_json and not (substack_email and substack_password) and not has_gmail_auth:
+        print("ERROR: No authentication method configured!")
         print("")
         print("Please set one of the following:")
         print("  1. SUBSTACK_SESSION_COOKIES (JSON string with cookies array)")
-        print("  2. SUBSTACK_EMAIL and SUBSTACK_PASSWORD (for fallback login)")
+        print("  2. SUBSTACK_EMAIL and SUBSTACK_PASSWORD (for password login)")
+        print("  3. GOOGLE_SERVICE_ACCOUNT_JSON and GMAIL_IMPERSONATE_EMAIL (for email verification)")
         print("")
         print("For GitHub Actions, add these as repository secrets.")
         sys.exit(1)
+
+    if has_gmail_auth:
+        print("Gmail API credentials detected - email verification auth available")
     
     print("=" * 80)
     print("Substack RSS Import Automation")
@@ -102,17 +111,24 @@ def main():
         if session_cookies_json:
             print("Attempting cookie authentication...")
             authenticated = automation.authenticate_with_cookies(session_cookies_json)
-        
-        # Fall back to email/password if cookies failed
+
+        # Fall back to email verification auth (Gmail API) if cookies failed
+        if not authenticated and has_gmail_auth:
+            # Use the Gmail impersonate email as the Substack email if not set
+            auth_email = substack_email or gmail_impersonate_email
+            print(f"Trying email verification authentication with {auth_email}...")
+            authenticated = automation.authenticate_with_email_verification(auth_email)
+
+        # Fall back to email/password if Gmail auth failed
         if not authenticated and substack_email and substack_password:
-            print("Cookie authentication failed, trying email/password login...")
+            print("Trying email/password login...")
             authenticated = automation.authenticate_with_login(
                 substack_email,
                 substack_password
             )
-        
+
         if not authenticated:
-            print("❌ Authentication failed with all available methods")
+            print("Authentication failed with all available methods")
             sys.exit(1)
         
         # Perform RSS import

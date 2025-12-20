@@ -45,18 +45,26 @@ jobs:
     - name: Validate required secrets
       run: |
         # Check for at least one authentication method
-        if [ -z "${{ secrets.SUBSTACK_SESSION_COOKIES }}" ] && \
-           ([ -z "${{ secrets.SUBSTACK_EMAIL }}" ] || [ -z "${{ secrets.SUBSTACK_PASSWORD }}" ]); then
-          echo "❌ ERROR: No authentication method configured!"
+        HAS_COOKIES="${{ secrets.SUBSTACK_SESSION_COOKIES != '' }}"
+        HAS_PASSWORD="${{ secrets.SUBSTACK_EMAIL != '' && secrets.SUBSTACK_PASSWORD != '' }}"
+        HAS_GMAIL="${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON != '' && secrets.GMAIL_IMPERSONATE_EMAIL != '' }}"
+
+        if [ "$HAS_COOKIES" != "true" ] && [ "$HAS_PASSWORD" != "true" ] && [ "$HAS_GMAIL" != "true" ]; then
+          echo "ERROR: No authentication method configured!"
           echo ""
           echo "Please set one of the following in GitHub Secrets:"
           echo "  1. SUBSTACK_SESSION_COOKIES (JSON string with cookies array)"
-          echo "  2. SUBSTACK_EMAIL and SUBSTACK_PASSWORD (for fallback login)"
+          echo "  2. SUBSTACK_EMAIL and SUBSTACK_PASSWORD (for password login)"
+          echo "  3. GOOGLE_SERVICE_ACCOUNT_JSON and GMAIL_IMPERSONATE_EMAIL (for email verification)"
           echo ""
           echo "See docs/SUBSTACK_AUTOMATION.md for setup instructions."
           exit 1
         fi
-        echo "✅ Authentication method configured"
+
+        echo "Authentication method(s) configured:"
+        [ "$HAS_COOKIES" = "true" ] && echo "  - Session cookies"
+        [ "$HAS_PASSWORD" = "true" ] && echo "  - Email/password"
+        [ "$HAS_GMAIL" = "true" ] && echo "  - Gmail API (email verification)"
     
     - name: Import RSS feed to Substack
       env:
@@ -64,6 +72,9 @@ jobs:
         SUBSTACK_EMAIL: ${{ secrets.SUBSTACK_EMAIL }}
         SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
         SUBSTACK_URL: ${{ secrets.SUBSTACK_URL || 'https://leviathannews.substack.com' }}
+        # Gmail API credentials for email verification auth
+        GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        GMAIL_IMPERSONATE_EMAIL: ${{ secrets.GMAIL_IMPERSONATE_EMAIL }}
       continue-on-error: true
       run: |
         echo "=========================================="

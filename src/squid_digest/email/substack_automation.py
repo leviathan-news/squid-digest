@@ -3,8 +3,11 @@
 import json
 import os
 import time
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, TYPE_CHECKING
 from playwright.sync_api import sync_playwright, Browser, Page, TimeoutError as PlaywrightTimeoutError
+
+if TYPE_CHECKING:
+    from .gmail_client import GmailClient
 
 
 class SubstackAutomation:
@@ -227,11 +230,175 @@ class SubstackAutomation:
             
             print("✓ Email/password authentication successful")
             return True
-            
+
         except Exception as e:
             print(f"❌ Login authentication error: {e}")
             return False
-    
+
+    def authenticate_with_email_verification(
+        self,
+        email: str,
+        gmail_client: Optional['GmailClient'] = None
+    ) -> bool:
+        """Authenticate using email with verification code from Gmail.
+
+        This method handles Substack's email verification flow:
+        1. Enter email on login page
+        2. Substack sends a 6-digit verification code to the email
+        3. Use Gmail API to read the code from the inbox
+        4. Enter the code to complete authentication
+
+        Args:
+            email: Substack account email (should match GMAIL_IMPERSONATE_EMAIL).
+            gmail_client: GmailClient instance for reading verification emails.
+                          If None, creates one from environment variables.
+
+        Returns:
+            True if authentication successful, False otherwise.
+        """
+        try:
+            if not self.page:
+                raise RuntimeError("Browser page not initialized. Call start() first.")
+
+            # Import and create Gmail client if not provided
+            if gmail_client is None:
+                from .gmail_client import GmailClient
+                gmail_client = GmailClient()
+
+            # Navigate to sign-in page
+            login_url = "https://substack.com/sign-in"
+            print(f"Navigating to: {login_url}")
+            self.page.goto(login_url, wait_until="domcontentloaded", timeout=self.timeout)
+            time.sleep(2)
+
+            # Find and fill email field
+            email_selectors = [
+                'input[type="email"]',
+                'input[name="email"]',
+                'input[placeholder*="email" i]',
+            ]
+
+            email_field = None
+            for selector in email_selectors:
+                try:
+                    email_field = self.page.wait_for_selector(selector, timeout=5000)
+                    if email_field:
+                        break
+                except PlaywrightTimeoutError:
+                    continue
+
+            if not email_field:
+                print("❌ Could not find email input field")
+                return False
+
+            print(f"Entering email: {email}")
+            email_field.fill(email)
+            time.sleep(0.5)
+
+            # Click continue/submit button
+            continue_selectors = [
+                'button[type="submit"]',
+                'button:has-text("Continue")',
+                'button:has-text("Sign in")',
+                'button:has-text("Log in")',
+            ]
+
+            continue_button = None
+            for selector in continue_selectors:
+                try:
+                    continue_button = self.page.wait_for_selector(selector, timeout=5000)
+                    if continue_button:
+                        break
+                except PlaywrightTimeoutError:
+                    continue
+
+            if not continue_button:
+                print("❌ Could not find continue button")
+                return False
+
+            print("Clicking continue...")
+            continue_button.click()
+            time.sleep(3)
+
+            # Check if we need to enter a verification code
+            # Substack shows a code input after sending the email
+            code_selectors = [
+                'input[name="code"]',
+                'input[type="number"]',
+                'input[placeholder*="code" i]',
+                'input[inputmode="numeric"]',
+                'input[autocomplete="one-time-code"]',
+            ]
+
+            code_input = None
+            for selector in code_selectors:
+                try:
+                    code_input = self.page.wait_for_selector(selector, timeout=10000)
+                    if code_input:
+                        print(f"Found code input with selector: {selector}")
+                        break
+                except PlaywrightTimeoutError:
+                    continue
+
+            if code_input:
+                print("Verification code required, polling Gmail...")
+
+                # Poll Gmail for the verification code
+                code = gmail_client.get_substack_verification_code(
+                    max_age_seconds=120,
+                    poll_interval_seconds=5,
+                    max_attempts=24  # Up to 2 minutes
+                )
+
+                if not code:
+                    print("❌ Failed to retrieve verification code from Gmail")
+                    return False
+
+                print(f"Entering verification code: {code}")
+                code_input.fill(code)
+                time.sleep(0.5)
+
+                # Click submit/verify button
+                verify_selectors = [
+                    'button[type="submit"]',
+                    'button:has-text("Continue")',
+                    'button:has-text("Verify")',
+                    'button:has-text("Confirm")',
+                ]
+
+                verify_button = None
+                for selector in verify_selectors:
+                    try:
+                        verify_button = self.page.wait_for_selector(selector, timeout=5000)
+                        if verify_button:
+                            break
+                    except PlaywrightTimeoutError:
+                        continue
+
+                if verify_button:
+                    print("Clicking verify...")
+                    verify_button.click()
+                    time.sleep(3)
+
+            # Verify login success by accessing publish page
+            print("Verifying authentication...")
+            self.page.goto(f"{self.substack_url}/publish", wait_until="domcontentloaded", timeout=self.timeout)
+            time.sleep(2)
+
+            current_url = self.page.url
+            if "login" in current_url.lower() or "sign-in" in current_url.lower():
+                print("❌ Could not access publish page - still on login")
+                return False
+
+            print("✓ Email verification authentication successful")
+            return True
+
+        except Exception as e:
+            print(f"❌ Email verification authentication error: {e}")
+            import traceback
+            traceback.print_exc()
+            return False
+
     def import_rss_feed(self, rss_url: str) -> bool:
         """Import RSS feed to Substack.
         
