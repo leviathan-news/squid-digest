@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 3070.7696309973694,
+  "cash": 2332.3338236001237,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 15.041033776776453,
-      "entry_price": 170.24040316997596,
+      "quantity": 18.129861068022436,
+      "entry_price": 172.04132892646413,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 2375.3424037889995,
+      "quantity": 1187.6712018944997,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -123,13 +123,13 @@
       "entry_date": "2025-12-16T00:00:00",
       "entry_signal": "BUY"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.0032717448349766664,
-      "entry_price": 87116.84324959679,
-      "entry_date": "2025-12-17T00:00:00",
-      "entry_signal": "WEAK SELL"
+    "UNI": {
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "quantity": 47.65892174909271,
+      "entry_price": 5.859277934185811,
+      "entry_date": "2025-12-20T00:00:00",
+      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -1212,6 +1212,54 @@
       "signal_type": "STOP_LOSS",
       "pnl": -118.73769492911168,
       "entry_price": 6.251774608838872
+    },
+    {
+      "date": "2025-12-20T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 3.088827291245982,
+      "price": 180.81093064863697,
+      "value": 558.4937371430944,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-20T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.0032717448349766664,
+      "price": 88070.97877703876,
+      "value": 288.14576992511616,
+      "signal_type": "WEAK BUY",
+      "pnl": -3.1216879837759848,
+      "entry_price": 87116.84324959679
+    },
+    {
+      "date": "2025-12-20T00:00:00",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "BUY",
+      "quantity": 47.65892174909271,
+      "price": 5.859277934185811,
+      "value": 279.24686857154717,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-20T14:27:22.507482",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 1187.6712018944997,
+      "price": 0.3262271305597668,
+      "value": 387.45056824251213,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 102.5474354123599,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1390,6 +1438,10 @@
     [
       "2025-12-19T13:30:15.378296",
       10920.780506034615
+    ],
+    [
+      "2025-12-20T14:27:22.507482",
+      11169.874742861886
     ]
   ],
   "strategy": "buy_the_news"
