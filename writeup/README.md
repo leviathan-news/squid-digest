@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 19, 2025)
+## 🔥 Latest Headlines (December 20, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/19/signals_2025-12-19.md)
+📊 [View Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/20/signals_2025-12-20.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 12 - Dec 19)
+### 📅 This Week (Dec 13 - Dec 20)
+
+[**Saturday, December 20, 2025**](writeup/2025/12/20/signals_2025-12-20.md)
 
 [**Friday, December 19, 2025**](writeup/2025/12/19/signals_2025-12-19.md)
 
@@ -40,9 +42,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
-[**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
+### 📅 Last Week (Dec 06 - Dec 12)
 
-### 📅 Last Week (Dec 05 - Dec 11)
+[**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
 [**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
 
@@ -56,9 +58,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
-[**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
+### 📅 Week of Nov 29 - Dec 05
 
-### 📅 Week of Nov 28 - Dec 04
+[**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
 [**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 
@@ -77,10 +79,10 @@ Meet the billion-dollar crypto founder who started trading at 9 years old. Denis
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 23 - Nov 28
+
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 22 - Nov 27
 
 [**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
 The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards. [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -96,9 +98,6 @@ A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after ho
 
 [**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
 SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
-Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
