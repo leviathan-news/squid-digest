@@ -1260,13 +1260,15 @@ async def bundle_writeup(verbose=False):
     today_signals = []
     if ACTIVE_PROMPT == 'signals':
         try:
+            # Initialize signal parser (needed for both initial and fallback parsing)
+            signal_parser = SignalParser(WRITEUP_DIR)
+
             # If format validation detected refusal, skip parsing and trigger fallback immediately
             if not retry_with_fallback:
                 if verbose:
                     logger.info("Running incremental backtest...")
 
                 # Parse signals from the original format (before transformation)
-                signal_parser = SignalParser(WRITEUP_DIR)
                 # Create a temporary file with proper filename pattern for parsing
                 # The parser requires filename with date pattern: signals_YYYY-MM-DD.md
                 temp_dir = Path(tempfile.gettempdir())
