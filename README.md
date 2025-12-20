@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 17, 2025)
+## 📊 Latest News Headlines (December 19, 2025)
 
 ### 🔥 Top Headlines
-- **Elizabeth Warren Seeks DOJ and Treasury Review of National Security Risks Posed by DeFi Exchanges** [banking.senate.gov](https://leviathannews.xyz/redirect/22616?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Proposal from BGD Labs on the AAVE governance forum to explicitly define the brand ownership and it's allowed use by third-party (also that the editor posted both of stani's tweet but not this one is quite tellin' of the power of the aave handle 😛)** [governance.aave](https://leviathannews.xyz/redirect/22615?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI Models Are Rapidly Advancing Toward Autonomous Cyberattacks, Raising Alarms Among Researchers and Lawmakers** [Axios](https://leviathannews.xyz/redirect/22614?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Russia’s top crypto lawmaker says Bitcoin will never be allowed for payments, insisting goods and services must be paid in rubles. Crypto may only serve as an investment, aligning with the central bank’s long-standing opposition.** [DL News](https://leviathannews.xyz/redirect/22575?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SerenAI joins MongoDB Startups to enable pay-per-call x402 payments on MongoDB and Base** [Serendb](https://leviathannews.xyz/redirect/22559?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn developer Schlag gives feedback on basic onchain integration of Uniswap V4 and their universal router** [𝕏/@Schlagonia](https://leviathannews.xyz/redirect/22694?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pumpfun and Solana Face $5.5B RICO Lawsuit Alleging Coordinated Memecoin Scheme That Wiped Out Retail Investors** [𝕏/@mastrxyz](https://leviathannews.xyz/redirect/22716?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan’s tokenized dollars are quietly rewiring how Wall Street moves money. The Wall Street titan’s recent embrace of a public blockchain Base is a harbinger of things to come.** [archive.ph](https://leviathannews.xyz/redirect/22697?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik's latest views on popups, network states, coordi-nations, zones, and where all of these things could lead us. "Let a thousand societies bloom". He calls for simpler Ethereum design and pluralistic societies.** [vitalik.eth.limo](https://leviathannews.xyz/redirect/22772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The fat app thesis is dead: Welcome to the fat distribution era.** [𝕏/@MattFiebach](https://leviathannews.xyz/redirect/22778?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,400.96 (+14.01%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
-**Sell Strategy:** $7,324.19 (-26.76%) | [Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md)
+**Buy Strategy:** $10,920.78 (+9.21%) | [Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md)
+**Sell Strategy:** $7,469.08 (-25.31%) | [Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md)
 
-**GitHub:** 12-17-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-17-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-19-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-19-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

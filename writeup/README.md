@@ -15,18 +15,22 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 17, 2025)
+## 🔥 Latest Headlines (December 19, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/17/signals_2025-12-17.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/17/signals_2025-12-17.md)
+📊 [View Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/19/signals_2025-12-19.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 10 - Dec 17)
+### 📅 This Week (Dec 12 - Dec 19)
+
+[**Friday, December 19, 2025**](writeup/2025/12/19/signals_2025-12-19.md)
+
+[**Thursday, December 18, 2025**](writeup/2025/12/18/signals_2025-12-18.md)
 
 [**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
 
@@ -38,11 +42,11 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
+### 📅 Last Week (Dec 05 - Dec 11)
+
 [**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
 
 [**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
-
-### 📅 Last Week (Dec 03 - Dec 09)
 
 [**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
@@ -54,12 +58,12 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
+### 📅 Week of Nov 28 - Dec 04
+
 [**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 
 [**Wednesday, December 03, 2025**](writeup/2025/12/03/signals_2025-12-03.md)
 Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market. [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 26 - Dec 02
 
 [**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
 OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -76,13 +80,13 @@ Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 22 - Nov 27
+
 [**Thursday, November 27, 2025**](writeup/2025/11/27/signals_2025-11-27.md)
 The top-performing stablecoin vaults of November 2025 show strong gains across new ERC-4626 strategies—even as xUSD turbulence wrecked dozens of vaults—amid expanding protocol support, real-time dashboards, and emerging DeFi risk-rating standards. [tradingstrategy.ai](https://leviathannews.xyz/redirect/21401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
 [**Wednesday, November 26, 2025**](writeup/2025/11/26/signals_2025-11-26.md)
 BIS warns that tokenised money market funds are rapidly linking DeFi with traditional finance—offering yield and regulatory protections but bringing new risks around liquidity mismatches, concentrated holders, and potential contagion with stablecoins. [bis.org](https://leviathannews.xyz/redirect/21358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 21 - Nov 25
 
 [**Tuesday, November 25, 2025**](writeup/2025/11/25/signals_2025-11-25.md)
 Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pangea](https://leviathannews.xyz/redirect/21318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -95,9 +99,6 @@ SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as s
 
 [**Saturday, November 22, 2025**](writeup/2025/11/22/signals_2025-11-22.md)
 Base’s flashblocks feature let bots front-run its own founder Jesse Pollak as two snipers acquired 261.7 million JESSE tokens and walk off with $1.3M profits. [archive.ph](https://leviathannews.xyz/redirect/21026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Friday, November 21, 2025**](writeup/2025/11/21/signals_2025-11-21.md)
-BlackRock’s IBIT drives a record $3.79B November exodus from U.S. spot Bitcoin ETFs, shedding $2.47B—63% of all outflows—as weekly redemptions hit an all-time high. [farside.co.uk](https://leviathannews.xyz/redirect/20981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
