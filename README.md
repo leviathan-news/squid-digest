@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 19, 2025)
+## 📊 Latest News Headlines (December 20, 2025)
 
 ### 🔥 Top Headlines
-- **Yearn developer Schlag gives feedback on basic onchain integration of Uniswap V4 and their universal router** [𝕏/@Schlagonia](https://leviathannews.xyz/redirect/22694?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pumpfun and Solana Face $5.5B RICO Lawsuit Alleging Coordinated Memecoin Scheme That Wiped Out Retail Investors** [𝕏/@mastrxyz](https://leviathannews.xyz/redirect/22716?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan’s tokenized dollars are quietly rewiring how Wall Street moves money. The Wall Street titan’s recent embrace of a public blockchain Base is a harbinger of things to come.** [archive.ph](https://leviathannews.xyz/redirect/22697?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik's latest views on popups, network states, coordi-nations, zones, and where all of these things could lead us. "Let a thousand societies bloom". He calls for simpler Ethereum design and pluralistic societies.** [vitalik.eth.limo](https://leviathannews.xyz/redirect/22772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The fat app thesis is dead: Welcome to the fat distribution era.** [𝕏/@MattFiebach](https://leviathannews.xyz/redirect/22778?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why fixed-rate lending never took off in crypto.** [𝕏/@0xPrince](https://leviathannews.xyz/redirect/22811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RSS3 Network announced launch of MCP server, enabling AI-assisted prediction markets and autonomous DeFi agents. Through providing AI agents with natural-language access to real-time off-chain, cross-chain, and social data, this release positions RSS3 as a foundational data layer for AI-assisted prediction markets, DeFi yield automation, and autonomous research agents.** [Coindesk](https://leviathannews.xyz/redirect/22810?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase Institutional sees cautious optimism for 2026, with clearer regulation, deeper institutional adoption, evolving tokenomics, growth in privacy tech, AI-crypto use cases, prediction markets, and expanding stablecoin and tokenization activity.** [𝕏/@CoinbaseInsto](https://leviathannews.xyz/redirect/22813?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Quant firms are already exploring prediction markets, despite messy blockchain data. Early research beats buying costly datasets later, as improved indexing tools emerge and major market makers quietly show growing crypto interest.** [𝕏/@wenkafka](https://leviathannews.xyz/redirect/22796?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Address poisoning attacks exploit look-alike wallet addresses to trick users into misdirected transfers. Staying safe requires careful address verification, avoiding transaction-history copying, and using tools like whitelists, ENS, and hardware wallets.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/22814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,920.78 (+9.21%) | [Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md)
-**Sell Strategy:** $7,469.08 (-25.31%) | [Full Analysis →](writeup/2025/12/19/signals_2025-12-19.md)
+**Buy Strategy:** $11,169.87 (+11.70%) | [Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md)
+**Sell Strategy:** $7,459.49 (-25.41%) | [Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md)
 
-**GitHub:** 12-19-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-19-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-20-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-20-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

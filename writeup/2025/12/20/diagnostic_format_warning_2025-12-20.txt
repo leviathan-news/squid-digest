@@ -1,0 +1,35 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 322 chars. First 500 chars: No trading signals to generate. None of the tracked tokens have specific news catalysts in the provided headlines. The headlines discuss broader market themes (prediction markets, AI agents, institutional adoption, regulatory matters) but don't mention individual tokens from the tracked list with actionable news drivers.
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+No trading signals to generate. None of the tracked tokens have specific news catalysts in the provided headlines. The headlines discuss broader market themes (prediction markets, AI agents, institutional adoption, regulatory matters) but don't mention individual tokens from the tracked list with actionable news drivers.
+
+News items sent (10):
+[1] Why fixed-rate lending never took off in crypto. - https://leviathannews.xyz/redirect/22811?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] RSS3 Network announced launch of MCP server, enabling AI-assisted prediction markets and autonomous DeFi agents. Through providing AI agents with natural-language access to real-time off-chain, cross-chain, and social data, this release positions RSS3 as a foundational data layer for AI-assisted prediction markets, DeFi yield automation, and autonomous research agents. - https://leviathannews.xyz/redirect/22810?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Coinbase Institutional sees cautious optimism for 2026, with clearer regulation, deeper institutional adoption, evolving tokenomics, growth in privacy tech, AI-crypto use cases, prediction markets, and expanding stablecoin and tokenization activity. - https://leviathannews.xyz/redirect/22813?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Quant firms are already exploring prediction markets, despite messy blockchain data. Early research beats buying costly datasets later, as improved indexing tools emerge and major market makers quietly show growing crypto interest. - https://leviathannews.xyz/redirect/22796?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Address poisoning attacks exploit look-alike wallet addresses to trick users into misdirected transfers. Staying safe requires careful address verification, avoiding transaction-history copying, and using tools like whitelists, ENS, and hardware wallets. - https://leviathannews.xyz/redirect/22814?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Credifi aims to lower unsecured credit costs by using cryptography and DeFi to reduce verification, underwriting, and enforcement friction. By improving trust and information efficiency, it targets cheaper, more accessible credit beyond overcollateralized lending. - https://leviathannews.xyz/redirect/22797?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Pieverse launches Agentic Neobank to introduce auditable, agent-managed accounts at the center of Web3 finance. The platform is designed to let users deposit supported digital assets, delegate scoped permissions to an AI “account holder,” and generate compliance-ready records for every meaningful action the agent takes. - https://leviathannews.xyz/redirect/22808?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Leviathan Livestream: Llama Party feat. launch of RAAC (Real Asset Acquisition Corp) - https://leviathannews.xyz/redirect/22799?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] A coalition of 125 crypto and fintech groups urged Congress to reject expanding the GENIUS Act’s stablecoin yield ban, warning broader restrictions would limit consumer choice and entrench big banks. - https://leviathannews.xyz/redirect/22816?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] A Brooklyn man has been charged with stealing $16M in crypto from about 100 Coinbase users by impersonating support staff and using social engineering. Authorities seized some assets, set $500k bail, and continue recovery efforts. - https://leviathannews.xyz/redirect/22817?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 528 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 512 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 295 news articles (TVL: $100,000)
+$AAVE Aave - 258 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$XRP XRP - 74 news articles (TVL: $636,416,718)
+$SOL Solana - 68 news articles (TVL: $800,000,000,000)
+$BNB BNB - 62 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 62 news articles (TVL: $5,647,064)
+$TRX Tron - 52 new...
