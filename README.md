@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 20, 2025)
+## 📊 Latest News Headlines (December 21, 2025)
 
 ### 🔥 Top Headlines
-- **Why fixed-rate lending never took off in crypto.** [𝕏/@0xPrince](https://leviathannews.xyz/redirect/22811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RSS3 Network announced launch of MCP server, enabling AI-assisted prediction markets and autonomous DeFi agents. Through providing AI agents with natural-language access to real-time off-chain, cross-chain, and social data, this release positions RSS3 as a foundational data layer for AI-assisted prediction markets, DeFi yield automation, and autonomous research agents.** [Coindesk](https://leviathannews.xyz/redirect/22810?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase Institutional sees cautious optimism for 2026, with clearer regulation, deeper institutional adoption, evolving tokenomics, growth in privacy tech, AI-crypto use cases, prediction markets, and expanding stablecoin and tokenization activity.** [𝕏/@CoinbaseInsto](https://leviathannews.xyz/redirect/22813?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Quant firms are already exploring prediction markets, despite messy blockchain data. Early research beats buying costly datasets later, as improved indexing tools emerge and major market makers quietly show growing crypto interest.** [𝕏/@wenkafka](https://leviathannews.xyz/redirect/22796?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Address poisoning attacks exploit look-alike wallet addresses to trick users into misdirected transfers. Staying safe requires careful address verification, avoiding transaction-history copying, and using tools like whitelists, ENS, and hardware wallets.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/22814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum’s ‘Glamsterdam’ upgrade aims to fix MEV fairness. Glamsterdam is a two simultaneous upgrades taking place on Ethereum’s two core layers. At the heart of the upgrade is ePBS and Block-level Access Lists. The full scope of the upgrade has not yet been finalized, but developers are targeting it to go live in 2026.** [Coindesk](https://leviathannews.xyz/redirect/22823?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sony files patent for AI-powered censorship tech to alter video game content as part of its push to future-proof PlayStation as it prepares for the next console generation Playstation 6 era. Sony’s approach could allow players to customize what they see and hear without developers creating separate game versions.** [Interestingengineering](https://leviathannews.xyz/redirect/22825?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A long-term view on finance concludes that real-world assets moving onchain is unavoidable. Tokenization is positioned as a structural shift in capital markets, not hype, driven by efficiency, access, and global liquidity.** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/22826?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto VCs are shifting toward FinTech-style investing as token-first exits fade, prioritizing real revenue, payments, trading, and compliance-driven models. Stablecoins and markets now anchor sustainable crypto businesses as fundamentals replace narrative-driven growth.** [𝕏/@0xshawnpang](https://leviathannews.xyz/redirect/22828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Publicly traded companies are rapidly accumulating Ethereum, with corporate ETH treasuries now holding over 5% of total supply. Leaders include BitMine, SharpLink, and Coinbase, signaling Ethereum’s growing role in institutional balance sheets.** [decrypt.co](https://leviathannews.xyz/redirect/22827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,169.87 (+11.70%) | [Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md)
-**Sell Strategy:** $7,459.49 (-25.41%) | [Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md)
+**Buy Strategy:** $11,022.05 (+10.22%) | [Full Analysis →](writeup/2025/12/21/signals_2025-12-21.md)
+**Sell Strategy:** $7,504.29 (-24.96%) | [Full Analysis →](writeup/2025/12/21/signals_2025-12-21.md)
 
-**GitHub:** 12-20-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-20-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-21-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-21-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

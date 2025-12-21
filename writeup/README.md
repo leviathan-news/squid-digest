@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 20, 2025)
+## 🔥 Latest Headlines (December 21, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/20/signals_2025-12-20.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/20/signals_2025-12-20.md)
+📊 [View Full Analysis →](writeup/2025/12/21/signals_2025-12-21.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/21/signals_2025-12-21.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 13 - Dec 20)
+### 📅 This Week (Dec 14 - Dec 21)
+
+[**Sunday, December 21, 2025**](writeup/2025/12/21/signals_2025-12-21.md)
 
 [**Saturday, December 20, 2025**](writeup/2025/12/20/signals_2025-12-20.md)
 
@@ -40,9 +42,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
-[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
+### 📅 Last Week (Dec 07 - Dec 13)
 
-### 📅 Last Week (Dec 06 - Dec 12)
+[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
 [**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
@@ -56,9 +58,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
 
-[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
+### 📅 Week of Nov 30 - Dec 06
 
-### 📅 Week of Nov 29 - Dec 05
+[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
@@ -76,10 +78,10 @@ Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent
 [**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
 Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 
+### 📅 Week of Nov 24 - Nov 29
+
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-### 📅 Week of Nov 23 - Nov 28
 
 [**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
 A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -95,9 +97,6 @@ Pangea report finds fxUSD peg held strong amidst a turbulent year [𝕏/@in_pang
 
 [**Monday, November 24, 2025**](writeup/2025/11/24/signals_2025-11-24.md)
 A fake delivery driver in San Francisco allegedly stole ~$11M in crypto after holding a resident at gunpoint and forcing them to surrender wallet credentials, Decrypt reports. [decrypt.co](https://leviathannews.xyz/redirect/21189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Sunday, November 23, 2025**](writeup/2025/11/23/signals_2025-11-23.md)
-SOL Strategies’ CEO warns that old-school crypto treasuries are dying out as staking ETFs and real on-chain businesses rewrite the rules—and he wants the firm to become the “Berkshire Hathaway of Solana.” [decrypt.co](https://leviathannews.xyz/redirect/21113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
