@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 21, 2025)
+## 📊 Latest News Headlines (December 22, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum’s ‘Glamsterdam’ upgrade aims to fix MEV fairness. Glamsterdam is a two simultaneous upgrades taking place on Ethereum’s two core layers. At the heart of the upgrade is ePBS and Block-level Access Lists. The full scope of the upgrade has not yet been finalized, but developers are targeting it to go live in 2026.** [Coindesk](https://leviathannews.xyz/redirect/22823?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sony files patent for AI-powered censorship tech to alter video game content as part of its push to future-proof PlayStation as it prepares for the next console generation Playstation 6 era. Sony’s approach could allow players to customize what they see and hear without developers creating separate game versions.** [Interestingengineering](https://leviathannews.xyz/redirect/22825?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A long-term view on finance concludes that real-world assets moving onchain is unavoidable. Tokenization is positioned as a structural shift in capital markets, not hype, driven by efficiency, access, and global liquidity.** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/22826?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto VCs are shifting toward FinTech-style investing as token-first exits fade, prioritizing real revenue, payments, trading, and compliance-driven models. Stablecoins and markets now anchor sustainable crypto businesses as fundamentals replace narrative-driven growth.** [𝕏/@0xshawnpang](https://leviathannews.xyz/redirect/22828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Publicly traded companies are rapidly accumulating Ethereum, with corporate ETH treasuries now holding over 5% of total supply. Leaders include BitMine, SharpLink, and Coinbase, signaling Ethereum’s growing role in institutional balance sheets.** [decrypt.co](https://leviathannews.xyz/redirect/22827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin said prediction markets feel healthier than traditional markets because they attach money to beliefs, enforce accountability, and use bounded prices that reduce hype, reflexivity, and pump-and-dump dynamics common in equities and social media.** [crypto.news](https://leviathannews.xyz/redirect/22838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Trying to rush a vote is disgraceful" - Ernesto from bgdlabs says he was not notified by Aave Labs before they've unilaterally submitted a proposal with his name on it, which if asked, he would not have approved. He adds that it's not in the ethos of DAO's governance to put up a Snapshot vote while the community is still trying to have an open discussion** [𝕏/@i](https://leviathannews.xyz/redirect/22841?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Feel good using Resupply? That’s by design** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/22840?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Picasso problem: Why the future of investing looks abstract, with Bitcoin as the epilogue.** [visserlabs.substack](https://leviathannews.xyz/redirect/22844?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DTCC received SEC approval to tokenize securities entitlements, not actual shares—modernizing settlement and collateral workflows while preserving intermediaries. True onchain ownership is emerging separately via direct-share models that place investors on issuer cap tables.** [𝕏/@chuk_xyz](https://leviathannews.xyz/redirect/22848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $11,022.05 (+10.22%) | [Full Analysis →](writeup/2025/12/21/signals_2025-12-21.md)
-**Sell Strategy:** $7,504.29 (-24.96%) | [Full Analysis →](writeup/2025/12/21/signals_2025-12-21.md)
+**Buy Strategy:** $10,854.43 (+8.54%) | [Full Analysis →](writeup/2025/12/22/signals_2025-12-22.md)
+**Sell Strategy:** $7,460.34 (-25.40%) | [Full Analysis →](writeup/2025/12/22/signals_2025-12-22.md)
 
-**GitHub:** 12-21-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-21-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-22-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-22-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
