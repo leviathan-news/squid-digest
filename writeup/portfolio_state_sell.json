@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 11118.062810558491,
+  "cash": 11113.346129853557,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0722130895730369,
+      "quantity": -0.03610654478651845,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -78,7 +78,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -44.161492981267095,
+      "quantity": -22.080746490633548,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -1592,6 +1592,30 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 2.6660705989381217,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-22T13:31:41.965455",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.03610654478651845,
+      "price": 0.02177783772273864,
+      "value": 0.0007863224730895938,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.0006167404622744516,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-22T13:31:41.965455",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 22.080746490633548,
+      "price": 0.21357495248010241,
+      "value": 4.715894382462248,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 1.2026365930360798,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1778,6 +1802,10 @@
     [
       "2025-12-21T13:24:31.882704",
       7504.28631930557
+    ],
+    [
+      "2025-12-22T13:31:41.965455",
+      7460.339484913762
     ]
   ],
   "strategy": "sell_the_news"
