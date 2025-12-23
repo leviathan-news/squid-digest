@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 22, 2025)
+## 📊 Latest News Headlines (December 23, 2025)
 
 ### 🔥 Top Headlines
-- **Vitalik Buterin said prediction markets feel healthier than traditional markets because they attach money to beliefs, enforce accountability, and use bounded prices that reduce hype, reflexivity, and pump-and-dump dynamics common in equities and social media.** [crypto.news](https://leviathannews.xyz/redirect/22838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Trying to rush a vote is disgraceful" - Ernesto from bgdlabs says he was not notified by Aave Labs before they've unilaterally submitted a proposal with his name on it, which if asked, he would not have approved. He adds that it's not in the ethos of DAO's governance to put up a Snapshot vote while the community is still trying to have an open discussion** [𝕏/@i](https://leviathannews.xyz/redirect/22841?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Feel good using Resupply? That’s by design** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/22840?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Picasso problem: Why the future of investing looks abstract, with Bitcoin as the epilogue.** [visserlabs.substack](https://leviathannews.xyz/redirect/22844?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DTCC received SEC approval to tokenize securities entitlements, not actual shares—modernizing settlement and collateral workflows while preserving intermediaries. True onchain ownership is emerging separately via direct-share models that place investors on issuer cap tables.** [𝕏/@chuk_xyz](https://leviathannews.xyz/redirect/22848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pangea releases their token pricing dataset and backtesting tool with Pay As You Go billing over x402, allowing users and agents to pay for on-chain data with USDC** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/22895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave Chan Initiative on "Why this proposal matters"** [aavechan.notion.site](https://leviathannews.xyz/redirect/22894?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LlamaRisk reflects on 2025 highlights and collaborations while looking forward to continued empowerment of protocols and users in 2026** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/22859?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **One-click DeFi vaults are emerging as crypto’s next mainstream product, packaging low-risk yield into simple, accessible savings tools aligned with Ethereum’s vision of everyday finance, as vault adoption and TVL grow rapidly across global markets.** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/22877?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Essential Security Tactics to Implement After the Bybit Hack** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/22858?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,854.43 (+8.54%) | [Full Analysis →](writeup/2025/12/22/signals_2025-12-22.md)
-**Sell Strategy:** $7,460.34 (-25.40%) | [Full Analysis →](writeup/2025/12/22/signals_2025-12-22.md)
+**Buy Strategy:** $10,594.49 (+5.94%) | [Full Analysis →](writeup/2025/12/23/signals_2025-12-23.md)
+**Sell Strategy:** $7,562.97 (-24.37%) | [Full Analysis →](writeup/2025/12/23/signals_2025-12-23.md)
 
-**GitHub:** 12-22-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-22-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-23-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-23-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
