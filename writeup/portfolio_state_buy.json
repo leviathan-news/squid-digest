@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 2630.9893252350603,
+  "cash": 2679.123043014568,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 296.91780047362494,
+      "quantity": 148.45890023681247,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -1284,6 +1284,18 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 31.86762089953352,
       "entry_price": 0.23988384358877468
+    },
+    {
+      "date": "2025-12-23T13:32:58.277016",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 148.45890023681247,
+      "price": 0.32422251345475306,
+      "value": 48.13371777950777,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 12.52082617573874,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1474,6 +1486,10 @@
     [
       "2025-12-22T13:31:41.965455",
       10854.43373364359
+    ],
+    [
+      "2025-12-23T13:32:58.277016",
+      10594.488874785373
     ]
   ],
   "strategy": "buy_the_news"
