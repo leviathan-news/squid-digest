@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 23, 2025)
+## 📊 Latest News Headlines (December 24, 2025)
 
 ### 🔥 Top Headlines
-- **Pangea releases their token pricing dataset and backtesting tool with Pay As You Go billing over x402, allowing users and agents to pay for on-chain data with USDC** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/22895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave Chan Initiative on "Why this proposal matters"** [aavechan.notion.site](https://leviathannews.xyz/redirect/22894?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LlamaRisk reflects on 2025 highlights and collaborations while looking forward to continued empowerment of protocols and users in 2026** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/22859?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **One-click DeFi vaults are emerging as crypto’s next mainstream product, packaging low-risk yield into simple, accessible savings tools aligned with Ethereum’s vision of everyday finance, as vault adoption and TVL grow rapidly across global markets.** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/22877?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Essential Security Tactics to Implement After the Bybit Hack** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/22858?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The research paradox in prediction markets.** [𝕏/@polyfactual](https://leviathannews.xyz/redirect/22904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum completed its transition from experiment to global infrastructure in 2025, marked by major protocol upgrades, regulatory clarity, institutional adoption, booming L2 ecosystems, and growing use across finance, AI, privacy, and real-world assets.** [𝕏/@renaissancing_](https://leviathannews.xyz/redirect/22899?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cap reaches $400M in TVL on Ethereum** [𝕏/@capmoney_](https://leviathannews.xyz/redirect/22906?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Internet has no CEO. Infrastructure nobody owns beats infrastructure somebody owns. Every time. For fifty years, the internet proved this for information. Now the same model is coming for everything else.** [𝕏/@Snapcrackle](https://leviathannews.xyz/redirect/22905?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Steam, steel, and infinite mind: Every era is shaped by its miracle material. Steel forged the Gilded Age. Semiconductors switched on the Digital Age. Now AI has arrived as infinite minds. If history teaches us anything, those who master the material define the era.** [𝕏/@ivanhzhao](https://leviathannews.xyz/redirect/22903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,594.49 (+5.94%) | [Full Analysis →](writeup/2025/12/23/signals_2025-12-23.md)
-**Sell Strategy:** $7,562.97 (-24.37%) | [Full Analysis →](writeup/2025/12/23/signals_2025-12-23.md)
+**Buy Strategy:** $10,526.71 (+5.27%) | [Full Analysis →](writeup/2025/12/24/signals_2025-12-24.md)
+**Sell Strategy:** $7,581.85 (-24.18%) | [Full Analysis →](writeup/2025/12/24/signals_2025-12-24.md)
 
-**GitHub:** 12-23-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-23-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-24-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-24-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
