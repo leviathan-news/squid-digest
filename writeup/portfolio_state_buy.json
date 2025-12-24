@@ -1,13 +1,13 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 2679.123043014568,
+  "cash": 859.7634250930714,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 18.129861068022436,
-      "entry_price": 172.04132892646413,
+      "quantity": 21.672646923085637,
+      "entry_price": 168.2037574995971,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 148.45890023681247,
+      "quantity": 74.22945011840623,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -62,8 +62,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.36089524051805405,
-      "entry_price": 3133.6840182951996,
+      "quantity": 0.7202845312788662,
+      "entry_price": 3031.5827492142894,
       "entry_date": "2025-12-09T00:00:00",
       "entry_signal": "STRONG BUY"
     },
@@ -129,6 +129,14 @@
       "quantity": 47.65892174909271,
       "entry_price": 5.859277934185811,
       "entry_date": "2025-12-20T00:00:00",
+      "entry_signal": "WEAK BUY"
+    },
+    "KDK": {
+      "symbol": "KDK",
+      "token_name": "Kodiak Finance",
+      "quantity": 702.988861756548,
+      "entry_price": 0.3743553309757962,
+      "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK BUY"
     }
   },
@@ -1296,6 +1304,54 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 12.52082617573874,
       "entry_price": 0.23988384358877468
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.35938929076081216,
+      "price": 2929.0536449548154,
+      "value": 1052.6705120606828,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 3.5427858550632014,
+      "price": 148.56536001974976,
+      "value": 526.3352560303415,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "KDK",
+      "token_name": "Kodiak Finance",
+      "action": "BUY",
+      "quantity": 702.988861756548,
+      "price": 0.3743553309757962,
+      "value": 263.16762801517075,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T13:28:57.300603",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 74.22945011840623,
+      "price": 0.3073413335045245,
+      "value": 22.81377818469856,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 5.007332382814045,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1490,6 +1546,10 @@
     [
       "2025-12-23T13:32:58.277016",
       10594.488874785373
+    ],
+    [
+      "2025-12-24T13:28:57.300603",
+      10526.70512060683
     ]
   ],
   "strategy": "buy_the_news"

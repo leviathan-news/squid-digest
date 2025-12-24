@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 11111.159857963761,
+  "cash": 12436.887781517635,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.018053272393259226,
+      "quantity": -0.009026636196629613,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -62,8 +62,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": -0.24693363425854944,
-      "entry_price": 3133.6840182951996,
+      "quantity": -0.5057834270306635,
+      "entry_price": 3028.9583058593366,
       "entry_date": "2025-12-09T00:00:00",
       "entry_signal": "STRONG SELL"
     },
@@ -78,7 +78,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -11.040373245316774,
+      "quantity": -5.520186622658387,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -134,9 +134,17 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -3.0579024305217226,
-      "entry_price": 181.8498985092907,
+      "quantity": -5.609590552551545,
+      "entry_price": 166.7094420507753,
       "entry_date": "2025-12-17T00:00:00",
+      "entry_signal": "WEAK SELL"
+    },
+    "KDK": {
+      "symbol": "KDK",
+      "token_name": "Kodiak Finance",
+      "quantity": -506.3270549925596,
+      "entry_price": 0.3743553309757962,
+      "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK SELL"
     }
   },
@@ -1640,6 +1648,66 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.7733470824226152,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.25884979277211406,
+      "price": 2929.0536449548154,
+      "value": 758.1849290149594,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 2.551688122029822,
+      "price": 148.56536001974976,
+      "value": 379.0924645074797,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "symbol": "KDK",
+      "token_name": "Kodiak Finance",
+      "action": "SHORT",
+      "quantity": 506.3270549925596,
+      "price": 0.3743553309757962,
+      "value": 189.54623225373982,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-24T13:28:57.300603",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.009026636196629613,
+      "price": 0.020952643252185144,
+      "value": 0.00018913188799524164,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.0001616338458457697,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-24T13:28:57.300603",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 5.520186622658387,
+      "price": 0.19845580689598663,
+      "value": 1.0955130904161015,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.38411965345848054,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1834,6 +1902,10 @@
     [
       "2025-12-23T13:32:58.277016",
       7562.971451438185
+    ],
+    [
+      "2025-12-24T13:28:57.300603",
+      7581.849290149593
     ]
   ],
   "strategy": "sell_the_news"
