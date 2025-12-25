@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 12436.887781517635,
+  "cash": 12248.21139774739,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -30,7 +30,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.009026636196629613,
+      "quantity": -0.0045133180983148065,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -78,7 +78,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -5.520186622658387,
+      "quantity": -2.7600933113291934,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -146,6 +146,14 @@
       "entry_price": 0.3743553309757962,
       "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK SELL"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.0021515620640929598,
+      "entry_price": 87432.45775268343,
+      "entry_date": "2025-12-25T00:00:00",
+      "entry_signal": "WEAK BUY"
     }
   },
   "trades": [
@@ -1708,6 +1716,42 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.38411965345848054,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-25T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0021515620640929598,
+      "price": 87432.45775268343,
+      "value": 188.11635927108406,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-25T13:29:21.394899",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0045133180983148065,
+      "price": 0.02328822847679618,
+      "value": 0.00010510718306201446,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 7.027568385849121e-05,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-25T13:29:21.394899",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 2.7600933113291934,
+      "price": 0.202862486453032,
+      "value": 0.5599193919786227,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.17989697995866827,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1906,6 +1950,10 @@
     [
       "2025-12-24T13:28:57.300603",
       7581.849290149593
+    ],
+    [
+      "2025-12-25T13:29:21.394899",
+      7524.654370843362
     ]
   ],
   "strategy": "sell_the_news"
