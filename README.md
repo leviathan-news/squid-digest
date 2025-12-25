@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 24, 2025)
+## 📊 Latest News Headlines (December 25, 2025)
 
 ### 🔥 Top Headlines
-- **The research paradox in prediction markets.** [𝕏/@polyfactual](https://leviathannews.xyz/redirect/22904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum completed its transition from experiment to global infrastructure in 2025, marked by major protocol upgrades, regulatory clarity, institutional adoption, booming L2 ecosystems, and growing use across finance, AI, privacy, and real-world assets.** [𝕏/@renaissancing_](https://leviathannews.xyz/redirect/22899?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cap reaches $400M in TVL on Ethereum** [𝕏/@capmoney_](https://leviathannews.xyz/redirect/22906?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Internet has no CEO. Infrastructure nobody owns beats infrastructure somebody owns. Every time. For fifty years, the internet proved this for information. Now the same model is coming for everything else.** [𝕏/@Snapcrackle](https://leviathannews.xyz/redirect/22905?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Steam, steel, and infinite mind: Every era is shaped by its miracle material. Steel forged the Gilded Age. Semiconductors switched on the Digital Age. Now AI has arrived as infinite minds. If history teaches us anything, those who master the material define the era.** [𝕏/@ivanhzhao](https://leviathannews.xyz/redirect/22903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto gaming collapsed in 2025 as venture capital funding dried up, forcing many Web3 games to shut down, abandon communities, and wipe out token value, exposing weak incentives and unsustainable token-first models.** [decrypt.co](https://leviathannews.xyz/redirect/22946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pudgy Penguins successfully wrapped the Las Vegas Sphere with its cartoon characters by positioning the activation around physical products—merch, toys, and animations—rather than crypto, allowing it to bypass the venue’s strict crypto advertising rules that previously blocked Dogwifhat’s $700K community-led attempt.** [decrypt.co](https://leviathannews.xyz/redirect/22947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US lawmakers face a tight 2026 window to pass a sweeping crypto market structure bill, with advocacy groups estimating a 50–60% chance amid midterms, shutdown risks, agency turf wars, and unresolved issues around stablecoins, DeFi, and ethics.** [The Block](https://leviathannews.xyz/redirect/22948?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **2026 will be the year of innovation and mass adoption. This isn't just another cycle; it's an evolution. By solving the critical hurdles of complex user experience and lack of real-world utility, crypto is approaching its "broadband moment", the point where the technology becomes invisible, intuitive, and essential.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/22952?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ABN AMRO boosts digital innovation with MiCAR licence and Smart Derivatives.** [abnamro.de](https://leviathannews.xyz/redirect/22950?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,526.71 (+5.27%) | [Full Analysis →](writeup/2025/12/24/signals_2025-12-24.md)
-**Sell Strategy:** $7,581.85 (-24.18%) | [Full Analysis →](writeup/2025/12/24/signals_2025-12-24.md)
+**Buy Strategy:** $10,665.34 (+6.65%) | [Full Analysis →](writeup/2025/12/25/signals_2025-12-25.md)
+**Sell Strategy:** $7,524.65 (-24.75%) | [Full Analysis →](writeup/2025/12/25/signals_2025-12-25.md)
 
-**GitHub:** 12-24-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-24-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-25-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-25-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
