@@ -1,23 +1,15 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 12248.21139774739,
+  "cash": 14518.907425600919,
   "positions": {
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": -2160.1861316491295,
-      "entry_price": 0.41372814927975027,
+      "quantity": -3095.5708839317253,
+      "entry_price": 0.4093597783482265,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK SELL"
-    },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": 14468.185885582008,
-      "entry_price": 0.14394011591277503,
-      "entry_date": "2025-11-22T00:00:00",
-      "entry_signal": "STRONG BUY"
     },
     "UNI": {
       "symbol": "UNI",
@@ -30,7 +22,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0045133180983148065,
+      "quantity": -0.0022566590491574032,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -54,8 +46,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -0.20615245286184067,
-      "entry_price": 903.1545256134978,
+      "quantity": -0.42800045285297084,
+      "entry_price": 871.3161833426196,
       "entry_date": "2025-12-03T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -78,7 +70,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -2.7600933113291934,
+      "quantity": -1.3800466556645967,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -123,14 +115,6 @@
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "BUY"
     },
-    "OP": {
-      "symbol": "OP",
-      "token_name": "Optimism",
-      "quantity": -1240.5223667204427,
-      "entry_price": 0.29319664281828917,
-      "entry_date": "2025-12-16T00:00:00",
-      "entry_signal": "SELL"
-    },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
@@ -147,12 +131,12 @@
       "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK SELL"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.0021515620640929598,
-      "entry_price": 87432.45775268343,
-      "entry_date": "2025-12-25T00:00:00",
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": 971.9464348169221,
+      "entry_price": 0.19212602010875499,
+      "entry_date": "2025-12-26T00:00:00",
       "entry_signal": "WEAK BUY"
     }
   },
@@ -1752,6 +1736,102 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.17989697995866827,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.0021515620640929598,
+      "price": 88726.30690040621,
+      "value": 190.9001560139834,
+      "signal_type": "WEAK SELL",
+      "pnl": 2.783796742899341,
+      "entry_price": 87432.45775268343
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "SHORT",
+      "quantity": 935.3847522825959,
+      "price": 0.39927142242714786,
+      "value": 373.4724005605374,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.22184799999113017,
+      "price": 841.7303752467216,
+      "value": 186.7362002802687,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SELL",
+      "quantity": 14468.185885582008,
+      "price": 0.14108009708839678,
+      "value": 2041.1730694308817,
+      "signal_type": "SELL",
+      "pnl": -41.379283987368126,
+      "entry_price": 0.14394011591277503
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 971.9464348169221,
+      "price": 0.19212602010875499,
+      "value": 186.7362002802687,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "COVER",
+      "quantity": 1240.5223667204427,
+      "price": 0.2696902347367605,
+      "value": 334.5567682770379,
+      "signal_type": "WEAK BUY",
+      "pnl": 29.16022498639444,
+      "entry_price": 0.29319664281828917
+    },
+    {
+      "date": "2025-12-26T13:29:39.131313",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0022566590491574032,
+      "price": 0.024891247904899345,
+      "value": 5.617105982941136e-05,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 3.152037363084148e-05,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-26T13:29:39.131313",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 1.3800466556645967,
+      "price": 0.21214768542132084,
+      "value": 0.29277370377267875,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.07713448219596675,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -1954,6 +2034,10 @@
     [
       "2025-12-25T13:29:21.394899",
       7524.654370843362
+    ],
+    [
+      "2025-12-26T13:29:39.131313",
+      7469.448011210744
     ]
   ],
   "strategy": "sell_the_news"

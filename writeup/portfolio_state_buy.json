@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 1138.421624181212,
+  "cash": 629.2940952415686,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -14,8 +14,8 @@
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": 2584.45560827419,
-      "entry_price": 0.4115217882029065,
+      "quantity": 3943.447021788385,
+      "entry_price": 0.4073000649720175,
       "entry_date": "2025-11-19T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -46,8 +46,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 0.3175107389035379,
-      "entry_price": 903.1545256134978,
+      "quantity": 0.6398267979984994,
+      "entry_price": 872.2117921403022,
       "entry_date": "2025-12-03T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -115,14 +115,6 @@
       "entry_date": "2025-12-13T00:00:00",
       "entry_signal": "SELL"
     },
-    "OP": {
-      "symbol": "OP",
-      "token_name": "Optimism",
-      "quantity": 1962.3736958349873,
-      "entry_price": 0.29319664281828917,
-      "entry_date": "2025-12-16T00:00:00",
-      "entry_signal": "BUY"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -138,14 +130,6 @@
       "entry_price": 0.3743553309757962,
       "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK BUY"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.0030495944873143617,
-      "entry_price": 87432.45775268343,
-      "entry_date": "2025-12-25T00:00:00",
-      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -1384,6 +1368,54 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 3.1214350122692895,
       "entry_price": 0.23988384358877468
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.0030495944873143617,
+      "price": 88726.30690040621,
+      "value": 270.579256403241,
+      "signal_type": "WEAK BUY",
+      "pnl": -3.9457152283117694,
+      "entry_price": 87432.45775268343
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 1358.9914135141948,
+      "price": 0.39927142242714786,
+      "value": 542.6064347400928,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.32231605909496147,
+      "price": 841.7303752467216,
+      "value": 271.3032173700464,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SELL",
+      "quantity": 1962.3736958349873,
+      "price": 0.29319664281828917,
+      "value": 575.3613795737368,
+      "signal_type": "WEAK SELL",
+      "pnl": 0.0,
+      "entry_price": 0.29319664281828917
     }
   ],
   "daily_values": [
@@ -1586,6 +1618,10 @@
     [
       "2025-12-25T13:29:21.394899",
       10665.341646997169
+    ],
+    [
+      "2025-12-26T13:29:39.131313",
+      10852.128694801857
     ]
   ],
   "strategy": "buy_the_news"

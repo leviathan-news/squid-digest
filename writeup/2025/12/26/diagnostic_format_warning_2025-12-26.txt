@@ -1,0 +1,38 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1079 chars. First 500 chars: I notice the search results provided contain general market updates and price movements, but no specific news catalysts tied to tracked tokens. According to the data[1], the cryptocurrency market cap stands at $2.95T (up 0.21% in 24 hours), with Bitcoin trading at $87,490. Mixed performance across major tokens includes **ETH** (+0.18%), **BNB** (+0.50%), **XRP** (+0.58%), and **SOL** (+0.43%), while **TRX** (-1.45%) and **DOGE** (-0.05%) showed weakness.
+
+The broader context includes regulatory 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I notice the search results provided contain general market updates and price movements, but no specific news catalysts tied to tracked tokens. According to the data[1], the cryptocurrency market cap stands at $2.95T (up 0.21% in 24 hours), with Bitcoin trading at $87,490. Mixed performance across major tokens includes **ETH** (+0.18%), **BNB** (+0.50%), **XRP** (+0.58%), and **SOL** (+0.43%), while **TRX** (-1.45%) and **DOGE** (-0.05%) showed weakness.
+
+The broader context includes regulatory developments (Hong Kong's digital asset trading legislation), macroeconomic factors (Federal Reserve rate cut expectations), and technical analysis suggesting Bitcoin may need to build support below $80,000[2].
+
+However, these search results lack the specific news-driven catalysts needed to generate actionable trading signals. To provide meaningful trading signals, I would need headlines tied to protocol updates, partnerships, security issues, regulatory actions, or other material developments affecting individual tokens—rather than general market movements and price data.
+
+News items sent (7):
+[1] Tether froze about $3.3B across 7,268 addresses between 2023–2025, far exceeding Circle’s $109M, highlighting contrasting stablecoin enforcement models as issuers respond to scams, investigations, and regulatory pressure. - https://leviathannews.xyz/redirect/22961?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] "Merry Yieldmas" from Curve Finance! - https://leviathannews.xyz/redirect/22953?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Layer 1 and Layer 2 tokens struggled in 2025 as users consolidated, MAUs fell, and revenues flowed to stablecoins and derivatives. Weak tokenomics and poor value capture left undifferentiated chains under pressure heading into 2026. - https://leviathannews.xyz/redirect/22959?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] India’s Enforcement Directorate raided 21 locations linked to 4th Bloc Consultants, alleging a decade-long crypto Ponzi that used fake exchange platforms, MLM-style referrals, and money laundering via wallets, shell firms, hawala networks, and foreign accounts. - https://leviathannews.xyz/redirect/22960?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Stablecoin supply climbed past $314B in 2025, but usage told a different story as Tether led transaction activity, followed by RLUSD and USDC, while the Trump-backed USD1 surged into the top tier months after launch. - https://leviathannews.xyz/redirect/22969?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Trust Wallet confirmed a security incident affecting Chrome extension version 2.68 after reports of unauthorized withdrawals following a recent update, with over $6M drained so far; users are urged to disable and upgrade immediately. - https://leviathannews.xyz/redirect/22967?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Sberbank is considering launching crypto-collateralized lending as it works with regulators to expand digital asset services, building on its tokenization efforts ahead of Russia’s planned mid-2026 crypto regulatory framework. - https://leviathannews.xyz/redirect/22968?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 529 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 512 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 295 news articles (TVL: $100,000)
+$AAVE Aave - 261 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$XRP XRP - 74 news articles (TVL: $636,416,718)
+$SOL Solana - 68 news articles (TVL: $800,000,000,000)
+$BNB BNB - 62 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 62 news articles (TVL: $5,647,064)
+$TRX Tron - 53 new...
