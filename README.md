@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 25, 2025)
+## 📊 Latest News Headlines (December 26, 2025)
 
 ### 🔥 Top Headlines
-- **Crypto gaming collapsed in 2025 as venture capital funding dried up, forcing many Web3 games to shut down, abandon communities, and wipe out token value, exposing weak incentives and unsustainable token-first models.** [decrypt.co](https://leviathannews.xyz/redirect/22946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pudgy Penguins successfully wrapped the Las Vegas Sphere with its cartoon characters by positioning the activation around physical products—merch, toys, and animations—rather than crypto, allowing it to bypass the venue’s strict crypto advertising rules that previously blocked Dogwifhat’s $700K community-led attempt.** [decrypt.co](https://leviathannews.xyz/redirect/22947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **US lawmakers face a tight 2026 window to pass a sweeping crypto market structure bill, with advocacy groups estimating a 50–60% chance amid midterms, shutdown risks, agency turf wars, and unresolved issues around stablecoins, DeFi, and ethics.** [The Block](https://leviathannews.xyz/redirect/22948?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **2026 will be the year of innovation and mass adoption. This isn't just another cycle; it's an evolution. By solving the critical hurdles of complex user experience and lack of real-world utility, crypto is approaching its "broadband moment", the point where the technology becomes invisible, intuitive, and essential.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/22952?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ABN AMRO boosts digital innovation with MiCAR licence and Smart Derivatives.** [abnamro.de](https://leviathannews.xyz/redirect/22950?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether froze about $3.3B across 7,268 addresses between 2023–2025, far exceeding Circle’s $109M, highlighting contrasting stablecoin enforcement models as issuers respond to scams, investigations, and regulatory pressure.** [crypto.news](https://leviathannews.xyz/redirect/22961?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Merry Yieldmas" from Curve Finance!** [news.curve.finance](https://leviathannews.xyz/redirect/22953?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Layer 1 and Layer 2 tokens struggled in 2025 as users consolidated, MAUs fell, and revenues flowed to stablecoins and derivatives. Weak tokenomics and poor value capture left undifferentiated chains under pressure heading into 2026.** [crypto.news](https://leviathannews.xyz/redirect/22959?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **India’s Enforcement Directorate raided 21 locations linked to 4th Bloc Consultants, alleging a decade-long crypto Ponzi that used fake exchange platforms, MLM-style referrals, and money laundering via wallets, shell firms, hawala networks, and foreign accounts.** [crypto.news](https://leviathannews.xyz/redirect/22960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoin supply climbed past $314B in 2025, but usage told a different story as Tether led transaction activity, followed by RLUSD and USDC, while the Trump-backed USD1 surged into the top tier months after launch.** [decrypt.co](https://leviathannews.xyz/redirect/22969?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,665.34 (+6.65%) | [Full Analysis →](writeup/2025/12/25/signals_2025-12-25.md)
-**Sell Strategy:** $7,524.65 (-24.75%) | [Full Analysis →](writeup/2025/12/25/signals_2025-12-25.md)
+**Buy Strategy:** $10,852.13 (+8.52%) | [Full Analysis →](writeup/2025/12/26/signals_2025-12-26.md)
+**Sell Strategy:** $7,469.45 (-25.31%) | [Full Analysis →](writeup/2025/12/26/signals_2025-12-26.md)
 
-**GitHub:** 12-25-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-25-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-26-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-26-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

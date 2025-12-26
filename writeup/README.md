@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 25, 2025)
+## 🔥 Latest Headlines (December 26, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/25/signals_2025-12-25.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/25/signals_2025-12-25.md)
+📊 [View Full Analysis →](writeup/2025/12/26/signals_2025-12-26.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/26/signals_2025-12-26.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 18 - Dec 25)
+### 📅 This Week (Dec 19 - Dec 26)
+
+[**Friday, December 26, 2025**](writeup/2025/12/26/signals_2025-12-26.md)
 
 [**Thursday, December 25, 2025**](writeup/2025/12/25/signals_2025-12-25.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, December 19, 2025**](writeup/2025/12/19/signals_2025-12-19.md)
 
-[**Thursday, December 18, 2025**](writeup/2025/12/18/signals_2025-12-18.md)
+### 📅 Last Week (Dec 12 - Dec 18)
 
-### 📅 Last Week (Dec 11 - Dec 17)
+[**Thursday, December 18, 2025**](writeup/2025/12/18/signals_2025-12-18.md)
 
 [**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
 
@@ -56,9 +58,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
-[**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
+### 📅 Week of Dec 05 - Dec 11
 
-### 📅 Week of Dec 04 - Dec 10
+[**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
 
 [**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
-[**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
+### 📅 Week of Nov 29 - Dec 04
 
-### 📅 Week of Nov 28 - Dec 03
+[**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 
 [**Wednesday, December 03, 2025**](writeup/2025/12/03/signals_2025-12-03.md)
 Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market. [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
@@ -90,9 +92,6 @@ Meet the billion-dollar crypto founder who started trading at 9 years old. Denis
 
 [**Saturday, November 29, 2025**](writeup/2025/11/29/signals_2025-11-29.md)
 Ethereum's upgrade 'Fusaka' is going live December 3rd [𝕏/@ethereum](https://leviathannews.xyz/redirect/21454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Friday, November 28, 2025**](writeup/2025/11/28/signals_2025-11-28.md)
-A malicious Chrome extension is secretly draining Solana traders by adding hidden fees to every swap. Users approve normal-looking transactions while attackers quietly siphon 0.05% into their own wallet. [Cryptonews](https://leviathannews.xyz/redirect/21415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
