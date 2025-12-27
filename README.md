@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 26, 2025)
+## 📊 Latest News Headlines (December 27, 2025)
 
 ### 🔥 Top Headlines
-- **Tether froze about $3.3B across 7,268 addresses between 2023–2025, far exceeding Circle’s $109M, highlighting contrasting stablecoin enforcement models as issuers respond to scams, investigations, and regulatory pressure.** [crypto.news](https://leviathannews.xyz/redirect/22961?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Merry Yieldmas" from Curve Finance!** [news.curve.finance](https://leviathannews.xyz/redirect/22953?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Layer 1 and Layer 2 tokens struggled in 2025 as users consolidated, MAUs fell, and revenues flowed to stablecoins and derivatives. Weak tokenomics and poor value capture left undifferentiated chains under pressure heading into 2026.** [crypto.news](https://leviathannews.xyz/redirect/22959?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **India’s Enforcement Directorate raided 21 locations linked to 4th Bloc Consultants, alleging a decade-long crypto Ponzi that used fake exchange platforms, MLM-style referrals, and money laundering via wallets, shell firms, hawala networks, and foreign accounts.** [crypto.news](https://leviathannews.xyz/redirect/22960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stablecoin supply climbed past $314B in 2025, but usage told a different story as Tether led transaction activity, followed by RLUSD and USDC, while the Trump-backed USD1 surged into the top tier months after launch.** [decrypt.co](https://leviathannews.xyz/redirect/22969?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan Livestream: Llama Party Christmas Special "HEROES OF AIRULE"** [Youtube](https://leviathannews.xyz/redirect/22971?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI crypto tokens crashed ~75% in 2025, erasing $53B in value. Losses accelerated in Q4 as hype faded, liquidity thinned, and investors rotated out, with December alone wiping nearly $10B.** [Cryptonews](https://leviathannews.xyz/redirect/22979?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Japan’s ruling coalition unveiled a 2026 tax reform blueprint proposing to classify crypto as a financial product, consider separate taxation for trading gains, and allow limited loss carryforwards, signaling a shift from purely speculative treatment.** [Cryptonews](https://leviathannews.xyz/redirect/22980?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Russia's Central Bank has proposed a framework that would legalise and regulate cryptocurrency trading, amid years of informal adoption.** [Paragraph](https://leviathannews.xyz/redirect/22973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi will win. Aave snapshot vote is now closed.** [𝕏/@Marczeller](https://leviathannews.xyz/redirect/22978?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,852.13 (+8.52%) | [Full Analysis →](writeup/2025/12/26/signals_2025-12-26.md)
-**Sell Strategy:** $7,469.45 (-25.31%) | [Full Analysis →](writeup/2025/12/26/signals_2025-12-26.md)
+**Buy Strategy:** $10,822.21 (+8.22%) | [Full Analysis →](writeup/2025/12/27/signals_2025-12-27.md)
+**Sell Strategy:** $7,503.04 (-24.97%) | [Full Analysis →](writeup/2025/12/27/signals_2025-12-27.md)
 
-**GitHub:** 12-26-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-26-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-27-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-27-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
