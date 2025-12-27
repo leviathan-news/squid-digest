@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 14518.907425600919,
+  "cash": 14759.246418966066,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -13,16 +13,16 @@
     },
     "UNI": {
       "symbol": "UNI",
-      "token_name": "UNI",
-      "quantity": -33.28449901977571,
-      "entry_price": 6.251774608838872,
+      "token_name": "Uniswap",
+      "quantity": -96.66652337293125,
+      "entry_price": 6.033518616476647,
       "entry_date": "2025-11-23T00:00:00",
       "entry_signal": "SELL"
     },
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0022566590491574032,
+      "quantity": -0.0011283295245787016,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -70,18 +70,10 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -1.3800466556645967,
+      "quantity": -0.6900233278322984,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
-    },
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": -377.76238373466646,
-      "entry_price": 2.011772273576973,
-      "entry_date": "2025-12-11T00:00:00",
-      "entry_signal": "STRONG SELL"
     },
     "AVAX": {
       "symbol": "AVAX",
@@ -102,8 +94,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -5.267925097067348,
-      "entry_price": 135.0803211632621,
+      "quantity": -8.318792726172234,
+      "entry_price": 130.63735715853267,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "SELL"
     },
@@ -118,8 +110,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -5.609590552551545,
-      "entry_price": 166.7094420507753,
+      "quantity": -6.812632368737045,
+      "entry_price": 164.80380734499516,
       "entry_date": "2025-12-17T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -1832,6 +1824,78 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.07713448219596675,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "SHORT",
+      "quantity": 63.38202435315554,
+      "price": 5.918903448564627,
+      "value": 375.1520825208995,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 3.0508676291048866,
+      "price": 122.96570291742472,
+      "value": 375.1520825208994,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.2030418161855005,
+      "price": 155.91813911772357,
+      "value": 187.5760412604497,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "COVER",
+      "quantity": 377.76238373466646,
+      "price": 1.8461227171696295,
+      "value": 697.3957183047187,
+      "signal_type": "WEAK BUY",
+      "pnl": 62.57617129302821,
+      "entry_price": 2.011772273576973
+    },
+    {
+      "date": "2025-12-27T13:25:23.150854",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0011283295245787016,
+      "price": 0.022538709160499777,
+      "value": 2.5431090991684342e-05,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 1.8414625738442076e-05,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-27T13:25:23.150854",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 0.6900233278322984,
+      "price": 0.21081780198528227,
+      "value": 0.145469201292175,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.03948489169214775,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -2038,6 +2102,10 @@
     [
       "2025-12-26T13:29:39.131313",
       7469.448011210744
+    ],
+    [
+      "2025-12-27T13:25:23.150854",
+      7503.041650417988
     ]
   ],
   "strategy": "sell_the_news"

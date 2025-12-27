@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 629.2940952415686,
+  "cash": 1059.5517553730817,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 37.11472505920312,
+      "quantity": 18.55736252960156,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -75,14 +75,6 @@
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "BUY"
     },
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": 570.5208197702622,
-      "entry_price": 2.011772273576973,
-      "entry_date": "2025-12-11T00:00:00",
-      "entry_signal": "STRONG BUY"
-    },
     "AVAX": {
       "symbol": "AVAX",
       "token_name": "Avalanche",
@@ -102,8 +94,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 5.093351286203734,
-      "entry_price": 132.11655032394168,
+      "quantity": 5.810491484106513,
+      "entry_price": 130.98713802929535,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "BUY"
     },
@@ -117,9 +109,9 @@
     },
     "UNI": {
       "symbol": "UNI",
-      "token_name": "UNI",
-      "quantity": 47.65892174909271,
-      "entry_price": 5.859277934185811,
+      "token_name": "Uniswap",
+      "quantity": 139.07964712810445,
+      "entry_price": 5.898471359594686,
       "entry_date": "2025-12-20T00:00:00",
       "entry_signal": "WEAK BUY"
     },
@@ -1416,6 +1408,54 @@
       "signal_type": "WEAK SELL",
       "pnl": 0.0,
       "entry_price": 0.29319664281828917
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "BUY",
+      "quantity": 91.42072537901174,
+      "price": 5.918903448564627,
+      "value": 541.1104467161123,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 0.717140197902779,
+      "price": 122.96570291742472,
+      "value": 88.1836485254563,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SELL",
+      "quantity": 570.5208197702622,
+      "price": 1.8461227171696295,
+      "value": 1053.2514459961208,
+      "signal_type": "WEAK SELL",
+      "pnl": -94.50652071609807,
+      "entry_price": 2.011772273576973
+    },
+    {
+      "date": "2025-12-27T13:25:23.150854",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 18.55736252960156,
+      "price": 0.33950456951579955,
+      "value": 6.300309376961006,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 1.8486979264898773,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1622,6 +1662,10 @@
     [
       "2025-12-26T13:29:39.131313",
       10852.128694801857
+    ],
+    [
+      "2025-12-27T13:25:23.150854",
+      10822.208934322245
     ]
   ],
   "strategy": "buy_the_news"
