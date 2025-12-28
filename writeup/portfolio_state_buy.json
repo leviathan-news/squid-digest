@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 1059.5517553730817,
+  "cash": 550.9111244535409,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 18.55736252960156,
+      "quantity": 9.27868126480078,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -94,8 +94,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 5.810491484106513,
-      "entry_price": 130.98713802929535,
+      "quantity": 9.923116155250458,
+      "entry_price": 128.2653473166877,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "BUY"
     },
@@ -122,6 +122,30 @@
       "entry_price": 0.3743553309757962,
       "entry_date": "2025-12-24T00:00:00",
       "entry_signal": "WEAK BUY"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": 293.43994026624256,
+      "entry_price": 1.867024184934303,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "BUY"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.0031189422000049826,
+      "entry_price": 87827.76822569473,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "WEAK SELL"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": -963.4827849425443,
+      "entry_price": 0.28431201567105463,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -1456,6 +1480,66 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 1.8486979264898773,
       "entry_price": 0.23988384358877468
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 293.43994026624256,
+      "price": 1.867024184934303,
+      "value": 547.859465302752,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.112624671143945,
+      "price": 124.41988534976137,
+      "value": 511.6922900703297,
+      "signal_type": "BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0031189422000049826,
+      "price": 87827.76822569473,
+      "value": 273.929732651376,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 963.4827849425443,
+      "price": 0.28431201567105463,
+      "value": 273.929732651376,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T13:26:22.804824",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 9.27868126480078,
+      "price": 0.32888931774879493,
+      "value": 3.0516591507888537,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.8258534255532894,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1666,6 +1750,10 @@
     [
       "2025-12-27T13:25:23.150854",
       10822.208934322245
+    ],
+    [
+      "2025-12-28T13:26:22.804824",
+      10957.189306055043
     ]
   ],
   "strategy": "buy_the_news"

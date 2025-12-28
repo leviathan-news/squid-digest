@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 14759.246418966066,
+  "cash": 15628.228827755156,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -22,7 +22,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0011283295245787016,
+      "quantity": -0.0005641647622893508,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -70,7 +70,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -0.6900233278322984,
+      "quantity": -0.3450116639161492,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -94,18 +94,10 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -8.318792726172234,
-      "entry_price": 130.63735715853267,
+      "quantity": -11.280460347857911,
+      "entry_price": 129.00496943879938,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "SELL"
-    },
-    "DOGE": {
-      "symbol": "DOGE",
-      "token_name": "Dogecoin",
-      "quantity": 2551.5733656696675,
-      "entry_price": 0.1392850701144044,
-      "entry_date": "2025-12-13T00:00:00",
-      "entry_signal": "BUY"
     },
     "AAVE": {
       "symbol": "AAVE",
@@ -129,6 +121,38 @@
       "quantity": 971.9464348169221,
       "entry_price": 0.19212602010875499,
       "entry_date": "2025-12-26T00:00:00",
+      "entry_signal": "WEAK BUY"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": -197.3677410864385,
+      "entry_price": 1.867024184934303,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "SELL"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": -1264.2648375780707,
+      "entry_price": 0.1457330517236178,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "WEAK SELL"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.0020978009197917184,
+      "entry_price": 87827.76822569473,
+      "entry_date": "2025-12-28T00:00:00",
+      "entry_signal": "WEAK BUY"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": 648.0386435031488,
+      "entry_price": 0.28431201567105463,
+      "entry_date": "2025-12-28T00:00:00",
       "entry_signal": "WEAK BUY"
     }
   },
@@ -1896,6 +1920,102 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.03948489169214775,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 197.3677410864385,
+      "price": 1.867024184934303,
+      "value": 368.49034593423244,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.961667621685678,
+      "price": 124.41988534976137,
+      "value": 368.4903459342325,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SELL",
+      "quantity": 2551.5733656696675,
+      "price": 0.12397038748025789,
+      "value": 316.3195388263744,
+      "signal_type": "WEAK SELL",
+      "pnl": -39.07653631297205,
+      "entry_price": 0.1392850701144044
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 1264.2648375780707,
+      "price": 0.1457330517236178,
+      "value": 184.24517296711625,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0020978009197917184,
+      "price": 87827.76822569473,
+      "value": 184.24517296711625,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 648.0386435031488,
+      "price": 0.28431201567105463,
+      "value": 184.24517296711625,
+      "signal_type": "WEAK BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-28T13:26:22.804824",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0005641647622893508,
+      "price": 0.022061611857388856,
+      "value": 1.2446384009243707e-05,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 9.476474355819502e-06,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-28T13:26:22.804824",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 0.3450116639161492,
+      "price": 0.21053343943678984,
+      "value": 0.07263649225007668,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.019840554242084696,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -2106,6 +2226,10 @@
     [
       "2025-12-27T13:25:23.150854",
       7503.041650417988
+    ],
+    [
+      "2025-12-28T13:26:22.804824",
+      7369.80691868465
     ]
   ],
   "strategy": "sell_the_news"
