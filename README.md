@@ -8,21 +8,18 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 27, 2025)
+## 📊 Latest News Headlines (December 28, 2025)
 
 ### 🔥 Top Headlines
-- **Leviathan Livestream: Llama Party Christmas Special "HEROES OF AIRULE"** [Youtube](https://leviathannews.xyz/redirect/22971?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI crypto tokens crashed ~75% in 2025, erasing $53B in value. Losses accelerated in Q4 as hype faded, liquidity thinned, and investors rotated out, with December alone wiping nearly $10B.** [Cryptonews](https://leviathannews.xyz/redirect/22979?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Japan’s ruling coalition unveiled a 2026 tax reform blueprint proposing to classify crypto as a financial product, consider separate taxation for trading gains, and allow limited loss carryforwards, signaling a shift from purely speculative treatment.** [Cryptonews](https://leviathannews.xyz/redirect/22980?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Russia's Central Bank has proposed a framework that would legalise and regulate cryptocurrency trading, amid years of informal adoption.** [Paragraph](https://leviathannews.xyz/redirect/22973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi will win. Aave snapshot vote is now closed.** [𝕏/@Marczeller](https://leviathannews.xyz/redirect/22978?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum Foundation researcher Abbas Khan pens article: "Tom Lee's ETH Thesis is [REDACTED]"** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/22990?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump’s “pro-crypto” shift looks opportunistic, not ideological. Family-backed tokens, donor influence, selective regulation, and stablecoin laws mainly benefit insiders, prop up the dollar, and offer optics over substance—falling short of crypto’s libertarian goals.** [Paragraph](https://leviathannews.xyz/redirect/22991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,822.21 (+8.22%) | [Full Analysis →](writeup/2025/12/27/signals_2025-12-27.md)
-**Sell Strategy:** $7,503.04 (-24.97%) | [Full Analysis →](writeup/2025/12/27/signals_2025-12-27.md)
+**Buy Strategy:** $10,957.19 (+9.57%) | [Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md)
+**Sell Strategy:** $7,369.81 (-26.30%) | [Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md)
 
-**GitHub:** 12-27-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-27-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-28-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-28-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

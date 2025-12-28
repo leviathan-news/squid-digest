@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 27, 2025)
+## 🔥 Latest Headlines (December 28, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/27/signals_2025-12-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/27/signals_2025-12-27.md)
+📊 [View Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/28/signals_2025-12-28.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 20 - Dec 27)
+### 📅 This Week (Dec 21 - Dec 28)
+
+[**Sunday, December 28, 2025**](writeup/2025/12/28/signals_2025-12-28.md)
 
 [**Saturday, December 27, 2025**](writeup/2025/12/27/signals_2025-12-27.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 21, 2025**](writeup/2025/12/21/signals_2025-12-21.md)
 
-[**Saturday, December 20, 2025**](writeup/2025/12/20/signals_2025-12-20.md)
+### 📅 Last Week (Dec 14 - Dec 20)
 
-### 📅 Last Week (Dec 13 - Dec 19)
+[**Saturday, December 20, 2025**](writeup/2025/12/20/signals_2025-12-20.md)
 
 [**Friday, December 19, 2025**](writeup/2025/12/19/signals_2025-12-19.md)
 
@@ -56,9 +58,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
-[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
+### 📅 Week of Dec 07 - Dec 13
 
-### 📅 Week of Dec 06 - Dec 12
+[**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
 [**Friday, December 12, 2025**](writeup/2025/12/12/signals_2025-12-12.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
 
-[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
+### 📅 Week of Dec 01 - Dec 06
 
-### 📅 Week of Nov 30 - Dec 05
+[**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
@@ -88,9 +90,6 @@ OPEN Stablecoin Index opens discussions on improvements to the index methodology
 
 [**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
 Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Sunday, November 30, 2025**](writeup/2025/11/30/signals_2025-11-30.md)
-Meet the billion-dollar crypto founder who started trading at 9 years old. Denis Dariotis, the youthful founder and CEO of cryptocurrency-focused trading software firm GoQuant, talks about building a billion-dollar-a-day trading startup during his formative years. [archive.is](https://leviathannews.xyz/redirect/21467?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
