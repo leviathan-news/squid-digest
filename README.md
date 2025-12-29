@@ -8,18 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 28, 2025)
+## 📊 Latest News Headlines (December 29, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum Foundation researcher Abbas Khan pens article: "Tom Lee's ETH Thesis is [REDACTED]"** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/22990?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump’s “pro-crypto” shift looks opportunistic, not ideological. Family-backed tokens, donor influence, selective regulation, and stablecoin laws mainly benefit insiders, prop up the dollar, and offer optics over substance—falling short of crypto’s libertarian goals.** [Paragraph](https://leviathannews.xyz/redirect/22991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Flow blockchain, which brands itself the "Home of Consumer DeFi," takes heat over their decision to perform a rollback** [𝕏/@AlexSmirnov](https://leviathannews.xyz/redirect/22999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ERC-7540 introduces async vault operations, letting DeFi vaults handle non-instant strategies like RWAs, fixed-term yields, and cross-chain positions through request → wait → claim flows, unlocking new yield sources with 90%+ gas savings via batching.** [𝕏/@MeshClans](https://leviathannews.xyz/redirect/22997?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The prison of financial mediocrity. The easiest thing to sell to a crowd like this is "hope", and when you understand this, you will understand the rise of the casinos (in all forms, dexes, prediction markets, etc) and the rise of trading gurus, business gurus, courses, and of course, substacks.** [𝕏/@systematicls](https://leviathannews.xyz/redirect/23002?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mirae Asset Group pursues acquisition of fourth-largest crypto exchange Korbit. Transaction valued at 100-140 billion Korean won as details remain fluid. The deal would be led by Mirae Asset Consulting, a non-financial subsidiary, which has signed a memorandum of understanding with Korbit’s major shareholders.** [Chosun](https://leviathannews.xyz/redirect/23000?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ADI Chain partners with Fasset to enable regulated digital asset infrastructure in the UAE. This collaboration supports future Dirham-backed stablecoin use cases and broader adoption.** [Zawya](https://leviathannews.xyz/redirect/23001?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,957.19 (+9.57%) | [Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md)
-**Sell Strategy:** $7,369.81 (-26.30%) | [Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md)
+**Buy Strategy:** $10,810.94 (+8.11%) | [Full Analysis →](writeup/2025/12/29/signals_2025-12-29.md)
+**Sell Strategy:** $7,477.10 (-25.23%) | [Full Analysis →](writeup/2025/12/29/signals_2025-12-29.md)
 
-**GitHub:** 12-28-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-28-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-29-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-29-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

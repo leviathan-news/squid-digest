@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 28, 2025)
+## 🔥 Latest Headlines (December 29, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/28/signals_2025-12-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/28/signals_2025-12-28.md)
+📊 [View Full Analysis →](writeup/2025/12/29/signals_2025-12-29.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/29/signals_2025-12-29.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 21 - Dec 28)
+### 📅 This Week (Dec 22 - Dec 29)
+
+[**Monday, December 29, 2025**](writeup/2025/12/29/signals_2025-12-29.md)
 
 [**Sunday, December 28, 2025**](writeup/2025/12/28/signals_2025-12-28.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, December 22, 2025**](writeup/2025/12/22/signals_2025-12-22.md)
 
-[**Sunday, December 21, 2025**](writeup/2025/12/21/signals_2025-12-21.md)
+### 📅 Last Week (Dec 16 - Dec 21)
 
-### 📅 Last Week (Dec 14 - Dec 20)
+[**Sunday, December 21, 2025**](writeup/2025/12/21/signals_2025-12-21.md)
 
 [**Saturday, December 20, 2025**](writeup/2025/12/20/signals_2025-12-20.md)
 
@@ -56,9 +58,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
 
-[**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
+### 📅 Week of Dec 08 - Dec 14
 
-### 📅 Week of Dec 07 - Dec 13
+[**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
 [**Saturday, December 13, 2025**](writeup/2025/12/13/signals_2025-12-13.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, December 08, 2025**](writeup/2025/12/08/signals_2025-12-08.md)
 
-[**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
+### 📅 Week of Dec 02 - Dec 07
 
-### 📅 Week of Dec 01 - Dec 06
+[**Sunday, December 07, 2025**](writeup/2025/12/07/signals_2025-12-07.md)
 
 [**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
@@ -87,9 +89,6 @@ Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qival
 
 [**Tuesday, December 02, 2025**](writeup/2025/12/02/signals_2025-12-02.md)
 OPEN Stablecoin Index opens discussions on improvements to the index methodology, including inclusion criteria and parameterized weightings [forum.reserve.org](https://leviathannews.xyz/redirect/21512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
-
-[**Monday, December 01, 2025**](writeup/2025/12/01/signals_2025-12-01.md)
-Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash [𝕏/@deepcryptodive](https://leviathannews.xyz/redirect/21476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
