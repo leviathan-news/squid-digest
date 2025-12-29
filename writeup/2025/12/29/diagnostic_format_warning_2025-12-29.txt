@@ -1,0 +1,56 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1133 chars. First 500 chars: I appreciate the query, but I notice the search results provided don't contain the specific crypto news catalysts needed to generate actionable trading signals in the Leviathan News format.
+
+The three search results cover:
+1. A general market pullback in early December with Bitcoin declining ~6%
+2. A PlanB Bitcoin analysis video (transcript incomplete)
+3. A Coinbase institutional article title (no content provided)
+
+These results lack the specific, news-driven catalysts required for high-convict
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I appreciate the query, but I notice the search results provided don't contain the specific crypto news catalysts needed to generate actionable trading signals in the Leviathan News format.
+
+The three search results cover:
+1. A general market pullback in early December with Bitcoin declining ~6%
+2. A PlanB Bitcoin analysis video (transcript incomplete)
+3. A Coinbase institutional article title (no content provided)
+
+These results lack the specific, news-driven catalysts required for high-conviction signals—such as protocol updates, partnership announcements, regulatory developments, or fundamental shifts for individual tokens.
+
+To generate meaningful trading signals, I would need search results with specific catalyst information like:
+- Protocol or product launches
+- Partnership or acquisition announcements
+- Regulatory changes
+- Technical developments or vulnerabilities
+- Institutional flows or market structure shifts
+
+**Could you provide search results with more specific token-level news catalysts?** This would allow me to generate the actionable, conviction-based trading signals that drive real alpha for traders.
+
+News items sent (8):
+[1] Flow blockchain, which brands itself the "Home of Consumer DeFi," takes heat over their decision to perform a rollback - https://leviathannews.xyz/redirect/22999?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] ERC-7540 introduces async vault operations, letting DeFi vaults handle non-instant strategies like RWAs, fixed-term yields, and cross-chain positions through request → wait → claim flows, unlocking new yield sources with 90%+ gas savings via batching. - https://leviathannews.xyz/redirect/22997?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] The prison of financial mediocrity. The easiest thing to sell to a crowd like this is "hope", and when you understand this, you will understand the rise of the casinos (in all forms, dexes, prediction markets, etc) and the rise of trading gurus, business gurus, courses, and of course, substacks. - https://leviathannews.xyz/redirect/23002?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Mirae Asset Group pursues acquisition of fourth-largest crypto exchange Korbit. Transaction valued at 100-140 billion Korean won as details remain fluid. The deal would be led by Mirae Asset Consulting, a non-financial subsidiary, which has signed a memorandum of understanding with Korbit’s major shareholders. - https://leviathannews.xyz/redirect/23000?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] ADI Chain partners with Fasset to enable regulated digital asset infrastructure in the UAE. This collaboration supports future Dirham-backed stablecoin use cases and broader adoption. - https://leviathannews.xyz/redirect/23001?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Perp DEX farmers underperform by entering late, misreading metrics, and overspending on points. Outperformance comes from early-but-informed entry, testing before scaling, focusing on few protocols, tracking real demand, and treating farming like a business—not a hype chase. - https://leviathannews.xyz/redirect/22996?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Flex, an upcoming choose-your-fixed-rate lending market, being built by our Leviathan News contributor johnnyonline, on his show "Vibe Building", explained in a simple way - https://leviathannews.xyz/redirect/23003?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Blocmates published a Macro Catalyst Roadmap for 2026, arguing Bitcoin is now a macro-driven asset where liquidity, not cycles, drives returns. Long-term liquidity favors BTC, but short-term tightening calls for patience, timing, and selective risk-taking. - https://leviathannews.xyz/redirect/22998?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 513 news articles (TVL: $369,000,000)
+$ETH Ethereum - 530 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 295 news articles (TVL: $100,000)
+$AAVE Aave - 262 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$XRP XRP - 74 news articles (TVL: $636,416,718)
+$SOL Solana - 68 news articles (TVL: $800,000,000,000)
+$BNB BNB - 62 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 62 news articles (TVL: $5,647,064)
+$TRX Tron - 52 new...

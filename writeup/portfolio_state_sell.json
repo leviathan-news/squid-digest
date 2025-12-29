@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 15628.228827755156,
+  "cash": 15998.11852998664,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -22,7 +22,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0005641647622893508,
+      "quantity": -0.0002820823811446754,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -70,7 +70,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -0.3450116639161492,
+      "quantity": -0.1725058319580746,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -102,8 +102,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -6.812632368737045,
-      "entry_price": 164.80380734499516,
+      "quantity": -8.051373873829885,
+      "entry_price": 162.66483151327438,
       "entry_date": "2025-12-17T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -138,14 +138,6 @@
       "entry_price": 0.1457330517236178,
       "entry_date": "2025-12-28T00:00:00",
       "entry_signal": "WEAK SELL"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.0020978009197917184,
-      "entry_price": 87827.76822569473,
-      "entry_date": "2025-12-28T00:00:00",
-      "entry_signal": "WEAK BUY"
     },
     "TRX": {
       "symbol": "TRX",
@@ -2016,6 +2008,54 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.019840554242084696,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-29T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.0020978009197917184,
+      "price": 87233.2526585924,
+      "value": 182.99799766361852,
+      "signal_type": "SELL",
+      "pnl": -1.2471753034977553,
+      "entry_price": 87827.76822569473
+    },
+    {
+      "date": "2025-12-29T00:00:00",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.2387415050928396,
+      "price": 150.9012344050665,
+      "value": 186.92762222729948,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-29T13:34:09.222485",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0002820823811446754,
+      "price": 0.022180968031735807,
+      "value": 6.256860278485961e-06,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 4.704568904045644e-06,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-29T13:34:09.222485",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 0.1725058319580746,
+      "price": 0.20817500583854134,
+      "value": 0.03591140257505461,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.010327120671026077,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -2230,6 +2270,10 @@
     [
       "2025-12-28T13:26:22.804824",
       7369.80691868465
+    ],
+    [
+      "2025-12-29T13:34:09.222485",
+      7477.104889091979
     ]
   ],
   "strategy": "sell_the_news"
