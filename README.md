@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 29, 2025)
+## 📊 Latest News Headlines (December 30, 2025)
 
 ### 🔥 Top Headlines
-- **Flow blockchain, which brands itself the "Home of Consumer DeFi," takes heat over their decision to perform a rollback** [𝕏/@AlexSmirnov](https://leviathannews.xyz/redirect/22999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ERC-7540 introduces async vault operations, letting DeFi vaults handle non-instant strategies like RWAs, fixed-term yields, and cross-chain positions through request → wait → claim flows, unlocking new yield sources with 90%+ gas savings via batching.** [𝕏/@MeshClans](https://leviathannews.xyz/redirect/22997?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The prison of financial mediocrity. The easiest thing to sell to a crowd like this is "hope", and when you understand this, you will understand the rise of the casinos (in all forms, dexes, prediction markets, etc) and the rise of trading gurus, business gurus, courses, and of course, substacks.** [𝕏/@systematicls](https://leviathannews.xyz/redirect/23002?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mirae Asset Group pursues acquisition of fourth-largest crypto exchange Korbit. Transaction valued at 100-140 billion Korean won as details remain fluid. The deal would be led by Mirae Asset Consulting, a non-financial subsidiary, which has signed a memorandum of understanding with Korbit’s major shareholders.** [Chosun](https://leviathannews.xyz/redirect/23000?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ADI Chain partners with Fasset to enable regulated digital asset infrastructure in the UAE. This collaboration supports future Dirham-backed stablecoin use cases and broader adoption.** [Zawya](https://leviathannews.xyz/redirect/23001?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Many people try crypto once and never return, not because they explored its depth, but because their first interaction felt confusing, transactional, and stacked in favor of insiders. First impressions calcify fast, especially when expectations don’t match outcomes.** [𝕏/0xPrince](https://leviathannews.xyz/redirect/23009?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lighter DEX launches LIT token with 25% airdrop. The LIT token supply is split evenly between the ecosystem and team/investors, with a portion airdropped to early participants.** [𝕏/@Lighter_xyz](https://leviathannews.xyz/redirect/23021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **KuCoin advances its global regulatory standing with fresh approvals across Europe and Australia, signaling how major exchanges are adapting to a stricter compliance-first era as crypto oversight becomes a baseline, not a differentiator.** [𝕏/beincrypto](https://leviathannews.xyz/redirect/23010?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SolStaking launched its New Year yield program, combining on-chain staking and real-world income sources to deliver automated, market-independent rewards across major crypto assets, with institutional-grade security and flexible allocation.** [crypto.news](https://leviathannews.xyz/redirect/23012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto Options are poised to be the breakout instrument for 2026, per intern_cc** [𝕏/@intern_cc](https://leviathannews.xyz/redirect/23013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,810.94 (+8.11%) | [Full Analysis →](writeup/2025/12/29/signals_2025-12-29.md)
-**Sell Strategy:** $7,477.10 (-25.23%) | [Full Analysis →](writeup/2025/12/29/signals_2025-12-29.md)
+**Buy Strategy:** $10,803.87 (+8.04%) | [Full Analysis →](writeup/2025/12/30/signals_2025-12-30.md)
+**Sell Strategy:** $7,478.07 (-25.22%) | [Full Analysis →](writeup/2025/12/30/signals_2025-12-30.md)
 
-**GitHub:** 12-29-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-29-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-30-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-30-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->
