@@ -1,0 +1,51 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1681 chars. First 500 chars: The crypto market shows mixed momentum heading into 2026, with the global market cap at $2.95T and most major assets trading sideways, though price prediction accuracy remains a critical challenge for investors.
+
+**Market Capitalization and Price Action**
+
+The total cryptocurrency market cap stands at $2.95T, up 0.21% over the past 24 hours[1]. Bitcoin traded in a narrow range between $86,420 and $88,050, settling at $87,490 (up 0.75%)[1]. Ethereum, the second-largest asset, traded at $2,929.02 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+The crypto market shows mixed momentum heading into 2026, with the global market cap at $2.95T and most major assets trading sideways, though price prediction accuracy remains a critical challenge for investors.
+
+**Market Capitalization and Price Action**
+
+The total cryptocurrency market cap stands at $2.95T, up 0.21% over the past 24 hours[1]. Bitcoin traded in a narrow range between $86,420 and $88,050, settling at $87,490 (up 0.75%)[1]. Ethereum, the second-largest asset, traded at $2,929.02 with minimal upside of 0.18%[1]. Most major cryptocurrencies are trading mixed, with altcoins showing more volatility—some outperformers like BIFI, ZBT, and BANANA gained 207%, 78%, and 35% respectively, while others like TRX declined 1.45%[1].
+
+**Key Market Drivers**
+
+Regulatory advancement in Hong Kong is creating infrastructure momentum, with the government advancing digital asset trading legislation[1]. Meanwhile, U.S. monetary policy remains a headwind, with BlackRock strategists expecting limited Federal Reserve rate cuts in 2026[1].
+
+**Forecast Reliability Crisis**
+
+A critical theme emerging is that 2025 exposed the unreliability of price predictions—many analyst forecasts for Bitcoin proved spectacularly inaccurate, with wide divergence between predictions and actual market performance[2]. This uncertainty extends to technical analysis as well, with discussions around Bitcoin's next direction following its drop below $100,000[3].
+
+The takeaway: institutional regulatory clarity is forming, but traditional forecasting models failed in 2025, suggesting traders should prioritize on-chain fundamentals and institutional capital flows over consensus predictions.
+
+News items sent (8):
+[1] Many people try crypto once and never return, not because they explored its depth, but because their first interaction felt confusing, transactional, and stacked in favor of insiders. First impressions calcify fast, especially when expectations don’t match outcomes. - https://leviathannews.xyz/redirect/23009?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Lighter DEX launches LIT token with 25% airdrop. The LIT token supply is split evenly between the ecosystem and team/investors, with a portion airdropped to early participants. - https://leviathannews.xyz/redirect/23021?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] KuCoin advances its global regulatory standing with fresh approvals across Europe and Australia, signaling how major exchanges are adapting to a stricter compliance-first era as crypto oversight becomes a baseline, not a differentiator. - https://leviathannews.xyz/redirect/23010?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] SolStaking launched its New Year yield program, combining on-chain staking and real-world income sources to deliver automated, market-independent rewards across major crypto assets, with institutional-grade security and flexible allocation. - https://leviathannews.xyz/redirect/23012?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Crypto Options are poised to be the breakout instrument for 2026, per intern_cc - https://leviathannews.xyz/redirect/23013?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Follow the money - Let me show you where that leads. Institutions are here in crypto. But they’re not spreading money across every blockchain. The focus is narrowing to a few ecosystems that have the liquidity, infrastructure, and stability that big players need. - https://leviathannews.xyz/redirect/23022?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] BUIDL passes $2 billion in assets and hits $100 million in yield paid out - https://leviathannews.xyz/redirect/23015?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] RAAC announces 5-15% rewards on its gold backed $pmUSD through the New Year - https://leviathannews.xyz/redirect/23014?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BUIDL BUIDL - 29 news articles (TVL: $636,416,718)
+$ETH Ethereum - 530 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 513 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 295 news articles (TVL: $100,000)
+$AAVE Aave - 262 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$XRP XRP - 74 news articles (TVL: $636,416,718)
+$SOL Solana - 68 news articles (TVL: $800,000,000,000)
+$BNB BNB - 62 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 6...

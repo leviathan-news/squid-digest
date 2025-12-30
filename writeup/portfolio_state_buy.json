@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 10.064794110210075,
+  "cash": 0.7446738926779934,
   "positions": {
     "AAVE": {
       "symbol": "AAVE",
@@ -54,7 +54,7 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": 4.63934063240039,
+      "quantity": 2.319670316200195,
       "entry_price": 0.23988384358877468,
       "entry_date": "2025-12-04T00:00:00",
       "entry_signal": "BUY"
@@ -138,6 +138,14 @@
       "entry_price": 0.28431201567105463,
       "entry_date": "2025-12-28T00:00:00",
       "entry_signal": "WEAK SELL"
+    },
+    "BUIDL": {
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "quantity": 10.064794110210075,
+      "entry_price": 1.0,
+      "entry_date": "2025-12-30T00:00:00",
+      "entry_signal": "STRONG BUY"
     }
   },
   "trades": [
@@ -1568,6 +1576,30 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.38962404068927636,
       "entry_price": 0.23988384358877468
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "action": "BUY",
+      "quantity": 10.064794110210075,
+      "price": 1.0,
+      "value": 10.064794110210075,
+      "signal_type": "STRONG BUY",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-30T13:33:29.275658",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 2.319670316200195,
+      "price": 0.32102574554552593,
+      "value": 0.7446738926779934,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.18822246136910237,
+      "entry_price": 0.23988384358877468
     }
   ],
   "daily_values": [
@@ -1786,6 +1818,10 @@
     [
       "2025-12-29T13:34:09.222485",
       10810.935371442285
+    ],
+    [
+      "2025-12-30T13:33:29.275658",
+      10803.870032616758
     ]
   ],
   "strategy": "buy_the_news"

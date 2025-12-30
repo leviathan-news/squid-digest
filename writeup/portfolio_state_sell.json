@@ -1,7 +1,7 @@
 {
   "start_date": "2025-11-19T14:38:13.470876",
   "initial_capital": 10000.0,
-  "cash": 15998.11852998664,
+  "cash": 17680.665503854263,
   "positions": {
     "CRV": {
       "symbol": "CRV",
@@ -22,7 +22,7 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -0.0002820823811446754,
+      "quantity": -0.0001410411905723377,
       "entry_price": 0.03885896431407982,
       "entry_date": "2025-11-25T00:00:00",
       "entry_signal": "STRONG SELL"
@@ -70,7 +70,7 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": -0.1725058319580746,
+      "quantity": -0.0862529159790373,
       "entry_price": 0.2680403480928018,
       "entry_date": "2025-12-10T00:00:00",
       "entry_signal": "SELL"
@@ -94,8 +94,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -11.280460347857911,
-      "entry_price": 129.00496943879938,
+      "quantity": -14.293213571250527,
+      "entry_price": 127.97253240181264,
       "entry_date": "2025-12-12T00:00:00",
       "entry_signal": "SELL"
     },
@@ -134,8 +134,8 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -1264.2648375780707,
-      "entry_price": 0.1457330517236178,
+      "quantity": -3885.2555765512207,
+      "entry_price": 0.14365810856243583,
       "entry_date": "2025-12-28T00:00:00",
       "entry_signal": "WEAK SELL"
     },
@@ -146,6 +146,22 @@
       "entry_price": 0.28431201567105463,
       "entry_date": "2025-12-28T00:00:00",
       "entry_signal": "WEAK BUY"
+    },
+    "BUIDL": {
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "quantity": -747.8065888837764,
+      "entry_price": 1.0,
+      "entry_date": "2025-12-30T00:00:00",
+      "entry_signal": "STRONG SELL"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.002126544917745917,
+      "entry_price": 87913.33099096162,
+      "entry_date": "2025-12-30T00:00:00",
+      "entry_signal": "WEAK SELL"
     }
   },
   "trades": [
@@ -2056,6 +2072,78 @@
       "signal_type": "PROFIT_TAKE",
       "pnl": 0.010327120671026077,
       "entry_price": 0.2680403480928018
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "action": "SHORT",
+      "quantity": 747.8065888837764,
+      "price": 1.0,
+      "value": 747.8065888837764,
+      "signal_type": "STRONG SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 3.0127532233926164,
+      "price": 124.10684404507622,
+      "value": 373.90329444188814,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 2620.99073897315,
+      "price": 0.14265723601464372,
+      "value": 373.90329444188814,
+      "signal_type": "SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.002126544917745917,
+      "price": 87913.33099096162,
+      "value": 186.95164722094407,
+      "signal_type": "WEAK SELL",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2025-12-30T13:33:29.275658",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "COVER",
+      "quantity": 0.0001410411905723377,
+      "price": 0.021531672982952596,
+      "value": 3.036852792529872e-06,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 2.4438617987359303e-06,
+      "entry_price": 0.03885896431407982
+    },
+    {
+      "date": "2025-12-30T13:33:29.275658",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 0.0862529159790373,
+      "price": 0.20692731151750782,
+      "value": 0.01784808401408768,
+      "signal_type": "PROFIT_TAKE",
+      "pnl": 0.0052711776089526645,
+      "entry_price": 0.2680403480928018
     }
   ],
   "daily_values": [
@@ -2274,6 +2362,10 @@
     [
       "2025-12-29T13:34:09.222485",
       7477.104889091979
+    ],
+    [
+      "2025-12-30T13:33:29.275658",
+      7478.065888837758
     ]
   ],
   "strategy": "sell_the_news"
