@@ -31,6 +31,10 @@ BACKTEST_PORTFOLIO_STATE_FILE = WRITEUP_DIR / "portfolio_state.json"
 BACKTEST_PORTFOLIO_STATE_FILE_BUY = WRITEUP_DIR / "portfolio_state_buy.json"
 BACKTEST_PORTFOLIO_STATE_FILE_SELL = WRITEUP_DIR / "portfolio_state_sell.json"
 
+# Sentiment-based portfolio configuration
+SENTIMENT_STATE_FILE = WRITEUP_DIR / "sentiment_state.json"
+SENTIMENT_PORTFOLIO_STATE_FILE = WRITEUP_DIR / "sentiment_portfolio_state.json"
+
 
 def get_writeup_date_path(date: datetime = None) -> Path:
     """

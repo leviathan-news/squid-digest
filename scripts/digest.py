@@ -13,13 +13,20 @@ load_dotenv()
 from squid_digest.tools.leviathan import LeviathanNewsFetcher
 from squid_digest.core.digest_engine import DigestEngine
 from squid_digest.llm import PerplexityChatProvider
-from squid_digest.config import WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE, BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL, get_writeup_file_path
+from squid_digest.config import (
+    WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE,
+    BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
+    SENTIMENT_STATE_FILE, SENTIMENT_PORTFOLIO_STATE_FILE,
+    get_writeup_file_path
+)
 import os
 from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
 from squid_digest.backtest.incremental_backtest import IncrementalBacktest
 from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsletter
 from squid_digest.backtest.signal_parser import SignalParser
 from squid_digest.backtest.price_fetcher import PriceFetcher
+from squid_digest.backtest.sentiment_state import SentimentTracker
+from squid_digest.backtest.sentiment_portfolio import SentimentPortfolio, format_sentiment_portfolio_results
 
 # Allow ACTIVE_PROMPT to be overridden by environment variable
 ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
@@ -1294,34 +1301,92 @@ async def bundle_writeup(verbose=False):
                 logger.info("Skipping initial parsing due to format validation failure, will retry with fallback")
 
             if today_signals and not retry_with_fallback:
-                # Run both strategies
-                buy_backtest = IncrementalBacktest(
-                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_BUY,
-                    writeup_dir=WRITEUP_DIR,
-                    initial_capital=BACKTEST_INITIAL_CAPITAL,
-                    strategy='buy_the_news'
-                )
+                # Run sentiment-based portfolio strategy
+                if verbose:
+                    logger.info("Running sentiment-based portfolio strategy...")
 
-                sell_backtest = IncrementalBacktest(
-                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_SELL,
-                    writeup_dir=WRITEUP_DIR,
-                    initial_capital=BACKTEST_INITIAL_CAPITAL,
-                    strategy='sell_the_news'
-                )
+                # Initialize sentiment tracker
+                sentiment_tracker = SentimentTracker(SENTIMENT_STATE_FILE)
 
-                buy_results = buy_backtest.run(today, today_signals)
-                sell_results = sell_backtest.run(today, today_signals)
+                # Apply decay up to today
+                sentiment_tracker.apply_decay(today.date())
 
-                buy_backtest.close()
-                sell_backtest.close()
+                # Apply today's signals
+                for signal in today_signals:
+                    sentiment_tracker.apply_signal(
+                        symbol=signal.symbol,
+                        signal_type=signal.signal_type,
+                        signal_date=today.date(),
+                        token_name=signal.token_name,
+                    )
 
-                if buy_results and sell_results:
-                    backtest_section = "\n\n" + format_backtest_for_newsletter(buy_results, sell_results)
+                # Get long/short candidates
+                long_candidates = sentiment_tracker.get_long_candidates(n=5)
+                short_candidates = sentiment_tracker.get_short_candidates(n=3)
+
+                if verbose:
+                    logger.info(f"  Long candidates: {long_candidates}")
+                    logger.info(f"  Short candidates: {short_candidates}")
+
+                # Fetch prices for candidates
+                price_fetcher = PriceFetcher()
+                all_candidates = set(long_candidates + short_candidates)
+                prices = {}
+                token_names = {}
+
+                for symbol in all_candidates:
+                    price = price_fetcher.get_price(symbol, today)
+                    if price:
+                        prices[symbol] = price
+                        token_sentiment = sentiment_tracker.sentiments.get(symbol)
+                        if token_sentiment and token_sentiment.token_name:
+                            token_names[symbol] = token_sentiment.token_name
+                    else:
+                        if verbose:
+                            logger.warning(f"  Could not fetch price for {symbol}")
+
+                price_fetcher.close()
+
+                # Filter candidates to only those with prices
+                long_targets = [s for s in long_candidates if s in prices]
+                short_targets = [s for s in short_candidates if s in prices]
+
+                if long_targets or short_targets:
+                    # Load or create portfolio
+                    portfolio = SentimentPortfolio.load(
+                        SENTIMENT_PORTFOLIO_STATE_FILE,
+                        initial_capital=BACKTEST_INITIAL_CAPITAL
+                    )
+
+                    # Rebalance portfolio
+                    portfolio_results = portfolio.rebalance(
+                        long_targets=long_targets,
+                        short_targets=short_targets,
+                        prices=prices,
+                        date=today,
+                        token_names=token_names,
+                    )
+
+                    # Save portfolio and sentiment state
+                    portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+                    sentiment_tracker.last_processed_date = today.date().isoformat()
+                    sentiment_tracker.save()
+
+                    # Format for newsletter
+                    sentiment_rankings = sentiment_tracker.get_ranked_tokens()
+                    backtest_section = "\n\n" + format_sentiment_portfolio_results(
+                        portfolio_results,
+                        sentiment_rankings,
+                        initial_capital=BACKTEST_INITIAL_CAPITAL,
+                    )
+
                     if verbose:
-                        logger.info("✓ Backtest completed successfully for both strategies")
+                        logger.info(f"✓ Sentiment portfolio updated: ${portfolio_results['total_value']:,.2f}")
                 else:
+                    sentiment_tracker.last_processed_date = today.date().isoformat()
+                    sentiment_tracker.save()
                     if verbose:
-                        logger.warning("Backtest returned no results (continuing without backtest section)")
+                        logger.warning("No prices available for sentiment candidates (continuing without portfolio section)")
             else:
                 # VALIDATION: Trigger fallback retry if:
                 # 1. Format validation detected refusal (retry_with_fallback flag set)
@@ -1435,31 +1500,93 @@ async def bundle_writeup(verbose=False):
                                     if tmp_path.exists():
                                         tmp_path.unlink()
 
-                            # Continue with backtest using retry signals
+                            # Continue with sentiment portfolio using retry signals
                             if today_signals:
-                                buy_backtest = IncrementalBacktest(
-                                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_BUY,
-                                    writeup_dir=WRITEUP_DIR,
-                                    initial_capital=BACKTEST_INITIAL_CAPITAL,
-                                    strategy='buy_the_news'
-                                )
-                                sell_backtest = IncrementalBacktest(
-                                    state_file=BACKTEST_PORTFOLIO_STATE_FILE_SELL,
-                                    writeup_dir=WRITEUP_DIR,
-                                    initial_capital=BACKTEST_INITIAL_CAPITAL,
-                                    strategy='sell_the_news'
-                                )
+                                if verbose:
+                                    logger.info("Running sentiment-based portfolio strategy with retry signals...")
 
-                                buy_results = buy_backtest.run(today, today_signals)
-                                sell_results = sell_backtest.run(today, today_signals)
+                                # Initialize sentiment tracker
+                                sentiment_tracker = SentimentTracker(SENTIMENT_STATE_FILE)
 
-                                buy_backtest.close()
-                                sell_backtest.close()
+                                # Apply decay up to today
+                                sentiment_tracker.apply_decay(today.date())
 
-                                if buy_results and sell_results:
-                                    backtest_section = "\n\n" + format_backtest_for_newsletter(buy_results, sell_results)
+                                # Apply today's signals
+                                for signal in today_signals:
+                                    sentiment_tracker.apply_signal(
+                                        symbol=signal.symbol,
+                                        signal_type=signal.signal_type,
+                                        signal_date=today.date(),
+                                        token_name=signal.token_name,
+                                    )
+
+                                # Get long/short candidates
+                                long_candidates = sentiment_tracker.get_long_candidates(n=5)
+                                short_candidates = sentiment_tracker.get_short_candidates(n=3)
+
+                                if verbose:
+                                    logger.info(f"  Long candidates: {long_candidates}")
+                                    logger.info(f"  Short candidates: {short_candidates}")
+
+                                # Fetch prices for candidates
+                                retry_price_fetcher = PriceFetcher()
+                                all_candidates = set(long_candidates + short_candidates)
+                                prices = {}
+                                token_names = {}
+
+                                for symbol in all_candidates:
+                                    price = retry_price_fetcher.get_price(symbol, today)
+                                    if price:
+                                        prices[symbol] = price
+                                        token_sentiment = sentiment_tracker.sentiments.get(symbol)
+                                        if token_sentiment and token_sentiment.token_name:
+                                            token_names[symbol] = token_sentiment.token_name
+                                    else:
+                                        if verbose:
+                                            logger.warning(f"  Could not fetch price for {symbol}")
+
+                                retry_price_fetcher.close()
+
+                                # Filter candidates to only those with prices
+                                long_targets = [s for s in long_candidates if s in prices]
+                                short_targets = [s for s in short_candidates if s in prices]
+
+                                if long_targets or short_targets:
+                                    # Load or create portfolio
+                                    portfolio = SentimentPortfolio.load(
+                                        SENTIMENT_PORTFOLIO_STATE_FILE,
+                                        initial_capital=BACKTEST_INITIAL_CAPITAL
+                                    )
+
+                                    # Rebalance portfolio
+                                    portfolio_results = portfolio.rebalance(
+                                        long_targets=long_targets,
+                                        short_targets=short_targets,
+                                        prices=prices,
+                                        date=today,
+                                        token_names=token_names,
+                                    )
+
+                                    # Save portfolio and sentiment state
+                                    portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+                                    sentiment_tracker.last_processed_date = today.date().isoformat()
+                                    sentiment_tracker.save()
+
+                                    # Format for newsletter
+                                    sentiment_rankings = sentiment_tracker.get_ranked_tokens()
+                                    backtest_section = "\n\n" + format_sentiment_portfolio_results(
+                                        portfolio_results,
+                                        sentiment_rankings,
+                                        initial_capital=BACKTEST_INITIAL_CAPITAL,
+                                    )
+
                                     if verbose:
-                                        logger.info("✓ Backtest completed with retry signals")
+                                        logger.info(f"✓ Sentiment portfolio updated with retry signals: ${portfolio_results['total_value']:,.2f}")
+                                else:
+                                    sentiment_tracker.last_processed_date = today.date().isoformat()
+                                    sentiment_tracker.save()
+                                    if verbose:
+                                        logger.warning("No prices available for sentiment candidates (continuing without portfolio section)")
                         else:
                             # Fallback also failed
                             error_msg = (

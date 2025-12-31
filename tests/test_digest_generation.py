@@ -208,23 +208,19 @@ class TestDigestGeneration(unittest.TestCase):
                                  reason="Mock reason",
                              )
                          ]), \
-                         patch('digest.IncrementalBacktest') as MockBacktest, \
                          patch('digest.generate_market_snapshot', return_value="## 💰 Market Snapshot\n\n* mock *"), \
                          patch('digest._get_token_id_map', return_value={
                              'BTC': {'canonical_tag': 'btc', 'name': 'Bitcoin'},
                              'ETH': {'canonical_tag': 'eth', 'name': 'Ethereum'},
                              'OPEN': {'canonical_tag': 'open', 'name': 'OPEN'},
                          }), \
-                         patch('digest.format_backtest_for_newsletter', return_value=(
-                             "## 📈 Backtest Results\n"
-                             "### Buy the News Strategy\n\n"
-                             "- **Portfolio Value:** `$10,000.00`\n\n"
-                             "### Sell the News Strategy\n\n"
+                         patch('digest.format_sentiment_portfolio_results', return_value=(
+                             "## 📈 Sentiment Portfolio\n"
+                             "### Portfolio Summary\n\n"
                              "- **Portfolio Value:** `$10,000.00`\n"
+                             "- **Total Return:** `+0.00%`\n"
                          )):
-                        
-                        MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
-                        
+
                         # Create mock engine instance
                         mock_engine = MagicMock()
                         mock_engine.news_fetcher = MagicMock()
@@ -256,7 +252,7 @@ class TestDigestGeneration(unittest.TestCase):
                         content = signals_file.read_text()
                         self.assertIn("Crypto Trading Signals", content)
                         self.assertIn("## 🎯 Trading Signals", content)
-                        self.assertIn("## 📈 Backtest Results", content)
+                        self.assertIn("## 📈 Sentiment Portfolio", content)
                         self.assertIn("🟢 Bitcoin", content)
                         self.assertIn("🔴 Ethereum", content)
                 finally:
