@@ -1,0 +1,137 @@
+{
+  "last_processed_date": "2025-12-28",
+  "sentiments": {
+    "BTC": {
+      "symbol": "BTC",
+      "score": -0.6923643812531249,
+      "last_signal_date": "2025-12-28",
+      "token_name": "Bitcoin"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "score": 0.7429971445684743,
+      "last_signal_date": "2025-12-26",
+      "token_name": "BNB"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "score": 4.819396949004497,
+      "last_signal_date": "2025-12-28",
+      "token_name": "Solana"
+    },
+    "STETH": {
+      "symbol": "STETH",
+      "score": 0.0,
+      "last_signal_date": "2025-12-05",
+      "token_name": "Liquid staked Ether 2.0"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "score": 1.4859942891369486,
+      "last_signal_date": "2025-12-26",
+      "token_name": "Curve DAO Token"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "score": 5.525845987832619,
+      "last_signal_date": "2025-12-28",
+      "token_name": "Ethereum"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "score": 1.1386709041113687,
+      "last_signal_date": "2025-12-28",
+      "token_name": "XRP"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "score": 0.0,
+      "last_signal_date": "2025-12-16",
+      "token_name": "HYPE"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "score": 0.0,
+      "last_signal_date": "2025-12-10",
+      "token_name": "Ethena"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "score": 0.0,
+      "last_signal_date": "2025-12-11",
+      "token_name": "Avalanche"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "score": 0.12500000000000003,
+      "last_signal_date": "2025-12-22",
+      "token_name": "Sui"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "score": 0.0,
+      "last_signal_date": "2025-12-11",
+      "token_name": "ChainLink Token"
+    },
+    "TON": {
+      "symbol": "TON",
+      "score": 0.0,
+      "last_signal_date": "2025-12-11",
+      "token_name": "Toncoin"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "score": 0.0,
+      "last_signal_date": "2025-12-11",
+      "token_name": "Cardano"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "score": 0.9607139193646912,
+      "last_signal_date": "2025-12-28",
+      "token_name": "Dogecoin"
+    },
+    "OP": {
+      "symbol": "OP",
+      "score": -0.7429971445684743,
+      "last_signal_date": "2025-12-26",
+      "token_name": "Optimism"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "score": 2.3797641560490987,
+      "last_signal_date": "2025-12-27",
+      "token_name": "Aave"
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "score": 1.8680550575443076,
+      "last_signal_date": "2025-12-27",
+      "token_name": "UNI"
+    },
+    "KDK": {
+      "symbol": "KDK",
+      "score": 0.37149857228423716,
+      "last_signal_date": "2025-12-24",
+      "token_name": "Kodiak Finance"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "score": 2.485994289136949,
+      "last_signal_date": "2025-12-28",
+      "token_name": "World Liberty Financial"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "score": -0.7429971445684743,
+      "last_signal_date": "2025-12-26",
+      "token_name": "Arbitrum"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "score": -1.0,
+      "last_signal_date": "2025-12-28",
+      "token_name": "Tron"
+    }
+  }
+}
