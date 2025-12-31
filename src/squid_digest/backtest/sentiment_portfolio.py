@@ -455,13 +455,14 @@ def format_sentiment_portfolio_results(
     results: Dict,
     sentiment_rankings: List[Tuple[str, float]],
     initial_capital: float = 10000.0,
+    strategy_name: str = "Momentum",
 ) -> str:
     """
     Format sentiment portfolio results for newsletter.
 
     Returns markdown string.
     """
-    lines = ["## 📈 Sentiment Portfolio\n"]
+    lines = [f"### {strategy_name} Strategy\n"]
 
     # Portfolio summary
     total_value = results.get("total_value", 0)
@@ -472,25 +473,6 @@ def format_sentiment_portfolio_results(
     lines.append(f"- **Portfolio Value:** `${total_value:,.2f}`")
     lines.append(f"- **Total Return:** `{total_return:+.2f}%`")
     lines.append(f"- **Cash:** `${cash:,.2f}`\n")
-
-    # Current sentiment rankings (top 5 + bottom 3)
-    lines.append("### Sentiment Rankings\n")
-    lines.append("| Token | Sentiment |")
-    lines.append("|-------|-----------|")
-
-    # Top positive
-    for symbol, score in sentiment_rankings[:5]:
-        if score > 0:
-            lines.append(f"| {symbol} | +{score:.2f} |")
-
-    lines.append("| ... | ... |")
-
-    # Bottom negative
-    for symbol, score in sentiment_rankings[-3:]:
-        if score < 0:
-            lines.append(f"| {symbol} | {score:.2f} |")
-
-    lines.append("")
 
     # Current positions
     long_positions = results.get("long_positions", [])
@@ -525,5 +507,55 @@ def format_sentiment_portfolio_results(
         for rotation in rotations:
             lines.append(f"- {rotation}")
         lines.append("")
+
+    return "\n".join(lines)
+
+
+def format_dual_sentiment_portfolios(
+    momentum_results: Dict,
+    contrarian_results: Dict,
+    sentiment_rankings: List[Tuple[str, float]],
+    initial_capital: float = 10000.0,
+) -> str:
+    """
+    Format both momentum and contrarian portfolio results for newsletter.
+
+    Includes sentiment rankings header and both strategy summaries.
+
+    Returns markdown string.
+    """
+    lines = ["## 📈 Sentiment Portfolio\n"]
+
+    # Sentiment Rankings Header
+    lines.append("### Current Sentiment Rankings\n")
+    lines.append("| Token | Sentiment | Strategy Target |")
+    lines.append("|-------|-----------|-----------------|")
+
+    # Top 5 positive (momentum long, contrarian short)
+    positive_count = 0
+    for symbol, score in sentiment_rankings:
+        if score > 0 and positive_count < 5:
+            lines.append(f"| {symbol} | +{score:.2f} | 🟢 Momentum Long / 🔴 Contrarian Short |")
+            positive_count += 1
+
+    if positive_count > 0:
+        lines.append("| ... | ... | ... |")
+
+    # Bottom 3 negative (momentum short, contrarian long)
+    negative_tokens = [(s, score) for s, score in sentiment_rankings if score < 0]
+    for symbol, score in negative_tokens[-3:]:
+        lines.append(f"| {symbol} | {score:.2f} | 🔴 Momentum Short / 🟢 Contrarian Long |")
+
+    lines.append("")
+
+    # Momentum Strategy
+    lines.append(format_sentiment_portfolio_results(
+        momentum_results, sentiment_rankings, initial_capital, "Momentum"
+    ))
+
+    # Contrarian Strategy
+    lines.append(format_sentiment_portfolio_results(
+        contrarian_results, sentiment_rankings, initial_capital, "Contrarian"
+    ))
 
     return "\n".join(lines)

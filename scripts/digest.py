@@ -17,6 +17,7 @@ from squid_digest.config import (
     WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE,
     BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
     SENTIMENT_STATE_FILE, SENTIMENT_PORTFOLIO_STATE_FILE,
+    SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
     get_writeup_file_path
 )
 import os
@@ -26,7 +27,7 @@ from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsl
 from squid_digest.backtest.signal_parser import SignalParser
 from squid_digest.backtest.price_fetcher import PriceFetcher
 from squid_digest.backtest.sentiment_state import SentimentTracker
-from squid_digest.backtest.sentiment_portfolio import SentimentPortfolio, format_sentiment_portfolio_results
+from squid_digest.backtest.sentiment_portfolio import SentimentPortfolio, format_sentiment_portfolio_results, format_dual_sentiment_portfolios
 
 # Allow ACTIVE_PROMPT to be overridden by environment variable
 ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
@@ -1352,14 +1353,14 @@ async def bundle_writeup(verbose=False):
                 short_targets = [s for s in short_candidates if s in prices]
 
                 if long_targets or short_targets:
-                    # Load or create portfolio
-                    portfolio = SentimentPortfolio.load(
+                    # === MOMENTUM STRATEGY ===
+                    # Long positive sentiment, short negative sentiment
+                    momentum_portfolio = SentimentPortfolio.load(
                         SENTIMENT_PORTFOLIO_STATE_FILE,
                         initial_capital=BACKTEST_INITIAL_CAPITAL
                     )
 
-                    # Rebalance portfolio
-                    portfolio_results = portfolio.rebalance(
+                    momentum_results = momentum_portfolio.rebalance(
                         long_targets=long_targets,
                         short_targets=short_targets,
                         prices=prices,
@@ -1367,21 +1368,43 @@ async def bundle_writeup(verbose=False):
                         token_names=token_names,
                     )
 
-                    # Save portfolio and sentiment state
-                    portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+                    momentum_portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+
+                    if verbose:
+                        logger.info(f"✓ Momentum portfolio: ${momentum_results['total_value']:,.2f}")
+
+                    # === CONTRARIAN STRATEGY ===
+                    # Long negative sentiment (mean reversion), short positive sentiment
+                    contrarian_portfolio = SentimentPortfolio.load(
+                        SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
+                        initial_capital=BACKTEST_INITIAL_CAPITAL
+                    )
+
+                    contrarian_results = contrarian_portfolio.rebalance(
+                        long_targets=short_targets,   # Inverted: long the shorts
+                        short_targets=long_targets,   # Inverted: short the longs
+                        prices=prices,
+                        date=today,
+                        token_names=token_names,
+                    )
+
+                    contrarian_portfolio.save(SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE)
+
+                    if verbose:
+                        logger.info(f"✓ Contrarian portfolio: ${contrarian_results['total_value']:,.2f}")
+
+                    # Save sentiment state
                     sentiment_tracker.last_processed_date = today.date().isoformat()
                     sentiment_tracker.save()
 
-                    # Format for newsletter
+                    # Format both for newsletter
                     sentiment_rankings = sentiment_tracker.get_ranked_tokens()
-                    backtest_section = "\n\n" + format_sentiment_portfolio_results(
-                        portfolio_results,
-                        sentiment_rankings,
+                    backtest_section = "\n\n" + format_dual_sentiment_portfolios(
+                        momentum_results=momentum_results,
+                        contrarian_results=contrarian_results,
+                        sentiment_rankings=sentiment_rankings,
                         initial_capital=BACKTEST_INITIAL_CAPITAL,
                     )
-
-                    if verbose:
-                        logger.info(f"✓ Sentiment portfolio updated: ${portfolio_results['total_value']:,.2f}")
                 else:
                     sentiment_tracker.last_processed_date = today.date().isoformat()
                     sentiment_tracker.save()
@@ -1552,14 +1575,13 @@ async def bundle_writeup(verbose=False):
                                 short_targets = [s for s in short_candidates if s in prices]
 
                                 if long_targets or short_targets:
-                                    # Load or create portfolio
-                                    portfolio = SentimentPortfolio.load(
+                                    # === MOMENTUM STRATEGY ===
+                                    momentum_portfolio = SentimentPortfolio.load(
                                         SENTIMENT_PORTFOLIO_STATE_FILE,
                                         initial_capital=BACKTEST_INITIAL_CAPITAL
                                     )
 
-                                    # Rebalance portfolio
-                                    portfolio_results = portfolio.rebalance(
+                                    momentum_results = momentum_portfolio.rebalance(
                                         long_targets=long_targets,
                                         short_targets=short_targets,
                                         prices=prices,
@@ -1567,21 +1589,42 @@ async def bundle_writeup(verbose=False):
                                         token_names=token_names,
                                     )
 
-                                    # Save portfolio and sentiment state
-                                    portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+                                    momentum_portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
+
+                                    if verbose:
+                                        logger.info(f"✓ Momentum portfolio (retry): ${momentum_results['total_value']:,.2f}")
+
+                                    # === CONTRARIAN STRATEGY ===
+                                    contrarian_portfolio = SentimentPortfolio.load(
+                                        SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
+                                        initial_capital=BACKTEST_INITIAL_CAPITAL
+                                    )
+
+                                    contrarian_results = contrarian_portfolio.rebalance(
+                                        long_targets=short_targets,   # Inverted
+                                        short_targets=long_targets,   # Inverted
+                                        prices=prices,
+                                        date=today,
+                                        token_names=token_names,
+                                    )
+
+                                    contrarian_portfolio.save(SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE)
+
+                                    if verbose:
+                                        logger.info(f"✓ Contrarian portfolio (retry): ${contrarian_results['total_value']:,.2f}")
+
+                                    # Save sentiment state
                                     sentiment_tracker.last_processed_date = today.date().isoformat()
                                     sentiment_tracker.save()
 
-                                    # Format for newsletter
+                                    # Format both for newsletter
                                     sentiment_rankings = sentiment_tracker.get_ranked_tokens()
-                                    backtest_section = "\n\n" + format_sentiment_portfolio_results(
-                                        portfolio_results,
-                                        sentiment_rankings,
+                                    backtest_section = "\n\n" + format_dual_sentiment_portfolios(
+                                        momentum_results=momentum_results,
+                                        contrarian_results=contrarian_results,
+                                        sentiment_rankings=sentiment_rankings,
                                         initial_capital=BACKTEST_INITIAL_CAPITAL,
                                     )
-
-                                    if verbose:
-                                        logger.info(f"✓ Sentiment portfolio updated with retry signals: ${portfolio_results['total_value']:,.2f}")
                                 else:
                                     sentiment_tracker.last_processed_date = today.date().isoformat()
                                     sentiment_tracker.save()

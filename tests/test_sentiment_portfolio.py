@@ -225,15 +225,47 @@ class TestFormatResults:
         }
         rankings = [("BTC", 5.0), ("ETH", 3.0), ("DOGE", -2.0)]
 
-        output = format_sentiment_portfolio_results(results, rankings)
+        output = format_sentiment_portfolio_results(results, rankings, strategy_name="Momentum")
 
-        assert "Sentiment Portfolio" in output
+        assert "Momentum Strategy" in output
         assert "Portfolio Summary" in output
-        assert "Sentiment Rankings" in output
         assert "Current Positions" in output
         assert "$12,500.00" in output
         assert "BTC" in output
         assert "ETH" in output
+        assert "DOGE" in output
+
+    def test_dual_format_includes_both_strategies(self):
+        """Dual formatter should include both strategies and rankings."""
+        from squid_digest.backtest.sentiment_portfolio import format_dual_sentiment_portfolios
+
+        momentum_results = {
+            "total_value": 12500.0,
+            "cash": 1000.0,
+            "long_positions": ["BTC", "ETH"],
+            "short_positions": ["DOGE"],
+            "trades_today": [],
+            "rotations": [],
+        }
+        contrarian_results = {
+            "total_value": 9500.0,
+            "cash": 1000.0,
+            "long_positions": ["DOGE"],
+            "short_positions": ["BTC", "ETH"],
+            "trades_today": [],
+            "rotations": [],
+        }
+        rankings = [("BTC", 5.0), ("ETH", 3.0), ("DOGE", -2.0)]
+
+        output = format_dual_sentiment_portfolios(
+            momentum_results, contrarian_results, rankings
+        )
+
+        assert "## 📈 Sentiment Portfolio" in output
+        assert "Sentiment Rankings" in output
+        assert "Momentum Strategy" in output
+        assert "Contrarian Strategy" in output
+        assert "BTC" in output
         assert "DOGE" in output
 
 

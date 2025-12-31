@@ -214,11 +214,13 @@ class TestDigestGeneration(unittest.TestCase):
                              'ETH': {'canonical_tag': 'eth', 'name': 'Ethereum'},
                              'OPEN': {'canonical_tag': 'open', 'name': 'OPEN'},
                          }), \
-                         patch('digest.format_sentiment_portfolio_results', return_value=(
+                         patch('digest.format_dual_sentiment_portfolios', return_value=(
                              "## 📈 Sentiment Portfolio\n"
-                             "### Portfolio Summary\n\n"
+                             "### Current Sentiment Rankings\n\n"
+                             "### Momentum Strategy\n\n"
                              "- **Portfolio Value:** `$10,000.00`\n"
-                             "- **Total Return:** `+0.00%`\n"
+                             "### Contrarian Strategy\n\n"
+                             "- **Portfolio Value:** `$10,000.00`\n"
                          )):
 
                         # Create mock engine instance

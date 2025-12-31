@@ -325,14 +325,13 @@ class TestFullWorkflowIntegration:
             assert state_file.exists()
             assert portfolio_file.exists()
 
-            # Format output
+            # Format output (single strategy format)
             rankings = tracker.get_ranked_tokens()
-            output = format_sentiment_portfolio_results(results, rankings)
+            output = format_sentiment_portfolio_results(results, rankings, strategy_name="Momentum")
 
             # Verify output format
-            assert "## 📈 Sentiment Portfolio" in output
+            assert "Momentum Strategy" in output
             assert "Portfolio Summary" in output
-            assert "Sentiment Rankings" in output
             assert "Current Positions" in output
             assert "BTC" in output
             assert "ETH" in output
