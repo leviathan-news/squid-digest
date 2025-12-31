@@ -8,21 +8,21 @@
 AI-powered daily digest generator that pulls top headlines from Leviathan News, processes them through LLM providers, and publishes to Ghost CMS. Built by SQUID pirates for the crypto seas!
 
 <!-- DAILY_UPDATE_START -->
-## 📊 Latest News Headlines (December 30, 2025)
+## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Many people try crypto once and never return, not because they explored its depth, but because their first interaction felt confusing, transactional, and stacked in favor of insiders. First impressions calcify fast, especially when expectations don’t match outcomes.** [𝕏/0xPrince](https://leviathannews.xyz/redirect/23009?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lighter DEX launches LIT token with 25% airdrop. The LIT token supply is split evenly between the ecosystem and team/investors, with a portion airdropped to early participants.** [𝕏/@Lighter_xyz](https://leviathannews.xyz/redirect/23021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **KuCoin advances its global regulatory standing with fresh approvals across Europe and Australia, signaling how major exchanges are adapting to a stricter compliance-first era as crypto oversight becomes a baseline, not a differentiator.** [𝕏/beincrypto](https://leviathannews.xyz/redirect/23010?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SolStaking launched its New Year yield program, combining on-chain staking and real-world income sources to deliver automated, market-independent rewards across major crypto assets, with institutional-grade security and flexible allocation.** [crypto.news](https://leviathannews.xyz/redirect/23012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto Options are poised to be the breakout instrument for 2026, per intern_cc** [𝕏/@intern_cc](https://leviathannews.xyz/redirect/23013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Want to vibe code like Johnnyonline? A practical guide explains how “vibe coding” lets anyone build software by describing ideas to AI tools, iterating fast, and focusing on what to build rather than how to code, dramatically lowering the barrier to creating real apps.** [𝕏/@SuhailKakar](https://leviathannews.xyz/redirect/23008?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The US may have banned a CBDC, but through stablecoin regulation, 1:1 reserves, & institutional integration, stablecoins become America's de-facto digital dollar.** [Paragraph](https://leviathannews.xyz/redirect/23023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The 2025 crypto news cycle, plotted in one graph** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/23027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chinese investors bet $188m on CBDC tech after central bank revolutionary payout decision. Chinese banks will pay customers interest on their CBDC holdings.** [DL News](https://leviathannews.xyz/redirect/23026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WPA Hash launched a next-generation AI-driven cloud mining system, offering automated hashrate optimization, institutional-grade security, and green energy-powered mining to deliver stable passive yields across multiple cryptocurrencies.** [crypto.news](https://leviathannews.xyz/redirect/23011?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,803.87 (+8.04%) | [Full Analysis →](writeup/2025/12/30/signals_2025-12-30.md)
-**Sell Strategy:** $7,478.07 (-25.22%) | [Full Analysis →](writeup/2025/12/30/signals_2025-12-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md)
 
-**GitHub:** 12-30-25 | [Archives](writeup/)
-**digest.leviathannews.xyz:** 12-30-25 | [Archives](https://digest.leviathannews.xyz)
+**GitHub:** 12-31-25 | [Archives](writeup/)
+**digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
 
 ---
 <!-- DAILY_UPDATE_END -->

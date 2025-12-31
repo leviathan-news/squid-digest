@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 30, 2025)
+## 🔥 Latest Headlines (December 31, 2025)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/30/signals_2025-12-30.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/30/signals_2025-12-30.md)
+📊 [View Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/31/signals_2025-12-31.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 23 - Dec 30)
+### 📅 This Week (Dec 24 - Dec 31)
+
+[**Wednesday, December 31, 2025**](writeup/2025/12/31/signals_2025-12-31.md)
 
 [**Tuesday, December 30, 2025**](writeup/2025/12/30/signals_2025-12-30.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, December 24, 2025**](writeup/2025/12/24/signals_2025-12-24.md)
 
-[**Tuesday, December 23, 2025**](writeup/2025/12/23/signals_2025-12-23.md)
+### 📅 Last Week (Dec 17 - Dec 23)
 
-### 📅 Last Week (Dec 16 - Dec 22)
+[**Tuesday, December 23, 2025**](writeup/2025/12/23/signals_2025-12-23.md)
 
 [**Monday, December 22, 2025**](writeup/2025/12/22/signals_2025-12-22.md)
 
@@ -58,9 +60,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
 
-[**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
+### 📅 Week of Dec 10 - Dec 16
 
-### 📅 Week of Dec 09 - Dec 14
+[**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
 
 [**Sunday, December 14, 2025**](writeup/2025/12/14/signals_2025-12-14.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
 
-[**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
+### 📅 Week of Dec 04 - Dec 09
 
-### 📅 Week of Dec 03 - Dec 08
+[**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
 [**Monday, December 08, 2025**](writeup/2025/12/08/signals_2025-12-08.md)
 
@@ -85,9 +87,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
 
 [**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
-
-[**Wednesday, December 03, 2025**](writeup/2025/12/03/signals_2025-12-03.md)
-Ten major EU banks including BNP Paribas, ING, and UniCredit—are forming Qivalis to launch a MiCA-compliant euro stablecoin by 2026, aiming to challenge the dollar’s 99% dominance in the global stablecoin market. [Cryptonews](https://leviathannews.xyz/redirect/21576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=false)
 <!-- DAILY_UPDATE_END -->
 
 ---
