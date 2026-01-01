@@ -1468,60 +1468,62 @@ async def bundle_writeup(verbose=False):
                                 except Exception:
                                     pass
 
-                                raise ValueError(
-                                    f"CRITICAL: Both strict and fallback prompts failed to generate valid signals. "
-                                    f"LLM may need prompt adjustment or there may be insufficient news catalysts. "
-                                    f"See diagnostic file for details."
-                                )
-
-                            logger.info("✓ Fallback prompt generated signals successfully")
-                        # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
-                            retry_signals = canonicalize_trading_signals_to_bold_lines(retry_signals)
-                            trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
-                                retry_signals,
-                                allow_hold_coercion=True,
-                            )
-                            if coercion_changes:
+                                # Instead of crashing, continue with empty signals
                                 logger.warning(
-                                    f"⚠️ Coerced {len(coercion_changes)} invalid signal label(s) to supported types "
-                                    f"(saved in output for pipeline safety)"
+                                    "⚠️ Both strict and fallback prompts failed to generate valid signals. "
+                                    "Continuing with empty signals section. See diagnostic file for details."
                                 )
-
-                            # Re-parse signals from retry
-                            temp_dir = Path(tempfile.gettempdir())
-                            temp_filename = f"signals_{today_str}_retry.md"
-                            tmp_path = temp_dir / temp_filename
-
-                            with open(tmp_path, 'w') as tmp_file:
-                                tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
-
-                            try:
-                                today_signals = signal_parser.parse_file(tmp_path)
-                                if verbose and today_signals:
-                                    logger.info(f"✓ Parsed {len(today_signals)} signals from retry for backtesting")
-                            finally:
-                                if tmp_path.exists():
-                                    tmp_path.unlink()
-
-                            # If parsing still failed, try one more time with canonicalized output.
-                            if not today_signals:
-                                logger.warning("⚠️ Retry signals still did not parse; attempting canonicalization+reparse")
-                                canonical = canonicalize_trading_signals_to_bold_lines(trading_signals)
-                                canonical, _ = coerce_trading_signals_to_supported_types(
-                                    canonical,
+                                trading_signals = "*No valid trading signals could be generated today.*"
+                                today_signals = []
+                            else:
+                                logger.info("✓ Fallback prompt generated signals successfully")
+                                # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
+                                retry_signals = canonicalize_trading_signals_to_bold_lines(retry_signals)
+                                trading_signals, coercion_changes = coerce_trading_signals_to_supported_types(
+                                    retry_signals,
                                     allow_hold_coercion=True,
                                 )
+                                if coercion_changes:
+                                    logger.warning(
+                                        f"⚠️ Coerced {len(coercion_changes)} invalid signal label(s) to supported types "
+                                        f"(saved in output for pipeline safety)"
+                                    )
 
-                                tmp_path = temp_dir / f"signals_{today_str}_retry_canonical.md"
+                                # Re-parse signals from retry
+                                temp_dir = Path(tempfile.gettempdir())
+                                temp_filename = f"signals_{today_str}_retry.md"
+                                tmp_path = temp_dir / temp_filename
+
                                 with open(tmp_path, 'w') as tmp_file:
-                                    tmp_file.write(f"## 🎯 Trading Signals\n\n{canonical}")
+                                    tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
+
                                 try:
                                     today_signals = signal_parser.parse_file(tmp_path)
                                     if verbose and today_signals:
-                                        logger.info(f"✓ Parsed {len(today_signals)} signals after canonicalization")
+                                        logger.info(f"✓ Parsed {len(today_signals)} signals from retry for backtesting")
                                 finally:
                                     if tmp_path.exists():
                                         tmp_path.unlink()
+
+                                # If parsing still failed, try one more time with canonicalized output.
+                                if not today_signals:
+                                    logger.warning("⚠️ Retry signals still did not parse; attempting canonicalization+reparse")
+                                    canonical = canonicalize_trading_signals_to_bold_lines(trading_signals)
+                                    canonical, _ = coerce_trading_signals_to_supported_types(
+                                        canonical,
+                                        allow_hold_coercion=True,
+                                    )
+
+                                    tmp_path = temp_dir / f"signals_{today_str}_retry_canonical.md"
+                                    with open(tmp_path, 'w') as tmp_file:
+                                        tmp_file.write(f"## 🎯 Trading Signals\n\n{canonical}")
+                                    try:
+                                        today_signals = signal_parser.parse_file(tmp_path)
+                                        if verbose and today_signals:
+                                            logger.info(f"✓ Parsed {len(today_signals)} signals after canonicalization")
+                                    finally:
+                                        if tmp_path.exists():
+                                            tmp_path.unlink()
 
                             # Continue with sentiment portfolio using retry signals
                             if today_signals:

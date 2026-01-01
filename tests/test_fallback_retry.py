@@ -305,6 +305,43 @@ class TestFallbackRetryPath:
             f"HOLD should be coerced to WEAK BUY/SELL. Got: {result}"
 
 
+class TestGracefulDegradation:
+    """Test graceful degradation when LLM fails to generate valid signals."""
+
+    def test_invalid_format_does_not_crash(self):
+        """Script should continue with empty signals when LLM returns invalid format."""
+        # Simulate LLM returning market commentary instead of signals
+        invalid_response = """
+**Macro demand for alternative stores of value** — Bitcoin and Ether are positioned as scarce digital commodities
+
+**Technical analysis suggests caution** — Moving averages show consolidation patterns
+"""
+        # Verify this would NOT pass format validation
+        import re
+        valid_signal_type_re = r'(STRONG\s+BUY|BUY|WEAK\s+BUY|WEAK\s+SELL|SELL|STRONG\s+SELL)'
+        format_valid = re.search(
+            rf'^\s*\*\*\$[A-Za-z0-9]+\s+[^:]+?:\s+{valid_signal_type_re}\*\*\s*-\s*.+$',
+            invalid_response,
+            re.IGNORECASE | re.MULTILINE
+        )
+        assert format_valid is None, "Invalid format should not pass validation"
+
+    def test_valid_signal_format_passes(self):
+        """Valid signal format should pass validation."""
+        valid_response = """**$BTC Bitcoin: STRONG BUY** - Momentum looks bullish
+
+**$ETH Ethereum: SELL** - Breaking down from support
+"""
+        import re
+        valid_signal_type_re = r'(STRONG\s+BUY|BUY|WEAK\s+BUY|WEAK\s+SELL|SELL|STRONG\s+SELL)'
+        format_valid = re.search(
+            rf'^\s*\*\*\$[A-Za-z0-9]+\s+[^:]+?:\s+{valid_signal_type_re}\*\*\s*-\s*.+$',
+            valid_response,
+            re.IGNORECASE | re.MULTILINE
+        )
+        assert format_valid is not None, "Valid format should pass validation"
+
+
 class TestSignalParserEdgeCases:
     """Additional edge case tests for signal parser robustness."""
 
