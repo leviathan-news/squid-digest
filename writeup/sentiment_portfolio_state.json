@@ -1,0 +1,173 @@
+{
+  "cash": 7000.0,
+  "positions": {
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.402864800569938,
+      "entry_price": 2978.666784247084,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 9.628163320188676,
+      "entry_price": 124.63436276405876,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.013661933980606977,
+      "entry_price": 87835.2948933432,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": 8224.688642316794,
+      "entry_price": 0.14590217966743294,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "quantity": 8.26269602981087,
+      "entry_price": 145.23104755040438,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": -3610.364505522521,
+      "entry_price": 0.27698034325076326,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": -5235.062426793225,
+      "entry_price": 0.19101968963769494,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": -3520.15743961388,
+      "entry_price": 0.28407820307880555,
+      "entry_date": "2026-01-01T14:15:42.976052",
+      "entry_signal": "SENTIMENT_SHORT"
+    }
+  },
+  "trades": [
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.402864800569938,
+      "price": 2978.666784247084,
+      "value": 1200.0,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 9.628163320188676,
+      "price": 124.63436276405876,
+      "value": 1200.0,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.013661933980606977,
+      "price": 87835.2948933432,
+      "value": 1200.0,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "BUY",
+      "quantity": 8224.688642316794,
+      "price": 0.14590217966743294,
+      "value": 1200.0,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 8.26269602981087,
+      "price": 145.23104755040438,
+      "value": 1200.0,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 3610.364505522521,
+      "price": 0.27698034325076326,
+      "value": 1000.0,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 5235.062426793225,
+      "price": 0.19101968963769494,
+      "value": 1000.0,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-01T14:15:42.976052",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 3520.15743961388,
+      "price": 0.28407820307880555,
+      "value": 1000.0,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    }
+  ],
+  "daily_values": [
+    [
+      "2026-01-01T14:15:42.976052",
+      10000.0
+    ]
+  ]
+}
