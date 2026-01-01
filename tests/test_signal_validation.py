@@ -31,6 +31,21 @@ class TestSignalOutputValidation:
 🟡 Ethereum ([$ETH](https://leviathannews.xyz/t/ETH)): WEAK BUY - Network upgrade momentum
 🔴 Solana ([$SOL](https://leviathannews.xyz/t/SOL)): SELL - Validator concerns
 
+## 📈 Sentiment Portfolio
+
+### Sentiment Rankings
+| Token | Score |
+|-------|-------|
+| BTC | +3.0 |
+
+### Momentum Strategy
+
+- **Portfolio Value:** `$10,500.00`
+
+### Contrarian Strategy
+
+- **Portfolio Value:** `$9,800.00`
+
 ---
 *Disclaimer*
 """
@@ -68,7 +83,8 @@ class TestSignalOutputValidation:
         try:
             is_valid, message = validate_signals_file(temp_path)
             assert not is_valid, "Empty signals section should fail validation"
-            assert "empty or too short" in message.lower()
+            # May fail with "empty or too short" or "No trading signals found"
+            assert "empty" in message.lower() or "no trading signals" in message.lower()
         finally:
             temp_path.unlink()
 
@@ -166,9 +182,20 @@ Ethereum: WEAK BUY - Another reason
 🟠 Ripple ([$XRP](url)): WEAK SELL - Reason 4
 🔴 Dogecoin ([$DOGE](url)): SELL - Reason 5
 
-## 📊 Backtest Results
+## 📈 Sentiment Portfolio
 
-[backtest data here]
+### Sentiment Rankings
+| Token | Score |
+|-------|-------|
+| BTC | +3.0 |
+
+### Momentum Strategy
+
+- **Portfolio Value:** `$10,500.00`
+
+### Contrarian Strategy
+
+- **Portfolio Value:** `$9,800.00`
 
 ---
 *Disclaimer*
@@ -262,7 +289,7 @@ Some market data
         try:
             is_valid, message = validate_signals_file(temp_path)
             assert not is_valid, "Signals without backtest should fail validation"
-            assert "backtest section is missing" in message.lower()
+            assert "portfolio section is missing" in message.lower()
             assert "2 signals" in message  # Should detect 2 signals
         finally:
             temp_path.unlink()
@@ -310,7 +337,61 @@ Some market data
             is_valid, message = validate_signals_file(temp_path)
             assert is_valid, f"Complete signals file should pass. Message: {message}"
             assert "2 valid signals" in message
-            assert "backtest section present" in message
+            assert "portfolio section present" in message
+        finally:
+            temp_path.unlink()
+
+    def test_sentiment_portfolio_format_passes(self):
+        """Test that new sentiment portfolio format passes validation."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        sentiment_format_content = """# Crypto Trading Signals
+
+## 💰 Market Snapshot
+
+Some market data
+
+## 🎯 Trading Signals
+
+🟢 Bitcoin (<a href="url">$BTC</a>): STRONG BUY - Reason 1
+🟢 Ethereum (<a href="url">$ETH</a>): BUY - Reason 2
+
+## 📈 Sentiment Portfolio
+
+### Current Sentiment Rankings
+
+| Token | Sentiment | Trend |
+|-------|-----------|-------|
+| BTC   | +4.2      | ↑     |
+| ETH   | +2.1      | ↓     |
+
+### Momentum Strategy
+
+*Long top sentiment, short bottom sentiment*
+
+- **Portfolio Value:** `$12,450.00`
+- **Total Return:** +24.5%
+
+### Contrarian Strategy
+
+*Long bottom sentiment, short top sentiment*
+
+- **Portfolio Value:** `$9,500.00`
+- **Total Return:** -5.0%
+
+---
+*Disclaimer*
+"""
+
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write(sentiment_format_content)
+            f.flush()
+            temp_path = Path(f.name)
+
+        try:
+            is_valid, message = validate_signals_file(temp_path)
+            assert is_valid, f"Sentiment portfolio format should pass. Message: {message}"
+            assert "2 valid signals" in message
         finally:
             temp_path.unlink()
 

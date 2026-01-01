@@ -100,9 +100,10 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
         )
 
     # Validate signal format
-    # Each signal should match pattern: EMOJI Token (Symbol): SIGNAL_TYPE - reason
+    # Each signal should match pattern: EMOJI Token (Symbol or markdown link): SIGNAL_TYPE - reason
+    # Handle both simple (Symbol) and markdown ([$SYM](url)) formats
     signal_pattern = re.compile(
-        r'^[🟢🔴🟡🟠⚪]\s+[^(]+\s*\([^\)]*\):\s*(STRONG )?(BUY|SELL|WEAK)',
+        r'^[🟢🔴🟡🟠⚪]\s+.+?:\s*(STRONG\s+)?(BUY|SELL|WEAK)',
         re.MULTILINE
     )
 
@@ -119,21 +120,26 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
             f"Sample line: {signal_lines[0] if signal_lines else '(none)'}"
         )
 
-    # CRITICAL: Check for backtest section
-    # If trading signals exist, we MUST have backtest results
+    # CRITICAL: Check for portfolio/backtest section
+    # If trading signals exist, we MUST have portfolio results
     # This prevents the 2025-11-29 failure mode where signals were generated but not backtested
+    # Support both old format (Backtest Results) and new format (Sentiment Portfolio)
+    portfolio_header = "## 📈 Sentiment Portfolio"
     backtest_header = "## 📈 Backtest Results"
-    if backtest_header not in content:
+    has_portfolio_section = portfolio_header in content or backtest_header in content
+    if not has_portfolio_section:
         return False, (
-            f"CRITICAL: Trading signals found ({len(valid_signals)} signals) but backtest section is missing! "
+            f"CRITICAL: Trading signals found ({len(valid_signals)} signals) but portfolio section is missing! "
             f"This indicates signal parsing failed (likely LLM format mismatch). "
-            f"Expected to find '{backtest_header}' section after trading signals."
+            f"Expected to find '{portfolio_header}' or '{backtest_header}' section after trading signals."
         )
 
-    # Extract backtest section and validate it has content
-    backtest_parts = content.split(backtest_header, 1)
+    # Extract portfolio/backtest section and validate it has content
+    # Use whichever header is present
+    active_header = portfolio_header if portfolio_header in content else backtest_header
+    backtest_parts = content.split(active_header, 1)
     if len(backtest_parts) < 2:
-        return False, "Could not extract backtest section"
+        return False, "Could not extract portfolio/backtest section"
 
     backtest_section = backtest_parts[1]
     # Find the end of backtest section (--- separator or end of file)
@@ -151,18 +157,23 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
             f"This indicates backtest may have failed."
         )
 
-    # Check for key backtest indicators
-    required_backtest_terms = ["Buy the News", "Sell the News", "Portfolio Value"]
-    missing_terms = [term for term in required_backtest_terms if term not in backtest_section]
+    # Check for key portfolio/backtest indicators
+    # Support both old format (Buy/Sell the News) and new format (Momentum/Contrarian Strategy)
+    old_format_terms = ["Buy the News", "Sell the News", "Portfolio Value"]
+    new_format_terms = ["Momentum Strategy", "Contrarian Strategy", "Portfolio Value"]
 
-    if missing_terms:
+    has_old_format = all(term in backtest_section for term in old_format_terms)
+    has_new_format = all(term in backtest_section for term in new_format_terms)
+
+    if not has_old_format and not has_new_format:
         return False, (
-            f"Backtest section missing required content: {', '.join(missing_terms)}. "
-            f"This indicates incomplete backtest results."
+            f"Portfolio section missing required content. "
+            f"Expected either {old_format_terms} or {new_format_terms}. "
+            f"This indicates incomplete portfolio/backtest results."
         )
 
     # All validations passed
-    message = f"✓ Signals file validation passed ({len(valid_signals)} valid signals found, backtest section present)"
+    message = f"✓ Signals file validation passed ({len(valid_signals)} valid signals found, portfolio section present)"
     return True, message
 
 
