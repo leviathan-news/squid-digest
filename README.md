@@ -11,15 +11,14 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Want to vibe code like Johnnyonline? A practical guide explains how “vibe coding” lets anyone build software by describing ideas to AI tools, iterating fast, and focusing on what to build rather than how to code, dramatically lowering the barrier to creating real apps.** [𝕏/@SuhailKakar](https://leviathannews.xyz/redirect/23008?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The US may have banned a CBDC, but through stablecoin regulation, 1:1 reserves, & institutional integration, stablecoins become America's de-facto digital dollar.** [Paragraph](https://leviathannews.xyz/redirect/23023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The 2025 crypto news cycle, plotted in one graph** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/23027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chinese investors bet $188m on CBDC tech after central bank revolutionary payout decision. Chinese banks will pay customers interest on their CBDC holdings.** [DL News](https://leviathannews.xyz/redirect/23026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WPA Hash launched a next-generation AI-driven cloud mining system, offering automated hashrate optimization, institutional-grade security, and green energy-powered mining to deliver stable passive yields across multiple cryptocurrencies.** [crypto.news](https://leviathannews.xyz/redirect/23011?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Patrick Scott of Dynamo DeFi releases "Crypto Startup Ideas for 2026 That Actually Matter"** [𝕏/@patfscott](https://leviathannews.xyz/redirect/23064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Recap of 2025 activity around the Llamas ecosystem** [𝕏/@WenLlama](https://leviathannews.xyz/redirect/23063?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The RAAC $pmUSD vault sold out, earning depositors a bonus 10%** [𝕏/@kkrusherr](https://leviathannews.xyz/redirect/23034?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Abbas Khan recaps 2025 Ethereum highlights** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/23033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/01/signals_2026-01-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/01/signals_2026-01-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

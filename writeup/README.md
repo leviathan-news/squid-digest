@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (December 31, 2025)
+## 🔥 Latest Headlines (January 01, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2025/12/31/signals_2025-12-31.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2025/12/31/signals_2025-12-31.md)
+📊 [View Full Analysis →](writeup/2026/01/01/signals_2026-01-01.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/01/01/signals_2026-01-01.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Dec 24 - Dec 31)
+### 📅 This Week (Dec 25 - Jan 01)
+
+[**Thursday, January 01, 2026**](writeup/2026/01/01/signals_2026-01-01.md)
 
 [**Wednesday, December 31, 2025**](writeup/2025/12/31/signals_2025-12-31.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, December 25, 2025**](writeup/2025/12/25/signals_2025-12-25.md)
 
-[**Wednesday, December 24, 2025**](writeup/2025/12/24/signals_2025-12-24.md)
+### 📅 Last Week (Dec 18 - Dec 24)
 
-### 📅 Last Week (Dec 17 - Dec 23)
+[**Wednesday, December 24, 2025**](writeup/2025/12/24/signals_2025-12-24.md)
 
 [**Tuesday, December 23, 2025**](writeup/2025/12/23/signals_2025-12-23.md)
 
@@ -58,9 +60,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, December 18, 2025**](writeup/2025/12/18/signals_2025-12-18.md)
 
-[**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
+### 📅 Week of Dec 11 - Dec 17
 
-### 📅 Week of Dec 10 - Dec 16
+[**Wednesday, December 17, 2025**](writeup/2025/12/17/signals_2025-12-17.md)
 
 [**Tuesday, December 16, 2025**](writeup/2025/12/16/signals_2025-12-16.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, December 11, 2025**](writeup/2025/12/11/signals_2025-12-11.md)
 
-[**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
+### 📅 Week of Dec 05 - Dec 10
 
-### 📅 Week of Dec 04 - Dec 09
+[**Wednesday, December 10, 2025**](writeup/2025/12/10/signals_2025-12-10.md)
 
 [**Tuesday, December 09, 2025**](writeup/2025/12/09/signals_2025-12-09.md)
 
@@ -85,8 +87,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Saturday, December 06, 2025**](writeup/2025/12/06/signals_2025-12-06.md)
 
 [**Friday, December 05, 2025**](writeup/2025/12/05/signals_2025-12-05.md)
-
-[**Thursday, December 04, 2025**](writeup/2025/12/04/signals_2025-12-04.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
