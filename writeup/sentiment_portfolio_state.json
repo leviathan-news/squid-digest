@@ -1,27 +1,27 @@
 {
-  "cash": 7000.0,
+  "cash": 4635.534011209667,
   "positions": {
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.402864800569938,
-      "entry_price": 2978.666784247084,
+      "quantity": 0.6611412615683679,
+      "entry_price": 3007.2932402479155,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 9.628163320188676,
-      "entry_price": 124.63436276405876,
+      "quantity": 15.709921128403147,
+      "entry_price": 126.10725716037577,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.013661933980606977,
-      "entry_price": 87835.2948933432,
+      "quantity": 0.022546014227261206,
+      "entry_price": 88489.48901601038,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -162,12 +162,52 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-02T13:29:43.059542",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.25827646099842994,
+      "price": 3051.9453600857714,
+      "value": 788.245646763532,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-02T13:29:43.059542",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 6.081757808214471,
+      "price": 128.4390283765818,
+      "value": 781.1350637087564,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-02T13:29:43.059542",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.008884080246654229,
+      "price": 89495.50839744785,
+      "value": 795.0852783180442,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
     [
       "2026-01-01T14:15:42.976052",
       10000.0
+    ],
+    [
+      "2026-01-02T13:29:43.059542",
+      10088.835028024168
     ]
   ]
 }
