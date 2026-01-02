@@ -11,14 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Patrick Scott of Dynamo DeFi releases "Crypto Startup Ideas for 2026 That Actually Matter"** [𝕏/@patfscott](https://leviathannews.xyz/redirect/23064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Recap of 2025 activity around the Llamas ecosystem** [𝕏/@WenLlama](https://leviathannews.xyz/redirect/23063?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The RAAC $pmUSD vault sold out, earning depositors a bonus 10%** [𝕏/@kkrusherr](https://leviathannews.xyz/redirect/23034?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Abbas Khan recaps 2025 Ethereum highlights** [𝕏/@KhanAbbas201](https://leviathannews.xyz/redirect/23033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump Media announces plans to distribute digital tokens to DJT shareholders. Shareholders will be eligible to receive one digital token for every whole share of DJT held once the program launches, with additional details expected in the new year. The token will be issued on Crypto.com’s Cronos blockchain, and may come with periodic rewards tied to Trump Media products such as Truth Social, Truth+, and Truth Predict.** [Globenewswire](https://leviathannews.xyz/redirect/23061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Trademark Dispute: A Tale of Web2 Fragility" 
+
+Truemarkets X account is still suspended, and co-founder Millie shares his thoughts on that** [𝕏](https://leviathannews.xyz/redirect/23105?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump-linked crypto holdings saw a roughly $9M drawdown in 2025 as volatility hit meme, stablecoin, and DeFi positions, despite growing pro-crypto rhetoric during his second term.** [crypto.news](https://leviathannews.xyz/redirect/23078?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik brings back the milady, and shares his view on the Ethereum community's mission for 2026 - "To build the world computer that serves as a central infrastructure piece of a more free and open internet"** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/23081?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New Year Yields by Curve!** [news.curve.finance](https://leviathannews.xyz/redirect/23075?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/01/signals_2026-01-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/01/signals_2026-01-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/02/signals_2026-01-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/02/signals_2026-01-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
