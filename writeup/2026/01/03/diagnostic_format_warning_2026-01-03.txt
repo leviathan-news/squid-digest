@@ -1,0 +1,43 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 830 chars. First 500 chars: The search results provided contain general 2026 market outlook and sentiment analysis rather than specific news catalysts tied to individual tokens. Without token-specific news events or developments, I cannot generate actionable trading signals following the framework that requires real news-driven catalysts.
+
+The search results discuss broader themes like Bitcoin breaking the four-year cycle, institutional adoption acceleration, and regulatory progress (Clarity Act on January 15th), but don't
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+The search results provided contain general 2026 market outlook and sentiment analysis rather than specific news catalysts tied to individual tokens. Without token-specific news events or developments, I cannot generate actionable trading signals following the framework that requires real news-driven catalysts.
+
+The search results discuss broader themes like Bitcoin breaking the four-year cycle, institutional adoption acceleration, and regulatory progress (Clarity Act on January 15th), but don't announce concrete developments affecting particular tracked tokens that would justify buy/sell signals.
+
+To provide trading signals, I would need news about specific token developments—such as protocol upgrades, governance changes, partnerships, security issues, or regulatory actions tied directly to tokens in the tracked list.
+
+News items sent (8):
+[1] Solana’s major “Alpenglow” upgrade that would cut transaction latency by 100x, matching Google & Visa speeds, is set for Q1 2026. Could this kickstart a 2026 altcoin season? - https://leviathannews.xyz/redirect/23119?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] RAAC Whitepaper Is Live, Days After $1M pmUSD Bond Fully Subscribed - https://leviathannews.xyz/redirect/23125?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Antidrain introduced a new wallet extension that lets compromised wallet victims rescue airdrops or undrained/staked assets in a single click using sponsored EIP-7702 transactions, automating claims without manual contract or hex data input. - https://leviathannews.xyz/redirect/23127?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Many users are unknowingly exposing their wallet addresses through Galxe verification tweets. The posted Galxe ID can be used by anyone to look up the linked wallet, making old verification tweets a privacy risk. Users are advised to delete these tweets after verification. - https://leviathannews.xyz/redirect/23126?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] '2026 is the year of verified yield for DeFi' as more funds move on-chain via tokenization - https://leviathannews.xyz/redirect/23124?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Aave Labs offers an olive branch in a move to ease governance tensions with non-protocol revenue sharing. - https://leviathannews.xyz/redirect/23131?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] a16z outlined its 2026 crypto watchlist, highlighting stablecoins as internet settlement rails, onchain RWA origination, agent-native payments, privacy as a core moat, runtime security, scalable prediction markets, zkVMs, and onchain wealth management. - https://leviathannews.xyz/redirect/23128?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] 50 min to go
+
+Who's bidding?
+
+First SQUID Pass of 2026 - https://leviathannews.xyz/redirect/23111?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 530 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 513 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 296 news articles (TVL: $100,000)
+$AAVE Aave - 263 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$XRP XRP - 74 news articles (TVL: $636,416,718)
+$SOL Solana - 68 news articles (TVL: $800,000,000,000)
+$BNB BNB - 62 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 62 news articles (TVL: $5,647,064)
+$AVAX Avalanche - ...

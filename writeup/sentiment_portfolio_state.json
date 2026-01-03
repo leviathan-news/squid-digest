@@ -1,5 +1,5 @@
 {
-  "cash": 4635.534011209667,
+  "cash": 3046.167923053078,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -44,16 +44,16 @@
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
-      "quantity": -3610.364505522521,
-      "entry_price": 0.27698034325076326,
+      "quantity": -4899.531000709893,
+      "entry_price": 0.2845611223179884,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "ARB": {
       "symbol": "ARB",
       "token_name": "Arbitrum",
-      "quantity": -5235.062426793225,
-      "entry_price": 0.19101968963769494,
+      "quantity": -7231.284799092329,
+      "entry_price": 0.19548297435926543,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -64,6 +64,22 @@
       "entry_price": 0.28407820307880555,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 2969.846239486833,
+      "entry_price": 0.4035857408446335,
+      "entry_date": "2026-01-03T13:26:03.095458",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": 84.97827383933553,
+      "entry_price": 14.104635698108627,
+      "entry_date": "2026-01-03T13:26:03.095458",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -198,6 +214,54 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-03T13:26:03.095458",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 2969.846239486833,
+      "price": 0.4035857408446335,
+      "value": 1198.5875947579423,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-03T13:26:03.095458",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 84.97827383933553,
+      "price": 14.104635698108627,
+      "value": 1198.5875947579423,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-03T13:26:03.095458",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 1289.1664951873724,
+      "price": 0.3057914100819749,
+      "value": 394.21604039378417,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-03T13:26:03.095458",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 1996.2223722991039,
+      "price": 0.2071878698008805,
+      "value": 413.59306096551154,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -208,6 +272,10 @@
     [
       "2026-01-02T13:29:43.059542",
       10088.835028024168
+    ],
+    [
+      "2026-01-03T13:26:03.095458",
+      9988.229956316189
     ]
   ]
 }
