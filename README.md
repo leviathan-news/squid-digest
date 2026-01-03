@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Trump Media announces plans to distribute digital tokens to DJT shareholders. Shareholders will be eligible to receive one digital token for every whole share of DJT held once the program launches, with additional details expected in the new year. The token will be issued on Crypto.com’s Cronos blockchain, and may come with periodic rewards tied to Trump Media products such as Truth Social, Truth+, and Truth Predict.** [Globenewswire](https://leviathannews.xyz/redirect/23061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Trademark Dispute: A Tale of Web2 Fragility" 
-
-Truemarkets X account is still suspended, and co-founder Millie shares his thoughts on that** [𝕏](https://leviathannews.xyz/redirect/23105?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump-linked crypto holdings saw a roughly $9M drawdown in 2025 as volatility hit meme, stablecoin, and DeFi positions, despite growing pro-crypto rhetoric during his second term.** [crypto.news](https://leviathannews.xyz/redirect/23078?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik brings back the milady, and shares his view on the Ethereum community's mission for 2026 - "To build the world computer that serves as a central infrastructure piece of a more free and open internet"** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/23081?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **New Year Yields by Curve!** [news.curve.finance](https://leviathannews.xyz/redirect/23075?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana’s major “Alpenglow” upgrade that would cut transaction latency by 100x, matching Google & Visa speeds, is set for Q1 2026. Could this kickstart a 2026 altcoin season?** [Paragraph](https://leviathannews.xyz/redirect/23119?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RAAC Whitepaper Is Live, Days After $1M pmUSD Bond Fully Subscribed** [𝕏](https://leviathannews.xyz/redirect/23125?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Antidrain introduced a new wallet extension that lets compromised wallet victims rescue airdrops or undrained/staked assets in a single click using sponsored EIP-7702 transactions, automating claims without manual contract or hex data input.** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/23127?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Many users are unknowingly exposing their wallet addresses through Galxe verification tweets. The posted Galxe ID can be used by anyone to look up the linked wallet, making old verification tweets a privacy risk. Users are advised to delete these tweets after verification.** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/23126?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **'2026 is the year of verified yield for DeFi' as more funds move on-chain via tokenization** [𝕏/@AccountableData](https://leviathannews.xyz/redirect/23124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/02/signals_2026-01-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/02/signals_2026-01-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/03/signals_2026-01-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/03/signals_2026-01-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
