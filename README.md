@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Solana’s major “Alpenglow” upgrade that would cut transaction latency by 100x, matching Google & Visa speeds, is set for Q1 2026. Could this kickstart a 2026 altcoin season?** [Paragraph](https://leviathannews.xyz/redirect/23119?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RAAC Whitepaper Is Live, Days After $1M pmUSD Bond Fully Subscribed** [𝕏](https://leviathannews.xyz/redirect/23125?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Antidrain introduced a new wallet extension that lets compromised wallet victims rescue airdrops or undrained/staked assets in a single click using sponsored EIP-7702 transactions, automating claims without manual contract or hex data input.** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/23127?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Many users are unknowingly exposing their wallet addresses through Galxe verification tweets. The posted Galxe ID can be used by anyone to look up the linked wallet, making old verification tweets a privacy risk. Users are advised to delete these tweets after verification.** [𝕏/@Zun2025](https://leviathannews.xyz/redirect/23126?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **'2026 is the year of verified yield for DeFi' as more funds move on-chain via tokenization** [𝕏/@AccountableData](https://leviathannews.xyz/redirect/23124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Address poisoning attacks remain a widespread crypto scam, where attackers send tiny “dust” transactions from look-alike wallet addresses to trick users into copying the wrong recipient, leading to irreversible losses. In 2025 alone, the tactic contributed to major thefts, including $50M USDT and $68M wBTC incidents, with personal wallet attacks totaling $713M for the year.You can also avoid it by following the steps.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/23156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase will discontinue peso-to-USDC trading in Argentina on January 31, 2026, ending local fiat on/off-ramps just a year after launch. Crypto-to-crypto trading remains available, with users given 30 days to convert and withdraw ARS amid growing regulatory and political uncertainty.** [Cryptonews](https://leviathannews.xyz/redirect/23159?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Phantom launched in-wallet prediction markets, enabling users to discover, discuss, and trade real-world events across politics, sports, crypto, and culture directly in Phantom, powered by Kalshi with social chat, binary positions, and seamless wallet-based trading.** [𝕏/@phantom](https://leviathannews.xyz/redirect/23155?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A guide explains how traders profit from arbitrage between Polymarket, Kalshi, and Opinion by buying YES and NO across identical markets when odds misalign. With liquidity-aware execution, spreads can deliver 12–20% monthly returns without waiting for market resolution.** [𝕏/@securezer0](https://leviathannews.xyz/redirect/23158?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A curated list of 10 perp DEXs likely to launch tokens in 2026, based on traction, funding, and active points programs. Projects like Variational, Ethereal, Hibachi, Cascade, and Pacifica stand out with strong OI, volume growth, and top-tier backers. Many remain invite-only, giving early users potential airdrop upside as perp DEXs continue expanding across crypto and traditional markets.** [𝕏/@fiyalkin](https://leviathannews.xyz/redirect/23157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/03/signals_2026-01-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/03/signals_2026-01-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/04/signals_2026-01-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/04/signals_2026-01-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
