@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Address poisoning attacks remain a widespread crypto scam, where attackers send tiny “dust” transactions from look-alike wallet addresses to trick users into copying the wrong recipient, leading to irreversible losses. In 2025 alone, the tactic contributed to major thefts, including $50M USDT and $68M wBTC incidents, with personal wallet attacks totaling $713M for the year.You can also avoid it by following the steps.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/23156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase will discontinue peso-to-USDC trading in Argentina on January 31, 2026, ending local fiat on/off-ramps just a year after launch. Crypto-to-crypto trading remains available, with users given 30 days to convert and withdraw ARS amid growing regulatory and political uncertainty.** [Cryptonews](https://leviathannews.xyz/redirect/23159?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Phantom launched in-wallet prediction markets, enabling users to discover, discuss, and trade real-world events across politics, sports, crypto, and culture directly in Phantom, powered by Kalshi with social chat, binary positions, and seamless wallet-based trading.** [𝕏/@phantom](https://leviathannews.xyz/redirect/23155?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A guide explains how traders profit from arbitrage between Polymarket, Kalshi, and Opinion by buying YES and NO across identical markets when odds misalign. With liquidity-aware execution, spreads can deliver 12–20% monthly returns without waiting for market resolution.** [𝕏/@securezer0](https://leviathannews.xyz/redirect/23158?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A curated list of 10 perp DEXs likely to launch tokens in 2026, based on traction, funding, and active points programs. Projects like Variational, Ethereal, Hibachi, Cascade, and Pacifica stand out with strong OI, volume growth, and top-tier backers. Many remain invite-only, giving early users potential airdrop upside as perp DEXs continue expanding across crypto and traditional markets.** [𝕏/@fiyalkin](https://leviathannews.xyz/redirect/23157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **How to evaluate crypto with DeFi metrics** [𝕏/@patfscott](https://leviathannews.xyz/redirect/23178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A new Katana Yield Token modeling tool is now available. The release comes ahead of Katana’s expected token generation event in the coming months.** [𝕏/@AbsoluteUknit](https://leviathannews.xyz/redirect/23176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto funds raked in $47.2B in 2025, just under last year’s peak, as U.S. buyers piled into Ethereum, XRP, and Solana and a handful of ETF giants tightened their grip on the market** [Cryptonews](https://leviathannews.xyz/redirect/23173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn's first Weekly Blue Pill!** [𝕏/@yearnfi](https://leviathannews.xyz/redirect/23177?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **China enlists 10 major banks, including WeBank and Alipay’s MYBank, to pay 0.05% interest on digital yuan and enable e-CNY investment in stocks and bonds from March 20, 2026** [DL News](https://leviathannews.xyz/redirect/23207?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/04/signals_2026-01-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/04/signals_2026-01-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/06/signals_2026-01-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/06/signals_2026-01-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
