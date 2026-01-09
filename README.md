@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **How to evaluate crypto with DeFi metrics** [𝕏/@patfscott](https://leviathannews.xyz/redirect/23178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A new Katana Yield Token modeling tool is now available. The release comes ahead of Katana’s expected token generation event in the coming months.** [𝕏/@AbsoluteUknit](https://leviathannews.xyz/redirect/23176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto funds raked in $47.2B in 2025, just under last year’s peak, as U.S. buyers piled into Ethereum, XRP, and Solana and a handful of ETF giants tightened their grip on the market** [Cryptonews](https://leviathannews.xyz/redirect/23173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Yearn's first Weekly Blue Pill!** [𝕏/@yearnfi](https://leviathannews.xyz/redirect/23177?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **China enlists 10 major banks, including WeBank and Alipay’s MYBank, to pay 0.05% interest on digital yuan and enable e-CNY investment in stocks and bonds from March 20, 2026** [DL News](https://leviathannews.xyz/redirect/23207?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A crypto user lost $5,000 after connecting to a hotel’s public Wi-Fi, unknowingly approving a malicious wallet permission that was later used to drain funds. No phishing link, no fake site — just one “harmless” approval. The real question: how many of us would’ve clicked it too?** [𝕏/@the_smart_ape](https://leviathannews.xyz/redirect/23343?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polygon Labs unveils ‘Open Money Stack’ to power borderless stablecoin payments. The system will bring together various elements of the payment stack, including liquidity, orchestration, and regulatory controls.** [𝕏/@0xMarcB](https://leviathannews.xyz/redirect/23381?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitnomial wins U.S. regulator's nod on prediction markets push, joins growing crowd. The approval letter was issued on Thursday by the Commodity Futures Trading Commission.** [Coindesk](https://leviathannews.xyz/redirect/23384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **More on cybercrime kingpin Chen Zhi built a globe‑spanning, award‑winning business empire allegedly funded by industrial‑scale human trafficking and crypto sextortion that generated billions of dollars a year.** [𝕏/@vxunderground](https://leviathannews.xyz/redirect/23395?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Akshit (Epoch Protocol) lost over $20k after running a malicious repo linked to the “contagious interview” malware, allegedly tied to DPRK hackers. The code granted root access, leaked env keys, and drained multiple EVM and Solana wallets—highlighting how dev hygiene lapses can be fatal.** [𝕏/@OstwalAk](https://leviathannews.xyz/redirect/23392?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/06/signals_2026-01-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/06/signals_2026-01-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/09/signals_2026-01-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/09/signals_2026-01-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
