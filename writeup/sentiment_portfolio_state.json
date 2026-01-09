@@ -1,5 +1,5 @@
 {
-  "cash": 1833.4340751940097,
+  "cash": 596.9293855746539,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -87,6 +87,14 @@
       "quantity": 511.47360138134644,
       "entry_price": 2.371058534758813,
       "entry_date": "2026-01-06T13:34:39.467824",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "POL": {
+      "symbol": "POL",
+      "token_name": "Polygon",
+      "quantity": 8268.047783326416,
+      "entry_price": 0.1495521944264675,
+      "entry_date": "2026-01-09T13:35:00.495902",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -282,6 +290,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-09T13:35:00.495902",
+      "symbol": "POL",
+      "token_name": "Polygon",
+      "action": "BUY",
+      "quantity": 8268.047783326416,
+      "price": 0.1495521944264675,
+      "value": 1236.5046896193558,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -304,6 +324,10 @@
     [
       "2026-01-06T13:34:39.467824",
       10106.11539882557
+    ],
+    [
+      "2026-01-09T13:35:00.495902",
+      10304.205746827965
     ]
   ]
 }

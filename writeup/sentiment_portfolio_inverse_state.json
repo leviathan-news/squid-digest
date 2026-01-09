@@ -1,5 +1,5 @@
 {
-  "cash": 8219.413919848745,
+  "cash": 8810.362624972528,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -87,6 +87,14 @@
       "quantity": -269.4053987943976,
       "entry_price": 2.371058534758813,
       "entry_date": "2026-01-06T13:34:39.467824",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "POL": {
+      "symbol": "POL",
+      "token_name": "Polygon",
+      "quantity": -3951.454590085219,
+      "entry_price": 0.1495521944264675,
+      "entry_date": "2026-01-09T13:35:00.495902",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -282,6 +290,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-09T13:35:00.495902",
+      "symbol": "POL",
+      "token_name": "Polygon",
+      "action": "SHORT",
+      "quantity": 3951.454590085219,
+      "price": 0.1495521944264675,
+      "value": 590.9487051237821,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -304,6 +324,10 @@
     [
       "2026-01-06T13:34:39.467824",
       10646.266168692635
+    ],
+    [
+      "2026-01-09T13:35:00.495902",
+      9849.14508539637
     ]
   ]
 }
