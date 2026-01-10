@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **A crypto user lost $5,000 after connecting to a hotel’s public Wi-Fi, unknowingly approving a malicious wallet permission that was later used to drain funds. No phishing link, no fake site — just one “harmless” approval. The real question: how many of us would’ve clicked it too?** [𝕏/@the_smart_ape](https://leviathannews.xyz/redirect/23343?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polygon Labs unveils ‘Open Money Stack’ to power borderless stablecoin payments. The system will bring together various elements of the payment stack, including liquidity, orchestration, and regulatory controls.** [𝕏/@0xMarcB](https://leviathannews.xyz/redirect/23381?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitnomial wins U.S. regulator's nod on prediction markets push, joins growing crowd. The approval letter was issued on Thursday by the Commodity Futures Trading Commission.** [Coindesk](https://leviathannews.xyz/redirect/23384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **More on cybercrime kingpin Chen Zhi built a globe‑spanning, award‑winning business empire allegedly funded by industrial‑scale human trafficking and crypto sextortion that generated billions of dollars a year.** [𝕏/@vxunderground](https://leviathannews.xyz/redirect/23395?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Akshit (Epoch Protocol) lost over $20k after running a malicious repo linked to the “contagious interview” malware, allegedly tied to DPRK hackers. The code granted root access, leaked env keys, and drained multiple EVM and Solana wallets—highlighting how dev hygiene lapses can be fatal.** [𝕏/@OstwalAk](https://leviathannews.xyz/redirect/23392?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump says he won’t pardon jailed FTX founder Sam Bankman-Fried, who is serving a 25-year sentence for fraud, despite clemency attempts; Bankman-Fried was a major Biden donor in 2020, while Trump has pardoned other crypto figures in the past.** [The Block](https://leviathannews.xyz/redirect/23441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Today, we became aware of a security incident involving one or more malicious actors. The affected smart contract is 0x764C64b2A09b09Acb100B80d8c505Aa6a0302EF2 and we strongly advi...** [𝕏/@Truebitprotocol](https://leviathannews.xyz/redirect/23399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pangea research finds that YieldBasis delivers better market depth than Uniswap thanks to Curve's innovative FXSwap AMM design** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/23451?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Artemis II, which will brings back human around the moon for the first time in decades, could launch as soon as february 6 according to NASA** [nasa.gov](https://leviathannews.xyz/redirect/23452?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sealaunch intelligence’s 2025 onchain revenue analysis shows that a handful of category leaders—Tether in stablecoins, Aave in lending, and Phantom in wallets—each generated more revenue than all their competitors combined, with derivatives now driving over half of trading-related protocol revenues.** [𝕏/@sealaunch_](https://leviathannews.xyz/redirect/23424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/09/signals_2026-01-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/09/signals_2026-01-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/10/signals_2026-01-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/10/signals_2026-01-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
