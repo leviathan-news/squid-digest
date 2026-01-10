@@ -1,5 +1,5 @@
 {
-  "cash": 8810.362624972528,
+  "cash": 2964.5524118670564,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -96,6 +96,14 @@
       "entry_price": 0.1495521944264675,
       "entry_date": "2026-01-09T13:35:00.495902",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "PEPE": {
+      "symbol": "PEPE",
+      "token_name": "Pepe",
+      "quantity": 979169654.5853872,
+      "entry_price": 5.970170935884221e-06,
+      "entry_date": "2026-01-10T13:26:34.320813",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -302,6 +310,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-10T13:26:34.320813",
+      "symbol": "PEPE",
+      "token_name": "Pepe",
+      "action": "BUY",
+      "quantity": 979169654.5853872,
+      "price": 5.970170935884221e-06,
+      "value": 5845.810213105471,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -328,6 +348,10 @@
     [
       "2026-01-09T13:35:00.495902",
       9849.14508539637
+    ],
+    [
+      "2026-01-10T13:26:34.320813",
+      9743.01702184245
     ]
   ]
 }

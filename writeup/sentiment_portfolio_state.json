@@ -1,5 +1,5 @@
 {
-  "cash": 596.9293855746539,
+  "cash": 3754.522190471861,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -96,6 +96,14 @@
       "entry_price": 0.1495521944264675,
       "entry_date": "2026-01-09T13:35:00.495902",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "PEPE": {
+      "symbol": "PEPE",
+      "token_name": "Pepe",
+      "quantity": -528894874.00071347,
+      "entry_price": 5.970170935884221e-06,
+      "entry_date": "2026-01-10T13:26:34.320813",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -302,6 +310,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-10T13:26:34.320813",
+      "symbol": "PEPE",
+      "token_name": "Pepe",
+      "action": "SHORT",
+      "quantity": 528894874.00071347,
+      "price": 5.970170935884221e-06,
+      "value": 3157.592804897207,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -328,6 +348,10 @@
     [
       "2026-01-09T13:35:00.495902",
       10304.205746827965
+    ],
+    [
+      "2026-01-10T13:26:34.320813",
+      10525.309349657357
     ]
   ]
 }
