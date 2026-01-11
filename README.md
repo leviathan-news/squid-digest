@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Trump says he won’t pardon jailed FTX founder Sam Bankman-Fried, who is serving a 25-year sentence for fraud, despite clemency attempts; Bankman-Fried was a major Biden donor in 2020, while Trump has pardoned other crypto figures in the past.** [The Block](https://leviathannews.xyz/redirect/23441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Today, we became aware of a security incident involving one or more malicious actors. The affected smart contract is 0x764C64b2A09b09Acb100B80d8c505Aa6a0302EF2 and we strongly advi...** [𝕏/@Truebitprotocol](https://leviathannews.xyz/redirect/23399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pangea research finds that YieldBasis delivers better market depth than Uniswap thanks to Curve's innovative FXSwap AMM design** [𝕏/@in_pangea](https://leviathannews.xyz/redirect/23451?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Artemis II, which will brings back human around the moon for the first time in decades, could launch as soon as february 6 according to NASA** [nasa.gov](https://leviathannews.xyz/redirect/23452?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sealaunch intelligence’s 2025 onchain revenue analysis shows that a handful of category leaders—Tether in stablecoins, Aave in lending, and Phantom in wallets—each generated more revenue than all their competitors combined, with derivatives now driving over half of trading-related protocol revenues.** [𝕏/@sealaunch_](https://leviathannews.xyz/redirect/23424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoins have officially decoupled from crypto trading cycles, evolving into global financial infrastructure as non-speculative use cases like payments, remittances, savings, and institutional settlement drive growth beyond market volatility.** [𝕏/@Snapcrackle](https://leviathannews.xyz/redirect/23475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A critical reentrancy bug in Stake DAO Votemarket v2 has been discovered and fixed. Here's the story behind uncovering a glitch that would've enabled an attacker to initiate a protocol-draining event.** [𝕏/@cotlage](https://leviathannews.xyz/redirect/23485?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pumpfun co-founder Alon admitted the platform’s creator fee model failed to create a healthy ecosystem, announcing a system revamp that shifts revenue-sharing decisions to traders as Pumpfun faces declining activity and growing legal pressure.** [Cryptonews](https://leviathannews.xyz/redirect/23476?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **French tax agent used company software to track down crypto investors and pass details onto criminals. Attorney general: “This woman used her position in a completely abnormal way to serve a seasoned criminal. Her place is in prison.”** [Protos](https://leviathannews.xyz/redirect/23486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Composable. Compliant. Gold-backed. pmUSD is the DeFi gold standard stable.** [𝕏/raacfi](https://leviathannews.xyz/redirect/23493?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/10/signals_2026-01-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/10/signals_2026-01-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/11/signals_2026-01-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/11/signals_2026-01-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
