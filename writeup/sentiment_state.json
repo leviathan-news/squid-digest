@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-01-10",
+  "last_processed_date": "2026-01-11",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 9.08193631689414,
+      "score": 8.22572463954881,
       "last_signal_date": "2026-01-10",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.13643411880075318,
+      "score": 0.055960865709002106,
       "last_signal_date": "2026-01-02",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 4.672239152903082,
-      "last_signal_date": "2026-01-10",
+      "score": 2.2317575658846707,
+      "last_signal_date": "2026-01-11",
       "token_name": "Solana"
     },
     "STETH": {
@@ -27,20 +27,20 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 3.609940794794902,
+      "score": 3.2696088044373983,
       "last_signal_date": "2026-01-10",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 5.434079446861068,
-      "last_signal_date": "2026-01-10",
+      "score": 3.92177434851219,
+      "last_signal_date": "2026-01-11",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.526438413448686,
-      "last_signal_date": "2026-01-10",
+      "score": 3.382531393101928,
+      "last_signal_date": "2026-01-11",
       "token_name": "XRP"
     },
     "HYPE": {
@@ -57,26 +57,26 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.22643091606597673,
+      "score": 0.09287464307105929,
       "last_signal_date": "2026-01-02",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 1.0,
-      "last_signal_date": "2026-01-10",
+      "score": 1.9057236642639066,
+      "last_signal_date": "2026-01-11",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.11321545803298837,
+      "score": 0.046437321535529645,
       "last_signal_date": "2026-01-02",
       "token_name": "ChainLink Token"
     },
     "TON": {
       "symbol": "TON",
-      "score": 1.2264309160659768,
-      "last_signal_date": "2026-01-10",
+      "score": 2.110807503265816,
+      "last_signal_date": "2026-01-11",
       "token_name": "Toncoin"
     },
     "ADA": {
@@ -87,7 +87,7 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": 0.3060446883985997,
+      "score": 0.15302234419929986,
       "last_signal_date": "2026-01-04",
       "token_name": "Dogecoin"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.3769117568907892,
+      "score": 1.1295293962801078,
       "last_signal_date": "2026-01-09",
       "token_name": "AAVE"
     },
@@ -129,32 +129,32 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 0.06677813649745869,
+      "score": 0.027390233188584703,
       "last_signal_date": "2026-01-02",
       "token_name": "Tron"
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.18574928614211858,
+      "score": 0.08411876203952227,
       "last_signal_date": "2026-01-03",
       "token_name": "Leviathan Points"
     },
     "POL": {
       "symbol": "POL",
-      "score": 1.8114473285278134,
+      "score": 1.4859942891369486,
       "last_signal_date": "2026-01-09",
       "token_name": "Polygon"
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.9057236642639067,
+      "score": 0.7429971445684743,
       "last_signal_date": "2026-01-09",
       "token_name": "NEAR"
     },
     "PEPE": {
       "symbol": "PEPE",
-      "score": -1.0,
-      "last_signal_date": "2026-01-10",
+      "score": -2.9057236642639066,
+      "last_signal_date": "2026-01-11",
       "token_name": "Pepe"
     }
   }
