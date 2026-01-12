@@ -1,5 +1,5 @@
 {
-  "cash": 3612.9601707637257,
+  "cash": 1224.5866382352633,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -104,6 +104,22 @@
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TON": {
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "quantity": 696.6433237032154,
+      "entry_price": 1.7142011207631693,
+      "entry_date": "2026-01-12T13:39:23.118862",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 671.8633862447678,
+      "entry_price": 1.7774249806033855,
+      "entry_date": "2026-01-12T13:39:23.118862",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -334,6 +350,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-12T13:39:23.118862",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "BUY",
+      "quantity": 696.6433237032154,
+      "price": 1.7142011207631693,
+      "value": 1194.1867662642312,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-12T13:39:23.118862",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 671.8633862447678,
+      "price": 1.7774249806033855,
+      "value": 1194.1867662642312,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -368,6 +408,10 @@
     [
       "2026-01-11T13:27:18.373814",
       10124.04148897612
+    ],
+    [
+      "2026-01-12T13:39:23.118862",
+      9951.556385535256
     ]
   ]
 }
