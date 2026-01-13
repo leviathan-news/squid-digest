@@ -1725,6 +1725,38 @@ async def bundle_writeup(verbose=False):
     # Join signals with double line breaks to ensure proper spacing
     trading_signals = '\n\n'.join(formatted_signals)
 
+    # CRITICAL VALIDATION: Fail early if no signals survived the transformation/filtering
+    # This catches the case where LLM output didn't match expected format and transform
+    # produced no emoji-prefixed lines. Better to fail here than write an empty file.
+    if not formatted_signals or len(trading_signals.strip()) < 50:
+        error_msg = (
+            f"CRITICAL: Signal transformation produced no valid signals! "
+            f"This indicates the LLM output didn't match expected format (**$SYMBOL Token: SIGNAL** - reason). "
+            f"Formatted signals count: {len(formatted_signals)}. "
+            f"Transformed content length: {len(trading_signals.strip())} chars. "
+            f"Original today_signals count: {len(today_signals)}. "
+            f"Check diagnostic files for LLM response details."
+        )
+        logger.error(error_msg)
+
+        # Save diagnostic file
+        diagnostic_file = filename.parent / f"diagnostic_empty_signals_{today_str}.txt"
+        try:
+            with open(diagnostic_file, "w") as f:
+                f.write(f"Empty Signals After Transformation\n")
+                f.write(f"===================================\n\n")
+                f.write(f"Error: {error_msg}\n\n")
+                f.write(f"formatted_signals list: {formatted_signals}\n\n")
+                f.write(f"trading_signals after join: '{trading_signals}'\n\n")
+                f.write(f"today_signals (parsed): {len(today_signals)} signals\n")
+                for i, sig in enumerate(today_signals[:10]):
+                    f.write(f"  {i+1}. {sig}\n")
+            logger.error(f"Diagnostic file saved: {diagnostic_file}")
+        except Exception as diag_error:
+            logger.error(f"Could not save diagnostic file: {diag_error}")
+
+        raise ValueError(error_msg)
+
     # Generate market snapshot
     if verbose:
         logger.info("Generating market snapshot...")
