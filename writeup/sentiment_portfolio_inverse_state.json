@@ -1,5 +1,5 @@
 {
-  "cash": 4152.322289558835,
+  "cash": 4753.50096466663,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -119,6 +119,14 @@
       "quantity": -334.126584990542,
       "entry_price": 1.7774249806033855,
       "entry_date": "2026-01-12T13:39:23.118862",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SYRUP": {
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "quantity": -1515.5402837662846,
+      "entry_price": 0.3966761435161592,
+      "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -362,6 +370,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-13T13:53:29.613208",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SHORT",
+      "quantity": 1515.5402837662846,
+      "price": 0.3966761435161592,
+      "value": 601.1786751077954,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -400,6 +420,10 @@
     [
       "2026-01-12T13:39:23.118862",
       9898.08231409816
+    ],
+    [
+      "2026-01-13T13:53:29.613208",
+      10019.644585129923
     ]
   ]
 }

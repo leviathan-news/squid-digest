@@ -1,5 +1,5 @@
 {
-  "cash": 1224.5866382352633,
+  "cash": 28.787895837104088,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -119,6 +119,14 @@
       "quantity": 671.8633862447678,
       "entry_price": 1.7774249806033855,
       "entry_date": "2026-01-12T13:39:23.118862",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "SYRUP": {
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "quantity": 3014.546657125718,
+      "entry_price": 0.3966761435161592,
+      "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -374,6 +382,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-13T13:53:29.613208",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "BUY",
+      "quantity": 3014.546657125718,
+      "price": 0.3966761435161592,
+      "value": 1195.7987423981592,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -412,6 +432,10 @@
     [
       "2026-01-12T13:39:23.118862",
       9951.556385535256
+    ],
+    [
+      "2026-01-13T13:53:29.613208",
+      9964.989519984661
     ]
   ]
 }
