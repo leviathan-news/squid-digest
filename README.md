@@ -11,23 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Digital asset funds saw $454 million in weekly outflows, extending a four-day $1.3 billion withdrawal streak that nearly erased $1.5 billion in year-to-date inflows as expectations for a March Federal Reserve rate cut faded.** [𝕏/@cryptounfolded](https://leviathannews.xyz/redirect/23509?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **News for the community, by the community.
-
-Thank you so much arqus for this incredible animated video contribution, the first ever of its kind!
-
-A great way to make yourself eligible for next month's SQUID DAO vote.
-
-Have a talent as well, and want to contribute and earn some $SQUID?
-
-Let us know in the comments what it is, and join us!** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/23513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z Crypto outlined three AI trends for 2026: AI evolving into a serious research co-pilot, the rise of “Know Your Agent” (KYA) as agents need onchain identity and credentials to transact, and new crypto-enabled payment models to fix the invisible tax AI agents impose on the open web.** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/23491?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **StoneX announces strategic partnership with Enhanced Digital Group and leads Series A funding round. The partnership will see StoneX Digital, a division of StoneX, collaborate with EDG to expand their respective digital asset offerings. EDG is a provider of over-the-counter derivatives treasury solutions and structured products for digital assets.** [Liquidityfinder](https://leviathannews.xyz/redirect/23495?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A criminal investigation into Jerome H. Powell, Federal Reserve chair, has been opened by U.S. attorney’s office in the District of Columbia over the central bank’s renovation of its Washington headquarters and whether Mr. Powell lied to Congress about the scope of the project. Jerome H. Powell has posted this video in response** [𝕏/@federalreserve](https://leviathannews.xyz/redirect/23501?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Over half of all cryptocurrencies launched since mid‑2021 have already died, with more than 13.4 million tokens—86% of them in 2025 alone—ceasing to trade after an explosive memecoin boom and a brutal late‑2025 washout.** [Coingecko](https://leviathannews.xyz/redirect/23546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yearn’s yYB crosses 1 million YB locked** [𝕏/@dudesahn](https://leviathannews.xyz/redirect/23524?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Michael Bentley announces that he is stepping down as day-to-day CEO of Euler Labs after nearly six years, transitioning into an advisory and product-focused role, while Euler pivots more explicitly toward institutional and fintech credit markets and RWAs** [𝕏/@euler_mab](https://leviathannews.xyz/redirect/23552?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Elizabeth Warren pressed the SEC over risks of allowing crypto in 401(k) plans after a Trump executive order to revisit retirement investment rules. She warned volatile crypto assets could expose savers to higher fees, weaker oversight, and sharp losses.** [decrypt.co](https://leviathannews.xyz/redirect/23569?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z crypto shared two signals for builders in 2026: trading shouldn’t be the final destination for crypto startups, and clearer U.S. regulations could remove years of legal distortions, enabling networks to operate transparently as true decentralized systems.** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/23550?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/12/signals_2026-01-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/12/signals_2026-01-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/13/signals_2026-01-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/13/signals_2026-01-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
