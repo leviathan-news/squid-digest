@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Over half of all cryptocurrencies launched since mid‑2021 have already died, with more than 13.4 million tokens—86% of them in 2025 alone—ceasing to trade after an explosive memecoin boom and a brutal late‑2025 washout.** [Coingecko](https://leviathannews.xyz/redirect/23546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Yearn’s yYB crosses 1 million YB locked** [𝕏/@dudesahn](https://leviathannews.xyz/redirect/23524?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Michael Bentley announces that he is stepping down as day-to-day CEO of Euler Labs after nearly six years, transitioning into an advisory and product-focused role, while Euler pivots more explicitly toward institutional and fintech credit markets and RWAs** [𝕏/@euler_mab](https://leviathannews.xyz/redirect/23552?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Elizabeth Warren pressed the SEC over risks of allowing crypto in 401(k) plans after a Trump executive order to revisit retirement investment rules. She warned volatile crypto assets could expose savers to higher fees, weaker oversight, and sharp losses.** [decrypt.co](https://leviathannews.xyz/redirect/23569?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z crypto shared two signals for builders in 2026: trading shouldn’t be the final destination for crypto startups, and clearer U.S. regulations could remove years of legal distortions, enabling networks to operate transparently as true decentralized systems.** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/23550?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bank of Italy economist sends out warning on Ethereum's role in financial system. The study suggests that Ethereum's role in financial systems makes its token economics a concern for regulators, who may need to consider safeguards for its use in regulated finance.** [archive.ph](https://leviathannews.xyz/redirect/23612?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Thiel-backed crypto exchange Bitpanda explores options. Citigroup, JPMorgan are working with the Austrian firm. Alternatives being considered include IPO and a sale.** [archive.ph](https://leviathannews.xyz/redirect/23623?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yield has suffered a major financial hit totaling $3.73 million. The loss occurred during a Vault operation which involves a token swap from stkGHO to USDC. Due to extreme slippage, 3.84M GHO was exchanged for a mere 112K USDC.** [𝕏/@PeckShieldAlert](https://leviathannews.xyz/redirect/23588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Pentagon unveiled an AI-first strategy, planning to deploy advanced AI models across classified and unclassified networks as it prepares for future space missions. Defense Secretary Pete Hegseth confirmed xAI’s Grok will join** [decrypt.co](https://leviathannews.xyz/redirect/23609?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korean financial giant KB files patent for stablecoin credit card. The patent application covers a hybrid payment system that allows users to spend stablecoins through their existing credit cards.** [The Block](https://leviathannews.xyz/redirect/23624?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/13/signals_2026-01-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/13/signals_2026-01-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/14/signals_2026-01-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/14/signals_2026-01-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
