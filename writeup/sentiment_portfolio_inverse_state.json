@@ -1,5 +1,5 @@
 {
-  "cash": 4753.50096466663,
+  "cash": 5066.875374403822,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -84,8 +84,8 @@
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
-      "quantity": -269.4053987943976,
-      "entry_price": 2.371058534758813,
+      "quantity": -349.51740057984966,
+      "entry_price": 2.3133265059163888,
       "entry_date": "2026-01-06T13:34:39.467824",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -124,8 +124,8 @@
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
-      "quantity": -1515.5402837662846,
-      "entry_price": 0.3966761435161592,
+      "quantity": -1880.0347059188505,
+      "entry_price": 0.3961528931255436,
       "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -382,6 +382,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-15T13:36:35.483600",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 80.11200178545202,
+      "price": 2.119181809655319,
+      "value": 169.77189691880437,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-15T13:36:35.483600",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SHORT",
+      "quantity": 364.49442215256596,
+      "price": 0.3939772575128195,
+      "value": 143.60251281838782,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -428,6 +452,10 @@
     [
       "2026-01-14T13:37:19.663350",
       10367.623346033095
+    ],
+    [
+      "2026-01-15T13:36:35.483600",
+      9875.87889955772
     ]
   ]
 }
