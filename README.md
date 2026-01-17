@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Introducing Wagyu 3.0, the first decentralized orderbook exchange supporting native XMR deposits and withdrawals. Built on Hyperliquid, and with CEX-tier liquidity and experience on decentralized rails.** [𝕏/@PerpetualCow](https://leviathannews.xyz/redirect/23690?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana Mobile confirmed a 1.8B SKR token airdrop for Seeker phone users and developers, rewarding engagement across a five-tier system. Distribution goes live Jan 21, with staking available at launch.** [crypto.news](https://leviathannews.xyz/redirect/23676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MrBeast eyes DeFi as Tom Lee's Ethereum Treasury BitMine invests $200 million. BitMine Immersion Technologies unveiled a $200 million investment in Beast Industries, a company founded by YouTube creator MrBeast.** [decrypt.co](https://leviathannews.xyz/redirect/23708?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ding-dong the InfoFi witch is dead. X bans rewarding users for posting.** [𝕏/@zoomerfied](https://leviathannews.xyz/redirect/23698?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto’s “Fat Protocol” thesis is evolving into a “Fat Control Points” model, where value accrues to wallets, venues, issuers, and layers that own user intent, liquidity, balance sheets, and inefficiencies—capturing fees regardless of chain or narrative winners.** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/23696?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **HR services provider Gusto taps Zerohash to speed up global payouts with stablecoins. The stablecoin payouts pilot powered by Zerohash, aims to cut cross-border payment times.** [Coindesk](https://leviathannews.xyz/redirect/23743?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum is seeing record-high on-chain activity, while transaction fees have declined to their lowest levels ever.** [𝕏/@WhaleInsider](https://leviathannews.xyz/redirect/23724?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **White House blasts Coinbase’s last‑minute exit from Trump’s CLARITY Act talks as a “rug pull” on both the administration and the wider crypto industry, after the exchange abruptly withdrew support over DeFi, tokenized‑equity, privacy and stablecoin‑yield provisions that also forced a Senate Banking markup delay.** [CoinTelegraph](https://leviathannews.xyz/redirect/23746?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **$282M in BTC and LTC Stolen in Hardware Wallet Social Engineering Attack, Funneled Through Monero and Thorchain to Obscure Funds.** [ꘜ/@investigations](https://leviathannews.xyz/redirect/23734?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Miles Deutscher shared practical, hard-earned advice on succeeding in your 20s—emphasizing high agency, ruthless focus, health, AI leverage, and personal branding as key compounding advantages in the years ahead.** [𝕏/@milesdeutscher](https://leviathannews.xyz/redirect/23720?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/16/signals_2026-01-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/16/signals_2026-01-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/17/signals_2026-01-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/17/signals_2026-01-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
