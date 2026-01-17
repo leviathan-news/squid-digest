@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-01-16",
+  "last_processed_date": "2026-01-17",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 5.0201586322844065,
+      "score": 3.729963529068091,
       "last_signal_date": "2026-01-14",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 3.049828315242378,
+      "score": 2.762301677057144,
       "last_signal_date": "2026-01-16",
       "token_name": "Solana"
     },
@@ -27,19 +27,19 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.45124259934936284,
+      "score": 0.22562129967468142,
       "last_signal_date": "2026-01-10",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.665845272850715,
+      "score": 0.4947211364524979,
       "last_signal_date": "2026-01-14",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 4.202874567771938,
+      "score": 3.4477666048086406,
       "last_signal_date": "2026-01-15",
       "token_name": "XRP"
     },
@@ -63,19 +63,19 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 1.012727033993445,
+      "score": 0.6172640412100048,
       "last_signal_date": "2026-01-12",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 1.1040895136738125,
+      "score": 0.7429971445684743,
       "last_signal_date": "2026-01-13",
       "token_name": "ChainLink Token"
     },
     "TON": {
       "symbol": "TON",
-      "score": 1.0817326285980582,
+      "score": 0.6593234222297657,
       "last_signal_date": "2026-01-12",
       "token_name": "Toncoin"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.09501461450233163,
+      "score": 0.04302849240283717,
       "last_signal_date": "2026-01-09",
       "token_name": "AAVE"
     },
@@ -141,45 +141,51 @@
     },
     "POL": {
       "symbol": "POL",
-      "score": 0.12500000000000003,
+      "score": 0.056607729016494183,
       "last_signal_date": "2026-01-09",
       "token_name": "Polygon"
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.06250000000000001,
+      "score": 0.028303864508247092,
       "last_signal_date": "2026-01-09",
       "token_name": "NEAR"
     },
     "PEPE": {
       "symbol": "PEPE",
-      "score": -1.7207006544357715,
+      "score": -1.048778796277891,
       "last_signal_date": "2026-01-12",
       "token_name": "Pepe"
     },
     "SYRUP": {
       "symbol": "SYRUP",
-      "score": 1.6561342705107187,
+      "score": 1.1144957168527114,
       "last_signal_date": "2026-01-13",
       "token_name": "Maple Finance"
     },
     "LIT": {
       "symbol": "LIT",
-      "score": 1.4859942891369486,
+      "score": 1.1040895136738125,
       "last_signal_date": "2026-01-14",
       "token_name": "Lighter"
     },
     "84": {
       "symbol": "84",
-      "score": 1.8114473285278134,
+      "score": 1.4859942891369486,
       "last_signal_date": "2026-01-15",
       "token_name": "84"
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 2.0,
+      "score": 1.8114473285278134,
       "last_signal_date": "2026-01-16",
       "token_name": "Monero"
+    },
+    "100K": {
+      "symbol": "100K",
+      "score": 1.0,
+      "last_signal_date": "2026-01-17",
+      "token_name": "100K"
     }
   }
 }
