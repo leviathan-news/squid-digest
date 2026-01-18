@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **HR services provider Gusto taps Zerohash to speed up global payouts with stablecoins. The stablecoin payouts pilot powered by Zerohash, aims to cut cross-border payment times.** [Coindesk](https://leviathannews.xyz/redirect/23743?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum is seeing record-high on-chain activity, while transaction fees have declined to their lowest levels ever.** [𝕏/@WhaleInsider](https://leviathannews.xyz/redirect/23724?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **White House blasts Coinbase’s last‑minute exit from Trump’s CLARITY Act talks as a “rug pull” on both the administration and the wider crypto industry, after the exchange abruptly withdrew support over DeFi, tokenized‑equity, privacy and stablecoin‑yield provisions that also forced a Senate Banking markup delay.** [CoinTelegraph](https://leviathannews.xyz/redirect/23746?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **$282M in BTC and LTC Stolen in Hardware Wallet Social Engineering Attack, Funneled Through Monero and Thorchain to Obscure Funds.** [ꘜ/@investigations](https://leviathannews.xyz/redirect/23734?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Miles Deutscher shared practical, hard-earned advice on succeeding in your 20s—emphasizing high agency, ruthless focus, health, AI leverage, and personal branding as key compounding advantages in the years ahead.** [𝕏/@milesdeutscher](https://leviathannews.xyz/redirect/23720?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yieldbasis to propose The Hybrid Vault** [𝕏/@yieldbasis](https://leviathannews.xyz/redirect/23766?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **How SIRE is leveraging AI to democratize the edge in prediction markets** [coinage.media](https://leviathannews.xyz/redirect/23769?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WalletConnect Pay has launched globally via a partnership with Ingenico, bringing stablecoin payments to 40M+ POS terminals across 120+ countries. The rollout starts with PSPs in Jan 2026, with first merchant activations in Europe in Q1–Q2 2026.** [𝕏/@Houlgrave](https://leviathannews.xyz/redirect/23772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why you must become a creator.** [𝕏/@the_culturist_](https://leviathannews.xyz/redirect/23770?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI agent protocols like MCP, A2A, AG-UI, A2UI, AP2, and UCP aren’t competitors but layers in a growing stack, each solving a specific problem from tools and coordination to UI, payments, and commerce, enabling scalable, modular AI agents.** [𝕏/@Saboo_Shubham_](https://leviathannews.xyz/redirect/23774?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/17/signals_2026-01-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/17/signals_2026-01-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/18/signals_2026-01-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/18/signals_2026-01-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
