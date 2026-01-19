@@ -1,5 +1,5 @@
 {
-  "cash": 5164.050678406342,
+  "cash": 2620.8997874271563,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -20,8 +20,8 @@
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
-      "quantity": 9340.84281595501,
-      "entry_price": 0.291854387513531,
+      "quantity": 19355.779752940703,
+      "entry_price": 0.3037119380568319,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -135,6 +135,14 @@
       "quantity": -1.1870760797272681,
       "entry_price": 693.5876115896451,
       "entry_date": "2026-01-16T13:34:53.147325",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BUIDL": {
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "quantity": -609.2645314769077,
+      "entry_price": 1.0,
+      "entry_date": "2026-01-19T13:41:40.033077",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -450,6 +458,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-19T13:41:40.033077",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 10014.936936985696,
+      "price": 0.31477137023340157,
+      "value": 3152.415422456093,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-19T13:41:40.033077",
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "action": "SHORT",
+      "quantity": 609.2645314769077,
+      "price": 1.0,
+      "value": 609.2645314769077,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -512,6 +544,10 @@
     [
       "2026-01-18T13:25:55.828571",
       9828.181859467431
+    ],
+    [
+      "2026-01-19T13:41:40.033077",
+      10154.408857948458
     ]
   ]
 }
