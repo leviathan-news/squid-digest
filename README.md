@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Yieldbasis to propose The Hybrid Vault** [𝕏/@yieldbasis](https://leviathannews.xyz/redirect/23766?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **How SIRE is leveraging AI to democratize the edge in prediction markets** [coinage.media](https://leviathannews.xyz/redirect/23769?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WalletConnect Pay has launched globally via a partnership with Ingenico, bringing stablecoin payments to 40M+ POS terminals across 120+ countries. The rollout starts with PSPs in Jan 2026, with first merchant activations in Europe in Q1–Q2 2026.** [𝕏/@Houlgrave](https://leviathannews.xyz/redirect/23772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Why you must become a creator.** [𝕏/@the_culturist_](https://leviathannews.xyz/redirect/23770?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI agent protocols like MCP, A2A, AG-UI, A2UI, AP2, and UCP aren’t competitors but layers in a growing stack, each solving a specific problem from tools and coordination to UI, payments, and commerce, enabling scalable, modular AI agents.** [𝕏/@Saboo_Shubham_](https://leviathannews.xyz/redirect/23774?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Acting CFTC Chair Pham on “back to basics” regulation, a 12‑month Crypto Sprint, and how tokenized collateral, stablecoins, and global coordination could make the U.S. the world’s leading crypto hub.  (** [Youtube](https://leviathannews.xyz/redirect/23793?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Most hacked crypto projects never fully recover because poor incident response and lost user trust prove more damaging than the stolen funds.** [CoinTelegraph](https://leviathannews.xyz/redirect/23792?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Ethereum unstaking queue has emptied. The exit queue has fallen to zero from a peak of 2.67 million ETH in Sept 2025. The entry queue has hit 2.6 million ETH, the highest since July 2023.** [CoinTelegraph](https://leviathannews.xyz/redirect/23784?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Twitter user breaks down how creators can build real leverage beyond InfoFi by focusing on strong content, storytelling, branding, systems, and direction—treating content as long-term leverage, not just income, while diversifying opportunities across ecosystems, platforms, and partnerships.** [𝕏/@thegreatola](https://leviathannews.xyz/redirect/23776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid Foundation donated 10,000 HYPE tokens worth about $254K to blockchain investigator ZachXBT, marking his second-largest single donation. The contribution followed his exposure of a $282M hardware wallet social-engineering theft and supports his independent investigations into crypto crimes.** [crypto.news](https://leviathannews.xyz/redirect/23791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/18/signals_2026-01-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/18/signals_2026-01-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/19/signals_2026-01-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/19/signals_2026-01-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
