@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Acting CFTC Chair Pham on “back to basics” regulation, a 12‑month Crypto Sprint, and how tokenized collateral, stablecoins, and global coordination could make the U.S. the world’s leading crypto hub.  (** [Youtube](https://leviathannews.xyz/redirect/23793?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Most hacked crypto projects never fully recover because poor incident response and lost user trust prove more damaging than the stolen funds.** [CoinTelegraph](https://leviathannews.xyz/redirect/23792?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Ethereum unstaking queue has emptied. The exit queue has fallen to zero from a peak of 2.67 million ETH in Sept 2025. The entry queue has hit 2.6 million ETH, the highest since July 2023.** [CoinTelegraph](https://leviathannews.xyz/redirect/23784?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Twitter user breaks down how creators can build real leverage beyond InfoFi by focusing on strong content, storytelling, branding, systems, and direction—treating content as long-term leverage, not just income, while diversifying opportunities across ecosystems, platforms, and partnerships.** [𝕏/@thegreatola](https://leviathannews.xyz/redirect/23776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid Foundation donated 10,000 HYPE tokens worth about $254K to blockchain investigator ZachXBT, marking his second-largest single donation. The contribution followed his exposure of a $282M hardware wallet social-engineering theft and supports his independent investigations into crypto crimes.** [crypto.news](https://leviathannews.xyz/redirect/23791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pendle has overhauled $PENDLE tokenomics by replacing 2‑year‑locked vePENDLE with liquid staking sPENDLE (14‑day withdrawal), routing up to 80% of protocol revenue to PENDLE buybacks and sPENDLE distributions contingent on PPP voting or DeFi usage, cutting emissions by ~30% via algorithmic pool allocation, granting existing vePENDLE holders up to 4x virtual sPENDLE boosts that decay over two years, and preserving LP boosts only for current pools while removing them for new ones.** [𝕏/@pendle_fi](https://leviathannews.xyz/redirect/23834?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **320M wallets scored. Top performers unlocking exclusive yields and access. Where do you rank? →** [app.zpass.ai](https://leviathannews.xyz/redirect/23804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Maple Finance crosses $250MM in deposits on Kamino Finance** [𝕏/@kamino](https://leviathannews.xyz/redirect/23805?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trail of Bits releases a set of Claude skills for web3 security researchers** [𝕏/@snyff](https://leviathannews.xyz/redirect/23801?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Enosys announces an airdrop of 2.75% of the supply of APS, its governance and rewards token, to Liquity V2 Mainnet LPs** [𝕏/@LiquityProtocol](https://leviathannews.xyz/redirect/23806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/19/signals_2026-01-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/19/signals_2026-01-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/20/signals_2026-01-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/20/signals_2026-01-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
