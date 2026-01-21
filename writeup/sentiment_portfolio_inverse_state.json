@@ -1,5 +1,5 @@
 {
-  "cash": 2620.8997874271563,
+  "cash": 2707.0215479265544,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -84,8 +84,8 @@
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
-      "quantity": -349.51740057984966,
-      "entry_price": 2.3133265059163888,
+      "quantity": -394.9043454214131,
+      "entry_price": 2.265535028704316,
       "entry_date": "2026-01-06T13:34:39.467824",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -482,6 +482,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-21T13:41:32.927267",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 45.38694484156345,
+      "price": 1.897500719645954,
+      "value": 86.12176049939785,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -552,6 +564,10 @@
     [
       "2026-01-20T13:42:33.371432",
       10022.414306561857
+    ],
+    [
+      "2026-01-21T13:41:32.927267",
+      9991.083728379279
     ]
   ]
 }
