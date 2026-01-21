@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Pendle has overhauled $PENDLE tokenomics by replacing 2‑year‑locked vePENDLE with liquid staking sPENDLE (14‑day withdrawal), routing up to 80% of protocol revenue to PENDLE buybacks and sPENDLE distributions contingent on PPP voting or DeFi usage, cutting emissions by ~30% via algorithmic pool allocation, granting existing vePENDLE holders up to 4x virtual sPENDLE boosts that decay over two years, and preserving LP boosts only for current pools while removing them for new ones.** [𝕏/@pendle_fi](https://leviathannews.xyz/redirect/23834?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **320M wallets scored. Top performers unlocking exclusive yields and access. Where do you rank? →** [app.zpass.ai](https://leviathannews.xyz/redirect/23804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Maple Finance crosses $250MM in deposits on Kamino Finance** [𝕏/@kamino](https://leviathannews.xyz/redirect/23805?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trail of Bits releases a set of Claude skills for web3 security researchers** [𝕏/@snyff](https://leviathannews.xyz/redirect/23801?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Enosys announces an airdrop of 2.75% of the supply of APS, its governance and rewards token, to Liquity V2 Mainnet LPs** [𝕏/@LiquityProtocol](https://leviathannews.xyz/redirect/23806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Canton Network Gains Traction as a Competitor to Ethereum and Solana** [Youtube](https://leviathannews.xyz/redirect/23869?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy has acquired 22,305 BTC for ~$2.13 billion at ~$95,284 per bitcoin** [𝕏/@Strategy](https://leviathannews.xyz/redirect/23844?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Makina got the PeckShieldAlert post no protocol wants to get, exploited for about 1,299 ETH, valued at around $4.13M** [𝕏](https://leviathannews.xyz/redirect/23827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Most tokenized stock products today offer economic exposure, not direct onchain ownership, using custody-backed wrappers where real shares sit offchain while tokens mirror performance. Native issuance — where the token is the share — remains early but is the long-term goal.** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/23877?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Steak ‘n Shake to pay hourly workers in Bitcoin starting March 2026. Steak ‘n Shake will begin paying all hourly employees at company-operated restaurants a Bitcoin bonus of $0.21 for every hour worked starting March 1, with funds accessible after a two-year vesting period. The 91-year-old burger chain announced the program through a partnership with Bitcoin rewards app Fold.** [Cryptonews](https://leviathannews.xyz/redirect/23884?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/20/signals_2026-01-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/20/signals_2026-01-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/21/signals_2026-01-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/21/signals_2026-01-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
