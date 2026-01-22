@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Canton Network Gains Traction as a Competitor to Ethereum and Solana** [Youtube](https://leviathannews.xyz/redirect/23869?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy has acquired 22,305 BTC for ~$2.13 billion at ~$95,284 per bitcoin** [𝕏/@Strategy](https://leviathannews.xyz/redirect/23844?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Makina got the PeckShieldAlert post no protocol wants to get, exploited for about 1,299 ETH, valued at around $4.13M** [𝕏](https://leviathannews.xyz/redirect/23827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Most tokenized stock products today offer economic exposure, not direct onchain ownership, using custody-backed wrappers where real shares sit offchain while tokens mirror performance. Native issuance — where the token is the share — remains early but is the long-term goal.** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/23877?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Steak ‘n Shake to pay hourly workers in Bitcoin starting March 2026. Steak ‘n Shake will begin paying all hourly employees at company-operated restaurants a Bitcoin bonus of $0.21 for every hour worked starting March 1, with funds accessible after a two-year vesting period. The 91-year-old burger chain announced the program through a partnership with Bitcoin rewards app Fold.** [Cryptonews](https://leviathannews.xyz/redirect/23884?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SQUID Pass auction for the Telegram channel and X account pinned posts on Leviathan News is live - starting bid is only 0.013 ETH!
+
+Bid here now:** [leviathannews.xyz](https://leviathannews.xyz/redirect/23934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Saga EVM paused in response to $7M hack, and its "Saga Dollar" stablecoin $D depegged to $0.75** [Protos](https://leviathannews.xyz/redirect/23917?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Iran’s central bank secretly amassed at least 507 million dollars in USDT stablecoins to prop up the collapsing rial and build a sanctions‑evading, blockchain‑based dollar liquidity system routed through Nobitex, cross‑chain bridges, and exchanges.** [elliptic.co](https://leviathannews.xyz/redirect/23904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Collector Group is building a crypto-native Pokémon pack-ripping business on Pumpfun, using live streams and token trading fees to sustainably fund a small entertainment operation instead of chasing viral stunts.** [𝕏/@PineAnalytics](https://leviathannews.xyz/redirect/23911?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **President Donald Trump on Wednesday said he and NATO Secretary General Mark Rutte have “formed the framework of a future deal with respect to Greenland.”Trump said that as a result of that negotiation, he would no longer impose punitive tariffs on a slew of European countries that were set to begin Feb. 1** [CNBC](https://leviathannews.xyz/redirect/23915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/21/signals_2026-01-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/21/signals_2026-01-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/22/signals_2026-01-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/22/signals_2026-01-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
