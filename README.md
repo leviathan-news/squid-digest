@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **SQUID Pass auction for the Telegram channel and X account pinned posts on Leviathan News is live - starting bid is only 0.013 ETH!
-
-Bid here now:** [leviathannews.xyz](https://leviathannews.xyz/redirect/23934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Saga EVM paused in response to $7M hack, and its "Saga Dollar" stablecoin $D depegged to $0.75** [Protos](https://leviathannews.xyz/redirect/23917?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Iran’s central bank secretly amassed at least 507 million dollars in USDT stablecoins to prop up the collapsing rial and build a sanctions‑evading, blockchain‑based dollar liquidity system routed through Nobitex, cross‑chain bridges, and exchanges.** [elliptic.co](https://leviathannews.xyz/redirect/23904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Collector Group is building a crypto-native Pokémon pack-ripping business on Pumpfun, using live streams and token trading fees to sustainably fund a small entertainment operation instead of chasing viral stunts.** [𝕏/@PineAnalytics](https://leviathannews.xyz/redirect/23911?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **President Donald Trump on Wednesday said he and NATO Secretary General Mark Rutte have “formed the framework of a future deal with respect to Greenland.”Trump said that as a result of that negotiation, he would no longer impose punitive tariffs on a slew of European countries that were set to begin Feb. 1** [CNBC](https://leviathannews.xyz/redirect/23915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US states move to shut down prediction markets like Kalshi and Polymarket by treating them as unlicensed sportsbooks, signaling a broader crackdown on the industry.** [Semafor](https://leviathannews.xyz/redirect/23947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"The Great Crypto Rot" discusses the necessity of open source code in crypto** [𝕏/@RyskyGeronimo](https://leviathannews.xyz/redirect/23942?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto analyst shared a deep reflection on costly crypto mistakes, arguing that conviction without probabilistic updates is expensive. Using Bayes’ thinking, he highlights how ignoring tokenomics, unlocks, and optionality turns good research into losses—and why survival beats being “right” in markets.** [𝕏/@Only1temmy](https://leviathannews.xyz/redirect/23936?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sharon AI secures up to US$500M non-recourse, GPU-backed debt facility from USD.AI to accelerate AI infrastructure expansion across Australia and Asia-Pacific.** [Businesswire](https://leviathannews.xyz/redirect/23948?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Bitcoin is a decentralized protocol. There's actually no issuer of it. So in the sense that central banks have independence, Bitcoin is even more independent. There's no country or company or individual who controls it in the world" - Brian Armstrong answers critics from central bankers at the World Economic Forum in Davos** [𝕏](https://leviathannews.xyz/redirect/23935?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/22/signals_2026-01-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/22/signals_2026-01-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
