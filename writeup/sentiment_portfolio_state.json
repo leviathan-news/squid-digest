@@ -1,5 +1,5 @@
 {
-  "cash": 369.8433118933058,
+  "cash": 0.0,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -84,8 +84,8 @@
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
-      "quantity": 774.0187063861092,
-      "entry_price": 2.231836766661863,
+      "quantity": 968.1160771595023,
+      "entry_price": 2.166400050956216,
       "entry_date": "2026-01-06T13:34:39.467824",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -474,6 +474,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-23T13:39:24.172091",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 194.0973707733931,
+      "price": 1.9054524562576094,
+      "value": 369.8433118933058,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -552,6 +564,10 @@
     [
       "2026-01-22T13:43:04.837820",
       9860.868845951747
+    ],
+    [
+      "2026-01-23T13:39:24.172091",
+      9791.35604446316
     ]
   ]
 }
