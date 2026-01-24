@@ -526,6 +526,11 @@ def format_dual_sentiment_portfolios(
     """
     lines = ["## 📈 Sentiment Portfolio\n"]
 
+    # How It Works explanation
+    lines.append("*Daily signals accumulate into sentiment scores (7-day half-life decay). "
+                 "Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. "
+                 "Momentum follows sentiment; Contrarian inverts it.*\n")
+
     # Sentiment Rankings Header
     lines.append("### Current Sentiment Rankings\n")
     lines.append("| Token | Sentiment | Strategy Target |")
