@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **US states move to shut down prediction markets like Kalshi and Polymarket by treating them as unlicensed sportsbooks, signaling a broader crackdown on the industry.** [Semafor](https://leviathannews.xyz/redirect/23947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"The Great Crypto Rot" discusses the necessity of open source code in crypto** [𝕏/@RyskyGeronimo](https://leviathannews.xyz/redirect/23942?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto analyst shared a deep reflection on costly crypto mistakes, arguing that conviction without probabilistic updates is expensive. Using Bayes’ thinking, he highlights how ignoring tokenomics, unlocks, and optionality turns good research into losses—and why survival beats being “right” in markets.** [𝕏/@Only1temmy](https://leviathannews.xyz/redirect/23936?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sharon AI secures up to US$500M non-recourse, GPU-backed debt facility from USD.AI to accelerate AI infrastructure expansion across Australia and Asia-Pacific.** [Businesswire](https://leviathannews.xyz/redirect/23948?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Bitcoin is a decentralized protocol. There's actually no issuer of it. So in the sense that central banks have independence, Bitcoin is even more independent. There's no country or company or individual who controls it in the world" - Brian Armstrong answers critics from central bankers at the World Economic Forum in Davos** [𝕏](https://leviathannews.xyz/redirect/23935?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Is Ethereum Finally Taking Over Wall Street?** [Youtube](https://leviathannews.xyz/redirect/23995?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Convex Finance turned DeFi governance’s biggest weaknesses—low participation and concentrated power—into a system advantage by optimizing around liquidity coordination and incentive routing rather than idealized voting. By monetizing governance through bribes and veCRV control, Convex built a durable revenue engine that has survived multiple market cycles.** [𝕏/@KM_crypto1](https://leviathannews.xyz/redirect/24003?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **River secures $8 million from TRON DAO Ventures to expand chain-abstraction infrastructure on TRON.** [Benzinga](https://leviathannews.xyz/redirect/23998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC dismisses Gemini Earn civil action with prejudice ending pursuit of unregistered securities claims** [sec.gov](https://leviathannews.xyz/redirect/23996?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **infiniFi is expanding beyond DeFi by deploying capital into Bitcoin-backed CeFi lending via Maple Finance, aiming to access higher, duration-based institutional yields as onchain rates compress. By acting as a duration engine, infiniFi bridges DeFi liquidity with regulated CeFi credit markets while maintaining capital efficiency.** [𝕏/@infiniFi](https://leviathannews.xyz/redirect/24004?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/24/signals_2026-01-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/24/signals_2026-01-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
