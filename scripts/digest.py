@@ -745,9 +745,9 @@ def generate_market_snapshot(verbose=False):
             
             if canonical_tag:
                 link = f"https://leviathannews.xyz/t/{canonical_tag}/{symbol}?utm_medium=digest&utm_source=digest&utm_campaign=market_snapshot"
-                return f"* {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.2f}%)"
+                return f"• {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.2f}%)"
             else:
-                return f"* {emoji} **{symbol}**: {price_str} ({sign}{change:.2f}%)"
+                return f"• {emoji} **{symbol}**: {price_str} ({sign}{change:.2f}%)"
 
         major_coins = [
             format_major_coin("BTC", btc_price, btc_change),
@@ -832,12 +832,12 @@ def generate_market_snapshot(verbose=False):
             
             if canonical_tag:
                 link = f"https://leviathannews.xyz/t/{canonical_tag}/{symbol}?utm_medium=digest&utm_source=digest&utm_campaign=market_snapshot"
-                return f"* {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.1f}%)"
+                return f"• {emoji} **[{symbol}]({link})**: {price_str} ({sign}{change:.1f}%)"
             else:
-                return f"* {emoji} **{symbol}**: {price_str} ({sign}{change:.1f}%)"
+                return f"• {emoji} **{symbol}**: {price_str} ({sign}{change:.1f}%)"
 
-        gainers_lines = [format_mover(g, is_gainer=True) for g in top_gainers] if top_gainers else ["* No significant gainers"]
-        losers_lines = [format_mover(l, is_gainer=False) for l in top_losers] if top_losers else ["* No significant losers"]
+        gainers_lines = [format_mover(g, is_gainer=True) for g in top_gainers] if top_gainers else ["• No significant gainers"]
+        losers_lines = [format_mover(l, is_gainer=False) for l in top_losers] if top_losers else ["• No significant losers"]
 
         price_fetcher.close()
 

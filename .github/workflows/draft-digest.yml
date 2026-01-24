@@ -377,3 +377,38 @@ jobs:
             # Exit with 0 to not fail workflow, but errors are now visible
             sys.exit(0)
         "
+
+    - name: Post to SQUID Cave
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CAVE_CHANNEL_ID: ${{ secrets.TELEGRAM_CAVE_CHANNEL_ID }}
+      continue-on-error: true
+      run: |
+        # Post page 1 of digest to SQUID Cave channel with masthead and links
+        echo "Posting to SQUID Cave..."
+
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        SIGNALS_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
+
+        if [ ! -f "$SIGNALS_FILE" ]; then
+          echo "Warning: Signals file not found: $SIGNALS_FILE"
+          echo "Skipping SQUID Cave post"
+          exit 0
+        fi
+
+        if [ -z "$TELEGRAM_CAVE_CHANNEL_ID" ]; then
+          echo "Warning: TELEGRAM_CAVE_CHANNEL_ID not configured"
+          echo "Skipping SQUID Cave post (add secret to enable)"
+          exit 0
+        fi
+
+        if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+          echo "Warning: TELEGRAM_BOT_TOKEN not configured"
+          echo "Skipping SQUID Cave post"
+          exit 0
+        fi
+
+        uv run python scripts/post_telegram_cave.py --date "$TODAY"

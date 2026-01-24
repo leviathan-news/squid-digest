@@ -349,7 +349,7 @@ def _clean_telegram_html(html_content: str) -> str:
     html_content = re.sub(r'</ul>', '', html_content, flags=re.IGNORECASE)
     html_content = re.sub(r'<ol[^>]*>', '', html_content, flags=re.IGNORECASE)
     html_content = re.sub(r'</ol>', '', html_content, flags=re.IGNORECASE)
-    html_content = re.sub(r'<li[^>]*>', '- ', html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<li[^>]*>', '• ', html_content, flags=re.IGNORECASE)
     html_content = re.sub(r'</li>', '\n', html_content, flags=re.IGNORECASE)
 
     # Remove other unsupported tags

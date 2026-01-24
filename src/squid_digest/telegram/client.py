@@ -159,4 +159,61 @@ class TelegramClient:
         
         return results
 
+    def send_to_cave(
+        self,
+        message: str,
+        canonical_url: str,
+        github_url: str,
+        cave_channel_id: Optional[str] = None,
+        parse_mode: str = "HTML",
+        disable_notification: bool = False,
+    ) -> Dict[str, Any]:
+        """Send message to SQUID Cave with masthead and links.
+
+        Args:
+            message: Page 1 content (already formatted HTML)
+            canonical_url: Link to full digest on web
+            github_url: Link to markdown file on GitHub
+            cave_channel_id: Override channel ID (defaults to TELEGRAM_CAVE_CHANNEL_ID env var)
+            parse_mode: Parse mode for message formatting
+            disable_notification: Send message silently
+
+        Returns:
+            Response from Telegram API
+
+        Raises:
+            ValueError: If cave channel ID is not configured
+        """
+        channel = cave_channel_id or os.getenv("TELEGRAM_CAVE_CHANNEL_ID")
+        if not channel:
+            raise ValueError(
+                "SQUID Cave channel ID not configured. "
+                "Set TELEGRAM_CAVE_CHANNEL_ID environment variable."
+            )
+
+        # Build message with masthead and footer
+        masthead = "🐙 <b>SQUID Digest</b>\n\n"
+        footer = f'\n\n📰 <a href="{canonical_url}">Read on Web</a> • <a href="{github_url}">View on GitHub</a>'
+        full_message = masthead + message + footer
+
+        # Check length and truncate if needed
+        if len(full_message) > 4096:
+            print(f"Warning: SQUID Cave message exceeds 4096 chars ({len(full_message)}), truncating")
+            # Calculate available space for message content
+            overhead = len(masthead) + len(footer)
+            max_content_len = 4096 - overhead - 50  # Leave room for closing tags
+            message = truncate_html_safely(message, max_content_len)
+            full_message = masthead + message + footer
+
+        # Send to cave channel (temporarily override channel_id)
+        original_channel = self.channel_id
+        try:
+            self.channel_id = channel
+            return self.send_message(
+                full_message,
+                parse_mode=parse_mode,
+                disable_notification=disable_notification,
+            )
+        finally:
+            self.channel_id = original_channel
 
