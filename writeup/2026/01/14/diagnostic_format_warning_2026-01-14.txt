@@ -1,0 +1,54 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1009 chars. First 500 chars: I appreciate the request, but I need to clarify my constraints: I'm configured to generate trading signals only when there are **specific news-driven catalysts** for tracked tokens.
+
+The search results provided contain general market analysis, price movements, and technical indicators—but no actionable news events that would trigger signals for the tracked token list.
+
+To generate trading signals aligned with Leviathan News' format, I would need headlines about:
+- Partnerships, integrations, or 
+
+Refusal detected: LLM explicitly refused to generate signals
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I appreciate the request, but I need to clarify my constraints: I'm configured to generate trading signals only when there are **specific news-driven catalysts** for tracked tokens.
+
+The search results provided contain general market analysis, price movements, and technical indicators—but no actionable news events that would trigger signals for the tracked token list.
+
+To generate trading signals aligned with Leviathan News' format, I would need headlines about:
+- Partnerships, integrations, or protocol updates
+- Regulatory developments or institutional moves
+- Financial events or loss disclosures
+- Product launches or technical milestones
+
+The current search results discuss Bitcoin and Ethereum consolidation patterns and technical resistance levels, which don't meet the catalyst threshold for signal generation.
+
+If you have specific news headlines about the tracked tokens (Bitcoin, Ethereum, XRP, Solana, etc.), I can analyze those and generate actionable trading signals in the required format.
+
+News items sent (10):
+[1] Bank of Italy economist sends out warning on Ethereum's role in financial system. The study suggests that Ethereum's role in financial systems makes its token economics a concern for regulators, who may need to consider safeguards for its use in regulated finance. - https://leviathannews.xyz/redirect/23612?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Thiel-backed crypto exchange Bitpanda explores options. Citigroup, JPMorgan are working with the Austrian firm. Alternatives being considered include IPO and a sale. - https://leviathannews.xyz/redirect/23623?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Yield has suffered a major financial hit totaling $3.73 million. The loss occurred during a Vault operation which involves a token swap from stkGHO to USDC. Due to extreme slippage, 3.84M GHO was exchanged for a mere 112K USDC. - https://leviathannews.xyz/redirect/23588?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] The Pentagon unveiled an AI-first strategy, planning to deploy advanced AI models across classified and unclassified networks as it prepares for future space missions. Defense Secretary Pete Hegseth confirmed xAI’s Grok will join - https://leviathannews.xyz/redirect/23609?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] South Korean financial giant KB files patent for stablecoin credit card. The patent application covers a hybrid payment system that allows users to spend stablecoins through their existing credit cards. - https://leviathannews.xyz/redirect/23624?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Fors launches beta to aggregate prediction markets across Solana ecosystem. - https://leviathannews.xyz/redirect/23611?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Crypto data platform CoinGecko weighs sale for around $500 million, sources say - https://leviathannews.xyz/redirect/23602?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Lighter releases mobile app for iOS and Android, bringing perps and RWAs to handheld devices and launching 100,000 LIT mobile-exclusive trading competition starting Jan 15 - https://leviathannews.xyz/redirect/23592?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Yearn weekly Blue Pill - https://leviathannews.xyz/redirect/23591?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Franklin Templeton turns money market fund into stablecoin reserve vehicle. The LUIXX fund has been modified to hold short-term US Treasuries and meet stablecoin reserve standards. The DIGXX fund now offers an onchain share class. - https://leviathannews.xyz/redirect/23613?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$SQUID Leviathan Points - 301 news articles (TVL: $100,000)
+$XRP XRP - 77 news articles (TVL: $636,416,718)
+$LIT Lighter - 3 news articles (TVL: $683,180,568)
+$ POL - 1 news articles (TVL: $8,500,000,000)
+$ETH Ethereum - 533 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 516 news articles (TVL: $369,000,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$SOL Solana - 69 news articles (TVL: $800,000,000,000)
+$BNB BNB - 63 news articles ...

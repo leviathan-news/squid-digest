@@ -11,23 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Digital asset funds saw $454 million in weekly outflows, extending a four-day $1.3 billion withdrawal streak that nearly erased $1.5 billion in year-to-date inflows as expectations for a March Federal Reserve rate cut faded.** [𝕏/@cryptounfolded](https://leviathannews.xyz/redirect/23509?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **News for the community, by the community.
-
-Thank you so much arqus for this incredible animated video contribution, the first ever of its kind!
-
-A great way to make yourself eligible for next month's SQUID DAO vote.
-
-Have a talent as well, and want to contribute and earn some $SQUID?
-
-Let us know in the comments what it is, and join us!** [𝕏/@leviathan_news](https://leviathannews.xyz/redirect/23513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z Crypto outlined three AI trends for 2026: AI evolving into a serious research co-pilot, the rise of “Know Your Agent” (KYA) as agents need onchain identity and credentials to transact, and new crypto-enabled payment models to fix the invisible tax AI agents impose on the open web.** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/23491?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **StoneX announces strategic partnership with Enhanced Digital Group and leads Series A funding round. The partnership will see StoneX Digital, a division of StoneX, collaborate with EDG to expand their respective digital asset offerings. EDG is a provider of over-the-counter derivatives treasury solutions and structured products for digital assets.** [Liquidityfinder](https://leviathannews.xyz/redirect/23495?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A criminal investigation into Jerome H. Powell, Federal Reserve chair, has been opened by U.S. attorney’s office in the District of Columbia over the central bank’s renovation of its Washington headquarters and whether Mr. Powell lied to Congress about the scope of the project. Jerome H. Powell has posted this video in response** [𝕏/@federalreserve](https://leviathannews.xyz/redirect/23501?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US states move to shut down prediction markets like Kalshi and Polymarket by treating them as unlicensed sportsbooks, signaling a broader crackdown on the industry.** [Semafor](https://leviathannews.xyz/redirect/23947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"The Great Crypto Rot" discusses the necessity of open source code in crypto** [𝕏/@RyskyGeronimo](https://leviathannews.xyz/redirect/23942?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto analyst shared a deep reflection on costly crypto mistakes, arguing that conviction without probabilistic updates is expensive. Using Bayes’ thinking, he highlights how ignoring tokenomics, unlocks, and optionality turns good research into losses—and why survival beats being “right” in markets.** [𝕏/@Only1temmy](https://leviathannews.xyz/redirect/23936?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sharon AI secures up to US$500M non-recourse, GPU-backed debt facility from USD.AI to accelerate AI infrastructure expansion across Australia and Asia-Pacific.** [Businesswire](https://leviathannews.xyz/redirect/23948?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Bitcoin is a decentralized protocol. There's actually no issuer of it. So in the sense that central banks have independence, Bitcoin is even more independent. There's no country or company or individual who controls it in the world" - Brian Armstrong answers critics from central bankers at the World Economic Forum in Davos** [𝕏](https://leviathannews.xyz/redirect/23935?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/12/signals_2026-01-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/12/signals_2026-01-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

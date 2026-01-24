@@ -1,0 +1,43 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1155 chars. First 500 chars: I appreciate the query, but I need to flag a mismatch: the search results provided are general crypto market analysis (Bitcoin technical levels, macro conditions, January 2026 price action) rather than the specific token news catalysts needed to generate actionable trading signals in the format specified.
+
+The search results show that Bitcoin is consolidating with mixed signals—technical resistance near $100K coupled with macro headwinds (tariffs, Fed uncertainty), while Ethereum is holding abov
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I appreciate the query, but I need to flag a mismatch: the search results provided are general crypto market analysis (Bitcoin technical levels, macro conditions, January 2026 price action) rather than the specific token news catalysts needed to generate actionable trading signals in the format specified.
+
+The search results show that Bitcoin is consolidating with mixed signals—technical resistance near $100K coupled with macro headwinds (tariffs, Fed uncertainty), while Ethereum is holding above $3K with Layer 2 infrastructure as a catalyst. However, these are broad market observations, not discrete news events tied to individual tokens in the tracked portfolio.
+
+To generate meaningful trading signals, I'd need search results containing specific news about individual tokens (like the Pendle tokenomics overhaul, Maple Finance deposits milestone, NYSE tokenization announcement, or Trove ICO allegations mentioned in recent headlines) rather than general market commentary.
+
+If you'd like me to generate trading signals, please provide search results tied to specific token news events, and I'll deliver actionable alpha in the standard format.
+
+News items sent (10):
+[1] Pendle has overhauled $PENDLE tokenomics by replacing 2‑year‑locked vePENDLE with liquid staking sPENDLE (14‑day withdrawal), routing up to 80% of protocol revenue to PENDLE buybacks and sPENDLE distributions contingent on PPP voting or DeFi usage, cutting emissions by ~30% via algorithmic pool allocation, granting existing vePENDLE holders up to 4x virtual sPENDLE boosts that decay over two years, and preserving LP boosts only for current pools while removing them for new ones. - https://leviathannews.xyz/redirect/23834?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] 320M wallets scored. Top performers unlocking exclusive yields and access. Where do you rank? → - https://leviathannews.xyz/redirect/23804?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Maple Finance crosses $250MM in deposits on Kamino Finance - https://leviathannews.xyz/redirect/23805?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Trail of Bits releases a set of Claude skills for web3 security researchers - https://leviathannews.xyz/redirect/23801?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Enosys announces an airdrop of 2.75% of the supply of APS, its governance and rewards token, to Liquity V2 Mainnet LPs - https://leviathannews.xyz/redirect/23806?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] New York Stock Exchange announces a tokenization platform for 24/7 digital securities trading with instant  settlement and stablecoin funding - https://leviathannews.xyz/redirect/23802?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Introducing - IPOR Fusion Points - https://leviathannews.xyz/redirect/23807?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Flex unaudited beta is now live - https://leviathannews.xyz/redirect/23798?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Crunch opens Bittensor decentralized AI mining to academic and enterprise ML scientists. - https://leviathannews.xyz/redirect/23825?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Mike Dudas alleges Trove ran an ICO scam by keeping 9.4 million dollars raised under false pretenses while the token’s value collapsed from a 20 million to about 1.4 million dollar FDV within minutes, calling for anyone who takes money from the project to be publicly shamed and outed. - https://leviathannews.xyz/redirect/23814?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 535 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 303 news articles (TVL: $100,000)
+$BTC Bitcoin - 517 news articles (TVL: $369,000,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$XRP XRP - 77 news articles (TVL: $636,416,718)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche ...

@@ -1,5 +1,5 @@
 {
-  "cash": 4152.322289558835,
+  "cash": 2964.2882186237766,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -20,8 +20,8 @@
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
-      "quantity": 7040.31487922776,
-      "entry_price": 0.28407820307880555,
+      "quantity": 19355.779752940703,
+      "entry_price": 0.3037119380568319,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -84,8 +84,8 @@
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
-      "quantity": -269.4053987943976,
-      "entry_price": 2.371058534758813,
+      "quantity": -529.9203988801833,
+      "entry_price": 2.1737911970764485,
       "entry_date": "2026-01-06T13:34:39.467824",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -119,6 +119,30 @@
       "quantity": -334.126584990542,
       "entry_price": 1.7774249806033855,
       "entry_date": "2026-01-12T13:39:23.118862",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SYRUP": {
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "quantity": -1880.0347059188505,
+      "entry_price": 0.3961528931255436,
+      "entry_date": "2026-01-13T13:53:29.613208",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "XMR": {
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "quantity": -1.1870760797272681,
+      "entry_price": 693.5876115896451,
+      "entry_date": "2026-01-16T13:34:53.147325",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BUIDL": {
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "quantity": -609.2645314769077,
+      "entry_price": 1.0,
+      "entry_date": "2026-01-19T13:41:40.033077",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -362,6 +386,126 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-13T13:53:29.613208",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SHORT",
+      "quantity": 1515.5402837662846,
+      "price": 0.3966761435161592,
+      "value": 601.1786751077954,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-15T13:36:35.483600",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 80.11200178545202,
+      "price": 2.119181809655319,
+      "value": 169.77189691880437,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-15T13:36:35.483600",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SHORT",
+      "quantity": 364.49442215256596,
+      "price": 0.3939772575128195,
+      "value": 143.60251281838782,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-16T13:34:53.147325",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 1.044980188608885,
+      "price": 703.4954188915086,
+      "value": 735.1387755187352,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-17T13:26:05.771226",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 0.14209589111838325,
+      "price": 620.7251082370592,
+      "value": 88.20248739449983,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-18T13:25:55.828571",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 2300.5279367272487,
+      "price": 0.3156518759532064,
+      "value": 726.1659589107153,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-19T13:41:40.033077",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 10014.936936985696,
+      "price": 0.31477137023340157,
+      "value": 3152.415422456093,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-19T13:41:40.033077",
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "action": "SHORT",
+      "quantity": 609.2645314769077,
+      "price": 1.0,
+      "value": 609.2645314769077,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-21T13:41:32.927267",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 45.38694484156345,
+      "price": 1.897500719645954,
+      "value": 86.12176049939785,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-23T13:39:24.172091",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 135.0160534587702,
+      "price": 1.9054524562576094,
+      "value": 257.26667069722237,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -400,6 +544,50 @@
     [
       "2026-01-12T13:39:23.118862",
       9898.08231409816
+    ],
+    [
+      "2026-01-13T13:53:29.613208",
+      10019.644585129923
+    ],
+    [
+      "2026-01-14T13:37:19.663350",
+      10367.623346033095
+    ],
+    [
+      "2026-01-15T13:36:35.483600",
+      9875.87889955772
+    ],
+    [
+      "2026-01-16T13:34:53.147325",
+      9801.850340249803
+    ],
+    [
+      "2026-01-17T13:26:05.771226",
+      9824.639040991102
+    ],
+    [
+      "2026-01-18T13:25:55.828571",
+      9828.181859467431
+    ],
+    [
+      "2026-01-19T13:41:40.033077",
+      10154.408857948458
+    ],
+    [
+      "2026-01-20T13:42:33.371432",
+      10022.414306561857
+    ],
+    [
+      "2026-01-21T13:41:32.927267",
+      9991.083728379279
+    ],
+    [
+      "2026-01-22T13:43:04.837820",
+      10035.530135229885
+    ],
+    [
+      "2026-01-23T13:39:24.172091",
+      10097.381256672574
     ]
   ]
 }

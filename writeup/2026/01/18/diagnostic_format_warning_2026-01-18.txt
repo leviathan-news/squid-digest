@@ -1,0 +1,55 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1897 chars. First 500 chars: # Key Market Insights from Recent Crypto Data
+
+**Macro Reversion Opportunity**
+Bitcoin is significantly underperforming gold (+37% vs -20% over six months), creating a major catch-up play as the smart money positions for mean reversion[1]. Whales holding 10-10,000 BTC are actively accumulating while retail traders exit, a historically bullish signal that often precedes substantial rallies[1].
+
+**Supply Shock Creates Scarcity**
+A massive **19,700 BTC outflow from exchanges in a single 4-hour wind
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+# Key Market Insights from Recent Crypto Data
+
+**Macro Reversion Opportunity**
+Bitcoin is significantly underperforming gold (+37% vs -20% over six months), creating a major catch-up play as the smart money positions for mean reversion[1]. Whales holding 10-10,000 BTC are actively accumulating while retail traders exit, a historically bullish signal that often precedes substantial rallies[1].
+
+**Supply Shock Creates Scarcity**
+A massive **19,700 BTC outflow from exchanges in a single 4-hour window** represents the second-largest exodus in six months, leaving only 1.18M BTC on exchange supply[1]. This declining liquidity supports upward price action if institutional demand (evidenced by record $19.6B ETF volume) continues[1].
+
+**Altcoin Momentum Accelerating**
+Capital is rotating into higher-beta assets despite economic headwinds—Ethereum +16.3%, Solana +17.7%, and Monero +53% over 30 days[1]. However, note that Monero's surge was partly driven by stolen funds conversion, not organic adoption, signaling caution on price-only rallies[1].
+
+**Regulatory Tailwinds Building**
+Proposed legislation aims to codify the SEC/CFTC split on token classification and establish federal stablecoin rules requiring 1:1 Treasury backing[2]. This institutional clarity is positioning 2026 as a legitimacy inflection point for the sector.
+
+**Technical Consolidation**
+Ethereum consolidates in its $3,000-$3,200 pivot zone with key resistance at $3,500; Bitcoin tests its 50-day moving average near $97,000-$100,000 resistance; Solana regains its $140-$150 major pivot[2]. All three are in critical technical zones that will determine near-term directional conviction.
+
+**Heightened Scrutiny on Stablecoins**
+Tether froze $182M in USDT across five Tron wallets, reflecting intensifying government pressure on illicit financing—expect continued regulatory action affecting stablecoin usage patterns[2].
+
+News items sent (6):
+[1] Yieldbasis to propose The Hybrid Vault - https://leviathannews.xyz/redirect/23766?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] How SIRE is leveraging AI to democratize the edge in prediction markets - https://leviathannews.xyz/redirect/23769?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] WalletConnect Pay has launched globally via a partnership with Ingenico, bringing stablecoin payments to 40M+ POS terminals across 120+ countries. The rollout starts with PSPs in Jan 2026, with first merchant activations in Europe in Q1–Q2 2026. - https://leviathannews.xyz/redirect/23772?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Why you must become a creator. - https://leviathannews.xyz/redirect/23770?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] AI agent protocols like MCP, A2A, AG-UI, A2UI, AP2, and UCP aren’t competitors but layers in a growing stack, each solving a specific problem from tools and coordination to UI, payments, and commerce, enabling scalable, modular AI agents. - https://leviathannews.xyz/redirect/23774?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Most crypto investors chase 100x and miss the real game: asymmetric bets. The edge isn’t hype, it’s timing—buying solid builders during fear, not pumps. Downside capped, upside exponential. Real alpha comes from patience, positioning at peak fear, and letting cycles do the work. - https://leviathannews.xyz/redirect/23773?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 533 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 517 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 302 news articles (TVL: $100,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$XRP XRP - 77 news articles (TVL: $636,416,718)
+$HYPE HYPE - 76 news articles (TVL: $12,000,000,000)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche ...
