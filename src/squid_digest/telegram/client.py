@@ -198,19 +198,23 @@ class TelegramClient:
                 "Set TELEGRAM_CAVE_CHANNEL_ID environment variable."
             )
 
-        # Build message with masthead and footer
-        masthead = "🐙 <b>SQUID Digest</b>\n\n"
-        footer = f'\n\n📰 <a href="{canonical_url}">Read on Web</a> • <a href="{github_url}">View on GitHub</a>'
-        full_message = masthead + message + footer
+        # Build message with masthead and links at the top (before content)
+        telegram_channel = "https://t.me/+8A2-Ypry6ytjYTYx"
+        masthead = (
+            "🐙 <b>SQUID Digest</b>\n"
+            f'📰 <a href="{canonical_url}">Web</a> • '
+            f'<a href="{github_url}">GitHub</a> • '
+            f'<a href="{telegram_channel}">Telegram</a>\n\n'
+        )
+        full_message = masthead + message
 
         # Check length and truncate if needed
         if len(full_message) > 4096:
             print(f"Warning: SQUID Cave message exceeds 4096 chars ({len(full_message)}), truncating")
             # Calculate available space for message content
-            overhead = len(masthead) + len(footer)
-            max_content_len = 4096 - overhead - 50  # Leave room for closing tags
+            max_content_len = 4096 - len(masthead) - 50  # Leave room for closing tags
             message = truncate_html_safely(message, max_content_len)
-            full_message = masthead + message + footer
+            full_message = masthead + message
 
         # Send to cave channel (temporarily override channel_id)
         original_channel = self.channel_id

@@ -24,6 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from squid_digest.telegram import TelegramClient, format_for_telegram
+from squid_digest.telegram.formatter import truncate_html_safely
 from squid_digest.config import WRITEUP_DIR
 
 
@@ -106,17 +107,26 @@ def main():
     canonical_url = get_canonical_url(date)
     github_url = get_github_url(date)
 
-    # Build full message with masthead and footer
-    masthead = "🐙 <b>SQUID Digest</b>\n\n"
-    footer = f'\n\n📰 <a href="{canonical_url}">Read on Web</a> • <a href="{github_url}">View on GitHub</a>'
-    full_message = masthead + page1 + footer
+    # Build full message with masthead and links at the top (matching client.py)
+    telegram_channel = "https://t.me/+8A2-Ypry6ytjYTYx"
+    masthead = (
+        "🐙 <b>SQUID Digest</b>\n"
+        f'📰 <a href="{canonical_url}">Web</a> • '
+        f'<a href="{github_url}">GitHub</a> • '
+        f'<a href="{telegram_channel}">Telegram</a>\n\n'
+    )
+    full_message = masthead + page1
+
+    # Truncate if needed (same logic as client.py)
+    if len(full_message) > 4096:
+        max_content_len = 4096 - len(masthead) - 50
+        page1 = truncate_html_safely(page1, max_content_len)
+        full_message = masthead + page1
 
     if args.dry_run:
         print("\n" + "=" * 60)
         print("SQUID Cave Preview (DRY RUN)")
         print("=" * 60)
-        print(f"Canonical URL: {canonical_url}")
-        print(f"GitHub URL: {github_url}")
         print(f"Message length: {len(full_message)} chars (limit: 4096)")
         print("-" * 60)
         # Show full message (it's HTML but readable)
@@ -124,8 +134,7 @@ def main():
         print("-" * 60)
 
         if len(full_message) > 4096:
-            print(f"⚠️  WARNING: Message exceeds 4096 char limit by {len(full_message) - 4096} chars")
-            print("   Message will be truncated when sent.")
+            print(f"⚠️  WARNING: Message still exceeds limit after truncation!")
         else:
             print(f"✓ Message is within limit ({4096 - len(full_message)} chars remaining)")
 
