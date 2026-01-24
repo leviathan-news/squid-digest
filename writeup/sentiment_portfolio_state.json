@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 2923.4035720900206,
   "positions": {
     "ETH": {
       "symbol": "ETH",
@@ -136,6 +136,14 @@
       "entry_price": 1.0,
       "entry_date": "2026-01-19T13:41:40.033077",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": -23540.579585710802,
+      "entry_price": 0.1241857092535026,
+      "entry_date": "2026-01-24T13:27:58.423708",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -486,6 +494,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-24T13:27:58.423708",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 23540.579585710802,
+      "price": 0.1241857092535026,
+      "value": 2923.4035720900206,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -568,6 +588,10 @@
     [
       "2026-01-23T13:39:24.172091",
       9791.35604446316
+    ],
+    [
+      "2026-01-24T13:27:58.423708",
+      9744.678573633404
     ]
   ]
 }
