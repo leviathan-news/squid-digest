@@ -134,7 +134,8 @@ def main():
     # Send to SQUID Cave
     print("\nSending to SQUID Cave...")
     try:
-        client = TelegramClient()
+        # require_channel=False since we're using send_to_cave with its own channel
+        client = TelegramClient(require_channel=False)
         result = client.send_to_cave(page1, canonical_url, github_url)
 
         if result.get("ok"):

@@ -9,21 +9,28 @@ from .formatter import truncate_html_safely
 class TelegramClient:
     """Client for sending messages via Telegram Bot API."""
     
-    def __init__(self, bot_token: Optional[str] = None, channel_id: Optional[str] = None):
+    def __init__(
+        self,
+        bot_token: Optional[str] = None,
+        channel_id: Optional[str] = None,
+        require_channel: bool = True,
+    ):
         """Initialize Telegram bot client.
-        
+
         Args:
             bot_token: Telegram bot token. If None, will read from TELEGRAM_BOT_TOKEN env var.
             channel_id: Telegram channel ID. If None, will read from TELEGRAM_CHANNEL_ID env var.
+            require_channel: If True, raises error if channel_id is not set. Set to False
+                           when only using send_to_cave() which specifies its own channel.
         """
         self.bot_token = bot_token or os.getenv("TELEGRAM_BOT_TOKEN")
         self.channel_id = channel_id or os.getenv("TELEGRAM_CHANNEL_ID")
-        
+
         if not self.bot_token:
             raise ValueError("Telegram bot token is required. Set TELEGRAM_BOT_TOKEN environment variable.")
-        if not self.channel_id:
+        if require_channel and not self.channel_id:
             raise ValueError("Telegram channel ID is required. Set TELEGRAM_CHANNEL_ID environment variable.")
-        
+
         self.api_url = f"https://api.telegram.org/bot{self.bot_token}"
     
     def send_message(
