@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Is Ethereum Finally Taking Over Wall Street?** [Youtube](https://leviathannews.xyz/redirect/23995?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Convex Finance turned DeFi governance’s biggest weaknesses—low participation and concentrated power—into a system advantage by optimizing around liquidity coordination and incentive routing rather than idealized voting. By monetizing governance through bribes and veCRV control, Convex built a durable revenue engine that has survived multiple market cycles.** [𝕏/@KM_crypto1](https://leviathannews.xyz/redirect/24003?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **River secures $8 million from TRON DAO Ventures to expand chain-abstraction infrastructure on TRON.** [Benzinga](https://leviathannews.xyz/redirect/23998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC dismisses Gemini Earn civil action with prejudice ending pursuit of unregistered securities claims** [sec.gov](https://leviathannews.xyz/redirect/23996?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **infiniFi is expanding beyond DeFi by deploying capital into Bitcoin-backed CeFi lending via Maple Finance, aiming to access higher, duration-based institutional yields as onchain rates compress. By acting as a duration engine, infiniFi bridges DeFi liquidity with regulated CeFi credit markets while maintaining capital efficiency.** [𝕏/@infiniFi](https://leviathannews.xyz/redirect/24004?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Defillama releases a python SDK for their APIs** [𝕏/@defillama](https://leviathannews.xyz/redirect/24017?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nifty Gateway to shut down on February 23, 2026, moving immediately to withdrawal-only mode for all users’ funds and NFTs.** [𝕏/@niftygateway](https://leviathannews.xyz/redirect/24015?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Ethereum Foundation has launched a the "Post Quantum" team, led by Thomas Coratger, to address cryptographic concerns raised by quantum computing** [𝕏/@drakefjustin](https://leviathannews.xyz/redirect/24014?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z crypto breaks down why quantum threats to blockchains are often overstated, arguing that encryption needs urgent post-quantum upgrades while signatures and zk proofs allow for a slower, more deliberate transition. The key challenge isn’t panic-driven migration, but matching cryptographic urgency to real, timeline-based risks.** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/24047?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PinLink is building the infrastructure layer for RWAI by tokenizing AI-powered DeFi agents into a unified, yield-bearing vault experience using ERC-4626. By abstracting strategy complexity and automation into $PIN, users gain passive exposure to continuously running agents across protocols like Pendle and Uniswap.** [𝕏/@PinLinkAi](https://leviathannews.xyz/redirect/24048?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/24/signals_2026-01-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/24/signals_2026-01-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/25/signals_2026-01-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/25/signals_2026-01-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
