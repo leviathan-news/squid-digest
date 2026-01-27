@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-01-25",
+  "last_processed_date": "2026-01-27",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 1.9467684451413687,
+      "score": 1.4464433958760452,
       "last_signal_date": "2026-01-24",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.49725481630647433,
+      "score": 0.3694589086386316,
       "last_signal_date": "2026-01-24",
       "token_name": "Solana"
     },
@@ -33,13 +33,13 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 2.731153035792242,
+      "score": 2.0292389069731556,
       "last_signal_date": "2026-01-24",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 0.6576466176801122,
+      "score": 0.48862955907143846,
       "last_signal_date": "2026-01-24",
       "token_name": "XRP"
     },
@@ -87,7 +87,7 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": -0.9057236642639067,
+      "score": -0.6729500963161781,
       "last_signal_date": "2026-01-24",
       "token_name": "Dogecoin"
     },
@@ -129,7 +129,7 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": -0.06250000000000001,
+      "score": -0.02563547987523869,
       "last_signal_date": "2026-01-18",
       "token_name": "Tron"
     },
@@ -177,51 +177,69 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.030374643071059294,
+      "score": 0.012458696818651178,
       "last_signal_date": "2026-01-18",
       "token_name": "Monero"
     },
     "100K": {
       "symbol": "100K",
-      "score": -0.15712535692894072,
+      "score": -0.07115607701322721,
       "last_signal_date": "2026-01-19",
       "token_name": "100K"
     },
     "BUIDL": {
       "symbol": "BUIDL",
-      "score": 0.06250000000000001,
+      "score": 0.02563547987523869,
       "last_signal_date": "2026-01-18",
       "token_name": "BUIDL"
     },
     "19": {
       "symbol": "19",
-      "score": -1.2950419014053807,
+      "score": -0.7149210915549381,
       "last_signal_date": "2026-01-21",
       "token_name": "19"
     },
     "50T": {
       "symbol": "50T",
-      "score": 2.038039045973855,
+      "score": 1.3714985722842374,
       "last_signal_date": "2026-01-23",
       "token_name": "50T"
     },
     "103K": {
       "symbol": "103K",
-      "score": 1.1040895136738125,
+      "score": 0.6729500963161781,
       "last_signal_date": "2026-01-22",
       "token_name": "103K"
     },
     "90": {
       "symbol": "90",
-      "score": -2.0,
+      "score": -1.640670712015276,
       "last_signal_date": "2026-01-25",
       "token_name": "90"
     },
     "50": {
       "symbol": "50",
-      "score": 2.0,
+      "score": 1.640670712015276,
       "last_signal_date": "2026-01-25",
       "token_name": "50"
+    },
+    "87": {
+      "symbol": "87",
+      "score": -2.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "87"
+    },
+    "ETF": {
+      "symbol": "ETF",
+      "score": -2.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "ETF"
+    },
+    "591": {
+      "symbol": "591",
+      "score": 2.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "591"
     }
   }
 }
