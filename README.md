@@ -11,17 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Stand up for trustless solutions on Ethereum.
-Be part of the Trustless Force.
-Join Curve, f(x), Liquity and Leviathan this Wed. 3pm CET.** [𝕏/@TrustlessForce](https://leviathannews.xyz/redirect/24068?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ryan Dahl, cofounder of Deno and creator of nodejs declares, "The era of humans writing code is over."** [𝕏/@rough__sea](https://leviathannews.xyz/redirect/24075?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chaos Labs introduces Chaos Vaults** [𝕏/@chaoslabs](https://leviathannews.xyz/redirect/24073?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized private credit is unlocking liquidity through DeFi composability, not secondary markets. By using credit vault tokens as collateral on protocols like Morpho, RWAs gain instant liquidity without selling, positioning composable credit as the bridge to scaling a $1T+ market.** [𝕏/@DeanEigenmann](https://leviathannews.xyz/redirect/24079?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Art That Outlives Museums: When Network Becomes the Medium" - a guest article by Natalie Stone for Ethereum** [𝕏/@ethereum](https://leviathannews.xyz/redirect/24072?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Cyfrin Solodit API is now live, with access to 50,000 smart contract vulnerabilities** [𝕏/@SoloditOfficial](https://leviathannews.xyz/redirect/24115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cap Reaches $500M in TVL on Ethereum** [𝕏/@capmoney_](https://leviathannews.xyz/redirect/24100?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DefiLlama has acquired Bulletin, one of the few platforms providing structured valuation and OTC data for private crypto companies.
+
+This data will be integrated into their main platform to give investors another important data point about how fundamentals and valuations align in the private market.** [DL News](https://leviathannews.xyz/redirect/24112?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pink Brains reports that 2025 marked a turning point for DAOs, with governance shifting toward hybrid and more centralized execution models to improve speed, accountability, and sustainability. Looking into 2026, DAOs are expected to prioritize value accrual, professional delegation, legal structures, and risk-focused governance frameworks.** [𝕏/@PinkBrains_io](https://leviathannews.xyz/redirect/24092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **USD.AI announces its foundation and the upcoming release of its governance token $CHIP.** [𝕏/@USDai_Official](https://leviathannews.xyz/redirect/24111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/27/signals_2026-01-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/27/signals_2026-01-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/28/signals_2026-01-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/28/signals_2026-01-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
