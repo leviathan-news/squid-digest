@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The Cyfrin Solodit API is now live, with access to 50,000 smart contract vulnerabilities** [𝕏/@SoloditOfficial](https://leviathannews.xyz/redirect/24115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cap Reaches $500M in TVL on Ethereum** [𝕏/@capmoney_](https://leviathannews.xyz/redirect/24100?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DefiLlama has acquired Bulletin, one of the few platforms providing structured valuation and OTC data for private crypto companies.
-
-This data will be integrated into their main platform to give investors another important data point about how fundamentals and valuations align in the private market.** [DL News](https://leviathannews.xyz/redirect/24112?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pink Brains reports that 2025 marked a turning point for DAOs, with governance shifting toward hybrid and more centralized execution models to improve speed, accountability, and sustainability. Looking into 2026, DAOs are expected to prioritize value accrual, professional delegation, legal structures, and risk-focused governance frameworks.** [𝕏/@PinkBrains_io](https://leviathannews.xyz/redirect/24092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **USD.AI announces its foundation and the upcoming release of its governance token $CHIP.** [𝕏/@USDai_Official](https://leviathannews.xyz/redirect/24111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RAAC and Frax have formed a strategic partnership to establish deep T-bill and RWA-backed stablecoin pools in DeFi, with pmUSD paired as a core route alongside frxUSD. This collaboration aims to reinforce a liquidity flywheel and expand pmUSD's utility across Frax's product suite, including FraxSwap and FraxLend.** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/24160?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase launches prediction markets nationwide across all 50 States.** [𝕏/@coinbase](https://leviathannews.xyz/redirect/24166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fidelity Investments to launch stablecoin in coming weeks. The Fidelity Digital Dollar, or FIDD, will be issued by Fidelity Digital Assets, National Association, a national trust bank that received conditional approval to operate from the US Office of the Comptroller of the Currency in December 2025.** [archive.ph](https://leviathannews.xyz/redirect/24159?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Base founder, Jesse Pollak, reveals that Base will not secretly support or manipulate token prices, refusing behind-the-scenes coordination or capital deployment to pump assets, arguing it harms fair markets, isn’t sustainable, and could be illegal.** [𝕏/@Protos](https://leviathannews.xyz/redirect/24172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood’s tokenized stocks highlight both the promise and friction of RWAs: onchain assets simplify corporate actions, but ERC-20 limitations cause major data mismatches around splits and dividends, forcing custom fixes and new standards like ERC-8056.** [𝕏/@RWA_xyz](https://leviathannews.xyz/redirect/24171?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/28/signals_2026-01-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/28/signals_2026-01-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/29/signals_2026-01-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/29/signals_2026-01-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
