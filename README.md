@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **RAAC and Frax have formed a strategic partnership to establish deep T-bill and RWA-backed stablecoin pools in DeFi, with pmUSD paired as a core route alongside frxUSD. This collaboration aims to reinforce a liquidity flywheel and expand pmUSD's utility across Frax's product suite, including FraxSwap and FraxLend.** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/24160?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase launches prediction markets nationwide across all 50 States.** [𝕏/@coinbase](https://leviathannews.xyz/redirect/24166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Fidelity Investments to launch stablecoin in coming weeks. The Fidelity Digital Dollar, or FIDD, will be issued by Fidelity Digital Assets, National Association, a national trust bank that received conditional approval to operate from the US Office of the Comptroller of the Currency in December 2025.** [archive.ph](https://leviathannews.xyz/redirect/24159?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Base founder, Jesse Pollak, reveals that Base will not secretly support or manipulate token prices, refusing behind-the-scenes coordination or capital deployment to pump assets, arguing it harms fair markets, isn’t sustainable, and could be illegal.** [𝕏/@Protos](https://leviathannews.xyz/redirect/24172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Robinhood’s tokenized stocks highlight both the promise and friction of RWAs: onchain assets simplify corporate actions, but ERC-20 limitations cause major data mismatches around splits and dividends, forcing custom fixes and new standards like ERC-8056.** [𝕏/@RWA_xyz](https://leviathannews.xyz/redirect/24171?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum dev Griff Green uses unclaimed ETH from the 2016 DAO hack to fund a $250MM Ethereum security fund** [The Block](https://leviathannews.xyz/redirect/24200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ClickOptions introduces “Benchmark Cards”, setting a new transparency standard for crypto options pricing. Now you can compare spread, liquidity, and premiums across major venues in real time.** [𝕏/@clickoptions_ai](https://leviathannews.xyz/redirect/24197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan News has staked 7500 RSUP in the Curve RSUP/ETH pool and staked the LP token on Yearn.  Thank you for your attention to this matter.** [etherscan.io](https://leviathannews.xyz/redirect/24201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tech giants including Amazon, Microsoft, and Nvidia are reportedly in talks to join a major OpenAI funding round that could reach $100B, as the AI firm prepares for a potential Q4 IPO. Amazon alone is said to be considering up to $50B, deepening its strategic ties beyond cloud services.** [decrypt.co](https://leviathannews.xyz/redirect/24214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The U.S. Senate Agriculture Committee advanced the CLARITY Act in a narrow 12–11 party-line vote, moving a major crypto market structure bill forward and giving the CFTC clearer authority over digital commodities. The bill now heads to the Senate Banking Committee, where ethics, DeFi treatment, and stablecoin issues remain key hurdles.** [crypto.news](https://leviathannews.xyz/redirect/24213?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/29/signals_2026-01-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/29/signals_2026-01-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/30/signals_2026-01-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/30/signals_2026-01-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
