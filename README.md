@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum dev Griff Green uses unclaimed ETH from the 2016 DAO hack to fund a $250MM Ethereum security fund** [The Block](https://leviathannews.xyz/redirect/24200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ClickOptions introduces “Benchmark Cards”, setting a new transparency standard for crypto options pricing. Now you can compare spread, liquidity, and premiums across major venues in real time.** [𝕏/@clickoptions_ai](https://leviathannews.xyz/redirect/24197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Leviathan News has staked 7500 RSUP in the Curve RSUP/ETH pool and staked the LP token on Yearn.  Thank you for your attention to this matter.** [etherscan.io](https://leviathannews.xyz/redirect/24201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tech giants including Amazon, Microsoft, and Nvidia are reportedly in talks to join a major OpenAI funding round that could reach $100B, as the AI firm prepares for a potential Q4 IPO. Amazon alone is said to be considering up to $50B, deepening its strategic ties beyond cloud services.** [decrypt.co](https://leviathannews.xyz/redirect/24214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The U.S. Senate Agriculture Committee advanced the CLARITY Act in a narrow 12–11 party-line vote, moving a major crypto market structure bill forward and giving the CFTC clearer authority over digital commodities. The bill now heads to the Senate Banking Committee, where ethics, DeFi treatment, and stablecoin issues remain key hurdles.** [crypto.news](https://leviathannews.xyz/redirect/24213?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Delaware judge lets shareholder insider-trading suit proceed against Coinbase directors including Marc Andreessen and Brian Armstrong, rejecting a special litigation committee’s dismissal bid over concerns about a member’s independence despite a 10‑month internal probe clearing the board of allegedly unloading $2.9 billion in overvalued stock before the 2021 direct listing. (** [news.bloomberglaw](https://leviathannews.xyz/redirect/24320?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Liquity’s BOLD became the first decentralized stablecoin to earn an A- rating from Bluechip, scoring perfect 1.0 marks in Management, Decentralization, and Governance. Unlike USDC or DAI, BOLD cannot be frozen, has no admin keys, and is fully crypto-backed—highlighting the tradeoff between counterparty risk and smart-contract risk.** [𝕏/@LiquityProtocol](https://leviathannews.xyz/redirect/24222?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nashpoint introduced a policy-driven onchain security framework that allows operators to create and manage self-custodied investment vaults with configurable compliance and risk controls. The system uses modular Policy smart contracts alongside Guardrail’s real-time monitoring to enforce restricted-address checks, trigger circuit breakers, and respond to onchain risks without centralized control.** [𝕏/@nashpointfi](https://leviathannews.xyz/redirect/24221?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lido v3 is live on Ethereum mainnet, featuring stETH powered modular staking infrastructure called stVaults** [blog.lido.fi](https://leviathannews.xyz/redirect/24217?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Introducing $YO, the governance token powering the yield engine for crypto. Discover how $YO holders can shape the future of onchain yield** [𝕏/@yield](https://leviathannews.xyz/redirect/24183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/30/signals_2026-01-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/30/signals_2026-01-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/01/31/signals_2026-01-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/01/31/signals_2026-01-31.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
