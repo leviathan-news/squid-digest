@@ -1,5 +1,5 @@
 {
-  "cash": 1261.4734107957324,
+  "cash": 1455.679294962846,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -44,8 +44,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.0169164706450022,
-      "entry_price": 88522.8273442998,
+      "quantity": -0.01939179773638289,
+      "entry_price": 87237.89910285585,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -562,6 +562,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-01T13:39:48.206844",
+      "symbol": "BTC",
+      "token_name": "BTC",
+      "action": "SHORT",
+      "quantity": 0.00247532709138069,
+      "price": 78456.655220781,
+      "value": 194.20588416711348,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -672,6 +684,10 @@
     [
       "2026-01-31T13:37:47.753690",
       10289.117457553246
+    ],
+    [
+      "2026-02-01T13:39:48.206844",
+      10142.77059409676
     ]
   ]
 }
