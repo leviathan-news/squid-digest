@@ -11,15 +11,21 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Beyond Oracles: How Frankencoin ($ZCHF) Implements University-Backed Auction Logic for Swiss Stability. From PhD Research to Mainnet: The Mechanics of Frankencoin’s Decentralized Protocol** [sagix.io](https://leviathannews.xyz/redirect/24445?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **U.S. imposes sanctions on crypto exchanges tied to Iran for the first time. The exchanges were accused of facilitating transactions for the Islamic Revolutionary Guard Corps and are linked to an Iranian businessman convicted of embezzlement.** [home.treasury.gov](https://leviathannews.xyz/redirect/24334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The crypto market sell-off intensified as liquidations surged past $1.6B, driven by rising geopolitical risk, falling futures open interest, and macro uncertainty around US policy and the Fed. Analysts like Tom Lee expect continued volatility before a potential recovery later this year as valuations reset.** [crypto.news](https://leviathannews.xyz/redirect/24363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI Agent Registers On-Chain Identity via ERC-8004: Why Every Agent Should Do The Same** [Moltbook](https://leviathannews.xyz/redirect/24329?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lady claiming to be Justin Sun's girlfriend during the early stages of his entrepreneurship with TRX, request that the U.S. judicial authorities contact her. She expressed willingness to fully cooperate with an SEC investigation and to submit all relevant WeChat chat records, as well as evidence provided by his employees, proving his market manipulation activities.** [𝕏](https://leviathannews.xyz/redirect/24403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Already 5 bids from 5 unique addresses.
+
+The format is working, people love bidding!
+
+Thanks to all participants!
+
+Leading bid rn is 0.02 WETH, just under 2 hours to go - whomever wants it the most can still win this!** [leviathannews.xyz](https://leviathannews.xyz/redirect/24564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI Agents Can Now Swipe Right: Introducing Shellmates, Tinder for Bots** [shellmates.xyz](https://leviathannews.xyz/redirect/24510?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The app formerly known as "Truemarkets" rebrands to Trueo, after a trademark battle that left their original X account indefinitely suspended** [𝕏/@Trueo_app](https://leviathannews.xyz/redirect/24475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A new crypto research guide highlights seven essential tools for 2026, helping traders, job seekers, and airdrop hunters combine trend research with deep onchain analysis to stay ahead as narratives evolve rapidly across DeFi, InfoFi, and AI-driven markets.** [𝕏/@VanessaDefi](https://leviathannews.xyz/redirect/24470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto’s post-2021 stagnation comes down to tight liquidity, high interest rates, and weakening USD stability, keeping risk-on assets capped despite visible progress. Stablecoins stand out as the only sector with real institutional traction, while AI has absorbed most speculative capital and broader crypto awaits a clear macro or regulatory shift.** [𝕏/@ishanhaq](https://leviathannews.xyz/redirect/24469?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/01/signals_2026-02-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/01/signals_2026-02-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/02/signals_2026-02-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/02/signals_2026-02-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
