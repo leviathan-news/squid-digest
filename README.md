@@ -11,21 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Already 5 bids from 5 unique addresses.
-
-The format is working, people love bidding!
-
-Thanks to all participants!
-
-Leading bid rn is 0.02 WETH, just under 2 hours to go - whomever wants it the most can still win this!** [leviathannews.xyz](https://leviathannews.xyz/redirect/24564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI Agents Can Now Swipe Right: Introducing Shellmates, Tinder for Bots** [shellmates.xyz](https://leviathannews.xyz/redirect/24510?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The app formerly known as "Truemarkets" rebrands to Trueo, after a trademark battle that left their original X account indefinitely suspended** [𝕏/@Trueo_app](https://leviathannews.xyz/redirect/24475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A new crypto research guide highlights seven essential tools for 2026, helping traders, job seekers, and airdrop hunters combine trend research with deep onchain analysis to stay ahead as narratives evolve rapidly across DeFi, InfoFi, and AI-driven markets.** [𝕏/@VanessaDefi](https://leviathannews.xyz/redirect/24470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto’s post-2021 stagnation comes down to tight liquidity, high interest rates, and weakening USD stability, keeping risk-on assets capped despite visible progress. Stablecoins stand out as the only sector with real institutional traction, while AI has absorbed most speculative capital and broader crypto awaits a clear macro or regulatory shift.** [𝕏/@ishanhaq](https://leviathannews.xyz/redirect/24469?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vultisig launched its Plugin Marketplace, introducing the first fully self-custodial, on-chain automation layer that enables DCA, payroll, and other automated actions across 30+ chains without exposing keys or seed phrases.** [𝕏/@vultisig](https://leviathannews.xyz/redirect/24595?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leveraged tokens hit Hyperliquid via Bounce Tech private beta** [𝕏/@BounceTech](https://leviathannews.xyz/redirect/24558?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MagicBlock unveiled $BLOCK tokenomics to power its permissionless Ephemeral Rollups network, aligning node operators, developers, and users through staking, slashing, programmatic incentives, and protocol fees with planned buybacks tied to network usage on Solana.** [𝕏/@magicblock](https://leviathannews.xyz/redirect/24594?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Concerns are rising around Moltbook’s “AI-only” narrative, as reports highlight weak safeguards, no rate-limiting, exposed databases, and the ease with which humans can impersonate agents via simple API calls. While the platform is undeniably viral and entertaining, questions remain over whether it’s genuine agent coordination or just engagement farming dressed as sci-fi.** [𝕏/@blocmates](https://leviathannews.xyz/redirect/24592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A new open-source CLI tool, hyperliquid-cli, has launched to help AI agents and humans interact with the Hyperliquid blockchain in minutes. The tool offers real-time market data, multi-account management, and native support for AI agent frameworks via simple bash commands.** [𝕏/@chrisling_dev](https://leviathannews.xyz/redirect/24593?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/02/signals_2026-02-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/02/signals_2026-02-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/03/signals_2026-02-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/03/signals_2026-02-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
