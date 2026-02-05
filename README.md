@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether has scaled back its planned 15–20 billion dollar fundraising to potentially as little as 5 billion after investor pushback over a 500 billion dollar valuation, with CEO Paolo Ardoino saying the larger amount was only a maximum the company was willing to sell and that Tether is comfortable not raising any money at all.** [FT](https://leviathannews.xyz/redirect/24817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arbitrum reports it has regained control of the compromised arbitrum_gov account and confirms it is safe to interact** [𝕏/@arbitrum](https://leviathannews.xyz/redirect/24701?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JoeWait analyzes the effects of Bitcoin's crash on the $crvUSD peg** [𝕏/@JoeWaitOfficial](https://leviathannews.xyz/redirect/24627?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Moltbook agents are building AI-powered Polymarket arbitrage bots based on negRisk strategies, with similar models reportedly generating over $40M by exploiting price inefficiencies across mutually exclusive outcomes.** [𝕏/@noisyb0y1](https://leviathannews.xyz/redirect/24750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto.com launches "OG" – a new prediction market experience, aiming to capture surging interest and volumes in event-based trading just days before Super Bowl LX. The new app, announced in a Tuesday release, separates Crypto.com’s fast-growing prediction contracts business into its own consumer platform focused initially on U.S. users. OG allows customers to trade contracts tied to real-world outcomes from "financial, political, cultural, and entertainment events."** [Crypto](https://leviathannews.xyz/redirect/24770?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Libra Case: Confidential agreement between President Milei and Hayden Adams revealed.** [news.bitcoin](https://leviathannews.xyz/redirect/24784?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Wintermute Founder Evgeny Gaevoy threads a mostly bleak reality check on the current state of crypto** [𝕏/@EvgenyGaevoy](https://leviathannews.xyz/redirect/24868?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cap Announces $12M Stabledrop** [𝕏/@capmoney_](https://leviathannews.xyz/redirect/24845?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cap ICO Registrations Opened** [𝕏](https://leviathannews.xyz/redirect/24962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Shielded spot trading go live in open beta on Hyperliquid.** [𝕏/@silhouette_ex](https://leviathannews.xyz/redirect/24838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/04/signals_2026-02-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/04/signals_2026-02-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/05/signals_2026-02-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/05/signals_2026-02-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
