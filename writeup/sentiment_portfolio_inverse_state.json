@@ -1,19 +1,11 @@
 {
-  "cash": 1455.679294962846,
+  "cash": 4500.0598614109285,
   "positions": {
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
       "quantity": 10094.583452745246,
       "entry_price": 0.285182644293753,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": 14898.73374909336,
-      "entry_price": 0.1958256380961805,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -24,14 +16,6 @@
       "entry_price": 0.3037119380568319,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.5897536217955166,
-      "entry_price": 2931.723504270929,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "SOL": {
       "symbol": "SOL",
@@ -152,6 +136,22 @@
       "entry_price": 0.1241857092535026,
       "entry_date": "2026-01-24T13:27:58.423708",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.11309352698745229,
+      "entry_price": 2071.1178774552345,
+      "entry_date": "2026-02-05T14:02:54.497146",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": -21828.275776872146,
+      "entry_price": 0.12252726044110523,
+      "entry_date": "2026-02-05T14:02:54.497146",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -574,6 +574,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.5897536217955166,
+      "price": 2071.1178774552345,
+      "value": 1221.4492693946675,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 507.5452853521565,
+      "entry_price": 2931.723504270929
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.11309352698745229,
+      "price": 2071.1178774552345,
+      "value": 234.23002556817846,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SELL",
+      "quantity": 14898.73374909336,
+      "price": 0.12252726044110523,
+      "value": 1825.5010303178465,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1092.0530129234603,
+      "entry_price": 0.1958256380961805
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 21828.275776872146,
+      "price": 0.12252726044110523,
+      "value": 2674.558831093082,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -700,6 +748,10 @@
     [
       "2026-02-04T13:59:59.408957",
       9622.146015597154
+    ],
+    [
+      "2026-02-05T14:02:54.497146",
+      8915.196103643613
     ]
   ]
 }
