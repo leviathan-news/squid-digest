@@ -1,5 +1,5 @@
 {
-  "cash": 3869.3435773453375,
+  "cash": 1484.5483475014946,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -132,8 +132,8 @@
     "ARB": {
       "symbol": "ARB",
       "token_name": "Arbitrum",
-      "quantity": 63.05388046347799,
-      "entry_price": 0.12252726044110523,
+      "quantity": 34572.67288727478,
+      "entry_price": 0.11214259913371488,
       "entry_date": "2026-02-05T14:02:54.497146",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -143,6 +143,14 @@
       "quantity": -0.7102999938107707,
       "entry_price": 2071.1178774552345,
       "entry_date": "2026-02-05T14:02:54.497146",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -2.304578148381559,
+      "entry_price": 644.1735762113564,
+      "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -602,6 +610,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-06T13:59:08.454245",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 34509.6190068113,
+      "price": 0.11212362491111912,
+      "value": 3869.3435773453375,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-06T13:59:08.454245",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 2.304578148381559,
+      "price": 644.1735762113564,
+      "value": 1484.5483475014946,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -732,6 +764,10 @@
     [
       "2026-02-05T14:02:54.497146",
       9807.433436918862
+    ],
+    [
+      "2026-02-06T13:59:08.454245",
+      9896.988983343297
     ]
   ]
 }
