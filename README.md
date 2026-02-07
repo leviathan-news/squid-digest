@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether announces a $150 million strategic investment in Gold.com, expanding global access to tokenized and physical gold.** [tether.io](https://leviathannews.xyz/redirect/25039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curve posts DAO vote to increase max fee share to $scrvUSD as volatility stresses the $crvUSD peg** [𝕏/@CurveFinance](https://leviathannews.xyz/redirect/25014?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZKP2P rebrands as Peer: Finance for Humans** [𝕏/@peerxyz](https://leviathannews.xyz/redirect/25020?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"How to scale yield basis and crvUSD at the same time" - a new forum post by Michael Egorov** [forum.yieldbasis](https://leviathannews.xyz/redirect/25107?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **2026 of crypto = 2002 of internet, the darkest hour before the dawn. But this despair is a liar.** [𝕏/@DeFi_Cheetah](https://leviathannews.xyz/redirect/25048?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto’s next bull market will be driven by revenue, AI, institutions, regulation, and a massive stablecoin supercycle.** [𝕏/@Matt_Hougan](https://leviathannews.xyz/redirect/25306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy to initiate bitcoin security program addressing quantum uncertainty. Saylor reinforces commitment to bitcoin and quantum security.** [archive.ph](https://leviathannews.xyz/redirect/25238?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Boiling Point launchpad unlocks new funding and growth for AI agent developers** [chris.tl](https://leviathannews.xyz/redirect/25232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The crypto Fear & Greed index hits 9, nearing lows not since seen the UST/3AC collapses** [𝕏/@patfscott](https://leviathannews.xyz/redirect/25178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Introducing buy now, pay maybe, a new way to buy stuff onchain by Small Brain, powered on Abstract.** [𝕏/@0xsmallbrain](https://leviathannews.xyz/redirect/25189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/06/signals_2026-02-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/06/signals_2026-02-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/07/signals_2026-02-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/07/signals_2026-02-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
