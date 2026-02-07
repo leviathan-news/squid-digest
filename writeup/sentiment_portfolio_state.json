@@ -1,5 +1,5 @@
 {
-  "cash": 1484.5483475014946,
+  "cash": 0.0,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -132,8 +132,8 @@
     "ARB": {
       "symbol": "ARB",
       "token_name": "Arbitrum",
-      "quantity": 34572.67288727478,
-      "entry_price": 0.11214259913371488,
+      "quantity": 47045.037335040106,
+      "entry_price": 0.11396776467401717,
       "entry_date": "2026-02-05T14:02:54.497146",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -634,6 +634,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-07T13:40:37.032883",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 12472.36444776533,
+      "price": 0.11902701798995945,
+      "value": 1484.5483475014946,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -768,6 +780,10 @@
     [
       "2026-02-06T13:59:08.454245",
       9896.988983343297
+    ],
+    [
+      "2026-02-07T13:40:37.032883",
+      10095.303440584725
     ]
   ]
 }
