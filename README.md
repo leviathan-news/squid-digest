@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Crypto’s next bull market will be driven by revenue, AI, institutions, regulation, and a massive stablecoin supercycle.** [𝕏/@Matt_Hougan](https://leviathannews.xyz/redirect/25306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy to initiate bitcoin security program addressing quantum uncertainty. Saylor reinforces commitment to bitcoin and quantum security.** [archive.ph](https://leviathannews.xyz/redirect/25238?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Boiling Point launchpad unlocks new funding and growth for AI agent developers** [chris.tl](https://leviathannews.xyz/redirect/25232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The crypto Fear & Greed index hits 9, nearing lows not since seen the UST/3AC collapses** [𝕏/@patfscott](https://leviathannews.xyz/redirect/25178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Introducing buy now, pay maybe, a new way to buy stuff onchain by Small Brain, powered on Abstract.** [𝕏/@0xsmallbrain](https://leviathannews.xyz/redirect/25189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why on-chain tokenization is broken.** [𝕏/@Eli5defi](https://leviathannews.xyz/redirect/25579?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin just saw an 11.16% plunge in mining difficulty—the steepest drop since the 2021 China crackdown—signaling a sharp hashrate exit as higher-cost miners likely power down amid tightening post‑halving economics.** [𝕏/@mononautical](https://leviathannews.xyz/redirect/25549?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ProveX sacrifice event surges past $410M, signaling massive community backing for new protocol** [𝕏/@emmettgallic](https://leviathannews.xyz/redirect/25576?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why machine-to-machine payments are the new electricity for the digital age.** [Coindesk](https://leviathannews.xyz/redirect/25629?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **POL price slides amid marketwide pullback, but strong payment growth and a confirmed double bottom point to a possible rebound.** [crypto.news](https://leviathannews.xyz/redirect/25652?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/07/signals_2026-02-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/07/signals_2026-02-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/08/signals_2026-02-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/08/signals_2026-02-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
