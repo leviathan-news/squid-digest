@@ -1,19 +1,11 @@
 {
-  "cash": 0.0,
+  "cash": 3786.410550775522,
   "positions": {
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
       "quantity": 15.709921128403147,
       "entry_price": 126.10725716037577,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.03379603844819773,
-      "entry_price": 88530.5077453913,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -151,6 +143,14 @@
       "quantity": -2.304578148381559,
       "entry_price": 644.1735762113564,
       "entry_date": "2026-02-06T13:59:08.454245",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.019398491611881934,
+      "entry_price": 71180.44931497703,
+      "entry_date": "2026-02-08T13:40:59.881896",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -646,6 +646,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-08T13:40:59.881896",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.03379603844819773,
+      "price": 71180.44931497703,
+      "value": 2405.6172018089533,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -586.3632417927579,
+      "entry_price": 88530.5077453913
+    },
+    {
+      "date": "2026-02-08T13:40:59.881896",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.019398491611881934,
+      "price": 71180.44931497703,
+      "value": 1380.793348966569,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -784,6 +808,10 @@
     [
       "2026-02-07T13:40:37.032883",
       10095.303440584725
+    ],
+    [
+      "2026-02-08T13:40:59.881896",
+      9205.28899311046
     ]
   ]
 }
