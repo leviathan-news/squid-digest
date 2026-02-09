@@ -1,5 +1,5 @@
 {
-  "cash": 343.62347009978384,
+  "cash": 1901.6280577971609,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -132,8 +132,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.11309352698745229,
-      "entry_price": 2071.1178774552345,
+      "quantity": 0.283856222371339,
+      "entry_price": 2035.7260124177155,
       "entry_date": "2026-02-05T14:02:54.497146",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -156,10 +156,10 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.005978201538830986,
-      "entry_price": 71180.44931497703,
-      "entry_date": "2026-02-08T13:40:59.881896",
-      "entry_signal": "SENTIMENT_LONG"
+      "quantity": -0.021813375570641887,
+      "entry_price": 68424.61837651463,
+      "entry_date": "2026-02-09T14:12:58.951385",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -678,6 +678,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.17076269538388672,
+      "price": 2012.2865203509102,
+      "value": 343.62347009978384,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.005978201538830986,
+      "price": 68424.61837651463,
+      "value": 409.0561588724027,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -16.474912757073923,
+      "entry_price": 71180.44931497703
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.021813375570641887,
+      "price": 68424.61837651463,
+      "value": 1492.5718989247582,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -820,6 +856,10 @@
     [
       "2026-02-08T13:40:59.881896",
       9798.864561410757
+    ],
+    [
+      "2026-02-09T14:12:58.951385",
+      9950.479326165056
     ]
   ]
 }
