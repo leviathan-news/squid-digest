@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **February Squid Drop (covering January) Discussion Thread** [leviathannews.substack](https://leviathannews.xyz/redirect/26018?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Former Multicoin Capital CEO Kyle Samani calls Hyperliquid everything wrong with crypto.** [𝕏/@KyleSamani](https://leviathannews.xyz/redirect/25730?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The wild west is back** [𝕏/@CowboyVaults](https://leviathannews.xyz/redirect/25817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Native RWAs are cleaner, but represented RWAs act as a necessary bridge while law, custody, and verification slowly catch up.** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/25972?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst explores the emotional and career cost of being early in Web3, arguing real progress comes from building patiently through cycles.** [𝕏/@apoorav_vyas](https://leviathannews.xyz/redirect/25957?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum moves toward validating blocks with zk proofs instead of re-executing every transaction, cutting node costs and improving scalability.** [𝕏/@ladislaus0x](https://leviathannews.xyz/redirect/26140?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Owocki Bot, an Openclaw bot swarm project created to support Gitcoin, ignored its memory stack and exposed its wallet private key in a git commit.** [𝕏/@owocki](https://leviathannews.xyz/redirect/26115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LlamaRisk reviews actions taken to reinforce the $crvUSD peg amidst "unusually severe" market conditions** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/26090?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Damex unlocks Europe's crypto market with full MiCA license, a major regulatory milestone** [damex.io](https://leviathannews.xyz/redirect/26232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Wildcat Banking: DeFi's Forgotten 19th-Century Blueprint** [sagix.io](https://leviathannews.xyz/redirect/26036?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/09/signals_2026-02-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/09/signals_2026-02-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/10/signals_2026-02-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/10/signals_2026-02-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
