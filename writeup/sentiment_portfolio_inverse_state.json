@@ -1,5 +1,5 @@
 {
-  "cash": 1901.6280577971609,
+  "cash": 1491.3540695572983,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -20,8 +20,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -7.751212860936832,
-      "entry_price": 126.07604708879596,
+      "quantity": -9.271512828832595,
+      "entry_price": 119.29650361396818,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -39,14 +39,6 @@
       "quantity": -4.131348014905435,
       "entry_price": 145.23104755040438,
       "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "CRV": {
-      "symbol": "CRV",
-      "token_name": "Curve DAO Token",
-      "quantity": -1529.7056341707894,
-      "entry_price": 0.4035857408446335,
-      "entry_date": "2026-01-03T13:26:03.095458",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "AVAX": {
@@ -129,14 +121,6 @@
       "entry_date": "2026-01-24T13:27:58.423708",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": 0.283856222371339,
-      "entry_price": 2035.7260124177155,
-      "entry_date": "2026-02-05T14:02:54.497146",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "ARB": {
       "symbol": "ARB",
       "token_name": "Arbitrum",
@@ -148,8 +132,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 4.182431588899232,
-      "entry_price": 644.1735762113564,
+      "quantity": 5.021551911683984,
+      "entry_price": 641.0985272163744,
       "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -159,6 +143,22 @@
       "quantity": -0.021813375570641887,
       "entry_price": 68424.61837651463,
       "entry_date": "2026-02-09T14:12:58.951385",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 4240.286411574134,
+      "entry_price": 0.23856712900872623,
+      "entry_date": "2026-02-10T14:20:33.216514",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -0.38650321239246477,
+      "entry_price": 2032.547336335098,
+      "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -714,6 +714,78 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.8391203227847517,
+      "price": 625.77154525109,
+      "value": 525.0976210406075,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "COVER",
+      "quantity": 1529.7056341707894,
+      "price": 0.23856712900872623,
+      "value": 364.9374813725981,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 252.42990026842983,
+      "entry_price": 0.4035857408446335
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 4240.286411574134,
+      "price": 0.23856712900872623,
+      "value": 1011.5929553839553,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.520299967895763,
+      "price": 84.73116408686224,
+      "value": 128.81678604102729,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 0.283856222371339,
+      "price": 2032.547336335098,
+      "value": 576.9512086830083,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -0.902286984954003,
+      "entry_price": 2035.7260124177155
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.38650321239246477,
+      "price": 2032.547336335098,
+      "value": 785.5860748332628,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -860,6 +932,10 @@
     [
       "2026-02-09T14:12:58.951385",
       9950.479326165056
+    ],
+    [
+      "2026-02-10T14:20:33.216514",
+      10474.480997776836
     ]
   ]
 }

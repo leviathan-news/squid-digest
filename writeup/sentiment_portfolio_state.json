@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 437.2497408551727,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -40,14 +40,6 @@
       "entry_price": 0.3012609068162428,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "CRV": {
-      "symbol": "CRV",
-      "token_name": "Curve DAO Token",
-      "quantity": 2969.846239486833,
-      "entry_price": 0.4035857408446335,
-      "entry_date": "2026-01-03T13:26:03.095458",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "AVAX": {
       "symbol": "AVAX",
@@ -129,14 +121,6 @@
       "entry_date": "2026-02-05T14:02:54.497146",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.7102999938107707,
-      "entry_price": 2071.1178774552345,
-      "entry_date": "2026-02-05T14:02:54.497146",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
@@ -152,6 +136,14 @@
       "entry_price": 68424.61837651463,
       "entry_date": "2026-02-09T14:12:58.951385",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": -4914.593285311614,
+      "entry_price": 0.23856712900872623,
+      "entry_date": "2026-02-10T14:20:33.216514",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -694,6 +686,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.7102999938107707,
+      "price": 2032.547336335098,
+      "value": 1443.7183604189186,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 27.396655118910985,
+      "entry_price": 2071.1178774552345
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "SELL",
+      "quantity": 2969.846239486833,
+      "price": 0.23856712900872623,
+      "value": 708.5076909517358,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -490.0799038062065,
+      "entry_price": 0.4035857408446335
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "SHORT",
+      "quantity": 4914.593285311614,
+      "price": 0.23856712900872623,
+      "value": 1172.4604103223555,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -840,6 +868,10 @@
     [
       "2026-02-09T14:12:58.951385",
       8869.222702966425
+    ],
+    [
+      "2026-02-10T14:20:33.216514",
+      7816.402735482372
     ]
   ]
 }
