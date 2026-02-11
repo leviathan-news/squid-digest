@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum moves toward validating blocks with zk proofs instead of re-executing every transaction, cutting node costs and improving scalability.** [𝕏/@ladislaus0x](https://leviathannews.xyz/redirect/26140?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Owocki Bot, an Openclaw bot swarm project created to support Gitcoin, ignored its memory stack and exposed its wallet private key in a git commit.** [𝕏/@owocki](https://leviathannews.xyz/redirect/26115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LlamaRisk reviews actions taken to reinforce the $crvUSD peg amidst "unusually severe" market conditions** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/26090?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Damex unlocks Europe's crypto market with full MiCA license, a major regulatory milestone** [damex.io](https://leviathannews.xyz/redirect/26232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Wildcat Banking: DeFi's Forgotten 19th-Century Blueprint** [sagix.io](https://leviathannews.xyz/redirect/26036?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A curated list of underrated Web3 tools that help users avoid airdrop misses, recover funds, manage risk, and stay SAFU onchain.** [𝕏/@Samtolad](https://leviathannews.xyz/redirect/26254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why Time and Contributions Outperform Chasing APY: Lessons from Sagix Philosophy** [sagix.io](https://leviathannews.xyz/redirect/26399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LlamaRisk secures fourth term on Ethena Risk Committee** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/26460?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **GoMining Simple Earn enables autonomous Bitcoin yield accrual via single-toggle integration.** [chainwire.org](https://leviathannews.xyz/redirect/26502?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Firepan report finds over $3.35 billion was stolen across over 630 breaches in 2025, an increase of 37% from 2024** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/26441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/10/signals_2026-02-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/10/signals_2026-02-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/11/signals_2026-02-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/11/signals_2026-02-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
