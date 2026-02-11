@@ -1,5 +1,5 @@
 {
-  "cash": 437.2497408551727,
+  "cash": 1163.4602216565988,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -140,10 +140,18 @@
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": -4914.593285311614,
-      "entry_price": 0.23856712900872623,
+      "quantity": -9800.183077078518,
+      "entry_price": 0.23835479537544554,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.2187949976215121,
+      "entry_price": 1998.4448712651094,
+      "entry_date": "2026-02-11T14:14:16.513730",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -722,6 +730,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-11T14:14:16.513730",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.2187949976215121,
+      "price": 1998.4448712651094,
+      "value": 437.2497408551727,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-11T14:14:16.513730",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "SHORT",
+      "quantity": 4885.589791766904,
+      "price": 0.23814120121530424,
+      "value": 1163.4602216565988,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -872,6 +904,10 @@
     [
       "2026-02-10T14:20:33.216514",
       7816.402735482372
+    ],
+    [
+      "2026-02-11T14:14:16.513730",
+      7779.424567017914
     ]
   ]
 }

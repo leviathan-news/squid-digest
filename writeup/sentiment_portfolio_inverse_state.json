@@ -1,5 +1,5 @@
 {
-  "cash": 1491.3540695572983,
+  "cash": 0.0,
   "positions": {
     "OP": {
       "symbol": "OP",
@@ -148,8 +148,8 @@
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
-      "quantity": 4240.286411574134,
-      "entry_price": 0.23856712900872623,
+      "quantity": 10502.764562967015,
+      "entry_price": 0.2383131612572466,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -786,6 +786,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-11T14:14:16.513730",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 6262.47815139288,
+      "price": 0.23814120121530424,
+      "value": 1491.3540695572983,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -936,6 +948,10 @@
     [
       "2026-02-10T14:20:33.216514",
       10474.480997776836
+    ],
+    [
+      "2026-02-11T14:14:16.513730",
+      10566.681268398215
     ]
   ]
 }
