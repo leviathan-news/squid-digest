@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **A curated list of underrated Web3 tools that help users avoid airdrop misses, recover funds, manage risk, and stay SAFU onchain.** [𝕏/@Samtolad](https://leviathannews.xyz/redirect/26254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Why Time and Contributions Outperform Chasing APY: Lessons from Sagix Philosophy** [sagix.io](https://leviathannews.xyz/redirect/26399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LlamaRisk secures fourth term on Ethena Risk Committee** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/26460?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **GoMining Simple Earn enables autonomous Bitcoin yield accrual via single-toggle integration.** [chainwire.org](https://leviathannews.xyz/redirect/26502?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Firepan report finds over $3.35 billion was stolen across over 630 breaches in 2025, an increase of 37% from 2024** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/26441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ault Capital Group unveils Ault Blockchain public testnet, a L1 network for trading, settlement, and institutional-grade onchain infrastructure.** [chainwire.org](https://leviathannews.xyz/redirect/26902?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Human API launches as first platform for AI agents to hire humans.** [Financefeeds](https://leviathannews.xyz/redirect/26903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Suffolk System: America's 19th-Century Clearing House and Lessons for Modern DeFi** [sagix.io](https://leviathannews.xyz/redirect/26762?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sonic outlines a new L1 playbook where chain-owned apps, not gas fees alone, drive sustainable value accrual for S token holders.** [𝕏/@SonicLabs](https://leviathannews.xyz/redirect/26976?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Security researcher ily2 has earned a staggering $3,000,000 from submitting a critical smart contract bug via Immunefi, the largest single payout in web3 security in recent memory** [𝕏](https://leviathannews.xyz/redirect/26868?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/11/signals_2026-02-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/11/signals_2026-02-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/12/signals_2026-02-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/12/signals_2026-02-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
