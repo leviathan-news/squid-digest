@@ -1,0 +1,49 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1425 chars. First 500 chars: The search results provided contain general market sentiment analysis rather than specific token news catalysts. Based on my analysis framework, I cannot generate actionable trading signals, as the results lack concrete news events tied to individual tokens in the tracked list.
+
+**Key market context from the search results:**
+
+Bitcoin faces near-term headwinds with losses exceeding 45% from late-2025 peaks and billions in ETF outflows suggesting a prolonged consolidation phase through mid-2026[4
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+The search results provided contain general market sentiment analysis rather than specific token news catalysts. Based on my analysis framework, I cannot generate actionable trading signals, as the results lack concrete news events tied to individual tokens in the tracked list.
+
+**Key market context from the search results:**
+
+Bitcoin faces near-term headwinds with losses exceeding 45% from late-2025 peaks and billions in ETF outflows suggesting a prolonged consolidation phase through mid-2026[4]. Spot trading volumes are 25-30% below late-2025 levels, with thin order books amplifying volatility[4].
+
+Ethereum daily transactions reached new highs near 3M following the Fusaka upgrade in mid-January, with stablecoin market capitalization steady around $160B[2]. The altcoin market has structurally contracted, with assets outside the top 10 now representing just ~7.1% of total crypto market cap—well below prior expansion phases[2].
+
+Macro policy and U.S. monetary decisions are now the primary drivers of near-term price action rather than on-chain fundamentals[4]. Institutional capital has become a drag on markets as pension funds and large managers exit positions through ETF redemptions[4].
+
+To generate trading signals, I would need news articles with specific catalysts tied to individual tokens—such as partnership announcements, protocol upgrades, or security developments—rather than broad market analysis.
+
+News items sent (10):
+[1] Ault Capital Group unveils Ault Blockchain public testnet, a L1 network for trading, settlement, and institutional-grade onchain infrastructure. - https://leviathannews.xyz/redirect/26902?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Human API launches as first platform for AI agents to hire humans. - https://leviathannews.xyz/redirect/26903?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Suffolk System: America's 19th-Century Clearing House and Lessons for Modern DeFi - https://leviathannews.xyz/redirect/26762?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Sonic outlines a new L1 playbook where chain-owned apps, not gas fees alone, drive sustainable value accrual for S token holders. - https://leviathannews.xyz/redirect/26976?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Security researcher ily2 has earned a staggering $3,000,000 from submitting a critical smart contract bug via Immunefi, the largest single payout in web3 security in recent memory - https://leviathannews.xyz/redirect/26868?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Kraken supercharges global trading with Lava Network's breakthrough RPC infrastructure - https://leviathannews.xyz/redirect/26899?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Kodiak 2026 monthly recap: Jan - https://leviathannews.xyz/redirect/26995?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Building permissionless neobanks -A 4000 word thesis on storing, spending, growing, and borrowing money on crypto rails. - https://leviathannews.xyz/redirect/26929?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Crypto cards scale usage but miss the profit pool as real disruption shifts to B2B stablecoin payments and onchain settlement layers globally. - https://leviathannews.xyz/redirect/26966?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Sonic Labs Shifts Strategy to Vertical Integration and Building Chain-Owned Apps - https://leviathannews.xyz/redirect/26780?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 527 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 318 news articles (TVL: $100,000)
+$UNI UNI - 26 news articles (TVL: $4,000,000,000)
+$ETH Ethereum - 549 news articles (TVL: $68,433,138)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$XRP XRP - 79 news articles (TVL: $636,416,718)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 6...

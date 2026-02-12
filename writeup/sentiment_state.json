@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-02-11",
+  "last_processed_date": "2026-02-12",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 0.10576546974789595,
-      "last_signal_date": "2026-02-09",
+      "score": -0.92141655798337,
+      "last_signal_date": "2026-02-12",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -0.45286183213195336,
+      "score": -0.25000000000000006,
       "last_signal_date": "2026-02-06",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.9057236642639067,
+      "score": 0.7429971445684743,
       "last_signal_date": "2026-02-10",
       "token_name": "Solana"
     },
@@ -27,14 +27,14 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": -0.9057236642639067,
+      "score": -0.7429971445684743,
       "last_signal_date": "2026-02-10",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.1522445123505708,
-      "last_signal_date": "2026-02-10",
+      "score": 2.124891556239315,
+      "last_signal_date": "2026-02-12",
       "token_name": "Ethereum"
     },
     "XRP": {
@@ -87,14 +87,14 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": 0.0,
-      "last_signal_date": "2026-01-24",
+      "score": -1.0,
+      "last_signal_date": "2026-02-12",
       "token_name": "Dogecoin"
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.0,
-      "last_signal_date": "2025-12-26",
+      "score": 1.0,
+      "last_signal_date": "2026-02-12",
       "token_name": "Optimism"
     },
     "AAVE": {
@@ -123,13 +123,13 @@
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.06250000000000001,
-      "last_signal_date": "2026-02-04",
+      "score": 1.0283038645082472,
+      "last_signal_date": "2026-02-12",
       "token_name": "Arbitrum"
     },
     "TRX": {
       "symbol": "TRX",
-      "score": -0.01293854898836499,
+      "score": 0.0,
       "last_signal_date": "2026-02-01",
       "token_name": "Tron"
     },
@@ -147,8 +147,8 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.0,
-      "last_signal_date": "2026-01-09",
+      "score": 1.0,
+      "last_signal_date": "2026-02-12",
       "token_name": "NEAR"
     },
     "PEPE": {
@@ -267,49 +267,49 @@
     },
     "WETH": {
       "symbol": "WETH",
-      "score": -0.011609330383882411,
+      "score": 0.0,
       "last_signal_date": "2026-02-02",
       "token_name": "Wrapped Ether"
     },
     "USDM": {
       "symbol": "USDM",
-      "score": 0.011609330383882411,
+      "score": 0.0,
       "last_signal_date": "2026-02-02",
       "token_name": "Mountain Protocol USD"
     },
     "FDUSD": {
       "symbol": "FDUSD",
-      "score": 0.011609330383882411,
+      "score": 0.0,
       "last_signal_date": "2026-02-02",
       "token_name": "First Digital USD"
     },
     "PPI": {
       "symbol": "PPI",
-      "score": 0.056607729016494183,
+      "score": 0.023218660767764823,
       "last_signal_date": "2026-02-03",
       "token_name": "PPI"
     },
     "65": {
       "symbol": "65",
-      "score": 0.12500000000000003,
+      "score": 0.06250000000000001,
       "last_signal_date": "2026-02-05",
       "token_name": "65"
     },
     "60": {
       "symbol": "60",
-      "score": -0.7429971445684743,
+      "score": -0.45286183213195336,
       "last_signal_date": "2026-02-07",
       "token_name": "60"
     },
     "61": {
       "symbol": "61",
-      "score": -2.0,
+      "score": -1.8114473285278134,
       "last_signal_date": "2026-02-11",
       "token_name": "61"
     },
     "70": {
       "symbol": "70",
-      "score": -1.0,
+      "score": -0.9057236642639067,
       "last_signal_date": "2026-02-11",
       "token_name": "70"
     }

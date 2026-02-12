@@ -1,5 +1,5 @@
 {
-  "cash": 1163.4602216565988,
+  "cash": 3420.0049343446303,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -24,14 +24,6 @@
       "entry_price": 145.23104755040438,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "OP": {
-      "symbol": "OP",
-      "token_name": "Optimism",
-      "quantity": -4899.531000709893,
-      "entry_price": 0.2845611223179884,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "TRX": {
       "symbol": "TRX",
@@ -129,14 +121,6 @@
       "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.03593847102838223,
-      "entry_price": 68424.61837651463,
-      "entry_date": "2026-02-09T14:12:58.951385",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "CRV": {
       "symbol": "CRV",
       "token_name": "Curve DAO Token",
@@ -148,10 +132,18 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.2187949976215121,
-      "entry_price": 1998.4448712651094,
+      "quantity": 0.5368065188057517,
+      "entry_price": 1988.9863110922427,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.01959621856331431,
+      "entry_price": 67883.47343698943,
+      "entry_date": "2026-02-12T14:09:40.932839",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -754,6 +746,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.3180115211842396,
+      "price": 1982.4787303517116,
+      "value": 630.4510767545478,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "COVER",
+      "quantity": 4899.531000709893,
+      "price": 0.1801992550223447,
+      "value": 882.8918362868059,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 511.3242041069783,
+      "entry_price": 0.2845611223179884
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.03593847102838223,
+      "price": 67883.47343698943,
+      "value": 2439.628243421199,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -19.447921731281895,
+      "entry_price": 68424.61837651463
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.01959621856331431,
+      "price": 67883.47343698943,
+      "value": 1330.259382308186,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -908,6 +948,10 @@
     [
       "2026-02-11T14:14:16.513730",
       7779.424567017914
+    ],
+    [
+      "2026-02-12T14:09:40.932839",
+      8868.395882054572
     ]
   ]
 }
