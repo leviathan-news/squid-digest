@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ault Capital Group unveils Ault Blockchain public testnet, a L1 network for trading, settlement, and institutional-grade onchain infrastructure.** [chainwire.org](https://leviathannews.xyz/redirect/26902?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Human API launches as first platform for AI agents to hire humans.** [Financefeeds](https://leviathannews.xyz/redirect/26903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Suffolk System: America's 19th-Century Clearing House and Lessons for Modern DeFi** [sagix.io](https://leviathannews.xyz/redirect/26762?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sonic outlines a new L1 playbook where chain-owned apps, not gas fees alone, drive sustainable value accrual for S token holders.** [𝕏/@SonicLabs](https://leviathannews.xyz/redirect/26976?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Security researcher ily2 has earned a staggering $3,000,000 from submitting a critical smart contract bug via Immunefi, the largest single payout in web3 security in recent memory** [𝕏](https://leviathannews.xyz/redirect/26868?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Reserve Protocol engineer Akshat Mittal identifies himself as the winner of the $3MM Immunefi bug bounty, which he found using frontier Claude and OpenAI models** [𝕏/@iakshatmittal](https://leviathannews.xyz/redirect/27051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The pickaxes of the AI gold rush: 8 Japanese ‘physics’ powerhouses behind Nvidia.** [𝕏/@celesthian](https://leviathannews.xyz/redirect/27399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Owning your liquidity builds an unshakable foundation for long-term growth** [𝕏/@0xJaehaerys](https://leviathannews.xyz/redirect/27426?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Native issuers will dominate tokenized equities as SEC clarity favors real ownership, pushing institutional capital toward compliant onchain rails.** [𝕏/@perry8888_](https://leviathannews.xyz/redirect/27410?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Setting sail: how crypto will be the anchor for the AI agent fleet** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/27305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/12/signals_2026-02-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/12/signals_2026-02-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/13/signals_2026-02-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/13/signals_2026-02-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
