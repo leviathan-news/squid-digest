@@ -1,5 +1,5 @@
 {
-  "cash": 1401.6511449116244,
+  "cash": 551.478079124551,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -159,6 +159,22 @@
       "quantity": -556.6786139017344,
       "entry_price": 0.9551134187045446,
       "entry_date": "2026-02-12T14:09:40.932839",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "quantity": 165.01753774090096,
+      "entry_price": 8.49395260710046,
+      "entry_date": "2026-02-13T13:58:53.500749",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.008196781901178686,
+      "entry_price": 67279.8283244854,
+      "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -846,6 +862,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 165.01753774090096,
+      "price": 8.49395260710046,
+      "value": 1401.6511449116244,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008196781901178686,
+      "price": 67279.8283244854,
+      "value": 551.478079124551,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1004,6 +1044,10 @@
     [
       "2026-02-12T14:09:40.932839",
       8861.520234056545
+    ],
+    [
+      "2026-02-13T13:58:53.500749",
+      9191.301318742515
     ]
   ]
 }

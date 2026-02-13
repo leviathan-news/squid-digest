@@ -1,5 +1,5 @@
 {
-  "cash": 3420.0049343446303,
+  "cash": 2636.1572068419555,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -137,12 +137,36 @@
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.01959621856331431,
-      "entry_price": 67883.47343698943,
-      "entry_date": "2026-02-12T14:09:40.932839",
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": 5853.953661502858,
+      "entry_price": 0.18263981034279836,
+      "entry_date": "2026-02-13T13:58:53.500749",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "NEAR": {
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "quantity": 1086.9589590183234,
+      "entry_price": 0.9836295819834984,
+      "entry_date": "2026-02-13T13:58:53.500749",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "quantity": -157.342087357341,
+      "entry_price": 8.49395260710046,
+      "entry_date": "2026-02-13T13:58:53.500749",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": -5029.111891546413,
+      "entry_price": 0.26574398461127996,
+      "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -794,6 +818,66 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "BUY",
+      "quantity": 5853.953661502858,
+      "price": 0.18263981034279836,
+      "value": 1069.164986492412,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "BUY",
+      "quantity": 1086.9589590183234,
+      "price": 0.9836295819834984,
+      "value": 1069.164986492412,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.01959621856331431,
+      "price": 67279.8283244854,
+      "value": 1318.4302207488806,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 11.829161559305476,
+      "entry_price": 67883.47343698943
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "SHORT",
+      "quantity": 157.342087357341,
+      "price": 8.49395260710046,
+      "value": 1336.456233115515,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "SHORT",
+      "quantity": 5029.111891546413,
+      "price": 0.26574398461127996,
+      "value": 1336.456233115515,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -952,6 +1036,10 @@
     [
       "2026-02-12T14:09:40.932839",
       8868.395882054572
+    ],
+    [
+      "2026-02-13T13:58:53.500749",
+      8909.708220770099
     ]
   ]
 }
