@@ -1,5 +1,5 @@
 {
-  "cash": 551.478079124551,
+  "cash": 196.14382207043957,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -148,24 +148,24 @@
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
-      "quantity": -2950.57387433407,
-      "entry_price": 0.1801992550223447,
+      "quantity": -3494.021995091709,
+      "entry_price": 0.1821958140366486,
       "entry_date": "2026-02-12T14:09:40.932839",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "NEAR": {
       "symbol": "NEAR",
       "token_name": "NEAR",
-      "quantity": -556.6786139017344,
-      "entry_price": 0.9551134187045446,
+      "quantity": -643.7634508230508,
+      "entry_price": 0.9676381405361252,
       "entry_date": "2026-02-12T14:09:40.932839",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "LINK": {
       "symbol": "LINK",
       "token_name": "Chainlink",
-      "quantity": 165.01753774090096,
-      "entry_price": 8.49395260710046,
+      "quantity": 226.7356574893725,
+      "entry_price": 8.614124684502798,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -886,6 +886,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 61.71811974847154,
+      "price": 8.935432274542169,
+      "value": 551.478079124551,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 543.448120757639,
+      "price": 0.19303584575477917,
+      "value": 104.9049676142962,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SHORT",
+      "quantity": 87.08483692131638,
+      "price": 1.0477008131574073,
+      "value": 91.23885445614337,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1048,6 +1084,10 @@
     [
       "2026-02-13T13:58:53.500749",
       9191.301318742515
+    ],
+    [
+      "2026-02-14T13:40:50.420162",
+      8992.95321211105
     ]
   ]
 }
