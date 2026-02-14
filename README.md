@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Reserve Protocol engineer Akshat Mittal identifies himself as the winner of the $3MM Immunefi bug bounty, which he found using frontier Claude and OpenAI models** [𝕏/@iakshatmittal](https://leviathannews.xyz/redirect/27051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The pickaxes of the AI gold rush: 8 Japanese ‘physics’ powerhouses behind Nvidia.** [𝕏/@celesthian](https://leviathannews.xyz/redirect/27399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Owning your liquidity builds an unshakable foundation for long-term growth** [𝕏/@0xJaehaerys](https://leviathannews.xyz/redirect/27426?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Native issuers will dominate tokenized equities as SEC clarity favors real ownership, pushing institutional capital toward compliant onchain rails.** [𝕏/@perry8888_](https://leviathannews.xyz/redirect/27410?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Setting sail: how crypto will be the anchor for the AI agent fleet** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/27305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin Analyst Who Predicted the Crash on Calling a Bottom** [youtu.be](https://leviathannews.xyz/redirect/27768?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DefiLlama launches search tool to index thousands of protocols with manually vetted links and accurate rebrand mapping** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/27641?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether invests in Hyperliquid frontend Dreamcash** [The Block](https://leviathannews.xyz/redirect/27771?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coordinated fleet decisively charts course for Aave's new conflict-of-interest proposal** [governance.aave](https://leviathannews.xyz/redirect/27606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The new AI that outperforms Clawdbot, offering safer, cheaper agentic automation with zero setup and powerful real-world workflows.** [𝕏/@aiedge_](https://leviathannews.xyz/redirect/27811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/13/signals_2026-02-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/13/signals_2026-02-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/14/signals_2026-02-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/14/signals_2026-02-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
