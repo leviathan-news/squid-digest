@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Bitcoin Analyst Who Predicted the Crash on Calling a Bottom** [youtu.be](https://leviathannews.xyz/redirect/27768?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DefiLlama launches search tool to index thousands of protocols with manually vetted links and accurate rebrand mapping** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/27641?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether invests in Hyperliquid frontend Dreamcash** [The Block](https://leviathannews.xyz/redirect/27771?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coordinated fleet decisively charts course for Aave's new conflict-of-interest proposal** [governance.aave](https://leviathannews.xyz/redirect/27606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The new AI that outperforms Clawdbot, offering safer, cheaper agentic automation with zero setup and powerful real-world workflows.** [𝕏/@aiedge_](https://leviathannews.xyz/redirect/27811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grayscale filed for an AAVE ETF** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/27834?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **China rotates reserves from US Treasuries to gold, slashing bond exposure to 7.3% while accumulating record 2,308 tonnes** [𝕏/@KobeissiLetter](https://leviathannews.xyz/redirect/28196?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UAE takes major crypto step with launch of first regulated dirham stablecoin** [𝕏/@ADIChain_](https://leviathannews.xyz/redirect/28273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Flipster FZE secures in-principle approval from VARA, reinforcing commitment to regulated crypto access.** [flipster.io](https://leviathannews.xyz/redirect/28270?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Setting sail for a golden age: the coming decade of financial breakthroughs** [brandonkumar.substack](https://leviathannews.xyz/redirect/28338?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/14/signals_2026-02-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/14/signals_2026-02-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/15/signals_2026-02-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/15/signals_2026-02-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
