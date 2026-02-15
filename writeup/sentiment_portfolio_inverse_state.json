@@ -1,5 +1,5 @@
 {
-  "cash": 196.14382207043957,
+  "cash": 297.1572646199967,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -28,8 +28,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -4.131348014905435,
-      "entry_price": 145.23104755040438,
+      "quantity": -5.484337249716962,
+      "entry_price": 140.52188987503055,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -164,16 +164,16 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "Chainlink",
-      "quantity": 226.7356574893725,
-      "entry_price": 8.614124684502798,
+      "quantity": 248.92669857784614,
+      "entry_price": 8.634160411019467,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.008196781901178686,
-      "entry_price": 67279.8283244854,
+      "quantity": -0.01003077484184022,
+      "entry_price": 67588.58805945593,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -922,6 +922,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 22.191041088473625,
+      "price": 8.838874268603817,
+      "value": 196.14382207043957,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.3529892348115262,
+      "price": 126.14249297115018,
+      "value": 170.6694350422548,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.001833992940661535,
+      "price": 68968.54768269543,
+      "value": 126.48782957774188,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1088,6 +1124,10 @@
     [
       "2026-02-14T13:40:50.420162",
       8992.95321211105
+    ],
+    [
+      "2026-02-15T13:41:59.822375",
+      9224.106306317852
     ]
   ]
 }

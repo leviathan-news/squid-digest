@@ -1,5 +1,5 @@
 {
-  "cash": 1850.053025382104,
+  "cash": 253.35626423059148,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -20,8 +20,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 8.26269602981087,
-      "entry_price": 145.23104755040438,
+      "quantity": 10.460288895742039,
+      "entry_price": 141.22074995896955,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -168,6 +168,14 @@
       "entry_price": 0.26574398461127996,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.01913171964382841,
+      "entry_price": 68968.54768269543,
+      "entry_date": "2026-02-15T13:41:59.822375",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -914,6 +922,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 2.197592865931168,
+      "price": 126.14249297115018,
+      "value": 277.2098426441721,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.01913171964382841,
+      "price": 68968.54768269543,
+      "value": 1319.4869185073403,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1080,6 +1112,10 @@
     [
       "2026-02-14T13:40:50.420162",
       9259.487414877534
+    ],
+    [
+      "2026-02-15T13:41:59.822375",
+      8796.579456715604
     ]
   ]
 }
