@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Grayscale filed for an AAVE ETF** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/27834?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **China rotates reserves from US Treasuries to gold, slashing bond exposure to 7.3% while accumulating record 2,308 tonnes** [𝕏/@KobeissiLetter](https://leviathannews.xyz/redirect/28196?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UAE takes major crypto step with launch of first regulated dirham stablecoin** [𝕏/@ADIChain_](https://leviathannews.xyz/redirect/28273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Flipster FZE secures in-principle approval from VARA, reinforcing commitment to regulated crypto access.** [flipster.io](https://leviathannews.xyz/redirect/28270?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Setting sail for a golden age: the coming decade of financial breakthroughs** [brandonkumar.substack](https://leviathannews.xyz/redirect/28338?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The end of schizophrenic browsing: Why OpenClaw must become a multi-persona OS.** [alphanometech.substack](https://leviathannews.xyz/redirect/28845?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ray Dalio declares post-WWII world order dead and declares gold leads a reshaped financial world.** [𝕏/@RayDalio](https://leviathannews.xyz/redirect/28827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin miners set sail for a lucrative new horizon in artificial intelligence** [insights4vc.substack](https://leviathannews.xyz/redirect/28828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **North Korean IT operatives posing as foreign remote developers at Western companies secretly funnel millions in wages to Kim Jong Un’s regime to help fund its nuclear weapons program.** [WSJ](https://leviathannews.xyz/redirect/28998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blocmates rounds up February’s AI and crypto rabbit holes, mixing deep research, unhinged side projects, and sharp takes on where the space is heading** [𝕏/@blocmates](https://leviathannews.xyz/redirect/28914?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/15/signals_2026-02-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/15/signals_2026-02-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/16/signals_2026-02-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/16/signals_2026-02-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
