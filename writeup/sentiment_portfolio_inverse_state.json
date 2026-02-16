@@ -1,5 +1,5 @@
 {
-  "cash": 297.1572646199967,
+  "cash": 577.0555948756855,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -28,8 +28,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -5.484337249716962,
-      "entry_price": 140.52188987503055,
+      "quantity": -7.182613882793261,
+      "entry_price": 137.06299165119427,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -140,8 +140,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": -0.38650321239246477,
-      "entry_price": 2032.547336335098,
+      "quantity": -0.45994671697591183,
+      "entry_price": 2021.916117918014,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -164,16 +164,16 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "Chainlink",
-      "quantity": 248.92669857784614,
-      "entry_price": 8.634160411019467,
+      "quantity": 282.8711968617293,
+      "entry_price": 8.648566336439178,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.01003077484184022,
-      "entry_price": 67588.58805945593,
+      "quantity": -0.013233996696292702,
+      "entry_price": 67767.34247006528,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -958,6 +958,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 33.944498283883135,
+      "price": 8.754209949866517,
+      "value": 297.1572646199967,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.6982766330762986,
+      "price": 125.89298318349086,
+      "value": 213.80111160878994,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.07344350458344709,
+      "price": 1965.9683510847983,
+      "value": 144.3876056038083,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0032032218544524814,
+      "price": 68327.1055231039,
+      "value": 218.86687766308728,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1128,6 +1176,10 @@
     [
       "2026-02-15T13:41:59.822375",
       9224.106306317852
+    ],
+    [
+      "2026-02-16T14:03:31.940311",
+      9042.406887599998
     ]
   ]
 }
