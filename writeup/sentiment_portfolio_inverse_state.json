@@ -1,5 +1,5 @@
 {
-  "cash": 577.0555948756855,
+  "cash": 0.0,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -176,6 +176,14 @@
       "entry_price": 67767.34247006528,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": 2036.8192307758961,
+      "entry_price": 0.28331213008817907,
+      "entry_date": "2026-02-17T14:04:50.798446",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1006,6 +1014,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-17T14:04:50.798446",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "BUY",
+      "quantity": 2036.8192307758961,
+      "price": 0.28331213008817907,
+      "value": 577.0555948756855,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1180,6 +1200,10 @@
     [
       "2026-02-16T14:03:31.940311",
       9042.406887599998
+    ],
+    [
+      "2026-02-17T14:04:50.798446",
+      9049.551108166088
     ]
   ]
 }
