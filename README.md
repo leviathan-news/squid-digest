@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The end of schizophrenic browsing: Why OpenClaw must become a multi-persona OS.** [alphanometech.substack](https://leviathannews.xyz/redirect/28845?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ray Dalio declares post-WWII world order dead and declares gold leads a reshaped financial world.** [𝕏/@RayDalio](https://leviathannews.xyz/redirect/28827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin miners set sail for a lucrative new horizon in artificial intelligence** [insights4vc.substack](https://leviathannews.xyz/redirect/28828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **North Korean IT operatives posing as foreign remote developers at Western companies secretly funnel millions in wages to Kim Jong Un’s regime to help fund its nuclear weapons program.** [WSJ](https://leviathannews.xyz/redirect/28998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blocmates rounds up February’s AI and crypto rabbit holes, mixing deep research, unhinged side projects, and sharp takes on where the space is heading** [𝕏/@blocmates](https://leviathannews.xyz/redirect/28914?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi lending protocols like Aave, Compound, and Maker currently operate as some of the least efficient “banks” in the US by net interest margin—far behind even average credit unions—highlighting how primitive their lending economics and product design still are despite huge room for improvement.** [𝕏/@ImperiumPaper](https://leviathannews.xyz/redirect/29593?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Dragonfly raises a $650 million fourth crypto fund to double down on blockchain finance even as much of the crypto venture industry undergoes a “mass extinction.”** [Fortune](https://leviathannews.xyz/redirect/29569?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Canton Foundation explains CIP-56, a Canton-wide token standard that unifies how assets are represented and transferred on Canton, embedding interoperability, privacy, and compliance for institutional finance use cases.** [𝕏/@CantonFdn](https://leviathannews.xyz/redirect/29506?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sonic positions itself as the engine for the agentic era targeting AI agents with sub-second EVM finality and integrated DeFi rails.** [𝕏/@defi_naly](https://leviathannews.xyz/redirect/29220?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Small-cap financials are pressing against a 10-year base, and a breakout could make it extremely hard to stay structurally bearish on U.S. equities.** [𝕏/@JC_ParetsX](https://leviathannews.xyz/redirect/28915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/16/signals_2026-02-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/16/signals_2026-02-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/17/signals_2026-02-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/17/signals_2026-02-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
