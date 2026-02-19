@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": -477.0478625466227,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -14,14 +14,6 @@
       "token_name": "Solana",
       "quantity": -9.271512828832595,
       "entry_price": 119.29650361396818,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": -4112.344321158397,
-      "entry_price": 0.14590217966743294,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1026,6 +1018,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-19T14:07:14.635757",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "COVER",
+      "quantity": 4112.344321158397,
+      "price": 0.11600387158540366,
+      "value": 477.0478625466227,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 122.9521374533773,
+      "entry_price": 0.14590217966743294
     }
   ],
   "daily_values": [
@@ -1204,6 +1208,10 @@
     [
       "2026-02-17T14:04:50.798446",
       9049.551108166088
+    ],
+    [
+      "2026-02-19T14:07:14.635757",
+      9561.321448376031
     ]
   ]
 }

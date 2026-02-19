@@ -1,19 +1,11 @@
 {
-  "cash": 0.0,
+  "cash": 2113.990290898704,
   "positions": {
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
       "quantity": 15.709921128403147,
       "entry_price": 126.10725716037577,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": 8224.688642316794,
-      "entry_price": 0.14590217966743294,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -176,6 +168,14 @@
       "entry_price": 68968.54768269543,
       "entry_date": "2026-02-15T13:41:59.822375",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": -9998.757368641167,
+      "entry_price": 0.11600387158540366,
+      "entry_date": "2026-02-19T14:07:14.635757",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -958,6 +958,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-19T14:07:14.635757",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SELL",
+      "quantity": 8224.688642316794,
+      "price": 0.11600387158540366,
+      "value": 954.0957250932454,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -245.9042749067546,
+      "entry_price": 0.14590217966743294
+    },
+    {
+      "date": "2026-02-19T14:07:14.635757",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 9998.757368641167,
+      "price": 0.11600387158540366,
+      "value": 1159.8945658054586,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1136,6 +1160,10 @@
     [
       "2026-02-17T14:04:50.798446",
       8754.685277998922
+    ],
+    [
+      "2026-02-19T14:07:14.635757",
+      7732.630438703058
     ]
   ]
 }
