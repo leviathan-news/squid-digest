@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DeFi lending protocols like Aave, Compound, and Maker currently operate as some of the least efficient “banks” in the US by net interest margin—far behind even average credit unions—highlighting how primitive their lending economics and product design still are despite huge room for improvement.** [𝕏/@ImperiumPaper](https://leviathannews.xyz/redirect/29593?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Dragonfly raises a $650 million fourth crypto fund to double down on blockchain finance even as much of the crypto venture industry undergoes a “mass extinction.”** [Fortune](https://leviathannews.xyz/redirect/29569?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Canton Foundation explains CIP-56, a Canton-wide token standard that unifies how assets are represented and transferred on Canton, embedding interoperability, privacy, and compliance for institutional finance use cases.** [𝕏/@CantonFdn](https://leviathannews.xyz/redirect/29506?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sonic positions itself as the engine for the agentic era targeting AI agents with sub-second EVM finality and integrated DeFi rails.** [𝕏/@defi_naly](https://leviathannews.xyz/redirect/29220?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Small-cap financials are pressing against a 10-year base, and a breakout could make it extremely hard to stay structurally bearish on U.S. equities.** [𝕏/@JC_ParetsX](https://leviathannews.xyz/redirect/28915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blue Owl Capital has permanently halted redemptions for its $1.7 billion retail private credit fund, OBDC II, opting instead to return capital through asset sales amid growing liquidity pressures and investor concerns.** [FT](https://leviathannews.xyz/redirect/30652?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ledn prices $188M inaugural Bitcoin ABS, securing investment-grade bonds via 5,441 consumer loans yielding 11.8% to set senior tranche at +335 bps** [𝕏/@matthew_sigel](https://leviathannews.xyz/redirect/30329?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Banks are lobbying to block yield-bearing stablecoins as US regulation debates whether onchain dollars can legally compete with bank deposits** [𝕏](https://leviathannews.xyz/redirect/30290?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **At Consensus HK 2026, speakers showed institutions want crypto exposure, but only through regulated ETFs, futures, and compliant on-chain rails.** [𝕏/@beincrypto](https://leviathannews.xyz/redirect/30283?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **First high severity bug identified in the Solidity Compiler has been fixed in the most recent release** [𝕏/@solidity_lang](https://leviathannews.xyz/redirect/30306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/17/signals_2026-02-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/17/signals_2026-02-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/19/signals_2026-02-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/19/signals_2026-02-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
