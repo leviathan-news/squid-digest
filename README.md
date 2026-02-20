@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Blue Owl Capital has permanently halted redemptions for its $1.7 billion retail private credit fund, OBDC II, opting instead to return capital through asset sales amid growing liquidity pressures and investor concerns.** [FT](https://leviathannews.xyz/redirect/30652?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ledn prices $188M inaugural Bitcoin ABS, securing investment-grade bonds via 5,441 consumer loans yielding 11.8% to set senior tranche at +335 bps** [𝕏/@matthew_sigel](https://leviathannews.xyz/redirect/30329?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Banks are lobbying to block yield-bearing stablecoins as US regulation debates whether onchain dollars can legally compete with bank deposits** [𝕏](https://leviathannews.xyz/redirect/30290?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **At Consensus HK 2026, speakers showed institutions want crypto exposure, but only through regulated ETFs, futures, and compliant on-chain rails.** [𝕏/@beincrypto](https://leviathannews.xyz/redirect/30283?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **First high severity bug identified in the Solidity Compiler has been fixed in the most recent release** [𝕏/@solidity_lang](https://leviathannews.xyz/redirect/30306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether’s USDT Stablecoin Faces Sharpest Monthly Supply Drop Since FTX Collapse as Redemptions Mount in February** [Bloomberg](https://leviathannews.xyz/redirect/31056?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock's CFO Martin Small said they'll tokenize all their ETFs in 3 to 12 months.
+The entire industry, bulls included, thought that same timeline would take several years. 
+Here...** [𝕏/@coinage_x_daic](https://leviathannews.xyz/redirect/31035?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SBF claims in his latest X post that a new Second Circuit ruling overturning a conviction for wrongly excluding intent evidence bolsters his own appeal, arguing Judge Kaplan likewise blocked his testimony and key evidence about FTX’s business practices.** [𝕏/@SBF_FTX](https://leviathannews.xyz/redirect/30675?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap weighs activating protocol fees across all remaining v3 Ethereum pools and v2/v3 deployments on eight additional chains under its new UNIfication governance framework. [theblock](** [The Block](https://leviathannews.xyz/redirect/30661?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The next chapter of crypto research isn’t more data access, but AI systems that reason across onchain, sentiment, and narratives in real time.** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/30772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/19/signals_2026-02-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/19/signals_2026-02-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/20/signals_2026-02-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/20/signals_2026-02-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
