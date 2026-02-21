@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-02-20",
+  "last_processed_date": "2026-02-21",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 2.8671175353379477,
-      "last_signal_date": "2026-02-20",
+      "score": 3.596816199981587,
+      "last_signal_date": "2026-02-21",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.0,
-      "last_signal_date": "2026-02-06",
-      "token_name": "BNB"
+      "score": -1.0,
+      "last_signal_date": "2026-02-21",
+      "token_name": "Binance Coin"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.5080759110362612,
-      "last_signal_date": "2026-02-17",
+      "score": 2.341909733267782,
+      "last_signal_date": "2026-02-21",
       "token_name": "Solana"
     },
     "STETH": {
@@ -33,8 +33,8 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.498149577050492,
-      "last_signal_date": "2026-02-17",
+      "score": 3.00817990217217,
+      "last_signal_date": "2026-02-21",
       "token_name": "Ethereum"
     },
     "XRP": {
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": -0.10254191950095477,
+      "score": -0.04643732153552965,
       "last_signal_date": "2026-02-13",
       "token_name": "Chainlink"
     },
@@ -81,25 +81,25 @@
     },
     "ADA": {
       "symbol": "ADA",
-      "score": -0.10254191950095477,
+      "score": -0.04643732153552965,
       "last_signal_date": "2026-02-13",
       "token_name": "Cardano"
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": -0.05127095975047737,
+      "score": -0.02102969050988056,
       "last_signal_date": "2026-02-12",
       "token_name": "Dogecoin"
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.05127095975047737,
+      "score": 0.02102969050988056,
       "last_signal_date": "2026-02-12",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.6548023335575293,
+      "score": 1.1135993897517755,
       "last_signal_date": "2026-02-17",
       "token_name": "Aave"
     },
@@ -117,13 +117,13 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.9057236642639067,
+      "score": -0.7429971445684743,
       "last_signal_date": "2026-02-19",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.05272212604846268,
+      "score": 0.021624912020722593,
       "last_signal_date": "2026-02-12",
       "token_name": "Arbitrum"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.05127095975047737,
+      "score": 0.02102969050988056,
       "last_signal_date": "2026-02-12",
       "token_name": "NEAR"
     },
@@ -303,25 +303,25 @@
     },
     "61": {
       "symbol": "61",
-      "score": -1.1108075032658162,
+      "score": -0.6770447568369062,
       "last_signal_date": "2026-02-16",
       "token_name": "61"
     },
     "70": {
       "symbol": "70",
-      "score": -0.023218660767764823,
+      "score": 0.0,
       "last_signal_date": "2026-02-11",
       "token_name": "70"
     },
     "800": {
       "symbol": "800",
-      "score": 0.37149857228423716,
+      "score": 0.18574928614211858,
       "last_signal_date": "2026-02-14",
       "token_name": "800"
     },
     "160": {
       "symbol": "160",
-      "score": 0.9057236642639067,
+      "score": 0.5520447568369061,
       "last_signal_date": "2026-02-16",
       "token_name": "160"
     }
