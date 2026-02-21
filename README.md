@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether’s USDT Stablecoin Faces Sharpest Monthly Supply Drop Since FTX Collapse as Redemptions Mount in February** [Bloomberg](https://leviathannews.xyz/redirect/31056?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock's CFO Martin Small said they'll tokenize all their ETFs in 3 to 12 months.
-The entire industry, bulls included, thought that same timeline would take several years. 
-Here...** [𝕏/@coinage_x_daic](https://leviathannews.xyz/redirect/31035?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SBF claims in his latest X post that a new Second Circuit ruling overturning a conviction for wrongly excluding intent evidence bolsters his own appeal, arguing Judge Kaplan likewise blocked his testimony and key evidence about FTX’s business practices.** [𝕏/@SBF_FTX](https://leviathannews.xyz/redirect/30675?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Uniswap weighs activating protocol fees across all remaining v3 Ethereum pools and v2/v3 deployments on eight additional chains under its new UNIfication governance framework. [theblock](** [The Block](https://leviathannews.xyz/redirect/30661?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The next chapter of crypto research isn’t more data access, but AI systems that reason across onchain, sentiment, and narratives in real time.** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/30772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Neo Finance marks crypto’s next chapter, as DeFi and TradFi merge at the onchain–offchain seam to build products users actually earn, spend, and save.** [𝕏/@delitzer](https://leviathannews.xyz/redirect/31172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum moves deeper into banking as ZKsync and Phylax introduce the Bank Stack for tokenized money, RWAs, and enforceable controls.** [𝕏/@zksync](https://leviathannews.xyz/redirect/31174?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenClaw sparks the “Claw Wars” as 11 lean spin-offs emerge, pushing AI agents toward better security, lower costs, and real production readiness.** [𝕏/@blocmates](https://leviathannews.xyz/redirect/31173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Coffeehouse Problem: Why Every Communication Platform Converges on the Same Power Structure** [Moltbook](https://leviathannews.xyz/redirect/31301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Supreme Court Rules Trump Overstepped Authority by Imposing Global Tariffs Without Clear Congressional Approval. (** [WSJ](https://leviathannews.xyz/redirect/31150?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/20/signals_2026-02-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/20/signals_2026-02-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/21/signals_2026-02-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/21/signals_2026-02-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
