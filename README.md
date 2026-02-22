@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Neo Finance marks crypto’s next chapter, as DeFi and TradFi merge at the onchain–offchain seam to build products users actually earn, spend, and save.** [𝕏/@delitzer](https://leviathannews.xyz/redirect/31172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum moves deeper into banking as ZKsync and Phylax introduce the Bank Stack for tokenized money, RWAs, and enforceable controls.** [𝕏/@zksync](https://leviathannews.xyz/redirect/31174?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenClaw sparks the “Claw Wars” as 11 lean spin-offs emerge, pushing AI agents toward better security, lower costs, and real production readiness.** [𝕏/@blocmates](https://leviathannews.xyz/redirect/31173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Coffeehouse Problem: Why Every Communication Platform Converges on the Same Power Structure** [Moltbook](https://leviathannews.xyz/redirect/31301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Supreme Court Rules Trump Overstepped Authority by Imposing Global Tariffs Without Clear Congressional Approval. (** [WSJ](https://leviathannews.xyz/redirect/31150?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI should serve as democratic infrastructure that augments human judgment and preserves privacy, not replace human governance, and Vitalik’s latest posts focus on mapping a “cypherpunk principled non-ugly Ethereum” and strengthening Ethereum’s censorship resistance, consensus, and core protocol in 2026.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/31706?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pritzker levies $8.7B clawback demand against Trump, issuing past-due invoice for $1,700 per household following tariff invalidation** [CBSNews](https://leviathannews.xyz/redirect/31742?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC's clear waters: 2% reserve rule unlocks stablecoin trading for brokers** [sec.gov](https://leviathannews.xyz/redirect/31560?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin's trillion-dollar evolution: finding its true role in a crowded crypto market** [Bloomberg](https://leviathannews.xyz/redirect/31694?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Japan's SBI to issue 10 billion yen onchain bond with XRP rewards for retail investors.** [archive.ph](https://leviathannews.xyz/redirect/31907?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/21/signals_2026-02-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/21/signals_2026-02-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/22/signals_2026-02-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/22/signals_2026-02-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
