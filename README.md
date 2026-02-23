@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **AI should serve as democratic infrastructure that augments human judgment and preserves privacy, not replace human governance, and Vitalik’s latest posts focus on mapping a “cypherpunk principled non-ugly Ethereum” and strengthening Ethereum’s censorship resistance, consensus, and core protocol in 2026.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/31706?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pritzker levies $8.7B clawback demand against Trump, issuing past-due invoice for $1,700 per household following tariff invalidation** [CBSNews](https://leviathannews.xyz/redirect/31742?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC's clear waters: 2% reserve rule unlocks stablecoin trading for brokers** [sec.gov](https://leviathannews.xyz/redirect/31560?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin's trillion-dollar evolution: finding its true role in a crowded crypto market** [Bloomberg](https://leviathannews.xyz/redirect/31694?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Japan's SBI to issue 10 billion yen onchain bond with XRP rewards for retail investors.** [archive.ph](https://leviathannews.xyz/redirect/31907?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A new proposal to establish the "Fluid Foundation"** [gov.fluid.io](https://leviathannews.xyz/redirect/32640?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Under 2 hours to go for our weekly SQUID Pass auction!** [leviathannews.xyz](https://leviathannews.xyz/redirect/32637?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy has acquired 592 BTC for ~$39.8 million at ~$67,286 per BTC** [𝕏/@saylor](https://leviathannews.xyz/redirect/32625?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Breakthrough proposal could finally solve the world's non-dollar currency problem** [𝕏/@YashasEdu](https://leviathannews.xyz/redirect/32156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **From friction to standard: Unlocking $50T+ by 2050.** [insights4vc.substack](https://leviathannews.xyz/redirect/32369?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/22/signals_2026-02-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/22/signals_2026-02-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/23/signals_2026-02-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/23/signals_2026-02-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
