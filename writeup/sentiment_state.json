@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-02-22",
+  "last_processed_date": "2026-02-23",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 4.257721548331103,
+      "score": 3.856319162169841,
       "last_signal_date": "2026-02-22",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -1.9057236642639066,
+      "score": -1.7260590202715447,
       "last_signal_date": "2026-02-22",
       "token_name": "Binance Coin"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 3.121123064990604,
+      "score": 2.826875019041885,
       "last_signal_date": "2026-02-22",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 3.724579723760418,
+      "score": 3.3734399952473355,
       "last_signal_date": "2026-02-22",
       "token_name": "Ethereum"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": -0.01904708834694493,
+      "score": 0.0,
       "last_signal_date": "2026-02-13",
       "token_name": "Chainlink"
     },
@@ -81,7 +81,7 @@
     },
     "ADA": {
       "symbol": "ADA",
-      "score": -0.01904708834694493,
+      "score": 0.0,
       "last_signal_date": "2026-02-13",
       "token_name": "Cardano"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.6787464307105928,
+      "score": 0.37469840829554724,
       "last_signal_date": "2026-02-17",
       "token_name": "Aave"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.5520447568369062,
+      "score": -0.37149857228423716,
       "last_signal_date": "2026-02-19",
       "token_name": "World Liberty Financial"
     },
@@ -303,7 +303,7 @@
     },
     "61": {
       "symbol": "61",
-      "score": -0.3737590081557322,
+      "score": -0.1868795040778661,
       "last_signal_date": "2026-02-16",
       "token_name": "61"
     },
@@ -315,15 +315,21 @@
     },
     "800": {
       "symbol": "800",
-      "score": 0.08411876203952227,
+      "score": 0.03450279730230664,
       "last_signal_date": "2026-02-14",
       "token_name": "800"
     },
     "160": {
       "symbol": "160",
-      "score": 0.30475341355111885,
+      "score": 0.15237670677555942,
       "last_signal_date": "2026-02-16",
       "token_name": "160"
+    },
+    "434": {
+      "symbol": "434",
+      "score": 2.0,
+      "last_signal_date": "2026-02-23",
+      "token_name": "434"
     }
   }
 }
