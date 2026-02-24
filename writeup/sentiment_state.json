@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-02-23",
+  "last_processed_date": "2026-02-24",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 3.856319162169841,
-      "last_signal_date": "2026-02-22",
+      "score": 0.16347495277767266,
+      "last_signal_date": "2026-02-24",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -1.7260590202715447,
+      "score": -1.4159472408846523,
       "last_signal_date": "2026-02-22",
       "token_name": "Binance Coin"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 2.826875019041885,
+      "score": 2.3189855251348233,
       "last_signal_date": "2026-02-22",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 3.3734399952473355,
+      "score": 2.7673520994716276,
       "last_signal_date": "2026-02-22",
       "token_name": "Ethereum"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.37469840829554724,
+      "score": 0.18734920414777362,
       "last_signal_date": "2026-02-17",
       "token_name": "Aave"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.37149857228423716,
+      "score": -0.22643091606597668,
       "last_signal_date": "2026-02-19",
       "token_name": "World Liberty Financial"
     },
@@ -303,7 +303,7 @@
     },
     "61": {
       "symbol": "61",
-      "score": -0.1868795040778661,
+      "score": -0.0846305946046133,
       "last_signal_date": "2026-02-16",
       "token_name": "61"
     },
@@ -315,19 +315,19 @@
     },
     "800": {
       "symbol": "800",
-      "score": 0.03450279730230664,
+      "score": 0.012817739937619345,
       "last_signal_date": "2026-02-14",
       "token_name": "800"
     },
     "160": {
       "symbol": "160",
-      "score": 0.15237670677555942,
+      "score": 0.06900559460461327,
       "last_signal_date": "2026-02-16",
       "token_name": "160"
     },
     "434": {
       "symbol": "434",
-      "score": 2.0,
+      "score": 1.8114473285278134,
       "last_signal_date": "2026-02-23",
       "token_name": "434"
     }
