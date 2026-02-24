@@ -11,15 +11,19 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **A new proposal to establish the "Fluid Foundation"** [gov.fluid.io](https://leviathannews.xyz/redirect/32640?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Under 2 hours to go for our weekly SQUID Pass auction!** [leviathannews.xyz](https://leviathannews.xyz/redirect/32637?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy has acquired 592 BTC for ~$39.8 million at ~$67,286 per BTC** [𝕏/@saylor](https://leviathannews.xyz/redirect/32625?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Breakthrough proposal could finally solve the world's non-dollar currency problem** [𝕏/@YashasEdu](https://leviathannews.xyz/redirect/32156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **From friction to standard: Unlocking $50T+ by 2050.** [insights4vc.substack](https://leviathannews.xyz/redirect/32369?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jane Street Accused of Orchestrating 2022 Terra UST–LUNA Death Spiral, Triggering $40B Crypto Meltdown, as Terraform Bankruptcy Administrator Files Manhattan Lawsuit in February 2026** [WSJ](https://leviathannews.xyz/redirect/32983?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Ready, Set, Go!" - with Itamar from Ready
+
+DAdvisoor had Itamar, Ready co-founder and CEO, on for an interview, to discuss their rising neobank and what makes it unique. 
+
+Enjoy!** [Youtube](https://leviathannews.xyz/redirect/32754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ivangbi joins the Ethereum Foundation as DeFi Coordinator** [𝕏/@ivangbi_](https://leviathannews.xyz/redirect/32787?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Institutions may be quietly building in crypto lending, contradicting the cautious narrative** [𝕏/@coinage_x_daic](https://leviathannews.xyz/redirect/32773?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **⚠️ Anthropic Uncovers Massive Illicit Distillation Campaigns by Chinese AI Labs Using Millions of Fraudulent Claude Queries, Calls for Coordinated Global Action to Stop Capability Theft and Safety Erosion.** [Anthropic](https://leviathannews.xyz/redirect/32791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/23/signals_2026-02-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/23/signals_2026-02-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/24/signals_2026-02-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/24/signals_2026-02-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
