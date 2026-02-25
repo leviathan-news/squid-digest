@@ -11,19 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Jane Street Accused of Orchestrating 2022 Terra UST–LUNA Death Spiral, Triggering $40B Crypto Meltdown, as Terraform Bankruptcy Administrator Files Manhattan Lawsuit in February 2026** [WSJ](https://leviathannews.xyz/redirect/32983?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **"Ready, Set, Go!" - with Itamar from Ready
-
-DAdvisoor had Itamar, Ready co-founder and CEO, on for an interview, to discuss their rising neobank and what makes it unique. 
-
-Enjoy!** [Youtube](https://leviathannews.xyz/redirect/32754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ivangbi joins the Ethereum Foundation as DeFi Coordinator** [𝕏/@ivangbi_](https://leviathannews.xyz/redirect/32787?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Institutions may be quietly building in crypto lending, contradicting the cautious narrative** [𝕏/@coinage_x_daic](https://leviathannews.xyz/redirect/32773?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **⚠️ Anthropic Uncovers Massive Illicit Distillation Campaigns by Chinese AI Labs Using Millions of Fraudulent Claude Queries, Calls for Coordinated Global Action to Stop Capability Theft and Safety Erosion.** [Anthropic](https://leviathannews.xyz/redirect/32791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether’s shrinking market cap for a second straight month signals stalling stablecoin growth and rising stress for the broader crypto market.** [Coindesk](https://leviathannews.xyz/redirect/33744?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Are Audits Dead?** [𝕏/@r0bre](https://leviathannews.xyz/redirect/33428?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI security sucks: How a software engineer with a robotic vacuum cleaned out the privacy from thousands of homes** [𝕏/@JacklouisP](https://leviathannews.xyz/redirect/33098?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pentagon strikes deal to deploy Elon Musk’s Grok AI in classified systems as clash with Anthropic over safety limits jeopardizes Claude’s future role.** [Axios](https://leviathannews.xyz/redirect/32977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **During the Panic of 1837, Jackson's Specie Circular required specie for federal land, delegitimizing paper money and causing 40% of U.S. banks to fail. New England's Suffolk Banking System survived via stable clearing and reserves. Parallels to SEC crypto enforcement and China bans show strategies for policy volatility.** [sagix.io](https://leviathannews.xyz/redirect/33096?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/24/signals_2026-02-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/24/signals_2026-02-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/25/signals_2026-02-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/25/signals_2026-02-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
