@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether’s shrinking market cap for a second straight month signals stalling stablecoin growth and rising stress for the broader crypto market.** [Coindesk](https://leviathannews.xyz/redirect/33744?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Are Audits Dead?** [𝕏/@r0bre](https://leviathannews.xyz/redirect/33428?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI security sucks: How a software engineer with a robotic vacuum cleaned out the privacy from thousands of homes** [𝕏/@JacklouisP](https://leviathannews.xyz/redirect/33098?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pentagon strikes deal to deploy Elon Musk’s Grok AI in classified systems as clash with Anthropic over safety limits jeopardizes Claude’s future role.** [Axios](https://leviathannews.xyz/redirect/32977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **During the Panic of 1837, Jackson's Specie Circular required specie for federal land, delegitimizing paper money and causing 40% of U.S. banks to fail. New England's Suffolk Banking System survived via stable clearing and reserves. Parallels to SEC crypto enforcement and China bans show strategies for policy volatility.** [sagix.io](https://leviathannews.xyz/redirect/33096?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Privacy can survive upcoming challenges. Listen to Privacy Now's latest episode to learn how.** [𝕏/@OasisProtocol](https://leviathannews.xyz/redirect/34963?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WalletConnect Pay reframes crypto checkout by giving PSPs one integration that reaches 700+ wallets and hundreds of millions of users.** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/34332?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why Ethereum Isn't Bitcoin's Little Brother: Sharplink CEO** [Youtube](https://leviathannews.xyz/redirect/34306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vyper frontend is now directly emitting Venom IR, improving performance and paving the way for formal verification** [𝕏/@harkal](https://leviathannews.xyz/redirect/34361?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve, Liquity and Protocol FX join Ethereum Foundation for a conversation about decentralized stablecoins tomorrow at 5pm UTC. 1** [𝕏/@ethereumfndn](https://leviathannews.xyz/redirect/34449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/25/signals_2026-02-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/25/signals_2026-02-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/26/signals_2026-02-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/26/signals_2026-02-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
