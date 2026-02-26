@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-02-25",
+  "last_processed_date": "2026-02-26",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 1.1480631332451627,
+      "score": 1.0398279478491106,
       "last_signal_date": "2026-02-25",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -1.0520447568369062,
+      "score": -0.7079736204423261,
       "last_signal_date": "2026-02-22",
       "token_name": "Binance Coin"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 1.7229996234707974,
+      "score": 1.1594927625674116,
       "last_signal_date": "2026-02-22",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.0561347079229915,
+      "score": 0.9565661976163027,
       "last_signal_date": "2026-02-25",
       "token_name": "Ethereum"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.08484330383882412,
+      "score": 0.034799980929742985,
       "last_signal_date": "2026-02-17",
       "token_name": "Aave"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.12500000000000003,
+      "score": -0.06250000000000001,
       "last_signal_date": "2026-02-19",
       "token_name": "World Liberty Financial"
     },
@@ -291,8 +291,8 @@
     },
     "65": {
       "symbol": "65",
-      "score": 0.0,
-      "last_signal_date": "2026-02-05",
+      "score": -1.0,
+      "last_signal_date": "2026-02-26",
       "token_name": "65"
     },
     "60": {
@@ -303,7 +303,7 @@
     },
     "61": {
       "symbol": "61",
-      "score": -0.03471273447705676,
+      "score": -0.0128957312983084,
       "last_signal_date": "2026-02-16",
       "token_name": "61"
     },
@@ -321,15 +321,27 @@
     },
     "160": {
       "symbol": "160",
-      "score": 0.028303864508247078,
+      "score": 0.01051484525494028,
       "last_signal_date": "2026-02-16",
       "token_name": "160"
     },
     "434": {
       "symbol": "434",
-      "score": 1.4859942891369486,
+      "score": 1.1040895136738125,
       "last_signal_date": "2026-02-23",
       "token_name": "434"
+    },
+    "465M": {
+      "symbol": "465M",
+      "score": -2.0,
+      "last_signal_date": "2026-02-26",
+      "token_name": "465M"
+    },
+    "188M": {
+      "symbol": "188M",
+      "score": 2.0,
+      "last_signal_date": "2026-02-26",
+      "token_name": "188M"
     }
   }
 }

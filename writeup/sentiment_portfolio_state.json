@@ -1,11 +1,11 @@
 {
-  "cash": 2113.990290898704,
+  "cash": 2243.075327562452,
   "positions": {
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 15.709921128403147,
-      "entry_price": 126.10725716037577,
+      "quantity": 18.912425145056005,
+      "entry_price": 119.55213860505971,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -108,8 +108,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -2.304578148381559,
-      "entry_price": 644.1735762113564,
+      "quantity": -3.961182187592932,
+      "entry_price": 636.5313371812161,
       "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -124,8 +124,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.6705881120237492,
-      "entry_price": 2005.3881537470538,
+      "quantity": 0.802110286140581,
+      "entry_price": 2014.4495255234704,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -164,8 +164,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.01913171964382841,
-      "entry_price": 68968.54768269543,
+      "quantity": 0.02440000128545619,
+      "entry_price": 68703.40174941285,
       "entry_date": "2026-02-15T13:41:59.822375",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -982,6 +982,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 3.2025040166528567,
+      "price": 87.3959274166102,
+      "value": 279.8858085907957,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.005268281641627783,
+      "price": 67740.5265644225,
+      "value": 356.87617249354616,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.13152217411683179,
+      "price": 2060.6504664119216,
+      "value": 271.02122943735935,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "BNB",
+      "token_name": "Binance Coin",
+      "action": "SHORT",
+      "quantity": 1.656604039211373,
+      "price": 625.8998666205418,
+      "value": 1036.8682471854493,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1188,6 +1236,10 @@
     [
       "2026-02-25T14:07:46.807569",
       7888.630244021597
+    ],
+    [
+      "2026-02-26T14:07:59.019400",
+      8264.34467624694
     ]
   ]
 }

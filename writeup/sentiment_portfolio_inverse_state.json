@@ -1,5 +1,5 @@
 {
-  "cash": -477.0478625466227,
+  "cash": -363.4497821791949,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -12,8 +12,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -9.271512828832595,
-      "entry_price": 119.29650361396818,
+      "quantity": -10.571322599440254,
+      "entry_price": 115.37412964048492,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1030,6 +1030,18 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": 122.9521374533773,
       "entry_price": 0.14590217966743294
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.2998097706076595,
+      "price": 87.3959274166102,
+      "value": 113.59808036742777,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1236,6 +1248,10 @@
     [
       "2026-02-25T14:07:46.807569",
       9413.503002788962
+    ],
+    [
+      "2026-02-26T14:07:59.019400",
+      9238.905425982517
     ]
   ]
 }
