@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Privacy can survive upcoming challenges. Listen to Privacy Now's latest episode to learn how.** [𝕏/@OasisProtocol](https://leviathannews.xyz/redirect/34963?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WalletConnect Pay reframes crypto checkout by giving PSPs one integration that reaches 700+ wallets and hundreds of millions of users.** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/34332?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Why Ethereum Isn't Bitcoin's Little Brother: Sharplink CEO** [Youtube](https://leviathannews.xyz/redirect/34306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vyper frontend is now directly emitting Venom IR, improving performance and paving the way for formal verification** [𝕏/@harkal](https://leviathannews.xyz/redirect/34361?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curve, Liquity and Protocol FX join Ethereum Foundation for a conversation about decentralized stablecoins tomorrow at 5pm UTC. 1** [𝕏/@ethereumfndn](https://leviathannews.xyz/redirect/34449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZachXBT exposes Axiom employees weaponizing internal dashboards to spy on user wallets and insider trade since early 2025** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/34973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Rain becomes a Visa Principal Member, letting fintechs launch global card programs with stablecoin settlement and no bank sponsor dependency.** [𝕏/@Snapcrackle](https://leviathannews.xyz/redirect/35619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Private credit moves onchain as tokenization reshapes a $3T market, reducing illiquidity, lowering barriers, and modernizing credit rails.** [𝕏/@steinRWA](https://leviathannews.xyz/redirect/35386?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic defies Department of War demands to strip AI safeguards on mass surveillance and autonomous weapons amid Defense Production Act threats** [Anthropic](https://leviathannews.xyz/redirect/35742?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tokenized gold surges to $4.4B: xAUt dominates chains, PAXG excels in regulations,** [sagix.io](https://leviathannews.xyz/redirect/34949?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/26/signals_2026-02-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/26/signals_2026-02-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/27/signals_2026-02-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/27/signals_2026-02-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
