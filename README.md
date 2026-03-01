@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **ZachXBT exposes Axiom employees weaponizing internal dashboards to spy on user wallets and insider trade since early 2025** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/34973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Rain becomes a Visa Principal Member, letting fintechs launch global card programs with stablecoin settlement and no bank sponsor dependency.** [𝕏/@Snapcrackle](https://leviathannews.xyz/redirect/35619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Private credit moves onchain as tokenization reshapes a $3T market, reducing illiquidity, lowering barriers, and modernizing credit rails.** [𝕏/@steinRWA](https://leviathannews.xyz/redirect/35386?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic defies Department of War demands to strip AI safeguards on mass surveillance and autonomous weapons amid Defense Production Act threats** [Anthropic](https://leviathannews.xyz/redirect/35742?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized gold surges to $4.4B: xAUt dominates chains, PAXG excels in regulations,** [sagix.io](https://leviathannews.xyz/redirect/34949?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic CEO Dario Amodei sat down with CBS News for an exclusive interview, hours after Defense Secretary Pete Hegseth declared the company a supply chain risk to national security, which restricts military contractors from doing business with the AI giant** [youtu.be](https://leviathannews.xyz/redirect/36867?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Freshly funded wallets on prediction platform Polymarket made about $1 million betting on imminent U.S. airstrikes on Iran, fueling new suspicions of insider trading in geopolitical “war markets.”** [𝕏/@bubblemaps](https://leviathannews.xyz/redirect/36915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Theo Network unfurls thUSD: gold-powered yield stablecoin poised for treasure-laden gains.** [𝕏/@Theo_Network](https://leviathannews.xyz/redirect/36851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink’s institutional moment deepens as UBS, Swift, Mastercard, JPMorgan and Coinbase standardize tokenization on its infrastructure.** [𝕏](https://leviathannews.xyz/redirect/36821?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blocmates launches AI Fridays, a weekly livestream and newsletter to track rapid AI launches, experiments, and tools shaping daily digital life.** [𝕏/@blocmates](https://leviathannews.xyz/redirect/36816?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/02/27/signals_2026-02-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/02/27/signals_2026-02-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/01/signals_2026-03-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/01/signals_2026-03-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
