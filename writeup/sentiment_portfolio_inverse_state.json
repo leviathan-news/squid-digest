@@ -1,5 +1,5 @@
 {
-  "cash": -363.4497821791949,
+  "cash": 2797.8901421920727,
   "positions": {
     "TRX": {
       "symbol": "TRX",
@@ -153,14 +153,6 @@
       "entry_date": "2026-02-12T14:09:40.932839",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "LINK": {
-      "symbol": "LINK",
-      "token_name": "Chainlink",
-      "quantity": 282.8711968617293,
-      "entry_price": 8.648566336439178,
-      "entry_date": "2026-02-13T13:58:53.500749",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
@@ -176,6 +168,14 @@
       "entry_price": 0.28331213008817907,
       "entry_date": "2026-02-17T14:04:50.798446",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "quantity": -75.84678178906766,
+      "entry_price": 8.812883971585807,
+      "entry_date": "2026-03-01T13:35:42.340123",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1042,6 +1042,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-01T13:35:42.340123",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "SELL",
+      "quantity": 282.8711968617293,
+      "price": 8.812883971585807,
+      "value": 2492.9110368460274,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 46.480726119415976,
+      "entry_price": 8.648566336439178
+    },
+    {
+      "date": "2026-03-01T13:35:42.340123",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "SHORT",
+      "quantity": 75.84678178906766,
+      "price": 8.812883971585807,
+      "value": 668.4288875252406,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1256,6 +1280,10 @@
     [
       "2026-02-27T13:57:11.998601",
       9291.671360650336
+    ],
+    [
+      "2026-03-01T13:35:42.340123",
+      8912.385167003207
     ]
   ]
 }
