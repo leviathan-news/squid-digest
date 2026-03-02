@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Anthropic CEO Dario Amodei sat down with CBS News for an exclusive interview, hours after Defense Secretary Pete Hegseth declared the company a supply chain risk to national security, which restricts military contractors from doing business with the AI giant** [youtu.be](https://leviathannews.xyz/redirect/36867?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Freshly funded wallets on prediction platform Polymarket made about $1 million betting on imminent U.S. airstrikes on Iran, fueling new suspicions of insider trading in geopolitical “war markets.”** [𝕏/@bubblemaps](https://leviathannews.xyz/redirect/36915?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Theo Network unfurls thUSD: gold-powered yield stablecoin poised for treasure-laden gains.** [𝕏/@Theo_Network](https://leviathannews.xyz/redirect/36851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink’s institutional moment deepens as UBS, Swift, Mastercard, JPMorgan and Coinbase standardize tokenization on its infrastructure.** [𝕏](https://leviathannews.xyz/redirect/36821?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blocmates launches AI Fridays, a weekly livestream and newsletter to track rapid AI launches, experiments, and tools shaping daily digital life.** [𝕏/@blocmates](https://leviathannews.xyz/redirect/36816?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The issues they are seeing are related to Claude.ai and with the login/logout paths.** [status.claude](https://leviathannews.xyz/redirect/38131?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **German WW3 prep vs. American “LEEEEROOOOY JEEEENKIIINSSS” chaos in one brutal meme.** [𝕏/@flipdazed](https://leviathannews.xyz/redirect/38087?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink argues privacy is a human requirement, not a blocker, positioning confidential compute as essential infrastructure for real-world onchain finance.** [𝕏/@chainlink](https://leviathannews.xyz/redirect/37521?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lessons from 1890 Baring Crisis: Argentine Debt Bubble Triggers Transatlantic Contagion, Mirroring 2022 DeFi Cascade from Terra to FTX. Key Takeaways: Shun Unsustainable Yields and Hidden Leverage.** [sagix.io](https://leviathannews.xyz/redirect/37422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stanford researchers find that Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI all default to using users’ AI chat conversations for model training with poor transparency and weak consent controls.** [𝕏/@heygurisingh](https://leviathannews.xyz/redirect/37446?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/01/signals_2026-03-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/01/signals_2026-03-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/02/signals_2026-03-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/02/signals_2026-03-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
