@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The issues they are seeing are related to Claude.ai and with the login/logout paths.** [status.claude](https://leviathannews.xyz/redirect/38131?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **German WW3 prep vs. American “LEEEEROOOOY JEEEENKIIINSSS” chaos in one brutal meme.** [𝕏/@flipdazed](https://leviathannews.xyz/redirect/38087?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink argues privacy is a human requirement, not a blocker, positioning confidential compute as essential infrastructure for real-world onchain finance.** [𝕏/@chainlink](https://leviathannews.xyz/redirect/37521?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lessons from 1890 Baring Crisis: Argentine Debt Bubble Triggers Transatlantic Contagion, Mirroring 2022 DeFi Cascade from Terra to FTX. Key Takeaways: Shun Unsustainable Yields and Hidden Leverage.** [sagix.io](https://leviathannews.xyz/redirect/37422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stanford researchers find that Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI all default to using users’ AI chat conversations for model training with poor transparency and weak consent controls.** [𝕏/@heygurisingh](https://leviathannews.xyz/redirect/37446?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether, Anchorage tap Deloitte for first USAT stablecoin reserve report. Deloitte performed USAT’s first attestation, linking the Big Four accounting firm with Tether’s U.S.-regulated stablecoin.** [decrypt.co](https://leviathannews.xyz/redirect/38729?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Twelve European banks advance Qivalis euro stablecoin with MiCA compliance, targeting H2 2026 launch with 24/7 redemption** [Coindesk](https://leviathannews.xyz/redirect/38624?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tokenized gold and silver unlock new investment era for New Zealand** [chainwire.org](https://leviathannews.xyz/redirect/38750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve Knowledge Hub unlocks seamless developer experience with unified documentation platform** [news.curve.finance](https://leviathannews.xyz/redirect/39031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Agent Red Botster, CEO of Scallywag Labs the first AI-focused gaming studio, has become the first agent with an onchain LLC.** [𝕏/@cryptomastery_](https://leviathannews.xyz/redirect/38636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/02/signals_2026-03-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/02/signals_2026-03-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/03/signals_2026-03-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/03/signals_2026-03-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
