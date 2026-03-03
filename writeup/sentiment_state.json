@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-03-02",
+  "last_processed_date": "2026-03-03",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": -0.6501238411713436,
+      "score": -0.5888325476510354,
       "last_signal_date": "2026-03-02",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -0.097708281286007,
+      "score": -0.040076778856825486,
       "last_signal_date": "2026-02-22",
       "token_name": "Binance Coin"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 2.1600229750414197,
+      "score": 1.9563839238487397,
       "last_signal_date": "2026-03-02",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 2.087789925910389,
+      "score": 1.890960741908828,
       "last_signal_date": "2026-03-02",
       "token_name": "Ethereum"
     },
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": -1.0,
+      "score": -0.9057236642639067,
       "last_signal_date": "2026-03-02",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 2.7171709927917203,
+      "score": 2.228991433705423,
       "last_signal_date": "2026-03-01",
       "token_name": "ChainLink Token"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 1.8114473285278134,
+      "score": 1.4859942891369486,
       "last_signal_date": "2026-03-01",
       "token_name": "NEAR"
     },
@@ -291,7 +291,7 @@
     },
     "65": {
       "symbol": "65",
-      "score": -0.45286183213195336,
+      "score": -0.27602237841845306,
       "last_signal_date": "2026-02-26",
       "token_name": "65"
     },
@@ -327,21 +327,33 @@
     },
     "434": {
       "symbol": "434",
-      "score": 0.20508383900190955,
+      "score": 0.0928746430710593,
       "last_signal_date": "2026-02-23",
       "token_name": "434"
     },
     "465M": {
       "symbol": "465M",
-      "score": -0.9057236642639067,
+      "score": -0.5520447568369061,
       "last_signal_date": "2026-02-26",
       "token_name": "465M"
     },
     "188M": {
       "symbol": "188M",
-      "score": 0.9057236642639067,
+      "score": 0.5520447568369061,
       "last_signal_date": "2026-02-26",
       "token_name": "188M"
+    },
+    "79": {
+      "symbol": "79",
+      "score": -2.0,
+      "last_signal_date": "2026-03-03",
+      "token_name": "79"
+    },
+    "62": {
+      "symbol": "62",
+      "score": -1.0,
+      "last_signal_date": "2026-03-03",
+      "token_name": "62"
     }
   }
 }

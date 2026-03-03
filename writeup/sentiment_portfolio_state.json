@@ -1,5 +1,5 @@
 {
-  "cash": 4471.763520632362,
+  "cash": 5330.890747599127,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -156,8 +156,8 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
-      "quantity": 97.18019329386209,
-      "entry_price": 8.812883971585807,
+      "quantity": 135.5554364733736,
+      "entry_price": 8.758378785055413,
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -172,8 +172,8 @@
     "SUI": {
       "symbol": "SUI",
       "token_name": "Sui",
-      "quantity": -1287.8691745907831,
-      "entry_price": 0.8856467053061308,
+      "quantity": -2623.7886790390567,
+      "entry_price": 0.8882317497970887,
       "entry_date": "2026-03-02T13:57:22.393936",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -1102,6 +1102,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-03T13:56:43.587086",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "BUY",
+      "quantity": 38.3752431795115,
+      "price": 8.62035165809327,
+      "value": 330.8080911722344,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-03T13:56:43.587086",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SHORT",
+      "quantity": 1335.9195044482738,
+      "price": 0.8907238154520664,
+      "value": 1189.9353181390002,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1324,6 +1348,10 @@
     [
       "2026-03-02T13:57:22.393936",
       7603.980608944357
+    ],
+    [
+      "2026-03-03T13:56:43.587086",
+      7790.236877112018
     ]
   ]
 }
