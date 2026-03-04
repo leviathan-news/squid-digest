@@ -1,5 +1,5 @@
 {
-  "cash": 5330.890747599127,
+  "cash": 3145.626330400959,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -161,14 +161,6 @@
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.017442774696966236,
-      "entry_price": 65390.805715104114,
-      "entry_date": "2026-03-02T13:57:22.393936",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "SUI": {
       "symbol": "SUI",
       "token_name": "Sui",
@@ -176,6 +168,14 @@
       "entry_price": 0.8882317497970887,
       "entry_date": "2026-03-02T13:57:22.393936",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.013165102054066471,
+      "entry_price": 71395.49191776059,
+      "entry_date": "2026-03-04T13:54:44.148373",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1126,6 +1126,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-04T13:54:44.148373",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.017442774696966236,
+      "price": 71395.49191776059,
+      "value": 1245.335479900572,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -104.73838855891881,
+      "entry_price": 65390.805715104114
+    },
+    {
+      "date": "2026-03-04T13:54:44.148373",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.013165102054066471,
+      "price": 71395.49191776059,
+      "value": 939.9289372975961,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1352,6 +1376,10 @@
     [
       "2026-03-03T13:56:43.587086",
       7790.236877112018
+    ],
+    [
+      "2026-03-04T13:54:44.148373",
+      7832.741144146634
     ]
   ]
 }
