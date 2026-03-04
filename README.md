@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether, Anchorage tap Deloitte for first USAT stablecoin reserve report. Deloitte performed USAT’s first attestation, linking the Big Four accounting firm with Tether’s U.S.-regulated stablecoin.** [decrypt.co](https://leviathannews.xyz/redirect/38729?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Twelve European banks advance Qivalis euro stablecoin with MiCA compliance, targeting H2 2026 launch with 24/7 redemption** [Coindesk](https://leviathannews.xyz/redirect/38624?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized gold and silver unlock new investment era for New Zealand** [chainwire.org](https://leviathannews.xyz/redirect/38750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curve Knowledge Hub unlocks seamless developer experience with unified documentation platform** [news.curve.finance](https://leviathannews.xyz/redirect/39031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Agent Red Botster, CEO of Scallywag Labs the first AI-focused gaming studio, has become the first agent with an onchain LLC.** [𝕏/@cryptomastery_](https://leviathannews.xyz/redirect/38636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax.** [𝕏/@zaimiri](https://leviathannews.xyz/redirect/39980?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **USDe's growth engine is a thriving derivatives market and sustained leverage demand** [𝕏/@Jonasoeth](https://leviathannews.xyz/redirect/39489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik’s EIP-8141 frame transactions simplify a decade of account abstraction into one core primitive for Ethereum.** [𝕏](https://leviathannews.xyz/redirect/38842?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paradex signals upcoming $DIME Token Generation Event.** [chainwire.org](https://leviathannews.xyz/redirect/39731?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto.com launches US IRAs combining crypto and stock investing, offering Traditional and Roth accounts with 400+ digital assets, 12,000+ stocks/ETFs, contribution matches up to 5%, and token staking.** [𝕏/@Crypto_Briefing](https://leviathannews.xyz/redirect/39421?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/03/signals_2026-03-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/03/signals_2026-03-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/04/signals_2026-03-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/04/signals_2026-03-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
