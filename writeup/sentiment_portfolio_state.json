@@ -1,5 +1,5 @@
 {
-  "cash": 3145.626330400959,
+  "cash": 0.0,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -16,14 +16,6 @@
       "entry_price": 138.7476232701631,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "TRX": {
-      "symbol": "TRX",
-      "token_name": "Tron",
-      "quantity": -10806.291547064578,
-      "entry_price": 0.3012609068162428,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "AVAX": {
       "symbol": "AVAX",
@@ -175,6 +167,14 @@
       "quantity": 0.013165102054066471,
       "entry_price": 71395.49191776059,
       "entry_date": "2026-03-04T13:54:44.148373",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": 284.0099148602367,
+      "entry_price": 0.28363758561482866,
+      "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1150,6 +1150,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-05T13:59:01.839079",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "COVER",
+      "quantity": 10806.291547064578,
+      "price": 0.28363758561482866,
+      "value": 3065.0704438593284,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 190.44274693004581,
+      "entry_price": 0.3012609068162428
+    },
+    {
+      "date": "2026-03-05T13:59:01.839079",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 284.0099148602367,
+      "price": 0.28363758561482866,
+      "value": 80.55588654163057,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1380,6 +1404,10 @@
     [
       "2026-03-04T13:54:44.148373",
       7832.741144146634
+    ],
+    [
+      "2026-03-05T13:59:01.839079",
+      7817.310780800452
     ]
   ]
 }
