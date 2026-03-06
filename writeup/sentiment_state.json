@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-03-05",
+  "last_processed_date": "2026-03-06",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 3.4682227627302074,
+      "score": 3.141251429143493,
       "last_signal_date": "2026-03-05",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 2.3593113333631877,
+      "score": 1.9354265025873456,
       "last_signal_date": "2026-03-04",
       "token_name": "Solana"
     },
@@ -27,14 +27,14 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.0,
-      "last_signal_date": "2026-02-10",
+      "score": -1.0,
+      "last_signal_date": "2026-03-06",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 2.31070209599325,
-      "last_signal_date": "2026-03-04",
+      "score": 2.895550626544218,
+      "last_signal_date": "2026-03-06",
       "token_name": "Ethereum"
     },
     "XRP": {
@@ -45,7 +45,7 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 1.0,
+      "score": 0.9057236642639067,
       "last_signal_date": "2026-03-05",
       "token_name": "HYPE"
     },
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": -0.5520447568369062,
+      "score": -0.37149857228423716,
       "last_signal_date": "2026-03-02",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 3.114495716852711,
+      "score": 2.8208724730020807,
       "last_signal_date": "2026-03-05",
       "token_name": "ChainLink Token"
     },
@@ -129,7 +129,7 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 3.0,
+      "score": 2.7171709927917203,
       "last_signal_date": "2026-03-05",
       "token_name": "Tron"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.7429971445684743,
+      "score": 0.45286183213195336,
       "last_signal_date": "2026-03-01",
       "token_name": "NEAR"
     },
@@ -291,7 +291,7 @@
     },
     "65": {
       "symbol": "65",
-      "score": -0.07618835338777971,
+      "score": -0.03450279730230663,
       "last_signal_date": "2026-02-26",
       "token_name": "65"
     },
@@ -327,31 +327,31 @@
     },
     "434": {
       "symbol": "434",
-      "score": 0.014151932254123544,
+      "score": 0.0,
       "last_signal_date": "2026-02-23",
       "token_name": "434"
     },
     "465M": {
       "symbol": "465M",
-      "score": -0.15237670677555942,
+      "score": -0.06900559460461327,
       "last_signal_date": "2026-02-26",
       "token_name": "465M"
     },
     "188M": {
       "symbol": "188M",
-      "score": 0.15237670677555942,
+      "score": 0.06900559460461327,
       "last_signal_date": "2026-02-26",
       "token_name": "188M"
     },
     "79": {
       "symbol": "79",
-      "score": -1.4859942891369486,
+      "score": -1.1040895136738125,
       "last_signal_date": "2026-03-03",
       "token_name": "79"
     },
     "62": {
       "symbol": "62",
-      "score": -0.7429971445684743,
+      "score": -0.5520447568369062,
       "last_signal_date": "2026-03-03",
       "token_name": "62"
     }
