@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Global finance giants Visa, ANZ, ChinaAMC, and Fidelity International complete HKMA e‑HKD cross‑border settlement pilot using Chainlink for secure, compliant, atomic transfers of regulated assets.** [𝕏/@chainlink](https://leviathannews.xyz/redirect/41160?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MIT’s NeuroSkill shows proactive AI agents that decode real-time brain and emotional signals via BCI to adapt behavior on-device, hinting at powerful yet privacy-sensitive cognitive copilots.** [𝕏/@omarsar0](https://leviathannews.xyz/redirect/40465?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Michael Saylor’s Strategy reportedly scoops up 1,762 BTC in two days, including 1,000 BTC on Tuesday in its biggest single‑day haul since launching in July 2025.** [Coindesk](https://leviathannews.xyz/redirect/40431?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase, Microsoft, and law enforcement disrupted the Tycoon 2FA phishing‑as‑a‑service operation by tracing its payments, identifying its administrator, and coordinating a takedown.** [𝕏/@coinbase](https://leviathannews.xyz/redirect/40494?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Interstate secures $1.5M to become the flagship platform for trading any asset onchain** [𝕏/@interstatefdn](https://leviathannews.xyz/redirect/40195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CurveCap thanks the community for amazing connections built during the past arc, looks forward to building Leviathan News and more** [𝕏/@CurveCap](https://leviathannews.xyz/redirect/41727?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZeroHash applies for a National Trust Bank Charter to further strengthen regulated stablecoin & digital asset infrastructure.** [Globenewswire](https://leviathannews.xyz/redirect/41545?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **An article with examples of how to spot the red flags of value extraction in crypto.** [𝕏/@daniel_votesa](https://leviathannews.xyz/redirect/41580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RWA looping now drives ~30% of Ethereum lending activity, mimicking on-chain carry trades with leverage.** [𝕏/@YieldNestFi](https://leviathannews.xyz/redirect/41583?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Montra Finance crew cites Iran draft as reason for abandoning token project** [Protos](https://leviathannews.xyz/redirect/42080?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/05/signals_2026-03-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/05/signals_2026-03-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/06/signals_2026-03-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/06/signals_2026-03-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
