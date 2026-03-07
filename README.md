@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **CurveCap thanks the community for amazing connections built during the past arc, looks forward to building Leviathan News and more** [𝕏/@CurveCap](https://leviathannews.xyz/redirect/41727?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZeroHash applies for a National Trust Bank Charter to further strengthen regulated stablecoin & digital asset infrastructure.** [Globenewswire](https://leviathannews.xyz/redirect/41545?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **An article with examples of how to spot the red flags of value extraction in crypto.** [𝕏/@daniel_votesa](https://leviathannews.xyz/redirect/41580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RWA looping now drives ~30% of Ethereum lending activity, mimicking on-chain carry trades with leverage.** [𝕏/@YieldNestFi](https://leviathannews.xyz/redirect/41583?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Montra Finance crew cites Iran draft as reason for abandoning token project** [Protos](https://leviathannews.xyz/redirect/42080?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The playbook to finding high DeFi yields amidst the chaos.** [Thedefinvestor](https://leviathannews.xyz/redirect/43166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock gates $26B private credit fund after redemption requests hit 9.3%, joining Blackstone and Blue Owl in withdrawal wave** [Bloomberg](https://leviathannews.xyz/redirect/42610?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve Finance accuses PancakeSwap of copying StableSwap code without license, offers collaboration to "keep users SAFU"** [𝕏/@CurveFinance](https://leviathannews.xyz/redirect/42604?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Claude Code runs Terraform destroy on production, wiping DataTalksClub course platform and 2.5 years of student submissions** [Alexey Grigorev](https://leviathannews.xyz/redirect/42770?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi consolidates into duopolies across nearly every vertical — two protocols per sector now capture most revenue** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/42886?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/06/signals_2026-03-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/06/signals_2026-03-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/07/signals_2026-03-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/07/signals_2026-03-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
