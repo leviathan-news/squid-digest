@@ -1,5 +1,5 @@
 {
-  "cash": 5298.353640705298,
+  "cash": 0.0,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -168,6 +168,14 @@
       "entry_price": 0.28363758561482866,
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 5866.889917065338,
+      "entry_price": 0.9030940951003175,
+      "entry_date": "2026-03-07T13:35:55.636587",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1154,6 +1162,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-07T13:35:55.636587",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 5866.889917065338,
+      "price": 0.9030940951003175,
+      "value": 5298.353640705298,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1392,6 +1412,10 @@
     [
       "2026-03-06T13:51:32.728997",
       9587.6332043457
+    ],
+    [
+      "2026-03-07T13:35:55.636587",
+      9573.015845468717
     ]
   ]
 }
