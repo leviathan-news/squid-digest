@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The playbook to finding high DeFi yields amidst the chaos.** [Thedefinvestor](https://leviathannews.xyz/redirect/43166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock gates $26B private credit fund after redemption requests hit 9.3%, joining Blackstone and Blue Owl in withdrawal wave** [Bloomberg](https://leviathannews.xyz/redirect/42610?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curve Finance accuses PancakeSwap of copying StableSwap code without license, offers collaboration to "keep users SAFU"** [𝕏/@CurveFinance](https://leviathannews.xyz/redirect/42604?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Claude Code runs Terraform destroy on production, wiping DataTalksClub course platform and 2.5 years of student submissions** [Alexey Grigorev](https://leviathannews.xyz/redirect/42770?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi consolidates into duopolies across nearly every vertical — two protocols per sector now capture most revenue** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/42886?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OmniPact secures $50 million to advance trust infrastructure for peer-to-peer transactions of physical and digital assets.** [chainwire.org](https://leviathannews.xyz/redirect/44032?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Helios Finance secures $1M in funding to unlock on-chain Bitcoin liquidity.** [𝕏/@helios_finance](https://leviathannews.xyz/redirect/44372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Dubai orders crypto exchange KuCoin to stop offering services to residents as it is not appropriately licensed.** [vara.ae](https://leviathannews.xyz/redirect/43898?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **0G Compute launches GLM-5, the top ranked open-source AI model with 744B parameters, enabling private AI inference through TEE infrastructure.** [𝕏/0G_labs](https://leviathannews.xyz/redirect/61097?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Propr launches an onchain prop trading firm on Hyperliquid, funding traders with up to $100K capital and offering 80% profit share with USDC payouts.** [𝕏/@ProprXYZ](https://leviathannews.xyz/redirect/61177?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/07/signals_2026-03-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/07/signals_2026-03-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/08/signals_2026-03-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/08/signals_2026-03-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
