@@ -1,5 +1,5 @@
 {
-  "cash": 571.8944840395263,
+  "cash": 0.0,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -184,6 +184,14 @@
       "entry_price": 30.201685393353706,
       "entry_date": "2026-03-08T13:37:04.554776",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": 5550.838165235118,
+      "entry_price": 0.10302849173685151,
+      "entry_date": "2026-03-09T14:03:09.027691",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1194,6 +1202,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-09T14:03:09.027691",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 5550.838165235118,
+      "price": 0.10302849173685151,
+      "value": 571.8944840395263,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1440,6 +1460,10 @@
     [
       "2026-03-08T13:37:04.554776",
       9531.574733992107
+    ],
+    [
+      "2026-03-09T14:03:09.027691",
+      9481.660016306821
     ]
   ]
 }

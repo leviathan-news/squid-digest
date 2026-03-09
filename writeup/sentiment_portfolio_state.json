@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 1293.693627321517,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -140,8 +140,8 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -9998.757368641167,
-      "entry_price": 0.11600387158540366,
+      "quantity": -11425.061982614781,
+      "entry_price": 0.11408907202202051,
       "entry_date": "2026-02-19T14:07:14.635757",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -176,6 +176,14 @@
       "entry_price": 0.28363758561482866,
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": -11163.062317498856,
+      "entry_price": 0.10302849173685151,
+      "entry_date": "2026-03-09T14:03:09.027691",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1174,6 +1182,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-09T14:03:09.027691",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SHORT",
+      "quantity": 11163.062317498856,
+      "price": 0.10302849173685151,
+      "value": 1150.1134737363893,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-09T14:03:09.027691",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 1426.3046139736139,
+      "price": 0.10066584106821364,
+      "value": 143.58015358512762,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1420,6 +1452,10 @@
     [
       "2026-03-08T13:37:04.554776",
       7370.48310811504
+    ],
+    [
+      "2026-03-09T14:03:09.027691",
+      7667.4231582425955
     ]
   ]
 }

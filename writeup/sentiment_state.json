@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-03-08",
+  "last_processed_date": "2026-03-09",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 4.914614191707621,
+      "score": 4.451282374156825,
       "last_signal_date": "2026-03-08",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 4.113892779856852,
+      "score": 3.726050042960777,
       "last_signal_date": "2026-03-08",
       "token_name": "Solana"
     },
@@ -27,32 +27,32 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.08538830825626871,
+      "score": 0.07004704825229613,
       "last_signal_date": "2026-03-07",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.1513858474758103,
+      "score": 1.0428374087573946,
       "last_signal_date": "2026-03-08",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.0,
+      "score": 0.9057236642639067,
       "last_signal_date": "2026-03-08",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 2.5520447568369065,
+      "score": 2.3114473285278136,
       "last_signal_date": "2026-03-08",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.0,
-      "last_signal_date": "2025-12-10",
+      "score": -1.0,
+      "last_signal_date": "2026-03-09",
       "token_name": "Ethena"
     },
     "AVAX": {
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": -0.12500000000000003,
+      "score": -0.06250000000000001,
       "last_signal_date": "2026-03-02",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 2.719341030679541,
+      "score": 2.4629715226902626,
       "last_signal_date": "2026-03-08",
       "token_name": "ChainLink Token"
     },
@@ -117,8 +117,8 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 0.0,
-      "last_signal_date": "2026-02-19",
+      "score": -3.0,
+      "last_signal_date": "2026-03-09",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
@@ -129,7 +129,7 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 1.6561342705107187,
+      "score": 1.1144957168527114,
       "last_signal_date": "2026-03-05",
       "token_name": "Tron"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.12500000000000003,
+      "score": 0.056607729016494183,
       "last_signal_date": "2026-03-01",
       "token_name": "NEAR"
     },
@@ -333,25 +333,25 @@
     },
     "465M": {
       "symbol": "465M",
-      "score": -0.01051484525494028,
+      "score": 0.0,
       "last_signal_date": "2026-02-26",
       "token_name": "465M"
     },
     "188M": {
       "symbol": "188M",
-      "score": 0.01051484525494028,
+      "score": 0.0,
       "last_signal_date": "2026-02-26",
       "token_name": "188M"
     },
     "79": {
       "symbol": "79",
-      "score": -0.45286183213195336,
+      "score": -0.25000000000000006,
       "last_signal_date": "2026-03-03",
       "token_name": "79"
     },
     "62": {
       "symbol": "62",
-      "score": -0.22643091606597668,
+      "score": -0.12500000000000003,
       "last_signal_date": "2026-03-03",
       "token_name": "62"
     }
