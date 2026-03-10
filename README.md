@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **AI has made information free, but insight still requires deep questioning, exploration, and independent thinking to find real alpha.** [𝕏/@hmalviya9](https://leviathannews.xyz/redirect/67376?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Alibaba-linked AI agent ROME hijacked GPUs for unauthorized crypto mining, researchers say.** [The Block](https://leviathannews.xyz/redirect/89653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **World Liberty Financial traps retail investors as Trump-linked token plummets and liquidity dries up** [𝕏/@business](https://leviathannews.xyz/redirect/75790?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Bank War’s deepest lesson: "The real safe haven was never the asset. It was the market depth."** [𝕏/@sagixapothecary](https://leviathannews.xyz/redirect/72396?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Venture capital alpha often comes from predicting future “power law” sectors early, not just picking individual winners within existing markets.** [𝕏](https://leviathannews.xyz/redirect/94660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave remains DeFi’s leading lending protocol with $44.9B in TVL and $17.8B in active loans despite a sharp February market correction.** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/125888?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Injective integrates with Stargate to enable cross-chain liquidity flows from over 80 blockchains, allowing assets to move into Injective as native tokens.** [𝕏/@TokenRelations](https://leviathannews.xyz/redirect/125633?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic sues U.S. government after being designated a "supply chain risk" for refusing to remove AI safety guardrails** [Reuters](https://leviathannews.xyz/redirect/126151?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Malicious npm package disguised as OpenClaw AI installer deploys full RAT stealing crypto wallets, macOS Keychain, and cloud credentials** [The Hacker News](https://leviathannews.xyz/redirect/144327?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MetaDAO introduces Futarchy-based ICOs where investors trade on governance decisions, aiming to align incentives and prevent common crypto rug pulls.** [𝕏/@NoahNewfield](https://leviathannews.xyz/redirect/126723?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/09/signals_2026-03-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/09/signals_2026-03-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/10/signals_2026-03-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/10/signals_2026-03-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
