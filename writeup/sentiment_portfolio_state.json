@@ -1,5 +1,5 @@
 {
-  "cash": 1293.693627321517,
+  "cash": 1990.4055087479455,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -183,6 +183,14 @@
       "quantity": -11163.062317498856,
       "entry_price": 0.10302849173685151,
       "entry_date": "2026-03-09T14:03:09.027691",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "wstETH": {
+      "symbol": "wstETH",
+      "token_name": "Wrapped liquid staked Ether 2.0",
+      "quantity": -0.2751388935202835,
+      "entry_price": 2532.21880960667,
+      "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1206,6 +1214,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-11T14:03:10.976040",
+      "symbol": "wstETH",
+      "token_name": "Wrapped liquid staked Ether 2.0",
+      "action": "SHORT",
+      "quantity": 0.2751388935202835,
+      "price": 2532.21880960667,
+      "value": 696.7118814264286,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1460,6 +1480,10 @@
     [
       "2026-03-10T13:58:30.957891",
       6601.059870899716
+    ],
+    [
+      "2026-03-11T14:03:10.976040",
+      6967.118814264288
     ]
   ]
 }
