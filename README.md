@@ -11,15 +11,19 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Aave remains DeFi’s leading lending protocol with $44.9B in TVL and $17.8B in active loans despite a sharp February market correction.** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/125888?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Injective integrates with Stargate to enable cross-chain liquidity flows from over 80 blockchains, allowing assets to move into Injective as native tokens.** [𝕏/@TokenRelations](https://leviathannews.xyz/redirect/125633?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic sues U.S. government after being designated a "supply chain risk" for refusing to remove AI safety guardrails** [Reuters](https://leviathannews.xyz/redirect/126151?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Malicious npm package disguised as OpenClaw AI installer deploys full RAT stealing crypto wallets, macOS Keychain, and cloud credentials** [The Hacker News](https://leviathannews.xyz/redirect/144327?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MetaDAO introduces Futarchy-based ICOs where investors trade on governance decisions, aiming to align incentives and prevent common crypto rug pulls.** [𝕏/@NoahNewfield](https://leviathannews.xyz/redirect/126723?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"One of DeFi's Best Podcasters is Podcasting Again!"
+
+Join DAdvisoor in about an hour for a talk with the legend DeFi Dave, which is actually coming back with not just one podcast - with two!
+
+3 PM UTC, on our YouTube and X** [Youtube](https://leviathannews.xyz/redirect/207951?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance sues Wall Street Journal for defamation in New York after report that DOJ is investigating Iran’s alleged use of the exchange to evade U.S. sanctions.** [𝕏/@EleanorTerrett](https://leviathannews.xyz/redirect/207868?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **𝕏 users turn to Leviathan News to monetize their social media addiction** [𝕏/@CurveCap](https://leviathannews.xyz/redirect/207761?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **YouTube is expanding its AI deepfake “likeness detection” tool to politicians and journalists, letting them flag impersonation videos for review and possible removal amid rising deepfake concerns.** [Axios](https://leviathannews.xyz/redirect/198961?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meta to Acquire Moltbook, Social Network for AI Agents** [𝕏/@business](https://leviathannews.xyz/redirect/195848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/10/signals_2026-03-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/10/signals_2026-03-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/11/signals_2026-03-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/11/signals_2026-03-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
