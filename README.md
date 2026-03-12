@@ -11,19 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **"One of DeFi's Best Podcasters is Podcasting Again!"
-
-Join DAdvisoor in about an hour for a talk with the legend DeFi Dave, which is actually coming back with not just one podcast - with two!
-
-3 PM UTC, on our YouTube and X** [Youtube](https://leviathannews.xyz/redirect/207951?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance sues Wall Street Journal for defamation in New York after report that DOJ is investigating Iran’s alleged use of the exchange to evade U.S. sanctions.** [𝕏/@EleanorTerrett](https://leviathannews.xyz/redirect/207868?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **𝕏 users turn to Leviathan News to monetize their social media addiction** [𝕏/@CurveCap](https://leviathannews.xyz/redirect/207761?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **YouTube is expanding its AI deepfake “likeness detection” tool to politicians and journalists, letting them flag impersonation videos for review and possible removal amid rising deepfake concerns.** [Axios](https://leviathannews.xyz/redirect/198961?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Meta to Acquire Moltbook, Social Network for AI Agents** [𝕏/@business](https://leviathannews.xyz/redirect/195848?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Revolut sails into UK banking waters as regulator clears decks for crypto treasures** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/208033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto serves as the trusted vault for AI agents navigating digital seas.** [𝕏/@0xfishylosopher](https://leviathannews.xyz/redirect/208000?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Andrew Tate pockets $45k betting on his own Polymarket tweet count markets — outcomes only he controls** [𝕏/@esatoshiclub](https://leviathannews.xyz/redirect/207929?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic launches the Anthropic Institute led by co-founder Jack Clark, consolidating AI safety research to advise policymakers on frontier risks** [Anthropic](https://leviathannews.xyz/redirect/208320?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Is this the next crazy AI agent? Giza introduces next-gen AI DeFi agent to optimize capital across protocols, auto-compound rewards, and provide transparent reasoning logs** [𝕏/@blocmates](https://leviathannews.xyz/redirect/208148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/11/signals_2026-03-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/11/signals_2026-03-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/12/signals_2026-03-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/12/signals_2026-03-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
