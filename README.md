@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Revolut sails into UK banking waters as regulator clears decks for crypto treasures** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/208033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto serves as the trusted vault for AI agents navigating digital seas.** [𝕏/@0xfishylosopher](https://leviathannews.xyz/redirect/208000?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Andrew Tate pockets $45k betting on his own Polymarket tweet count markets — outcomes only he controls** [𝕏/@esatoshiclub](https://leviathannews.xyz/redirect/207929?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic launches the Anthropic Institute led by co-founder Jack Clark, consolidating AI safety research to advise policymakers on frontier risks** [Anthropic](https://leviathannews.xyz/redirect/208320?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Is this the next crazy AI agent? Giza introduces next-gen AI DeFi agent to optimize capital across protocols, auto-compound rewards, and provide transparent reasoning logs** [𝕏/@blocmates](https://leviathannews.xyz/redirect/208148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenClaw releases version 2026.3.12, debuting a redesigned Dashboard v2, faster local AI modes, and 100+ security improvements for its multi‑platform proactive agent framework.** [𝕏/@openclaw](https://leviathannews.xyz/redirect/209376?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan Livestream: The DeFi Phoenix, feat. YieldNestFi** [Youtube](https://leviathannews.xyz/redirect/209293?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Someone lost $50M swapping USDT for AAVE** [𝕏/@0xG00gly](https://leviathannews.xyz/redirect/208977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Update: User loses almost entire $50M USDT trying to buy AAVE via Aave after accepting an extreme slippage warning Stani says which was clearly flagged in the interface, prompting debate and a 600k fee refund pledge** [𝕏/@StaniKulechov](https://leviathannews.xyz/redirect/209023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Etherfuse launches FX infrastructure that cuts Dollar-to-Peso conversion costs by 90% for businesses.** [𝕏/@etherfuse](https://leviathannews.xyz/redirect/209104?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/12/signals_2026-03-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/12/signals_2026-03-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/13/signals_2026-03-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/13/signals_2026-03-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
