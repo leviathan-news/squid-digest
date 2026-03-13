@@ -1,19 +1,11 @@
 {
-  "cash": 1990.4055087479455,
+  "cash": 4164.734839414384,
   "positions": {
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
       "quantity": 18.912425145056005,
       "entry_price": 119.55213860505971,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "Aave",
-      "quantity": 12.472762171248753,
-      "entry_price": 138.7476232701631,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -191,6 +183,14 @@
       "quantity": -0.2751388935202835,
       "entry_price": 2532.21880960667,
       "entry_date": "2026-03-11T14:03:10.976040",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "quantity": -5.9266454086702876,
+      "entry_price": 118.1738771328422,
+      "entry_date": "2026-03-13T13:57:21.486076",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1226,6 +1226,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-13T13:57:21.486076",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SELL",
+      "quantity": 12.472762171248753,
+      "price": 118.1738771328422,
+      "value": 1473.9546643323122,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -256.6114425424514,
+      "entry_price": 138.7476232701631
+    },
+    {
+      "date": "2026-03-13T13:57:21.486076",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "SHORT",
+      "quantity": 5.9266454086702876,
+      "price": 118.1738771328422,
+      "value": 700.3746663341259,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1488,6 +1512,10 @@
     [
       "2026-03-12T14:00:30.976833",
       6984.266707185056
+    ],
+    [
+      "2026-03-13T13:57:21.486076",
+      7003.746663341259
     ]
   ]
 }

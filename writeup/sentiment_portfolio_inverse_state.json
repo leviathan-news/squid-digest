@@ -1,19 +1,11 @@
 {
-  "cash": 0.0,
+  "cash": -848.7973304778574,
   "positions": {
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
       "quantity": -10.571322599440254,
       "entry_price": 115.37412964048492,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "Aave",
-      "quantity": -7.182613882793261,
-      "entry_price": 137.06299165119427,
       "entry_date": "2026-01-01T14:15:42.976052",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1214,6 +1206,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-13T13:57:21.486076",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "COVER",
+      "quantity": 7.182613882793261,
+      "price": 118.1738771328422,
+      "value": 848.7973304778574,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 135.67321617318737,
+      "entry_price": 137.06299165119427
     }
   ],
   "daily_values": [
@@ -1476,6 +1480,10 @@
     [
       "2026-03-12T14:00:30.976833",
       9910.217027738425
+    ],
+    [
+      "2026-03-13T13:57:21.486076",
+      9822.122333535468
     ]
   ]
 }
