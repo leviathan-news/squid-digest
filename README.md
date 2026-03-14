@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **OpenClaw releases version 2026.3.12, debuting a redesigned Dashboard v2, faster local AI modes, and 100+ security improvements for its multi‑platform proactive agent framework.** [𝕏/@openclaw](https://leviathannews.xyz/redirect/209376?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Leviathan Livestream: The DeFi Phoenix, feat. YieldNestFi** [Youtube](https://leviathannews.xyz/redirect/209293?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Someone lost $50M swapping USDT for AAVE** [𝕏/@0xG00gly](https://leviathannews.xyz/redirect/208977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Update: User loses almost entire $50M USDT trying to buy AAVE via Aave after accepting an extreme slippage warning Stani says which was clearly flagged in the interface, prompting debate and a 600k fee refund pledge** [𝕏/@StaniKulechov](https://leviathannews.xyz/redirect/209023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Etherfuse launches FX infrastructure that cuts Dollar-to-Peso conversion costs by 90% for businesses.** [𝕏/@etherfuse](https://leviathannews.xyz/redirect/209104?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Velo goes live with trading, evolving from crypto data terminal to full execution platform** [𝕏/@velo_xyz](https://leviathannews.xyz/redirect/209347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stake DAO reveals $176K rewards drained in Votemarket oracle exploit, proposes governance for full reimbursement** [𝕏/@StakeDAOHQ](https://leviathannews.xyz/redirect/209547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Palantir partners with Ondas and World View to advance next generation multi-domain intelligence platform.** [investors.palantir](https://leviathannews.xyz/redirect/209702?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MoonPay agents introduces the first AI agent secured by a Ledger signer.** [Prnewswire](https://leviathannews.xyz/redirect/209669?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic ships 1M token context for Claude 4.6, tops frontier models with 78.3% long-context recall** [𝕏/@claudeai](https://leviathannews.xyz/redirect/209659?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/13/signals_2026-03-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/13/signals_2026-03-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/14/signals_2026-03-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/14/signals_2026-03-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
