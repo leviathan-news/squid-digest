@@ -1,0 +1,37 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 425 chars. First 500 chars: No actionable trading signals generated. The search results contain general market analysis and macro conditions for March 2026 but lack specific news catalysts tied to individual tokens in the tracked list. Bitcoin and Ethereum show consolidation near key support levels amid Fed uncertainty and token unlock pressures, but these represent macro headwinds rather than token-specific catalysts warranting directional signals.
+
+Refusal detected: LLM explicitly refused to generate signals
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+No actionable trading signals generated. The search results contain general market analysis and macro conditions for March 2026 but lack specific news catalysts tied to individual tokens in the tracked list. Bitcoin and Ethereum show consolidation near key support levels amid Fed uncertainty and token unlock pressures, but these represent macro headwinds rather than token-specific catalysts warranting directional signals.
+
+News items sent (10):
+[1] Velo goes live with trading, evolving from crypto data terminal to full execution platform - https://leviathannews.xyz/redirect/209347?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Stake DAO reveals $176K rewards drained in Votemarket oracle exploit, proposes governance for full reimbursement - https://leviathannews.xyz/redirect/209547?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Palantir partners with Ondas and World View to advance next generation multi-domain intelligence platform. - https://leviathannews.xyz/redirect/209702?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] MoonPay agents introduces the first AI agent secured by a Ledger signer. - https://leviathannews.xyz/redirect/209669?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Anthropic ships 1M token context for Claude 4.6, tops frontier models with 78.3% long-context recall - https://leviathannews.xyz/redirect/209659?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] EvoCash secures FinCEN MSB Registration, setting new standard for crypto-fiat bridge and Web3 USD accounts. - https://leviathannews.xyz/redirect/209439?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Pharos secures strategic investment from GCL New Energy at nearly $1 billion valuation. - https://leviathannews.xyz/redirect/209667?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] What Went Wrong? XRP Ledger boom continues with 2.7M daily transactions and $461M in tokenized assets, but XRP price lags far behind network growth as bridge usage fails to create scarcity. - https://leviathannews.xyz/redirect/209772?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Singapore dollar SGD offramp launches on Hyperbeat amid crypto risks. - https://leviathannews.xyz/redirect/209719?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] The hottest new crypto trade Is 24/7 oil futures. A new generation of investors doesn’t want to wait for the traditional market open. - https://leviathannews.xyz/redirect/209709?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 688 news articles (TVL: $369,000,000)
+$ETH Ethereum - 658 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 326 news articles (TVL: $100,000)
+$XRP XRP - 138 news articles (TVL: $636,416,718)
+$DOGE Dogecoin - 40 news articles (TVL: $148,386,666,383)
+$AAVE AAVE - 262 news articles (TVL: $2,513,181,375)
+$BNB BNB - 113 news articles (TVL: $81,240,000,000)
+$SOL Solana - 90 news articles (TVL: $800,000,000,000)
+$AVAX Avalanche - 89 news articles (TVL: $7,215,000,000)
+$HYPE HYPE...
