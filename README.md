@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Velo goes live with trading, evolving from crypto data terminal to full execution platform** [𝕏/@velo_xyz](https://leviathannews.xyz/redirect/209347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stake DAO reveals $176K rewards drained in Votemarket oracle exploit, proposes governance for full reimbursement** [𝕏/@StakeDAOHQ](https://leviathannews.xyz/redirect/209547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Palantir partners with Ondas and World View to advance next generation multi-domain intelligence platform.** [investors.palantir](https://leviathannews.xyz/redirect/209702?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MoonPay agents introduces the first AI agent secured by a Ledger signer.** [Prnewswire](https://leviathannews.xyz/redirect/209669?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic ships 1M token context for Claude 4.6, tops frontier models with 78.3% long-context recall** [𝕏/@claudeai](https://leviathannews.xyz/redirect/209659?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **An Australian man used ChatGPT to create a cancer treatment for his dog** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/209862?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Germany plans to abolish the 1 year crypto tax exemption from 2027** [𝕏/@Techaktien1](https://leviathannews.xyz/redirect/209782?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As slick as ever, SBF oils up President Donald Trump** [𝕏/@SBF_FTX](https://leviathannews.xyz/redirect/209851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Great Sky unveils brain-like computing architecture built for the next era of AI.** [Businesswire](https://leviathannews.xyz/redirect/209873?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PitchBook announces new essential MCP integration with Perplexity, expanding access to AI-powered, verifiable market intelligence.** [Pitchbook](https://leviathannews.xyz/redirect/209881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/14/signals_2026-03-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/14/signals_2026-03-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/15/signals_2026-03-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/15/signals_2026-03-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
