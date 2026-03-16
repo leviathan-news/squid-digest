@@ -1,0 +1,43 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 720 chars. First 500 chars: I cannot generate trading signals based on these search results. The provided search results contain general market technical analysis and macro commentary for March 2026, rather than specific, actionable news catalysts tied to individual tokens in the tracked list. 
+
+Per the signal generation rules, I only produce signals when there is an actual news-driven catalyst—generic price analysis and market outlook pieces do not qualify as actionable news events.
+
+To generate signals, I would need spec
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I cannot generate trading signals based on these search results. The provided search results contain general market technical analysis and macro commentary for March 2026, rather than specific, actionable news catalysts tied to individual tokens in the tracked list. 
+
+Per the signal generation rules, I only produce signals when there is an actual news-driven catalyst—generic price analysis and market outlook pieces do not qualify as actionable news events.
+
+To generate signals, I would need specific headlines detailing discrete events such as protocol exploits, regulatory announcements for particular tokens, partnership news, security vulnerabilities, or major fundamental developments tied to individual assets.
+
+News items sent (10):
+[1] Senate, regulators, and crypto industry converge in D.C. as stablecoin yield compromise, Fed access fight (Custodia), and anti‑CBDC bill shape hopes for clearer U.S. digital asset market rules. - https://leviathannews.xyz/redirect/210236?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Suspected $3.7M exploit hits Venus Protocol after attacker uses illiquid token as collateral. - https://leviathannews.xyz/redirect/209962?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] ALERT🚨: Ethereum now faces a 57% probability of losing its position as the second-largest cryptocurrency by market cap this year, signaling rising competition in the crypto market. - https://leviathannews.xyz/redirect/209996?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] KuCoin launches Skills Hub, turning agent-ready skills into crypto capabilities. - https://leviathannews.xyz/redirect/209977?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Bounty Hunter reveals how Injective cheated him, paid $50K for a critical vulnerability capable of draining any wallet despite a $500K max bounty in the program. - https://leviathannews.xyz/redirect/209997?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] USDT still leads global stablecoin ownership, but USDC is gaining ground across markets like the U.S., Germany and Brazil, signaling a shift toward regulated stablecoins. - https://leviathannews.xyz/redirect/209990?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] OXMIQ Labs and AM Intelligence Labs partner to architect one of the world’s largest renewable-powered AI compute platforms. - https://leviathannews.xyz/redirect/210041?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Stablecoin regulatory uncertainty may disadvantage banks that cannot deploy digital asset infrastructure while crypto firms continue operating in regulatory gray zones - https://leviathannews.xyz/redirect/209991?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] ShapeShift founder Erik Voorhees reportedly buys $56M worth of Ethereum after selling his ETH holdings a year earlier when the price was above $3.3K, signaling renewed conviction. - https://leviathannews.xyz/redirect/210131?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Australian Senate Economics committee backs crypto regulation framework. The bill would bring cryptocurrency platforms and custody providers under the country’s existing financial services framework. - https://leviathannews.xyz/redirect/210108?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 708 news articles (TVL: $369,000,000)
+$ETH Ethereum - 684 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 327 news articles (TVL: $100,000)
+$AAVE AAVE - 262 news articles (TVL: $2,513,181,375)
+$XRP XRP - 143 news articles (TVL: $636,416,718)
+$BNB BNB - 116 news articles (TVL: $81,240,000,000)
+$SOL Solana - 92 news articles (TVL: $800,000,000,000)
+$AVAX Avalanche - 89 news articles (TVL: $7,215,000,000)
+$HYPE HYPE - 84 news articles (TVL: $12,000,000,000)
+$NEAR NEAR - 73...

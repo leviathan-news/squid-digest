@@ -1,5 +1,5 @@
 {
-  "cash": 4526.700659157265,
+  "cash": 3980.905937713834,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -180,8 +180,8 @@
     "wstETH": {
       "symbol": "wstETH",
       "token_name": "Wrapped liquid staked Ether 2.0",
-      "quantity": -0.2751388935202835,
-      "entry_price": 2532.21880960667,
+      "quantity": -0.4097785356002732,
+      "entry_price": 2628.5058184553905,
       "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -192,6 +192,14 @@
       "entry_price": 116.16133305820993,
       "entry_date": "2026-03-13T13:57:21.486076",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "USDC": {
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "quantity": 926.1892979821138,
+      "entry_price": 0.9999987120757426,
+      "entry_date": "2026-03-16T14:18:46.535528",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1262,6 +1270,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-16T14:18:46.535528",
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "action": "BUY",
+      "quantity": 926.1892979821138,
+      "price": 0.9999987120757426,
+      "value": 926.18810512045,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-16T14:18:46.535528",
+      "symbol": "wstETH",
+      "token_name": "Wrapped liquid staked Ether 2.0",
+      "action": "SHORT",
+      "quantity": 0.13463964207998977,
+      "price": 2825.270312669326,
+      "value": 380.39338367701885,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1536,6 +1568,10 @@
     [
       "2026-03-15T13:42:45.433819",
       6856.3372784161675
+    ],
+    [
+      "2026-03-16T14:18:46.535528",
+      7718.2342093370835
     ]
   ]
 }

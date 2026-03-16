@@ -1,5 +1,5 @@
 {
-  "cash": -848.7973304778574,
+  "cash": -288.7612953133604,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -184,6 +184,14 @@
       "entry_price": 0.10302849173685151,
       "entry_date": "2026-03-09T14:03:09.027691",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "USDC": {
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "quantity": -560.0367564494206,
+      "entry_price": 0.9999987120757426,
+      "entry_date": "2026-03-16T14:18:46.535528",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1218,6 +1226,18 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": 135.67321617318737,
       "entry_price": 137.06299165119427
+    },
+    {
+      "date": "2026-03-16T14:18:46.535528",
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "action": "SHORT",
+      "quantity": 560.0367564494206,
+      "price": 0.9999987120757426,
+      "value": 560.036035164497,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1492,6 +1512,10 @@
     [
       "2026-03-15T13:42:45.433819",
       9972.94802494788
+    ],
+    [
+      "2026-03-16T14:18:46.535528",
+      9333.93391940828
     ]
   ]
 }
