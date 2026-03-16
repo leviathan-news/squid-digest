@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **An Australian man used ChatGPT to create a cancer treatment for his dog** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/209862?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Germany plans to abolish the 1 year crypto tax exemption from 2027** [𝕏/@Techaktien1](https://leviathannews.xyz/redirect/209782?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **As slick as ever, SBF oils up President Donald Trump** [𝕏/@SBF_FTX](https://leviathannews.xyz/redirect/209851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Great Sky unveils brain-like computing architecture built for the next era of AI.** [Businesswire](https://leviathannews.xyz/redirect/209873?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **PitchBook announces new essential MCP integration with Perplexity, expanding access to AI-powered, verifiable market intelligence.** [Pitchbook](https://leviathannews.xyz/redirect/209881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Senate, regulators, and crypto industry converge in D.C. as stablecoin yield compromise, Fed access fight (Custodia), and anti‑CBDC bill shape hopes for clearer U.S. digital asset market rules.** [Cryptoinamerica](https://leviathannews.xyz/redirect/210236?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Suspected $3.7M exploit hits Venus Protocol after attacker uses illiquid token as collateral.** [news.bitcoin](https://leviathannews.xyz/redirect/209962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ALERT🚨: Ethereum now faces a 57% probability of losing its position as the second-largest cryptocurrency by market cap this year, signaling rising competition in the crypto market.** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/209996?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **KuCoin launches Skills Hub, turning agent-ready skills into crypto capabilities.** [Kucoin](https://leviathannews.xyz/redirect/209977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bounty Hunter reveals how Injective cheated him, paid $50K for a critical vulnerability capable of draining any wallet despite a $500K max bounty in the program.** [𝕏](https://leviathannews.xyz/redirect/209997?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/15/signals_2026-03-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/15/signals_2026-03-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/16/signals_2026-03-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/16/signals_2026-03-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
