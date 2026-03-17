@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Senate, regulators, and crypto industry converge in D.C. as stablecoin yield compromise, Fed access fight (Custodia), and anti‑CBDC bill shape hopes for clearer U.S. digital asset market rules.** [Cryptoinamerica](https://leviathannews.xyz/redirect/210236?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Suspected $3.7M exploit hits Venus Protocol after attacker uses illiquid token as collateral.** [news.bitcoin](https://leviathannews.xyz/redirect/209962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ALERT🚨: Ethereum now faces a 57% probability of losing its position as the second-largest cryptocurrency by market cap this year, signaling rising competition in the crypto market.** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/209996?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **KuCoin launches Skills Hub, turning agent-ready skills into crypto capabilities.** [Kucoin](https://leviathannews.xyz/redirect/209977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bounty Hunter reveals how Injective cheated him, paid $50K for a critical vulnerability capable of draining any wallet despite a $500K max bounty in the program.** [𝕏](https://leviathannews.xyz/redirect/209997?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hackers hide malware in GitHub, npm, and VS Code packages using invisible Unicode so supply‑chain attacks bypass human review and common defenses.** [Arstechnica](https://leviathannews.xyz/redirect/210757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan releases open source repository for Telegram moderators to fight spam amidst active bot purge** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/210454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ironlight Group raises $21 million Series A to expand infrastructure for tokenized securities.** [Prnewswire](https://leviathannews.xyz/redirect/210289?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SQUID holders can still vote for Leviathan News February contributions
+
+Final hours to go!** [snapshot.box](https://leviathannews.xyz/redirect/210579?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tangent unveils $USG, a CDP stablecoin backed by Curve LP tokens and Pendle PTs, unlocking borrowing against yield positions** [𝕏/@Tangent_fi](https://leviathannews.xyz/redirect/210437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/16/signals_2026-03-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/16/signals_2026-03-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/17/signals_2026-03-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/17/signals_2026-03-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
