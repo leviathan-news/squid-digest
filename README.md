@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hackers hide malware in GitHub, npm, and VS Code packages using invisible Unicode so supply‑chain attacks bypass human review and common defenses.** [Arstechnica](https://leviathannews.xyz/redirect/210757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Leviathan releases open source repository for Telegram moderators to fight spam amidst active bot purge** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/210454?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ironlight Group raises $21 million Series A to expand infrastructure for tokenized securities.** [Prnewswire](https://leviathannews.xyz/redirect/210289?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SQUID holders can still vote for Leviathan News February contributions
-
-Final hours to go!** [snapshot.box](https://leviathannews.xyz/redirect/210579?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tangent unveils $USG, a CDP stablecoin backed by Curve LP tokens and Pendle PTs, unlocking borrowing against yield positions** [𝕏/@Tangent_fi](https://leviathannews.xyz/redirect/210437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stable Summit 2026 convenes builders and allocators in Cannes to discuss stablecoins in payments, policy and capital markets. 27-28 March at JW Marriott.** [𝕏/@stable_summit](https://leviathannews.xyz/redirect/211489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Now it make sense! BlackRock Is Gobbling Up Bitcoin Into the U.S. Close This Is the Kind of Aggressive Institutional Buying You Only See When Big News Is About to Hit** [𝕏/@DefiWimar](https://leviathannews.xyz/redirect/211209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC Says Most Crypto Assets Aren’t Securities, Clarifying That Protocol Mining, Staking and Airdrops Do Not Create Securities and Paving the Way for Clearer U.S. Crypto Market Structure Rules [** [decrypt.co](https://leviathannews.xyz/redirect/211204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As NVIDIA maps $1 trillion AI factory buildout, 0G delivers the decentralized alternative, live on mainnet.** [Globenewswire](https://leviathannews.xyz/redirect/211305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **S&P Dow Jones licenses the S&P 500 to crypto exchange Hyperliquid for the first 24/7 perpetual futures on the index, highlighting Wall Street’s push to tokenize traditional assets on blockchain** [WSJ](https://leviathannews.xyz/redirect/211590?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/17/signals_2026-03-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/17/signals_2026-03-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/18/signals_2026-03-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/18/signals_2026-03-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

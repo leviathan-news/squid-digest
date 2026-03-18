@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (March 17, 2026)
+## 🔥 Latest Headlines (March 18, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/03/17/signals_2026-03-17.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/03/17/signals_2026-03-17.md)
+📊 [View Full Analysis →](writeup/2026/03/18/signals_2026-03-18.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/03/18/signals_2026-03-18.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Mar 10 - Mar 17)
+### 📅 This Week (Mar 11 - Mar 18)
+
+[**Wednesday, March 18, 2026**](writeup/2026/03/18/signals_2026-03-18.md)
 
 [**Tuesday, March 17, 2026**](writeup/2026/03/17/signals_2026-03-17.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, March 11, 2026**](writeup/2026/03/11/signals_2026-03-11.md)
 
-[**Tuesday, March 10, 2026**](writeup/2026/03/10/signals_2026-03-10.md)
+### 📅 Last Week (Mar 04 - Mar 10)
 
-### 📅 Last Week (Mar 03 - Mar 09)
+[**Tuesday, March 10, 2026**](writeup/2026/03/10/signals_2026-03-10.md)
 
 [**Monday, March 09, 2026**](writeup/2026/03/09/signals_2026-03-09.md)
 
@@ -58,9 +60,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, March 04, 2026**](writeup/2026/03/04/signals_2026-03-04.md)
 
-[**Tuesday, March 03, 2026**](writeup/2026/03/03/signals_2026-03-03.md)
+### 📅 Week of Feb 25 - Mar 03
 
-### 📅 Week of Feb 24 - Mar 02
+[**Tuesday, March 03, 2026**](writeup/2026/03/03/signals_2026-03-03.md)
 
 [**Monday, March 02, 2026**](writeup/2026/03/02/signals_2026-03-02.md)
 
@@ -72,9 +74,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, February 25, 2026**](writeup/2026/02/25/signals_2026-02-25.md)
 
-[**Tuesday, February 24, 2026**](writeup/2026/02/24/signals_2026-02-24.md)
+### 📅 Week of Feb 19 - Feb 24
 
-### 📅 Week of Feb 19 - Feb 23
+[**Tuesday, February 24, 2026**](writeup/2026/02/24/signals_2026-02-24.md)
 
 [**Monday, February 23, 2026**](writeup/2026/02/23/signals_2026-02-23.md)
 
