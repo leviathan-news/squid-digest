@@ -1,5 +1,5 @@
 {
-  "cash": 3980.905937713834,
+  "cash": 3084.617706432669,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -199,6 +199,14 @@
       "quantity": 926.1892979821138,
       "entry_price": 0.9999987120757426,
       "entry_date": "2026-03-16T14:18:46.535528",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "quantity": 21.813189861201735,
+      "entry_price": 41.08927841293666,
+      "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1294,6 +1302,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-18T14:20:16.066802",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 21.813189861201735,
+      "price": 41.08927841293666,
+      "value": 896.2882312811653,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1576,6 +1596,10 @@
     [
       "2026-03-17T14:17:44.630120",
       7694.66379004512
+    ],
+    [
+      "2026-03-18T14:20:16.066802",
+      7469.068594009711
     ]
   ]
 }

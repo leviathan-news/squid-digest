@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-03-17",
+  "last_processed_date": "2026-03-18",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 6.105906894833532,
-      "last_signal_date": "2026-03-16",
+      "score": 7.008891306322757,
+      "last_signal_date": "2026-03-18",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -1.0,
+      "score": -0.9057236642639067,
       "last_signal_date": "2026-03-17",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.8359263742505538,
+      "score": 0.5625367340651437,
       "last_signal_date": "2026-03-14",
       "token_name": "Solana"
     },
@@ -33,25 +33,25 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 4.346654353542027,
+      "score": 3.5657142465550478,
       "last_signal_date": "2026-03-16",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 0.6940606643351274,
+      "score": 0.4670681909135945,
       "last_signal_date": "2026-03-14",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.0296275307365745,
-      "last_signal_date": "2026-03-08",
+      "score": 3.011006585368945,
+      "last_signal_date": "2026-03-18",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": -0.028303864508247092,
+      "score": -0.011609330383882411,
       "last_signal_date": "2026-03-09",
       "token_name": "Ethena"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.7396945015916699,
+      "score": 0.49777748609066164,
       "last_signal_date": "2026-03-14",
       "token_name": "ChainLink Token"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -1.475770712516203,
+      "score": -1.210626892837625,
       "last_signal_date": "2026-03-16",
       "token_name": "AAVE"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.08491159352474127,
+      "score": -0.03482799115164723,
       "last_signal_date": "2026-03-09",
       "token_name": "World Liberty Financial"
     },
@@ -357,25 +357,25 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 0.06250000000000001,
+      "score": 0.028303864508247092,
       "last_signal_date": "2026-03-10",
       "token_name": "Injective"
     },
     "wstETH": {
       "symbol": "wstETH",
-      "score": -0.12500000000000003,
+      "score": -0.06250000000000001,
       "last_signal_date": "2026-03-11",
       "token_name": "Wrapped liquid staked Ether 2.0"
     },
     "SOPR": {
       "symbol": "SOPR",
-      "score": -1.4859942891369486,
+      "score": -1.1040895136738125,
       "last_signal_date": "2026-03-15",
       "token_name": "SOPR"
     },
     "USDC": {
       "symbol": "USDC",
-      "score": 1.8114473285278134,
+      "score": 1.4859942891369486,
       "last_signal_date": "2026-03-16",
       "token_name": "USDC"
     }
