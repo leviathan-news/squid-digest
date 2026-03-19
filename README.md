@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Stable Summit 2026 convenes builders and allocators in Cannes to discuss stablecoins in payments, policy and capital markets. 27-28 March at JW Marriott.** [𝕏/@stable_summit](https://leviathannews.xyz/redirect/211489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Now it make sense! BlackRock Is Gobbling Up Bitcoin Into the U.S. Close This Is the Kind of Aggressive Institutional Buying You Only See When Big News Is About to Hit** [𝕏/@DefiWimar](https://leviathannews.xyz/redirect/211209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC Says Most Crypto Assets Aren’t Securities, Clarifying That Protocol Mining, Staking and Airdrops Do Not Create Securities and Paving the Way for Clearer U.S. Crypto Market Structure Rules [** [decrypt.co](https://leviathannews.xyz/redirect/211204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **As NVIDIA maps $1 trillion AI factory buildout, 0G delivers the decentralized alternative, live on mainnet.** [Globenewswire](https://leviathannews.xyz/redirect/211305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **S&P Dow Jones licenses the S&P 500 to crypto exchange Hyperliquid for the first 24/7 perpetual futures on the index, highlighting Wall Street’s push to tokenize traditional assets on blockchain** [WSJ](https://leviathannews.xyz/redirect/211590?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Etherscan releases new display to show proxy contracts full upgrade history** [𝕏/@etherscan](https://leviathannews.xyz/redirect/211636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Monad joins Mastercard's Crypto Partner Program to integrate onchain infrastructure with global payments network** [𝕏/@monad](https://leviathannews.xyz/redirect/211956?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst expose alleged Turkey-based crypto scam group behind multiple rug pulls across Solana, Base and Avax, linking identities and upcoming projects** [𝕏/@AresSprout](https://leviathannews.xyz/redirect/211947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket acquires Brahma, bringing its DeFi accounts, vaults and payments stack to scale prediction markets, as Brahma products wind down within 30 days** [𝕏/@BrahmaFi](https://leviathannews.xyz/redirect/211959?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cypherpunk crew plots a new course for the future of digital privacy** [𝕏/@veilnyx_hq](https://leviathannews.xyz/redirect/211479?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/18/signals_2026-03-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/18/signals_2026-03-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/19/signals_2026-03-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/19/signals_2026-03-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
