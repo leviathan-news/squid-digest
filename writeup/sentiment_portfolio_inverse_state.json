@@ -1,5 +1,5 @@
 {
-  "cash": -288.7612953133604,
+  "cash": -703.1389480811854,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -7,14 +7,6 @@
       "quantity": -10.571322599440254,
       "entry_price": 115.37412964048492,
       "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "AVAX": {
-      "symbol": "AVAX",
-      "token_name": "Avalanche",
-      "quantity": -43.770530118960416,
-      "entry_price": 14.104635698108627,
-      "entry_date": "2026-01-03T13:26:03.095458",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "XRP": {
@@ -1238,6 +1230,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-19T14:05:51.637802",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "COVER",
+      "quantity": 43.770530118960416,
+      "price": 9.467046701093661,
+      "value": 414.37765276782494,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 202.98972887320298,
+      "entry_price": 14.104635698108627
     }
   ],
   "daily_values": [
@@ -1524,6 +1528,10 @@
     [
       "2026-03-18T14:20:16.066802",
       9376.331887457618
+    ],
+    [
+      "2026-03-19T14:05:51.637802",
+      9311.763519835347
     ]
   ]
 }

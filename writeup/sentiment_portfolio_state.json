@@ -1,5 +1,5 @@
 {
-  "cash": 3084.617706432669,
+  "cash": 5033.128839257134,
   "positions": {
     "SOL": {
       "symbol": "SOL",
@@ -7,14 +7,6 @@
       "quantity": 18.912425145056005,
       "entry_price": 119.55213860505971,
       "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "AVAX": {
-      "symbol": "AVAX",
-      "token_name": "Avalanche",
-      "quantity": 84.97827383933553,
-      "entry_price": 14.104635698108627,
-      "entry_date": "2026-01-03T13:26:03.095458",
       "entry_signal": "SENTIMENT_LONG"
     },
     "XRP": {
@@ -208,6 +200,14 @@
       "entry_price": 41.08927841293666,
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": -120.8421043995684,
+      "entry_price": 9.467046701093661,
+      "entry_date": "2026-03-19T14:05:51.637802",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1314,6 +1314,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-19T14:05:51.637802",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "SELL",
+      "quantity": 84.97827383933553,
+      "price": 9.467046701093661,
+      "value": 804.4932870153152,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -394.09430774262705,
+      "entry_price": 14.104635698108627
+    },
+    {
+      "date": "2026-03-19T14:05:51.637802",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "SHORT",
+      "quantity": 120.8421043995684,
+      "price": 9.467046701093661,
+      "value": 1144.0178458091498,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1600,6 +1624,10 @@
     [
       "2026-03-18T14:20:16.066802",
       7469.068594009711
+    ],
+    [
+      "2026-03-19T14:05:51.637802",
+      7626.785638727663
     ]
   ]
 }
