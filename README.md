@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Etherscan releases new display to show proxy contracts full upgrade history** [𝕏/@etherscan](https://leviathannews.xyz/redirect/211636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Monad joins Mastercard's Crypto Partner Program to integrate onchain infrastructure with global payments network** [𝕏/@monad](https://leviathannews.xyz/redirect/211956?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst expose alleged Turkey-based crypto scam group behind multiple rug pulls across Solana, Base and Avax, linking identities and upcoming projects** [𝕏/@AresSprout](https://leviathannews.xyz/redirect/211947?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket acquires Brahma, bringing its DeFi accounts, vaults and payments stack to scale prediction markets, as Brahma products wind down within 30 days** [𝕏/@BrahmaFi](https://leviathannews.xyz/redirect/211959?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cypherpunk crew plots a new course for the future of digital privacy** [𝕏/@veilnyx_hq](https://leviathannews.xyz/redirect/211479?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Goldman Sachs estimates 300M jobs could face AI disruption over the next decade, while new roles emerge in data centers and power infrastructure buildout** [𝕏/@GoldmanSachs](https://leviathannews.xyz/redirect/212743?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Codex FX charts a new course for fiat and stablecoin exchange** [𝕏/@CodexFX](https://leviathannews.xyz/redirect/212636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Votemarket incident resolved as white-hat operation with significant portion of affected funds recovered.** [𝕏/@StakeDAOHQ](https://leviathannews.xyz/redirect/212475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Five U.S. regional banks partner with ZKsync's Prividium to develop tokenized deposit network** [𝕏/@zksync](https://leviathannews.xyz/redirect/212823?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Amazon founder, Jeff Bezos, set to raise $100B AI fund to acquire and automate manufacturing companies, signaling major push into industrial transformation** [WSJ](https://leviathannews.xyz/redirect/212746?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/19/signals_2026-03-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/19/signals_2026-03-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/20/signals_2026-03-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/20/signals_2026-03-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
