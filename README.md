@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Goldman Sachs estimates 300M jobs could face AI disruption over the next decade, while new roles emerge in data centers and power infrastructure buildout** [𝕏/@GoldmanSachs](https://leviathannews.xyz/redirect/212743?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Codex FX charts a new course for fiat and stablecoin exchange** [𝕏/@CodexFX](https://leviathannews.xyz/redirect/212636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Votemarket incident resolved as white-hat operation with significant portion of affected funds recovered.** [𝕏/@StakeDAOHQ](https://leviathannews.xyz/redirect/212475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Five U.S. regional banks partner with ZKsync's Prividium to develop tokenized deposit network** [𝕏/@zksync](https://leviathannews.xyz/redirect/212823?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Amazon founder, Jeff Bezos, set to raise $100B AI fund to acquire and automate manufacturing companies, signaling major push into industrial transformation** [WSJ](https://leviathannews.xyz/redirect/212746?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana Foundation president says crypto gaming is dead, arguing blockchain-based games failed to deliver sustainable gameplay despite billions invested** [The Block](https://leviathannews.xyz/redirect/213419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump calls NATO a 'paper tiger,' declares Iran fight won — then asks those same allies to help reopen Strait of Hormuz** [Truthsocial](https://leviathannews.xyz/redirect/213091?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Federal judge found Musk liable to Twitter shareholders in fraud lawsuit over $44 billion takeover.** [Reuters](https://leviathannews.xyz/redirect/213360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BTQ Technologies announces first deployment of BIP 360 on Bitcoin Quantum testnet v0.3.0.** [newswire.ca](https://leviathannews.xyz/redirect/213081?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Senators and White House clinch ‘agreement in principle’ on stablecoin yield, potentially ending bank‑crypto clash and clearing stalled landmark digital asset regulation bill in Senate Banking** [Politico](https://leviathannews.xyz/redirect/213280?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/20/signals_2026-03-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/20/signals_2026-03-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/21/signals_2026-03-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/21/signals_2026-03-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
