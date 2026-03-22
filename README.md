@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Solana Foundation president says crypto gaming is dead, arguing blockchain-based games failed to deliver sustainable gameplay despite billions invested** [The Block](https://leviathannews.xyz/redirect/213419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump calls NATO a 'paper tiger,' declares Iran fight won — then asks those same allies to help reopen Strait of Hormuz** [Truthsocial](https://leviathannews.xyz/redirect/213091?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Federal judge found Musk liable to Twitter shareholders in fraud lawsuit over $44 billion takeover.** [Reuters](https://leviathannews.xyz/redirect/213360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BTQ Technologies announces first deployment of BIP 360 on Bitcoin Quantum testnet v0.3.0.** [newswire.ca](https://leviathannews.xyz/redirect/213081?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Senators and White House clinch ‘agreement in principle’ on stablecoin yield, potentially ending bank‑crypto clash and clearing stalled landmark digital asset regulation bill in Senate Banking** [Politico](https://leviathannews.xyz/redirect/213280?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether and Circle hold over $160 billion in U.S. Treasuries, surpassing South Korea, Germany, and Saudi Arabia, due to GENIUS Act reserve rules.** [𝕏/@TFTC21](https://leviathannews.xyz/redirect/213522?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **$CVX surges amid whispers that Curve Wars stir oil price currents** [𝕏/@ConvexFinance](https://leviathannews.xyz/redirect/213480?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cursor Composer 2 outed as fine-tuned Kimi K2.5 after developer spots internal model ID leaking through API** [𝕏/@AILeaksAndNews](https://leviathannews.xyz/redirect/213201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance evolves from exchange to full crypto infrastructure with custody, compliance and payments for efficient markets** [𝕏/@binance](https://leviathannews.xyz/redirect/213513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/213511?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/21/signals_2026-03-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/21/signals_2026-03-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/22/signals_2026-03-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/22/signals_2026-03-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
