@@ -1,5 +1,5 @@
 {
-  "cash": 5546.525388154606,
+  "cash": 3388.872773396584,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -132,8 +132,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.013165102054066471,
-      "entry_price": 71395.49191776059,
+      "quantity": 0.015982502285804796,
+      "entry_price": 70912.88365784998,
       "entry_date": "2026-03-04T13:54:44.148373",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -161,14 +161,6 @@
       "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": -9.145388212312056,
-      "entry_price": 116.16133305820993,
-      "entry_date": "2026-03-13T13:57:21.486076",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "USDC": {
       "symbol": "USDC",
       "token_name": "USDC",
@@ -180,8 +172,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": 21.813189861201735,
-      "entry_price": 41.08927841293666,
+      "quantity": 28.713683142773526,
+      "entry_price": 40.39877578196246,
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -204,10 +196,18 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -8.248247816099862,
-      "entry_price": 88.93460227497786,
+      "quantity": -12.570292162951635,
+      "entry_price": 88.37083435299988,
       "entry_date": "2026-03-20T13:59:32.640069",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "quantity": 10.235270500510095,
+      "entry_price": 107.20994623154981,
+      "entry_date": "2026-03-22T13:40:27.276302",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1386,6 +1386,66 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 6.900493281571791,
+      "price": 38.21602385764371,
+      "value": 263.7094158780577,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.0028174002317383233,
+      "price": 68657.75961750784,
+      "value": 193.43638785700068,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "COVER",
+      "quantity": 9.145388212312056,
+      "price": 107.20994623154981,
+      "value": 980.476578508625,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 81.86390756838284,
+      "entry_price": 116.16133305820993
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "BUY",
+      "quantity": 10.235270500510095,
+      "price": 107.20994623154981,
+      "value": 1097.3228000250551,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 4.322044346851772,
+      "price": 87.29493203500788,
+      "value": 377.29256751071546,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1684,6 +1744,10 @@
     [
       "2026-03-21T13:38:56.436314",
       7356.325693475077
+    ],
+    [
+      "2026-03-22T13:40:27.276302",
+      7315.4853335003645
     ]
   ]
 }
