@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-03-22",
+  "last_processed_date": "2026-03-23",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 4.612218841463727,
-      "last_signal_date": "2026-03-20",
+      "score": 6.426865429332465,
+      "last_signal_date": "2026-03-23",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": -0.22643091606597668,
+      "score": -0.12500000000000003,
       "last_signal_date": "2026-03-17",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": -1.3479393745767332,
+      "score": -1.1057623267201173,
       "last_signal_date": "2026-03-21",
       "token_name": "Solana"
     },
@@ -33,19 +33,19 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 2.067654896337239,
+      "score": 1.5362616839315932,
       "last_signal_date": "2026-03-20",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 0.03558515638551591,
+      "score": 0.01459588096604983,
       "last_signal_date": "2026-03-14",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 5.372735419031527,
+      "score": 4.407444822706074,
       "last_signal_date": "2026-03-21",
       "token_name": "HYPE"
     },
@@ -57,7 +57,7 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": -0.5520447568369062,
+      "score": -0.37149857228423716,
       "last_signal_date": "2026-03-19",
       "token_name": "Avalanche"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.7195344604412741,
+      "score": 0.48421078445676463,
       "last_signal_date": "2026-03-19",
       "token_name": "ChainLink Token"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.7963271289654912,
+      "score": 1.626975989463288,
       "last_signal_date": "2026-03-22",
       "token_name": "AAVE"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.5520447568369062,
+      "score": 0.37149857228423716,
       "last_signal_date": "2026-03-19",
       "token_name": "UNI"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 1.4859942891369486,
+      "score": 1.1040895136738125,
       "last_signal_date": "2026-03-20",
       "token_name": "World Liberty Financial"
     },
@@ -369,32 +369,32 @@
     },
     "SOPR": {
       "symbol": "SOPR",
-      "score": -0.12500000000000003,
+      "score": -0.056607729016494183,
       "last_signal_date": "2026-03-15",
       "token_name": "SOPR"
     },
     "USDC": {
       "symbol": "USDC",
-      "score": 0.25000000000000006,
+      "score": 0.12500000000000003,
       "last_signal_date": "2026-03-16",
       "token_name": "USDC"
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.5520447568369062,
+      "score": 0.37149857228423716,
       "last_signal_date": "2026-03-19",
       "token_name": "Monad"
     },
     "CVX": {
       "symbol": "CVX",
-      "score": 3.0,
+      "score": 2.7171709927917203,
       "last_signal_date": "2026-03-22",
       "token_name": "Convex Token"
     },
     "USR": {
       "symbol": "USR",
-      "score": -3.0,
-      "last_signal_date": "2026-03-22",
+      "score": -5.71717099279172,
+      "last_signal_date": "2026-03-23",
       "token_name": "Resolv USD"
     }
   }
