@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether and Circle hold over $160 billion in U.S. Treasuries, surpassing South Korea, Germany, and Saudi Arabia, due to GENIUS Act reserve rules.** [𝕏/@TFTC21](https://leviathannews.xyz/redirect/213522?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **$CVX surges amid whispers that Curve Wars stir oil price currents** [𝕏/@ConvexFinance](https://leviathannews.xyz/redirect/213480?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cursor Composer 2 outed as fine-tuned Kimi K2.5 after developer spots internal model ID leaking through API** [𝕏/@AILeaksAndNews](https://leviathannews.xyz/redirect/213201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance evolves from exchange to full crypto infrastructure with custody, compliance and payments for efficient markets** [𝕏/@binance](https://leviathannews.xyz/redirect/213513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/213511?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **0xngmi catches AI-generated DeFi project faking arbitrage profits with Math.random() in bid for DefiLlama listing** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/213994?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Resolv exploit ripples through Morpho ecosystem, hitting Gauntlet, MEV Capital, and Steakhouse USDC vaults** [𝕏/@wumpycrypto](https://leviathannews.xyz/redirect/213960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Brazil Postpones Crypto Tax Plan Until After October Presidential Election** [Financefeeds](https://leviathannews.xyz/redirect/213910?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **H100 Group signs LOI to acquire Norwegian bitcoin firms, tripling treasury to 3,500 BTC** [feed.mfn.se](https://leviathannews.xyz/redirect/214162?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fidelity urges SEC to clarify crypto rules for broker‑dealers and ATS integration into existing market structures** [𝕏/@timmyhmshen](https://leviathannews.xyz/redirect/214144?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/22/signals_2026-03-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/22/signals_2026-03-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/23/signals_2026-03-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/23/signals_2026-03-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
