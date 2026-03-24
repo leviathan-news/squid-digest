@@ -11,15 +11,19 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **0xngmi catches AI-generated DeFi project faking arbitrage profits with Math.random() in bid for DefiLlama listing** [𝕏/@0xngmi](https://leviathannews.xyz/redirect/213994?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Resolv exploit ripples through Morpho ecosystem, hitting Gauntlet, MEV Capital, and Steakhouse USDC vaults** [𝕏/@wumpycrypto](https://leviathannews.xyz/redirect/213960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Brazil Postpones Crypto Tax Plan Until After October Presidential Election** [Financefeeds](https://leviathannews.xyz/redirect/213910?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **H100 Group signs LOI to acquire Norwegian bitcoin firms, tripling treasury to 3,500 BTC** [feed.mfn.se](https://leviathannews.xyz/redirect/214162?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Fidelity urges SEC to clarify crypto rules for broker‑dealers and ATS integration into existing market structures** [𝕏/@timmyhmshen](https://leviathannews.xyz/redirect/214144?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Balancer opens two governance proposals targeting tokenomics overhaul and protocol priorities** [𝕏/@Balancer](https://leviathannews.xyz/redirect/214662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto whale 'Machi Big Brother' adds $500k and reopens $11.5 million ETH long** [𝕏/@arkham](https://leviathannews.xyz/redirect/214500?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic ships computer use for Claude, enabling autonomous control of desktop apps and browsers** [𝕏/@claudeai](https://leviathannews.xyz/redirect/214749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether signs unnamed Big Four firm for first-ever full financial audit, calls it largest inaugural audit in financial history** [tether.io](https://leviathannews.xyz/redirect/215142?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Professional grade trading with zero fees.
+
+Now 10x faster after our latest upgrade. 
+
+If you're still settling for less, it's time to level up with oku.trade** [Oku](https://leviathannews.xyz/redirect/214562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/23/signals_2026-03-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/23/signals_2026-03-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/24/signals_2026-03-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/24/signals_2026-03-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
