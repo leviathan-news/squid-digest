@@ -11,19 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Balancer opens two governance proposals targeting tokenomics overhaul and protocol priorities** [𝕏/@Balancer](https://leviathannews.xyz/redirect/214662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto whale 'Machi Big Brother' adds $500k and reopens $11.5 million ETH long** [𝕏/@arkham](https://leviathannews.xyz/redirect/214500?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic ships computer use for Claude, enabling autonomous control of desktop apps and browsers** [𝕏/@claudeai](https://leviathannews.xyz/redirect/214749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether signs unnamed Big Four firm for first-ever full financial audit, calls it largest inaugural audit in financial history** [tether.io](https://leviathannews.xyz/redirect/215142?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Professional grade trading with zero fees.
-
-Now 10x faster after our latest upgrade. 
-
-If you're still settling for less, it's time to level up with oku.trade** [Oku](https://leviathannews.xyz/redirect/214562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US stablecoin bill compromise would ban interest-like yield on passive balances while preserving activity-based rewards, splitting crypto leaders and triggering political and market backlash.** [Cryptoinamerica](https://leviathannews.xyz/redirect/215889?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto adoption remains brittle as user retention struggles beyond incentive-driven apps** [𝕏/@0xJMG](https://leviathannews.xyz/redirect/215508?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC Chairman Selig launches Innovation Task Force to craft crypto, AI, and prediction market rules** [𝕏/@ChairmanSelig](https://leviathannews.xyz/redirect/215434?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SpaceX targets confidential SEC filing as early as this week for potentially largest IPO in history at $1.75T** [The Information](https://leviathannews.xyz/redirect/215589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Figure's YLDS sidesteps stablecoin yield ban by registering as SEC security paying ~3.85% APY** [Crowdfundinsider](https://leviathannews.xyz/redirect/215562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/24/signals_2026-03-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/24/signals_2026-03-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/25/signals_2026-03-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/25/signals_2026-03-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
