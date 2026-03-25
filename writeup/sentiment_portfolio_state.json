@@ -1,5 +1,5 @@
 {
-  "cash": 2390.4127839269313,
+  "cash": 1434.3353462538298,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -132,16 +132,16 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.015982502285804796,
-      "entry_price": 70912.88365784998,
+      "quantity": 0.02029202122477189,
+      "entry_price": 71016.27608726763,
       "entry_date": "2026-03-04T13:54:44.148373",
       "entry_signal": "SENTIMENT_LONG"
     },
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
-      "quantity": 3501.3954693575015,
-      "entry_price": 0.30816738224924944,
+      "quantity": 4676.352582684363,
+      "entry_price": 0.3085835310415881,
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -172,8 +172,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": 28.713683142773526,
-      "entry_price": 40.39877578196246,
+      "quantity": 35.72506480553102,
+      "entry_price": 40.429516918533395,
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -1458,6 +1458,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.004309518938967093,
+      "price": 71399.72253753398,
+      "value": 307.6984565124983,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 7.011381662757493,
+      "price": 40.55541097157507,
+      "value": 284.3494648116955,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 1174.9571133268619,
+      "price": 0.30982366268515704,
+      "value": 364.02951634890746,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1768,6 +1804,10 @@
     [
       "2026-03-24T14:17:52.435721",
       7243.983713374698
+    ],
+    [
+      "2026-03-25T14:16:29.072809",
+      7244.2234258723165
     ]
   ]
 }

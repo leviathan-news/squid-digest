@@ -1,5 +1,5 @@
 {
-  "cash": -64.18929960435901,
+  "cash": 564.1539422170771,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -132,16 +132,16 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.010556506949023313,
-      "entry_price": 70744.96498062904,
+      "quantity": -0.013396739391690258,
+      "entry_price": 70883.77962804663,
       "entry_date": "2026-03-04T13:54:44.148373",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
-      "quantity": -2322.432273571757,
-      "entry_price": 0.2875699860962272,
+      "quantity": -3087.3157562737733,
+      "entry_price": 0.29308334170867967,
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -156,8 +156,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": -18.935846678456546,
-      "entry_price": 30.201685393353706,
+      "quantity": -23.5855944387977,
+      "entry_price": 32.242855584906266,
       "entry_date": "2026-03-08T13:37:04.554776",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1310,6 +1310,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.002840232442666944,
+      "price": 71399.72253753398,
+      "value": 202.79180834852218,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 4.649747760341152,
+      "price": 40.55541097157507,
+      "value": 188.5724313347962,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 764.8834827020165,
+      "price": 0.30982366268515704,
+      "value": 236.97900213811772,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1620,6 +1656,10 @@
     [
       "2026-03-24T14:17:52.435721",
       9609.68945804724
+    ],
+    [
+      "2026-03-25T14:16:29.072809",
+      9565.234754743362
     ]
   ]
 }
