@@ -286,6 +286,20 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
     return section
 
 
+# Tokens the Leviathan API doesn't flag as stablecoins but should be
+# (uppercased to match symbol normalization below)
+STABLECOIN_OVERRIDES = {'BUIDL', 'FDUSD', 'USDM', 'USDTB', 'USR', 'SDAI'}
+
+
+def _is_token_map_schema_current(token_id_map: dict) -> bool:
+    """Check if a cached token map has the current schema (canonical_tag + stablecoin)."""
+    if not token_id_map:
+        return False
+    # Spot-check the first entry for required keys
+    sample = next(iter(token_id_map.values()), {})
+    return 'canonical_tag' in sample and 'stablecoin' in sample
+
+
 def _get_token_id_map():
     """
     Get a mapping of token symbols to Leviathan canonical tags.
@@ -293,40 +307,56 @@ def _get_token_id_map():
     Uses canonical_tag instead of id for proper URL generation.
     """
     cache_file = Path(".data/leviathan_token_id_map.json")
-    
+    cached_map = {}
+
     # Try to load from cache first
     if cache_file.exists():
         try:
             with open(cache_file, "r") as f:
-                return json.load(f)
+                cached_map = json.load(f)
         except Exception:
             pass
-    
-    # Fetch from API
+
+    # If cache is current schema, use it directly
+    if _is_token_map_schema_current(cached_map):
+        return cached_map
+
+    # Cache is missing or stale schema — try to refresh from API
     try:
         leviathan_fetcher = LeviathanNewsFetcher()
         token_data = leviathan_fetcher.fetch_tokens(save=False)
         token_id_map = {}
-        
+
         for token in token_data.get('tokens', []):
             symbol = token.get('symbol', '').strip('$').upper()
             canonical_tag = token.get('canonical_tag')
             token_name = token.get('name', '')
-            
+
             if symbol and canonical_tag:
                 token_id_map[symbol] = {
                     'canonical_tag': canonical_tag,
-                    'name': token_name
+                    'name': token_name,
+                    'stablecoin': token.get('stablecoin', False),
                 }
-        
+
+        # Apply stablecoin overrides for tokens the API doesn't flag
+        for sym in STABLECOIN_OVERRIDES:
+            if sym in token_id_map:
+                token_id_map[sym]['stablecoin'] = True
+
         # Save to cache
         cache_file.parent.mkdir(parents=True, exist_ok=True)
         with open(cache_file, "w") as f:
             json.dump(token_id_map, f)
-        
+
         return token_id_map
     except Exception as e:
         logger.warning(f"Could not fetch token IDs: {e}")
+        # Fall back to stale cache if available (degraded: no stablecoin
+        # filtering, but canonical_tag/name may still work for links)
+        if cached_map:
+            logger.warning("Using stale token ID cache as fallback")
+            return cached_map
         return {}
 
 
@@ -374,7 +404,10 @@ def transform_trading_signals_markdown(trading_signals_text: str) -> str:
         # Remove the ([more info](URL)) part from reason if present
         # This handles cases where it might still be captured
         reason = re.sub(r'\s*\(\[more info\]\([^)]+\)\)\s*$', '', reason, flags=re.MULTILINE).strip()
-        
+
+        # Strip Perplexity citation markers like [1], [2]
+        reason = re.sub(r'\[\d+\]', '', reason).strip()
+
         # Get emoji for signal type
         emoji = signal_emoji_map.get(signal_type, '⚪')
         
@@ -634,6 +667,69 @@ def coerce_trading_signals_to_supported_types(
             out_lines.append(raw_line)
 
     return "\n".join(out_lines), changes
+
+
+def validate_signals_against_whitelist(
+    trading_signals_text: str,
+    valid_symbols: set,
+    stablecoin_symbols: set,
+) -> tuple:
+    """Validate signal lines against the daily token universe.
+
+    Removes:
+    - Signals for tokens not in valid_symbols (hallucinated tokens like $65, $PPI)
+    - Signals for stablecoins (even if in valid_symbols)
+    - Duplicate signals for the same token (keeps first occurrence)
+    - Citation markers [1], [2], etc. from all lines
+
+    Args:
+        trading_signals_text: Canonicalized bold-format signal text.
+        valid_symbols: Uppercase symbols from today's merged token universe.
+        stablecoin_symbols: Uppercase symbols that are stablecoins.
+
+    Returns:
+        (cleaned_text, list of rejection dicts for logging)
+    """
+    import re
+
+    if not trading_signals_text:
+        return trading_signals_text, []
+
+    line_re = re.compile(
+        r'^\s*\*\*\$([A-Za-z0-9]+)\s+[^:]+?:\s+[^*]+?\*\*\s*-\s*.+',
+        re.IGNORECASE,
+    )
+
+    seen_symbols = set()
+    rejections = []
+    out_lines = []
+
+    for raw_line in trading_signals_text.splitlines():
+        m = line_re.match(raw_line.strip())
+        if not m:
+            # Non-signal line — strip citations and keep
+            out_lines.append(re.sub(r'\[\d+\]', '', raw_line))
+            continue
+
+        symbol = m.group(1).upper()
+
+        if symbol in stablecoin_symbols:
+            rejections.append({'symbol': symbol, 'reason': 'stablecoin'})
+            continue
+
+        if symbol not in valid_symbols:
+            rejections.append({'symbol': symbol, 'reason': 'not_in_whitelist'})
+            continue
+
+        if symbol in seen_symbols:
+            rejections.append({'symbol': symbol, 'reason': 'duplicate'})
+            continue
+
+        seen_symbols.add(symbol)
+        # Strip citation markers like [1], [2] from the signal line
+        out_lines.append(re.sub(r'\[\d+\]', '', raw_line).strip())
+
+    return '\n'.join(out_lines), rejections
 
 
 def generate_market_snapshot(verbose=False):
@@ -1194,6 +1290,19 @@ async def bundle_writeup(verbose=False):
     if coercion_changes:
         logger.warning(f"⚠️ Normalized {len(coercion_changes)} signal label(s) to supported types")
 
+    # VALIDATION: Reject hallucinated tokens, stablecoins, duplicates; strip citations
+    valid_symbols = {sym.strip('$').upper() for sym in all_relevant_tokens}
+    token_id_map = _get_token_id_map()
+    stablecoin_symbols = {sym for sym, info in token_id_map.items() if info.get('stablecoin')}
+    trading_signals, rejections = validate_signals_against_whitelist(
+        trading_signals, valid_symbols, stablecoin_symbols
+    )
+    if rejections:
+        logger.warning(
+            f"⚠️ Rejected {len(rejections)} invalid signal(s): "
+            + ", ".join(f"{r['symbol']}({r['reason']})" for r in rejections)
+        )
+
     # VALIDATION: Check that response contains expected signal patterns
     # The LLM must output signals in the exact format specified in prompts:
     # **$SYMBOL Token Name: SIGNAL TYPE** - reason
@@ -1360,12 +1469,15 @@ async def bundle_writeup(verbose=False):
                         initial_capital=BACKTEST_INITIAL_CAPITAL
                     )
 
+                    sentiment_scores = dict(sentiment_tracker.get_ranked_tokens())
+
                     momentum_results = momentum_portfolio.rebalance(
                         long_targets=long_targets,
                         short_targets=short_targets,
                         prices=prices,
                         date=today,
                         token_names=token_names,
+                        sentiments=sentiment_scores,
                     )
 
                     momentum_portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
@@ -1386,6 +1498,7 @@ async def bundle_writeup(verbose=False):
                         prices=prices,
                         date=today,
                         token_names=token_names,
+                        sentiments=sentiment_scores,
                     )
 
                     contrarian_portfolio.save(SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE)
@@ -1404,6 +1517,7 @@ async def bundle_writeup(verbose=False):
                         contrarian_results=contrarian_results,
                         sentiment_rankings=sentiment_rankings,
                         initial_capital=BACKTEST_INITIAL_CAPITAL,
+                        btc_price=prices.get('BTC'),
                     )
                 else:
                     sentiment_tracker.last_processed_date = today.date().isoformat()
@@ -1487,6 +1601,16 @@ async def bundle_writeup(verbose=False):
                                     logger.warning(
                                         f"⚠️ Coerced {len(coercion_changes)} invalid signal label(s) to supported types "
                                         f"(saved in output for pipeline safety)"
+                                    )
+
+                                # Validate retry signals against whitelist
+                                trading_signals, retry_rejections = validate_signals_against_whitelist(
+                                    trading_signals, valid_symbols, stablecoin_symbols
+                                )
+                                if retry_rejections:
+                                    logger.warning(
+                                        f"⚠️ Rejected {len(retry_rejections)} invalid retry signal(s): "
+                                        + ", ".join(f"{r['symbol']}({r['reason']})" for r in retry_rejections)
                                     )
 
                                 # Re-parse signals from retry
@@ -1577,6 +1701,8 @@ async def bundle_writeup(verbose=False):
                                 short_targets = [s for s in short_candidates if s in prices]
 
                                 if long_targets or short_targets:
+                                    retry_sentiment_scores = dict(sentiment_tracker.get_ranked_tokens())
+
                                     # === MOMENTUM STRATEGY ===
                                     momentum_portfolio = SentimentPortfolio.load(
                                         SENTIMENT_PORTFOLIO_STATE_FILE,
@@ -1589,6 +1715,7 @@ async def bundle_writeup(verbose=False):
                                         prices=prices,
                                         date=today,
                                         token_names=token_names,
+                                        sentiments=retry_sentiment_scores,
                                     )
 
                                     momentum_portfolio.save(SENTIMENT_PORTFOLIO_STATE_FILE)
@@ -1608,6 +1735,7 @@ async def bundle_writeup(verbose=False):
                                         prices=prices,
                                         date=today,
                                         token_names=token_names,
+                                        sentiments=retry_sentiment_scores,
                                     )
 
                                     contrarian_portfolio.save(SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE)
@@ -1626,6 +1754,7 @@ async def bundle_writeup(verbose=False):
                                         contrarian_results=contrarian_results,
                                         sentiment_rankings=sentiment_rankings,
                                         initial_capital=BACKTEST_INITIAL_CAPITAL,
+                                        btc_price=prices.get('BTC'),
                                     )
                                 else:
                                     sentiment_tracker.last_processed_date = today.date().isoformat()

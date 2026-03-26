@@ -295,13 +295,18 @@ class SentimentPortfolio:
         prices: Dict[str, float],
         date: datetime,
         token_names: Optional[Dict[str, str]] = None,
+        sentiments: Optional[Dict[str, float]] = None,
     ) -> Dict:
         """
         Rebalance portfolio to match target positions.
 
         1. Close positions no longer in targets
         2. Open new positions for new targets
-        3. Equal-weight within long/short buckets
+        3. Weight by sentiment score magnitude (falls back to equal-weight)
+
+        Args:
+            sentiments: Optional dict of {symbol: score} for weighted allocation.
+                        Only actionable (priceable) targets are weighted.
 
         Returns summary of changes made.
         """
@@ -327,15 +332,42 @@ class SentimentPortfolio:
         long_total = total_value * self.LONG_ALLOCATION
         short_total = total_value * self.SHORT_ALLOCATION
 
-        long_per_position = long_total / len(long_targets) if long_targets else 0
-        short_per_position = short_total / len(short_targets) if short_targets else 0
+        # Compute per-position allocations — weighted by sentiment if available,
+        # normalized over actionable targets only (those with prices).
+        actionable_longs = [s for s in long_targets if s in prices]
+        actionable_shorts = [s for s in short_targets if s in prices]
+
+        if sentiments and actionable_longs:
+            long_scores = {s: max(abs(sentiments.get(s, 1.0)), 0.1) for s in actionable_longs}
+            total_long_score = sum(long_scores.values())
+            if total_long_score >= 0.01:
+                long_allocations = {s: long_total * (score / total_long_score) for s, score in long_scores.items()}
+            else:
+                long_allocations = {s: long_total / len(actionable_longs) for s in actionable_longs}
+        elif actionable_longs:
+            long_allocations = {s: long_total / len(actionable_longs) for s in actionable_longs}
+        else:
+            long_allocations = {}
+
+        if sentiments and actionable_shorts:
+            short_scores = {s: max(abs(sentiments.get(s, 1.0)), 0.1) for s in actionable_shorts}
+            total_short_score = sum(short_scores.values())
+            if total_short_score >= 0.01:
+                short_allocations = {s: short_total * (score / total_short_score) for s, score in short_scores.items()}
+            else:
+                short_allocations = {s: short_total / len(actionable_shorts) for s in actionable_shorts}
+        elif actionable_shorts:
+            short_allocations = {s: short_total / len(actionable_shorts) for s in actionable_shorts}
+        else:
+            short_allocations = {}
 
         # 3. Open/adjust long positions
         for symbol in long_targets:
             if symbol not in prices:
                 continue
             token_name = token_names.get(symbol, symbol)
-            trade = self.open_long(symbol, token_name, long_per_position, prices[symbol], date)
+            target_value = long_allocations.get(symbol, 0)
+            trade = self.open_long(symbol, token_name, target_value, prices[symbol], date)
             if trade:
                 trades_today.append(trade)
 
@@ -344,7 +376,8 @@ class SentimentPortfolio:
             if symbol not in prices:
                 continue
             token_name = token_names.get(symbol, symbol)
-            trade = self.open_short(symbol, token_name, short_per_position, prices[symbol], date)
+            target_value = short_allocations.get(symbol, 0)
+            trade = self.open_short(symbol, token_name, target_value, prices[symbol], date)
             if trade:
                 trades_today.append(trade)
 
@@ -511,23 +544,32 @@ def format_sentiment_portfolio_results(
     return "\n".join(lines)
 
 
+# BTC price at portfolio inception (Jan 1, 2026) — used for benchmark comparison.
+# Source: CoinGecko historical price for 2026-01-01.
+BTC_INCEPTION_PRICE = 93400.0
+
+
 def format_dual_sentiment_portfolios(
     momentum_results: Dict,
     contrarian_results: Dict,
     sentiment_rankings: List[Tuple[str, float]],
     initial_capital: float = 10000.0,
+    btc_price: Optional[float] = None,
 ) -> str:
     """
     Format both momentum and contrarian portfolio results for newsletter.
 
     Includes sentiment rankings header and both strategy summaries.
 
+    Args:
+        btc_price: Current BTC price for benchmark comparison (optional).
+
     Returns markdown string.
     """
     lines = ["## 📈 Sentiment Portfolio\n"]
 
     # How It Works explanation
-    lines.append("*Daily signals accumulate into sentiment scores (7-day half-life decay). "
+    lines.append("*Daily signals accumulate into sentiment scores (14-day half-life decay). "
                  "Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. "
                  "Momentum follows sentiment; Contrarian inverts it.*\n")
 
@@ -552,6 +594,17 @@ def format_dual_sentiment_portfolios(
         lines.append(f"| {symbol} | {score:.2f} | 🔴 Momentum Short / 🟢 Contrarian Long |")
 
     lines.append("")
+
+    # BTC benchmark comparison
+    if btc_price and BTC_INCEPTION_PRICE > 0:
+        btc_return = ((btc_price / BTC_INCEPTION_PRICE) - 1) * 100
+        momentum_return = ((momentum_results.get("total_value", initial_capital) / initial_capital) - 1) * 100
+        contrarian_return = ((contrarian_results.get("total_value", initial_capital) / initial_capital) - 1) * 100
+        lines.append("### Benchmark\n")
+        lines.append(f"- **BTC Buy & Hold:** `{btc_return:+.2f}%`")
+        lines.append(f"- **Momentum Alpha vs BTC:** `{momentum_return - btc_return:+.2f}%`")
+        lines.append(f"- **Contrarian Alpha vs BTC:** `{contrarian_return - btc_return:+.2f}%`")
+        lines.append("")
 
     # Momentum Strategy
     lines.append(format_sentiment_portfolio_results(

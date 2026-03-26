@@ -1,5 +1,5 @@
 {
-  "cash": 1434.3353462538298,
+  "cash": 3551.60717653126,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -39,14 +39,6 @@
       "quantity": 3014.546657125718,
       "entry_price": 0.3966761435161592,
       "entry_date": "2026-01-13T13:53:29.613208",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "BUIDL": {
-      "symbol": "BUIDL",
-      "token_name": "BUIDL",
-      "quantity": 1191.0825322953165,
-      "entry_price": 1.0,
-      "entry_date": "2026-01-19T13:41:40.033077",
       "entry_signal": "SENTIMENT_LONG"
     },
     "DOGE": {
@@ -160,14 +152,6 @@
       "entry_price": 2628.5058184553905,
       "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "USDC": {
-      "symbol": "USDC",
-      "token_name": "USDC",
-      "quantity": 926.1892979821138,
-      "entry_price": 0.9999987120757426,
-      "entry_date": "2026-03-16T14:18:46.535528",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "HYPE": {
       "symbol": "HYPE",
@@ -1494,6 +1478,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-03-26T04:11:48.391574",
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "action": "SELL",
+      "quantity": 926.1892979821138,
+      "price": 1.0,
+      "value": 926.1892979821138,
+      "signal_type": "CLEANUP_STABLECOIN",
+      "pnl": 0.0011928616637533196,
+      "entry_price": 0.9999987120757426
+    },
+    {
+      "date": "2026-03-26T04:11:48.391574",
+      "symbol": "BUIDL",
+      "token_name": "BUIDL",
+      "action": "SELL",
+      "quantity": 1191.0825322953165,
+      "price": 1.0,
+      "value": 1191.0825322953165,
+      "signal_type": "CLEANUP_STABLECOIN",
+      "pnl": 0.0,
+      "entry_price": 1.0
     }
   ],
   "daily_values": [

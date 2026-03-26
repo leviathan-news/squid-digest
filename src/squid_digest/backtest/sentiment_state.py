@@ -49,11 +49,11 @@ class SentimentTracker:
     """
     Tracks sentiment scores for all tokens with decay over time.
 
-    Sentiment decays with a 7-day half-life (score drops by 50% every 7 days).
+    Sentiment decays with a 14-day half-life (score drops by 50% every 14 days).
     Signals add/subtract from the score based on strength.
     """
 
-    HALF_LIFE_DAYS = 7.0
+    HALF_LIFE_DAYS = 14.0
 
     # Spike weights for each signal type
     SPIKE_WEIGHTS = {
