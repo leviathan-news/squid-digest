@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **US stablecoin bill compromise would ban interest-like yield on passive balances while preserving activity-based rewards, splitting crypto leaders and triggering political and market backlash.** [Cryptoinamerica](https://leviathannews.xyz/redirect/215889?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto adoption remains brittle as user retention struggles beyond incentive-driven apps** [𝕏/@0xJMG](https://leviathannews.xyz/redirect/215508?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CFTC Chairman Selig launches Innovation Task Force to craft crypto, AI, and prediction market rules** [𝕏/@ChairmanSelig](https://leviathannews.xyz/redirect/215434?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SpaceX targets confidential SEC filing as early as this week for potentially largest IPO in history at $1.75T** [The Information](https://leviathannews.xyz/redirect/215589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Figure's YLDS sidesteps stablecoin yield ban by registering as SEC security paying ~3.85% APY** [Crowdfundinsider](https://leviathannews.xyz/redirect/215562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LayerZero deploys on Canton Network, connecting $8T+ monthly institutional RWA volume to 165+ public chains** [layerzero.network](https://leviathannews.xyz/redirect/216607?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Moonwell governance attack uses just $1,800 in tokens to target $1M, exposing the fatal flaw of low-cap token voting** [𝕏/@tomkysar](https://leviathannews.xyz/redirect/216102?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **X's new metal Visa card offers 6% APY and 3% cashback, now in beta** [Yahoo Finance](https://leviathannews.xyz/redirect/216337?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI agents cracked 63% of 405 legacy smart contracts in Anthropic study, and hackers are scaling the same playbook** [DL News](https://leviathannews.xyz/redirect/216335?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Discussion Thread: SQUID DAO Revenue Allocation & Lender Recovery Framework** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/216022?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/25/signals_2026-03-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/25/signals_2026-03-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/26/signals_2026-03-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/26/signals_2026-03-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
