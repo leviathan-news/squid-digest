@@ -1,0 +1,45 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1841 chars. First 500 chars: The crypto market in early March 2026 faces a critical inflection point, with Bitcoin stabilizing around $68K but broader sentiment remaining in "Extreme Fear" territory amid macro headwinds and geopolitical tension.[1][2][5]
+
+**Market Structure:** Bitcoin is showing early signs of a potential bottom, having recovered from $62.5K lows with $787M in spot ETF inflows and stabilized implied volatility despite weekend geopolitical escalation over Iran.[4] However, the recovery remains cautious and u
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+The crypto market in early March 2026 faces a critical inflection point, with Bitcoin stabilizing around $68K but broader sentiment remaining in "Extreme Fear" territory amid macro headwinds and geopolitical tension.[1][2][5]
+
+**Market Structure:** Bitcoin is showing early signs of a potential bottom, having recovered from $62.5K lows with $787M in spot ETF inflows and stabilized implied volatility despite weekend geopolitical escalation over Iran.[4] However, the recovery remains cautious and uneven—roughly 38% of altcoins are trading near all-time lows, indicating capital concentration in Bitcoin while the broader market remains under pressure.[2]
+
+**Key Catalysts This Month:** March will prove decisive for validating whether current price action represents a temporary deviation or structural downturn.[4] Three major catalysts could reshape capital flows: the Fed's March 18 rate decision, the DC Blockchain Summit and Digital Asset Summit drawing regulatory officials, and fresh U.S. economic data on inflation and labor markets.[1] Bitcoin approaching its 20 millionth coin milestone adds symbolic momentum.
+
+**Altcoin Dynamics:** Historical patterns suggest capital flows to Bitcoin first, followed by altcoin recovery if liquidity improves.[1] However, Ethereum is positioned to break downward toward $1,800 support rather than rally,[2] while standout performers like Solana show exceptional on-chain activity—643M transactions (+14% week-over-week) and $250B in DEX volume (+63% weekly)—suggesting underlying demand recovery even as prices lag.[2]
+
+**Risk Assessment:** Geopolitical tensions, elevated dollar strength, and compressed altcoin breadth suggest traders should prioritize watching Fed policy announcements and macro-driven liquidity conditions before expecting sustained risk-on moves beyond blue-chip assets.
+
+News items sent (10):
+[1] OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax. - https://leviathannews.xyz/redirect/39980?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] USDe's growth engine is a thriving derivatives market and sustained leverage demand - https://leviathannews.xyz/redirect/39489?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Vitalik’s EIP-8141 frame transactions simplify a decade of account abstraction into one core primitive for Ethereum. - https://leviathannews.xyz/redirect/38842?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Paradex signals upcoming $DIME Token Generation Event. - https://leviathannews.xyz/redirect/39731?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Crypto.com launches US IRAs combining crypto and stock investing, offering Traditional and Roth accounts with 400+ digital assets, 12,000+ stocks/ETFs, contribution matches up to 5%, and token staking. - https://leviathannews.xyz/redirect/39421?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Crypto replaces probabilistic institutional trust with deterministic, code-enforced truth, shifting power from promises to verifiable systems. - https://leviathannews.xyz/redirect/39488?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Billionaire Peter Thiel will dump a whopping $280 million worth Palantir shares - https://leviathannews.xyz/redirect/38971?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] CFTC chief Mike Selig says new rules will soon open a path for U.S.-based crypto perpetual futures trading, signaling a broader push to clarify and expand domestic digital asset regulation. - https://leviathannews.xyz/redirect/39349?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Nasdaq seeks SEC approval for prediction markets options on major stock index. - https://leviathannews.xyz/redirect/38860?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Digital asset custody is infrastructure to consume, not build, citing regulatory complexity, key management risk, and 24/7 blockchain operations as hidden costs. - https://leviathannews.xyz/redirect/39486?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 617 news articles (TVL: $369,000,000)
+$BNB BNB - 93 news articles (TVL: $81,240,000,000)
+$ETH Ethereum - 606 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 323 news articles (TVL: $100,000)
+$AAVE AAVE - 256 news articles (TVL: $2,513,181,375)
+$XRP XRP - 110 news articles (TVL: $636,416,718)
+$SOL Solana - 82 news articles (TVL: $800,000,000,000)
+$HYPE HYPE - 80 news articles (TVL: $12,000,000,000)
+$AVAX Avalanche - 66 news articles (TVL: $7,215,000,000)
+$CRV Curve DAO T...

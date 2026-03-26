@@ -1,86 +1,6 @@
 {
-  "cash": 2964.2882186237766,
+  "cash": 564.1539422170771,
   "positions": {
-    "OP": {
-      "symbol": "OP",
-      "token_name": "Optimism",
-      "quantity": 10094.583452745246,
-      "entry_price": 0.285182644293753,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": 14898.73374909336,
-      "entry_price": 0.1958256380961805,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "TRX": {
-      "symbol": "TRX",
-      "token_name": "Tron",
-      "quantity": 19355.779752940703,
-      "entry_price": 0.3037119380568319,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.32620447981113676,
-      "entry_price": 3006.6955847632594,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": -7.751212860936832,
-      "entry_price": 126.07604708879596,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.011124114119532529,
-      "entry_price": 88476.02374262201,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": -4112.344321158397,
-      "entry_price": 0.14590217966743294,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "Aave",
-      "quantity": -4.131348014905435,
-      "entry_price": 145.23104755040438,
-      "entry_date": "2026-01-01T14:15:42.976052",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "CRV": {
-      "symbol": "CRV",
-      "token_name": "Curve DAO Token",
-      "quantity": -1529.7056341707894,
-      "entry_price": 0.4035857408446335,
-      "entry_date": "2026-01-03T13:26:03.095458",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "AVAX": {
-      "symbol": "AVAX",
-      "token_name": "Avalanche",
-      "quantity": -43.770530118960416,
-      "entry_price": 14.104635698108627,
-      "entry_date": "2026-01-03T13:26:03.095458",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
@@ -113,14 +33,6 @@
       "entry_date": "2026-01-12T13:39:23.118862",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "SUI": {
-      "symbol": "SUI",
-      "token_name": "Sui",
-      "quantity": -334.126584990542,
-      "entry_price": 1.7774249806033855,
-      "entry_date": "2026-01-12T13:39:23.118862",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "SYRUP": {
       "symbol": "SYRUP",
       "token_name": "Maple Finance",
@@ -143,6 +55,142 @@
       "quantity": -609.2645314769077,
       "entry_price": 1.0,
       "entry_date": "2026-01-19T13:41:40.033077",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": 23869.801416302416,
+      "entry_price": 0.1241857092535026,
+      "entry_date": "2026-01-24T13:27:58.423708",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": -24717.568591963,
+      "entry_price": 0.12210676345302983,
+      "entry_date": "2026-02-05T14:02:54.497146",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 5.021551911683984,
+      "entry_price": 641.0985272163744,
+      "entry_date": "2026-02-06T13:59:08.454245",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 23143.635556355624,
+      "entry_price": 0.24390985336870455,
+      "entry_date": "2026-02-10T14:20:33.216514",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -0.45994671697591183,
+      "entry_price": 2021.916117918014,
+      "entry_date": "2026-02-10T14:20:33.216514",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "OP": {
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "quantity": -3494.021995091709,
+      "entry_price": 0.1821958140366486,
+      "entry_date": "2026-02-12T14:09:40.932839",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "NEAR": {
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "quantity": -643.7634508230508,
+      "entry_price": 0.9676381405361252,
+      "entry_date": "2026-02-12T14:09:40.932839",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": 2036.8192307758961,
+      "entry_price": 0.28331213008817907,
+      "entry_date": "2026-02-17T14:04:50.798446",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "quantity": -75.84678178906766,
+      "entry_price": 8.812883971585807,
+      "entry_date": "2026-03-01T13:35:42.340123",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.013396739391690258,
+      "entry_price": 70883.77962804663,
+      "entry_date": "2026-03-04T13:54:44.148373",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": -3087.3157562737733,
+      "entry_price": 0.29308334170867967,
+      "entry_date": "2026-03-05T13:59:01.839079",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 5866.889917065338,
+      "entry_price": 0.9030940951003175,
+      "entry_date": "2026-03-07T13:35:55.636587",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "quantity": -23.5855944387977,
+      "entry_price": 32.242855584906266,
+      "entry_date": "2026-03-08T13:37:04.554776",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": 5550.838165235118,
+      "entry_price": 0.10302849173685151,
+      "entry_date": "2026-03-09T14:03:09.027691",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "USDC": {
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "quantity": -560.0367564494206,
+      "entry_price": 0.9999987120757426,
+      "entry_date": "2026-03-16T14:18:46.535528",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": -6439.275035330417,
+      "entry_price": 0.08944034904933168,
+      "entry_date": "2026-03-20T13:59:32.640069",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "quantity": -6.760437272687515,
+      "entry_price": 107.20994623154981,
+      "entry_date": "2026-03-22T13:40:27.276302",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -506,6 +554,798 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-01-24T13:27:58.423708",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 23869.801416302416,
+      "price": 0.1241857092535026,
+      "value": 2964.2882186237766,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-25T13:29:15.430324",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.18478887050396214,
+      "price": 2933.5300624401934,
+      "value": 542.0837068277409,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-25T13:29:15.430324",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.005792356525469672,
+      "price": 88612.71280006887,
+      "value": 513.2764252270489,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-01-31T13:37:47.753690",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.07876027148041767,
+      "price": 2616.9701407414395,
+      "value": 206.11327874094263,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-01T13:39:48.206844",
+      "symbol": "BTC",
+      "token_name": "BTC",
+      "action": "SHORT",
+      "quantity": 0.00247532709138069,
+      "price": 78456.655220781,
+      "value": 194.20588416711348,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.5897536217955166,
+      "price": 2071.1178774552345,
+      "value": 1221.4492693946675,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 507.5452853521565,
+      "entry_price": 2931.723504270929
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.11309352698745229,
+      "price": 2071.1178774552345,
+      "value": 234.23002556817846,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SELL",
+      "quantity": 14898.73374909336,
+      "price": 0.12252726044110523,
+      "value": 1825.5010303178465,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1092.0530129234603,
+      "entry_price": 0.1958256380961805
+    },
+    {
+      "date": "2026-02-05T14:02:54.497146",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 21828.275776872146,
+      "price": 0.12252726044110523,
+      "value": 2674.558831093082,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-06T13:59:08.454245",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 4.182431588899232,
+      "price": 644.1735762113564,
+      "value": 2694.2119138805633,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-08T13:40:59.881896",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.01939179773638289,
+      "price": 71180.44931497703,
+      "value": 1380.3168759008886,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 311.3828184486706,
+      "entry_price": 87237.89910285585
+    },
+    {
+      "date": "2026-02-08T13:40:59.881896",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.005978201538830986,
+      "price": 71180.44931497703,
+      "value": 425.5310716294766,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-08T13:40:59.881896",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 2889.2928150908556,
+      "price": 0.11892995694483752,
+      "value": 343.62347009978384,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.17076269538388672,
+      "price": 2012.2865203509102,
+      "value": 343.62347009978384,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.005978201538830986,
+      "price": 68424.61837651463,
+      "value": 409.0561588724027,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -16.474912757073923,
+      "entry_price": 71180.44931497703
+    },
+    {
+      "date": "2026-02-09T14:12:58.951385",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.021813375570641887,
+      "price": 68424.61837651463,
+      "value": 1492.5718989247582,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.8391203227847517,
+      "price": 625.77154525109,
+      "value": 525.0976210406075,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "COVER",
+      "quantity": 1529.7056341707894,
+      "price": 0.23856712900872623,
+      "value": 364.9374813725981,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 252.42990026842983,
+      "entry_price": 0.4035857408446335
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 4240.286411574134,
+      "price": 0.23856712900872623,
+      "value": 1011.5929553839553,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.520299967895763,
+      "price": 84.73116408686224,
+      "value": 128.81678604102729,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 0.283856222371339,
+      "price": 2032.547336335098,
+      "value": 576.9512086830083,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -0.902286984954003,
+      "entry_price": 2035.7260124177155
+    },
+    {
+      "date": "2026-02-10T14:20:33.216514",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.38650321239246477,
+      "price": 2032.547336335098,
+      "value": 785.5860748332628,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-11T14:14:16.513730",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 6262.47815139288,
+      "price": 0.23814120121530424,
+      "value": 1491.3540695572983,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.021813375570641887,
+      "price": 67883.47343698943,
+      "value": 1480.7677011207427,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 11.80419780401553,
+      "entry_price": 68424.61837651463
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SELL",
+      "quantity": 10094.583452745246,
+      "price": 0.1801992550223447,
+      "value": 1819.0364179455817,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1059.7635841522708,
+      "entry_price": 0.285182644293753
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 2950.57387433407,
+      "price": 0.1801992550223447,
+      "value": 531.6912140433927,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-12T14:09:40.932839",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SHORT",
+      "quantity": 556.6786139017344,
+      "price": 0.9551134187045446,
+      "value": 531.6912140433927,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 165.01753774090096,
+      "price": 8.49395260710046,
+      "value": 1401.6511449116244,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-13T13:58:53.500749",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008196781901178686,
+      "price": 67279.8283244854,
+      "value": 551.478079124551,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 61.71811974847154,
+      "price": 8.935432274542169,
+      "value": 551.478079124551,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 543.448120757639,
+      "price": 0.19303584575477917,
+      "value": 104.9049676142962,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-14T13:40:50.420162",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SHORT",
+      "quantity": 87.08483692131638,
+      "price": 1.0477008131574073,
+      "value": 91.23885445614337,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 22.191041088473625,
+      "price": 8.838874268603817,
+      "value": 196.14382207043957,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.3529892348115262,
+      "price": 126.14249297115018,
+      "value": 170.6694350422548,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-15T13:41:59.822375",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.001833992940661535,
+      "price": 68968.54768269543,
+      "value": 126.48782957774188,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "BUY",
+      "quantity": 33.944498283883135,
+      "price": 8.754209949866517,
+      "value": 297.1572646199967,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.6982766330762986,
+      "price": 125.89298318349086,
+      "value": 213.80111160878994,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.07344350458344709,
+      "price": 1965.9683510847983,
+      "value": 144.3876056038083,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-16T14:03:31.940311",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0032032218544524814,
+      "price": 68327.1055231039,
+      "value": 218.86687766308728,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-17T14:04:50.798446",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "BUY",
+      "quantity": 2036.8192307758961,
+      "price": 0.28331213008817907,
+      "value": 577.0555948756855,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-02-19T14:07:14.635757",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "COVER",
+      "quantity": 4112.344321158397,
+      "price": 0.11600387158540366,
+      "value": 477.0478625466227,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 122.9521374533773,
+      "entry_price": 0.14590217966743294
+    },
+    {
+      "date": "2026-02-26T14:07:59.019400",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.2998097706076595,
+      "price": 87.3959274166102,
+      "value": 113.59808036742777,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-01T13:35:42.340123",
+      "symbol": "LINK",
+      "token_name": "Chainlink",
+      "action": "SELL",
+      "quantity": 282.8711968617293,
+      "price": 8.812883971585807,
+      "value": 2492.9110368460274,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 46.480726119415976,
+      "entry_price": 8.648566336439178
+    },
+    {
+      "date": "2026-03-01T13:35:42.340123",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "SHORT",
+      "quantity": 75.84678178906766,
+      "price": 8.812883971585807,
+      "value": 668.4288875252406,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-02T13:57:22.393936",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.013233996696292702,
+      "price": 65390.805715104114,
+      "value": 865.3817068016058,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 31.45107956377433,
+      "entry_price": 67767.34247006528
+    },
+    {
+      "date": "2026-03-02T13:57:22.393936",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.02955321339532129,
+      "price": 65390.805715104114,
+      "value": 1932.508435390467,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-02T13:57:22.393936",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "COVER",
+      "quantity": 334.126584990542,
+      "price": 0.8856467053061308,
+      "value": 295.9181091520624,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 297.96682969382715,
+      "entry_price": 1.7774249806033855
+    },
+    {
+      "date": "2026-03-04T13:54:44.148373",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.02955321339532129,
+      "price": 71395.49191776059,
+      "value": 2109.9662081095153,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 177.4577727190483,
+      "entry_price": 65390.805715104114
+    },
+    {
+      "date": "2026-03-04T13:54:44.148373",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.008048119941381212,
+      "price": 71395.49191776059,
+      "value": 574.5994822280502,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-05T13:59:01.839079",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SELL",
+      "quantity": 19355.779752940703,
+      "price": 0.28363758561482866,
+      "value": 5490.026636816486,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -388.55474455032163,
+      "entry_price": 0.3037119380568319
+    },
+    {
+      "date": "2026-03-05T13:59:01.839079",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 1980.319891363961,
+      "price": 0.28363758561482866,
+      "value": 561.6931527314937,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-06T13:51:32.728997",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 12640.87099338861,
+      "price": 0.24855990791073734,
+      "value": 3142.0137300281835,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-07T13:35:55.636587",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 5866.889917065338,
+      "price": 0.9030940951003175,
+      "value": 5298.353640705298,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-08T13:37:04.554776",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 18.935846678456546,
+      "price": 30.201685393353706,
+      "value": 571.8944840395263,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-09T14:03:09.027691",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 5550.838165235118,
+      "price": 0.10302849173685151,
+      "value": 571.8944840395263,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-13T13:57:21.486076",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "COVER",
+      "quantity": 7.182613882793261,
+      "price": 118.1738771328422,
+      "value": 848.7973304778574,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 135.67321617318737,
+      "entry_price": 137.06299165119427
+    },
+    {
+      "date": "2026-03-16T14:18:46.535528",
+      "symbol": "USDC",
+      "token_name": "USDC",
+      "action": "SHORT",
+      "quantity": 560.0367564494206,
+      "price": 0.9999987120757426,
+      "value": 560.036035164497,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-19T14:05:51.637802",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "COVER",
+      "quantity": 43.770530118960416,
+      "price": 9.467046701093661,
+      "value": 414.37765276782494,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 202.98972887320298,
+      "entry_price": 14.104635698108627
+    },
+    {
+      "date": "2026-03-20T13:59:32.640069",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "COVER",
+      "quantity": 10.571322599440254,
+      "price": 88.93460227497786,
+      "value": 940.1563709017041,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 279.5007731575038,
+      "entry_price": 115.37412964048492
+    },
+    {
+      "date": "2026-03-20T13:59:32.640069",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 6439.275035330417,
+      "price": 0.08944034904933168,
+      "value": 575.9310067846001,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.002508387007642101,
+      "price": 68657.75961750784,
+      "value": 172.22023219837115,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-22T13:40:27.276302",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "SHORT",
+      "quantity": 6.760437272687515,
+      "price": 107.20994623154981,
+      "value": 724.7861165065937,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-24T14:17:52.435721",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 342.112382207796,
+      "price": 0.31033271348968555,
+      "value": 106.16866388896574,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.002840232442666944,
+      "price": 71399.72253753398,
+      "value": 202.79180834852218,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 4.649747760341152,
+      "price": 40.55541097157507,
+      "value": 188.5724313347962,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-03-25T14:16:29.072809",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 764.8834827020165,
+      "price": 0.30982366268515704,
+      "value": 236.97900213811772,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -588,6 +1428,238 @@
     [
       "2026-01-23T13:39:24.172091",
       10097.381256672574
+    ],
+    [
+      "2026-01-24T13:27:58.423708",
+      10142.573637204632
+    ],
+    [
+      "2026-01-25T13:29:15.430324",
+      9993.42903237584
+    ],
+    [
+      "2026-01-27T13:42:44.488146",
+      10045.960324709977
+    ],
+    [
+      "2026-01-28T13:43:59.521436",
+      9942.481878583789
+    ],
+    [
+      "2026-01-29T13:56:43.796305",
+      10037.93183480186
+    ],
+    [
+      "2026-01-30T13:52:32.984697",
+      10231.543635082158
+    ],
+    [
+      "2026-01-31T13:37:47.753690",
+      10289.117457553246
+    ],
+    [
+      "2026-02-01T13:39:48.206844",
+      10142.77059409676
+    ],
+    [
+      "2026-02-02T13:59:14.302022",
+      9600.50869063882
+    ],
+    [
+      "2026-02-03T14:01:55.052850",
+      9598.096874168361
+    ],
+    [
+      "2026-02-04T13:59:59.408957",
+      9622.146015597154
+    ],
+    [
+      "2026-02-05T14:02:54.497146",
+      8915.196103643613
+    ],
+    [
+      "2026-02-06T13:59:08.454245",
+      8980.70637960187
+    ],
+    [
+      "2026-02-07T13:40:37.032883",
+      8901.85381260226
+    ],
+    [
+      "2026-02-08T13:40:59.881896",
+      9798.864561410757
+    ],
+    [
+      "2026-02-09T14:12:58.951385",
+      9950.479326165056
+    ],
+    [
+      "2026-02-10T14:20:33.216514",
+      10474.480997776836
+    ],
+    [
+      "2026-02-11T14:14:16.513730",
+      10566.681268398215
+    ],
+    [
+      "2026-02-12T14:09:40.932839",
+      8861.520234056545
+    ],
+    [
+      "2026-02-13T13:58:53.500749",
+      9191.301318742515
+    ],
+    [
+      "2026-02-14T13:40:50.420162",
+      8992.95321211105
+    ],
+    [
+      "2026-02-15T13:41:59.822375",
+      9224.106306317852
+    ],
+    [
+      "2026-02-16T14:03:31.940311",
+      9042.406887599998
+    ],
+    [
+      "2026-02-17T14:04:50.798446",
+      9049.551108166088
+    ],
+    [
+      "2026-02-19T14:07:14.635757",
+      9561.321448376031
+    ],
+    [
+      "2026-02-20T13:58:06.719594",
+      9553.594950054005
+    ],
+    [
+      "2026-02-21T13:38:44.874206",
+      9414.733855445818
+    ],
+    [
+      "2026-02-22T13:40:03.032202",
+      9424.420573137417
+    ],
+    [
+      "2026-02-23T14:05:57.136822",
+      9438.979094593888
+    ],
+    [
+      "2026-02-24T14:08:39.028006",
+      9465.639313693635
+    ],
+    [
+      "2026-02-25T14:07:46.807569",
+      9413.503002788962
+    ],
+    [
+      "2026-02-26T14:07:59.019400",
+      9238.905425982517
+    ],
+    [
+      "2026-02-27T13:57:11.998601",
+      9291.671360650336
+    ],
+    [
+      "2026-03-01T13:35:42.340123",
+      8912.385167003207
+    ],
+    [
+      "2026-03-02T13:57:22.393936",
+      9651.584942894855
+    ],
+    [
+      "2026-03-03T13:56:43.587086",
+      9555.472125524873
+    ],
+    [
+      "2026-03-04T13:54:44.148373",
+      9576.65803713417
+    ],
+    [
+      "2026-03-05T13:59:01.839079",
+      9361.552545524894
+    ],
+    [
+      "2026-03-06T13:51:32.728997",
+      9587.6332043457
+    ],
+    [
+      "2026-03-07T13:35:55.636587",
+      9573.015845468717
+    ],
+    [
+      "2026-03-08T13:37:04.554776",
+      9531.574733992107
+    ],
+    [
+      "2026-03-09T14:03:09.027691",
+      9481.660016306821
+    ],
+    [
+      "2026-03-10T13:58:30.957891",
+      10106.135321051364
+    ],
+    [
+      "2026-03-11T14:03:10.976040",
+      9910.822025810327
+    ],
+    [
+      "2026-03-12T14:00:30.976833",
+      9910.217027738425
+    ],
+    [
+      "2026-03-13T13:57:21.486076",
+      9822.122333535468
+    ],
+    [
+      "2026-03-14T13:42:01.111361",
+      10011.006696881483
+    ],
+    [
+      "2026-03-15T13:42:45.433819",
+      9972.94802494788
+    ],
+    [
+      "2026-03-16T14:18:46.535528",
+      9333.93391940828
+    ],
+    [
+      "2026-03-17T14:17:44.630120",
+      9454.521927828358
+    ],
+    [
+      "2026-03-18T14:20:16.066802",
+      9376.331887457618
+    ],
+    [
+      "2026-03-19T14:05:51.637802",
+      9311.763519835347
+    ],
+    [
+      "2026-03-20T13:59:32.640069",
+      9598.850113076669
+    ],
+    [
+      "2026-03-21T13:38:56.436314",
+      9540.420121781899
+    ],
+    [
+      "2026-03-22T13:40:27.276302",
+      9663.81488675458
+    ],
+    [
+      "2026-03-23T14:14:36.140859",
+      9549.872792097576
+    ],
+    [
+      "2026-03-24T14:17:52.435721",
+      9609.68945804724
+    ],
+    [
+      "2026-03-25T14:16:29.072809",
+      9565.234754743362
     ]
   ]
 }

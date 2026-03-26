@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-01-23",
+  "last_processed_date": "2026-03-25",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 1.7080116818820124,
-      "last_signal_date": "2026-01-20",
+      "score": 4.775142662519863,
+      "last_signal_date": "2026-03-23",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.0,
-      "last_signal_date": "2026-01-02",
+      "score": -0.028303864508247092,
+      "last_signal_date": "2026-03-17",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 2.301825702659517,
-      "last_signal_date": "2026-01-20",
+      "score": -0.5528811633600587,
+      "last_signal_date": "2026-03-21",
       "token_name": "Solana"
     },
     "STETH": {
@@ -28,49 +28,49 @@
     "CRV": {
       "symbol": "CRV",
       "score": 0.0,
-      "last_signal_date": "2026-01-10",
+      "last_signal_date": "2026-03-07",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.508934217582043,
-      "last_signal_date": "2026-01-20",
+      "score": 0.6301248877044584,
+      "last_signal_date": "2026-03-20",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 2.564975833620616,
-      "last_signal_date": "2026-01-20",
+      "score": 0.0,
+      "last_signal_date": "2026-03-14",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.0,
-      "last_signal_date": "2025-12-16",
+      "score": 2.203722411353037,
+      "last_signal_date": "2026-03-21",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
       "score": 0.0,
-      "last_signal_date": "2025-12-10",
+      "last_signal_date": "2026-03-09",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.0,
-      "last_signal_date": "2026-01-02",
+      "score": -0.12500000000000003,
+      "last_signal_date": "2026-03-19",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
       "score": 0.0,
-      "last_signal_date": "2026-01-12",
+      "last_signal_date": "2026-03-02",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.0,
-      "last_signal_date": "2026-01-13",
+      "score": 0.16292484701875595,
+      "last_signal_date": "2026-03-19",
       "token_name": "ChainLink Token"
     },
     "TON": {
@@ -82,31 +82,31 @@
     "ADA": {
       "symbol": "ADA",
       "score": 0.0,
-      "last_signal_date": "2025-12-11",
+      "last_signal_date": "2026-02-13",
       "token_name": "Cardano"
     },
     "DOGE": {
       "symbol": "DOGE",
       "score": 0.0,
-      "last_signal_date": "2026-01-04",
+      "last_signal_date": "2026-02-12",
       "token_name": "Dogecoin"
     },
     "OP": {
       "symbol": "OP",
       "score": 0.0,
-      "last_signal_date": "2025-12-26",
+      "last_signal_date": "2026-02-12",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.0,
-      "last_signal_date": "2026-01-09",
+      "score": 0.9916529731092925,
+      "last_signal_date": "2026-03-22",
       "token_name": "AAVE"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.0,
-      "last_signal_date": "2025-12-27",
+      "score": 0.12500000000000003,
+      "last_signal_date": "2026-03-19",
       "token_name": "UNI"
     },
     "KDK": {
@@ -117,20 +117,20 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 0.0,
-      "last_signal_date": "2025-12-28",
+      "score": 0.45286183213195336,
+      "last_signal_date": "2026-03-20",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
       "score": 0.0,
-      "last_signal_date": "2025-12-26",
+      "last_signal_date": "2026-02-12",
       "token_name": "Arbitrum"
     },
     "TRX": {
       "symbol": "TRX",
-      "score": -0.22643091606597668,
-      "last_signal_date": "2026-01-18",
+      "score": 1.8114473285278134,
+      "last_signal_date": "2026-03-24",
       "token_name": "Tron"
     },
     "SQUID": {
@@ -148,7 +148,7 @@
     "NEAR": {
       "symbol": "NEAR",
       "score": 0.0,
-      "last_signal_date": "2026-01-09",
+      "last_signal_date": "2026-03-01",
       "token_name": "NEAR"
     },
     "PEPE": {
@@ -159,57 +159,249 @@
     },
     "SYRUP": {
       "symbol": "SYRUP",
-      "score": 0.01293854898836499,
+      "score": 0.0,
       "last_signal_date": "2026-01-13",
       "token_name": "Maple Finance"
     },
     "LIT": {
       "symbol": "LIT",
-      "score": 0.023218660767764823,
+      "score": 0.0,
       "last_signal_date": "2026-01-14",
       "token_name": "Lighter"
     },
     "84": {
       "symbol": "84",
-      "score": 0.056607729016494183,
+      "score": 0.0,
       "last_signal_date": "2026-01-15",
       "token_name": "84"
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.11004413209211242,
+      "score": 0.0,
       "last_signal_date": "2026-01-18",
       "token_name": "Monero"
     },
     "100K": {
       "symbol": "100K",
-      "score": -0.4669747661500211,
+      "score": 0.0,
       "last_signal_date": "2026-01-19",
       "token_name": "100K"
     },
     "BUIDL": {
       "symbol": "BUIDL",
-      "score": 0.22643091606597668,
+      "score": 0.0,
       "last_signal_date": "2026-01-18",
       "token_name": "BUIDL"
     },
     "19": {
       "symbol": "19",
-      "score": -2.5900838028107613,
+      "score": 0.0,
       "last_signal_date": "2026-01-21",
       "token_name": "19"
     },
     "50T": {
       "symbol": "50T",
-      "score": 2.7429971445684744,
+      "score": 0.0,
       "last_signal_date": "2026-01-23",
       "token_name": "50T"
     },
     "103K": {
       "symbol": "103K",
-      "score": 1.8114473285278134,
+      "score": 0.0,
       "last_signal_date": "2026-01-22",
       "token_name": "103K"
+    },
+    "90": {
+      "symbol": "90",
+      "score": 0.0,
+      "last_signal_date": "2026-01-25",
+      "token_name": "90"
+    },
+    "50": {
+      "symbol": "50",
+      "score": 0.0,
+      "last_signal_date": "2026-01-25",
+      "token_name": "50"
+    },
+    "87": {
+      "symbol": "87",
+      "score": 0.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "87"
+    },
+    "ETF": {
+      "symbol": "ETF",
+      "score": 0.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "ETF"
+    },
+    "591": {
+      "symbol": "591",
+      "score": 0.0,
+      "last_signal_date": "2026-01-27",
+      "token_name": "591"
+    },
+    "99": {
+      "symbol": "99",
+      "score": 0.0,
+      "last_signal_date": "2026-01-28",
+      "token_name": "99"
+    },
+    "86": {
+      "symbol": "86",
+      "score": 0.0,
+      "last_signal_date": "2026-01-29",
+      "token_name": "86"
+    },
+    "12": {
+      "symbol": "12",
+      "score": 0.0,
+      "last_signal_date": "2026-01-30",
+      "token_name": "12"
+    },
+    "1B": {
+      "symbol": "1B",
+      "score": 0.0,
+      "last_signal_date": "2026-01-31",
+      "token_name": "1B"
+    },
+    "WETH": {
+      "symbol": "WETH",
+      "score": 0.0,
+      "last_signal_date": "2026-02-02",
+      "token_name": "Wrapped Ether"
+    },
+    "USDM": {
+      "symbol": "USDM",
+      "score": 0.0,
+      "last_signal_date": "2026-02-02",
+      "token_name": "Mountain Protocol USD"
+    },
+    "FDUSD": {
+      "symbol": "FDUSD",
+      "score": 0.0,
+      "last_signal_date": "2026-02-02",
+      "token_name": "First Digital USD"
+    },
+    "PPI": {
+      "symbol": "PPI",
+      "score": 0.0,
+      "last_signal_date": "2026-02-03",
+      "token_name": "PPI"
+    },
+    "65": {
+      "symbol": "65",
+      "score": 0.0,
+      "last_signal_date": "2026-02-26",
+      "token_name": "65"
+    },
+    "60": {
+      "symbol": "60",
+      "score": 0.0,
+      "last_signal_date": "2026-02-07",
+      "token_name": "60"
+    },
+    "61": {
+      "symbol": "61",
+      "score": 0.0,
+      "last_signal_date": "2026-02-16",
+      "token_name": "61"
+    },
+    "70": {
+      "symbol": "70",
+      "score": 0.0,
+      "last_signal_date": "2026-02-11",
+      "token_name": "70"
+    },
+    "800": {
+      "symbol": "800",
+      "score": 0.0,
+      "last_signal_date": "2026-02-14",
+      "token_name": "800"
+    },
+    "160": {
+      "symbol": "160",
+      "score": 0.0,
+      "last_signal_date": "2026-02-16",
+      "token_name": "160"
+    },
+    "434": {
+      "symbol": "434",
+      "score": 0.0,
+      "last_signal_date": "2026-02-23",
+      "token_name": "434"
+    },
+    "465M": {
+      "symbol": "465M",
+      "score": 0.0,
+      "last_signal_date": "2026-02-26",
+      "token_name": "465M"
+    },
+    "188M": {
+      "symbol": "188M",
+      "score": 0.0,
+      "last_signal_date": "2026-02-26",
+      "token_name": "188M"
+    },
+    "79": {
+      "symbol": "79",
+      "score": 0.0,
+      "last_signal_date": "2026-03-03",
+      "token_name": "79"
+    },
+    "62": {
+      "symbol": "62",
+      "score": 0.0,
+      "last_signal_date": "2026-03-03",
+      "token_name": "62"
+    },
+    "INJ": {
+      "symbol": "INJ",
+      "score": 0.0,
+      "last_signal_date": "2026-03-10",
+      "token_name": "Injective"
+    },
+    "wstETH": {
+      "symbol": "wstETH",
+      "score": 0.0,
+      "last_signal_date": "2026-03-11",
+      "token_name": "Wrapped liquid staked Ether 2.0"
+    },
+    "SOPR": {
+      "symbol": "SOPR",
+      "score": 0.0,
+      "last_signal_date": "2026-03-15",
+      "token_name": "SOPR"
+    },
+    "USDC": {
+      "symbol": "USDC",
+      "score": 0.023218660767764823,
+      "last_signal_date": "2026-03-16",
+      "token_name": "USDC"
+    },
+    "MON": {
+      "symbol": "MON",
+      "score": 0.12500000000000003,
+      "last_signal_date": "2026-03-19",
+      "token_name": "Monad"
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "score": 1.6561342705107187,
+      "last_signal_date": "2026-03-22",
+      "token_name": "Convex Token"
+    },
+    "USR": {
+      "symbol": "USR",
+      "score": -4.247841722653957,
+      "last_signal_date": "2026-03-23",
+      "token_name": "Resolv USD"
+    },
+    "MVRV": {
+      "symbol": "MVRV",
+      "score": 2.0,
+      "last_signal_date": "2026-03-25",
+      "token_name": "MVRV"
     }
   }
 }

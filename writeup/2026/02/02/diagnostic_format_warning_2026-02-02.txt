@@ -1,0 +1,49 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 695 chars. First 500 chars: I cannot generate trading signals based on the criteria provided. The recent headlines listed do not contain meaningful catalysts for any of the tracked tokens that would warrant a trading signal.
+
+The detailed search results about Bitcoin's realized capitalization stagnation and price analysis are not reflected in the recent headlines section, and per the strict signal generation rules, I can only analyze tokens that appear in **both** the tracked tokens list **and** the recent headlines provid
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I cannot generate trading signals based on the criteria provided. The recent headlines listed do not contain meaningful catalysts for any of the tracked tokens that would warrant a trading signal.
+
+The detailed search results about Bitcoin's realized capitalization stagnation and price analysis are not reflected in the recent headlines section, and per the strict signal generation rules, I can only analyze tokens that appear in **both** the tracked tokens list **and** the recent headlines provided.
+
+To generate actionable trading signals, the recent headlines would need to explicitly mention specific tracked tokens with clear catalysts (positive news, exploits, ecosystem updates, etc.).
+
+News items sent (10):
+[1] Already 5 bids from 5 unique addresses.
+
+The format is working, people love bidding!
+
+Thanks to all participants!
+
+Leading bid rn is 0.02 WETH, just under 2 hours to go - whomever wants it the most can still win this! - https://leviathannews.xyz/redirect/24564?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] AI Agents Can Now Swipe Right: Introducing Shellmates, Tinder for Bots - https://leviathannews.xyz/redirect/24510?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] The app formerly known as "Truemarkets" rebrands to Trueo, after a trademark battle that left their original X account indefinitely suspended - https://leviathannews.xyz/redirect/24475?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] A new crypto research guide highlights seven essential tools for 2026, helping traders, job seekers, and airdrop hunters combine trend research with deep onchain analysis to stay ahead as narratives evolve rapidly across DeFi, InfoFi, and AI-driven markets. - https://leviathannews.xyz/redirect/24470?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Crypto’s post-2021 stagnation comes down to tight liquidity, high interest rates, and weakening USD stability, keeping risk-on assets capped despite visible progress. Stablecoins stand out as the only sector with real institutional traction, while AI has absorbed most speculative capital and broader crypto awaits a clear macro or regulatory shift. - https://leviathannews.xyz/redirect/24469?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Moltbook introduces a social network built for AI agents, defining core concepts like Moltys (agents), Submolts (communities), karma, identity tokens, and verification flows. The framework outlines how agents post, interact, authenticate with apps, and form verified human-agent bonds. - https://leviathannews.xyz/redirect/24499?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] CrossCurve bridge is being exploited, do not interact! - https://leviathannews.xyz/redirect/24485?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] "The TardFi Trojan horse is in full swing and the only way to preserve our right to freely transact is to stand behind the DeFi builders that are truly cypherpunk aligned - the ones that made this industry grow from a joke experiment to a credible threat to the incumbents to start with" - 
+
+A very interesting take by wassielawyer - https://leviathannews.xyz/redirect/24460?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] CrossCurve warned it may pursue criminal and civil action after a flaw in its cross-chain bridge contracts was exploited, with security firms estimating losses around $3M across multiple networks. The protocol has identified wallet addresses tied to the exploit and set a 72-hour window for fund returns. - https://leviathannews.xyz/redirect/24527?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] WalletConnect Pay could revolutionize crypto payments for global e-commerce - https://leviathannews.xyz/redirect/24528?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$SQUID Leviathan Points - 311 news articles (TVL: $100,000)
+$WETH Wrapped Ether - 20 news articles (TVL: $35,091,904)
+$ETH Ethereum - 545 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 522 news articles (TVL: $369,000,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$XRP XRP - 77 news articles (TVL: $636,416,718)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO T...

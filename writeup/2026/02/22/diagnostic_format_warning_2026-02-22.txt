@@ -1,0 +1,41 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 734 chars. First 500 chars: These search results contain macro-level market analysis of the February 2026 crypto downturn rather than specific news catalysts tied to individual tokens. While the tariff relief[1] is broadly bullish for crypto markets, it's not a token-specific catalyst. The search results focus on Bitcoin's technical positioning (extreme MVRV values, distance from 200-day MA)[2], ETF flow dynamics[1], and general leverage deleveraging rather than news-driven events for tracked tokens.
+
+**No actionable tradi
+
+Refusal detected: LLM explicitly refused to generate signals
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+These search results contain macro-level market analysis of the February 2026 crypto downturn rather than specific news catalysts tied to individual tokens. While the tariff relief[1] is broadly bullish for crypto markets, it's not a token-specific catalyst. The search results focus on Bitcoin's technical positioning (extreme MVRV values, distance from 200-day MA)[2], ETF flow dynamics[1], and general leverage deleveraging rather than news-driven events for tracked tokens.
+
+**No actionable trading signals generated** — these insights lack the token-specific catalysts required for directional positioning. Monitor for concrete events (partnerships, governance changes, protocol updates, regulatory decisions) to trigger signals.
+
+News items sent (10):
+[1] AI should serve as democratic infrastructure that augments human judgment and preserves privacy, not replace human governance, and Vitalik’s latest posts focus on mapping a “cypherpunk principled non-ugly Ethereum” and strengthening Ethereum’s censorship resistance, consensus, and core protocol in 2026. - https://leviathannews.xyz/redirect/31706?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Pritzker levies $8.7B clawback demand against Trump, issuing past-due invoice for $1,700 per household following tariff invalidation - https://leviathannews.xyz/redirect/31742?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] SEC's clear waters: 2% reserve rule unlocks stablecoin trading for brokers - https://leviathannews.xyz/redirect/31560?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Bitcoin's trillion-dollar evolution: finding its true role in a crowded crypto market - https://leviathannews.xyz/redirect/31694?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Japan's SBI to issue 10 billion yen onchain bond with XRP rewards for retail investors. - https://leviathannews.xyz/redirect/31907?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Bitcoin’s quantum risk is no longer theoretical as ETH Denver debates exposed signatures, BIP 360, and whether network consensus can arrive in time. - https://leviathannews.xyz/redirect/31664?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Bitcoin remains vulnerable as ETF outflows persist, equities lose momentum & macro conditions offer no support, keeping downside risks firmly in play - https://leviathannews.xyz/redirect/31661?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Tether will wind down its offshore yuan stablecoin CNH₮, halting minting immediately and keeping redemptions open for one year amid weak demand. - https://leviathannews.xyz/redirect/31677?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] With institutions circling prediction markets, Polymarket’s edge window is shrinking fast, rewarding disciplined traders who scale strategy early. - https://leviathannews.xyz/redirect/31663?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Aave founder Kulechov addresses $9B idle liquidity critique, unveiling V4 auto-reinvestment into T-bills to optimize sub-par yield - https://leviathannews.xyz/redirect/31633?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 558 news articles (TVL: $68,433,138)
+$XRP XRP - 80 news articles (TVL: $636,416,718)
+$BTC Bitcoin - 531 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 320 news articles (TVL: $100,000)
+$AAVE AAVE - 252 news articles (TVL: $2,513,181,375)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche ...

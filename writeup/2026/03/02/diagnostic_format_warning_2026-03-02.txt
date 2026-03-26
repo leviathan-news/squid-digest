@@ -1,0 +1,49 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1856 chars. First 500 chars: **Bitcoin faces mounting headwinds entering March**, with February delivering approximately 15% losses and a bear flag pattern threatening further downside, though some analysts see capitulation signals and potential for a recovery bounce[1].
+
+The cryptocurrency market in March is navigating several critical crosswinds. Bitcoin's correlation to equities remains elevated at 0.55, meaning it's moving in lockstep with the S&P 500 rather than acting as a hedge[1]. This risk-on behavior makes Bitcoin
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+**Bitcoin faces mounting headwinds entering March**, with February delivering approximately 15% losses and a bear flag pattern threatening further downside, though some analysts see capitulation signals and potential for a recovery bounce[1].
+
+The cryptocurrency market in March is navigating several critical crosswinds. Bitcoin's correlation to equities remains elevated at 0.55, meaning it's moving in lockstep with the S&P 500 rather than acting as a hedge[1]. This risk-on behavior makes Bitcoin vulnerable to broader market volatility, particularly given Trump's tariff policies and Middle East geopolitical tensions pressuring equities[1].
+
+**Technical Setup**: Bitcoin trades inside a bear flag on the three-day chart with a projected 39% downside move if it breaks down. Key support sits at $62,300; resistance is at $79,000, which would invalidate the bearish setup[1]. However, some analysts interpret extreme ETF outflows and fear levels as capitulation—signs of weak hands flushing out—rather than structural weakness[1].
+
+**March-Specific Catalysts**: The month faces $5.8 billion in token unlocks, with SUI, HYPE, RAIN leading the list, creating potential selling pressure[2][5]. Additionally, FOMC policy decisions, the Clarity Act stablecoin vote, and FTX fund distribution rounds could intensify volatility[2].
+
+**Bull Case**: Macroeconomist Henrik Zeberg projects Bitcoin could rally to $110,000–$120,000 if risk sentiment rotates back to growth assets, ETF inflows continue, and geopolitical tensions ease[3]. His base case assumes easing of Middle East tensions and sustained institutional demand[3].
+
+**Base Case**: Most analysts suggest flat to slightly positive performance through March as selling pressure weakens but hasn't extinguished—positioning for a local bounce followed by resolution of the broader bear flag structure[1].
+
+News items sent (10):
+[1] The issues they are seeing are related to Claude.ai and with the login/logout paths. - https://leviathannews.xyz/redirect/38131?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] German WW3 prep vs. American “LEEEEROOOOY JEEEENKIIINSSS” chaos in one brutal meme. - https://leviathannews.xyz/redirect/38087?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Chainlink argues privacy is a human requirement, not a blocker, positioning confidential compute as essential infrastructure for real-world onchain finance. - https://leviathannews.xyz/redirect/37521?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Lessons from 1890 Baring Crisis: Argentine Debt Bubble Triggers Transatlantic Contagion, Mirroring 2022 DeFi Cascade from Terra to FTX. Key Takeaways: Shun Unsustainable Yields and Hidden Leverage. - https://leviathannews.xyz/redirect/37422?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Stanford researchers find that Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI all default to using users’ AI chat conversations for model training with poor transparency and weak consent controls. - https://leviathannews.xyz/redirect/37446?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] February Fintech Funding Tops $1bn with 29 Deals as Platforms Expand - https://leviathannews.xyz/redirect/37408?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] A deep review of privacy-first AI tools shows which chatbots encrypt locally, avoid training on your data, and actually hold up under scrutiny. - https://leviathannews.xyz/redirect/37732?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] 👀 - https://leviathannews.xyz/redirect/37468?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] "The Financial Infrastructure Layer"
+
+A new article by Stani Kulechov, founder and CEO of Aave Labs - https://leviathannews.xyz/redirect/37584?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Stillcore Capital reveals why Bittensor could be the most asymmetric crypto opportunity, framing TAO as the coordination layer for decentralized AI markets. - https://leviathannews.xyz/redirect/38004?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 591 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 587 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 322 news articles (TVL: $100,000)
+$AAVE AAVE - 253 news articles (TVL: $2,513,181,375)
+$XRP XRP - 106 news articles (TVL: $636,416,718)
+$SOL Solana - 79 news articles (TVL: $800,000,000,000)
+$BNB BNB - 79 news articles (TVL: $81,240,000,000)
+$HYPE HYPE - 79 news articles (TVL: $12,000,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche...

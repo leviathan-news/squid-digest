@@ -1,0 +1,43 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 776 chars. First 500 chars: I cannot generate trading signals from these search results because they contain general market analysis and technical commentary rather than specific news-driven catalysts for the tracked tokens.
+
+The articles analyze Bitcoin and Ethereum price action, technical levels, and broader market sentiment (fear index, ETF flows, geopolitical concerns), but they don't include actionable news events tied to specific tokens in the tracked list that would warrant signal generation.
+
+To provide meaningful 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I cannot generate trading signals from these search results because they contain general market analysis and technical commentary rather than specific news-driven catalysts for the tracked tokens.
+
+The articles analyze Bitcoin and Ethereum price action, technical levels, and broader market sentiment (fear index, ETF flows, geopolitical concerns), but they don't include actionable news events tied to specific tokens in the tracked list that would warrant signal generation.
+
+To provide meaningful trading signals for Leviathan News, I need specific catalysts—such as protocol updates, funding announcements, regulatory developments, or product launches—tied directly to tokens on the tracked list. General price predictions and technical analysis don't meet this threshold.
+
+News items sent (10):
+[1] OmniPact secures $50 million to advance trust infrastructure for peer-to-peer transactions of physical and digital assets. - https://leviathannews.xyz/redirect/44032?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Helios Finance secures $1M in funding to unlock on-chain Bitcoin liquidity. - https://leviathannews.xyz/redirect/44372?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Dubai orders crypto exchange KuCoin to stop offering services to residents as it is not appropriately licensed. - https://leviathannews.xyz/redirect/43898?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] 0G Compute launches GLM-5, the top ranked open-source AI model with 744B parameters, enabling private AI inference through TEE infrastructure. - https://leviathannews.xyz/redirect/61097?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Propr launches an onchain prop trading firm on Hyperliquid, funding traders with up to $100K capital and offering 80% profit share with USDC payouts. - https://leviathannews.xyz/redirect/61177?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Prediction market hedge funds run systematic trading desks using probability models, data pipelines & HFT-style execution across thousands of markets. - https://leviathannews.xyz/redirect/61373?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] AI isn’t the end of work but the beginning of a new builder era, where curiosity and problem-solving matter more than technical barriers. - https://leviathannews.xyz/redirect/66809?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Kraken's tokenized equities platform debuts trading engine xChange to eliminate fragmentation. - https://leviathannews.xyz/redirect/64693?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Agentic services are becoming open, composable and decentralized, creating new autonomous markets and attracting builders exploring next-gen software. - https://leviathannews.xyz/redirect/61111?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Pendle users explore Apyx yield opportunities as apxUSD introduces a basket-backed unstablecoin model with audits from Certora and Quantstamp. - https://leviathannews.xyz/redirect/61650?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 654 news articles (TVL: $369,000,000)
+$ETH Ethereum - 623 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 323 news articles (TVL: $100,000)
+$AAVE AAVE - 256 news articles (TVL: $2,513,181,375)
+$XRP XRP - 118 news articles (TVL: $636,416,718)
+$BNB BNB - 102 news articles (TVL: $81,240,000,000)
+$SOL Solana - 87 news articles (TVL: $800,000,000,000)
+$HYPE HYPE - 80 news articles (TVL: $12,000,000,000)
+$NEAR NEAR - 70 news articles (TVL: $6,433,844,521)
+$AVAX Avalanche - 68...

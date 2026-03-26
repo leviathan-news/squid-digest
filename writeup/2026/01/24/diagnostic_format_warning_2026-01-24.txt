@@ -1,0 +1,41 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1220 chars. First 500 chars: I need to clarify that the search results provided contain general market analysis reports rather than the specific news catalysts needed to generate actionable trading signals.
+
+The search results indicate that as of late January 2026, crypto markets are consolidating with mixed signals: Bitcoin holding above $90k support but facing tariff uncertainty, Ethereum consolidating within the $3,000-$3,200 pivot zone, and altcoins showing weakness with capital rotating toward traditional assets. Insti
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I need to clarify that the search results provided contain general market analysis reports rather than the specific news catalysts needed to generate actionable trading signals.
+
+The search results indicate that as of late January 2026, crypto markets are consolidating with mixed signals: Bitcoin holding above $90k support but facing tariff uncertainty, Ethereum consolidating within the $3,000-$3,200 pivot zone, and altcoins showing weakness with capital rotating toward traditional assets. Institutional flows remain volatile, with Bitcoin ETF patterns suggesting tactical positioning rather than sustained allocation. However, without specific news-driven catalysts tied to individual tracked tokens in these results, I cannot generate the high-conviction trading signals that would be actionable for traders.
+
+If you'd like trading signals based on the recent Leviathan News headlines (which include updates on Convex Finance governance monetization, River's TRON expansion funding, and infiniFi's Maple Finance positioning), please confirm and I can generate those specific signals. Alternatively, if you have additional headline-specific search results for the tracked tokens, I can analyze those for catalysts.
+
+News items sent (10):
+[1] Is Ethereum Finally Taking Over Wall Street? - https://leviathannews.xyz/redirect/23995?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Convex Finance turned DeFi governance’s biggest weaknesses—low participation and concentrated power—into a system advantage by optimizing around liquidity coordination and incentive routing rather than idealized voting. By monetizing governance through bribes and veCRV control, Convex built a durable revenue engine that has survived multiple market cycles. - https://leviathannews.xyz/redirect/24003?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] River secures $8 million from TRON DAO Ventures to expand chain-abstraction infrastructure on TRON. - https://leviathannews.xyz/redirect/23998?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] SEC dismisses Gemini Earn civil action with prejudice ending pursuit of unregistered securities claims - https://leviathannews.xyz/redirect/23996?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] infiniFi is expanding beyond DeFi by deploying capital into Bitcoin-backed CeFi lending via Maple Finance, aiming to access higher, duration-based institutional yields as onchain rates compress. By acting as a duration engine, infiniFi bridges DeFi liquidity with regulated CeFi credit markets while maintaining capital efficiency. - https://leviathannews.xyz/redirect/24004?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Pantera Capital Shares 2026 Crypto Outlook - https://leviathannews.xyz/redirect/23993?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] FBI arrests ex-Olympian drug 'kingpin' who allegedly used crypto to move proceedsThe U.S. caught a top-ten most-wanted fugitive when they arrested Ryan Wedding, a former top snowboarder who's said to have used digital assets in his crimes. - https://leviathannews.xyz/redirect/23999?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] More terrible news for French cryptocurrency users: Waltio, a major crypto tax platform, has been breached, and the hacker group “Shiny Hunters” claims to have leaked data on around 50,000 clients. - https://leviathannews.xyz/redirect/23994?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Revolut scraps US merger plans in favour of push for standalone licence. UK-headquartered fintech had hoped to secure a banking charter through buying an American lender. - https://leviathannews.xyz/redirect/23990?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Leviathan Livestream!  Llama Party feat. Cap Money - https://leviathannews.xyz/redirect/23992?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$SQUID Leviathan Points - 306 news articles (TVL: $100,000)
+$ETH Ethereum - 539 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 518 news articles (TVL: $369,000,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$XRP XRP - 77 news articles (TVL: $636,416,718)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche ...

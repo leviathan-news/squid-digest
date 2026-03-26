@@ -1,0 +1,56 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1859 chars. First 500 chars: The crypto market is experiencing a broad-based decline driven by macroeconomic headwinds and Bitcoin's dominant influence over altcoins, rather than external factors typically correlated with crypto assets[1].
+
+**Market Fundamentals**
+
+Bitcoin is down approximately 26% since January 1, 2025, while altcoins have fared worse, with Cardano declining over 70%[1]. Crypto market capitalization has fallen 22% since the start of 2026 to $2.3 trillion[3]. This decline is particularly notable given a fav
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+The crypto market is experiencing a broad-based decline driven by macroeconomic headwinds and Bitcoin's dominant influence over altcoins, rather than external factors typically correlated with crypto assets[1].
+
+**Market Fundamentals**
+
+Bitcoin is down approximately 26% since January 1, 2025, while altcoins have fared worse, with Cardano declining over 70%[1]. Crypto market capitalization has fallen 22% since the start of 2026 to $2.3 trillion[3]. This decline is particularly notable given a favorable external environment: precious metals have rallied 85-160%, the U.S. dollar has weakened against most major currencies, and U.S. equities have performed solidly[1].
+
+**Bitcoin Dominance Effect**
+
+The primary driver of altcoin weakness appears to be **Bitcoin's gravitational pull**. Crypto tokens show remarkably high correlation with BTC—ranging from +0.7 to +0.82 for major assets like ETH, SOL, and LINK—substantially higher than their correlations with traditional macroeconomic indicators[1]. This suggests the answer to why crypto is selling off "lies within BTC" rather than external conditions[1].
+
+**Macroeconomic Pressures**
+
+The U.S.-Japan yield spread fell below 1%, historically signaling Bitcoin price pressure through yen carry trade unwinds and liquidity tightening in risk assets[2]. Additionally, the market faces policy uncertainty surrounding tariffs, government shutdown dynamics, and Federal Reserve leadership transitions[2].
+
+**Structural Market Shifts**
+
+Altcoin markets have structurally contracted, with assets outside the top 10 now representing just 7.1% of total crypto market capitalization—well below prior expansion phases[2]. Capital concentration in large-cap majors reflects a macro-driven environment that favors institutional-grade assets, while stablecoin usage remains elevated at $160B market capitalization[2].
+
+News items sent (10):
+[1] Reserve Protocol engineer Akshat Mittal identifies himself as the winner of the $3MM Immunefi bug bounty, which he found using frontier Claude and OpenAI models - https://leviathannews.xyz/redirect/27051?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] The pickaxes of the AI gold rush: 8 Japanese ‘physics’ powerhouses behind Nvidia. - https://leviathannews.xyz/redirect/27399?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Owning your liquidity builds an unshakable foundation for long-term growth - https://leviathannews.xyz/redirect/27426?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Native issuers will dominate tokenized equities as SEC clarity favors real ownership, pushing institutional capital toward compliant onchain rails. - https://leviathannews.xyz/redirect/27410?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Setting sail: how crypto will be the anchor for the AI agent fleet - https://leviathannews.xyz/redirect/27305?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Bitcoin layer-2 builders pitch BTCFi as the next institutional unlock at Consensus Hong Kong 2026. - https://leviathannews.xyz/redirect/27079?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] A 27-year-old who says he has "negative money" just took $200 million from the largest corporate Ethereum holder on earth. Then he bought a bank.
+If you're still pricing ETH on gas... - https://leviathannews.xyz/redirect/27446?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Were you aware? Prediction markets quietly tax traders of profits through means that erode expected value. - https://leviathannews.xyz/redirect/27429?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Dutch House approves controversial 36% tax on unrealized investment gains, sparking fears of capital flight and economic harm as the bill heads to the Senate for likely final passage. - https://leviathannews.xyz/redirect/27192?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Binance's Richard Teng breaks down the 10/10 nightmare that rocked crypto at CoinDesk's Consensus Hong Kong. - https://leviathannews.xyz/redirect/27080?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 550 news articles (TVL: $68,433,138)
+$BTC Bitcoin - 527 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 318 news articles (TVL: $100,000)
+$AAVE AAVE - 250 news articles (TVL: $2,513,181,375)
+$XRP XRP - 79 news articles (TVL: $636,416,718)
+$HYPE HYPE - 78 news articles (TVL: $12,000,000,000)
+$SOL Solana - 70 news articles (TVL: $800,000,000,000)
+$BNB BNB - 64 news articles (TVL: $81,240,000,000)
+$CRV Curve DAO Token - 63 news articles (TVL: $5,647,064)
+$AVAX Avalanche ...

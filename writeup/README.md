@@ -15,74 +15,78 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (January 23, 2026)
+## 🔥 Latest Headlines (March 25, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/01/23/signals_2026-01-23.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/01/23/signals_2026-01-23.md)
+📊 [View Full Analysis →](writeup/2026/03/25/signals_2026-03-25.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/03/25/signals_2026-03-25.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Jan 16 - Jan 23)
+### 📅 This Week (Mar 18 - Mar 25)
 
-[**Friday, January 23, 2026**](writeup/2026/01/23/signals_2026-01-23.md)
+[**Wednesday, March 25, 2026**](writeup/2026/03/25/signals_2026-03-25.md)
 
-[**Thursday, January 22, 2026**](writeup/2026/01/22/signals_2026-01-22.md)
+[**Tuesday, March 24, 2026**](writeup/2026/03/24/signals_2026-03-24.md)
 
-[**Wednesday, January 21, 2026**](writeup/2026/01/21/signals_2026-01-21.md)
+[**Monday, March 23, 2026**](writeup/2026/03/23/signals_2026-03-23.md)
 
-[**Tuesday, January 20, 2026**](writeup/2026/01/20/signals_2026-01-20.md)
+[**Sunday, March 22, 2026**](writeup/2026/03/22/signals_2026-03-22.md)
 
-[**Monday, January 19, 2026**](writeup/2026/01/19/signals_2026-01-19.md)
+[**Saturday, March 21, 2026**](writeup/2026/03/21/signals_2026-03-21.md)
 
-[**Sunday, January 18, 2026**](writeup/2026/01/18/signals_2026-01-18.md)
+[**Friday, March 20, 2026**](writeup/2026/03/20/signals_2026-03-20.md)
 
-[**Saturday, January 17, 2026**](writeup/2026/01/17/signals_2026-01-17.md)
+[**Thursday, March 19, 2026**](writeup/2026/03/19/signals_2026-03-19.md)
 
-[**Friday, January 16, 2026**](writeup/2026/01/16/signals_2026-01-16.md)
+[**Wednesday, March 18, 2026**](writeup/2026/03/18/signals_2026-03-18.md)
 
-### 📅 Last Week (Jan 09 - Jan 15)
+### 📅 Last Week (Mar 11 - Mar 17)
 
-[**Thursday, January 15, 2026**](writeup/2026/01/15/signals_2026-01-15.md)
+[**Tuesday, March 17, 2026**](writeup/2026/03/17/signals_2026-03-17.md)
 
-[**Wednesday, January 14, 2026**](writeup/2026/01/14/signals_2026-01-14.md)
+[**Monday, March 16, 2026**](writeup/2026/03/16/signals_2026-03-16.md)
 
-[**Tuesday, January 13, 2026**](writeup/2026/01/13/signals_2026-01-13.md)
+[**Sunday, March 15, 2026**](writeup/2026/03/15/signals_2026-03-15.md)
 
-[**Monday, January 12, 2026**](writeup/2026/01/12/signals_2026-01-12.md)
+[**Saturday, March 14, 2026**](writeup/2026/03/14/signals_2026-03-14.md)
 
-[**Sunday, January 11, 2026**](writeup/2026/01/11/signals_2026-01-11.md)
+[**Friday, March 13, 2026**](writeup/2026/03/13/signals_2026-03-13.md)
 
-[**Saturday, January 10, 2026**](writeup/2026/01/10/signals_2026-01-10.md)
+[**Thursday, March 12, 2026**](writeup/2026/03/12/signals_2026-03-12.md)
 
-[**Friday, January 09, 2026**](writeup/2026/01/09/signals_2026-01-09.md)
+[**Wednesday, March 11, 2026**](writeup/2026/03/11/signals_2026-03-11.md)
 
-### 📅 Week of Jan 02 - Jan 06
+### 📅 Week of Mar 04 - Mar 10
 
-[**Tuesday, January 06, 2026**](writeup/2026/01/06/signals_2026-01-06.md)
+[**Tuesday, March 10, 2026**](writeup/2026/03/10/signals_2026-03-10.md)
 
-[**Sunday, January 04, 2026**](writeup/2026/01/04/signals_2026-01-04.md)
+[**Monday, March 09, 2026**](writeup/2026/03/09/signals_2026-03-09.md)
 
-[**Saturday, January 03, 2026**](writeup/2026/01/03/signals_2026-01-03.md)
+[**Sunday, March 08, 2026**](writeup/2026/03/08/signals_2026-03-08.md)
 
-[**Friday, January 02, 2026**](writeup/2026/01/02/signals_2026-01-02.md)
+[**Saturday, March 07, 2026**](writeup/2026/03/07/signals_2026-03-07.md)
 
-### 📅 Week of Dec 27 - Jan 01
+[**Friday, March 06, 2026**](writeup/2026/03/06/signals_2026-03-06.md)
 
-[**Thursday, January 01, 2026**](writeup/2026/01/01/signals_2026-01-01.md)
+[**Thursday, March 05, 2026**](writeup/2026/03/05/signals_2026-03-05.md)
 
-[**Wednesday, December 31, 2025**](writeup/2025/12/31/signals_2025-12-31.md)
+[**Wednesday, March 04, 2026**](writeup/2026/03/04/signals_2026-03-04.md)
 
-[**Tuesday, December 30, 2025**](writeup/2025/12/30/signals_2025-12-30.md)
+### 📅 Week of Feb 26 - Mar 03
 
-[**Monday, December 29, 2025**](writeup/2025/12/29/signals_2025-12-29.md)
+[**Tuesday, March 03, 2026**](writeup/2026/03/03/signals_2026-03-03.md)
 
-[**Sunday, December 28, 2025**](writeup/2025/12/28/signals_2025-12-28.md)
+[**Monday, March 02, 2026**](writeup/2026/03/02/signals_2026-03-02.md)
 
-[**Saturday, December 27, 2025**](writeup/2025/12/27/signals_2025-12-27.md)
+[**Sunday, March 01, 2026**](writeup/2026/03/01/signals_2026-03-01.md)
+
+[**Friday, February 27, 2026**](writeup/2026/02/27/signals_2026-02-27.md)
+
+[**Thursday, February 26, 2026**](writeup/2026/02/26/signals_2026-02-26.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
