@@ -138,17 +138,31 @@ def _convert_tables_to_lists(html_content: str) -> str:
         
         # Check if this is a SQUID Pass row (has h3 with "SQUID Pass Winner" or 🏆 emoji)
         if "SQUID Pass Winner" in content or ("🏆" in content and "<h3" in content):
-            # Extract headline from <strong> tag (not wrapped in <a>)
-            headline_match = re.search(r'<strong[^>]*>([^<]*)</strong>', content)
-            headline = headline_match.group(1).strip() if headline_match else ""
+            # Extract the full ad copy from the <p> tag.
+            # Structure: <p>Ad copy text... - <a href="..."><strong>Source</strong></a></p>
+            # We want the text before " - <a" as the headline, and the <a> as the source.
+            p_match = re.search(r'<p[^>]*>(.*?)</p>', content, re.DOTALL)
+            headline = ""
+            source_url = "#"
+            source_text = ""
+            if p_match:
+                p_content = p_match.group(1)
+                # Split on " - <a" to separate ad copy from source link
+                source_link_match = re.search(r'(.*?)\s*-\s*<a[^>]*href="([^"]*)"[^>]*>\s*<strong>([^<]*)</strong>\s*</a>', p_content, re.DOTALL)
+                if source_link_match:
+                    headline_raw = source_link_match.group(1)
+                    source_url = source_link_match.group(2)
+                    source_text = source_link_match.group(3)
+                    # Strip HTML tags from headline, keep text
+                    headline = re.sub(r'<[^>]+>', '', headline_raw).strip()
+                else:
+                    # Fallback: use the whole <p> text stripped of tags
+                    headline = re.sub(r'<[^>]+>', '', p_content).strip()
             
-            # Extract source (first <a> tag after the headline)
-            source_match = re.search(r'<strong[^>]*>[^<]*</strong>[^<]*-\s*<a[^>]*href="([^"]*)"[^>]*>([^<]*)</a>', content)
-            source_url = source_match.group(1) if source_match else "#"
-            source_text = source_match.group(2) if source_match else ""
-            
-            # Extract tags from span element
-            tags_match = re.search(r'<span[^>]*>🏷️\s*(.*?)</span>', content, re.DOTALL)
+            # Extract tags from <p> or <span> element
+            tags_match = re.search(r'<p[^>]*>🏷️\s*(.*?)</p>', content, re.DOTALL)
+            if not tags_match:
+                tags_match = re.search(r'<span[^>]*>🏷️\s*(.*?)</span>', content, re.DOTALL)
             tags_html = ""
             if tags_match:
                 # Extract individual tag links
@@ -160,8 +174,8 @@ def _convert_tables_to_lists(html_content: str) -> str:
                         tag_parts.append(f'<a href="{url}">{text_clean}</a>')
                     tags_html = "🏷️ " + " • ".join(tag_parts)
             
-            # Extract comment and username
-            comment_match = re.search(r'💬\s*<i>(.*?)</i>\s*—\s*@([^<\s]*)', content, re.DOTALL)
+            # Extract comment and username (may be <a>@username</a> or bare @username)
+            comment_match = re.search(r'💬\s*<i>(.*?)</i>\s*—\s*(?:<a[^>]*>)?@?([^<\s]*)(?:</a>)?', content, re.DOTALL)
             comment_html = ""
             if comment_match:
                 comment_text = html.unescape(comment_match.group(1))

@@ -573,25 +573,23 @@ def format_dual_sentiment_portfolios(
                  "Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. "
                  "Momentum follows sentiment; Contrarian inverts it.*\n")
 
-    # Sentiment Rankings Header
+    # Sentiment Rankings — compact list format (renders well in Telegram + email)
     lines.append("### Current Sentiment Rankings\n")
-    lines.append("| Token | Sentiment | Strategy Target |")
-    lines.append("|-------|-----------|-----------------|")
 
     # Top 5 positive (momentum long, contrarian short)
-    positive_count = 0
+    long_parts = []
     for symbol, score in sentiment_rankings:
-        if score > 0 and positive_count < 5:
-            lines.append(f"| {symbol} | +{score:.2f} | 🟢 Momentum Long / 🔴 Contrarian Short |")
-            positive_count += 1
-
-    if positive_count > 0:
-        lines.append("| ... | ... | ... |")
+        if score > 0 and len(long_parts) < 5:
+            long_parts.append(f"{symbol} (+{score:.2f})")
 
     # Bottom 3 negative (momentum short, contrarian long)
     negative_tokens = [(s, score) for s, score in sentiment_rankings if score < 0]
-    for symbol, score in negative_tokens[-3:]:
-        lines.append(f"| {symbol} | {score:.2f} | 🔴 Momentum Short / 🟢 Contrarian Long |")
+    short_parts = [f"{s} ({score:.2f})" for s, score in negative_tokens[-3:]]
+
+    if long_parts:
+        lines.append(f"🟢 **Long:** {' · '.join(long_parts)}")
+    if short_parts:
+        lines.append(f"🔴 **Short:** {' · '.join(short_parts)}")
 
     lines.append("")
 
