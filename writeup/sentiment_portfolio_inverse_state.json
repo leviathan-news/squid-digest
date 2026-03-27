@@ -1,5 +1,5 @@
 {
-  "cash": -605.1473457092512,
+  "cash": 62.50696949240012,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -124,8 +124,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.013396739391690258,
-      "entry_price": 70883.77962804663,
+      "quantity": -0.023010555334437126,
+      "entry_price": 70283.65089286776,
       "entry_date": "2026-03-04T13:54:44.148373",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1354,6 +1354,18 @@
       "signal_type": "CLEANUP_STABLECOIN",
       "pnl": 0.0,
       "entry_price": 1.0
+    },
+    {
+      "date": "2026-03-26T14:23:19.043904",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.009613815942746866,
+      "price": 69447.37856203316,
+      "value": 667.6543152016513,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1668,6 +1680,10 @@
     [
       "2026-03-25T14:16:29.072809",
       9565.234754743362
+    ],
+    [
+      "2026-03-26T14:23:19.043904",
+      9532.817026053046
     ]
   ]
 }
