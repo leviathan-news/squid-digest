@@ -90,7 +90,7 @@ jobs:
 
         # Forward Part 1 from planning channel to broadcast channel
         uv run python -c "
-        import sys, os, json
+        import sys, os
         from datetime import datetime
         sys.path.insert(0, 'src')
         from squid_digest.telegram import TelegramClient
@@ -113,13 +113,13 @@ jobs:
         channel_id = client.channel_id
         broadcast_id = os.getenv('TELEGRAM_BROADCAST_CHANNEL_ID')
 
-        result = client.forward_message(channel_id, part1_id, broadcast_id)
-        if result.get('ok'):
+        try:
+            result = client.forward_message(channel_id, part1_id, broadcast_id)
             fwd_id = result['result']['message_id']
             save_meta(date, {'forwarded_message_id': fwd_id})
             print(f'Forwarded (message_id: {fwd_id})')
-        else:
-            print(f'Forward failed: {result}')
+        except Exception as e:
+            print(f'Forward failed: {e}')
         "
 
     - name: Post to X
