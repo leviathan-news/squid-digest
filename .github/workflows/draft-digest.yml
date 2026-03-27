@@ -242,15 +242,17 @@ jobs:
           exit 1
         fi
         
-        # Create Ghost draft with actual content
+        # Create Ghost draft with actual content and capture ghost_url for distribution
         uv run python -c "
-        import sys
+        import sys, json
         sys.path.insert(0, 'src')
         from squid_digest.email import GhostEmailClient
+        from squid_digest.config import save_meta
         from pathlib import Path
-        
+        from datetime import datetime
+
         client = GhostEmailClient()
-        
+
         # Create signals draft
         signals_path = Path('$SIGNALS_FILE')
         if signals_path.exists():
@@ -258,8 +260,17 @@ jobs:
             html_content = client.format_digest_html(content)
             title = f'📊 Trading Signals Draft - {signals_path.stem.split(\"_\")[-1]}'
             post = client.create_post(title, html_content, status='draft')
-            print(f'✓ Created signals draft: {post.get(\"id\", \"unknown\")}')
-        
+            post_id = post.get('id', 'unknown')
+            print(f'✓ Created signals draft: {post_id}')
+
+            # Capture canonical Ghost URL into distribution metadata
+            ghost_url = post.get('url') or post.get('canonical_url')
+            if ghost_url:
+                date_str = signals_path.stem.split('_')[-1]
+                date = datetime.strptime(date_str, '%Y-%m-%d')
+                save_meta(date, {'ghost_url': ghost_url})
+                print(f'✓ Ghost URL saved to meta: {ghost_url}')
+
         print('✓ Draft created successfully for admin review')
         "
     
@@ -267,116 +278,17 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        TELEGRAM_CHANNEL_USERNAME: ${{ secrets.TELEGRAM_CHANNEL_USERNAME }}
       continue-on-error: true
       run: |
-        # Post signals digest to Telegram planning channel
-        echo "Posting signals digest to Telegram..."
-        
-        # Use today's date to find the signals file
         TODAY=$(date -u '+%Y-%m-%d')
-        YEAR=$(date -u '+%Y')
-        MONTH=$(date -u '+%m')
-        DAY=$(date -u '+%d')
-        SIGNALS_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
-        
-        if [ ! -f "$SIGNALS_FILE" ]; then
-          echo "Warning: Signals file not found: $SIGNALS_FILE"
-          echo "Skipping Telegram post"
-          exit 0
-        fi
-        
-        # Check if Telegram credentials are set
+
         if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHANNEL_ID" ]; then
-          echo "Warning: Telegram credentials not configured"
-          echo "Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID secrets to enable Telegram posting"
+          echo "Warning: Telegram credentials not configured, skipping"
           exit 0
         fi
-        
-        # Post to Telegram
-        uv run python -c "
-        import sys
-        import traceback
-        sys.path.insert(0, 'src')
-        from squid_digest.telegram import TelegramClient, format_for_telegram
-        from pathlib import Path
-        
-        try:
-            # Validate file exists before proceeding
-            signals_path = Path('$SIGNALS_FILE')
-            if not signals_path.exists():
-                print(f'ERROR: Signals file not found: {signals_path}')
-                print('Available files in writeup/ (recursive search):')
-                from pathlib import Path
-                writeup_dir = Path('writeup')
-                for f in sorted(writeup_dir.rglob('*.md')):
-                    print(f'  - {f.relative_to(writeup_dir)}')
-                sys.exit(1)
-            
-            # Validate Telegram credentials are set
-            import os
-            if not os.getenv('TELEGRAM_BOT_TOKEN'):
-                print('ERROR: TELEGRAM_BOT_TOKEN environment variable not set')
-                sys.exit(1)
-            if not os.getenv('TELEGRAM_CHANNEL_ID'):
-                print('ERROR: TELEGRAM_CHANNEL_ID environment variable not set')
-                sys.exit(1)
-            
-            # Initialize client (will validate credentials)
-            print('Initializing Telegram client...')
-            client = TelegramClient()
-            
-            # Read and format content
-            print(f'Reading signals file: {signals_path}')
-            content = signals_path.read_text()
-            
-            if not content or len(content.strip()) == 0:
-                print('ERROR: Signals file is empty')
-                sys.exit(1)
-            
-            print('Formatting content for Telegram...')
-            messages = format_for_telegram(content)
-            
-            if not messages or len(messages) == 0:
-                print('ERROR: No messages generated from content')
-                sys.exit(1)
-            
-            print(f'Formatted into {len(messages)} message(s)')
-            
-            # Validate message lengths
-            for i, msg in enumerate(messages, 1):
-                if len(msg) > 4096:
-                    print(f'WARNING: Message {i} exceeds Telegram limit ({len(msg)} chars)')
-                print(f'  Message {i}: {len(msg)} characters')
-            
-            # Send messages
-            print('Sending messages to Telegram...')
-            results = client.send_multiple_messages(messages)
-            
-            success_count = sum(1 for r in results if r.get('ok', False))
-            failed_count = len(messages) - success_count
-            
-            if success_count == len(messages):
-                print(f'✓ Successfully sent {success_count}/{len(messages)} message(s) to Telegram')
-            else:
-                print(f'⚠ Partially sent: {success_count}/{len(messages)} message(s) succeeded, {failed_count} failed')
-                # Print error details for failed messages
-                for i, result in enumerate(results, 1):
-                    if not result.get('ok', False):
-                        print(f'  Message {i} failed: {result.get(\"error\", \"Unknown error\")}')
-                sys.exit(1)
-            
-        except Exception as e:
-            print('=' * 80)
-            print('ERROR posting to Telegram:')
-            print(f'Exception type: {type(e).__name__}')
-            print(f'Exception message: {str(e)}')
-            print('=' * 80)
-            print('Full traceback:')
-            traceback.print_exc()
-            print('=' * 80)
-            # Exit with 0 to not fail workflow, but errors are now visible
-            sys.exit(0)
-        "
+
+        uv run python scripts/post_telegram.py --date "$TODAY"
 
     - name: Post to SQUID Cave
       env:
@@ -412,3 +324,19 @@ jobs:
         fi
 
         uv run python scripts/post_telegram_cave.py --date "$TODAY"
+
+    - name: Commit distribution metadata
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        git add writeup/**/meta_*.json 2>/dev/null || true
+
+        if git diff --cached --quiet; then
+          echo "No distribution metadata changes to commit"
+        else
+          git commit -m "📡 Distribution metadata for $(date -u '+%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push
+          echo "✓ Distribution metadata committed"
+        fi

@@ -90,3 +90,70 @@ def get_llm_config() -> Dict[str, Any]:
 
 # Create the unified configuration
 LLM_CHAT_CONFIG = get_llm_config()
+
+
+# --- Distribution URL helpers (single source of truth) ---
+
+TELEGRAM_CHANNEL_INVITE = "https://t.me/+8A2-Ypry6ytjYTYx"
+DEFAULT_BLURB = "Daily crypto trading signals from Leviathan News"
+
+
+def get_canonical_url(date: datetime) -> str:
+    """Generate deterministic canonical URL for digest on Ghost CMS.
+
+    This is a best-guess based on the slug pattern Ghost uses.
+    Prefer ``resolve_digest_url()`` which checks the meta JSON for
+    the actual published Ghost URL first.
+    """
+    month = date.strftime("%B").lower()
+    day = date.day
+    year = date.year
+    return f"https://digest.leviathannews.xyz/leviathan-news-daily-digest-{month}-{day}-{year}/"
+
+
+def get_github_url(date: datetime) -> str:
+    """Generate GitHub URL for digest markdown file."""
+    return (
+        f"https://github.com/leviathan-news/squid-digest/blob/main/writeup/"
+        f"{date.year}/{date.month:02d}/{date.day:02d}/signals_{date.strftime('%Y-%m-%d')}.md"
+    )
+
+
+def get_meta_path(date: datetime) -> Path:
+    """Return the path to the per-date metadata JSON file."""
+    return get_writeup_date_path(date) / f"meta_{date.strftime('%Y-%m-%d')}.json"
+
+
+def load_meta(date: datetime) -> dict:
+    """Load the per-date metadata JSON, returning ``{}`` if missing."""
+    import json
+
+    meta_path = get_meta_path(date)
+    if meta_path.exists():
+        try:
+            return json.loads(meta_path.read_text())
+        except (json.JSONDecodeError, OSError):
+            return {}
+    return {}
+
+
+def save_meta(date: datetime, data: dict) -> None:
+    """Merge *data* into the per-date metadata JSON and write it back."""
+    import json
+
+    meta_path = get_meta_path(date)
+    existing = load_meta(date)
+    existing.update(data)
+    meta_path.parent.mkdir(parents=True, exist_ok=True)
+    meta_path.write_text(json.dumps(existing, indent=2) + "\n")
+
+
+def resolve_digest_url(date: datetime) -> str:
+    """Return the best available digest URL for *date*.
+
+    Resolution order:
+    1. ``ghost_url`` from the per-date meta JSON (authoritative, from Ghost API)
+    2. Deterministic ``get_canonical_url(date)`` (fallback)
+    """
+    meta = load_meta(date)
+    return meta.get("ghost_url") or get_canonical_url(date)

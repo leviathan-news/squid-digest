@@ -16,6 +16,7 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -25,7 +26,14 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from squid_digest.telegram import TelegramClient, format_for_telegram
 from squid_digest.telegram.formatter import truncate_html_safely
-from squid_digest.config import WRITEUP_DIR
+from squid_digest.config import (
+    WRITEUP_DIR,
+    resolve_digest_url,
+    get_github_url,
+    load_meta,
+    DEFAULT_BLURB,
+    TELEGRAM_CHANNEL_INVITE,
+)
 
 
 def get_latest_signals_file() -> Path:
@@ -47,22 +55,6 @@ def get_signals_file_for_date(date: datetime) -> Path:
     if not filepath.exists():
         raise FileNotFoundError(f"Signals file not found: {filepath}")
     return filepath
-
-
-def get_canonical_url(date: datetime) -> str:
-    """Generate canonical URL for digest on web."""
-    month = date.strftime("%B").lower()  # january, february, etc.
-    day = date.day  # No leading zero
-    year = date.year
-    return f"https://digest.leviathannews.xyz/leviathan-news-daily-digest-{month}-{day}-{year}/"
-
-
-def get_github_url(date: datetime) -> str:
-    """Generate GitHub URL for digest markdown file."""
-    return (
-        f"https://github.com/leviathan-news/squid-digest/blob/main/writeup/"
-        f"{date.year}/{date.month:02d}/{date.day:02d}/signals_{date.strftime('%Y-%m-%d')}.md"
-    )
 
 
 def main():
@@ -103,17 +95,21 @@ def main():
 
     page1 = messages[0]
 
-    # Generate URLs
-    canonical_url = get_canonical_url(date)
+    # Generate URLs from shared helpers
+    canonical_url = resolve_digest_url(date)
     github_url = get_github_url(date)
 
-    # Build full message with masthead and links at the top (matching client.py)
-    telegram_channel = "https://t.me/+8A2-Ypry6ytjYTYx"
+    # Load blurb from metadata
+    meta = load_meta(date)
+    blurb = meta.get("blurb") or DEFAULT_BLURB
+
+    # Build full message with masthead and links at the top
     masthead = (
         "🐙 <b>SQUID Digest</b>\n"
-        f'📰 <a href="{canonical_url}">Web</a> • '
-        f'<a href="{github_url}">GitHub</a> • '
-        f'<a href="{telegram_channel}">Telegram</a>\n\n'
+        f"<i>{blurb}</i>\n"
+        f'✉️ <a href="{canonical_url}">Web</a> • '
+        f'⚙️ <a href="{github_url}">GitHub</a> • '
+        f'📣 <a href="{TELEGRAM_CHANNEL_INVITE}">Telegram</a>\n\n'
     )
     full_message = masthead + page1
 
@@ -129,26 +125,29 @@ def main():
         print("=" * 60)
         print(f"Message length: {len(full_message)} chars (limit: 4096)")
         print("-" * 60)
-        # Show full message (it's HTML but readable)
         print(full_message)
         print("-" * 60)
 
         if len(full_message) > 4096:
-            print(f"⚠️  WARNING: Message still exceeds limit after truncation!")
+            print("⚠️  WARNING: Message still exceeds limit after truncation!")
         else:
             print(f"✓ Message is within limit ({4096 - len(full_message)} chars remaining)")
 
         return
 
-    # Send to SQUID Cave
+    # Send to SQUID Cave — use the pre-built full_message with blurb masthead
+    # (don't call send_to_cave() which rebuilds its own hardcoded masthead)
     print("\nSending to SQUID Cave...")
     try:
-        # require_channel=False since we're using send_to_cave with its own channel
         client = TelegramClient(require_channel=False)
-        result = client.send_to_cave(page1, canonical_url, github_url)
+        cave_channel = os.getenv("TELEGRAM_CAVE_CHANNEL_ID")
+        if not cave_channel:
+            raise ValueError("TELEGRAM_CAVE_CHANNEL_ID not configured")
+        client.channel_id = cave_channel
+        result = client.send_message(full_message)
 
         if result.get("ok"):
-            print(f"✓ Posted to SQUID Cave successfully")
+            print("✓ Posted to SQUID Cave successfully")
             message_id = result.get("result", {}).get("message_id")
             if message_id:
                 print(f"  Message ID: {message_id}")

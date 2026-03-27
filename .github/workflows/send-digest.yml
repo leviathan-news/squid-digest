@@ -2,7 +2,7 @@ name: Send Daily Digest
 
 on:
   schedule:
-    # Run at 6 AM PT (14:00 UTC)
+    # Run at 6 AM PT (14:00 UTC) — 1 hour after draft-digest creates the Ghost draft
     - cron: '0 14 * * *'
   workflow_dispatch:  # Allow manual triggering for testing
 
@@ -10,28 +10,30 @@ jobs:
   send-digest:
     runs-on: ubuntu-latest
     permissions:
-      contents: read  # Allow reading repository contents
-    
+      contents: write  # Allow pushing meta JSON commits
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    
+
     - name: Install uv
       uses: astral-sh/setup-uv@v3
       with:
         version: "latest"
-    
+
     - name: Install dependencies
       run: |
         # Install dependencies using uv (project standard)
         uv sync
         uv pip install -e .
-    
+
     - name: Send digest email
       env:
         GHOST_URL: ${{ secrets.GHOST_URL }}
@@ -64,10 +66,93 @@ jobs:
         echo "📧 Sending digest email for: $DIGEST_FILE"
         echo "Using Ghost URL: $GHOST_URL"
 
-        # Send the email
+        # Send the email (this publishes the Ghost draft)
         if uv run python scripts/send_email.py --type public --digest-file "$DIGEST_FILE"; then
           echo "✅ Email sent successfully!"
         else
           echo "❌ Failed to send email"
           exit 1
+        fi
+
+    - name: Forward to broadcast channel
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        TELEGRAM_BROADCAST_CHANNEL_ID: ${{ secrets.TELEGRAM_BROADCAST_CHANNEL_ID }}
+      continue-on-error: true
+      run: |
+        TODAY=$(date -u '+%Y-%m-%d')
+
+        if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_BROADCAST_CHANNEL_ID" ]; then
+          echo "Warning: Broadcast channel credentials not configured, skipping"
+          exit 0
+        fi
+
+        # Forward Part 1 from planning channel to broadcast channel
+        uv run python -c "
+        import sys, os, json
+        from datetime import datetime
+        sys.path.insert(0, 'src')
+        from squid_digest.telegram import TelegramClient
+        from squid_digest.config import load_meta, save_meta
+
+        date = datetime.strptime('$TODAY', '%Y-%m-%d')
+        meta = load_meta(date)
+
+        if meta.get('forwarded_message_id'):
+            print(f'Already forwarded for $TODAY, skipping')
+            sys.exit(0)
+
+        # Find Part 1 message_id from meta (saved by post_telegram.py)
+        part1_id = meta.get('telegram_part1_message_id')
+        if not part1_id:
+            print('No telegram_part1_message_id in meta, skipping forward')
+            sys.exit(0)
+
+        client = TelegramClient()
+        channel_id = client.channel_id
+        broadcast_id = os.getenv('TELEGRAM_BROADCAST_CHANNEL_ID')
+
+        result = client.forward_message(channel_id, part1_id, broadcast_id)
+        if result.get('ok'):
+            fwd_id = result['result']['message_id']
+            save_meta(date, {'forwarded_message_id': fwd_id})
+            print(f'Forwarded (message_id: {fwd_id})')
+        else:
+            print(f'Forward failed: {result}')
+        "
+
+    - name: Post to X
+      env:
+        X_API_KEY: ${{ secrets.X_API_KEY }}
+        X_API_SECRET: ${{ secrets.X_API_SECRET }}
+        X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+        X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        X_ACCOUNT_USERNAME: ${{ secrets.X_ACCOUNT_USERNAME }}
+      continue-on-error: true
+      run: |
+        TODAY=$(date -u '+%Y-%m-%d')
+
+        if [ -z "$X_API_KEY" ] || [ -z "$X_ACCESS_TOKEN" ]; then
+          echo "Warning: X credentials not configured, skipping"
+          exit 0
+        fi
+
+        uv run python scripts/post_x.py --date "$TODAY"
+
+    - name: Commit distribution metadata
+      continue-on-error: true
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        git add writeup/**/meta_*.json 2>/dev/null || true
+
+        if git diff --cached --quiet; then
+          echo "No distribution metadata changes to commit"
+        else
+          git commit -m "📡 Distribution metadata for $(date -u '+%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push
+          echo "✓ Distribution metadata committed"
         fi
