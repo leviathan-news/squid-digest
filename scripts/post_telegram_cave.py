@@ -16,6 +16,7 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -134,12 +135,16 @@ def main():
 
         return
 
-    # Send to SQUID Cave
+    # Send to SQUID Cave — use the pre-built full_message with blurb masthead
+    # (don't call send_to_cave() which rebuilds its own hardcoded masthead)
     print("\nSending to SQUID Cave...")
     try:
-        # require_channel=False since we're using send_to_cave with its own channel
         client = TelegramClient(require_channel=False)
-        result = client.send_to_cave(page1, canonical_url, github_url)
+        cave_channel = os.getenv("TELEGRAM_CAVE_CHANNEL_ID")
+        if not cave_channel:
+            raise ValueError("TELEGRAM_CAVE_CHANNEL_ID not configured")
+        client.channel_id = cave_channel
+        result = client.send_message(full_message)
 
         if result.get("ok"):
             print("✓ Posted to SQUID Cave successfully")

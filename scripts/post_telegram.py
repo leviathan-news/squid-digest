@@ -168,6 +168,7 @@ def main():
 
     part1_msg_id = result1["result"]["message_id"]
     print(f"✓ Part 1 sent (message_id: {part1_msg_id})")
+    save_meta(file_date, {"telegram_part1_message_id": part1_msg_id})
 
     # --- Edit Part 1 to replace invite link with deep link ---
     deep_link = TelegramClient.get_message_link(channel_id, part1_msg_id)
@@ -186,28 +187,8 @@ def main():
         except Exception as e:
             print(f"⚠ Could not edit Part 1 (non-fatal): {e}")
 
-    # --- Forward to broadcast channel ---
-    broadcast_id = os.getenv("TELEGRAM_BROADCAST_CHANNEL_ID")
-    if broadcast_id:
-        meta = load_meta(file_date)
-        if meta.get("forwarded_message_id") and not args.force:
-            print(f"⏭ Already forwarded for {file_date.strftime('%Y-%m-%d')}, skipping (use --force to override)")
-        else:
-            try:
-                print(f"Forwarding Part 1 to broadcast channel {broadcast_id}...")
-                fwd_result = client.forward_message(channel_id, part1_msg_id, broadcast_id)
-                if fwd_result.get("ok"):
-                    fwd_msg_id = fwd_result["result"]["message_id"]
-                    save_meta(file_date, {"forwarded_message_id": fwd_msg_id})
-                    print(f"✓ Forwarded (message_id: {fwd_msg_id})")
-                else:
-                    print(f"⚠ Forward returned non-ok: {fwd_result}")
-            except Exception as e:
-                print(f"⚠ Forward failed (non-fatal): {e}")
-    else:
-        print("ℹ TELEGRAM_BROADCAST_CHANNEL_ID not set, skipping forward")
-
     # --- Send remaining parts (2, 3, …) with correct numbering ---
+    failed_parts = []
     for i in range(1, total_parts):
         part_num = i + 1
         header = f"<b>Part {part_num}/{total_parts}</b>\n\n"
@@ -224,9 +205,15 @@ def main():
                 print(f"✓ Part {part_num}/{total_parts} sent")
             else:
                 print(f"✗ Part {part_num} failed: {result}")
+                failed_parts.append(part_num)
         except Exception as e:
             print(f"✗ Part {part_num} failed: {e}")
             traceback.print_exc()
+            failed_parts.append(part_num)
+
+    if failed_parts:
+        print(f"\n✗ {len(failed_parts)} part(s) failed: {failed_parts}")
+        sys.exit(1)
 
     print(f"\n✓ Done — {total_parts} part(s) sent to Telegram")
 

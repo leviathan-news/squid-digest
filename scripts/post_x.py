@@ -40,10 +40,15 @@ EFFECTIVE_CHAR_LIMIT = 280
 
 
 def _extract_market_stats(content: str) -> str:
-    """Pull the top 3 movers from the Market Snapshot section."""
+    """Pull the top 3 price lines from the Market Snapshot section.
+
+    Actual format: • 🟢 **[BTC](url)**: $71,400.00 (+2.15%)
+    """
     lines = []
-    # Find bullet lines like "• 🔴 BTC: $69,447.00 (-2.73%)"
-    for m in re.finditer(r"•\s*[🔴🟢]\s*(\w+):\s*\$[\d,.]+\s*\(([+-][\d.]+%)\)", content):
+    for m in re.finditer(
+        r"•\s*[🔴🟢🟠🟡]\s*\*\*\[(\w+)\]\([^)]*\)\*\*:\s*\$[\d,.]+\s*\(([+-][\d.]+%)\)",
+        content,
+    ):
         symbol, pct = m.group(1), m.group(2)
         lines.append(f"{symbol} {pct}")
         if len(lines) >= 3:
@@ -52,13 +57,17 @@ def _extract_market_stats(content: str) -> str:
 
 
 def _extract_top_headline(content: str) -> str:
-    """Pull the first headline from the Top Stories section."""
-    m = re.search(r"\d+\.\s+(.+?)(?:\n|$)", content)
+    """Pull the first headline from the Top Stories section.
+
+    The Top Stories section uses HTML divs. Headlines are in:
+    <p ...>1. Headline text - <a ...><strong>Source</strong></a></p>
+    """
+    # Look for the numbered headline in the HTML paragraph format
+    m = re.search(r"<p[^>]*>\d+\.\s*(.+?)\s*-\s*<a[^>]*>", content)
     if m:
         headline = m.group(1).strip()
-        # Strip markdown bold/source suffixes
-        headline = re.sub(r"\s*-\s*\[.*?\]\(.*?\)\s*$", "", headline)
-        headline = headline.replace("**", "").strip()
+        # Strip any remaining HTML tags
+        headline = re.sub(r"<[^>]+>", "", headline).strip()
         if len(headline) > 80:
             headline = headline[:77] + "..."
         return headline
