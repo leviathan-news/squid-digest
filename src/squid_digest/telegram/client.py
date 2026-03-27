@@ -228,3 +228,97 @@ class TelegramClient:
         finally:
             self.channel_id = original_channel
 
+    # --- New methods for distribution enhancement ---
+
+    def edit_message(
+        self,
+        message_id: int,
+        text: str,
+        chat_id: Optional[str] = None,
+        parse_mode: str = "HTML",
+        disable_web_page_preview: bool = True,
+    ) -> Dict[str, Any]:
+        """Edit an existing message via editMessageText.
+
+        Args:
+            message_id: ID of the message to edit
+            text: New message text
+            chat_id: Channel to edit in (defaults to self.channel_id)
+            parse_mode: Parse mode for message formatting
+            disable_web_page_preview: Disable link previews
+        """
+        url = f"{self.api_url}/editMessageText"
+        payload = {
+            "chat_id": chat_id or self.channel_id,
+            "message_id": message_id,
+            "text": text,
+            "parse_mode": parse_mode,
+            "disable_web_page_preview": disable_web_page_preview,
+        }
+        try:
+            with httpx.Client(timeout=30) as client:
+                response = client.post(url, json=payload)
+                response.raise_for_status()
+                return response.json()
+        except httpx.HTTPStatusError as e:
+            error_details = {}
+            try:
+                error_details = e.response.json()
+            except Exception:
+                error_details = {"error": str(e)}
+            print(f"editMessageText error: {e.response.status_code} — {error_details}")
+            raise
+
+    def forward_message(
+        self,
+        from_chat_id: str,
+        message_id: int,
+        to_chat_id: str,
+    ) -> Dict[str, Any]:
+        """Forward a message from one chat to another.
+
+        Args:
+            from_chat_id: Source channel/chat ID
+            message_id: ID of the message to forward
+            to_chat_id: Destination channel/chat ID
+        """
+        url = f"{self.api_url}/forwardMessage"
+        payload = {
+            "chat_id": to_chat_id,
+            "from_chat_id": from_chat_id,
+            "message_id": message_id,
+        }
+        try:
+            with httpx.Client(timeout=30) as client:
+                response = client.post(url, json=payload)
+                response.raise_for_status()
+                return response.json()
+        except httpx.HTTPStatusError as e:
+            error_details = {}
+            try:
+                error_details = e.response.json()
+            except Exception:
+                error_details = {"error": str(e)}
+            print(f"forwardMessage error: {e.response.status_code} — {error_details}")
+            raise
+
+    @staticmethod
+    def get_message_link(chat_id: str, message_id: int) -> Optional[str]:
+        """Build a deep link to a specific message.
+
+        Uses ``TELEGRAM_CHANNEL_USERNAME`` env var for public channels,
+        falls back to ``t.me/c/…`` format for private supergroups (IDs
+        starting with ``-100``), and returns ``None`` otherwise.
+        """
+        username = os.getenv("TELEGRAM_CHANNEL_USERNAME")
+        if username:
+            username = username.lstrip("@")
+            return f"https://t.me/{username}/{message_id}"
+
+        chat_str = str(chat_id)
+        if chat_str.startswith("-100"):
+            stripped = chat_str[4:]  # remove "-100" prefix
+            return f"https://t.me/c/{stripped}/{message_id}"
+
+        return None
+

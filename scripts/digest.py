@@ -18,7 +18,7 @@ from squid_digest.config import (
     BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
     SENTIMENT_STATE_FILE, SENTIMENT_PORTFOLIO_STATE_FILE,
     SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
-    get_writeup_file_path
+    get_writeup_file_path, save_meta, DEFAULT_BLURB,
 )
 import os
 from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
@@ -1963,10 +1963,28 @@ async def bundle_writeup(verbose=False):
     
     with open(filename, "w") as f:
         f.write(full_writeup)
-    
+
     if verbose:
         logger.info(f"✓ Created: {filename}")
         logger.info("Trading signals generation completed successfully")
+
+    # --- Generate blurb and write distribution metadata ---
+    title = f"Crypto Trading Signals - {today.strftime('%B %d, %Y')}"
+    blurb = DEFAULT_BLURB
+    try:
+        # Extract a one-sentence blurb from the first few headlines
+        headline_texts = [s.get("headline", "") for s in news_data[:5] if s.get("headline")]
+        if headline_texts:
+            short_headlines = " • ".join(h[:60] for h in headline_texts[:3])
+            blurb = short_headlines
+        if verbose:
+            logger.info(f"Blurb: {blurb}")
+    except Exception as blurb_err:
+        logger.warning(f"Could not generate blurb: {blurb_err}")
+
+    save_meta(today, {"blurb": blurb, "date": today_str, "title": title})
+    if verbose:
+        logger.info("✓ Distribution metadata saved")
 
     # Generate RSS feed
     if verbose:
