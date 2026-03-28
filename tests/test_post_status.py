@@ -67,27 +67,12 @@ class TestPostStatus:
                 post_data_dict = post_call[0][2]
                 post_data = post_data_dict['posts'][0]
                 initial_status = post_data['status']
-                
+
                 # Should be created as draft first
-                assert initial_status == "draft", f"Post should be created as draft first, got {initial_status}"
-                
-                # Then find the PUT request to publish it
-                put_call = None
-                for call in call_args:
-                    if len(call[0]) >= 2 and call[0][0] == "PUT" and "posts" in call[0][1]:
-                        put_call = call
-                        break
-                
-                assert put_call is not None, "Post should be published via PUT request"
-                
-                # Check that PUT request publishes the post
-                put_data_dict = put_call[0][2]
-                put_post_data = put_data_dict['posts'][0]
-                final_status = put_post_data['status']
-                
-                # Verify final status is published
-                assert final_status == "published", f"Post should be published, got {final_status}"
-                assert final_status != "draft", "Post should NOT be draft after publishing"
+                assert initial_status == "draft", f"Post should be created as draft, got {initial_status}"
+
+                # send_email_to_members should be called to publish + send email
+                mock_send.assert_called_once_with("test-post-id", "label:subscriber")
                 
             finally:
                 Path(temp_path).unlink()

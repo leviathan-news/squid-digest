@@ -74,13 +74,12 @@ class TestEmailSubjectAndH1:
                 title = post_data['title']
                 status = post_data['status']
                 
-                # Verify subject line format
+                # Verify title format (via shared get_digest_title helper)
                 assert "🦑" in title, "Subject should contain squid emoji"
                 assert "Leviathan News Daily Digest" in title, "Subject should contain 'Leviathan News Daily Digest'"
-                assert "Crypto Trading Signals" not in title, "Subject should NOT contain old 'Crypto Trading Signals'"
-                
-                # Verify status is published (not draft)
-                assert status == "published", f"Post should be published, got {status}"
+
+                # Post is created as draft first, then published via send_email_to_members
+                assert status == "draft", f"Post should be created as draft, got {status}"
                 
             finally:
                 Path(temp_path).unlink()

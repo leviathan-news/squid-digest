@@ -2,7 +2,7 @@
 Tests for sentiment state tracking.
 
 These tests verify:
-1. Decay math is correct (7-day half-life)
+1. Decay math is correct (uses HALF_LIFE_DAYS from SentimentTracker)
 2. Signal spikes are applied correctly
 3. Ranking and candidate selection work
 4. State persistence works
@@ -21,6 +21,9 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from squid_digest.backtest.sentiment_state import SentimentTracker, TokenSentiment
+
+# Use the actual half-life from the tracker so tests stay in sync
+HALF_LIFE = SentimentTracker.HALF_LIFE_DAYS
 
 
 @dataclass
@@ -49,39 +52,35 @@ class TestSentimentDecay:
             assert decay == {}, "No decay should be applied on same day"
             assert tracker.sentiments["BTC"].score == 3.0
 
-    def test_half_decay_after_7_days(self):
-        """Score should be halved after 7 days."""
+    def test_half_decay_after_one_half_life(self):
+        """Score should be halved after exactly one half-life period."""
         with tempfile.TemporaryDirectory() as tmpdir:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
             day_0 = date(2025, 1, 1)
-            day_7 = date(2025, 1, 8)
+            day_hl = day_0 + timedelta(days=int(HALF_LIFE))
 
             tracker.apply_signal("BTC", "BUY", day_0)
-            initial_score = tracker.sentiments["BTC"].score
-            assert initial_score == 2.0
+            assert tracker.sentiments["BTC"].score == 2.0
 
-            tracker.apply_decay(day_7)
+            tracker.apply_decay(day_hl)
             final_score = tracker.sentiments["BTC"].score
 
-            # Should be approximately half
             assert abs(final_score - 1.0) < 0.01, f"Expected ~1.0, got {final_score}"
 
-    def test_quarter_decay_after_14_days(self):
-        """Score should be quartered after 14 days."""
+    def test_quarter_decay_after_two_half_lives(self):
+        """Score should be quartered after two half-life periods."""
         with tempfile.TemporaryDirectory() as tmpdir:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
             day_0 = date(2025, 1, 1)
-            day_14 = date(2025, 1, 15)
+            day_2hl = day_0 + timedelta(days=int(HALF_LIFE * 2))
 
             tracker.apply_signal("BTC", "BUY", day_0)
-            initial_score = 2.0
 
-            tracker.apply_decay(day_14)
+            tracker.apply_decay(day_2hl)
             final_score = tracker.sentiments["BTC"].score
 
-            # Should be approximately quarter
             assert abs(final_score - 0.5) < 0.01, f"Expected ~0.5, got {final_score}"
 
     def test_decay_zeroes_small_values(self):
@@ -90,13 +89,13 @@ class TestSentimentDecay:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
             day_0 = date(2025, 1, 1)
-            day_60 = date(2025, 3, 2)  # ~8 half-lives
+            # Use enough half-lives to drive score below threshold
+            day_far = day_0 + timedelta(days=int(HALF_LIFE * 10))
 
             tracker.apply_signal("BTC", "WEAK BUY", day_0)  # +1.0
 
-            tracker.apply_decay(day_60)
+            tracker.apply_decay(day_far)
 
-            # After many half-lives, should be zeroed
             assert tracker.sentiments["BTC"].score == 0.0
 
     def test_decay_preserves_sign(self):
@@ -105,11 +104,11 @@ class TestSentimentDecay:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
             day_0 = date(2025, 1, 1)
-            day_7 = date(2025, 1, 8)
+            day_hl = day_0 + timedelta(days=int(HALF_LIFE))
 
             tracker.apply_signal("BTC", "SELL", day_0)  # -2.0
 
-            tracker.apply_decay(day_7)
+            tracker.apply_decay(day_hl)
 
             assert tracker.sentiments["BTC"].score < 0
             assert abs(tracker.sentiments["BTC"].score - (-1.0)) < 0.01
@@ -320,15 +319,15 @@ class TestProcessDay:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
             day_0 = date(2025, 1, 1)
-            day_7 = date(2025, 1, 8)
+            day_hl = day_0 + timedelta(days=int(HALF_LIFE))
 
             # Initial signal
             tracker.apply_signal("BTC", "BUY", day_0)  # +2
             tracker.last_processed_date = day_0.isoformat()
 
-            # Process a week later with new signal
+            # Process one half-life later with new signal
             signals = [MockSignal("BTC", "WEAK BUY")]
-            result = tracker.process_day(signals, day_7)
+            result = tracker.process_day(signals, day_hl)
 
             # Should be: 2.0 * 0.5 (decay) + 1.0 (new signal) = 2.0
             assert abs(tracker.sentiments["BTC"].score - 2.0) < 0.01

@@ -189,8 +189,9 @@ class TestEdgeCaseAllSentimentDecayed:
         with tempfile.TemporaryDirectory() as tmpdir:
             tracker = SentimentTracker(Path(tmpdir) / "sentiment.json")
 
-            # Apply signal in the past
-            past_date = date.today() - timedelta(days=60)  # ~8 half-lives
+            # Apply signal far enough in the past for score to zero out
+            hl = SentimentTracker.HALF_LIFE_DAYS
+            past_date = date.today() - timedelta(days=int(hl * 10))
             tracker.apply_signal("BTC", "WEAK BUY", past_date)  # +1.0
 
             # Apply decay to today
@@ -337,8 +338,9 @@ class TestFullWorkflowIntegration:
             assert "ETH" in output
             assert "DOGE" in output
 
-            # Day 2: Continue with decay
-            day2 = date(2025, 1, 8)  # 7 days later
+            # Day 2: Continue with decay (one half-life later)
+            hl = SentimentTracker.HALF_LIFE_DAYS
+            day2 = day1 + timedelta(days=int(hl))
 
             tracker2 = SentimentTracker(state_file)
             tracker2.apply_decay(day2)

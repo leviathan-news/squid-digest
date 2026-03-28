@@ -134,7 +134,7 @@ def public_digest_template(content: str, date: str) -> str:
                             <td style="padding: 0;">
                                 <!-- Ghost automatically shows the post title, so we start directly with the content header -->
                                 <div class="header-padding" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; text-align: center; margin-bottom: 20px;">
-                                    <h1 style="margin: 0; font-size: 28px;">📊 Crypto Trading Signals</h1>
+                                    <h1 style="margin: 0; font-size: 28px;">🦑 Leviathan News Daily Digest</h1>
                                     <p style="margin: 10px 0 0 0; opacity: 0.9; font-size: 18px;">{date}</p>
                                     <p style="margin: 10px 0 0 0; opacity: 0.8;">Squid Digest - AI-powered insights for crypto natives</p>
                                 </div>
