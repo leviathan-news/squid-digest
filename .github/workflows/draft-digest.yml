@@ -247,7 +247,7 @@ jobs:
         import sys, json
         sys.path.insert(0, 'src')
         from squid_digest.email import GhostEmailClient
-        from squid_digest.config import save_meta
+        from squid_digest.config import save_meta, get_digest_title
         from pathlib import Path
         from datetime import datetime
 
@@ -258,7 +258,8 @@ jobs:
         if signals_path.exists():
             content = signals_path.read_text()
             html_content = client.format_digest_html(content)
-            title = f'📊 Trading Signals Draft - {signals_path.stem.split(\"_\")[-1]}'
+            date_str = signals_path.stem.split('_')[-1]
+            title = get_digest_title(datetime.strptime(date_str, '%Y-%m-%d'))
             post = client.create_post(title, html_content, status='draft')
             post_id = post.get('id', 'unknown')
             print(f'✓ Created signals draft: {post_id}')
@@ -268,8 +269,8 @@ jobs:
             if ghost_url:
                 date_str = signals_path.stem.split('_')[-1]
                 date = datetime.strptime(date_str, '%Y-%m-%d')
-                save_meta(date, {'ghost_url': ghost_url})
-                print(f'✓ Ghost URL saved to meta: {ghost_url}')
+                save_meta(date, {'draft_ghost_url': ghost_url})
+                print(f'✓ Draft Ghost URL saved to meta: {ghost_url}')
 
         print('✓ Draft created successfully for admin review')
         "

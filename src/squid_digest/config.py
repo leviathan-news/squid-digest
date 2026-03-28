@@ -96,6 +96,12 @@ LLM_CHAT_CONFIG = get_llm_config()
 
 TELEGRAM_CHANNEL_INVITE = "https://t.me/+8A2-Ypry6ytjYTYx"
 DEFAULT_BLURB = "Daily crypto trading signals from Leviathan News"
+SQUID_DIGEST_IMAGE_URL = "https://digest.leviathannews.xyz/content/images/2025/09/Digest-2.jpg"
+
+
+def get_digest_title(date: datetime) -> str:
+    """Shared title for Ghost posts — used by draft creation, publish, and updates."""
+    return f"\U0001f991 Leviathan News Daily Digest - {date.strftime('%B %d, %Y')}"
 
 
 def get_canonical_url(date: datetime) -> str:
@@ -151,9 +157,90 @@ def save_meta(date: datetime, data: dict) -> None:
 def resolve_digest_url(date: datetime) -> str:
     """Return the best available digest URL for *date*.
 
-    Resolution order:
-    1. ``ghost_url`` from the per-date meta JSON (authoritative, from Ghost API)
-    2. Deterministic ``get_canonical_url(date)`` (fallback)
+    May include draft URLs — suitable for internal channels (Telegram planning, Cave).
+    For public distribution (𝕏, broadcast), use ``resolve_public_digest_url()``.
     """
     meta = load_meta(date)
-    return meta.get("ghost_url") or get_canonical_url(date)
+    return (
+        meta.get("published_ghost_url")
+        or meta.get("draft_ghost_url")
+        or meta.get("ghost_url")  # legacy key
+        or get_canonical_url(date)
+    )
+
+
+def resolve_public_digest_url(date: datetime) -> str:
+    """Return a published-only digest URL for *date*.
+
+    Never returns draft URLs. Safe for public distribution (𝕏, broadcast channel).
+    Falls back to the deterministic canonical URL.
+    """
+    meta = load_meta(date)
+    return meta.get("published_ghost_url") or get_canonical_url(date)
+
+
+def generate_blurb(headlines: list, max_chars: int = 200) -> str:
+    """Generate a human-sounding blurb from headlines via Perplexity.
+
+    Fallback chain:
+    1. Perplexity AI (short completion, 10s timeout)
+    2. Smart template ("In today's digest: h1, h2, and h3")
+    3. DEFAULT_BLURB constant
+
+    Args:
+        headlines: List of headline strings (top 3-5).
+        max_chars: Max blurb length.
+    """
+    import logging
+    logger = logging.getLogger(__name__)
+
+    if not headlines:
+        return DEFAULT_BLURB
+
+    # --- Tier 1: Perplexity AI ---
+    api_key = PERPLEXITY_CHAT_MODEL.get("API_KEY")
+    if api_key:
+        try:
+            import httpx
+
+            prompt = (
+                f"Summarize these crypto news headlines into one engaging sentence "
+                f"(under {max_chars} characters) for a social media teaser. "
+                f"Mention token names and key numbers. No hashtags, no emojis.\n\n"
+                + "\n".join(f"{i+1}. {h}" for i, h in enumerate(headlines[:5]))
+            )
+
+            resp = httpx.post(
+                "https://api.perplexity.ai/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={
+                    "model": "sonar",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": 100,
+                    "temperature": 0.7,
+                },
+                timeout=10,
+            )
+            resp.raise_for_status()
+            blurb = resp.json()["choices"][0]["message"]["content"].strip()
+            # Strip any <think>...</think> tags from reasoning models
+            import re
+            blurb = re.sub(r'<think>.*?</think>', '', blurb, flags=re.DOTALL).strip()
+            if blurb and len(blurb) <= max_chars:
+                return blurb
+            elif blurb:
+                return blurb[:max_chars - 3] + "..."
+        except Exception as e:
+            logger.warning(f"Perplexity blurb generation failed: {e}")
+
+    # --- Tier 2: Smart template ---
+    short = [h[:60] for h in headlines[:3]]
+    if len(short) >= 3:
+        return f"In today's digest: {short[0]}, {short[1]}, and {short[2]}"
+    elif len(short) == 2:
+        return f"In today's digest: {short[0]} and {short[1]}"
+    elif short:
+        return f"In today's digest: {short[0]}"
+
+    # --- Tier 3: Default ---
+    return DEFAULT_BLURB

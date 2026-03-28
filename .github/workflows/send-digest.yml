@@ -74,10 +74,9 @@ jobs:
           exit 1
         fi
 
-    - name: Forward to broadcast channel
+    - name: Post to broadcast channel
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         TELEGRAM_BROADCAST_CHANNEL_ID: ${{ secrets.TELEGRAM_BROADCAST_CHANNEL_ID }}
       continue-on-error: true
       run: |
@@ -88,39 +87,7 @@ jobs:
           exit 0
         fi
 
-        # Forward Part 1 from planning channel to broadcast channel
-        uv run python -c "
-        import sys, os
-        from datetime import datetime
-        sys.path.insert(0, 'src')
-        from squid_digest.telegram import TelegramClient
-        from squid_digest.config import load_meta, save_meta
-
-        date = datetime.strptime('$TODAY', '%Y-%m-%d')
-        meta = load_meta(date)
-
-        if meta.get('forwarded_message_id'):
-            print(f'Already forwarded for $TODAY, skipping')
-            sys.exit(0)
-
-        # Find Part 1 message_id from meta (saved by post_telegram.py)
-        part1_id = meta.get('telegram_part1_message_id')
-        if not part1_id:
-            print('No telegram_part1_message_id in meta, skipping forward')
-            sys.exit(0)
-
-        client = TelegramClient()
-        channel_id = client.channel_id
-        broadcast_id = os.getenv('TELEGRAM_BROADCAST_CHANNEL_ID')
-
-        try:
-            result = client.forward_message(channel_id, part1_id, broadcast_id)
-            fwd_id = result['result']['message_id']
-            save_meta(date, {'forwarded_message_id': fwd_id})
-            print(f'Forwarded (message_id: {fwd_id})')
-        except Exception as e:
-            print(f'Forward failed: {e}')
-        "
+        uv run python scripts/post_telegram_broadcast.py --date "$TODAY"
 
     - name: Post to X
       env:

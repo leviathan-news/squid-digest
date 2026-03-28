@@ -18,7 +18,7 @@ from squid_digest.config import (
     BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
     SENTIMENT_STATE_FILE, SENTIMENT_PORTFOLIO_STATE_FILE,
     SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
-    get_writeup_file_path, save_meta, DEFAULT_BLURB,
+    get_writeup_file_path, save_meta, DEFAULT_BLURB, generate_blurb,
 )
 import os
 from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
@@ -1970,19 +1970,29 @@ async def bundle_writeup(verbose=False):
 
     # --- Generate blurb and write distribution metadata ---
     title = f"Crypto Trading Signals - {today.strftime('%B %d, %Y')}"
-    blurb = DEFAULT_BLURB
-    try:
-        # Extract a one-sentence blurb from the first few headlines
-        headline_texts = [s.get("headline", "") for s in news_data[:5] if s.get("headline")]
-        if headline_texts:
-            short_headlines = " • ".join(h[:60] for h in headline_texts[:3])
-            blurb = short_headlines
-        if verbose:
-            logger.info(f"Blurb: {blurb}")
-    except Exception as blurb_err:
-        logger.warning(f"Could not generate blurb: {blurb_err}")
+    headline_texts = [s.get("headline", "") for s in news_data[:5] if s.get("headline")]
+    blurb = generate_blurb(headline_texts)
+    if verbose:
+        logger.info(f"Blurb: {blurb}")
 
-    save_meta(today, {"blurb": blurb, "date": today_str, "title": title})
+    # Extract top story data for downstream scripts (broadcast, tweet)
+    top_story_headline = news_data[0].get("headline", "") if news_data else ""
+    top_comment_text = ""
+    top_comment_author = ""
+    if news_data:
+        top_yaps = news_data[0].get("top_yaps", [])
+        if top_yaps:
+            top_comment_text = top_yaps[0].get("text", "")
+            top_comment_author = top_yaps[0].get("author", {}).get("display_name", "")
+
+    save_meta(today, {
+        "blurb": blurb,
+        "date": today_str,
+        "title": title,
+        "top_story_headline": top_story_headline,
+        "top_story_comment": top_comment_text,
+        "top_story_author": top_comment_author,
+    })
     if verbose:
         logger.info("✓ Distribution metadata saved")
 

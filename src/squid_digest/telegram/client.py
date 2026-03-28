@@ -230,6 +230,42 @@ class TelegramClient:
 
     # --- New methods for distribution enhancement ---
 
+    def send_photo(
+        self,
+        photo_url: str,
+        caption: str,
+        chat_id: Optional[str] = None,
+        parse_mode: str = "HTML",
+    ) -> Dict[str, Any]:
+        """Send a photo with caption via Telegram sendPhoto API.
+
+        Args:
+            photo_url: Public URL of the image (Telegram fetches it server-side)
+            caption: Caption text (max 1024 chars)
+            chat_id: Target channel/chat (defaults to self.channel_id)
+            parse_mode: Parse mode for caption formatting
+        """
+        url = f"{self.api_url}/sendPhoto"
+        payload = {
+            "chat_id": chat_id or self.channel_id,
+            "photo": photo_url,
+            "caption": caption[:1024],
+            "parse_mode": parse_mode,
+        }
+        try:
+            with httpx.Client(timeout=30) as client:
+                response = client.post(url, json=payload)
+                response.raise_for_status()
+                return response.json()
+        except httpx.HTTPStatusError as e:
+            error_details = {}
+            try:
+                error_details = e.response.json()
+            except Exception:
+                error_details = {"error": str(e)}
+            print(f"sendPhoto error: {e.response.status_code} — {error_details}")
+            raise
+
     def edit_message(
         self,
         message_id: int,

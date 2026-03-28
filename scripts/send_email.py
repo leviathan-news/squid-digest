@@ -130,6 +130,18 @@ def main():
     
     if success:
         print(f"✓ {args.type.title()} email sent successfully via Ghost")
+
+        # Save published URL to meta for downstream distribution (X, broadcast)
+        if args.type == "public" and client.last_published_url:
+            try:
+                from datetime import datetime as _dt
+                from squid_digest.config import save_meta
+                date_part = Path(args.digest_file).stem.split("_")[-1]
+                pub_date = _dt.strptime(date_part, "%Y-%m-%d")
+                save_meta(pub_date, {"published_ghost_url": client.last_published_url})
+                print(f"✓ Published URL saved to meta: {client.last_published_url}")
+            except Exception as e:
+                print(f"⚠ Could not save published URL to meta: {e}")
     else:
         print(f"✗ Failed to send {args.type} email via Ghost")
         sys.exit(1)

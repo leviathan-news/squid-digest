@@ -32,6 +32,9 @@ class GhostEmailClient:
         
         # Clean up URL
         self.ghost_url = self.ghost_url.rstrip('/')
+
+        # Set by send_email_to_members after a successful publish
+        self.last_published_url = None
         self.api_url = f"{self.ghost_url}/ghost/api/admin"
         
         # Email configuration
@@ -355,8 +358,10 @@ class GhostEmailClient:
 
             post = published_post.get("posts", [{}])[0]
 
+            self.last_published_url = post.get('url')
+
             print(f"✓ Post published and email queued for delivery")
-            print(f"✓ Post URL: {post.get('url', 'N/A')}")
+            print(f"✓ Post URL: {self.last_published_url or 'N/A'}")
             print(f"📧 Email will be sent to all newsletter subscribers")
 
             return True
@@ -1035,30 +1040,33 @@ class GhostEmailClient:
         with open(digest_file, 'r', encoding='utf-8') as f:
             markdown_content = f.read()
         
-        # Extract date from filename or content
-        date_str = dt.now().strftime("%B %d, %Y")
-        if "trading_signals_" in digest_file.name:
-            try:
-                date_part = digest_file.stem.split("_")[-1]  # Get date part
-                parsed_date = dt.strptime(date_part, "%Y-%m-%d")
-                date_str = parsed_date.strftime("%B %d, %Y")
-            except:
-                pass  # Use current date if parsing fails
-        
+        # Extract date from filename
+        parsed_date = dt.now()
+        try:
+            date_part = digest_file.stem.split("_")[-1]
+            parsed_date = dt.strptime(date_part, "%Y-%m-%d")
+        except (ValueError, IndexError):
+            pass
+        date_str = parsed_date.strftime("%B %d, %Y")
+
         # Convert to HTML
         html_digest_content = self.format_digest_html(markdown_content)
-        
+
         # Generate full email HTML
         html_content = public_digest_template(html_digest_content, date_str)
-        
-        # Generate title
-        title = f"🦑 Leviathan News Daily Digest - {date_str}"
+
+        # Generate title using shared helper
+        from squid_digest.config import get_digest_title
+        title = get_digest_title(parsed_date)
 
         # Create post as draft first
         post = self.create_post(title, html_content, status="draft", send_email=False)
         post_id = post["id"]
 
         print(f"✓ Draft post created: {post_id}")
+
+        # Reset before publish so stale URLs don't carry over
+        self.last_published_url = None
 
         # Publish with newsletter parameters to trigger email sending
         return self.send_email_to_members(post_id, "label:subscriber")
