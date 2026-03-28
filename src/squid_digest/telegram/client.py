@@ -228,6 +228,58 @@ class TelegramClient:
         finally:
             self.channel_id = original_channel
 
+    @staticmethod
+    def _truncate_caption(html_content: str, max_length: int) -> str:
+        """Truncate HTML caption to fit a hard character limit.
+
+        Unlike truncate_html_safely (designed for 4096-char messages),
+        this guarantees the returned string is <= max_length by reserving
+        space for closing tags and omitting the truncation notice.
+        """
+        import re as _re
+
+        if len(html_content) <= max_length:
+            return html_content
+
+        tag_pattern = _re.compile(r'<(/?)([a-zA-Z][a-zA-Z0-9]*)[^>]*>')
+        self_closing = {'br', 'img', 'hr', 'input', 'meta', 'link'}
+
+        # Estimate worst-case closing-tag overhead: count open tags in first max_length chars
+        # Each closing tag is at most </blockquote> = 13 chars
+        # Reserve generous space: 100 chars for closing tags
+        reserve = 100
+        cut_point = max_length - reserve
+
+        truncated = html_content[:cut_point]
+
+        # Don't cut inside a tag
+        last_open = truncated.rfind('<')
+        if last_open != -1 and '>' not in truncated[last_open:]:
+            truncated = truncated[:last_open]
+
+        # Track unclosed tags
+        tag_stack = []
+        for match in tag_pattern.finditer(truncated):
+            is_closing = match.group(1) == '/'
+            tag_name = match.group(2).lower()
+            if tag_name in self_closing:
+                continue
+            if is_closing:
+                if tag_stack and tag_stack[-1] == tag_name:
+                    tag_stack.pop()
+            else:
+                tag_stack.append(tag_name)
+
+        # Close open tags
+        for tag_name in reversed(tag_stack):
+            truncated += f'</{tag_name}>'
+
+        # Final guarantee: if still over (shouldn't happen with 100-char reserve), hard cut
+        if len(truncated) > max_length:
+            truncated = truncated[:max_length]
+
+        return truncated
+
     # --- New methods for distribution enhancement ---
 
     def send_photo(
@@ -245,10 +297,8 @@ class TelegramClient:
             chat_id: Target channel/chat (defaults to self.channel_id)
             parse_mode: Parse mode for caption formatting
         """
-        from squid_digest.telegram.formatter import truncate_html_safely
-
         if len(caption) > 1024:
-            caption = truncate_html_safely(caption, 1024)
+            caption = self._truncate_caption(caption, 1024)
 
         url = f"{self.api_url}/sendPhoto"
         payload = {
