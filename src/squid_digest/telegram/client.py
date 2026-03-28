@@ -241,15 +241,20 @@ class TelegramClient:
 
         Args:
             photo_url: Public URL of the image (Telegram fetches it server-side)
-            caption: Caption text (max 1024 chars)
+            caption: Caption text (max 1024 chars — safely truncated if over)
             chat_id: Target channel/chat (defaults to self.channel_id)
             parse_mode: Parse mode for caption formatting
         """
+        from squid_digest.telegram.formatter import truncate_html_safely
+
+        if len(caption) > 1024:
+            caption = truncate_html_safely(caption, 1024)
+
         url = f"{self.api_url}/sendPhoto"
         payload = {
             "chat_id": chat_id or self.channel_id,
             "photo": photo_url,
-            "caption": caption[:1024],
+            "caption": caption,
             "parse_mode": parse_mode,
         }
         try:

@@ -50,8 +50,10 @@ def _format_compact_price(price: float) -> str:
         return f"${price / 1000:.1f}K"
     elif price >= 100:
         return f"${price:.0f}"
+    elif price >= 10:
+        return f"${price:.1f}"
     elif price >= 1:
-        return f"${price:.2g}"
+        return f"${price:.2f}"
     else:
         return f"${price:.2f}"
 
@@ -85,11 +87,14 @@ def _format_stats_line(stats: list) -> str:
 
 def _build_caption(date: datetime, meta: dict, content: str, digest_url: str) -> str:
     """Build a photo caption (max 1024 chars) for the broadcast channel."""
+    import html as html_mod
+
     github_url = get_github_url(date)
-    blurb = meta.get("blurb") or DEFAULT_BLURB
-    headline = meta.get("top_story_headline", "")
-    comment = meta.get("top_story_comment", "")
-    author = meta.get("top_story_author", "")
+    # Escape user-provided text for HTML parse_mode (prevents & < > breaking Telegram)
+    blurb = html_mod.escape(meta.get("blurb") or DEFAULT_BLURB)
+    headline = html_mod.escape(meta.get("top_story_headline", ""))
+    comment = html_mod.escape(meta.get("top_story_comment", ""))
+    author = html_mod.escape(meta.get("top_story_author", ""))
 
     stats = _extract_market_stats(content)
     stats_line = _format_stats_line(stats) if stats else ""

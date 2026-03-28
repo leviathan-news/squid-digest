@@ -60,8 +60,10 @@ def _format_compact_price(price: float) -> str:
         return f"${price / 1000:.1f}K"
     elif price >= 100:
         return f"${price:.0f}"
+    elif price >= 10:
+        return f"${price:.1f}"
     elif price >= 1:
-        return f"${price:.2g}"
+        return f"${price:.2f}"
     else:
         return f"${price:.2f}"
 
