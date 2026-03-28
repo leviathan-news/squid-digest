@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (March 27, 2026)
+## 🔥 Latest Headlines (March 28, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/03/27/signals_2026-03-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/03/27/signals_2026-03-27.md)
+📊 [View Full Analysis →](writeup/2026/03/28/signals_2026-03-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/03/28/signals_2026-03-28.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Mar 20 - Mar 27)
+### 📅 This Week (Mar 21 - Mar 28)
+
+[**Saturday, March 28, 2026**](writeup/2026/03/28/signals_2026-03-28.md)
 
 [**Friday, March 27, 2026**](writeup/2026/03/27/signals_2026-03-27.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, March 21, 2026**](writeup/2026/03/21/signals_2026-03-21.md)
 
-[**Friday, March 20, 2026**](writeup/2026/03/20/signals_2026-03-20.md)
+### 📅 Last Week (Mar 14 - Mar 20)
 
-### 📅 Last Week (Mar 13 - Mar 19)
+[**Friday, March 20, 2026**](writeup/2026/03/20/signals_2026-03-20.md)
 
 [**Thursday, March 19, 2026**](writeup/2026/03/19/signals_2026-03-19.md)
 
@@ -58,9 +60,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, March 14, 2026**](writeup/2026/03/14/signals_2026-03-14.md)
 
-[**Friday, March 13, 2026**](writeup/2026/03/13/signals_2026-03-13.md)
+### 📅 Week of Mar 07 - Mar 13
 
-### 📅 Week of Mar 06 - Mar 12
+[**Friday, March 13, 2026**](writeup/2026/03/13/signals_2026-03-13.md)
 
 [**Thursday, March 12, 2026**](writeup/2026/03/12/signals_2026-03-12.md)
 
@@ -74,9 +76,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, March 07, 2026**](writeup/2026/03/07/signals_2026-03-07.md)
 
-[**Friday, March 06, 2026**](writeup/2026/03/06/signals_2026-03-06.md)
+### 📅 Week of Mar 01 - Mar 06
 
-### 📅 Week of Mar 01 - Mar 05
+[**Friday, March 06, 2026**](writeup/2026/03/06/signals_2026-03-06.md)
 
 [**Thursday, March 05, 2026**](writeup/2026/03/05/signals_2026-03-05.md)
 

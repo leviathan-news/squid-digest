@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Igra Network's $IGRA auction pulls 2.8M KAS in first day as former DAGLabs engineers launch EVM layer on Kaspa's BlockDAG** [Igralabs](https://leviathannews.xyz/redirect/217175?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Firelight crosses 50M XRP staked on Flare as deposit cap fills within days, TVL nearly doubles to $73M** [news.bitcoin](https://leviathannews.xyz/redirect/217164?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DIstro news platform lets readers buy single articles via AI chatbots via x402** [app.distro.media](https://leviathannews.xyz/redirect/217147?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ripple deploys AI red team to stress-test XRP Ledger, uncovers 10+ bugs in 14-year-old codebase** [Ripple](https://leviathannews.xyz/redirect/216840?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Federal judge tosses crypto dev's preemptive money transmitter challenge, leaving non-custodial software in legal limbo** [decrypt.co](https://leviathannews.xyz/redirect/216771?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether's $6.8B equity buffer leaves USDT just one 30% gold drawdown from balance-sheet insolvency, per FT** [FT](https://leviathannews.xyz/redirect/217339?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Spark argues stablecoins are evolving into financial infrastructure, with institutional allocators prioritizing liquidity coordination, withdrawal certainty, and risk over pure yield in vault design** [𝕏/@sparkdotfi](https://leviathannews.xyz/redirect/217376?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI ships Codex plugin system with marketplace support, letting teams package and share AI coding workflows** [developers.openai](https://leviathannews.xyz/redirect/217333?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi lands FCM license via Kinetic Markets, unlocks margin trading to lure Wall Street into prediction markets** [Bloomberg](https://leviathannews.xyz/redirect/217336?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **P2P.me admits to betting foundation funds on own Polymarket fundraise, faces insider trading accusations** [𝕏/@P2Pdotme](https://leviathannews.xyz/redirect/217335?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/27/signals_2026-03-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/27/signals_2026-03-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/28/signals_2026-03-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/28/signals_2026-03-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
