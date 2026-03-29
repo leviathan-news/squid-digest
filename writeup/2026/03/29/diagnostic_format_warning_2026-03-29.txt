@@ -1,0 +1,55 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 2412 chars. First 500 chars: Bitcoin is consolidating around the $70,000-$72,000 range as a critical support level, with institutional capital increasingly flowing toward yield-generating strategies rather than speculative price appreciation. The market has shifted from broad "altseason" dynamics toward selective sector rotation, where projects with exposure to real-world assets, AI infrastructure, and decentralized finance are capturing outsized capital flows.
+
+**Institutional Transformation**
+
+73% of institutional investo
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+Bitcoin is consolidating around the $70,000-$72,000 range as a critical support level, with institutional capital increasingly flowing toward yield-generating strategies rather than speculative price appreciation. The market has shifted from broad "altseason" dynamics toward selective sector rotation, where projects with exposure to real-world assets, AI infrastructure, and decentralized finance are capturing outsized capital flows.
+
+**Institutional Transformation**
+
+73% of institutional investors plan to increase crypto holdings in 2026, marking a structural shift in how digital assets are valued. This maturation reflects crypto's integration into traditional financial frameworks, with Bitcoin maintaining dominance at 58.16% while serving as the primary macro risk-sentiment indicator. The Federal Reserve's "higher for longer" interest rate environment—with 60% implied probability of unchanged rates throughout 2026—creates complex implications for yield-generating crypto strategies that compete with traditional fixed-income instruments.
+
+**Selective Outperformance and Sector Narratives**
+
+Capital rotation has been highly discriminate. SUI emerged as a notable outperformer with 12% gains during mid-March on accelerating real-world utility adoption in gaming and DeFi. Hyperliquid (HYPE) posted 15% gains as traders increasingly value decentralized perpetual futures platforms offering competitive execution with self-custody benefits. Projects lacking alignment to 2026's dominant themes—real-world asset tokenization, AI infrastructure, and decentralized exchange innovation—have faced headwinds.
+
+**Market Resilience and Risk Dynamics**
+
+Bitcoin demonstrated relative strength against traditional assets, retracing only 4.5% compared to gold's near-10% decline, despite Q1 volatility from geopolitical tensions between the United States and Iran. On-chain data reveals mixed signals: retail wallets are aggressively accumulating (typically contrarian bearish), while whale tiers are holding flat awaiting clarity on global events. Bitcoin's 365-day MVRV at -26% suggests the market remains in a historically low-risk accumulation zone.
+
+**Critical Catalysts Ahead**
+
+Regulatory clarity through the "Clarity Act" and resolution of geopolitical tensions remain the primary wild cards that could trigger breakout action, as the market navigates between consolidation and re-accumulation phases.
+
+News items sent (10):
+[1] Borrowers raise rate rigging flags on Morpho as hard kink model allows deposit-withdraw loops, sparking curve redesign review - https://leviathannews.xyz/redirect/217417?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Morgan Stanley prices spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and every rival in $83B market - https://leviathannews.xyz/redirect/217426?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Ethereum targets 2029 for full post-quantum migration while Bitcoin still lacks coordinated upgrade plan - https://leviathannews.xyz/redirect/217419?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] World Foundation sells $65M in WLD tokens OTC at $0.27 average, $25M under 6-month lockup - https://leviathannews.xyz/redirect/217418?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Bitcoin recovery could stretch into 2027 if $60K breaks as whale selling hits 18-month high - https://leviathannews.xyz/redirect/217399?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Lummis touts bipartisan CLARITY Act revisions as strongest-ever legal shield for DeFi developers - https://leviathannews.xyz/redirect/217381?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] InfiniFi makes case for duration-native RWA liquidator, arguing levered looping cannot scale without someone holding assets to maturity - https://leviathannews.xyz/redirect/217396?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Inverse Finance founder reflects on six years of DeFi survival, calling exploit-forged risk standards an unreplicable moat - https://leviathannews.xyz/redirect/217421?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] R2 Protocol scores Binance Alpha listing for yield-bearing stablecoin token backed by tokenized Treasuries - https://leviathannews.xyz/redirect/217400?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Egorov reframes AMM design at Stable Summit: impermanent loss is not a side effect but a structural flaw of √price scaling - https://leviathannews.xyz/redirect/217423?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 860 news articles (TVL: $369,000,000)
+$ETH Ethereum - 784 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 329 news articles (TVL: $100,000)
+$AAVE AAVE - 264 news articles (TVL: $2,513,181,375)
+$XRP XRP - 197 news articles (TVL: $636,416,718)
+$BNB BNB - 146 news articles (TVL: $81,240,000,000)
+$SOL Solana - 115 news articles (TVL: $800,000,000,000)
+$AVAX Avalanche - 114 news articles (TVL: $7,215,000,000)
+$HYPE HYPE - 97 news articles (TVL: $12,000,000,000)
+$TON Toncoin ...
