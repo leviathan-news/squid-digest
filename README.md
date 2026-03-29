@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Tether's $6.8B equity buffer leaves USDT just one 30% gold drawdown from balance-sheet insolvency, per FT** [FT](https://leviathannews.xyz/redirect/217339?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Spark argues stablecoins are evolving into financial infrastructure, with institutional allocators prioritizing liquidity coordination, withdrawal certainty, and risk over pure yield in vault design** [𝕏/@sparkdotfi](https://leviathannews.xyz/redirect/217376?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI ships Codex plugin system with marketplace support, letting teams package and share AI coding workflows** [developers.openai](https://leviathannews.xyz/redirect/217333?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi lands FCM license via Kinetic Markets, unlocks margin trading to lure Wall Street into prediction markets** [Bloomberg](https://leviathannews.xyz/redirect/217336?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **P2P.me admits to betting foundation funds on own Polymarket fundraise, faces insider trading accusations** [𝕏/@P2Pdotme](https://leviathannews.xyz/redirect/217335?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Borrowers raise rate rigging flags on Morpho as hard kink model allows deposit-withdraw loops, sparking curve redesign review** [𝕏/@flipdazed](https://leviathannews.xyz/redirect/217417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Morgan Stanley prices spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and every rival in $83B market** [The Block](https://leviathannews.xyz/redirect/217426?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum targets 2029 for full post-quantum migration while Bitcoin still lacks coordinated upgrade plan** [Coindesk](https://leviathannews.xyz/redirect/217419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **World Foundation sells $65M in WLD tokens OTC at $0.27 average, $25M under 6-month lockup** [𝕏/@worldcoinfnd](https://leviathannews.xyz/redirect/217418?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin recovery could stretch into 2027 if $60K breaks as whale selling hits 18-month high** [CoinTelegraph](https://leviathannews.xyz/redirect/217399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/28/signals_2026-03-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/28/signals_2026-03-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/29/signals_2026-03-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/29/signals_2026-03-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
