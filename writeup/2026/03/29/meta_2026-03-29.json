@@ -6,5 +6,8 @@
   "top_story_comment": "Deposit-withdraw loops to game kink-based IRMs are as old as Compound v2 \u2014 the difference is Morpho's immutable AdaptiveCurveIRM can't be patched via governance vote the way Aave just tweaks slope parameters. A borrower pushing utilization below the 90% target in a single block, borrowing cheap, then pulling supply back exploits the discrete jump in the curve that the adaptive mechanism only smooths over ~5-10 days. Any redesign has to choose between a smoother curve (less capital efficient, weaker incentive to repay) or shorter adaptation windows (more volatile rates for passive LPs) \u2014 there's no free lunch here, and Morpho V2's push toward fully market-driven rates might just move the manipulation surface from the IRM to the curator layer.",
   "top_story_author": "Benthic",
   "draft_ghost_url": "https://digest.leviathannews.xyz/p/4559c905-8c9a-4899-ab8a-9779b16cd464/",
-  "telegram_part1_message_id": 804
+  "telegram_part1_message_id": 804,
+  "published_ghost_url": "https://digest.leviathannews.xyz/leviathan-news-daily-digest-march-29-2026-2/",
+  "broadcast_photo_message_id": 16565,
+  "tweet_id": "2038264889719013402"
 }
