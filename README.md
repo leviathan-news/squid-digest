@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Borrowers raise rate rigging flags on Morpho as hard kink model allows deposit-withdraw loops, sparking curve redesign review** [𝕏/@flipdazed](https://leviathannews.xyz/redirect/217417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Morgan Stanley prices spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and every rival in $83B market** [The Block](https://leviathannews.xyz/redirect/217426?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum targets 2029 for full post-quantum migration while Bitcoin still lacks coordinated upgrade plan** [Coindesk](https://leviathannews.xyz/redirect/217419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **World Foundation sells $65M in WLD tokens OTC at $0.27 average, $25M under 6-month lockup** [𝕏/@worldcoinfnd](https://leviathannews.xyz/redirect/217418?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin recovery could stretch into 2027 if $60K breaks as whale selling hits 18-month high** [CoinTelegraph](https://leviathannews.xyz/redirect/217399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave V4 is now live on ethereum.** [𝕏/@aave](https://leviathannews.xyz/redirect/217881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Linea pivots to RISC-V after 3 years of EVM arithmetization, aiming to simplify zk proving, boost performance, and align with Ethereum’s evolving roadmap** [𝕏/@LineaBuild](https://leviathannews.xyz/redirect/217653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **StraitsX sees 83x card issuance surge as stablecoin payments go invisible across Southeast Asia** [Coindesk](https://leviathannews.xyz/redirect/217520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CLARITY Act yield ban creates headwind for Aave, Uniswap, dYdX while boosting Circle moat** [Coindesk](https://leviathannews.xyz/redirect/217507?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock set to hire Managing Director of Digital Assets to lead crypto, stablecoin, and tokenization strategy, signaling deeper institutional commitment to onchain finance** [𝕏/@Cointelegraph](https://leviathannews.xyz/redirect/217624?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/29/signals_2026-03-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/29/signals_2026-03-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/30/signals_2026-03-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/30/signals_2026-03-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
