@@ -179,7 +179,7 @@ def resolve_public_digest_url(date: datetime) -> str:
     return meta.get("published_ghost_url") or get_canonical_url(date)
 
 
-def generate_blurb(headlines: list, max_chars: int = 200) -> str:
+def generate_blurb(headlines: list, max_chars: int = 140) -> str:
     """Generate a human-sounding blurb from headlines via Perplexity.
 
     Fallback chain:
@@ -223,9 +223,10 @@ def generate_blurb(headlines: list, max_chars: int = 200) -> str:
             )
             resp.raise_for_status()
             blurb = resp.json()["choices"][0]["message"]["content"].strip()
-            # Strip any <think>...</think> tags from reasoning models
+            # Strip <think>...</think> tags and Perplexity citation markers [1], [2]
             import re
             blurb = re.sub(r'<think>.*?</think>', '', blurb, flags=re.DOTALL).strip()
+            blurb = re.sub(r'\[\d+\]', '', blurb).strip()
             if blurb and len(blurb) <= max_chars:
                 return blurb
             elif blurb:
