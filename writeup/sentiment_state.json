@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-03-29",
+  "last_processed_date": "2026-03-30",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 7.920596775837495,
+      "score": 7.537993560516085,
       "last_signal_date": "2026-03-29",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.7358754525725552,
+      "score": 0.6664998113458753,
       "last_signal_date": "2026-03-28",
       "token_name": "Solana"
     },
@@ -27,25 +27,25 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": -1.0,
+      "score": -0.9516951530106196,
       "last_signal_date": "2026-03-29",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 4.156095930001156,
+      "score": 3.955336352029263,
       "last_signal_date": "2026-03-29",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 4.530838967049317,
+      "score": 4.103688071425601,
       "last_signal_date": "2026-03-28",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 2.825806848170474,
+      "score": 2.435768701216533,
       "last_signal_date": "2026-03-27",
       "token_name": "HYPE"
     },
@@ -57,7 +57,7 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": -0.023218660767764823,
+      "score": -0.013468325331984029,
       "last_signal_date": "2026-03-19",
       "token_name": "Avalanche"
     },
@@ -69,9 +69,9 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.03026317402854779,
-      "last_signal_date": "2026-03-19",
-      "token_name": "ChainLink Token"
+      "score": 3.0175545987544985,
+      "last_signal_date": "2026-03-30",
+      "token_name": "Chainlink"
     },
     "TON": {
       "symbol": "TON",
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 2.434975053005785,
+      "score": 2.3173539556473823,
       "last_signal_date": "2026-03-29",
       "token_name": "AAVE"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.08455889030688546,
+      "score": 0.08047428604901956,
       "last_signal_date": "2026-03-29",
       "token_name": "UNI"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 0.10254191950095476,
+      "score": 0.06250000000000001,
       "last_signal_date": "2026-03-20",
       "token_name": "World Liberty Financial"
     },
@@ -129,13 +129,13 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 0.9057236642639067,
+      "score": 0.6729500963161781,
       "last_signal_date": "2026-03-24",
       "token_name": "Tron"
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.7429971445684742,
+      "score": 0.6095068271022377,
       "last_signal_date": "2026-03-26",
       "token_name": "Leviathan Points"
     },
@@ -195,13 +195,13 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.023218660767764823,
+      "score": 0.013468325331984029,
       "last_signal_date": "2026-03-19",
       "token_name": "Monad"
     },
     "CVX": {
       "symbol": "CVX",
-      "score": 0.5572478584263558,
+      "score": 0.3750000000000001,
       "last_signal_date": "2026-03-22",
       "token_name": "Convex Token"
     }
