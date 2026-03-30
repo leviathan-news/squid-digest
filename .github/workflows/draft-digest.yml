@@ -264,13 +264,15 @@ jobs:
             post_id = post.get('id', 'unknown')
             print(f'✓ Created signals draft: {post_id}')
 
-            # Capture canonical Ghost URL into distribution metadata
+            # Save draft post ID and URL to metadata for send-digest.yml to reuse
             ghost_url = post.get('url') or post.get('canonical_url')
+            date_str = signals_path.stem.split('_')[-1]
+            date = datetime.strptime(date_str, '%Y-%m-%d')
+            meta_update = {'draft_post_id': post_id}
             if ghost_url:
-                date_str = signals_path.stem.split('_')[-1]
-                date = datetime.strptime(date_str, '%Y-%m-%d')
-                save_meta(date, {'draft_ghost_url': ghost_url})
-                print(f'✓ Draft Ghost URL saved to meta: {ghost_url}')
+                meta_update['draft_ghost_url'] = ghost_url
+            save_meta(date, meta_update)
+            print(f'✓ Draft metadata saved (post_id: {post_id})')
 
         print('✓ Draft created successfully for admin review')
         "

@@ -987,13 +987,15 @@ class GhostEmailClient:
             print("The digest content is ready but cannot be sent via Ghost email.")
             return False
     
-    def send_digest_email(self, digest_path: str, recipients: Optional[List[str]] = None) -> bool:
+    def send_digest_email(self, digest_path: str, recipients: Optional[List[str]] = None, existing_post_id: Optional[str] = None) -> bool:
         """Send digest email to public recipients via Ghost.
-        
+
         Args:
             digest_path: Path to the digest markdown file
             recipients: List of recipient emails. If None, gets all subscribers from Ghost.
-            
+            existing_post_id: If provided, update and publish this draft instead of creating a new post.
+                              Prevents slug collisions when a draft was already created.
+
         Returns:
             True if email sent successfully, False otherwise
         """
@@ -1059,11 +1061,32 @@ class GhostEmailClient:
         from squid_digest.config import get_digest_title
         title = get_digest_title(parsed_date)
 
-        # Create post as draft first
-        post = self.create_post(title, html_content, status="draft", send_email=False)
-        post_id = post["id"]
-
-        print(f"✓ Draft post created: {post_id}")
+        if existing_post_id:
+            # Update the existing draft with final content before publishing
+            try:
+                existing = self._make_request("GET", f"posts/{existing_post_id}/")
+                updated_at = existing.get("posts", [{}])[0].get("updated_at")
+                mobiledoc = self._html_to_mobiledoc(html_content)
+                update_data = {
+                    "posts": [{
+                        "id": existing_post_id,
+                        "title": title,
+                        "mobiledoc": mobiledoc,
+                        "updated_at": updated_at,
+                    }]
+                }
+                self._make_request("PUT", f"posts/{existing_post_id}/", update_data)
+                post_id = existing_post_id
+                print(f"✓ Updated existing draft: {post_id}")
+            except Exception as e:
+                print(f"⚠ Could not update existing draft ({e}), creating new post")
+                post = self.create_post(title, html_content, status="draft", send_email=False)
+                post_id = post["id"]
+                print(f"✓ New draft post created: {post_id}")
+        else:
+            post = self.create_post(title, html_content, status="draft", send_email=False)
+            post_id = post["id"]
+            print(f"✓ Draft post created: {post_id}")
 
         # Reset before publish so stale URLs don't carry over
         self.last_published_url = None

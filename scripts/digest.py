@@ -901,6 +901,12 @@ def generate_market_snapshot(verbose=False):
         finally:
             client.close()
 
+        # Filter stablecoins from movers (USDTB, USDC, etc. shouldn't appear as gainers/losers)
+        all_movers = [
+            m for m in all_movers
+            if not token_id_map.get(m["symbol"], {}).get("stablecoin", False)
+        ]
+
         # Sort and get top/bottom movers
         all_movers.sort(key=lambda x: x["change"], reverse=True)
         top_gainers = all_movers[:3]

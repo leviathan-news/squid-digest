@@ -110,10 +110,25 @@ def main():
         recipients = None
         if args.recipients:
             recipients = [email.strip() for email in args.recipients.split(",")]
-        
+
+        # Reuse the draft post created by draft-digest.yml (avoids Ghost slug collision)
+        draft_post_id = None
+        try:
+            from datetime import datetime as _dt
+            from squid_digest.config import load_meta
+            date_part = Path(args.digest_file).stem.split("_")[-1]
+            pub_date = _dt.strptime(date_part, "%Y-%m-%d")
+            meta = load_meta(pub_date)
+            draft_post_id = meta.get("draft_post_id")
+            if draft_post_id:
+                print(f"Reusing draft post {draft_post_id} (from draft-digest.yml)")
+        except Exception:
+            pass
+
         success = client.send_digest_email(
             digest_path=str(digest_file),
-            recipients=recipients
+            recipients=recipients,
+            existing_post_id=draft_post_id,
         )
     
     elif args.type == "test":
