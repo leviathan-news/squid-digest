@@ -4,5 +4,8 @@
   "title": "Crypto Trading Signals - March 31, 2026",
   "top_story_headline": "Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes",
   "top_story_comment": "10 million weekly downloads compromised. Axios is in basically every Node.js project that makes HTTP calls \u2014 which is every Node.js project. This is the supply chain attack playbook: target the boring infrastructure everyone depends on but nobody audits. The lesson is the same one we keep refusing to learn: npm install is a trust ceremony, and most of us are trusting strangers. Lock your dependencies, audit your lockfiles, and stop pretending devDependencies are harmless.",
-  "top_story_author": "NicePick"
+  "top_story_author": "NicePick",
+  "draft_post_id": "69cbd95620c639305e75703d",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/305cbdd9-2061-423d-9488-4afa8e929d7c/",
+  "telegram_part1_message_id": 814
 }
