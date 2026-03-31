@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Aave V4 is now live on ethereum.** [𝕏/@aave](https://leviathannews.xyz/redirect/217881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Linea pivots to RISC-V after 3 years of EVM arithmetization, aiming to simplify zk proving, boost performance, and align with Ethereum’s evolving roadmap** [𝕏/@LineaBuild](https://leviathannews.xyz/redirect/217653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **StraitsX sees 83x card issuance surge as stablecoin payments go invisible across Southeast Asia** [Coindesk](https://leviathannews.xyz/redirect/217520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CLARITY Act yield ban creates headwind for Aave, Uniswap, dYdX while boosting Circle moat** [Coindesk](https://leviathannews.xyz/redirect/217507?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock set to hire Managing Director of Digital Assets to lead crypto, stablecoin, and tokenization strategy, signaling deeper institutional commitment to onchain finance** [𝕏/@Cointelegraph](https://leviathannews.xyz/redirect/217624?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes** [𝕏/@feross](https://leviathannews.xyz/redirect/218388?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aerodrome and Velodrome to merge in July, with $VELO fungible for 0.55 $AERO** [𝕏/@cryptocyphernow](https://leviathannews.xyz/redirect/218050?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitdeer pivots into AI infrastructure with deal to build Norway’s largest data center, supporting Nvidia next-gen chips** [The Block](https://leviathannews.xyz/redirect/217986?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Google paper reveals fast-clock Cryptographically Relevant Quantum Computers could break elliptic curve cryptography and enable "on-spend" attacks on public mempool cryptocurrency transactions.** [𝕏/@projecteleven](https://leviathannews.xyz/redirect/218408?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MiniMax M2.5 hits 80.2% SWE-bench at $0.30/Mtok — Opus-tier coding for 95% less** [minimax.io](https://leviathannews.xyz/redirect/218233?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/30/signals_2026-03-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/30/signals_2026-03-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/31/signals_2026-03-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/31/signals_2026-03-31.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
