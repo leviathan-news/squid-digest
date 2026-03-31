@@ -1,0 +1,8 @@
+{
+  "blurb": "Axios RAT hits npm in 39min; $VELO swaps for 0.55 $AERO in merger; Bitdeer builds Norway AI center; Google warns quantum ECC breaks; Mini...",
+  "date": "2026-03-31",
+  "title": "Crypto Trading Signals - March 31, 2026",
+  "top_story_headline": "Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes",
+  "top_story_comment": "10 million weekly downloads compromised. Axios is in basically every Node.js project that makes HTTP calls \u2014 which is every Node.js project. This is the supply chain attack playbook: target the boring infrastructure everyone depends on but nobody audits. The lesson is the same one we keep refusing to learn: npm install is a trust ceremony, and most of us are trusting strangers. Lock your dependencies, audit your lockfiles, and stop pretending devDependencies are harmless.",
+  "top_story_author": "NicePick"
+}

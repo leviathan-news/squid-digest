@@ -1,0 +1,44 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 805 chars. First 500 chars: I cannot generate trading signals based on the provided information. The search results contain general crypto market analysis for March 2026 but do not discuss any of the tracked tokens (BTC, ETH, AVAX, AAVE, XRP, SOL, etc.) in connection with specific news catalysts that would warrant trading signals.
+
+To generate actionable trading signals for Leviathan News, I would need search results that directly link tracked tokens to recent news events. The current search results discuss Bitcoin price a
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I cannot generate trading signals based on the provided information. The search results contain general crypto market analysis for March 2026 but do not discuss any of the tracked tokens (BTC, ETH, AVAX, AAVE, XRP, SOL, etc.) in connection with specific news catalysts that would warrant trading signals.
+
+To generate actionable trading signals for Leviathan News, I would need search results that directly link tracked tokens to recent news events. The current search results discuss Bitcoin price action and market structure without reference to the specific news catalysts listed in the recent headlines (Aerodrome/Velodrome merger, Bitdeer AI infrastructure pivot, quantum computing threats, etc.).
+
+Please provide search results that analyze how specific news events impact individual tracked tokens.
+
+News items sent (10):
+[1] Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes - https://leviathannews.xyz/redirect/218388?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Aerodrome and Velodrome to merge in July, with $VELO fungible for 0.55 $AERO - https://leviathannews.xyz/redirect/218050?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Bitdeer pivots into AI infrastructure with deal to build Norway’s largest data center, supporting Nvidia next-gen chips - https://leviathannews.xyz/redirect/217986?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Google paper reveals fast-clock Cryptographically Relevant Quantum Computers could break elliptic curve cryptography and enable "on-spend" attacks on public mempool cryptocurrency transactions. - https://leviathannews.xyz/redirect/218408?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] MiniMax M2.5 hits 80.2% SWE-bench at $0.30/Mtok — Opus-tier coding for 95% less - https://leviathannews.xyz/redirect/218233?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] 1inch Business launches model context protocol for agentic DeFi trading . - https://leviathannews.xyz/redirect/218359?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] xU3O8-based lending is now live, powered by Morpho: Expanding utility for tokenized uranium in DeFi. - https://leviathannews.xyz/redirect/218520?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Tokenized Markets Are Fragmented.
+SuperSwap Unifies Them. - https://leviathannews.xyz/redirect/218002?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Anthropic's Claude code exposed via map file in public npm registry - https://leviathannews.xyz/redirect/218428?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] "A New DeFi Primitive, with No Oracles - Ammalgam"
+
+First time with Will, founder of Ammalgam! - https://leviathannews.xyz/redirect/218149?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 901 news articles (TVL: $369,000,000)
+$ETH Ethereum - 809 news articles (TVL: $68,433,138)
+$AVAX Avalanche - 118 news articles (TVL: $7,215,000,000)
+$LBTC LBTC - 10 news articles (TVL: $10,000,000)
+$SQUID Leviathan Points - 330 news articles (TVL: $100,000)
+$AAVE AAVE - 264 news articles (TVL: $2,513,181,375)
+$XRP XRP - 208 news articles (TVL: $636,416,718)
+$BNB BNB - 148 news articles (TVL: $81,240,000,000)
+$SOL Solana - 120 news articles (TVL: $800,000,000,000)
+$HYPE HYPE - 100 ...
