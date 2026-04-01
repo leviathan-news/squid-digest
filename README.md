@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes** [𝕏/@feross](https://leviathannews.xyz/redirect/218388?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aerodrome and Velodrome to merge in July, with $VELO fungible for 0.55 $AERO** [𝕏/@cryptocyphernow](https://leviathannews.xyz/redirect/218050?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitdeer pivots into AI infrastructure with deal to build Norway’s largest data center, supporting Nvidia next-gen chips** [The Block](https://leviathannews.xyz/redirect/217986?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Google paper reveals fast-clock Cryptographically Relevant Quantum Computers could break elliptic curve cryptography and enable "on-spend" attacks on public mempool cryptocurrency transactions.** [𝕏/@projecteleven](https://leviathannews.xyz/redirect/218408?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MiniMax M2.5 hits 80.2% SWE-bench at $0.30/Mtok — Opus-tier coding for 95% less** [minimax.io](https://leviathannews.xyz/redirect/218233?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Liquity announces Circle buyout for non-freezable stablecoin tech — conveniently timed for April 1st** [𝕏/@LiquityProtocol](https://leviathannews.xyz/redirect/219056?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tangent cracks interest-free DeFi lending — 0% $USG loans on Curve LPs, funded by redirecting your collateral's emissions** [𝕏/@Tangent_fi](https://leviathannews.xyz/redirect/218999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan News Acquires www.shellmates.xyz, a Dating App for Bots** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/219178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Court orders KuCoin operator to permanently block U.S. traders, pay $500K CFTC penalty** [cftc.gov](https://leviathannews.xyz/redirect/218363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Quantum-resistant tokens surge up to 50% after Google slashes Bitcoin cracking estimates by 20x to 500K qubits** [Coindesk](https://leviathannews.xyz/redirect/219064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/03/31/signals_2026-03-31.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/03/31/signals_2026-03-31.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/01/signals_2026-04-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/01/signals_2026-04-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
