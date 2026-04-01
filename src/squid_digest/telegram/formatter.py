@@ -181,8 +181,10 @@ def _convert_tables_to_lists(html_content: str) -> str:
                 comment_text = html.unescape(comment_match.group(1))
                 username = html.unescape(comment_match.group(2))
                 comment_text_clean = re.sub(r'<[^>]+>', '', comment_text)
-                comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — @{username}</blockquote>'
-            
+                # Wrap @username in <a> tag to prevent Telegram from auto-linking as a Telegram mention
+                profile_url = f"https://leviathannews.xyz/u/{username}/comments"
+                comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — <a href="{profile_url}">@{username}</a></blockquote>'
+
             # Build Telegram-friendly format for SQUID Pass
             parts = []
             parts.append('<b>🏆 SQUID Pass Winner</b>')
@@ -281,7 +283,9 @@ def _convert_tables_to_lists(html_content: str) -> str:
             # Clean up any nested HTML tags in comment text (strip them, keep text)
             # This prevents issues with nested <i> tags or other HTML
             comment_text_clean = re.sub(r'<[^>]+>', '', comment_text)
-            comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — @{username}</blockquote>'
+            # Wrap @username in <a> tag to prevent Telegram from auto-linking as a Telegram mention
+            profile_url = f"https://leviathannews.xyz/u/{username}/comments"
+            comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — <a href="{profile_url}">@{username}</a></blockquote>'
 
         # Build Telegram-friendly format
         parts = []
