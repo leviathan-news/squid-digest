@@ -1,5 +1,5 @@
 {
-  "cash": 4627.9884221334305,
+  "cash": 2152.6844779474136,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -188,18 +188,18 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": 10.235270500510095,
-      "entry_price": 107.20994623154981,
+      "quantity": 11.844865352350713,
+      "entry_price": 106.15858595173188,
       "entry_date": "2026-03-22T13:40:27.276302",
       "entry_signal": "SENTIMENT_LONG"
     },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": -506.64683748623634,
-      "entry_price": 3.4092702737955523,
-      "entry_date": "2026-03-28T13:47:19.219008",
-      "entry_signal": "SENTIMENT_SHORT"
+      "quantity": 134.57399537994155,
+      "entry_price": 3.610601011305627,
+      "entry_date": "2026-04-01T14:27:01.444605",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1546,6 +1546,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-01T14:27:01.444605",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "BUY",
+      "quantity": 1.6095948518406171,
+      "price": 99.47307944360469,
+      "value": 160.11135656915883,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-01T14:27:01.444605",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "COVER",
+      "quantity": 506.64683748623634,
+      "price": 3.610601011305627,
+      "value": 1829.2995838026027,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -102.003581448251,
+      "entry_price": 3.4092702737955523
+    },
+    {
+      "date": "2026-04-01T14:27:01.444605",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "BUY",
+      "quantity": 134.57399537994155,
+      "price": 3.610601011305627,
+      "value": 485.89300381425574,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1884,6 +1920,10 @@
     [
       "2026-03-31T14:24:48.158489",
       6610.124394534757
+    ],
+    [
+      "2026-04-01T14:27:01.444605",
+      7423.423897638373
     ]
   ]
 }

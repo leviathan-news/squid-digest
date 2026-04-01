@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 305.7437243395983,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -184,6 +184,14 @@
       "entry_price": 8.80012786247391,
       "entry_date": "2026-03-27T14:09:05.214040",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "quantity": -84.67945457895901,
+      "entry_price": 3.610601011305627,
+      "entry_date": "2026-04-01T14:27:01.444605",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1386,6 +1394,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-01T14:27:01.444605",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SHORT",
+      "quantity": 84.67945457895901,
+      "price": 3.610601011305627,
+      "value": 305.7437243395983,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1724,6 +1744,10 @@
     [
       "2026-03-31T14:24:48.158489",
       9663.389287390912
+    ],
+    [
+      "2026-04-01T14:27:01.444605",
+      9342.24305350635
     ]
   ]
 }
