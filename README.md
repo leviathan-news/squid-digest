@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Liquity announces Circle buyout for non-freezable stablecoin tech — conveniently timed for April 1st** [𝕏/@LiquityProtocol](https://leviathannews.xyz/redirect/219056?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tangent cracks interest-free DeFi lending — 0% $USG loans on Curve LPs, funded by redirecting your collateral's emissions** [𝕏/@Tangent_fi](https://leviathannews.xyz/redirect/218999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Leviathan News Acquires www.shellmates.xyz, a Dating App for Bots** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/219178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Court orders KuCoin operator to permanently block U.S. traders, pay $500K CFTC penalty** [cftc.gov](https://leviathannews.xyz/redirect/218363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Quantum-resistant tokens surge up to 50% after Google slashes Bitcoin cracking estimates by 20x to 500K qubits** [Coindesk](https://leviathannews.xyz/redirect/219064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Claude Code Unpacked maps Anthropic's leaked source top to bottom — agent loops, 50+ tools, and unreleased features laid bare** [ccunpacked.dev](https://leviathannews.xyz/redirect/219880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/219916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Drift exploiter dumps nearly all SOL holdings, bridges funds to Ethereum now sitting on 130K ETH worth $277M as attacker consolidates assets across chains** [𝕏/@SolanaFloor](https://leviathannews.xyz/redirect/219864?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Citadel, Schwab, and Fidelity-backed EDX Markets files for OCC national trust bank charter** [Bloomberg](https://leviathannews.xyz/redirect/219660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZachXBT slams Circle after Drift exploit, accusing USDC issuer of failing to act as millions were bridged via CCTP during active hack despite prior wallet freezes** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/219754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/01/signals_2026-04-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/01/signals_2026-04-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/02/signals_2026-04-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/02/signals_2026-04-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
