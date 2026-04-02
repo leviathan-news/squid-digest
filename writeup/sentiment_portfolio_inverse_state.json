@@ -1,5 +1,5 @@
 {
-  "cash": 305.7437243395983,
+  "cash": 144.32419355981602,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -172,8 +172,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": -6.760437272687515,
-      "entry_price": 107.20994623154981,
+      "quantity": -7.880163412917769,
+      "entry_price": 105.26218549145999,
       "entry_date": "2026-03-22T13:40:27.276302",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -188,10 +188,18 @@
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": -84.67945457895901,
-      "entry_price": 3.610601011305627,
+      "quantity": -97.37921000299855,
+      "entry_price": 3.5466585888487554,
       "entry_date": "2026-04-01T14:27:01.444605",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 3.9208441449861566,
+      "entry_price": 77.97905579352678,
+      "entry_date": "2026-04-02T14:20:11.356631",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1406,6 +1414,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-02T14:20:11.356631",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 3.9208441449861566,
+      "price": 77.97905579352678,
+      "value": 305.7437243395983,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-02T14:20:11.356631",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "SHORT",
+      "quantity": 1.1197261402302543,
+      "price": 93.50242224892915,
+      "value": 104.69710636697289,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-02T14:20:11.356631",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SHORT",
+      "quantity": 12.699755424039544,
+      "price": 3.1203031766920857,
+      "value": 39.627087192843135,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1748,6 +1792,10 @@
     [
       "2026-04-01T14:27:01.444605",
       9342.24305350635
+    ],
+    [
+      "2026-04-02T14:20:11.356631",
+      9161.570859148253
     ]
   ]
 }

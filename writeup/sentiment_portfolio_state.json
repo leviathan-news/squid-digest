@@ -1,5 +1,5 @@
 {
-  "cash": 2152.6844779474136,
+  "cash": 2617.3590613619804,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -180,8 +180,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -17.223977272904957,
-      "entry_price": 88.16614065450767,
+      "quantity": -24.037610284952088,
+      "entry_price": 85.27853839777428,
       "entry_date": "2026-03-20T13:59:32.640069",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -196,8 +196,8 @@
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": 134.57399537994155,
-      "entry_price": 3.610601011305627,
+      "quantity": 155.9328447014763,
+      "entry_price": 3.543442629168536,
       "entry_date": "2026-04-01T14:27:01.444605",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -1582,6 +1582,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-02T14:20:11.356631",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "BUY",
+      "quantity": 21.358849321534755,
+      "price": 3.1203031766920857,
+      "value": 66.6460853884725,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-02T14:20:11.356631",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 6.81363301204713,
+      "price": 77.97905579352678,
+      "value": 531.3206688030391,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1924,6 +1948,10 @@
     [
       "2026-04-01T14:27:01.444605",
       7423.423897638373
+    ],
+    [
+      "2026-04-02T14:20:11.356631",
+      7335.188927683567
     ]
   ]
 }
