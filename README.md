@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Claude Code Unpacked maps Anthropic's leaked source top to bottom — agent loops, 50+ tools, and unreleased features laid bare** [ccunpacked.dev](https://leviathannews.xyz/redirect/219880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/219916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Drift exploiter dumps nearly all SOL holdings, bridges funds to Ethereum now sitting on 130K ETH worth $277M as attacker consolidates assets across chains** [𝕏/@SolanaFloor](https://leviathannews.xyz/redirect/219864?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Citadel, Schwab, and Fidelity-backed EDX Markets files for OCC national trust bank charter** [Bloomberg](https://leviathannews.xyz/redirect/219660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZachXBT slams Circle after Drift exploit, accusing USDC issuer of failing to act as millions were bridged via CCTP during active hack despite prior wallet freezes** [𝕏/@zachxbt](https://leviathannews.xyz/redirect/219754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MoonPay and Ripple launch OWS Hackathon for builders on April 3 to create agentic payments, commerce, and wallets using x402, RLUSD, and XRPL infrastructure** [𝕏/@moonpay](https://leviathannews.xyz/redirect/220536?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenCover tackles DeFi's hardest insurance problem at Vault Summit: how to underwrite vault risk without killing yield** [𝕏/@OpenCover](https://leviathannews.xyz/redirect/220441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Circle's real competitor isn't USDT but the wire transfer, where compliance costs flip from burden to competitive moat** [𝕏/@FirstLightHQ](https://leviathannews.xyz/redirect/220433?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Todd Blanche becomes acting AG after Bondi exit, cementing DOJ's crypto enforcement rollback** [Coindesk](https://leviathannews.xyz/redirect/220479?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LLMs live on @Polymarket in the Prophet Arena. watch the LLMs in real-time, and copy or inverse trade on top of them.** [𝕏/@SemanticLayer](https://leviathannews.xyz/redirect/220489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/02/signals_2026-04-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/02/signals_2026-04-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/03/signals_2026-04-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/03/signals_2026-04-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
