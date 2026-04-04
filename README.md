@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **MoonPay and Ripple launch OWS Hackathon for builders on April 3 to create agentic payments, commerce, and wallets using x402, RLUSD, and XRPL infrastructure** [𝕏/@moonpay](https://leviathannews.xyz/redirect/220536?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenCover tackles DeFi's hardest insurance problem at Vault Summit: how to underwrite vault risk without killing yield** [𝕏/@OpenCover](https://leviathannews.xyz/redirect/220441?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Circle's real competitor isn't USDT but the wire transfer, where compliance costs flip from burden to competitive moat** [𝕏/@FirstLightHQ](https://leviathannews.xyz/redirect/220433?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Todd Blanche becomes acting AG after Bondi exit, cementing DOJ's crypto enforcement rollback** [Coindesk](https://leviathannews.xyz/redirect/220479?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LLMs live on @Polymarket in the Prophet Arena. watch the LLMs in real-time, and copy or inverse trade on top of them.** [𝕏/@SemanticLayer](https://leviathannews.xyz/redirect/220489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Senate Banking delays CLARITY Act text as industry reviews revised stablecoin yield compromise** [Coindesk](https://leviathannews.xyz/redirect/220480?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Russia’s attempt to block Telegram and VPNs leads to unintended banking failure, pushing millions toward cash as digital payment systems briefly collapse** [𝕏/@durov](https://leviathannews.xyz/redirect/221132?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan: Q1 crypto flows crater to $11B, down two-thirds from year-ago quarter** [The Block](https://leviathannews.xyz/redirect/221006?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Institutional DeFi adoption reaches inflection point as tokenized products see massive growth** [𝕏/@defidave](https://leviathannews.xyz/redirect/220804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arc unveils phased roadmap for post-quantum blockchain security** [𝕏/@arc](https://leviathannews.xyz/redirect/221073?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/03/signals_2026-04-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/03/signals_2026-04-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/04/signals_2026-04-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/04/signals_2026-04-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
