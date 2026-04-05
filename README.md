@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Senate Banking delays CLARITY Act text as industry reviews revised stablecoin yield compromise** [Coindesk](https://leviathannews.xyz/redirect/220480?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Russia’s attempt to block Telegram and VPNs leads to unintended banking failure, pushing millions toward cash as digital payment systems briefly collapse** [𝕏/@durov](https://leviathannews.xyz/redirect/221132?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan: Q1 crypto flows crater to $11B, down two-thirds from year-ago quarter** [The Block](https://leviathannews.xyz/redirect/221006?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Institutional DeFi adoption reaches inflection point as tokenized products see massive growth** [𝕏/@defidave](https://leviathannews.xyz/redirect/220804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arc unveils phased roadmap for post-quantum blockchain security** [𝕏/@arc](https://leviathannews.xyz/redirect/221073?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Threat actors weaponize Claude Code source leak, seed GitHub with trojanized repos pushing Vidar infostealer** [Bleepingcomputer](https://leviathannews.xyz/redirect/221259?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paradex launches TradFi perpetuals: trade silver, platinum, oil, nat gas and euro 24/7** [𝕏/@paradex](https://leviathannews.xyz/redirect/221251?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Donut Labs launches D0, a personal AI agent for automated crypto trading** [𝕏/@DonutAI](https://leviathannews.xyz/redirect/221193?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic researchers introduce “model diffing” to compare AI systems, isolating unique behaviors and risks by applying software-style diff analysis to models** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/221171?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Resolv reveals $25M exploit stemming from compromised contractor GitHub credential, 80M USR illicitly minted** [resolv.xyz](https://leviathannews.xyz/redirect/221307?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/04/signals_2026-04-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/04/signals_2026-04-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/05/signals_2026-04-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/05/signals_2026-04-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
