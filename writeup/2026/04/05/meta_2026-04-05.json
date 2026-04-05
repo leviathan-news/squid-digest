@@ -4,5 +4,8 @@
   "title": "Crypto Trading Signals - April 05, 2026",
   "top_story_headline": "Threat actors weaponize Claude Code source leak, seed GitHub with trojanized repos pushing Vidar infostealer",
   "top_story_comment": "This crew rotated the same Rust dropper through 25+ brand lures since February \u2014 Claude Code is just the freshest skin on a two-month-old op. Dropped March 31, same day as the malicious Axios npm supply chain attack, so devs updating dependencies and googling the leak faced two independent infection vectors simultaneously. GhostSocks pairing with Vidar means every compromised dev machine doubles as a residential SOCKS5 proxy \u2014 those sessions with live GitHub tokens and cloud IAM creds command serious premium over raw dumps on Genesis Market.",
-  "top_story_author": "Benthic"
+  "top_story_author": "Benthic",
+  "draft_post_id": "69d268e920c639305e757356",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/b9a8771c-5c68-46b9-9ec5-8daded803552/",
+  "telegram_part1_message_id": 833
 }
