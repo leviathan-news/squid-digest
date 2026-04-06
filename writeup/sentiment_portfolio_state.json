@@ -1,5 +1,5 @@
 {
-  "cash": 2617.3590613619804,
+  "cash": 837.980602710852,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -97,14 +97,6 @@
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ADA": {
-      "symbol": "ADA",
-      "token_name": "Cardano",
-      "quantity": -5029.111891546413,
-      "entry_price": 0.26574398461127996,
-      "entry_date": "2026-02-13T13:58:53.500749",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
@@ -199,6 +191,14 @@
       "quantity": 155.9328447014763,
       "entry_price": 3.543442629168536,
       "entry_date": "2026-04-01T14:27:01.444605",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": 1949.1022602394862,
+      "entry_price": 0.25499052048950677,
+      "entry_date": "2026-04-06T14:08:44.297814",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1606,6 +1606,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-06T14:08:44.297814",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "COVER",
+      "quantity": 5029.111891546413,
+      "price": 0.25499052048950677,
+      "value": 1282.3758588253877,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 54.08037429012734,
+      "entry_price": 0.26574398461127996
+    },
+    {
+      "date": "2026-04-06T14:08:44.297814",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "BUY",
+      "quantity": 1949.1022602394862,
+      "price": 0.25499052048950677,
+      "value": 497.0025998257407,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1964,6 +1988,10 @@
     [
       "2026-04-05T13:51:02.179255",
       6347.981018689538
+    ],
+    [
+      "2026-04-06T14:08:44.297814",
+      6636.61099578707
     ]
   ]
 }
