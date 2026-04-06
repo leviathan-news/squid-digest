@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Threat actors weaponize Claude Code source leak, seed GitHub with trojanized repos pushing Vidar infostealer** [Bleepingcomputer](https://leviathannews.xyz/redirect/221259?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Paradex launches TradFi perpetuals: trade silver, platinum, oil, nat gas and euro 24/7** [𝕏/@paradex](https://leviathannews.xyz/redirect/221251?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Donut Labs launches D0, a personal AI agent for automated crypto trading** [𝕏/@DonutAI](https://leviathannews.xyz/redirect/221193?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic researchers introduce “model diffing” to compare AI systems, isolating unique behaviors and risks by applying software-style diff analysis to models** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/221171?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Resolv reveals $25M exploit stemming from compromised contractor GitHub credential, 80M USR illicitly minted** [resolv.xyz](https://leviathannews.xyz/redirect/221307?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z co-founder Marc Andreessen claims AGI has effectively arrived, though access remains limited, highlighting widening gaps in who can leverage advanced AI capabilities today** [𝕏/@pmarca](https://leviathannews.xyz/redirect/221484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Post-quantum crypto heats up with 15+ projects building defenses, signaling urgent shift toward quantum-resistant infrastructure across major chains** [𝕏/@blocmates](https://leviathannews.xyz/redirect/221603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid RWA open interest surpasses $2.3B as HIP-3 commodity perps hit new all-time high** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/221613?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Apple removes Dorsey's Bitchat from China App Store after Beijing cites social mobilization risk** [𝕏/@jack](https://leviathannews.xyz/redirect/221532?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZetaChain integrates Alibaba’s Qwen 3.6-Plus AI model with 1M token context and 3x faster output, expanding its on-chain AI ecosystem via AnumaAI** [𝕏/@ZetaChain](https://leviathannews.xyz/redirect/221496?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/05/signals_2026-04-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/05/signals_2026-04-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/06/signals_2026-04-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/06/signals_2026-04-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
