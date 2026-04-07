@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **a16z co-founder Marc Andreessen claims AGI has effectively arrived, though access remains limited, highlighting widening gaps in who can leverage advanced AI capabilities today** [𝕏/@pmarca](https://leviathannews.xyz/redirect/221484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Post-quantum crypto heats up with 15+ projects building defenses, signaling urgent shift toward quantum-resistant infrastructure across major chains** [𝕏/@blocmates](https://leviathannews.xyz/redirect/221603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid RWA open interest surpasses $2.3B as HIP-3 commodity perps hit new all-time high** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/221613?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Apple removes Dorsey's Bitchat from China App Store after Beijing cites social mobilization risk** [𝕏/@jack](https://leviathannews.xyz/redirect/221532?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZetaChain integrates Alibaba’s Qwen 3.6-Plus AI model with 1M token context and 3x faster output, expanding its on-chain AI ecosystem via AnumaAI** [𝕏/@ZetaChain](https://leviathannews.xyz/redirect/221496?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chaos Labs Walks Away From $5M Aave Risk Mandate Over V4 Architecture, Underfunded Risk Budget, And Fundamental Disagreement On How Risk Should Be Managed At DeFi’s Largest Lending Protocol.** [𝕏/@omeragoldberg](https://leviathannews.xyz/redirect/221772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Milei's $LIBRA scandal flares as Novelli phone shows $5M deal draft and 20-plus launch-day calls** [NY Times](https://leviathannews.xyz/redirect/221717?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RAAC puts 16 rental properties onchain with $iREET launch, routing $34.5K/month in tenant income through Curve** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/221855?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Katana’s Real-Yield DeFi Engine Gets High Marks in New Pink Brains Sustainability Review** [𝕏/@PinkBrains_io](https://leviathannews.xyz/redirect/221769?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BREAKING: Banks and crypto firms have privately agreed on a deal for the Bitcoin market structure bill. An announcement is expected this week.** [𝕏/@bulltheoryio](https://leviathannews.xyz/redirect/221896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/06/signals_2026-04-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/06/signals_2026-04-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/07/signals_2026-04-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/07/signals_2026-04-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
