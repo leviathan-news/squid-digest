@@ -184,6 +184,13 @@ def _convert_tables_to_lists(html_content: str) -> str:
                 # Wrap @username in <a> tag to prevent Telegram from auto-linking as a Telegram mention
                 profile_url = f"https://leviathannews.xyz/u/{username}/comments"
                 comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — <a href="{profile_url}">@{username}</a></blockquote>'
+            else:
+                # Comment without byline (anonymous author)
+                comment_no_author = re.search(r'💬\s*<i>(.*?)</i>', content, re.DOTALL)
+                if comment_no_author:
+                    comment_text = html.unescape(comment_no_author.group(1))
+                    comment_text_clean = re.sub(r'<[^>]+>', '', comment_text)
+                    comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i></blockquote>'
 
             # Build Telegram-friendly format for SQUID Pass
             parts = []
@@ -286,6 +293,17 @@ def _convert_tables_to_lists(html_content: str) -> str:
             # Wrap @username in <a> tag to prevent Telegram from auto-linking as a Telegram mention
             profile_url = f"https://leviathannews.xyz/u/{username}/comments"
             comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i> — <a href="{profile_url}">@{username}</a></blockquote>'
+        else:
+            # Comment without byline (anonymous author)
+            comment_no_author = re.search(
+                r'(?:<blockquote[^>]*>)?\s*💬\s*<i>(.*?)</i>\s*(?:</blockquote>)?',
+                content,
+                re.DOTALL
+            )
+            if comment_no_author:
+                comment_text = html.unescape(comment_no_author.group(1))
+                comment_text_clean = re.sub(r'<[^>]+>', '', comment_text)
+                comment_html = f'<blockquote>💬 <i>{comment_text_clean}</i></blockquote>'
 
         # Build Telegram-friendly format
         parts = []

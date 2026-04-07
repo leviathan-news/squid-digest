@@ -120,12 +120,14 @@ def generate_squid_pass_winner_section(winner_data):
     if top_yaps:
         top_yap = top_yaps[0]  # Highest scored comment
         comment_text = top_yap.get('text', '')
-        comment_author = top_yap.get('author', {}).get('display_name', 'Anonymous')
+        comment_author = top_yap.get('author', {}).get('display_name', '') or ''
         if comment_text:
-            # Link commenter username to their profile comments page with UTM codes
-            comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
-            top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
-    
+            if comment_author:
+                comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
+                top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+            else:
+                top_comment = f"💬 <i>{comment_text}</i>"
+
     # Return just the table row (will be part of Top Stories table)
     # Style the row with orange background (border will be on table wrapper)
     section = "  <tr style=\"background-color: #FFF5F2;\">\n"
@@ -200,11 +202,13 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
         if top_yaps:
             top_yap = top_yaps[0]  # Highest scored comment
             comment_text = top_yap.get('text', '')
-            comment_author = top_yap.get('author', {}).get('display_name', 'Anonymous')
+            comment_author = top_yap.get('author', {}).get('display_name', '') or ''
             if comment_text:
-                # Link commenter username to their profile comments page with UTM codes
-                comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
-                top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+                if comment_author:
+                    comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
+                    top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+                else:
+                    top_comment = f"💬 <i>{comment_text}</i>"
         
         # Format as vertical div (image on top, text below) for Ghost compatibility
         section += "  <div style=\"padding: 16px; border-bottom: 1px solid #e0e0e0;\">\n"
@@ -255,10 +259,13 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
         if top_yaps:
             top_yap = top_yaps[0]
             comment_text = top_yap.get('text', '')
-            comment_author = top_yap.get('author', {}).get('display_name', 'Anonymous')
+            comment_author = top_yap.get('author', {}).get('display_name', '') or ''
             if comment_text:
-                comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
-                top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+                if comment_author:
+                    comment_author_link = f"https://leviathannews.xyz/u/{comment_author}/comments?utm_medium=digest&utm_source=digest&utm_campaign=comments"
+                    top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
+                else:
+                    top_comment = f"💬 <i>{comment_text}</i>"
 
         # Add SQUID Pass Winner with orange background (vertical layout)
         section += "  <div style=\"padding: 16px; background-color: #FFF5F2;\">\n"
@@ -1989,7 +1996,7 @@ async def bundle_writeup(verbose=False):
         top_yaps = news_data[0].get("top_yaps", [])
         if top_yaps:
             top_comment_text = top_yaps[0].get("text", "")
-            top_comment_author = top_yaps[0].get("author", {}).get("display_name", "")
+            top_comment_author = top_yaps[0].get("author", {}).get("display_name", "") or ""
 
     save_meta(today, {
         "blurb": blurb,
