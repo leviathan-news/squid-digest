@@ -1,5 +1,5 @@
 {
-  "cash": 1086.2233999280031,
+  "cash": -616.9269858183069,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -153,14 +153,6 @@
       "entry_date": "2026-03-09T14:03:09.027691",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": -6439.275035330417,
-      "entry_price": 0.08944034904933168,
-      "entry_date": "2026-03-20T13:59:32.640069",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
@@ -188,8 +180,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 5.736112634043713,
-      "entry_price": 78.462182773098,
+      "quantity": 19.49480751455327,
+      "entry_price": 78.80515448436948,
       "entry_date": "2026-04-02T14:20:11.356631",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -1498,6 +1490,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-07T14:27:57.961094",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 13.758694880509557,
+      "price": 78.94814220109913,
+      "value": 1086.2233999280031,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-07T14:27:57.961094",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "COVER",
+      "quantity": 6439.275035330417,
+      "price": 0.09580690099947728,
+      "value": 616.9269858183069,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -40.99597903370682,
+      "entry_price": 0.08944034904933168
     }
   ],
   "daily_values": [
@@ -1860,6 +1876,10 @@
     [
       "2026-04-06T14:08:44.297814",
       9584.615322712256
+    ],
+    [
+      "2026-04-07T14:27:57.961094",
+      10144.895482454658
     ]
   ]
 }
