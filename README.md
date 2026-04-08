@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Chaos Labs Walks Away From $5M Aave Risk Mandate Over V4 Architecture, Underfunded Risk Budget, And Fundamental Disagreement On How Risk Should Be Managed At DeFi’s Largest Lending Protocol.** [𝕏/@omeragoldberg](https://leviathannews.xyz/redirect/221772?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Milei's $LIBRA scandal flares as Novelli phone shows $5M deal draft and 20-plus launch-day calls** [NY Times](https://leviathannews.xyz/redirect/221717?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RAAC puts 16 rental properties onchain with $iREET launch, routing $34.5K/month in tenant income through Curve** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/221855?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Katana’s Real-Yield DeFi Engine Gets High Marks in New Pink Brains Sustainability Review** [𝕏/@PinkBrains_io](https://leviathannews.xyz/redirect/221769?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BREAKING: Banks and crypto firms have privately agreed on a deal for the Bitcoin market structure bill. An announcement is expected this week.** [𝕏/@bulltheoryio](https://leviathannews.xyz/redirect/221896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan SQUID DAO launches recovery pool for lenders affected by Llama Lend bad debt on Fraxtal** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/223577?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Intel partners with Elon Musk's SpaceX, xAI, and Tesla on Terafab to scale chip production toward 1TW/year of compute, targeting massive AI and robotics acceleration** [𝕏/@Intel](https://leviathannews.xyz/redirect/222682?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FBI reports Americans lost $11.4B to crypto fraud in 2025, up 22%, as AI-powered scams hit $893M** [fbi.gov](https://leviathannews.xyz/redirect/222776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps** [𝕏/@gakonst](https://leviathannews.xyz/redirect/222946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic unveils Project Glasswing powered by Claude Mythos Preview, targeting critical software security with AI that detects vulnerabilities at near expert-human level** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/222944?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/07/signals_2026-04-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/07/signals_2026-04-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/08/signals_2026-04-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/08/signals_2026-04-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
