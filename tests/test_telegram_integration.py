@@ -162,5 +162,92 @@ class TestTelegramIntegration(unittest.TestCase):
             self.assertNotIn("&amp;&amp;", combined)
 
 
+class TestTelegramForumSupport(unittest.TestCase):
+    """Tests for forum topic support (message_thread_id) in TelegramClient."""
+
+    def test_send_message_payload_includes_thread_id(self):
+        """When message_thread_id is passed, it should appear in the request payload."""
+        import os
+        from unittest.mock import patch, MagicMock
+
+        # Create client with dummy credentials
+        with patch.dict(os.environ, {"TELEGRAM_BOT_TOKEN": "test:token", "TELEGRAM_CHANNEL_ID": "-100123"}):
+            client = TelegramClient()
+
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"ok": True, "result": {"message_id": 1}}
+        mock_response.raise_for_status = MagicMock()
+
+        with patch("httpx.Client") as mock_client_cls:
+            mock_client = MagicMock()
+            mock_client.__enter__ = MagicMock(return_value=mock_client)
+            mock_client.__exit__ = MagicMock(return_value=False)
+            mock_client.post.return_value = mock_response
+            mock_client_cls.return_value = mock_client
+
+            client.send_message("test", message_thread_id=154, chat_id="-100456")
+
+            call_kwargs = mock_client.post.call_args
+            payload = call_kwargs[1]["json"] if "json" in call_kwargs[1] else call_kwargs[0][1]
+            self.assertEqual(payload["message_thread_id"], 154)
+            self.assertEqual(payload["chat_id"], "-100456")
+
+    def test_send_message_omits_thread_id_when_none(self):
+        """When message_thread_id is not passed, it should NOT be in the payload."""
+        import os
+        from unittest.mock import patch, MagicMock
+
+        with patch.dict(os.environ, {"TELEGRAM_BOT_TOKEN": "test:token", "TELEGRAM_CHANNEL_ID": "-100123"}):
+            client = TelegramClient()
+
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"ok": True, "result": {"message_id": 1}}
+        mock_response.raise_for_status = MagicMock()
+
+        with patch("httpx.Client") as mock_client_cls:
+            mock_client = MagicMock()
+            mock_client.__enter__ = MagicMock(return_value=mock_client)
+            mock_client.__exit__ = MagicMock(return_value=False)
+            mock_client.post.return_value = mock_response
+            mock_client_cls.return_value = mock_client
+
+            client.send_message("test")
+
+            call_kwargs = mock_client.post.call_args
+            payload = call_kwargs[1]["json"] if "json" in call_kwargs[1] else call_kwargs[0][1]
+            self.assertNotIn("message_thread_id", payload)
+
+    def test_send_photo_payload_includes_thread_id(self):
+        """send_photo should include message_thread_id when provided."""
+        import os
+        from unittest.mock import patch, MagicMock
+
+        with patch.dict(os.environ, {"TELEGRAM_BOT_TOKEN": "test:token"}):
+            client = TelegramClient(require_channel=False)
+
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"ok": True, "result": {"message_id": 1}}
+        mock_response.raise_for_status = MagicMock()
+
+        with patch("httpx.Client") as mock_client_cls:
+            mock_client = MagicMock()
+            mock_client.__enter__ = MagicMock(return_value=mock_client)
+            mock_client.__exit__ = MagicMock(return_value=False)
+            mock_client.post.return_value = mock_response
+            mock_client_cls.return_value = mock_client
+
+            client.send_photo(
+                photo_url="https://example.com/img.jpg",
+                caption="test caption",
+                chat_id="-100789",
+                message_thread_id=154,
+            )
+
+            call_kwargs = mock_client.post.call_args
+            payload = call_kwargs[1]["json"] if "json" in call_kwargs[1] else call_kwargs[0][1]
+            self.assertEqual(payload["message_thread_id"], 154)
+            self.assertEqual(payload["chat_id"], "-100789")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -38,7 +38,9 @@ class TelegramClient:
         text: str,
         parse_mode: str = "HTML",
         disable_notification: bool = False,
-        disable_web_page_preview: bool = True
+        disable_web_page_preview: bool = True,
+        chat_id: Optional[str] = None,
+        message_thread_id: Optional[int] = None,
     ) -> Dict[str, Any]:
         """Send a message to the configured Telegram channel.
         
@@ -81,12 +83,14 @@ class TelegramClient:
         url = f"{self.api_url}/sendMessage"
         
         payload = {
-            "chat_id": self.channel_id,
+            "chat_id": chat_id or self.channel_id,
             "text": text,
             "parse_mode": parse_mode,
             "disable_notification": disable_notification,
-            "disable_web_page_preview": disable_web_page_preview
+            "disable_web_page_preview": disable_web_page_preview,
         }
+        if message_thread_id is not None:
+            payload["message_thread_id"] = message_thread_id
         
         try:
             with httpx.Client(timeout=30) as client:
@@ -288,6 +292,7 @@ class TelegramClient:
         caption: str,
         chat_id: Optional[str] = None,
         parse_mode: str = "HTML",
+        message_thread_id: Optional[int] = None,
     ) -> Dict[str, Any]:
         """Send a photo with caption via Telegram sendPhoto API.
 
@@ -296,6 +301,7 @@ class TelegramClient:
             caption: Caption text (max 1024 chars — safely truncated if over)
             chat_id: Target channel/chat (defaults to self.channel_id)
             parse_mode: Parse mode for caption formatting
+            message_thread_id: Forum topic thread ID (for posting in forum groups)
         """
         if len(caption) > 1024:
             caption = self._truncate_caption(caption, 1024)
@@ -307,6 +313,8 @@ class TelegramClient:
             "caption": caption,
             "parse_mode": parse_mode,
         }
+        if message_thread_id is not None:
+            payload["message_thread_id"] = message_thread_id
         try:
             with httpx.Client(timeout=30) as client:
                 response = client.post(url, json=payload)

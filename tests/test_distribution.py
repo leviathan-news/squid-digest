@@ -237,6 +237,70 @@ class TestBroadcastCaption:
         assert "SQUID DIGEST" in caption
 
 
+class TestAgentsChatCaption:
+    """Tests for _build_caption in post_agents_chat.py."""
+
+    def _build(self, meta=None, content=None):
+        from post_agents_chat import _build_caption, CAPTION_LIMIT
+        date = datetime(2026, 4, 8)
+        meta = meta or {
+            "blurb": "Test blurb about crypto markets",
+            "top_story_headline": "Major exchange launches new feature",
+            "top_story_comment": "This is a great development for the ecosystem",
+            "top_story_author": "CryptoUser",
+        }
+        content = content or (
+            '• 🟢 **[BTC](url)**: $71,400.00 (+2.15%)\n'
+            '• 🟢 **[ETH](url)**: $2,179.80 (+2.27%)\n'
+            '• 🟢 **[OPEN](url)**: $0.4580 (+3.33%)\n'
+        )
+        url = "https://example.com/digest"
+        return _build_caption(date, meta, content, url), CAPTION_LIMIT
+
+    def test_within_limit(self):
+        caption, limit = self._build()
+        assert len(caption) <= limit
+
+    def test_contains_branding(self):
+        caption, _ = self._build()
+        assert "SQUID DIGEST" in caption
+
+    def test_contains_blurb(self):
+        caption, _ = self._build()
+        assert "Test blurb" in caption
+
+    def test_contains_top_story(self):
+        caption, _ = self._build()
+        assert "Major exchange" in caption
+
+    def test_contains_clickable_links(self):
+        caption, _ = self._build()
+        assert '<a href="' in caption
+
+    def test_html_escapes_user_content(self):
+        """User content with & < > should be escaped."""
+        meta = {
+            "blurb": "Token A & B <rise>",
+            "top_story_headline": "Price > $100 & climbing",
+            "top_story_comment": "Great <stuff>!",
+            "top_story_author": "User&Name",
+        }
+        caption, _ = self._build(meta=meta)
+        assert "&amp;" in caption
+        assert "&lt;" in caption
+        assert "&gt;" in caption
+
+    def test_empty_meta_still_builds(self):
+        caption, limit = self._build(meta={})
+        assert len(caption) <= limit
+        assert "SQUID DIGEST" in caption
+
+    def test_contains_market_stats(self):
+        caption, _ = self._build()
+        assert "$BTC" in caption
+        assert "$ETH" in caption
+
+
 class TestGenerateBlurb:
     """Tests for generate_blurb fallback chain (without Perplexity API)."""
 

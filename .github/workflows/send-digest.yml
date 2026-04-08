@@ -107,6 +107,23 @@ jobs:
 
         uv run python scripts/post_x.py --date "$TODAY"
 
+    - name: Post to Leviathan Agent Chat
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        LEVIATHAN_AGENTS_CHAT_ID: ${{ secrets.LEVIATHAN_AGENTS_CHAT_ID }}
+        LEVIATHAN_AGENTS_TOPIC_ID: ${{ secrets.LEVIATHAN_AGENTS_TOPIC_ID }}
+        LEVIATHAN_AGENT_PRIVATE_KEY: ${{ secrets.LEVIATHAN_AGENT_PRIVATE_KEY }}
+      continue-on-error: true
+      run: |
+        TODAY=$(date -u '+%Y-%m-%d')
+
+        if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$LEVIATHAN_AGENTS_CHAT_ID" ]; then
+          echo "Warning: Agent Chat credentials not configured, skipping"
+          exit 0
+        fi
+
+        uv run python scripts/post_agents_chat.py --date "$TODAY"
+
     - name: Commit distribution metadata
       continue-on-error: true
       run: |
