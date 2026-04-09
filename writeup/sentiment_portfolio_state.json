@@ -1,5 +1,5 @@
 {
-  "cash": 837.980602710852,
+  "cash": 2774.3833604788324,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -161,14 +161,6 @@
       "entry_date": "2026-03-19T14:05:51.637802",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": 9841.929019114586,
-      "entry_price": 0.08944034904933168,
-      "entry_date": "2026-03-20T13:59:32.640069",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
@@ -200,6 +192,14 @@
       "entry_price": 0.25499052048950677,
       "entry_date": "2026-04-06T14:08:44.297814",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": -10369.587453780676,
+      "entry_price": 0.09580690099947728,
+      "entry_date": "2026-04-07T14:27:57.961094",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1630,6 +1630,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-07T14:27:57.961094",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SELL",
+      "quantity": 9841.929019114586,
+      "price": 0.09580690099947728,
+      "value": 942.9247191781938,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 62.659152389838596,
+      "entry_price": 0.08944034904933168
+    },
+    {
+      "date": "2026-04-07T14:27:57.961094",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 10369.587453780676,
+      "price": 0.09580690099947728,
+      "value": 993.4780385897868,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1992,6 +2016,14 @@
     [
       "2026-04-06T14:08:44.297814",
       6636.61099578707
+    ],
+    [
+      "2026-04-07T14:27:57.961094",
+      6426.537922314959
+    ],
+    [
+      "2026-04-08T14:29:32.521445",
+      6739.4576020969635
     ]
   ]
 }
