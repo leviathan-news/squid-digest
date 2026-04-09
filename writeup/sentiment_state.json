@@ -1,10 +1,10 @@
 {
-  "last_processed_date": "2026-04-08",
+  "last_processed_date": "2026-04-09",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 4.499006533737757,
-      "last_signal_date": "2026-04-07",
+      "score": 3.074856683284219,
+      "last_signal_date": "2026-04-09",
       "token_name": "Bitcoin"
     },
     "BNB": {
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": -1.7903632066307675,
+      "score": -1.6215743238728968,
       "last_signal_date": "2026-04-07",
       "token_name": "Solana"
     },
@@ -27,31 +27,31 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.8491532335096649,
+      "score": 0.7690981781759185,
       "last_signal_date": "2026-04-07",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 6.256723920654113,
+      "score": 5.66686291570248,
       "last_signal_date": "2026-04-07",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 6.028944823435956,
+      "score": 5.196786578599453,
       "last_signal_date": "2026-04-06",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 1.5551769892979825,
+      "score": 1.2141409554222073,
       "last_signal_date": "2026-04-04",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.9516951530106196,
+      "score": 0.8619728212469777,
       "last_signal_date": "2026-04-07",
       "token_name": "Ethena"
     },
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-04-04",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.26568161398722046,
+      "score": 0.20742007556977193,
       "last_signal_date": "2026-04-04",
       "token_name": "ChainLink Token"
     },
@@ -81,13 +81,13 @@
     },
     "ADA": {
       "symbol": "ADA",
-      "score": 2.347967110383926,
+      "score": 2.0238838343327465,
       "last_signal_date": "2026-04-06",
       "token_name": "Cardano"
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-04-04",
       "token_name": "Dogecoin"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.697330845549861,
-      "last_signal_date": "2026-04-07",
+      "score": 1.6315890486356686,
+      "last_signal_date": "2026-04-09",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.5052654500985323,
+      "score": 0.34001843330904435,
       "last_signal_date": "2026-04-01",
       "token_name": "UNI"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -1.9033903060212392,
+      "score": -1.7239456424939554,
       "last_signal_date": "2026-04-07",
       "token_name": "World Liberty Financial"
     },
@@ -135,7 +135,7 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 1.01104854345604,
+      "score": 0.96220999826556,
       "last_signal_date": "2026-04-08",
       "token_name": "Leviathan Points"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.6095068271022377,
+      "score": 0.4758475765053098,
       "last_signal_date": "2026-04-04",
       "token_name": "Monero"
     },
@@ -207,9 +207,15 @@
     },
     "KAT": {
       "symbol": "KAT",
-      "score": 0.9516951530106196,
+      "score": 0.8619728212469777,
       "last_signal_date": "2026-04-07",
       "token_name": "KAT"
+    },
+    "SEI": {
+      "symbol": "SEI",
+      "score": 1.0,
+      "last_signal_date": "2026-04-09",
+      "token_name": "Sei"
     }
   }
 }
