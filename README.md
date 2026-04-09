@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Leviathan SQUID DAO launches recovery pool for lenders affected by Llama Lend bad debt on Fraxtal** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/223577?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Intel partners with Elon Musk's SpaceX, xAI, and Tesla on Terafab to scale chip production toward 1TW/year of compute, targeting massive AI and robotics acceleration** [𝕏/@Intel](https://leviathannews.xyz/redirect/222682?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **FBI reports Americans lost $11.4B to crypto fraud in 2025, up 22%, as AI-powered scams hit $893M** [fbi.gov](https://leviathannews.xyz/redirect/222776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps** [𝕏/@gakonst](https://leviathannews.xyz/redirect/222946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic unveils Project Glasswing powered by Claude Mythos Preview, targeting critical software security with AI that detects vulnerabilities at near expert-human level** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/222944?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LlamaRisk expands its risk management mandate across the full Aave protocol fleet** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/224332?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Visa launches Intelligent Commerce Connect for AI agent payments, Sei-based Sumvin among pilot partners** [investor.visa](https://leviathannews.xyz/redirect/224295?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DefiLlama integrates LlamaAI alerts into Telegram, enabling customizable daily notifications for onchain trends and DeFi news** [𝕏/@defillama](https://leviathannews.xyz/redirect/224187?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Civic flags critical OpenClaw security gaps including 40,000 exposed instances, over 1,000 malicious skills, and a 9.9 CVSS vulnerability** [𝕏/@civickey](https://leviathannews.xyz/redirect/224140?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin Depot discloses $3.6M BTC theft from corporate wallets in SEC filing, two weeks after breach** [sec.gov](https://leviathannews.xyz/redirect/224254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/08/signals_2026-04-08.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/08/signals_2026-04-08.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/09/signals_2026-04-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/09/signals_2026-04-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
