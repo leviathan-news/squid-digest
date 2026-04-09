@@ -292,7 +292,7 @@ class GhostEmailClient:
         
         return json.dumps(mobiledoc)
     
-    def send_email_to_members(self, post_id: str, member_filter: str = None) -> bool:
+    def send_email_to_members(self, post_id: str, member_filter: str = None, newsletter_slug: str = None) -> bool:
         """Send email to members via Ghost newsletter API.
 
         Uses the correct Ghost API method: publishing a post with newsletter query parameters.
@@ -300,6 +300,9 @@ class GhostEmailClient:
         Args:
             post_id: Ghost post ID
             member_filter: Filter for which members to send to (e.g., "label:subscriber")
+            newsletter_slug: Slug of the newsletter to send through. If None, uses the
+                first newsletter returned by Ghost (the default). Set via GHOST_DIGEST_NEWSLETTER
+                env var for the daily digest, or pass explicitly.
 
         Returns:
             True if email sent successfully, False otherwise
@@ -309,19 +312,25 @@ class GhostEmailClient:
             current_post = self._make_request("GET", f"posts/{post_id}/")
             post_data = current_post.get("posts", [{}])[0]
 
-            # Get newsletter information
-            newsletters = self._make_request("GET", "newsletters/")
-            newsletter_list = newsletters.get("newsletters", [])
+            # Resolve newsletter slug
+            if newsletter_slug is None:
+                # Fall back to env var, then to the first newsletter in Ghost
+                newsletter_slug = os.getenv("GHOST_DIGEST_NEWSLETTER")
 
-            if not newsletter_list:
-                print("⚠️  No newsletters found in Ghost")
-                print("📧 Please configure a newsletter in Ghost admin panel: Settings → Email newsletter")
-                return False
+            if newsletter_slug:
+                newsletter_name = newsletter_slug
+            else:
+                # No slug specified — look up the default newsletter
+                newsletters = self._make_request("GET", "newsletters/")
+                newsletter_list = newsletters.get("newsletters", [])
 
-            # Use the first (default) newsletter
-            newsletter = newsletter_list[0]
-            newsletter_slug = newsletter.get("slug", "default-newsletter")
-            newsletter_name = newsletter.get("name", "Newsletter")
+                if not newsletter_list:
+                    print("⚠️  No newsletters found in Ghost")
+                    print("📧 Please configure a newsletter in Ghost admin panel: Settings → Email newsletter")
+                    return False
+
+                newsletter_slug = newsletter_list[0].get("slug", "default-newsletter")
+                newsletter_name = newsletter_list[0].get("name", "Newsletter")
 
             print(f"📧 Using newsletter: {newsletter_name} (slug: {newsletter_slug})")
 
@@ -987,7 +996,7 @@ class GhostEmailClient:
             print("The digest content is ready but cannot be sent via Ghost email.")
             return False
     
-    def send_digest_email(self, digest_path: str, recipients: Optional[List[str]] = None, existing_post_id: Optional[str] = None) -> bool:
+    def send_digest_email(self, digest_path: str, recipients: Optional[List[str]] = None, existing_post_id: Optional[str] = None, newsletter_slug: Optional[str] = None) -> bool:
         """Send digest email to public recipients via Ghost.
 
         Args:
@@ -995,6 +1004,8 @@ class GhostEmailClient:
             recipients: List of recipient emails. If None, gets all subscribers from Ghost.
             existing_post_id: If provided, update and publish this draft instead of creating a new post.
                               Prevents slug collisions when a draft was already created.
+            newsletter_slug: Ghost newsletter slug to send through (e.g. "squid-digest").
+                If None, falls back to GHOST_DIGEST_NEWSLETTER env var, then default newsletter.
 
         Returns:
             True if email sent successfully, False otherwise
@@ -1092,7 +1103,7 @@ class GhostEmailClient:
         self.last_published_url = None
 
         # Publish with newsletter parameters to trigger email sending
-        return self.send_email_to_members(post_id, "label:subscriber")
+        return self.send_email_to_members(post_id, "label:subscriber", newsletter_slug=newsletter_slug)
     
     def send_test_email_to_admins(self, digest_path: str) -> bool:
         """Send test email with actual digest content to admins for review.
