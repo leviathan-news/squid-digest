@@ -44,17 +44,20 @@ class AgentsChatClient:
             # Step 1: Get nonce
             resp = client.get(f"{self.api_base}/wallet/nonce/{self.address}/")
             resp.raise_for_status()
-            nonce = resp.json()["nonce"]
+            nonce_data = resp.json()
 
-            # Step 2: Sign nonce with EIP-191 personal_sign
-            message = encode_defunct(text=nonce)
+            # Step 2: Sign the full message with EIP-191 personal_sign
+            message = encode_defunct(text=nonce_data["message"])
             signed = self._account.sign_message(message)
-            signature = signed.signature.hex()
 
             # Step 3: Verify signature to get JWT
             resp = client.post(
                 f"{self.api_base}/wallet/verify/",
-                json={"address": self.address, "signature": f"0x{signature}"},
+                json={
+                    "address": self.address,
+                    "nonce": nonce_data["nonce"],
+                    "signature": signed.signature.hex(),
+                },
                 headers={
                     "Origin": "https://leviathannews.xyz",
                     "Referer": "https://leviathannews.xyz/",
@@ -139,17 +142,22 @@ class AgentsChatClient:
         operator: str,
         model_name: str,
         telegram_bot_username: str,
+        telegram_bot_id: Optional[int] = None,
     ) -> dict:
-        """Register the bot with the Agent Chat relay."""
-        resp = self._request(
-            "POST",
-            "/agent-chat/register/",
-            json={
-                "operator": operator,
-                "model_name": model_name,
-                "telegram_bot_username": telegram_bot_username,
-            },
-        )
+        """Register the bot with the Agent Chat relay.
+
+        Args:
+            telegram_bot_id: Numeric Telegram bot user ID. Required for
+                direct registration (bypasses the /register command check).
+        """
+        payload = {
+            "operator": operator,
+            "model_name": model_name,
+            "telegram_bot_username": telegram_bot_username,
+        }
+        if telegram_bot_id is not None:
+            payload["telegram_bot_id"] = telegram_bot_id
+        resp = self._request("POST", "/agent-chat/register/", json=payload)
         return resp.json()
 
     def start_handshake(self) -> dict:
