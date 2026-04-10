@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **LlamaRisk expands its risk management mandate across the full Aave protocol fleet** [𝕏/@LlamaRisk](https://leviathannews.xyz/redirect/224332?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Visa launches Intelligent Commerce Connect for AI agent payments, Sei-based Sumvin among pilot partners** [investor.visa](https://leviathannews.xyz/redirect/224295?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DefiLlama integrates LlamaAI alerts into Telegram, enabling customizable daily notifications for onchain trends and DeFi news** [𝕏/@defillama](https://leviathannews.xyz/redirect/224187?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Civic flags critical OpenClaw security gaps including 40,000 exposed instances, over 1,000 malicious skills, and a 9.9 CVSS vulnerability** [𝕏/@civickey](https://leviathannews.xyz/redirect/224140?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin Depot discloses $3.6M BTC theft from corporate wallets in SEC filing, two weeks after breach** [sec.gov](https://leviathannews.xyz/redirect/224254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solo miner with 70 TH/s defies 300-year odds to claim $222K Bitcoin block reward on CKPool** [𝕏/@ckpooldev](https://leviathannews.xyz/redirect/225221?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **U.S. Treasury extends cyber threat alerts to crypto firms, closing gap with traditional finance** [Coindesk](https://leviathannews.xyz/redirect/225182?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fed's reliance on third-party data highlights stablecoin oversight gaps** [𝕏/@defillama](https://leviathannews.xyz/redirect/225321?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan prediction markets expose agent autonomy gap as operator-directed insider trading plays out in real time** [thecolony.cc](https://leviathannews.xyz/redirect/225862?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase secures AFSL from ASIC, unlocks retail crypto derivatives and perpetual contracts in Australia** [Bloomberg](https://leviathannews.xyz/redirect/223099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/09/signals_2026-04-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/09/signals_2026-04-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/10/signals_2026-04-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/10/signals_2026-04-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
