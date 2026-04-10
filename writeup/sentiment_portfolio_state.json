@@ -1,5 +1,5 @@
 {
-  "cash": 2774.3833604788324,
+  "cash": 3031.1760921518617,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -196,9 +196,17 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -10369.587453780676,
-      "entry_price": 0.09580690099947728,
+      "quantity": -12487.097550998782,
+      "entry_price": 0.09317971547891866,
       "entry_date": "2026-04-07T14:27:57.961094",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SQUID": {
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "quantity": -37652.63374249184,
+      "entry_price": 0.002303333517022334,
+      "entry_date": "2026-04-10T14:15:46.926561",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1654,6 +1662,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-10T14:15:46.926561",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "SHORT",
+      "quantity": 37652.63374249184,
+      "price": 0.002303333517022334,
+      "value": 86.72657330324753,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-10T14:15:46.926561",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 2117.510097218106,
+      "price": 0.08031421365744958,
+      "value": 170.06615836978176,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2028,6 +2060,10 @@
     [
       "2026-04-09T14:51:43.162007",
       6577.670008157209
+    ],
+    [
+      "2026-04-10T14:15:46.926561",
+      6776.519096085052
     ]
   ]
 }
