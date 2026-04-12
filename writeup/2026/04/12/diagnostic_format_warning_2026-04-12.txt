@@ -1,0 +1,34 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 386 chars. First 500 chars: No trading signals to generate. The search results provided contain only generic market data and price movements without specific news catalysts for the tracked tokens in the Leviathan News portfolio. To generate actionable trading signals, we need headlines with concrete events—regulatory announcements, protocol updates, partnership news, or market catalysts tied to specific tokens.
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+No trading signals to generate. The search results provided contain only generic market data and price movements without specific news catalysts for the tracked tokens in the Leviathan News portfolio. To generate actionable trading signals, we need headlines with concrete events—regulatory announcements, protocol updates, partnership news, or market catalysts tied to specific tokens.
+
+News items sent (10):
+[1] The Leviathan News April SQUID Drop DAO vote is live! - https://leviathannews.xyz/redirect/227116?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] IMF calls Tether's Bitcoin reserves a vulnerability, warns stablecoins susceptible to runs - https://leviathannews.xyz/redirect/227049?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Morgan Stanley eyes tokenization and crypto tax strategies beyond Bitcoin, as exec Amy Oldenburg signals expansion into tokenized funds and digital asset services - https://leviathannews.xyz/redirect/226817?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Ether Machine exits SPAC merger with Dynamix as market conditions sour, forcing $50M settlement while Dynamix races to secure new deal before November deadline - https://leviathannews.xyz/redirect/226807?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Inside USSD security architecture: Sonic builds resilient stablecoin with controlled issuance, multisig governance, and institutional-backed reserves for long-term liquidity stability - https://leviathannews.xyz/redirect/227083?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Raise CEO George Bousis compares gift cards to stablecoins as platform moves $400B industry onto Solana, aiming to upgrade payments and stored value with blockchain rails - https://leviathannews.xyz/redirect/227076?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] CFTC Chair Michael Selig says prediction markets like Polymarket outperform polls and help fight fake news, urging US rules to support innovation and keep jobs onshore - https://leviathannews.xyz/redirect/227087?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Bitwise locks in 0.67% fee and BHYP ticker for Hyperliquid ETF as Grayscale, VanEck chase HYPE exposure - https://leviathannews.xyz/redirect/226783?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO - https://leviathannews.xyz/redirect/226867?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Matterhorn and ASI Alliance launch Vibe-Audit to catch vulnerabilities in AI-generated smart contracts - https://leviathannews.xyz/redirect/226802?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 1016 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 334 news articles (TVL: $100,000)
+$HYPE HYPE - 113 news articles (TVL: $12,000,000,000)
+$DOGE Dogecoin - 62 news articles (TVL: $148,386,666,383)
+$WLFI World Liberty Financial - 50 news articles (TVL: $3,704,875,733)
+$ETH Ethereum - 872 news articles (TVL: $68,433,138)
+$AAVE AAVE - 266 news articles (TVL: $2,513,181,375)
+$XRP XRP - 242 news articles (TVL: $636,416,718)
+$BNB BNB - 175 news articles (TVL: $81,240,000,0...

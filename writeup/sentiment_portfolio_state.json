@@ -1,5 +1,5 @@
 {
-  "cash": 3031.1760921518617,
+  "cash": 3651.536060250757,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -196,18 +196,18 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -12487.097550998782,
-      "entry_price": 0.09317971547891866,
+      "quantity": -25992.718653687967,
+      "entry_price": 0.08579166620789896,
       "entry_date": "2026-04-07T14:27:57.961094",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "SQUID": {
       "symbol": "SQUID",
       "token_name": "Leviathan Points",
-      "quantity": -37652.63374249184,
-      "entry_price": 0.002303333517022334,
-      "entry_date": "2026-04-10T14:15:46.926561",
-      "entry_signal": "SENTIMENT_SHORT"
+      "quantity": 158567.00934841397,
+      "entry_price": 0.0022732406933790644,
+      "entry_date": "2026-04-12T13:57:18.362748",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1686,6 +1686,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-12T13:57:18.362748",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "COVER",
+      "quantity": 37652.63374249184,
+      "price": 0.0022732406933790644,
+      "value": 85.5934992363301,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 1.1330740669174304,
+      "entry_price": 0.002303333517022334
+    },
+    {
+      "date": "2026-04-12T13:57:18.362748",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "BUY",
+      "quantity": 158567.00934841397,
+      "price": 0.0022732406933790644,
+      "value": 360.46097827823314,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-12T13:57:18.362748",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 13505.621102689185,
+      "price": 0.07896078510607102,
+      "value": 1066.4144456134586,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2064,6 +2100,10 @@
     [
       "2026-04-10T14:15:46.926561",
       6776.519096085052
+    ],
+    [
+      "2026-04-12T13:57:18.362748",
+      6841.351573121396
     ]
   ]
 }
