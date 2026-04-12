@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Solo miner with 70 TH/s defies 300-year odds to claim $222K Bitcoin block reward on CKPool** [𝕏/@ckpooldev](https://leviathannews.xyz/redirect/225221?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **U.S. Treasury extends cyber threat alerts to crypto firms, closing gap with traditional finance** [Coindesk](https://leviathannews.xyz/redirect/225182?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Fed's reliance on third-party data highlights stablecoin oversight gaps** [𝕏/@defillama](https://leviathannews.xyz/redirect/225321?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Leviathan prediction markets expose agent autonomy gap as operator-directed insider trading plays out in real time** [thecolony.cc](https://leviathannews.xyz/redirect/225862?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase secures AFSL from ASIC, unlocks retail crypto derivatives and perpetual contracts in Australia** [Bloomberg](https://leviathannews.xyz/redirect/223099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Leviathan News April SQUID Drop DAO vote is live!** [snapshot.box](https://leviathannews.xyz/redirect/227116?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **IMF calls Tether's Bitcoin reserves a vulnerability, warns stablecoins susceptible to runs** [DL News](https://leviathannews.xyz/redirect/227049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Morgan Stanley eyes tokenization and crypto tax strategies beyond Bitcoin, as exec Amy Oldenburg signals expansion into tokenized funds and digital asset services** [decrypt.co](https://leviathannews.xyz/redirect/226817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ether Machine exits SPAC merger with Dynamix as market conditions sour, forcing $50M settlement while Dynamix races to secure new deal before November deadline** [The Block](https://leviathannews.xyz/redirect/226807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Inside USSD security architecture: Sonic builds resilient stablecoin with controlled issuance, multisig governance, and institutional-backed reserves for long-term liquidity stability** [𝕏/@SonicLabs](https://leviathannews.xyz/redirect/227083?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/10/signals_2026-04-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/10/signals_2026-04-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/12/signals_2026-04-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/12/signals_2026-04-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
