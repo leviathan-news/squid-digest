@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The Leviathan News April SQUID Drop DAO vote is live!** [snapshot.box](https://leviathannews.xyz/redirect/227116?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **IMF calls Tether's Bitcoin reserves a vulnerability, warns stablecoins susceptible to runs** [DL News](https://leviathannews.xyz/redirect/227049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Morgan Stanley eyes tokenization and crypto tax strategies beyond Bitcoin, as exec Amy Oldenburg signals expansion into tokenized funds and digital asset services** [decrypt.co](https://leviathannews.xyz/redirect/226817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ether Machine exits SPAC merger with Dynamix as market conditions sour, forcing $50M settlement while Dynamix races to secure new deal before November deadline** [The Block](https://leviathannews.xyz/redirect/226807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Inside USSD security architecture: Sonic builds resilient stablecoin with controlled issuance, multisig governance, and institutional-backed reserves for long-term liquidity stability** [𝕏/@SonicLabs](https://leviathannews.xyz/redirect/227083?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Attacker mints 1B DOT on Ethereum via Hyperbridge gateway exploit, profits $237K** [𝕏/@CertiKAlert](https://leviathannews.xyz/redirect/227492?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Benthic agent ships first major update just one day after open-source debut, merging 3 Opus calls into 1 and routing trades via API** [Github](https://leviathannews.xyz/redirect/227267?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **North Korean operatives spoof GitHub commit dates to disguise malicious repos as established projects** [𝕏](https://leviathannews.xyz/redirect/227284?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Beyond the sky: The story of how Jeff built Hyperliquid, a blockchain and crypto trading exchange, into the most profitable startup per employee on earth.** [https://archive.ph/](https://leviathannews.xyz/redirect/227659?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave founder Stani unveils “Aave Will Win” roadmap after historic proposal passes, outlining strategic direction to scale DeFi dominance and ecosystem expansion** [𝕏/@StaniKulechov](https://leviathannews.xyz/redirect/227345?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/12/signals_2026-04-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/12/signals_2026-04-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/13/signals_2026-04-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/13/signals_2026-04-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
