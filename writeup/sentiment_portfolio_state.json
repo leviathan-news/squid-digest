@@ -1,5 +1,5 @@
 {
-  "cash": 3916.0927811035326,
+  "cash": 3686.1314955856087,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -204,8 +204,8 @@
     "SQUID": {
       "symbol": "SQUID",
       "token_name": "Leviathan Points",
-      "quantity": 158567.00934841397,
-      "entry_price": 0.0022732406933790644,
+      "quantity": 253894.8844946432,
+      "entry_price": 0.0023254594710379614,
       "entry_date": "2026-04-12T13:57:18.362748",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -1734,6 +1734,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-15T14:29:50.382927",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "BUY",
+      "quantity": 95327.87514622921,
+      "price": 0.0024123194308608323,
+      "value": 229.96128551792413,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2124,6 +2136,10 @@
     [
       "2026-04-14T14:47:37.187235",
       8003.622024360948
+    ],
+    [
+      "2026-04-15T14:29:50.382927",
+      8051.457080127086
     ]
   ]
 }
