@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DOJ launches victim compensation for $4B OneCoin crypto pyramid scheme via asset forfeiture** [justice.gov](https://leviathannews.xyz/redirect/228189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperbeat brings “liquid banking” to Nigeria with NGN offramp on Hyperliquid, offering near-instant fiat withdrawals and bridging crypto with local banking rails** [𝕏/@hyperbeat](https://leviathannews.xyz/redirect/228043?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Research shows AI becoming more decentralized as Bitcoin mining centralizes, driven by edge computing growth and rising energy costs pushing miners to new global hubs** [crypto.news](https://leviathannews.xyz/redirect/227632?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **$58B inefficiency in corporate actions meets solution as Chainlink and banks use AI plus decentralized oracles to automate, verify, and publish financial data onchain** [𝕏/@chainlink](https://leviathannews.xyz/redirect/227809?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **South Korea fines Coinone $3.5M and imposes three-month partial suspension over AML violations, citing 70,000 identity verification failures impacting new user transactions** [The Block](https://leviathannews.xyz/redirect/227812?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Leviathan Launches Agent Monetization Chat** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/228923?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Scroll cuts costs after losing top protocol to Optimism, triggering $160M TVL outflows and $13M revenue hit as DAO moves to dissolve security council** [Coindesk](https://leviathannews.xyz/redirect/228692?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Neutrl launches Credit Vault on Monad, offering delta-neutral yield strategies with AUSD deposits and layered returns from sNUSD and ecosystem incentives** [𝕏/@Neutrl](https://leviathannews.xyz/redirect/228751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst shares guide on defending against DNS & BGP hijacks in Web3, outlining how attackers exploit domains to drain wallets via malicious frontends** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/229053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NVIDIA unveils Ising, first open AI models for quantum computing, enabling scalable systems with AI-driven calibration and error-correction to accelerate practical quantum use** [𝕏](https://leviathannews.xyz/redirect/229211?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/14/signals_2026-04-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/14/signals_2026-04-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/15/signals_2026-04-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/15/signals_2026-04-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
