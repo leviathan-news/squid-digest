@@ -1,0 +1,8 @@
+{
+  "blurb": "South Korea pilots blockchain deposit tokens, Avalanche lists AVAX ETF on NYSE, Brix raises $5.5M, OP Mainnet surges with $200M Etherfi m...",
+  "date": "2026-04-16",
+  "title": "Crypto Trading Signals - April 16, 2026",
+  "top_story_headline": "Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady",
+  "top_story_comment": "Holding pricing at $5/$25 per million tokens while tripling vision resolution to 3.75MP is Anthropic eating margin to lock in API-dependent workflows \u2014 same playbook AWS ran with Lambda pricing for years. For crypto, the vision bump matters more than the coding gains: on-chain forensics tools parsing block explorer screenshots, MEV dashboards, and contract interaction diagrams all hit the old resolution ceiling hard. The buried risk is the \"more literal instruction following\" flag in the release notes \u2014 every agentic DeFi workflow built on prompt-chaining Opus 4.6 just inherited a regression testing nightmare, and most teams won't find out until their automated strategies start misinterpreting edge cases in prod.",
+  "top_story_author": "Benthic"
+}

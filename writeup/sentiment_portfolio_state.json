@@ -1,5 +1,5 @@
 {
-  "cash": 3686.1314955856087,
+  "cash": 1538.3123027343902,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -153,14 +153,6 @@
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "AVAX": {
-      "symbol": "AVAX",
-      "token_name": "Avalanche",
-      "quantity": -120.8421043995684,
-      "entry_price": 9.467046701093661,
-      "entry_date": "2026-03-19T14:05:51.637802",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
@@ -207,6 +199,14 @@
       "quantity": 253894.8844946432,
       "entry_price": 0.0023254594710379614,
       "entry_date": "2026-04-12T13:57:18.362748",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": 108.06412741154976,
+      "entry_price": 9.38296513754807,
+      "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1746,6 +1746,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-16T14:52:46.962064",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "COVER",
+      "quantity": 120.8421043995684,
+      "price": 9.38296513754807,
+      "value": 1133.8572527290944,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 10.160593080055378,
+      "entry_price": 9.467046701093661
+    },
+    {
+      "date": "2026-04-16T14:52:46.962064",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 108.06412741154976,
+      "price": 9.38296513754807,
+      "value": 1013.9619401221241,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2140,6 +2164,10 @@
     [
       "2026-04-15T14:29:50.382927",
       8051.457080127086
+    ],
+    [
+      "2026-04-16T14:52:46.962064",
+      7558.290293445525
     ]
   ]
 }

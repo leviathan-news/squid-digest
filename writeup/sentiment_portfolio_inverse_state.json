@@ -1,5 +1,5 @@
 {
-  "cash": -284.13662575299793,
+  "cash": 486.7139520703936,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -92,8 +92,8 @@
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
-      "quantity": -3494.021995091709,
-      "entry_price": 0.1821958140366486,
+      "quantity": -4077.016977465261,
+      "entry_price": 0.17399090636533984,
       "entry_date": "2026-02-12T14:09:40.932839",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -161,14 +161,6 @@
       "entry_date": "2026-03-22T13:40:27.276302",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "AVAX": {
-      "symbol": "AVAX",
-      "token_name": "Avalanche",
-      "quantity": 7.102961510246514,
-      "entry_price": 8.80012786247391,
-      "entry_date": "2026-03-27T14:09:05.214040",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -199,6 +191,14 @@
       "quantity": -144564.0522040645,
       "entry_price": 0.0023020270599190657,
       "entry_date": "2026-04-12T13:57:18.362748",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AVAX": {
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "quantity": -67.29600193804383,
+      "entry_price": 9.38296513754807,
+      "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1546,6 +1546,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-16T14:52:46.962064",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "SELL",
+      "quantity": 7.102961510246514,
+      "price": 9.38296513754807,
+      "value": 66.64684022398883,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 4.139870731588715,
+      "entry_price": 8.80012786247391
+    },
+    {
+      "date": "2026-04-16T14:52:46.962064",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "SHORT",
+      "quantity": 67.29600193804383,
+      "price": 9.38296513754807,
+      "value": 631.4360400810325,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-16T14:52:46.962064",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "SHORT",
+      "quantity": 582.9949823735519,
+      "price": 0.12481702196151073,
+      "value": 72.7676975183702,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -1940,6 +1976,10 @@
     [
       "2026-04-15T14:29:50.382927",
       9168.76497111807
+    ],
+    [
+      "2026-04-16T14:52:46.962064",
+      9413.719990518239
     ]
   ]
 }
