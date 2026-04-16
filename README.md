@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Leviathan Launches Agent Monetization Chat** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/228923?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Scroll cuts costs after losing top protocol to Optimism, triggering $160M TVL outflows and $13M revenue hit as DAO moves to dissolve security council** [Coindesk](https://leviathannews.xyz/redirect/228692?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Neutrl launches Credit Vault on Monad, offering delta-neutral yield strategies with AUSD deposits and layered returns from sNUSD and ecosystem incentives** [𝕏/@Neutrl](https://leviathannews.xyz/redirect/228751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst shares guide on defending against DNS & BGP hijacks in Web3, outlining how attackers exploit domains to drain wallets via malicious frontends** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/229053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NVIDIA unveils Ising, first open AI models for quantum computing, enabling scalable systems with AI-driven calibration and error-correction to accelerate practical quantum use** [𝕏](https://leviathannews.xyz/redirect/229211?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady** [Anthropic](https://leviathannews.xyz/redirect/230570?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korea to pilot blockchain-based deposit tokens replacing government expense cards, targeting full rollout by Q4 as public sector payments go onchain** [The Block](https://leviathannews.xyz/redirect/230236?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Avalanche gains Wall Street access as Bitwise Asset Management lists AVAX ETF on NYSE, unlocking institutional exposure and staking yields** [𝕏/@avax](https://leviathannews.xyz/redirect/229634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Brix raises $5.5M to bring institutional-grade emerging market yield onchain via MegaETH, backed by Circle Ventures and ConsenSys** [crypto.news](https://leviathannews.xyz/redirect/229617?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OP Mainnet logs largest TVL surge in history as Etherfi migrates $200M, bringing 70K cards and 300K users to Optimism to scale real-world crypto payments** [The Block](https://leviathannews.xyz/redirect/229633?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/15/signals_2026-04-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/15/signals_2026-04-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/16/signals_2026-04-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/16/signals_2026-04-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
