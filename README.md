@@ -12,14 +12,14 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 
 ### 🔥 Top Headlines
 - **Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady** [Anthropic](https://leviathannews.xyz/redirect/230570?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **South Korea to pilot blockchain-based deposit tokens replacing government expense cards, targeting full rollout by Q4 as public sector payments go onchain** [The Block](https://leviathannews.xyz/redirect/230236?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Avalanche gains Wall Street access as Bitwise Asset Management lists AVAX ETF on NYSE, unlocking institutional exposure and staking yields** [𝕏/@avax](https://leviathannews.xyz/redirect/229634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Brix raises $5.5M to bring institutional-grade emerging market yield onchain via MegaETH, backed by Circle Ventures and ConsenSys** [crypto.news](https://leviathannews.xyz/redirect/229617?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OP Mainnet logs largest TVL surge in history as Etherfi migrates $200M, bringing 70K cards and 300K users to Optimism to scale real-world crypto payments** [The Block](https://leviathannews.xyz/redirect/229633?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI chats ruled admissible in court as US judge denies legal privilege, prompting law firms to warn clients their conversations with tools like Claude can be seized** [decrypt.co](https://leviathannews.xyz/redirect/230829?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **VerifiedX introduces zero-knowledge privacy layer for Bitcoin, enabling shielded transactions as institutional demand grows for confidential onchain activity** [Coindesk](https://leviathannews.xyz/redirect/230675?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi sees $840M+ in tokenized asset deposits, marking growth of RWAs from theory to execution as advisors explore new risk and yield opportunities** [Coindesk](https://leviathannews.xyz/redirect/230693?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap launches Developer Platform with AI-first tools, API dashboard, and liquidity endpoints, enabling builders to integrate swaps and LPing across 18+ chains** [𝕏/@Uniswap](https://leviathannews.xyz/redirect/230716?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/16/signals_2026-04-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/16/signals_2026-04-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/17/signals_2026-04-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/17/signals_2026-04-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
