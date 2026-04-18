@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 394.8074405189393,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -208,6 +208,14 @@
       "entry_price": 0.08374699702021839,
       "entry_date": "2026-04-17T14:19:32.133047",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "MON": {
+      "symbol": "MON",
+      "token_name": "Monad",
+      "quantity": -11899.816493173983,
+      "entry_price": 0.03317760746524202,
+      "entry_date": "2026-04-18T13:59:21.488802",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -1602,6 +1610,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-18T13:59:21.488802",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "SHORT",
+      "quantity": 11899.816493173983,
+      "price": 0.03317760746524202,
+      "value": 394.8074405189393,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2004,6 +2024,10 @@
     [
       "2026-04-17T14:19:32.133047",
       9206.30113061213
+    ],
+    [
+      "2026-04-18T13:59:21.488802",
+      8926.080477551941
     ]
   ]
 }

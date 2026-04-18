@@ -1,0 +1,35 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 0 chars. First 500 chars: 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+
+
+News items sent (10):
+[1] Anthropic debuts Claude Design, generating slides, prototypes, and one-pagers from chat on Opus 4.7 with Canva export - https://leviathannews.xyz/redirect/231718?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Anthropic’s Mythos findings reproduced with open-source tools, highlighting rapid spread of AI-driven cyber capabilities across public models - https://leviathannews.xyz/redirect/231892?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] DL Research maps Web3 privacy landscape, showing how ZK, FHE, and MPC each solve different problems while exposing trade-offs shaping the future of secure on-chain systems - https://leviathannews.xyz/redirect/232176?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Ethereum founder Vitalik Buterin warns of DNS attack on eth.limo, urging users to avoid accessing eth.limo domains while directing traffic to IPFS-based blog mirror - https://leviathannews.xyz/redirect/232254?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Peaq invests in DualMintRWA to scale tokenized machines, targeting industrial robots, EV chargers, and humanoids as onchain financial assets powered by peaqOS - https://leviathannews.xyz/redirect/231402?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Foundation NFT marketplace shutters after Blackdove scraps acquisition, ending $230M run from 2021 boom era - https://leviathannews.xyz/redirect/231426?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Telegram CEO Pavel Durov warns EU age-verification app risks mass surveillance, citing security flaws and potential expansion into broader identity tracking - https://leviathannews.xyz/redirect/231573?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Circle launches USDC Bridge to unify cross-chain transfers, aiming to replace fragmented bridges with seamless, bank-like settlement infrastructure - https://leviathannews.xyz/redirect/231578?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Ramp Network launches multichain wallet enabling users to buy, sell, swap, and cash out crypto in one app without relying on third-party providers - https://leviathannews.xyz/redirect/231557?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Iconiq emerges as major AI investor with $5B deployed, including massive Anthropic stake, as new report reveals fund returns, clients, and fundraising plans - https://leviathannews.xyz/redirect/231624?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 1134 news articles (TVL: $369,000,000)
+$XRP XRP - 290 news articles (TVL: $636,416,718)
+$DOGE Dogecoin - 68 news articles (TVL: $148,386,666,383)
+$ETH Ethereum - 923 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 335 news articles (TVL: $100,000)
+$AAVE AAVE - 271 news articles (TVL: $2,513,181,375)
+$BNB BNB - 191 news articles (TVL: $81,240,000,000)
+$AVAX Avalanche - 170 news articles (TVL: $7,215,000,000)
+$SOL Solana - 149 news articles (TVL: $800,000,000,000)
+$HYPE H...
