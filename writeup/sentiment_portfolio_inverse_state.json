@@ -1,5 +1,5 @@
 {
-  "cash": 394.8074405189393,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -216,6 +216,14 @@
       "entry_price": 0.03317760746524202,
       "entry_date": "2026-04-18T13:59:21.488802",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "rsETH": {
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "quantity": 0.15938415848549284,
+      "entry_price": 2477.0808107311036,
+      "entry_date": "2026-04-19T13:58:00.589260",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1622,6 +1630,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-19T13:58:00.589260",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "BUY",
+      "quantity": 0.15938415848549284,
+      "price": 2477.0808107311036,
+      "value": 394.8074405189393,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2028,6 +2048,10 @@
     [
       "2026-04-18T13:59:21.488802",
       8926.080477551941
+    ],
+    [
+      "2026-04-19T13:58:00.589260",
+      8931.777201175635
     ]
   ]
 }
