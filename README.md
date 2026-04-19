@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Anthropic debuts Claude Design, generating slides, prototypes, and one-pagers from chat on Opus 4.7 with Canva export** [𝕏/@claudeai](https://leviathannews.xyz/redirect/231718?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic’s Mythos findings reproduced with open-source tools, highlighting rapid spread of AI-driven cyber capabilities across public models** [decrypt.co](https://leviathannews.xyz/redirect/231892?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DL Research maps Web3 privacy landscape, showing how ZK, FHE, and MPC each solve different problems while exposing trade-offs shaping the future of secure on-chain systems** [𝕏/@dl_research](https://leviathannews.xyz/redirect/232176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum founder Vitalik Buterin warns of DNS attack on eth.limo, urging users to avoid accessing eth.limo domains while directing traffic to IPFS-based blog mirror** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/232254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Peaq invests in DualMintRWA to scale tokenized machines, targeting industrial robots, EV chargers, and humanoids as onchain financial assets powered by peaqOS** [𝕏/@peaq](https://leviathannews.xyz/redirect/231402?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Justin Sun calls for talks with KelpDAO attacker over $300 million exploit, highlighting risks of cascading impact on Aave and major DeFi protocols** [𝕏/@justinsuntron](https://leviathannews.xyz/redirect/232691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance and Bitget investigate RAVE token spike as ZachXBT claims insiders orchestrated massive short squeeze, wiping out $44M in leveraged positions** [Coindesk](https://leviathannews.xyz/redirect/232394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI captures 80% of Q1 2026 venture funding as crypto VCs pivot to stablecoins, prediction markets, and AI bets** [Coindesk](https://leviathannews.xyz/redirect/232455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Consensys' Bill Hughes calls UK FCA crypto proposal a 'mother, may I' regime broader than MiCA or US** [DL News](https://leviathannews.xyz/redirect/232453?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **THORChain pushes native Monero swaps for v3.18 and drafts dynamic fees to reclaim volume lost to aggregators** [blog.thorchain.org](https://leviathannews.xyz/redirect/232401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/18/signals_2026-04-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/18/signals_2026-04-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/19/signals_2026-04-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/19/signals_2026-04-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
