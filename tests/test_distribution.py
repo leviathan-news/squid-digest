@@ -5,7 +5,7 @@ broadcast caption building, caption truncation, and blurb generation.
 
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
@@ -331,3 +331,244 @@ class TestGenerateBlurb:
         result = self._generate_no_api(["Only headline"])
         assert "In today's digest:" in result
         assert "Only headline" in result
+
+
+class TestBlurbRefusalFallback:
+    """Tests for the refusal / too-short detection in generate_blurb Tier-1."""
+
+    def _patched_generate(self, perplexity_text, headlines=None):
+        """Invoke generate_blurb with Perplexity patched to return *perplexity_text*."""
+        from unittest.mock import patch, MagicMock
+        from squid_digest.config import generate_blurb
+
+        headlines = headlines or ["Headline A rises", "Headline B falls", "Headline C launches"]
+        fake_resp = MagicMock()
+        fake_resp.raise_for_status.return_value = None
+        fake_resp.json.return_value = {"choices": [{"message": {"content": perplexity_text}}]}
+
+        with patch.dict(
+            "squid_digest.config.PERPLEXITY_CHAT_MODEL", {"API_KEY": "test-key"}
+        ):
+            with patch("httpx.post", return_value=fake_resp):
+                return generate_blurb(headlines)
+
+    def test_refusal_phrase_falls_through(self):
+        result = self._patched_generate(
+            "I cannot complete this request because the search results provided do not contain the crypto news headlines."
+        )
+        assert "In today's digest:" in result
+        assert "I cannot" not in result
+
+    def test_apology_phrase_falls_through(self):
+        result = self._patched_generate("I apologize, but there is nothing substantive to report today.")
+        assert "In today's digest:" in result
+
+    def test_too_short_response_falls_through(self):
+        result = self._patched_generate("ok")
+        assert "In today's digest:" in result
+
+    def test_valid_blurb_is_returned(self):
+        text = "Bitcoin hits $77K as Anthropic ships Opus 4.7 and DeFi TVL hits new highs"
+        result = self._patched_generate(text)
+        assert result == text
+
+
+class TestPromoteFirstNonDuplicate:
+    """Tests for the top-story dedup helper.
+
+    `save_meta` writes under `WRITEUP_DIR`. These tests monkeypatch
+    `WRITEUP_DIR` onto a fresh tmp_path so the real checkout stays clean.
+    """
+
+    def _isolate(self, tmp_path, monkeypatch):
+        """Redirect WRITEUP_DIR to tmp_path for the duration of a test."""
+        import squid_digest.config as cfg
+
+        monkeypatch.setattr(cfg, "WRITEUP_DIR", tmp_path)
+
+    def _helper(self):
+        sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+        from digest import promote_first_non_duplicate
+        return promote_first_non_duplicate
+
+    def test_short_list_unchanged(self, tmp_path, monkeypatch):
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        assert helper([], datetime(2026, 5, 1)) == []
+        assert helper([{"headline": "X"}], datetime(2026, 5, 1)) == [{"headline": "X"}]
+
+    def test_no_yesterday_meta_unchanged(self, tmp_path, monkeypatch):
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        news = [{"headline": "X"}, {"headline": "Y"}]
+        assert helper(news, datetime(2026, 5, 1)) == news
+
+    def test_no_collision_unchanged(self, tmp_path, monkeypatch):
+        from squid_digest.config import save_meta
+
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        today = datetime(2026, 5, 2)
+        save_meta(today - timedelta(days=1), {"top_story_headline": "X"})
+        news = [{"headline": "DIFFERENT"}, {"headline": "Y"}]
+        assert helper(news, today) == news
+
+    def test_simple_promote(self, tmp_path, monkeypatch):
+        from squid_digest.config import save_meta
+
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        today = datetime(2026, 5, 2)
+        save_meta(today - timedelta(days=1), {"top_story_headline": "X"})
+        news = [{"headline": "X"}, {"headline": "Y"}, {"headline": "Z"}]
+        result = helper(news, today)
+        assert result == [{"headline": "Y"}, {"headline": "X"}, {"headline": "Z"}]
+
+    def test_naive_swap_would_fail(self, tmp_path, monkeypatch):
+        """[X, X, Y] must promote Y, not swap slots 0/1."""
+        from squid_digest.config import save_meta
+
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        today = datetime(2026, 5, 2)
+        save_meta(today - timedelta(days=1), {"top_story_headline": "X"})
+        news = [{"headline": "X"}, {"headline": "X"}, {"headline": "Y"}]
+        result = helper(news, today)
+        assert result[0] == {"headline": "Y"}
+        assert {"headline": "X"} in result[1:]
+
+    def test_skips_empty_headline(self, tmp_path, monkeypatch):
+        """Candidates with empty headlines must not be promoted."""
+        from squid_digest.config import save_meta
+
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        today = datetime(2026, 5, 2)
+        save_meta(today - timedelta(days=1), {"top_story_headline": "X"})
+        news = [{"headline": "X"}, {"headline": ""}, {"headline": "Y"}]
+        result = helper(news, today)
+        assert result[0] == {"headline": "Y"}
+
+    def test_all_candidates_match_ships_as_is(self, tmp_path, monkeypatch):
+        from squid_digest.config import save_meta
+
+        self._isolate(tmp_path, monkeypatch)
+        helper = self._helper()
+        today = datetime(2026, 5, 2)
+        save_meta(today - timedelta(days=1), {"top_story_headline": "X"})
+        news = [{"headline": "X"}, {"headline": "X"}, {"headline": "X"}]
+        result = helper(news, today)
+        assert result == news
+
+
+class TestPostXSentinel:
+    """post_x.py must write tweet_status FAILED and exit non-zero on both failure branches."""
+
+    def _isolate(self, tmp_path, monkeypatch):
+        import squid_digest.config as cfg
+
+        monkeypatch.setattr(cfg, "WRITEUP_DIR", tmp_path)
+
+    def _load_main(self):
+        sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+        import importlib
+        import post_x
+
+        return importlib.reload(post_x)
+
+    def _prime_signals_and_meta(self, tmp_path, date):
+        from squid_digest.config import save_meta, get_writeup_date_path
+
+        save_meta(
+            date,
+            {
+                "title": f"Crypto Trading Signals - {date.strftime('%B %d, %Y')}",
+                "blurb": "Test blurb for dedupe sentinel path",
+            },
+        )
+        signals_dir = get_writeup_date_path(date)
+        (signals_dir / f"signals_{date.strftime('%Y-%m-%d')}.md").write_text(
+            "# Trading signals\n\n## \U0001f525 Top Stories\n\nSome content.\n"
+        )
+
+    def test_exception_writes_failed_sentinel(self, tmp_path, monkeypatch):
+        from unittest.mock import patch, MagicMock
+        import pytest
+
+        self._isolate(tmp_path, monkeypatch)
+        date = datetime(2026, 5, 3)
+        self._prime_signals_and_meta(tmp_path, date)
+
+        monkeypatch.setenv("X_API_KEY", "k")
+        monkeypatch.setenv("X_API_SECRET", "s")
+        monkeypatch.setenv("X_ACCESS_TOKEN", "t")
+        monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
+        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
+
+        post_x = self._load_main()
+
+        client = MagicMock()
+        client.post_tweet.side_effect = RuntimeError("boom")
+        with patch("squid_digest.x.XClient", return_value=client):
+            with pytest.raises(SystemExit) as exc:
+                post_x.main()
+            assert exc.value.code == 1
+
+        from squid_digest.config import load_meta
+        assert load_meta(date).get("tweet_status") == "FAILED"
+        assert "tweet_id" not in load_meta(date)
+
+    def test_empty_response_writes_failed_sentinel(self, tmp_path, monkeypatch):
+        from unittest.mock import patch, MagicMock
+        import pytest
+
+        self._isolate(tmp_path, monkeypatch)
+        date = datetime(2026, 5, 4)
+        self._prime_signals_and_meta(tmp_path, date)
+
+        monkeypatch.setenv("X_API_KEY", "k")
+        monkeypatch.setenv("X_API_SECRET", "s")
+        monkeypatch.setenv("X_ACCESS_TOKEN", "t")
+        monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
+        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
+
+        post_x = self._load_main()
+
+        client = MagicMock()
+        client.post_tweet.return_value = {"data": {}}
+        with patch("squid_digest.x.XClient", return_value=client):
+            with pytest.raises(SystemExit) as exc:
+                post_x.main()
+            assert exc.value.code == 1
+
+        from squid_digest.config import load_meta
+        assert load_meta(date).get("tweet_status") == "FAILED"
+        assert "tweet_id" not in load_meta(date)
+
+    def test_success_writes_ok_status(self, tmp_path, monkeypatch):
+        from unittest.mock import patch, MagicMock
+
+        self._isolate(tmp_path, monkeypatch)
+        date = datetime(2026, 5, 5)
+        self._prime_signals_and_meta(tmp_path, date)
+
+        monkeypatch.setenv("X_API_KEY", "k")
+        monkeypatch.setenv("X_API_SECRET", "s")
+        monkeypatch.setenv("X_ACCESS_TOKEN", "t")
+        monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
+        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
+
+        post_x = self._load_main()
+
+        client = MagicMock()
+        client.post_tweet.return_value = {"data": {"id": "12345"}}
+        with patch("squid_digest.x.XClient", return_value=client):
+            post_x.main()
+
+        from squid_digest.config import load_meta
+        meta = load_meta(date)
+        assert meta.get("tweet_id") == "12345"
+        assert meta.get("tweet_status") == "ok"

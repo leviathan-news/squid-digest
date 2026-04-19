@@ -96,18 +96,18 @@ jobs:
         X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
         X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         X_ACCOUNT_USERNAME: ${{ secrets.X_ACCOUNT_USERNAME }}
-      continue-on-error: true
       run: |
         TODAY=$(date -u '+%Y-%m-%d')
 
         if [ -z "$X_API_KEY" ] || [ -z "$X_ACCESS_TOKEN" ]; then
-          echo "Warning: X credentials not configured, skipping"
-          exit 0
+          echo "ERROR: X credentials not configured"
+          exit 1
         fi
 
         uv run python scripts/post_x.py --date "$TODAY"
 
     - name: Post to Leviathan Agent Chat
+      if: always()
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         LEVIATHAN_AGENTS_CHAT_ID: ${{ secrets.LEVIATHAN_AGENTS_CHAT_ID }}
@@ -125,6 +125,7 @@ jobs:
         uv run python scripts/post_agents_chat.py --date "$TODAY"
 
     - name: Commit distribution metadata
+      if: always()
       continue-on-error: true
       run: |
         git config --local user.email "action@github.com"

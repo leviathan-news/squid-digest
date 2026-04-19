@@ -179,6 +179,25 @@ def resolve_public_digest_url(date: datetime) -> str:
     return meta.get("published_ghost_url") or get_canonical_url(date)
 
 
+_BLURB_REFUSAL_PATTERNS = (
+    "i cannot",
+    "i'm unable",
+    "i am unable",
+    "i don't have",
+    "search results provided",
+    "cannot complete",
+    "i apologize",
+)
+
+
+def _looks_like_refusal(blurb: str) -> bool:
+    """True when a Perplexity response looks like a refusal or is unusably short."""
+    if not blurb or len(blurb) < 20:
+        return True
+    lowered = blurb.lower()
+    return any(p in lowered for p in _BLURB_REFUSAL_PATTERNS)
+
+
 def generate_blurb(headlines: list, max_chars: int = 140) -> str:
     """Generate a human-sounding blurb from headlines via Perplexity.
 
@@ -227,7 +246,12 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             import re
             blurb = re.sub(r'<think>.*?</think>', '', blurb, flags=re.DOTALL).strip()
             blurb = re.sub(r'\[\d+\]', '', blurb).strip()
-            if blurb and len(blurb) <= max_chars:
+            if _looks_like_refusal(blurb):
+                logger.warning(
+                    "Perplexity returned refusal or too-short blurb: %r. Falling through to template.",
+                    blurb[:80],
+                )
+            elif blurb and len(blurb) <= max_chars:
                 return blurb
             elif blurb:
                 return blurb[:max_chars - 3] + "..."

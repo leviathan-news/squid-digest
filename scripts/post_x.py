@@ -196,7 +196,7 @@ def main():
             if existing:
                 tweet_id = existing[0].get("id", "unknown")
                 print(f"\u23ed Digest tweet already exists (id: {tweet_id}), skipping")
-                save_meta(date, {"tweet_id": tweet_id})
+                save_meta(date, {"tweet_id": tweet_id, "tweet_status": "ok"})
                 return
         else:
             print("\u2139 X_ACCOUNT_USERNAME not set, skipping API dedupe check")
@@ -207,12 +207,15 @@ def main():
         result = client.post_tweet(tweet)
         tweet_id = result.get("data", {}).get("id")
         if tweet_id:
-            save_meta(date, {"tweet_id": tweet_id})
+            save_meta(date, {"tweet_id": tweet_id, "tweet_status": "ok"})
             print(f"\u2713 Posted: https://x.com/i/web/status/{tweet_id}")
         else:
             print(f"\u26a0 Post returned unexpected response: {result}")
+            save_meta(date, {"tweet_status": "FAILED"})
+            sys.exit(1)
     except Exception as e:
         print(f"\u2717 Failed to post: {e}")
+        save_meta(date, {"tweet_status": "FAILED"})
         sys.exit(1)
 
 

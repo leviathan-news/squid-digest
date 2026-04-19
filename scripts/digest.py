@@ -4,7 +4,7 @@ Script for generating writeup for each news content or bundle all news content
 
 import asyncio, json, argparse, random
 import tempfile
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from pathlib import Path
 import httpx
@@ -18,7 +18,7 @@ from squid_digest.config import (
     BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
     SENTIMENT_STATE_FILE, SENTIMENT_PORTFOLIO_STATE_FILE,
     SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE,
-    get_writeup_file_path, save_meta, DEFAULT_BLURB, generate_blurb,
+    get_writeup_file_path, save_meta, load_meta, DEFAULT_BLURB, generate_blurb,
 )
 import os
 from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
@@ -157,6 +157,41 @@ def generate_squid_pass_winner_section(winner_data):
     section += "  </tr>\n"
     
     return section
+
+
+def promote_first_non_duplicate(news_data, today):
+    """Return a reordered copy of news_data with any headline matching
+    yesterday's lead demoted out of slot 0.
+
+    If news_data[0] matches yesterday's top_story_headline, the first
+    later item with a non-empty, non-matching headline is promoted to
+    slot 0. Relative order of other items is preserved. Returns the
+    input unchanged when there is no prior meta, no collision, or every
+    candidate collides.
+    """
+    if len(news_data) < 2:
+        return news_data
+    yesterday_meta = load_meta(today - timedelta(days=1)) or {}
+    yesterday_lead = yesterday_meta.get("top_story_headline", "")
+    if not yesterday_lead:
+        return news_data
+    if news_data[0].get("headline", "") != yesterday_lead:
+        return news_data
+    for i, item in enumerate(news_data[1:], start=1):
+        headline = item.get("headline", "")
+        if headline and headline != yesterday_lead:
+            logger.warning(
+                "Top story matches yesterday's lead (%r); promoting slot %d.",
+                yesterday_lead, i,
+            )
+            reordered = list(news_data)
+            reordered.insert(0, reordered.pop(i))
+            return reordered
+    logger.warning(
+        "All candidates match yesterday's lead (%r); shipping as-is.",
+        yesterday_lead,
+    )
+    return news_data
 
 
 def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None):
@@ -1151,6 +1186,9 @@ async def bundle_writeup(verbose=False):
     except Exception as e:
         logger.warning(f"Error fetching SQUID Pass winner: {e}. Continuing without featured section.")
     
+    # Dedupe against yesterday's lead before any downstream consumer reads news_data.
+    news_data = promote_first_non_duplicate(news_data, datetime.now())
+
     # Generate the top stories section (which includes SQUID Pass Winner after story 5)
     top_stories_section = generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=squid_pass_winner_data)
 
