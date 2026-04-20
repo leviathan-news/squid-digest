@@ -1,5 +1,5 @@
 {
-  "cash": 2644.562136439644,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -153,14 +153,6 @@
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": -24.037610284952088,
-      "entry_price": 85.27853839777428,
-      "entry_date": "2026-03-20T13:59:32.640069",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
@@ -224,6 +216,14 @@
       "entry_price": 2477.0808107311036,
       "entry_date": "2026-04-19T13:58:00.589260",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 6.980850699791894,
+      "entry_price": 85.25768373035453,
+      "entry_date": "2026-04-20T14:45:27.518127",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1810,6 +1810,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-20T14:45:27.518127",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "COVER",
+      "quantity": 24.037610284952088,
+      "price": 85.25768373035453,
+      "value": 2049.3909753079624,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 0.5012963680583198,
+      "entry_price": 85.27853839777428
+    },
+    {
+      "date": "2026-04-20T14:45:27.518127",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 6.980850699791894,
+      "price": 85.25768373035453,
+      "value": 595.1711611316814,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2220,6 +2244,10 @@
     [
       "2026-04-19T13:58:00.589260",
       8230.82410441095
+    ],
+    [
+      "2026-04-20T14:45:27.518127",
+      8343.759074302696
     ]
   ]
 }
