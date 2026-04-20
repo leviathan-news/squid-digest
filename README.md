@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Justin Sun calls for talks with KelpDAO attacker over $300 million exploit, highlighting risks of cascading impact on Aave and major DeFi protocols** [𝕏/@justinsuntron](https://leviathannews.xyz/redirect/232691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance and Bitget investigate RAVE token spike as ZachXBT claims insiders orchestrated massive short squeeze, wiping out $44M in leveraged positions** [Coindesk](https://leviathannews.xyz/redirect/232394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI captures 80% of Q1 2026 venture funding as crypto VCs pivot to stablecoins, prediction markets, and AI bets** [Coindesk](https://leviathannews.xyz/redirect/232455?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Consensys' Bill Hughes calls UK FCA crypto proposal a 'mother, may I' regime broader than MiCA or US** [DL News](https://leviathannews.xyz/redirect/232453?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **THORChain pushes native Monero swaps for v3.18 and drafts dynamic fees to reclaim volume lost to aggregators** [blog.thorchain.org](https://leviathannews.xyz/redirect/232401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vercel discloses unauthorized access to internal systems, urges customers to review environment variables** [Vercel](https://leviathannews.xyz/redirect/232824?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Firepan opens $239/mo DeFi vulnerability scanner for free as AI-powered exploits surge, urging developers to secure codebases before LLM-driven attacks escalate** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/232876?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi outflows spill into Solana after KelpDAO rsETH hack, pushing Kamino USDC markets to extreme stress with 100% utilization and zero liquidity in key lending pools** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/233134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Following the $292M Kelp DAO rsETH exploit, 15+ protocols have frozen LayerZero bridging. Here is the full list** [𝕏/@CatfishFishy](https://leviathannews.xyz/redirect/233199?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Web3 venture capital faces identity crisis as funds recycle same “network and value-add” pitch, with TBV co-founder calling for sharper differentiation strategies** [Coindesk](https://leviathannews.xyz/redirect/232921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/19/signals_2026-04-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/19/signals_2026-04-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/20/signals_2026-04-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/20/signals_2026-04-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
