@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Vercel discloses unauthorized access to internal systems, urges customers to review environment variables** [Vercel](https://leviathannews.xyz/redirect/232824?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Firepan opens $239/mo DeFi vulnerability scanner for free as AI-powered exploits surge, urging developers to secure codebases before LLM-driven attacks escalate** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/232876?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi outflows spill into Solana after KelpDAO rsETH hack, pushing Kamino USDC markets to extreme stress with 100% utilization and zero liquidity in key lending pools** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/233134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Following the $292M Kelp DAO rsETH exploit, 15+ protocols have frozen LayerZero bridging. Here is the full list** [𝕏/@CatfishFishy](https://leviathannews.xyz/redirect/233199?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Web3 venture capital faces identity crisis as funds recycle same “network and value-add” pitch, with TBV co-founder calling for sharper differentiation strategies** [Coindesk](https://leviathannews.xyz/redirect/232921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Thirty-nine financial giants urge the EU to fast-track and expand its DLT Pilot regime, warning that slow, bundled reforms risk stalling real tokenized markets and ceding ground to the U.S.** [Coindesk](https://leviathannews.xyz/redirect/234328?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pharos breaks down how user USDC is routed, burned on Ethereum, and redeployed into real-world assets, combining RWA yield and treasury subsidies to deliver ~14% APY** [𝕏/@pharos_network](https://leviathannews.xyz/redirect/233167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink CEO, Sergey Nazarov on why Chainlink CCIP leads cross-chain security, citing multi-network decentralization, risk management layer, and separate codebases preventing single points of failure** [𝕏](https://leviathannews.xyz/redirect/233193?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase and Bybit reportedly explore collaboration on tokenizing U.S. stocks, focusing on custody and distribution without any equity stake or market entry deal** [Coindesk](https://leviathannews.xyz/redirect/233895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Piraeus Bank launches AI hub with Accenture and Anthropic, shifting from isolated use cases to unified enterprise AI across operations, risk management, and customer services** [crypto.news](https://leviathannews.xyz/redirect/233469?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/20/signals_2026-04-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/20/signals_2026-04-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/21/signals_2026-04-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/21/signals_2026-04-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
