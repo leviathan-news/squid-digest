@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Thirty-nine financial giants urge the EU to fast-track and expand its DLT Pilot regime, warning that slow, bundled reforms risk stalling real tokenized markets and ceding ground to the U.S.** [Coindesk](https://leviathannews.xyz/redirect/234328?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pharos breaks down how user USDC is routed, burned on Ethereum, and redeployed into real-world assets, combining RWA yield and treasury subsidies to deliver ~14% APY** [𝕏/@pharos_network](https://leviathannews.xyz/redirect/233167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink CEO, Sergey Nazarov on why Chainlink CCIP leads cross-chain security, citing multi-network decentralization, risk management layer, and separate codebases preventing single points of failure** [𝕏](https://leviathannews.xyz/redirect/233193?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase and Bybit reportedly explore collaboration on tokenizing U.S. stocks, focusing on custody and distribution without any equity stake or market entry deal** [Coindesk](https://leviathannews.xyz/redirect/233895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Piraeus Bank launches AI hub with Accenture and Anthropic, shifting from isolated use cases to unified enterprise AI across operations, risk management, and customer services** [crypto.news](https://leviathannews.xyz/redirect/233469?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **U.S. bitcoin ETFs recorded $238.37 million in net inflows on Monday, marking a fifth straight day of gains. BlackRock’s IBIT led with $256.05 million, while Ether ETFs extended an eight-day streak by adding $67.77 million. Despite some outflows from Grayscale, total bitcoin ETF net assets reached a significant $100.33 billion.** [news.bitcoin](https://leviathannews.xyz/redirect/234943?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RAAC Mid-Month Yield Report is out👀** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/234546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic yanks Claude Code from Pro plan without warning, forcing 5x pricing jump to $100/month Max tier** [𝕏/@TheGeorgePu](https://leviathannews.xyz/redirect/234673?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitget partners Republic to launch IPO Prime, bringing pre-IPO tokens like SpaceX to retail users on Solana and expanding access to private market investments** [Coindesk](https://leviathannews.xyz/redirect/234429?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZKsync vs Canton heats up as Matter Labs slams bank-led networks for lacking global rule enforcement, while Digital Asset defends privacy-first design for institutional onchain finance** [CoinTelegraph](https://leviathannews.xyz/redirect/234404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/21/signals_2026-04-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/21/signals_2026-04-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/22/signals_2026-04-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/22/signals_2026-04-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
