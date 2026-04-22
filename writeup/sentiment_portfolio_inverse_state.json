@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 305.7586112130773,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -220,9 +220,17 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -5.556086262964333,
-      "entry_price": 85.25768373035453,
+      "quantity": -6.583663258296683,
+      "entry_price": 85.80668039948044,
       "entry_date": "2026-04-20T14:45:27.518127",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "weETH": {
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "quantity": -0.08185497246422764,
+      "entry_price": 2620.920404447618,
+      "entry_date": "2026-04-22T14:45:08.084088",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1678,6 +1686,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-22T14:45:08.084088",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.0275769953323504,
+      "price": 88.7750933413809,
+      "value": 91.22324367608513,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-22T14:45:08.084088",
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "action": "SHORT",
+      "quantity": 0.08185497246422764,
+      "price": 2620.920404447618,
+      "value": 214.53536753699214,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2096,6 +2128,10 @@
     [
       "2026-04-21T14:46:40.038655",
       9148.012785725854
+    ],
+    [
+      "2026-04-22T14:45:08.084088",
+      9346.577140711845
     ]
   ]
 }
