@@ -1,5 +1,5 @@
 {
-  "cash": 305.7586112130773,
+  "cash": -426.6320850633001,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -152,14 +152,6 @@
       "entry_price": 0.10302849173685151,
       "entry_date": "2026-03-09T14:03:09.027691",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": -7.880163412917769,
-      "entry_price": 105.26218549145999,
-      "entry_date": "2026-03-22T13:40:27.276302",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "UNI": {
       "symbol": "UNI",
@@ -1710,6 +1702,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-23T15:11:29.344391",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "COVER",
+      "quantity": 7.880163412917769,
+      "price": 92.94105437912447,
+      "value": 732.3906962763774,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 97.09252659718913,
+      "entry_price": 105.26218549145999
     }
   ],
   "daily_values": [
@@ -2132,6 +2136,10 @@
     [
       "2026-04-22T14:45:08.084088",
       9346.577140711845
+    ],
+    [
+      "2026-04-23T15:11:29.344391",
+      9984.746018858677
     ]
   ]
 }
