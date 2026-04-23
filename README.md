@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **U.S. bitcoin ETFs recorded $238.37 million in net inflows on Monday, marking a fifth straight day of gains. BlackRock’s IBIT led with $256.05 million, while Ether ETFs extended an eight-day streak by adding $67.77 million. Despite some outflows from Grayscale, total bitcoin ETF net assets reached a significant $100.33 billion.** [news.bitcoin](https://leviathannews.xyz/redirect/234943?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RAAC Mid-Month Yield Report is out👀** [𝕏/@Raacfi](https://leviathannews.xyz/redirect/234546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic yanks Claude Code from Pro plan without warning, forcing 5x pricing jump to $100/month Max tier** [𝕏/@TheGeorgePu](https://leviathannews.xyz/redirect/234673?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitget partners Republic to launch IPO Prime, bringing pre-IPO tokens like SpaceX to retail users on Solana and expanding access to private market investments** [Coindesk](https://leviathannews.xyz/redirect/234429?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZKsync vs Canton heats up as Matter Labs slams bank-led networks for lacking global rule enforcement, while Digital Asset defends privacy-first design for institutional onchain finance** [CoinTelegraph](https://leviathannews.xyz/redirect/234404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lido clarifies that only the EarnETH vault is exposed to the Kelp/rsETH incident and, if losses occur, a $3M Lido DAO first-loss buffer will absorb them before impacting depositors.** [𝕏/@LidoFinance](https://leviathannews.xyz/redirect/235727?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Syed Sameer steps in to mediate Justin Sun–WLFI dispute, proposing private deal to unfreeze blacklisted tokens as retail investors push back** [crypto.news](https://leviathannews.xyz/redirect/235102?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ledgity integrates MoonPay Virtual Accounts powered by Iron, enabling seamless fiat-to-stablecoin flows and enhancing treasury management with improved transparency and control** [𝕏/@moonpay](https://leviathannews.xyz/redirect/235389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Rialo proposes unified lending stack onchain, using native data access, private computation, and automation to replace fragmented consumer credit systems and boost scalability** [𝕏/@RialoHQ](https://leviathannews.xyz/redirect/234741?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump-linked American Bitcoin spikes as 11,298 miners go live, adding 3.05 EH/s and accelerating expansion of its large-scale mining capacity** [decrypt.co](https://leviathannews.xyz/redirect/235039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/22/signals_2026-04-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/22/signals_2026-04-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/23/signals_2026-04-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/23/signals_2026-04-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
