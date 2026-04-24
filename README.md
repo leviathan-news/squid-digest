@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Lido clarifies that only the EarnETH vault is exposed to the Kelp/rsETH incident and, if losses occur, a $3M Lido DAO first-loss buffer will absorb them before impacting depositors.** [𝕏/@LidoFinance](https://leviathannews.xyz/redirect/235727?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Syed Sameer steps in to mediate Justin Sun–WLFI dispute, proposing private deal to unfreeze blacklisted tokens as retail investors push back** [crypto.news](https://leviathannews.xyz/redirect/235102?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ledgity integrates MoonPay Virtual Accounts powered by Iron, enabling seamless fiat-to-stablecoin flows and enhancing treasury management with improved transparency and control** [𝕏/@moonpay](https://leviathannews.xyz/redirect/235389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Rialo proposes unified lending stack onchain, using native data access, private computation, and automation to replace fragmented consumer credit systems and boost scalability** [𝕏/@RialoHQ](https://leviathannews.xyz/redirect/234741?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump-linked American Bitcoin spikes as 11,298 miners go live, adding 3.05 EH/s and accelerating expansion of its large-scale mining capacity** [decrypt.co](https://leviathannews.xyz/redirect/235039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum Foundation finalized the terms of a 10,000 ETH sale at an average price of $2,387 via OTC, to Tom Lee's Bitmine** [𝕏/@ethereumfndn](https://leviathannews.xyz/redirect/236178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Payy partners with Rain to add privacy-first settlement to $3B stablecoin card programs, using zero-knowledge tech to secure transactions while maintaining compliance** [𝕏/@payy_link](https://leviathannews.xyz/redirect/235841?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **X Layer partners with Ethereum Foundation’s dAI team to support AI builders, offering infrastructure and ecosystem backing to accelerate agentic economy development** [𝕏/@XLayerOfficial](https://leviathannews.xyz/redirect/235800?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DTCC highlights retail impact of tokenization, stressing infrastructure that balances access, efficiency, and investor protection beyond institutional use cases** [𝕏/@The_DTCC](https://leviathannews.xyz/redirect/235797?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BridgeTower taps Chainlink to tokenize $11B+ in securities from Arizona copper-gold project, enabling scalable issuance and distribution via full oracle stack** [𝕏/@chainlink](https://leviathannews.xyz/redirect/235799?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/23/signals_2026-04-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/23/signals_2026-04-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/24/signals_2026-04-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/24/signals_2026-04-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
