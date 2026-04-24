@@ -1,5 +1,5 @@
 {
-  "cash": 1543.443546359698,
+  "cash": 1398.817717356083,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -220,10 +220,18 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": -4.76182753133118,
-      "entry_price": 92.94105437912447,
+      "quantity": -6.6378464366003564,
+      "entry_price": 93.11412516163283,
       "entry_date": "2026-04-23T15:11:29.344391",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "weETH": {
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "quantity": 0.12710448611160025,
+      "entry_price": 2518.6665802682387,
+      "entry_date": "2026-04-24T14:43:47.541498",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1882,6 +1890,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-24T14:43:47.541498",
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "action": "BUY",
+      "quantity": 0.12710448611160025,
+      "price": 2518.6665802682387,
+      "value": 320.13382137145607,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-24T14:43:47.541498",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.8760189052691763,
+      "price": 93.55342415521045,
+      "value": 175.5079923678408,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2308,6 +2340,10 @@
     [
       "2026-04-23T15:11:29.344391",
       7499.86112175408
+    ],
+    [
+      "2026-04-24T14:43:47.541498",
+      7542.240235116473
     ]
   ]
 }

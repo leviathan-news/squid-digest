@@ -1,9 +1,9 @@
 {
-  "last_processed_date": "2026-04-23",
+  "last_processed_date": "2026-04-24",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 9.798705569653343,
+      "score": 9.325380596417249,
       "last_signal_date": "2026-04-23",
       "token_name": "Bitcoin"
     },
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.185464931051083,
+      "score": 4.696598298263574,
       "last_signal_date": "2026-04-22",
       "token_name": "Solana"
     },
@@ -33,19 +33,19 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 5.801607623025574,
+      "score": 5.254653314948137,
       "last_signal_date": "2026-04-22",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 2.8875434035521947,
-      "last_signal_date": "2026-04-20",
+      "score": 3.3687539459404965,
+      "last_signal_date": "2026-04-24",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.5504985884613184,
+      "score": 0.3355326479773187,
       "last_signal_date": "2026-04-14",
       "token_name": "Hyperliquid"
     },
@@ -57,7 +57,7 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 1.22584757650531,
+      "score": 0.8249342446782019,
       "last_signal_date": "2026-04-16",
       "token_name": "Avalanche"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.2198551853065128,
+      "score": 0.13400323641814713,
       "last_signal_date": "2026-04-14",
       "token_name": "ChainLink Token"
     },
@@ -87,25 +87,25 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": -1.373433562186827,
+      "score": -1.1266761101893692,
       "last_signal_date": "2026-04-20",
       "token_name": "Dogecoin"
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.987923788252655,
+      "score": 0.6648234084576677,
       "last_signal_date": "2026-04-16",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -1.6687440282212302,
-      "last_signal_date": "2026-04-23",
-      "token_name": "AAVE"
+      "score": -3.588135603273561,
+      "last_signal_date": "2026-04-24",
+      "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 1.0606601717798212,
+      "score": 0.75,
       "last_signal_date": "2026-04-17",
       "token_name": "UNI"
     },
@@ -117,25 +117,25 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -3.0,
+      "score": -2.8550854590318586,
       "last_signal_date": "2026-04-23",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.5,
+      "score": 0.33647504815808904,
       "last_signal_date": "2026-04-16",
       "token_name": "Arbitrum"
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 0.5,
+      "score": 0.33647504815808904,
       "last_signal_date": "2026-04-16",
       "token_name": "Tron"
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.4036889262312171,
+      "score": 0.25853988620739865,
       "last_signal_date": "2026-04-15",
       "token_name": "Leviathan Points"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-04-19",
       "token_name": "Monero"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 1.3166136082887852,
+      "score": 0.9309864106234889,
       "last_signal_date": "2026-04-17",
       "token_name": "Monad"
     },
@@ -219,13 +219,13 @@
     },
     "rsETH": {
       "symbol": "rsETH",
-      "score": -3.8149098974463556,
-      "last_signal_date": "2026-04-23",
+      "score": -6.6306312585719365,
+      "last_signal_date": "2026-04-24",
       "token_name": "Kelp DAO Restaked ETH"
     },
     "weETH": {
       "symbol": "weETH",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-04-22",
       "token_name": "weETH"
     }
