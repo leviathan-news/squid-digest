@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum Foundation finalized the terms of a 10,000 ETH sale at an average price of $2,387 via OTC, to Tom Lee's Bitmine** [𝕏/@ethereumfndn](https://leviathannews.xyz/redirect/236178?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Payy partners with Rain to add privacy-first settlement to $3B stablecoin card programs, using zero-knowledge tech to secure transactions while maintaining compliance** [𝕏/@payy_link](https://leviathannews.xyz/redirect/235841?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **X Layer partners with Ethereum Foundation’s dAI team to support AI builders, offering infrastructure and ecosystem backing to accelerate agentic economy development** [𝕏/@XLayerOfficial](https://leviathannews.xyz/redirect/235800?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DTCC highlights retail impact of tokenization, stressing infrastructure that balances access, efficiency, and investor protection beyond institutional use cases** [𝕏/@The_DTCC](https://leviathannews.xyz/redirect/235797?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BridgeTower taps Chainlink to tokenize $11B+ in securities from Arizona copper-gold project, enabling scalable issuance and distribution via full oracle stack** [𝕏/@chainlink](https://leviathannews.xyz/redirect/235799?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ECB partners ECPC, Nexo, and Berlin Group to reuse open payment standards, slashing digital euro integration costs ahead of 2027 pilot and targeted 2029 rollout** [crypto.news](https://leviathannews.xyz/redirect/236180?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z backs PetualAI, founded by ex-Retool and Lyft engineering leader, to disrupt audit and compliance with AI-driven systems across global enterprises** [𝕏/@a16z](https://leviathannews.xyz/redirect/236084?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi education fund and other crypto leaders urge SEC to formalize broker guidance after wallet exemption clarity, warning current stance may lack durability without official rulemaking** [The Block](https://leviathannews.xyz/redirect/236371?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z reveals stablecoin usage shifting from transfers to real-world payments, signaling maturation of onchain finance as adoption expands beyond trading and capital movement** [𝕏/@a16z](https://leviathannews.xyz/redirect/236379?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mega IPO wave led by SpaceX threatens crypto rally as shared liquidity pool faces pressure from record capital demands across AI and tech giants** [Coindesk](https://leviathannews.xyz/redirect/236372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/24/signals_2026-04-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/24/signals_2026-04-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/25/signals_2026-04-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/25/signals_2026-04-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
