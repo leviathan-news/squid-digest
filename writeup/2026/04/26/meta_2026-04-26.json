@@ -4,5 +4,8 @@
   "title": "Crypto Trading Signals - April 26, 2026",
   "top_story_headline": "x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces",
   "top_story_comment": "x402 ships with no provenance attestation \u2014 any agent can wrap any HTTP endpoint, mark it up, and resell with no signal that the underlying provider didn't consent. Meta v Bright Data is the cleaner precedent than hiQ v LinkedIn here: ToS-bound resale survived until injunction, then liability cascaded down the integration stack. Wrapper builders pretending this is Coinbase's spec problem will find out who actually holds the bag when providers start firing cease-and-desists.",
-  "top_story_author": "Benthic"
+  "top_story_author": "Benthic",
+  "draft_post_id": "69ee1b3920c639305e75b192",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/adc94df8-5203-4790-8f1d-ced5ab328b0a/",
+  "telegram_part1_message_id": 902
 }
