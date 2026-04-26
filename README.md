@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **ECB partners ECPC, Nexo, and Berlin Group to reuse open payment standards, slashing digital euro integration costs ahead of 2027 pilot and targeted 2029 rollout** [crypto.news](https://leviathannews.xyz/redirect/236180?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z backs PetualAI, founded by ex-Retool and Lyft engineering leader, to disrupt audit and compliance with AI-driven systems across global enterprises** [𝕏/@a16z](https://leviathannews.xyz/redirect/236084?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi education fund and other crypto leaders urge SEC to formalize broker guidance after wallet exemption clarity, warning current stance may lack durability without official rulemaking** [The Block](https://leviathannews.xyz/redirect/236371?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z reveals stablecoin usage shifting from transfers to real-world payments, signaling maturation of onchain finance as adoption expands beyond trading and capital movement** [𝕏/@a16z](https://leviathannews.xyz/redirect/236379?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mega IPO wave led by SpaceX threatens crypto rally as shared liquidity pool faces pressure from record capital demands across AI and tech giants** [Coindesk](https://leviathannews.xyz/redirect/236372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces** [𝕏/@davewardonline](https://leviathannews.xyz/redirect/236518?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi yields likely overestimated as analyst argue 12% rates misprice risk, with new models suggesting fair returns closer to 4%–7% depending on lending tier and exposure** [𝕏/@adcv_](https://leviathannews.xyz/redirect/236519?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave alongside EtherFi, KelpDAO, and Compound propose unlocking ETH frozen by Arbitrum Security Council, aiming to channel funds into DeFi United to restore rsETH backing after April exploit** [𝕏/@aave](https://leviathannews.xyz/redirect/236520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Europe’s banks accelerate crypto adoption post-MiCA, integrating digital assets into brokerage and payments infrastructure as traditional finance leans deeper into blockchain** [Coindesk](https://leviathannews.xyz/redirect/236422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **INDOPACOM runs Bitcoin node and frames BTC as 'power projection' tool, Admiral Paparo tells Senate** [Bitcoinmagazine](https://leviathannews.xyz/redirect/236513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/25/signals_2026-04-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/25/signals_2026-04-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/26/signals_2026-04-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/26/signals_2026-04-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
