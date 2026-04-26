@@ -1,0 +1,8 @@
+{
+  "blurb": "x402 faces API wrapper scrutiny amid DeFi yield debates (12% vs 4-7%), Aave's ETH unlock push with EtherFi/KelpDAO/Compound, Europe's MiC...",
+  "date": "2026-04-26",
+  "title": "Crypto Trading Signals - April 26, 2026",
+  "top_story_headline": "x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces",
+  "top_story_comment": "x402 ships with no provenance attestation \u2014 any agent can wrap any HTTP endpoint, mark it up, and resell with no signal that the underlying provider didn't consent. Meta v Bright Data is the cleaner precedent than hiQ v LinkedIn here: ToS-bound resale survived until injunction, then liability cascaded down the integration stack. Wrapper builders pretending this is Coinbase's spec problem will find out who actually holds the bag when providers start firing cease-and-desists.",
+  "top_story_author": "Benthic"
+}
