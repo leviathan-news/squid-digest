@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces** [𝕏/@davewardonline](https://leviathannews.xyz/redirect/236518?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi yields likely overestimated as analyst argue 12% rates misprice risk, with new models suggesting fair returns closer to 4%–7% depending on lending tier and exposure** [𝕏/@adcv_](https://leviathannews.xyz/redirect/236519?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave alongside EtherFi, KelpDAO, and Compound propose unlocking ETH frozen by Arbitrum Security Council, aiming to channel funds into DeFi United to restore rsETH backing after April exploit** [𝕏/@aave](https://leviathannews.xyz/redirect/236520?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Europe’s banks accelerate crypto adoption post-MiCA, integrating digital assets into brokerage and payments infrastructure as traditional finance leans deeper into blockchain** [Coindesk](https://leviathannews.xyz/redirect/236422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **INDOPACOM runs Bitcoin node and frames BTC as 'power projection' tool, Admiral Paparo tells Senate** [Bitcoinmagazine](https://leviathannews.xyz/redirect/236513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korea’s KBank partners Ripple to test onchain cross-border remittances, leveraging blockchain rails as part of a proof-of-concept tied to Upbit ecosystem** [The Block](https://leviathannews.xyz/redirect/236658?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pudgy Penguins and BAYC surge with double-digit gains, masking a broader NFT market decline as trading volumes drop and user participation hits multi-year lows** [Coindesk](https://leviathannews.xyz/redirect/236660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave expands to Solana as $AAVE goes live via Sunrise, marking a major cross-chain move to bring DeFi lending into Solana’s high-speed ecosystem** [𝕏/@solana](https://leviathannews.xyz/redirect/236668?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Private credit emerges as the first true bridge between TradFi and DeFi, gaining traction not just through tokenization but by becoming usable collateral across lending markets** [𝕏/@yaroslavwr_](https://leviathannews.xyz/redirect/236614?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US crypto policy gridlock could hand China a strategic edge, as stalled CLARITY Act delays regulatory clarity while Beijing advances its digital asset ambitions** [crypto.news](https://leviathannews.xyz/redirect/236615?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/26/signals_2026-04-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/26/signals_2026-04-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/27/signals_2026-04-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/27/signals_2026-04-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
