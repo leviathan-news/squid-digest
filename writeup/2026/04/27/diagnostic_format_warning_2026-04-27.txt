@@ -1,0 +1,49 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 628 chars. First 500 chars: I don't see actionable news-driven catalysts in these search results. The provided data consists primarily of price movements, technical analysis, and general market commentary from platforms like TradingView and CoinMarketCap—not specific news events tied to the tracked tokens.
+
+To generate meaningful trading signals, I need concrete news catalysts (partnerships, protocol updates, security issues, regulatory changes, etc.) that directly impact specific tokens. The search results lack these cata
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I don't see actionable news-driven catalysts in these search results. The provided data consists primarily of price movements, technical analysis, and general market commentary from platforms like TradingView and CoinMarketCap—not specific news events tied to the tracked tokens.
+
+To generate meaningful trading signals, I need concrete news catalysts (partnerships, protocol updates, security issues, regulatory changes, etc.) that directly impact specific tokens. The search results lack these catalysts.
+
+If you have specific news headlines or events you'd like me to analyze for trading signals, please share those directly.
+
+News items sent (10):
+[1] South Korea’s KBank partners Ripple to test onchain cross-border remittances, leveraging blockchain rails as part of a proof-of-concept tied to Upbit ecosystem - https://leviathannews.xyz/redirect/236658?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] Pudgy Penguins and BAYC surge with double-digit gains, masking a broader NFT market decline as trading volumes drop and user participation hits multi-year lows - https://leviathannews.xyz/redirect/236660?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Aave expands to Solana as $AAVE goes live via Sunrise, marking a major cross-chain move to bring DeFi lending into Solana’s high-speed ecosystem - https://leviathannews.xyz/redirect/236668?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Private credit emerges as the first true bridge between TradFi and DeFi, gaining traction not just through tokenization but by becoming usable collateral across lending markets - https://leviathannews.xyz/redirect/236614?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] US crypto policy gridlock could hand China a strategic edge, as stalled CLARITY Act delays regulatory clarity while Beijing advances its digital asset ambitions - https://leviathannews.xyz/redirect/236615?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] BIP-361 plan to freeze 5.6M dormant BTC against quantum threat could trigger worst single-day repricing in Bitcoin history - https://leviathannews.xyz/redirect/236561?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Chainlink positions CCIP as new benchmark for cross-chain security, aiming to standardize interoperability and reduce risks in multi-chain asset transfers - https://leviathannews.xyz/redirect/236661?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] $4.3B remains at risk from Kelp DAO exploit vector as 47% of LayerZero OApps still rely on vulnerable 1-of-1 DVN configurations - https://leviathannews.xyz/redirect/236736?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] The best auction in town is open again!
+
+Get the SQUID Pass for the week!
+
+Bidding starts at 0.026 ETH.
+
+Four and a half hours to go!
+
+Bid here - https://leviathannews.xyz/redirect/236727?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Neo Council passes proposal cutting N3 block time to 3 seconds and GAS issuance to 1 per block by 13-of-21 vote - https://leviathannews.xyz/redirect/236674?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 1167 news articles (TVL: $369,000,000)
+$ETH Ethereum - 966 news articles (TVL: $68,433,138)
+$SQUID Leviathan Points - 336 news articles (TVL: $100,000)
+$AAVE Aave - 276 news articles (TVL: $636,416,718)
+$CRV Curve DAO Token - 65 news articles (TVL: $5,647,064)
+$SUI Sui - 59 news articles (TVL: $0)
+$XRP XRP - 302 news articles (TVL: $636,416,718)
+$BNB BNB - 196 news articles (TVL: $81,240,000,000)
+$AVAX Avalanche - 170 news articles (TVL: $7,215,000,000)
+$SOL Solana - 154 news arti...
