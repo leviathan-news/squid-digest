@@ -1,0 +1,42 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 1083 chars. First 500 chars: I need to clarify a mismatch: The search results provided contain generic cryptocurrency market data (prices, general trends) but lack the specific **news-driven catalysts** required to generate trading signals in my format.
+
+My role is to generate actionable trading signals exclusively when there are concrete news events tied to tracked tokens. The search results show price movements and general market commentary, but don't include specific headline catalysts (like protocol updates, regulatory 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+I need to clarify a mismatch: The search results provided contain generic cryptocurrency market data (prices, general trends) but lack the specific **news-driven catalysts** required to generate trading signals in my format.
+
+My role is to generate actionable trading signals exclusively when there are concrete news events tied to tracked tokens. The search results show price movements and general market commentary, but don't include specific headline catalysts (like protocol updates, regulatory actions, exploit events, etc.) that would justify directional signals.
+
+To generate meaningful trading signals, I would need search results that explicitly cover news about tokens like $BTC, $ETH, $AAVE, $rsETH, etc. with specific catalysts—not just price action and market sentiment.
+
+**If you'd like actionable trading signals**, please provide news headlines specifically about the tracked tokens. Alternatively, if you're looking for general market analysis of the current data, I'm happy to pivot away from the signal format and provide that commentary instead—just let me know.
+
+News items sent (10):
+[1] x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces - https://leviathannews.xyz/redirect/236518?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] DeFi yields likely overestimated as analyst argue 12% rates misprice risk, with new models suggesting fair returns closer to 4%–7% depending on lending tier and exposure - https://leviathannews.xyz/redirect/236519?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Aave alongside EtherFi, KelpDAO, and Compound propose unlocking ETH frozen by Arbitrum Security Council, aiming to channel funds into DeFi United to restore rsETH backing after April exploit - https://leviathannews.xyz/redirect/236520?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Europe’s banks accelerate crypto adoption post-MiCA, integrating digital assets into brokerage and payments infrastructure as traditional finance leans deeper into blockchain - https://leviathannews.xyz/redirect/236422?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] INDOPACOM runs Bitcoin node and frames BTC as 'power projection' tool, Admiral Paparo tells Senate - https://leviathannews.xyz/redirect/236513?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] SEAL 911 recovers $450K from fake Ledger Live App Store phishing with single-block Flashbots frontrun - https://leviathannews.xyz/redirect/236474?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] Litecoin reverses first major MWEB exploit via 13-block reorg, ~$600K in invalid pegouts undone - https://leviathannews.xyz/redirect/236476?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] Newport Beach launderer Evan Tangeman gets 70 months as ninth plea in $263M crypto social engineering RICO case - https://leviathannews.xyz/redirect/236478?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Stablecoin velocity doubles to 6x as intra-country share climbs from 50% to 75% since early 2024 - https://leviathannews.xyz/redirect/236451?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] Anthropic's Mythos AI shifts DeFi threat model from smart contracts to keys, bridges, and oracles as Coinbase and Binance run tests - https://leviathannews.xyz/redirect/236447?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$BTC Bitcoin - 1166 news articles (TVL: $369,000,000)
+$ETH Ethereum - 965 news articles (TVL: $68,433,138)
+$rsETH Kelp DAO Restaked ETH - 68 news articles (TVL: $1,226,178,339)
+$SQUID Leviathan Points - 335 news articles (TVL: $100,000)
+$XRP XRP - 302 news articles (TVL: $636,416,718)
+$AAVE AAVE - 275 news articles (TVL: $2,513,181,375)
+$BNB BNB - 196 news articles (TVL: $81,240,000,000)
+$AVAX Avalanche - 170 news articles (TVL: $7,215,000,000)
+$SOL Solana - 154 news articles (TVL: $800,000,000,...

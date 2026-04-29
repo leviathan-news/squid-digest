@@ -1,5 +1,5 @@
 {
-  "cash": 809.5205263465434,
+  "cash": 1134.758418655931,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -153,22 +153,6 @@
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "SOL": {
-      "symbol": "SOL",
-      "token_name": "Solana",
-      "quantity": -24.037610284952088,
-      "entry_price": 85.27853839777428,
-      "entry_date": "2026-03-20T13:59:32.640069",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": 11.844865352350713,
-      "entry_price": 106.15858595173188,
-      "entry_date": "2026-03-22T13:40:27.276302",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -215,6 +199,38 @@
       "quantity": 21966.375277402192,
       "entry_price": 0.03317760746524202,
       "entry_date": "2026-04-18T13:59:21.488802",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "rsETH": {
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "quantity": -0.9349161883186399,
+      "entry_price": 2378.1668557477487,
+      "entry_date": "2026-04-19T13:58:00.589260",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "quantity": 14.457431405972985,
+      "entry_price": 86.29302859321994,
+      "entry_date": "2026-04-20T14:45:27.518127",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "quantity": -6.6378464366003564,
+      "entry_price": 93.11412516163283,
+      "entry_date": "2026-04-23T15:11:29.344391",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "weETH": {
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "quantity": 0.12710448611160025,
+      "entry_price": 2518.6665802682387,
+      "entry_date": "2026-04-24T14:43:47.541498",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1790,6 +1806,126 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-19T13:58:00.589260",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "SHORT",
+      "quantity": 0.7408081327599049,
+      "price": 2477.0808107311036,
+      "value": 1835.0416100931002,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-20T14:45:27.518127",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "COVER",
+      "quantity": 24.037610284952088,
+      "price": 85.25768373035453,
+      "value": 2049.3909753079624,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 0.5012963680583198,
+      "entry_price": 85.27853839777428
+    },
+    {
+      "date": "2026-04-20T14:45:27.518127",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 6.980850699791894,
+      "price": 85.25768373035453,
+      "value": 595.1711611316814,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-21T14:46:40.038655",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "SHORT",
+      "quantity": 0.19410805555873495,
+      "price": 2000.6644276069244,
+      "value": 388.34508186830953,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-22T14:45:08.084088",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.3744823829691155,
+      "price": 88.7750933413809,
+      "value": 388.34508186830953,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-23T15:11:29.344391",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "SELL",
+      "quantity": 11.844865352350713,
+      "price": 92.94105437912447,
+      "value": 1100.8742748262348,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -156.55988176797928,
+      "entry_price": 106.15858595173188
+    },
+    {
+      "date": "2026-04-23T15:11:29.344391",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "SHORT",
+      "quantity": 4.76182753133118,
+      "price": 92.94105437912447,
+      "value": 442.5692715334632,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-24T14:43:47.541498",
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "action": "BUY",
+      "quantity": 0.12710448611160025,
+      "price": 2518.6665802682387,
+      "value": 320.13382137145607,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-24T14:43:47.541498",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.8760189052691763,
+      "price": 93.55342415521045,
+      "value": 175.5079923678408,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-04-27T15:03:13.950964",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 3.102098323211974,
+      "price": 85.12280114536789,
+      "value": 264.059298700152,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2196,6 +2332,46 @@
     [
       "2026-04-18T13:59:21.488802",
       8238.515007297463
+    ],
+    [
+      "2026-04-19T13:58:00.589260",
+      8230.82410441095
+    ],
+    [
+      "2026-04-20T14:45:27.518127",
+      8343.759074302696
+    ],
+    [
+      "2026-04-21T14:46:40.038655",
+      8310.046244064717
+    ],
+    [
+      "2026-04-22T14:45:08.084088",
+      8077.617241400627
+    ],
+    [
+      "2026-04-23T15:11:29.344391",
+      7499.86112175408
+    ],
+    [
+      "2026-04-24T14:43:47.541498",
+      7542.240235116473
+    ],
+    [
+      "2026-04-25T14:01:32.630833",
+      7439.030845924214
+    ],
+    [
+      "2026-04-26T14:02:50.983480",
+      8032.933553304167
+    ],
+    [
+      "2026-04-27T15:03:13.950964",
+      8070.256565228921
+    ],
+    [
+      "2026-04-29T15:08:03.088425",
+      7876.724458063631
     ]
   ]
 }

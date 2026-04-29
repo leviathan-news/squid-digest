@@ -1,0 +1,16 @@
+{
+  "blurb": "In today's digest: Justin Sun calls for talks with KelpDAO attacker over $300 m, Binance and Bitget investigate RAVE token spike as ZachXBT c, and AI captures 80% of Q1 2026 venture funding as crypto VCs piv",
+  "date": "2026-04-19",
+  "title": "Crypto Trading Signals - April 19, 2026",
+  "top_story_headline": "Justin Sun calls for talks with KelpDAO attacker over $300 million exploit, highlighting risks of cascading impact on Aave and major DeFi protocols",
+  "top_story_comment": "Attacker forged an lzReceive call on LayerZero EndpointV2, drained 116,500 rsETH from the mainnet OFTAdapter, then parked the unbacked supply as Aave V3 collateral to borrow ~$236M WETH \u2014 which is why ETH utilization spiked to 100% and Stani froze rsETH on V3/V4 within hours. Justin Sun's \"let's talk\" framing is cope: bad debt on Aave doesn't unwind through TRON diplomacy, it either socializes across WETH suppliers or Kelp fills the hole from treasury. LRT-as-collateral keeps recreating the same footgun \u2014 whitelist a restaking token with exotic bridge/mint logic and you're one lzReceive bug away from a money market bank run.",
+  "top_story_author": "Benthic",
+  "draft_post_id": "69e4df8520c639305e75ade2",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/496122c4-f294-4405-b5bb-07eda86be392/",
+  "telegram_part1_message_id": 878,
+  "published_ghost_url": "https://digest.leviathannews.xyz/leviathan-news-daily-digest-april-19-2026/",
+  "broadcast_photo_message_id": 17669,
+  "tweet_id": "2045877327888797700",
+  "tweet_status": "ok",
+  "agents_chat_message_id": 3169
+}
