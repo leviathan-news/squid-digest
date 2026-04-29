@@ -6,25 +6,57 @@ This script validates that a generated signals markdown file contains:
 1. At least one actual trading signal (not just empty sections)
 2. Proper formatting
 
+When --meta is provided and meta["signals_status"] == "skipped", a relaxed
+validation path runs that confirms the subscriber-facing skip banner is
+present and bypasses the emoji-line and portfolio-section requirements.
+
 Usage:
     python scripts/validate_signals_output.py writeup/2025/11/27/signals_2025-11-27.md
+    python scripts/validate_signals_output.py writeup/2025/11/27/signals_2025-11-27.md \\
+        --meta writeup/2025/11/27/meta_2025-11-27.json
 
 Exit codes:
     0: Validation passed
     1: Validation failed (no signals found, file missing, etc.)
 """
 
-import sys
+import argparse
+import json
 import re
+import sys
 from pathlib import Path
 
+# Stable substring of the subscriber banner shipped from scripts/digest.py
+# (SIGNALS_SKIPPED_BANNER_PHRASE). Cosmetic copy changes around this phrase
+# stay safe as long as the phrase itself is preserved.
+SIGNALS_SKIPPED_BANNER_PHRASE = "no high-conviction trading signals today"
 
-def validate_signals_file(filepath: Path) -> tuple[bool, str]:
+
+def _read_signals_status(meta_path: Path) -> tuple[str | None, str | None]:
+    """Read signals_status from meta.json. Returns (status, error_message).
+
+    Status is None if the meta file is missing/unreadable/missing-key. Caller
+    decides whether that's fatal (it is not — strict path runs in that case).
+    """
+    if not meta_path.exists():
+        return None, f"Meta file does not exist: {meta_path}"
+    try:
+        with open(meta_path, "r") as f:
+            meta = json.load(f)
+    except Exception as e:
+        return None, f"Could not parse meta file: {e}"
+    return meta.get("signals_status"), None
+
+
+def validate_signals_file(filepath: Path, meta_path: Path | None = None) -> tuple[bool, str]:
     """
     Validate that a signals markdown file has actual trading signals.
 
     Args:
         filepath: Path to the signals markdown file
+        meta_path: Optional path to sibling meta.json. When provided and
+            meta["signals_status"] == "skipped", runs the relaxed skip-mode
+            check (banner present, header present, portfolio not required).
 
     Returns:
         Tuple of (is_valid, message)
@@ -52,6 +84,25 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
     trading_signals_header = "## 🎯 Trading Signals"
     if trading_signals_header not in content:
         return False, f"Trading signals section not found (missing '{trading_signals_header}')"
+
+    # Skip-mode: when meta records signals_status="skipped", run relaxed validation.
+    # Anything else (status="ok", "reformatted", missing meta, unparseable meta) flows
+    # through the strict path below — reformatted signals must still be real.
+    if meta_path is not None:
+        signals_status, _meta_err = _read_signals_status(meta_path)
+        if signals_status == "skipped":
+            # Banner must be present in the trading signals section so we know the
+            # skip was intentional and not just an empty section.
+            if SIGNALS_SKIPPED_BANNER_PHRASE.lower() not in content.lower():
+                return False, (
+                    f"meta.signals_status='skipped' but signals file is missing the "
+                    f"expected skip banner phrase ('{SIGNALS_SKIPPED_BANNER_PHRASE}'). "
+                    f"This indicates a mismatch between digest.py and the validator."
+                )
+            return True, (
+                "✓ Validation passed (signals skipped intentionally; "
+                "status=skipped, banner present)"
+            )
 
     # Extract the trading signals section
     # Everything between the header and the next section (or file end)
@@ -179,13 +230,26 @@ def validate_signals_file(filepath: Path) -> tuple[bool, str]:
 
 def main():
     """Run validation on provided signal file path."""
-    if len(sys.argv) < 2:
-        print("Usage: python scripts/validate_signals_output.py <path_to_signals_file>")
-        print("\nExample: python scripts/validate_signals_output.py writeup/2025/11/27/signals_2025-11-27.md")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Validate that a generated signals markdown file has actual content."
+    )
+    parser.add_argument(
+        "signals_file",
+        type=Path,
+        help="Path to the signals markdown file (e.g. writeup/2026/04/28/signals_2026-04-28.md)",
+    )
+    parser.add_argument(
+        "--meta",
+        type=Path,
+        default=None,
+        help=(
+            "Optional path to sibling meta.json. When meta.signals_status == 'skipped', "
+            "runs relaxed validation (banner check only, no portfolio section required)."
+        ),
+    )
+    args = parser.parse_args()
 
-    filepath = Path(sys.argv[1])
-    is_valid, message = validate_signals_file(filepath)
+    is_valid, message = validate_signals_file(args.signals_file, meta_path=args.meta)
 
     print(message)
 

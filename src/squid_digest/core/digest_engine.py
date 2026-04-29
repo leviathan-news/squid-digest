@@ -47,7 +47,7 @@ class DigestEngine:
         self.llm_chat_provider = llm_chat_provider
         # self.ghost = ghost_client
 
-    async def generate_writeup_with_prompt(self, headlines: str, token_list: str = "", system_message: str = None, prompt_type: str = "signals"):
+    async def generate_writeup_with_prompt(self, headlines: str, token_list: str = "", system_message: str = None, prompt_type: str = "signals", user_message: str = None):
         """
         Generate trading signals using custom system message and prompt type.
 
@@ -56,17 +56,23 @@ class DigestEngine:
             token_list: Formatted string of tracked tokens
             system_message: Custom system message to use
             prompt_type: Type of prompt for thinking logs
+            user_message: Optional human message appended after the system
+                message. Used by the reformat pass to pass the prior prose
+                response as concrete source material to convert into signals.
+                When None, only the system message is sent (existing behavior).
 
         Returns:
             Generated trading signals content
         """
         if system_message is None:
             system_message = get_system_message()
-        
+
         prompt = system_message.format(headlines=headlines, token_list=token_list)
 
-        # Create a simple chain with the formatted prompt
-        prompt_template = ChatPromptTemplate.from_messages([("system", prompt)])
+        messages = [("system", prompt)]
+        if user_message is not None:
+            messages.append(("human", user_message))
+        prompt_template = ChatPromptTemplate.from_messages(messages)
         chain = prompt_template | self.llm_chat_provider.get_model(prompt_type=prompt_type)
         response = await chain.ainvoke({}, callbacks=[langfuse_handler] if langfuse_handler else [])
         return response.content

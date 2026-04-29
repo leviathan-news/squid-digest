@@ -525,5 +525,155 @@ class TestSignalParserFilenamePatterns:
             assert signals[0].symbol == "AAVE"
 
 
+class TestSkipModeValidation:
+    """Tests for the --meta skip-mode added to scripts/validate_signals_output.py.
+
+    When meta records signals_status='skipped', the validator runs a relaxed
+    branch that confirms the subscriber-facing skip banner is present and
+    skips the emoji-line + portfolio-section requirements.
+    """
+
+    def _write_pair(self, tmpdir, signals_content, meta_dict):
+        """Write a signals.md and meta.json pair into tmpdir, return their paths."""
+        import json as _json
+        signals_path = Path(tmpdir) / "signals_2026-04-28.md"
+        meta_path = Path(tmpdir) / "meta_2026-04-28.json"
+        signals_path.write_text(signals_content)
+        meta_path.write_text(_json.dumps(meta_dict))
+        return signals_path, meta_path
+
+    def test_skip_mode_passes_with_banner_and_status(self):
+        """meta.signals_status='skipped' + banner present → validator returns True."""
+        from scripts.validate_signals_output import validate_signals_file, SIGNALS_SKIPPED_BANNER_PHRASE
+
+        skipped_content = f"""# Crypto Trading Signals - April 28, 2026
+
+## 🎯 Trading Signals
+
+*No high-conviction trading signals today — the news cycle is heavy on macro and infrastructure stories without clean per-token catalysts. Signals will resume tomorrow.*
+
+---
+*Disclaimer*
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            signals_path, meta_path = self._write_pair(
+                tmpdir, skipped_content, {"signals_status": "skipped", "date": "2026-04-28"}
+            )
+            is_valid, message = validate_signals_file(signals_path, meta_path=meta_path)
+            assert is_valid, f"Skip mode with banner should pass. Message: {message}"
+            assert "skipped intentionally" in message.lower() or "skipped" in message.lower()
+            # Sanity: the banner phrase actually appears (case-insensitive — copy uses
+            # capital "No" at sentence start, validator does case-insensitive substring)
+            assert SIGNALS_SKIPPED_BANNER_PHRASE.lower() in skipped_content.lower()
+
+    def test_skip_status_without_banner_fails(self):
+        """meta.signals_status='skipped' but writeup missing the banner phrase →
+        validator must reject (catches mismatch between digest.py and validator)."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        broken_content = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+(Some other content that doesn't include the expected phrase.)
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            signals_path, meta_path = self._write_pair(
+                tmpdir, broken_content, {"signals_status": "skipped"}
+            )
+            is_valid, message = validate_signals_file(signals_path, meta_path=meta_path)
+            assert not is_valid
+            assert "skip banner" in message.lower() or "banner" in message.lower()
+
+    def test_status_ok_runs_strict_path(self):
+        """meta.signals_status='ok' → validator must run the existing strict
+        checks (emoji lines + portfolio section)."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        # Content that would PASS skip-mode but FAIL strict mode (no emoji signals,
+        # no portfolio section). With status='ok', strict path runs and rejects.
+        banner_only = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+*No high-conviction trading signals today.*
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            signals_path, meta_path = self._write_pair(
+                tmpdir, banner_only, {"signals_status": "ok"}
+            )
+            is_valid, message = validate_signals_file(signals_path, meta_path=meta_path)
+            assert not is_valid, "status='ok' must use strict checks (banner alone insufficient)"
+
+    def test_status_reformatted_runs_strict_path(self):
+        """meta.signals_status='reformatted' → still runs strict path because
+        reformatted output should contain real emoji-prefixed signals."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        valid_strict_content = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+🟢 Bitcoin ([$BTC](https://leviathannews.xyz/t/BTC)): BUY - momentum
+
+## 📈 Sentiment Portfolio
+
+### Momentum Strategy
+- **Portfolio Value:** `$10,500.00`
+
+### Contrarian Strategy
+- **Portfolio Value:** `$9,800.00`
+
+---
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            signals_path, meta_path = self._write_pair(
+                tmpdir, valid_strict_content, {"signals_status": "reformatted"}
+            )
+            is_valid, message = validate_signals_file(signals_path, meta_path=meta_path)
+            assert is_valid, f"status='reformatted' with valid strict content should pass. Message: {message}"
+
+    def test_missing_meta_runs_strict_path(self):
+        """No --meta flag → validator behaves as before (strict path)."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        banner_only = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+*No high-conviction trading signals today.*
+"""
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write(banner_only)
+            f.flush()
+            signals_path = Path(f.name)
+        try:
+            # No meta_path argument — strict path runs
+            is_valid, message = validate_signals_file(signals_path)
+            assert not is_valid, "Without --meta, banner-only content must fail strict validation"
+        finally:
+            signals_path.unlink()
+
+    def test_unparseable_meta_runs_strict_path(self):
+        """Corrupted meta.json → falls through to strict validation, doesn't
+        crash and doesn't open a skip-path bypass."""
+        from scripts.validate_signals_output import validate_signals_file
+
+        banner_only = """# Crypto Trading Signals
+
+## 🎯 Trading Signals
+
+*No high-conviction trading signals today.*
+"""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            signals_path = Path(tmpdir) / "signals_x.md"
+            meta_path = Path(tmpdir) / "meta_x.json"
+            signals_path.write_text(banner_only)
+            meta_path.write_text("{not-valid-json")
+            # Should not raise; should run strict path and fail (no emoji signals)
+            is_valid, message = validate_signals_file(signals_path, meta_path=meta_path)
+            assert not is_valid, "Unparseable meta must not bypass strict checks"
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

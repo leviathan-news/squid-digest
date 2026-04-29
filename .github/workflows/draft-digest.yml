@@ -94,8 +94,8 @@ jobs:
         echo "Files created in writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/:"
         ls -la writeup/${YEAR}/${MONTH}/${DAY}/thinking_logs/ || echo "No thinking_logs directory"
 
-    - name: Upload diagnostics (on failure)
-      if: failure()
+    - name: Upload diagnostics
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: squid-digest-diagnostics-${{ github.run_id }}
@@ -105,7 +105,37 @@ jobs:
           .data/leviathan_news.json
           .data/leviathan_tokens.json
         if-no-files-found: ignore
-    
+
+    - name: Surface signals_status
+      if: always()
+      run: |
+        TODAY=$(date -u '+%Y-%m-%d')
+        YEAR=$(date -u '+%Y')
+        MONTH=$(date -u '+%m')
+        DAY=$(date -u '+%d')
+        META_FILE="writeup/${YEAR}/${MONTH}/${DAY}/meta_${TODAY}.json"
+
+        if [ ! -f "$META_FILE" ]; then
+          echo "No meta file found at $META_FILE — likely the digest step did not complete."
+          exit 0
+        fi
+
+        STATUS=$(uv run python -c "import json,sys; d=json.load(open('$META_FILE')); print(d.get('signals_status','(unset)'))" 2>/dev/null || echo "(unread)")
+        echo "Today's signals_status: $STATUS"
+
+        if [ "$STATUS" != "ok" ]; then
+          {
+            echo "## ⚠️ Signals were \`$STATUS\` today"
+            echo ""
+            echo "The strict prompt did not produce parseable signals. The recovery path taken was \`$STATUS\`."
+            echo ""
+            echo "- \`reformatted\`: a third LLM pass converted prose to signals — published as normal."
+            echo "- \`skipped\`: all three passes failed — banner published in place of signals."
+            echo ""
+            echo "See diagnostic artifacts and \`writeup/${YEAR}/${MONTH}/${DAY}/\` for details."
+          } >> "$GITHUB_STEP_SUMMARY"
+        fi
+
     - name: Validate signals output
       run: |
         TODAY=$(date -u '+%Y-%m-%d')
@@ -113,9 +143,11 @@ jobs:
         MONTH=$(date -u '+%m')
         DAY=$(date -u '+%d')
         SIGNALS_FILE="writeup/${YEAR}/${MONTH}/${DAY}/signals_${TODAY}.md"
+        META_FILE="writeup/${YEAR}/${MONTH}/${DAY}/meta_${TODAY}.json"
 
         echo "Validating signals file..."
-        uv run python scripts/validate_signals_output.py "$SIGNALS_FILE"
+        # Pass --meta so the validator can run relaxed checks when signals_status="skipped".
+        uv run python scripts/validate_signals_output.py "$SIGNALS_FILE" --meta "$META_FILE"
         if [ $? -ne 0 ]; then
           echo "❌ Signal validation FAILED!"
           echo "This indicates the LLM failed to generate trading signals."

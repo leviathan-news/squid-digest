@@ -126,6 +126,43 @@ Example (more inclusive than strict mode):
 
 Generate actionable signals. Even with modest catalysts, provide direction to traders."""
 
+SIGNALS_REFORMAT_MESSAGE = """You are a strict reformatter, not an analyst. The user message contains a previous LLM response that drifted into narrative prose instead of structured trading signals. Your only job is to extract per-token signals from that prose and rewrite them in the exact required format.
+
+Tracked Tokens (signals MUST reference one of these):
+{token_list}
+
+Recent Headlines (for context only — do NOT add new analysis):
+{headlines}
+
+REQUIRED OUTPUT FORMAT (one signal per line, nothing else):
+
+**$SYMBOL Token Name: SIGNAL** - One sentence reason ([more info](URL))
+
+SIGNAL TYPES (use exactly one of these labels):
+STRONG BUY, BUY, WEAK BUY, WEAK SELL, SELL, STRONG SELL
+
+STRICT RULES:
+1. Output ONLY signal lines in the format above. No headers, no commentary, no preamble, no summary.
+2. Each signal must reference a token from the tracked tokens list.
+3. Reuse reasoning from the source prose where possible — do NOT invent new catalysts.
+4. NEVER use HOLD, NEUTRAL, or WATCH. If the source is ambiguous, pick WEAK BUY or WEAK SELL based on tone.
+5. NEVER reformat stablecoin mentions (USDC, USDT, DAI, FRAX, crvUSD, etc.) as signals.
+6. If a sentence in the source mentions a tracked token with directional sentiment, convert it.
+7. If the source contains NO extractable per-token signals (pure macro commentary, no tracked-token mentions, refusal text, etc.), output exactly:
+
+NO_SIGNALS
+
+and nothing else. Do not explain. Do not apologize. Do not add caveats.
+
+EXAMPLE — source sentence → signal line:
+Source: "Bitcoin is struggling to hold key support levels, with the technical structure showing signs of stalling."
+Output: **$BTC Bitcoin: WEAK SELL** - Struggling to hold key support with structure stalling ([more info](URL))
+
+Source: "Solana core devs Anza and Firedancer align on Falcon signatures to future-proof network security."
+Output: **$SOL Solana: BUY** - Core devs aligning on Falcon signatures to future-proof against quantum threats ([more info](URL))
+
+Output the reformatted signals now, or NO_SIGNALS if nothing extractable."""
+
 DIGEST_MESSAGE = """You're writing for Leviathan News - the edgy, irreverent crypto publication that cuts through the BS. Your audience is crypto natives who want alpha, not corporate fluff.
 
 Headlines:
@@ -152,7 +189,12 @@ Write a crypto analysis in this style:
 Channel that Leviathan voice - sharp, contextual, and always adding value beyond the obvious."""
 
 
-prompts = {'signals': SIGNALS_MESSAGE, 'signals_fallback': SIGNALS_MESSAGE_FALLBACK, 'digest': DIGEST_MESSAGE}
+prompts = {
+    'signals': SIGNALS_MESSAGE,
+    'signals_fallback': SIGNALS_MESSAGE_FALLBACK,
+    'signals_reformat': SIGNALS_REFORMAT_MESSAGE,
+    'digest': DIGEST_MESSAGE,
+}
 
 # Function to get SYSTEM_MESSAGE dynamically based on current ACTIVE_PROMPT
 # This ensures it reads the environment variable at call time, not import time
@@ -196,3 +238,14 @@ def get_fallback_system_message():
     produces no signals despite having news and tokens available.
     """
     return prompts.get('signals_fallback', SIGNALS_MESSAGE_FALLBACK)
+
+
+def get_reformat_system_message():
+    """Get the reformat-only system message.
+
+    Used as a third pass when both the strict and fallback prompts return
+    narrative prose instead of structured signals. The reformat call passes
+    the prior prose response as a human message; this prompt is pure
+    format instruction with a NO_SIGNALS sentinel for unrecoverable input.
+    """
+    return prompts.get('signals_reformat', SIGNALS_REFORMAT_MESSAGE)

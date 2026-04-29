@@ -396,5 +396,314 @@ No trading signals here.
             assert signals == [], "Missing section should return empty list"
 
 
+class TestReformatPassAndSkip:
+    """Tests for the reformat-pass + skip path added after the 2026-04-28 incident.
+
+    These mirror the existing TestFallbackRetryPath fixture and mocking style:
+    drive bundle_writeup() through the engine-method seam and assert on the
+    written meta.json + signals file.
+    """
+
+    @pytest.fixture
+    def temp_workspace(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            data_dir = temp_path / ".data"
+            writeup_dir = temp_path / "writeup"
+            data_dir.mkdir()
+            writeup_dir.mkdir()
+
+            news_data = [
+                {
+                    "id": 1,
+                    "headline": "Bitcoin struggling to hold support",
+                    "title": "Bitcoin struggling to hold support",
+                    "url": "https://example.com/btc",
+                    "created_at": datetime.now().isoformat(),
+                    "summary": "BTC faces resistance",
+                },
+                {
+                    "id": 2,
+                    "headline": "Solana core devs align on Falcon signatures",
+                    "title": "Solana core devs align on Falcon signatures",
+                    "url": "https://example.com/sol",
+                    "created_at": datetime.now().isoformat(),
+                    "summary": "Quantum-resistant security",
+                },
+            ]
+            token_data = {
+                "count": 3,
+                "tokens": [
+                    {"symbol": "$BTC", "name": "Bitcoin", "news_count": 5, "total_tvl": 1000000, "stablecoin": False},
+                    {"symbol": "$ETH", "name": "Ethereum", "news_count": 3, "total_tvl": 500000, "stablecoin": False},
+                    {"symbol": "$SOL", "name": "Solana", "news_count": 2, "total_tvl": 800000, "stablecoin": False},
+                ],
+            }
+            (data_dir / "leviathan_news.json").write_text(json.dumps(news_data))
+            (data_dir / "leviathan_tokens.json").write_text(json.dumps(token_data))
+
+            yield {
+                "temp_path": temp_path,
+                "data_dir": data_dir,
+                "writeup_dir": writeup_dir,
+                "news_data": news_data,
+                "token_data": token_data,
+            }
+
+    @pytest.fixture
+    def apr28_fixtures(self):
+        """Load the actual Apr 28 prose responses extracted from the failed CI run."""
+        fixture_path = Path(__file__).parent / "fixtures" / "apr28_prose_responses.json"
+        with open(fixture_path) as f:
+            return json.load(f)
+
+    def _build_mock_engine(self, news_data, llm_responses):
+        """Build a mock engine where generate_writeup returns the strict response,
+        and generate_writeup_with_prompt returns fallback / reformat in order
+        based on call count.
+
+        llm_responses: dict with keys "strict", "fallback", "reformat".
+        """
+        mock_engine = MagicMock()
+        mock_engine.news_fetcher = MagicMock()
+        mock_engine.news_fetcher.fetch_all_news_24h = MagicMock(return_value=news_data)
+        mock_engine.news_fetcher.fetch_squid_pass_winner = MagicMock(return_value=None)
+        mock_engine.generate_writeup = AsyncMock(return_value=llm_responses["strict"])
+
+        call_log = {"with_prompt_calls": []}
+
+        async def with_prompt_side_effect(*args, **kwargs):
+            call_log["with_prompt_calls"].append(kwargs)
+            n = len(call_log["with_prompt_calls"])
+            if n == 1:
+                return llm_responses["fallback"]
+            return llm_responses["reformat"]
+
+        mock_engine.generate_writeup_with_prompt = AsyncMock(side_effect=with_prompt_side_effect)
+        mock_engine._call_log = call_log
+        return mock_engine
+
+    def _read_today_meta(self, writeup_dir):
+        """Find and return today's meta.json content (digest writes it under
+        the date-keyed subdirectory)."""
+        # Search for any meta_*.json file written under writeup_dir
+        meta_files = list(writeup_dir.rglob("meta_*.json"))
+        if not meta_files:
+            return None
+        # Return most recent
+        return json.loads(meta_files[-1].read_text())
+
+    def _read_today_signals(self, writeup_dir):
+        signals_files = list(writeup_dir.rglob("signals_*.md"))
+        if not signals_files:
+            return None
+        return signals_files[-1].read_text()
+
+    def test_reformat_pass_recovers_from_prose(self, temp_workspace, apr28_fixtures):
+        """When strict + fallback return prose but the reformat pass produces
+        valid signals, the run should complete with signals_status=reformatted."""
+        async def run_test():
+            import digest
+
+            llm_responses = {
+                "strict": apr28_fixtures["strict_response"],
+                "fallback": apr28_fixtures["fallback_response"],
+                "reformat": apr28_fixtures["reformat_recovered_response"],
+            }
+            mock_engine = self._build_mock_engine(temp_workspace["news_data"], llm_responses)
+
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(temp_workspace["temp_path"])
+                with patch('digest.DigestEngine', return_value=mock_engine), \
+                     patch('digest.WRITEUP_DIR', temp_workspace["writeup_dir"]), \
+                     patch('digest.ACTIVE_PROMPT', 'signals'), \
+                     patch('digest.IncrementalBacktest') as MockBacktest, \
+                     patch('digest.generate_market_snapshot', return_value="## Market\n* mock *"), \
+                     patch('digest._get_token_id_map', return_value={'BTC': {'canonical_tag': 'btc'}, 'ETH': {'canonical_tag': 'eth'}, 'SOL': {'canonical_tag': 'sol'}}), \
+                     patch('digest.format_backtest_for_newsletter', return_value="## Backtest Results\nMock"):
+                    MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
+                    MockBacktest.return_value.close = MagicMock()
+                    await digest.bundle_writeup(verbose=True)
+
+                meta = self._read_today_meta(temp_workspace["writeup_dir"])
+                assert meta is not None, "meta.json should be written"
+                assert meta.get("signals_status") == "reformatted", \
+                    f"signals_status should be 'reformatted', got {meta.get('signals_status')}"
+
+                # Verify the reformat call was made with user_message set to fallback prose
+                calls = mock_engine._call_log["with_prompt_calls"]
+                assert len(calls) >= 2, "Both fallback and reformat should be called"
+                reformat_call = calls[1]
+                assert reformat_call.get("user_message") == apr28_fixtures["fallback_response"], \
+                    "Reformat call should pass fallback prose as user_message"
+                assert reformat_call.get("prompt_type") == "signals_reformat"
+            finally:
+                os.chdir(original_cwd)
+
+        asyncio.run(run_test())
+
+    def test_full_skip_publishes_banner(self, temp_workspace, apr28_fixtures):
+        """When all three passes fail, run should complete with skip banner
+        and signals_status=skipped (not raise ValueError)."""
+        async def run_test():
+            import digest
+
+            llm_responses = {
+                "strict": apr28_fixtures["strict_response"],
+                "fallback": apr28_fixtures["fallback_response"],
+                "reformat": apr28_fixtures["reformat_no_signals_response"],  # NO_SIGNALS
+            }
+            mock_engine = self._build_mock_engine(temp_workspace["news_data"], llm_responses)
+
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(temp_workspace["temp_path"])
+                with patch('digest.DigestEngine', return_value=mock_engine), \
+                     patch('digest.WRITEUP_DIR', temp_workspace["writeup_dir"]), \
+                     patch('digest.ACTIVE_PROMPT', 'signals'), \
+                     patch('digest.IncrementalBacktest') as MockBacktest, \
+                     patch('digest.generate_market_snapshot', return_value="## Market\n* mock *"), \
+                     patch('digest._get_token_id_map', return_value={'BTC': {'canonical_tag': 'btc'}}), \
+                     patch('digest.format_backtest_for_newsletter', return_value="## Backtest\nMock"):
+                    MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
+                    MockBacktest.return_value.close = MagicMock()
+                    # Must NOT raise ValueError
+                    await digest.bundle_writeup(verbose=True)
+
+                meta = self._read_today_meta(temp_workspace["writeup_dir"])
+                assert meta is not None
+                assert meta.get("signals_status") == "skipped", \
+                    f"signals_status should be 'skipped', got {meta.get('signals_status')}"
+
+                signals_md = self._read_today_signals(temp_workspace["writeup_dir"])
+                assert signals_md is not None, "Signals file should be written"
+                assert digest.SIGNALS_SKIPPED_BANNER_PHRASE.lower() in signals_md.lower(), \
+                    "Skip banner phrase must appear in writeup"
+                # Banner-only writeups should not contain a backtest section
+                assert "## 📈 Backtest Results" not in signals_md
+                assert "## 📈 Sentiment Portfolio" not in signals_md
+            finally:
+                os.chdir(original_cwd)
+
+        asyncio.run(run_test())
+
+    def test_no_signals_sentinel_does_not_parse_as_token(self, temp_workspace, apr28_fixtures):
+        """The literal NO_SIGNALS sentinel from the reformat pass must take the
+        skip path, not be misinterpreted as a token name."""
+        async def run_test():
+            import digest
+
+            llm_responses = {
+                "strict": apr28_fixtures["strict_response"],
+                "fallback": apr28_fixtures["fallback_response"],
+                "reformat": "NO_SIGNALS",
+            }
+            mock_engine = self._build_mock_engine(temp_workspace["news_data"], llm_responses)
+
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(temp_workspace["temp_path"])
+                with patch('digest.DigestEngine', return_value=mock_engine), \
+                     patch('digest.WRITEUP_DIR', temp_workspace["writeup_dir"]), \
+                     patch('digest.ACTIVE_PROMPT', 'signals'), \
+                     patch('digest.IncrementalBacktest') as MockBacktest, \
+                     patch('digest.generate_market_snapshot', return_value="## Market\n* mock *"), \
+                     patch('digest._get_token_id_map', return_value={'BTC': {'canonical_tag': 'btc'}}), \
+                     patch('digest.format_backtest_for_newsletter', return_value="## Backtest\nMock"):
+                    MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
+                    MockBacktest.return_value.close = MagicMock()
+                    await digest.bundle_writeup(verbose=True)
+
+                meta = self._read_today_meta(temp_workspace["writeup_dir"])
+                assert meta.get("signals_status") == "skipped"
+                signals_md = self._read_today_signals(temp_workspace["writeup_dir"])
+                # NO_SIGNALS sentinel must not appear in subscriber-facing output
+                assert "NO_SIGNALS" not in signals_md
+            finally:
+                os.chdir(original_cwd)
+
+        asyncio.run(run_test())
+
+    def test_skip_path_bypasses_no_backtest_guard(self, temp_workspace, apr28_fixtures):
+        """The line-2090 'signals exist but no backtest' guard must NOT fire
+        when signals_skipped=True. This test fails on pre-fix code because the
+        banner string is >50 chars and the guard would raise."""
+        async def run_test():
+            import digest
+
+            llm_responses = {
+                "strict": apr28_fixtures["strict_response"],
+                "fallback": apr28_fixtures["fallback_response"],
+                "reformat": "NO_SIGNALS",
+            }
+            mock_engine = self._build_mock_engine(temp_workspace["news_data"], llm_responses)
+
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(temp_workspace["temp_path"])
+                # Force backtest_section to be empty by making backtest fail; this
+                # exercises the no-backtest guard path. The skip flag must bypass it.
+                with patch('digest.DigestEngine', return_value=mock_engine), \
+                     patch('digest.WRITEUP_DIR', temp_workspace["writeup_dir"]), \
+                     patch('digest.ACTIVE_PROMPT', 'signals'), \
+                     patch('digest.IncrementalBacktest') as MockBacktest, \
+                     patch('digest.generate_market_snapshot', return_value="## Market\n* mock *"), \
+                     patch('digest._get_token_id_map', return_value={'BTC': {'canonical_tag': 'btc'}}):
+                    # No format_backtest_for_newsletter patch — empty backtest_section path
+                    MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
+                    MockBacktest.return_value.close = MagicMock()
+                    # The key assertion: this completes without raising
+                    await digest.bundle_writeup(verbose=True)
+
+                meta = self._read_today_meta(temp_workspace["writeup_dir"])
+                assert meta.get("signals_status") == "skipped"
+            finally:
+                os.chdir(original_cwd)
+
+        asyncio.run(run_test())
+
+    def test_normal_success_path_marks_status_ok(self, temp_workspace):
+        """When the strict prompt produces valid signals, signals_status='ok'
+        must be persisted (verifies finding #2 from plan review — status is
+        written on the success path, not just recovery branches)."""
+        async def run_test():
+            import digest
+
+            valid_strict_response = (
+                "**$BTC Bitcoin: STRONG BUY** - momentum continues ([more info](https://example.com))\n"
+                "**$ETH Ethereum: BUY** - upgrade announced ([more info](https://example.com))"
+            )
+            mock_engine = MagicMock()
+            mock_engine.news_fetcher = MagicMock()
+            mock_engine.news_fetcher.fetch_all_news_24h = MagicMock(return_value=temp_workspace["news_data"])
+            mock_engine.news_fetcher.fetch_squid_pass_winner = MagicMock(return_value=None)
+            mock_engine.generate_writeup = AsyncMock(return_value=valid_strict_response)
+            mock_engine.generate_writeup_with_prompt = AsyncMock(return_value=valid_strict_response)
+
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(temp_workspace["temp_path"])
+                with patch('digest.DigestEngine', return_value=mock_engine), \
+                     patch('digest.WRITEUP_DIR', temp_workspace["writeup_dir"]), \
+                     patch('digest.ACTIVE_PROMPT', 'signals'), \
+                     patch('digest.IncrementalBacktest') as MockBacktest, \
+                     patch('digest.generate_market_snapshot', return_value="## Market\n* mock *"), \
+                     patch('digest._get_token_id_map', return_value={'BTC': {'canonical_tag': 'btc'}, 'ETH': {'canonical_tag': 'eth'}}), \
+                     patch('digest.format_backtest_for_newsletter', return_value="## Backtest Results\nMock"):
+                    MockBacktest.return_value.run.return_value = {"portfolio_value": 10000.0}
+                    MockBacktest.return_value.close = MagicMock()
+                    await digest.bundle_writeup(verbose=True)
+
+                meta = self._read_today_meta(temp_workspace["writeup_dir"])
+                assert meta is not None
+                assert meta.get("signals_status") == "ok", \
+                    f"Normal success path should write signals_status='ok', got {meta.get('signals_status')}"
+            finally:
+                os.chdir(original_cwd)
+
+        asyncio.run(run_test())
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

@@ -21,7 +21,7 @@ from squid_digest.config import (
     get_writeup_file_path, save_meta, load_meta, DEFAULT_BLURB, generate_blurb,
 )
 import os
-from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message
+from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message, get_reformat_system_message
 from squid_digest.backtest.incremental_backtest import IncrementalBacktest
 from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsletter
 from squid_digest.backtest.signal_parser import SignalParser
@@ -34,6 +34,17 @@ ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
 import logging
 
 logger = logging.getLogger(__name__)
+
+# Subscriber-facing banner shown when all three LLM passes fail to produce
+# parseable signals. The validator (scripts/validate_signals_output.py) checks
+# for SIGNALS_SKIPPED_BANNER_PHRASE as a stable substring when meta records
+# signals_status="skipped".
+SIGNALS_SKIPPED_BANNER_PHRASE = "no high-conviction trading signals today"
+SIGNALS_SKIPPED_BANNER = (
+    f"*No high-conviction trading signals today — the news cycle is heavy on "
+    f"macro and infrastructure stories without clean per-token catalysts. "
+    f"Signals will resume tomorrow.*"
+)
 
 # Synonyms for "moron" - randomly selected for disclaimer variety (~130 unique terms)
 MORON_SYNONYMS = [
@@ -1106,7 +1117,14 @@ async def bundle_writeup(verbose=False):
     if verbose:
         logger.info("Starting trading signals generation")
         logger.info(f"Creating/using writeup directory: {WRITEUP_DIR.absolute()}")
-    
+
+    # Tracks which recovery path the run took, persisted to meta.json:
+    #   "ok"          - strict prompt produced parseable signals
+    #   "reformatted" - reformat pass converted prose to signals
+    #   "skipped"     - all three passes failed; banner published in place of signals
+    signals_status = "ok"
+    signals_skipped = False
+
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
         llm_chat_provider=PerplexityChatProvider(),
@@ -1633,13 +1651,102 @@ async def bundle_writeup(verbose=False):
                                 except Exception:
                                     pass
 
-                                # Instead of crashing, continue with empty signals
-                                logger.warning(
-                                    "⚠️ Both strict and fallback prompts failed to generate valid signals. "
-                                    "Continuing with empty signals section. See diagnostic file for details."
-                                )
-                                trading_signals = "*No valid trading signals could be generated today.*"
-                                today_signals = []
+                                # LAYER 3 RECOVERY: try the reformat pass before giving up.
+                                # Pass the prior prose response as a human message so the model
+                                # has concrete source material to convert into signal lines.
+                                # Returns NO_SIGNALS sentinel if nothing extractable.
+                                reformat_succeeded = False
+                                reformat_signals = ""
+                                try:
+                                    if verbose:
+                                        logger.info("Attempting reformat pass (third LLM call)...")
+                                    reformat_prompt = get_reformat_system_message()
+                                    reformat_signals = await engine.generate_writeup_with_prompt(
+                                        headlines=headlines_summary,
+                                        token_list=token_list_str,
+                                        system_message=reformat_prompt,
+                                        prompt_type="signals_reformat",
+                                        user_message=retry_signals,
+                                    )
+                                except Exception as reformat_err:
+                                    logger.error(f"Reformat pass raised exception: {reformat_err}")
+                                    reformat_signals = ""
+
+                                # Validate reformat response: not the NO_SIGNALS sentinel,
+                                # non-empty, and contains at least one valid signal line.
+                                reformat_stripped = (reformat_signals or "").strip()
+                                if reformat_stripped and reformat_stripped != "NO_SIGNALS":
+                                    reformat_format_valid = re.search(
+                                        rf'^\s*\*\*\$[A-Za-z0-9]+\s+[^:]+?:\s+{valid_signal_type_re}\*\*\s*-\s*.+$',
+                                        reformat_signals,
+                                        re.IGNORECASE | re.MULTILINE
+                                    )
+                                    if reformat_format_valid:
+                                        logger.info("✓ Reformat pass recovered signals from prose")
+                                        # Apply same canonicalization + whitelist + parse pipeline as fallback success path
+                                        reformat_signals = canonicalize_trading_signals_to_bold_lines(reformat_signals)
+                                        trading_signals, reformat_coercion = coerce_trading_signals_to_supported_types(
+                                            reformat_signals,
+                                            allow_hold_coercion=True,
+                                        )
+                                        if reformat_coercion:
+                                            logger.warning(
+                                                f"⚠️ Coerced {len(reformat_coercion)} reformat signal label(s) to supported types"
+                                            )
+                                        trading_signals, reformat_rejections = validate_signals_against_whitelist(
+                                            trading_signals, valid_symbols, stablecoin_symbols
+                                        )
+                                        if reformat_rejections:
+                                            logger.warning(
+                                                f"⚠️ Rejected {len(reformat_rejections)} invalid reformat signal(s): "
+                                                + ", ".join(f"{r['symbol']}({r['reason']})" for r in reformat_rejections)
+                                            )
+
+                                        # Re-parse signals from reformat output for backtest
+                                        temp_dir = Path(tempfile.gettempdir())
+                                        temp_filename = f"signals_{today_str}_reformat.md"
+                                        tmp_path = temp_dir / temp_filename
+                                        with open(tmp_path, 'w') as tmp_file:
+                                            tmp_file.write(f"## 🎯 Trading Signals\n\n{trading_signals}")
+                                        try:
+                                            today_signals = signal_parser.parse_file(tmp_path)
+                                            if verbose and today_signals:
+                                                logger.info(f"✓ Parsed {len(today_signals)} signals from reformat for backtesting")
+                                        finally:
+                                            if tmp_path.exists():
+                                                tmp_path.unlink()
+
+                                        if today_signals:
+                                            reformat_succeeded = True
+                                            signals_status = "reformatted"
+
+                                if not reformat_succeeded:
+                                    # Save reformat-failure diagnostic
+                                    reformat_diagnostic_file = filename.parent / f"diagnostic_reformat_failure_{today_str}.txt"
+                                    try:
+                                        with open(reformat_diagnostic_file, "w") as f:
+                                            f.write("Reformat Pass Failed (after strict + fallback failures)\n")
+                                            f.write("=======================================================\n\n")
+                                            f.write(f"Strict prompt response (truncated):\n{trading_signals[:1000]}\n\n")
+                                            f.write(f"Fallback prompt response (truncated):\n{retry_signals[:1000]}\n\n")
+                                            f.write(f"Reformat response (truncated):\n{(reformat_signals or '')[:1000]}\n\n")
+                                            f.write(f"News items: {len(news_data)}\n")
+                                            f.write(f"Tokens: {len(tokens_to_include)}\n")
+                                        logger.error(f"Diagnostic saved: {reformat_diagnostic_file}")
+                                    except Exception:
+                                        pass
+
+                                    # SKIP PATH: publish banner instead of crashing.
+                                    # signals_skipped flag bypasses downstream validators
+                                    # at the transform call, line ~1928, and line ~1996.
+                                    logger.warning(
+                                        "⚠️ All three LLM passes (strict + fallback + reformat) failed to produce signals. "
+                                        "Publishing banner-only digest. See diagnostic files for details."
+                                    )
+                                    trading_signals = SIGNALS_SKIPPED_BANNER
+                                    today_signals = []
+                                    signals_skipped = True
+                                    signals_status = "skipped"
                             else:
                                 logger.info("✓ Fallback prompt generated signals successfully")
                                 # Use retry results and coerce HOLD/NEUTRAL-like labels if needed
@@ -1843,72 +1950,77 @@ async def bundle_writeup(verbose=False):
             logger.warning(f"Error running backtest: {e}", exc_info=True)
             # Continue without backtest section for other errors
     
-    # NOW transform trading signals to new format (after parsing for backtest)
-    trading_signals = transform_trading_signals_markdown(trading_signals)
-    
-    # Remove any H1 headers (like "Trading Signals - Leviathan News Edition") that might be in the AI response
+    # NOW transform trading signals to new format (after parsing for backtest).
+    # On the skip path, trading_signals is already the subscriber-facing banner
+    # (set in the reformat-failure branch above). Bypass the entire emoji-filter
+    # transform — it would strip the banner to empty.
     import re
-    trading_signals = re.sub(r'^#\s+.*?Trading Signals.*?$', '', trading_signals, flags=re.MULTILINE | re.IGNORECASE)
-    
-    # Filter out any non-signal sections (like "Market Context", "---" separators, etc.)
-    # Split by lines and extract only trading signals (lines starting with emoji)
-    signal_lines = trading_signals.strip().split('\n')
     formatted_signals = []
-    in_signals_section = True
-    
-    for line in signal_lines:
-        line_stripped = line.strip()
-        
-        # Skip empty lines, separators, and section headers
-        if not line_stripped:
-            continue
-        if line_stripped.startswith('---'):
-            continue
-        if re.match(r'^##+\s+', line_stripped):  # Skip any markdown headers (like "## Market Context")
-            in_signals_section = False
-            continue
-        
-        # Only process lines that look like trading signals (start with emoji)
-        # This filters out any extra content the LLM might generate
-        if any(line_stripped.startswith(emoji) for emoji in ['🟢', '🔴', '🟡', '🟠', '⚪']):
-            in_signals_section = True
-            # Check if multiple signals are on the same line (split them)
-            # Count emojis in the line - if more than one, we need to split
-            emoji_count = sum(1 for c in line_stripped if c in ['🟢', '🔴', '🟡', '🟠', '⚪'])
-            
-            if emoji_count > 1:
-                # Multiple signals on same line - split them
-                emoji_pattern = r'([🟢🔴🟡🟠⚪])'
-                # Split the line at each emoji occurrence (but keep the emoji)
-                parts = re.split(emoji_pattern, line_stripped)
-                # Reconstruct signals: each emoji starts a new signal
-                current_signal = ""
-                for part in parts:
-                    if part in ['🟢', '🔴', '🟡', '🟠', '⚪']:
-                        # New signal starting - save previous if exists
-                        if current_signal and current_signal.strip():
-                            formatted_signals.append(current_signal.strip())
-                        current_signal = part
-                    elif part and part.strip():  # Skip empty strings
-                        current_signal += part
-                # Add the last signal
-                if current_signal and current_signal.strip():
-                    formatted_signals.append(current_signal.strip())
-            else:
-                # Single signal on line - use as-is
-                formatted_signals.append(line_stripped)
-        elif in_signals_section and line_stripped:
-            # If we're in signals section but this isn't a signal, skip it
-            # (this filters out any stray content)
-            continue
-    
-    # Join signals with double line breaks to ensure proper spacing
-    trading_signals = '\n\n'.join(formatted_signals)
+    if not signals_skipped:
+        trading_signals = transform_trading_signals_markdown(trading_signals)
+
+        # Remove any H1 headers (like "Trading Signals - Leviathan News Edition") that might be in the AI response
+        trading_signals = re.sub(r'^#\s+.*?Trading Signals.*?$', '', trading_signals, flags=re.MULTILINE | re.IGNORECASE)
+
+        # Filter out any non-signal sections (like "Market Context", "---" separators, etc.)
+        # Split by lines and extract only trading signals (lines starting with emoji)
+        signal_lines = trading_signals.strip().split('\n')
+        in_signals_section = True
+
+        for line in signal_lines:
+            line_stripped = line.strip()
+
+            # Skip empty lines, separators, and section headers
+            if not line_stripped:
+                continue
+            if line_stripped.startswith('---'):
+                continue
+            if re.match(r'^##+\s+', line_stripped):  # Skip any markdown headers (like "## Market Context")
+                in_signals_section = False
+                continue
+
+            # Only process lines that look like trading signals (start with emoji)
+            # This filters out any extra content the LLM might generate
+            if any(line_stripped.startswith(emoji) for emoji in ['🟢', '🔴', '🟡', '🟠', '⚪']):
+                in_signals_section = True
+                # Check if multiple signals are on the same line (split them)
+                # Count emojis in the line - if more than one, we need to split
+                emoji_count = sum(1 for c in line_stripped if c in ['🟢', '🔴', '🟡', '🟠', '⚪'])
+
+                if emoji_count > 1:
+                    # Multiple signals on same line - split them
+                    emoji_pattern = r'([🟢🔴🟡🟠⚪])'
+                    # Split the line at each emoji occurrence (but keep the emoji)
+                    parts = re.split(emoji_pattern, line_stripped)
+                    # Reconstruct signals: each emoji starts a new signal
+                    current_signal = ""
+                    for part in parts:
+                        if part in ['🟢', '🔴', '🟡', '🟠', '⚪']:
+                            # New signal starting - save previous if exists
+                            if current_signal and current_signal.strip():
+                                formatted_signals.append(current_signal.strip())
+                            current_signal = part
+                        elif part and part.strip():  # Skip empty strings
+                            current_signal += part
+                    # Add the last signal
+                    if current_signal and current_signal.strip():
+                        formatted_signals.append(current_signal.strip())
+                else:
+                    # Single signal on line - use as-is
+                    formatted_signals.append(line_stripped)
+            elif in_signals_section and line_stripped:
+                # If we're in signals section but this isn't a signal, skip it
+                # (this filters out any stray content)
+                continue
+
+        # Join signals with double line breaks to ensure proper spacing
+        trading_signals = '\n\n'.join(formatted_signals)
 
     # CRITICAL VALIDATION: Fail early if no signals survived the transformation/filtering
     # This catches the case where LLM output didn't match expected format and transform
     # produced no emoji-prefixed lines. Better to fail here than write an empty file.
-    if not formatted_signals or len(trading_signals.strip()) < 50:
+    # Bypassed when signals_skipped=True (intentional skip with banner).
+    if not signals_skipped and (not formatted_signals or len(trading_signals.strip()) < 50):
         error_msg = (
             f"CRITICAL: Signal transformation produced no valid signals! "
             f"This indicates the LLM output didn't match expected format (**$SYMBOL Token: SIGNAL** - reason). "
@@ -1977,8 +2089,9 @@ async def bundle_writeup(verbose=False):
         full_writeup += "\n\n---\n*Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete "
     else:
         # CRITICAL VALIDATION: If we have trading signals but NO backtest section, something went wrong
-        # This indicates signal parsing failed (likely due to format mismatch)
-        if trading_signals and len(trading_signals.strip()) > 50:
+        # This indicates signal parsing failed (likely due to format mismatch).
+        # Bypassed when signals_skipped=True — banner-only writeups intentionally have no backtest.
+        if not signals_skipped and trading_signals and len(trading_signals.strip()) > 50:
             error_msg = (
                 f"CRITICAL: Trading signals were generated but backtest section is missing! "
                 f"This indicates signal parsing failed, likely due to LLM format mismatch. "
@@ -2043,6 +2156,7 @@ async def bundle_writeup(verbose=False):
         "top_story_headline": top_story_headline,
         "top_story_comment": top_comment_text,
         "top_story_author": top_comment_author,
+        "signals_status": signals_status,
     })
     if verbose:
         logger.info("✓ Distribution metadata saved")
