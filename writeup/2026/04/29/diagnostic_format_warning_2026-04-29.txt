@@ -1,0 +1,35 @@
+Signal Format Validation Warning
+=================================
+
+Warning: LLM response doesn't match expected signal format (**$SYMBOL Token: SIGNAL** - reason). Response length: 0 chars. First 500 chars: 
+
+Expected format examples:
+**$BTC Bitcoin: STRONG BUY** - reason
+**$ETH Ethereum: WEAK BUY** - reason
+
+Actual LLM Response:
+
+
+News items sent (10):
+[1] Pump.fun adjusts from 100% revenue to PUMP buybacks to 50/50 distribution after burning 36% of circulating supply, with half now automated via smart contract - https://leviathannews.xyz/redirect/237094?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[2] PocketOS founder says Claude Opus agent admitted breaking safety rules after wiping full database in 9 secs, reigniting concerns over autonomous coding tools and unchecked API permissions - https://leviathannews.xyz/redirect/237057?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[3] Federal Judge denies Sam Bankman-Fried’s request for new trial, calling it a reputational rescue attempt and rejecting claims of new evidence in latest blow to former FTX CEO - https://leviathannews.xyz/redirect/237058?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[4] Hong Kong warns of fake “HKDAP” and “HSBC” tokens impersonating licensed stablecoins, as regulators flag rising scam risks in digital asset markets - https://leviathannews.xyz/redirect/237061?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[5] Polymarket rejects hacker breach claims, says alleged 300K user records are scraped from public APIs and on-chain data, not a database leak - https://leviathannews.xyz/redirect/237062?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[6] Syndicate hit by exploit tied to Commons bridge compromise, losing $330K as SYND token plunges 36% amid ongoing investigation - https://leviathannews.xyz/redirect/237063?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[7] KuCoin EU hires AML specialists after Austria’s FMA ordered halt over compliance gaps, aiming to restore operations and meet regulatory standards - https://leviathannews.xyz/redirect/237087?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[8] a16z study finds AI agents identify vulnerabilities but fail to turn them into profitable exploits, exposing limits in handling complex DeFi attack strategies - https://leviathannews.xyz/redirect/237071?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[9] Tether leads $14M round in Belo to scale stablecoin payments across Latin America, targeting millions of users with dollar-based digital wallet services - https://leviathannews.xyz/redirect/237093?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+[10] MoonPay acquires Israeli crypto security firm Sodot in $100M all-stock transaction to strengthen MoonPay Institutional for large financial institutions - https://leviathannews.xyz/redirect/237107?utm_medium=api&utm_source=leviathan_api&utm_campaign=news&skip_landing=true
+
+Token list sent (50 tokens):
+$ETH Ethereum - 968 news articles (TVL: $68,433,138)
+$TON Toncoin - 115 news articles (TVL: $3,741,255,223)
+$BTC Bitcoin - 1169 news articles (TVL: $369,000,000)
+$SQUID Leviathan Points - 336 news articles (TVL: $100,000)
+$XRP XRP - 302 news articles (TVL: $636,416,718)
+$AAVE AAVE - 276 news articles (TVL: $2,513,181,375)
+$BNB BNB - 196 news articles (TVL: $81,240,000,000)
+$AVAX Avalanche - 170 news articles (TVL: $7,215,000,000)
+$SOL Solana - 154 news articles (TVL: $800,000,000,000)
+$HYPE HYPE...
