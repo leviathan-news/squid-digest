@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Pump.fun adjusts from 100% revenue to PUMP buybacks to 50/50 distribution after burning 36% of circulating supply, with half now automated via smart contract** [Coindesk](https://leviathannews.xyz/redirect/237094?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **PocketOS founder says Claude Opus agent admitted breaking safety rules after wiping full database in 9 secs, reigniting concerns over autonomous coding tools and unchecked API permissions** [decrypt.co](https://leviathannews.xyz/redirect/237057?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Federal Judge denies Sam Bankman-Fried’s request for new trial, calling it a reputational rescue attempt and rejecting claims of new evidence in latest blow to former FTX CEO** [CoinTelegraph](https://leviathannews.xyz/redirect/237058?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hong Kong warns of fake “HKDAP” and “HSBC” tokens impersonating licensed stablecoins, as regulators flag rising scam risks in digital asset markets** [The Block](https://leviathannews.xyz/redirect/237061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket rejects hacker breach claims, says alleged 300K user records are scraped from public APIs and on-chain data, not a database leak** [CoinTelegraph](https://leviathannews.xyz/redirect/237062?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The real battle in AI agents is over the agentic control plane that routes discovery, permissions, and payments—not app stores—with value accruing to whoever vertically owns DAP across open standards like x402, MPP, AP2, UCP, and ACP.** [𝕏/@blockhiro](https://leviathannews.xyz/redirect/237278?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stellar CMO urges crypto to abandon hype cycles for “get rich slow” mindset, emphasizing long-term value creation as key to mainstream trust** [Coindesk](https://leviathannews.xyz/redirect/237157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI expands to AWS via Amazon Bedrock, deploying AI agents after loosening Microsoft exclusivity in major multi-cloud shift** [crypto.news](https://leviathannews.xyz/redirect/237086?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mezo launches institutional Bitcoin yield vaults backed by Anchorage Digital, targeting demand to earn returns on idle BTC without losing custody** [Coindesk](https://leviathannews.xyz/redirect/237088?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meta rolls out USDC payouts for creators on Solana and Polygon via Stripe, piloting stablecoin payments in Colombia and the Philippines** [decrypt.co](https://leviathannews.xyz/redirect/237212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/29/signals_2026-04-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/29/signals_2026-04-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/30/signals_2026-04-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/30/signals_2026-04-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
