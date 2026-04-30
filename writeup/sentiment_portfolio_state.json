@@ -1,5 +1,5 @@
 {
-  "cash": 1134.758418655931,
+  "cash": 885.3448483612965,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -212,8 +212,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 14.457431405972985,
-      "entry_price": 86.29302859321994,
+      "quantity": 17.45441856273186,
+      "entry_price": 85.76562471070235,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -1926,6 +1926,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-30T15:04:00.614609",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 2.996987156758877,
+      "price": 83.22143447700508,
+      "value": 249.4135702946346,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2372,6 +2384,10 @@
     [
       "2026-04-29T15:08:03.088425",
       7876.724458063631
+    ],
+    [
+      "2026-04-30T15:04:00.614609",
+      8033.462555621909
     ]
   ]
 }
