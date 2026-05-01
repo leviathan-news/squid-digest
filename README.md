@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The real battle in AI agents is over the agentic control plane that routes discovery, permissions, and payments—not app stores—with value accruing to whoever vertically owns DAP across open standards like x402, MPP, AP2, UCP, and ACP.** [𝕏/@blockhiro](https://leviathannews.xyz/redirect/237278?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stellar CMO urges crypto to abandon hype cycles for “get rich slow” mindset, emphasizing long-term value creation as key to mainstream trust** [Coindesk](https://leviathannews.xyz/redirect/237157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI expands to AWS via Amazon Bedrock, deploying AI agents after loosening Microsoft exclusivity in major multi-cloud shift** [crypto.news](https://leviathannews.xyz/redirect/237086?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mezo launches institutional Bitcoin yield vaults backed by Anchorage Digital, targeting demand to earn returns on idle BTC without losing custody** [Coindesk](https://leviathannews.xyz/redirect/237088?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Meta rolls out USDC payouts for creators on Solana and Polygon via Stripe, piloting stablecoin payments in Colombia and the Philippines** [decrypt.co](https://leviathannews.xyz/redirect/237212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arbitrum DAO votes on releasing 30,766 ETH frozen after Kelp DAO exploit to support DeFi United recovery, potentially becoming its largest contributor** [The Block](https://leviathannews.xyz/redirect/237357?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Evernorth adds OpenAI Foundation CFO to board ahead of Nasdaq listing, strengthening XRP treasury play with AI and institutional finance expertise** [crypto.news](https://leviathannews.xyz/redirect/237353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Monad partners Centrifuge to bring tokenized Treasuries and credit funds onchain with deRWA wrappers enabling 24/7 liquidity, seamless DeFi integration, and direct exposure to institutional assets** [𝕏/@monad](https://leviathannews.xyz/redirect/237359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Andre Cronje’s Flying Tulip passes Sherlock audit contest with zero high or medium bugs, validating its $1B+ ftPUT redemption contract ahead of major DeFi rollout** [𝕏/@sherlockdefi](https://leviathannews.xyz/redirect/237360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Loyyal launches OfferPoint, a merchant-funded marketplace to boost card spending and customer engagement** [Prnewswire](https://leviathannews.xyz/redirect/237358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/30/signals_2026-04-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/30/signals_2026-04-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/01/signals_2026-05-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/01/signals_2026-05-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
