@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Arbitrum DAO votes on releasing 30,766 ETH frozen after Kelp DAO exploit to support DeFi United recovery, potentially becoming its largest contributor** [The Block](https://leviathannews.xyz/redirect/237357?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Evernorth adds OpenAI Foundation CFO to board ahead of Nasdaq listing, strengthening XRP treasury play with AI and institutional finance expertise** [crypto.news](https://leviathannews.xyz/redirect/237353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Monad partners Centrifuge to bring tokenized Treasuries and credit funds onchain with deRWA wrappers enabling 24/7 liquidity, seamless DeFi integration, and direct exposure to institutional assets** [𝕏/@monad](https://leviathannews.xyz/redirect/237359?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Andre Cronje’s Flying Tulip passes Sherlock audit contest with zero high or medium bugs, validating its $1B+ ftPUT redemption contract ahead of major DeFi rollout** [𝕏/@sherlockdefi](https://leviathannews.xyz/redirect/237360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Loyyal launches OfferPoint, a merchant-funded marketplace to boost card spending and customer engagement** [Prnewswire](https://leviathannews.xyz/redirect/237358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grayscale says tokenization will reshape capital markets, with Canton leading near-term institutional adoption while Ethereum and Solana compete for long-term dominance** [𝕏/@Grayscale](https://leviathannews.xyz/redirect/237542?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z urges CFTC to modernize prediction market rules as AI, blockchains, and autonomous agents converge, warning regulation will shape future risk markets and information systems** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/237541?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hong Kong unveils AI-blockchain platform to shield users from fraud losses.** [Prnewswire](https://leviathannews.xyz/redirect/237519?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WalletConnect outlines compliance-first design for Pay, enabling crypto payments to fit acquirer frameworks by embedding Travel Rule data, sanctions screening, and GDPR-aligned controls** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/237539?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Infini obtains Canadian MSB registration for foreign exchange, remittance and virtual currency services** [Globenewswire](https://leviathannews.xyz/redirect/237532?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/01/signals_2026-05-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/01/signals_2026-05-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/02/signals_2026-05-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/02/signals_2026-05-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
