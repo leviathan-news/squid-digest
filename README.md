@@ -11,15 +11,12 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Grayscale says tokenization will reshape capital markets, with Canton leading near-term institutional adoption while Ethereum and Solana compete for long-term dominance** [𝕏/@Grayscale](https://leviathannews.xyz/redirect/237542?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z urges CFTC to modernize prediction market rules as AI, blockchains, and autonomous agents converge, warning regulation will shape future risk markets and information systems** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/237541?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hong Kong unveils AI-blockchain platform to shield users from fraud losses.** [Prnewswire](https://leviathannews.xyz/redirect/237519?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WalletConnect outlines compliance-first design for Pay, enabling crypto payments to fit acquirer frameworks by embedding Travel Rule data, sanctions screening, and GDPR-aligned controls** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/237539?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Infini obtains Canadian MSB registration for foreign exchange, remittance and virtual currency services** [Globenewswire](https://leviathannews.xyz/redirect/237532?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Telegram's Crypto Office mini-app could unlock cryptocurrency adoption for millions of users** [Globenewswire](https://leviathannews.xyz/redirect/237589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mara charts course for optimized digital infrastructure by agreeing to acquire Long Ridge Energy & Power in Hannibal, Ohio.** [Mara](https://leviathannews.xyz/redirect/237584?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/02/signals_2026-05-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/02/signals_2026-05-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/03/signals_2026-05-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/03/signals_2026-05-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
