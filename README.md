@@ -11,12 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Telegram's Crypto Office mini-app could unlock cryptocurrency adoption for millions of users** [Globenewswire](https://leviathannews.xyz/redirect/237589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mara charts course for optimized digital infrastructure by agreeing to acquire Long Ridge Energy & Power in Hannibal, Ohio.** [Mara](https://leviathannews.xyz/redirect/237584?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic unveils playbook for “zero-headcount” startups powered by Claude Code, where one human CEO oversees fully autonomous AI agents handling operations end-to-end** [𝕏/@RoundtableSpace](https://leviathannews.xyz/redirect/237680?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy halts weekly Bitcoin buys as Michael Saylor signals pause ahead of Q1 earnings, with Wall Street forecasting deeper losses tied to mark-to-market BTC accounting** [CoinTelegraph](https://leviathannews.xyz/redirect/237669?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analysts warn DeFi exploits could pressure liquid and yield funds via collateral markdowns, rising borrow costs, and liquidity strain despite declining hack-to-TVL ratio** [The Block](https://leviathannews.xyz/redirect/237671?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Realist argues stablecoins have outgrown their name, shifting from a defensive crypto tool into foundational rails for instant settlement and borderless finance** [𝕏/@rhackett](https://leviathannews.xyz/redirect/237678?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFi’s yield transparency crisis deepens as protocols obscure real returns behind complex tokenomics, raising risks for investors chasing unsustainable APYs** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/237679?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/03/signals_2026-05-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/03/signals_2026-05-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/04/signals_2026-05-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/04/signals_2026-05-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
