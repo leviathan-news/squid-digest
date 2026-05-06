@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Anthropic unveils playbook for “zero-headcount” startups powered by Claude Code, where one human CEO oversees fully autonomous AI agents handling operations end-to-end** [𝕏/@RoundtableSpace](https://leviathannews.xyz/redirect/237680?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy halts weekly Bitcoin buys as Michael Saylor signals pause ahead of Q1 earnings, with Wall Street forecasting deeper losses tied to mark-to-market BTC accounting** [CoinTelegraph](https://leviathannews.xyz/redirect/237669?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analysts warn DeFi exploits could pressure liquid and yield funds via collateral markdowns, rising borrow costs, and liquidity strain despite declining hack-to-TVL ratio** [The Block](https://leviathannews.xyz/redirect/237671?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Realist argues stablecoins have outgrown their name, shifting from a defensive crypto tool into foundational rails for instant settlement and borderless finance** [𝕏/@rhackett](https://leviathannews.xyz/redirect/237678?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFi’s yield transparency crisis deepens as protocols obscure real returns behind complex tokenomics, raising risks for investors chasing unsustainable APYs** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/237679?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **3Jane shifts from crypto-native credit lines to fintech credit conduits** [3jane.xyz](https://leviathannews.xyz/redirect/238415?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RFV Raiders target Gnosis DAO with GIP‑150, seeking “risk‑free” upside from GNO trading below treasury value, while Ignas warns this activist playbook could force many DAOs into de‑facto liquidation.** [𝕏/@defiignas](https://leviathannews.xyz/redirect/238275?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Stable or Not?" - Stable Talk with Pharos Ep.2
+
+Live now with TokenBrice and DAdvisoor** [Youtube](https://leviathannews.xyz/redirect/238046?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Why Strategy Could Explode Bitcoin with STRC** [youtu.be](https://leviathannews.xyz/redirect/238030?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arkham breaks down onchain AI agents and agentic payments, detailing how autonomous systems initiate transactions across Visa, Mastercard, PayPal, and Solana rails** [𝕏/@arkham](https://leviathannews.xyz/redirect/238276?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/04/signals_2026-05-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/04/signals_2026-05-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/06/signals_2026-05-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/06/signals_2026-05-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
