@@ -1,5 +1,5 @@
 {
-  "cash": 25.581878569790547,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -52,8 +52,8 @@
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
-      "quantity": 23869.801416302416,
-      "entry_price": 0.1241857092535026,
+      "quantity": 24095.56860999221,
+      "entry_price": 0.1240838158080941,
       "entry_date": "2026-01-24T13:27:58.423708",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -1750,6 +1750,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-06T15:25:29.384108",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 225.76719368979172,
+      "price": 0.11331087635761872,
+      "value": 25.581878569790547,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2216,6 +2228,10 @@
     [
       "2026-05-04T15:08:34.246073",
       10009.408020209596
+    ],
+    [
+      "2026-05-06T15:25:29.384108",
+      9923.097854316875
     ]
   ]
 }
