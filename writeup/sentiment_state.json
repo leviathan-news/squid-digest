@@ -1,10 +1,10 @@
 {
-  "last_processed_date": "2026-05-07",
+  "last_processed_date": "2026-05-08",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 11.018246373095767,
-      "last_signal_date": "2026-05-07",
+      "score": 12.48601166795208,
+      "last_signal_date": "2026-05-08",
       "token_name": "Bitcoin"
     },
     "BNB": {
@@ -15,7 +15,7 @@
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 12.271559081765437,
+      "score": 11.114641457767615,
       "last_signal_date": "2026-05-06",
       "token_name": "Solana"
     },
@@ -33,13 +33,13 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 5.301251553391819,
+      "score": 4.138735764650215,
       "last_signal_date": "2026-05-03",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 6.244000675496095,
+      "score": 4.874748660746258,
       "last_signal_date": "2026-05-03",
       "token_name": "XRP"
     },
@@ -57,7 +57,7 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.6561559403209424,
+      "score": 0.4415602032374106,
       "last_signal_date": "2026-04-30",
       "token_name": "Avalanche"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.3745774369867386,
+      "score": 0.21727914602043605,
       "last_signal_date": "2026-04-27",
       "token_name": "ChainLink Token"
     },
@@ -81,13 +81,13 @@
     },
     "ADA": {
       "symbol": "ADA",
-      "score": 0.672950096316178,
+      "score": 0.5253783193266096,
       "last_signal_date": "2026-05-03",
       "token_name": "Cardano"
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": -0.9800949056247343,
+      "score": -0.7651690922052642,
       "last_signal_date": "2026-05-03",
       "token_name": "Dogecoin"
     },
@@ -99,8 +99,8 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.20097352906448543,
-      "last_signal_date": "2026-04-27",
+      "score": -1.8834223515459885,
+      "last_signal_date": "2026-05-08",
       "token_name": "Aave"
     },
     "UNI": {
@@ -117,13 +117,13 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.03845321981285802,
+      "score": -0.018297871456774452,
       "last_signal_date": "2026-04-23",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.4309864106234888,
+      "score": 0.30475341355111885,
       "last_signal_date": "2026-05-01",
       "token_name": "Arbitrum"
     },
@@ -135,7 +135,7 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.10771629917308327,
+      "score": 0.06248242201955677,
       "last_signal_date": "2026-04-27",
       "token_name": "Leviathan Points"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 1.3082442342370064,
+      "score": 0.9250683694771894,
       "last_signal_date": "2026-05-01",
       "token_name": "Monad"
     },
@@ -219,13 +219,13 @@
     },
     "rsETH": {
       "symbol": "rsETH",
-      "score": -0.46512511697365805,
+      "score": -0.2698026582211619,
       "last_signal_date": "2026-04-27",
       "token_name": "Kelp DAO Restaked ETH"
     },
     "weETH": {
       "symbol": "weETH",
-      "score": 0.013468325331984029,
+      "score": 0.0,
       "last_signal_date": "2026-04-22",
       "token_name": "weETH"
     }
