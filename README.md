@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Bitcoin lenders say institutions are abandoning risky DeFi credit models in favor of TradFi-style crypto lending with transparent custody, standardized structures, and stricter risk controls** [Coindesk](https://leviathannews.xyz/redirect/239062?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **TrustedVolumes one of many 1inch's solvers hacked. Loss: ~1,291.16 ETH + ~1,268,771 USDC + ~206,282 USDT + ~16.94 WBTC so far** [𝕏/@slowmist_team](https://leviathannews.xyz/redirect/238998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Samourai Wallet co-founder Keonne Rodriguez seeks donations after racking up $2M in legal debt tied to crypto mixer charges, warning he expects to serve his full prison sentence** [CoinTelegraph](https://leviathannews.xyz/redirect/238962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z backs Ethos as startup uses AI voice agents to transform hiring, expert networks and fractional work, with top users already earning over $10K monthly** [𝕏/@a16z](https://leviathannews.xyz/redirect/238934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Graph warns inaccurate blockchain pricing data has already cost crypto hundreds of millions, as AI-driven trading and instant settlement amplify risks tied to faulty onchain inputs** [𝕏/@graphprotocol](https://leviathannews.xyz/redirect/239065?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave V2 security breach highlights ongoing DeFi risks as $229k stolen from aUSDT and aSTETH pools** [𝕏/@exvulsec](https://leviathannews.xyz/redirect/239844?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase posted a surprise Q1 2026 loss (EPS -1.49 vs 0.27 est) on weaker revenue (1.41B vs 1.52B est), with both trading (755.8M) and subscription (583.5M) revenues missing forecasts.** [CNBC](https://leviathannews.xyz/redirect/239489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **"Rektrospective: Crypto's Investigative Journalists"
+
+Live now!** [Youtube](https://leviathannews.xyz/redirect/239458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z’s Guy Wuollet says Wall Street is embracing blockchains not for ideology, but to solve finance’s massive coordination and settlement problems** [𝕏/@guywuolletjr](https://leviathannews.xyz/redirect/239751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stacks unveils 2026 roadmap to turn dormant Bitcoin into productive capital through self-custodial BTC staking, DeFi rails and institutional finance** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/238936?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/07/signals_2026-05-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/07/signals_2026-05-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/08/signals_2026-05-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/08/signals_2026-05-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
