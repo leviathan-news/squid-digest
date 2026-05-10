@@ -11,15 +11,13 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kelp team to conduct rsETH contract operations with Aave over next 24 hours. No user action needed; await official updates.** [𝕏/@KelpDAO](https://leviathannews.xyz/redirect/240301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Independent crypto media rises: Coinage’s onchain DAO model offers a lifeline as traditional outlets falter** [𝕏/@zGuz](https://leviathannews.xyz/redirect/240297?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strike CEO Jack Mallers says Wall Street’s growing Bitcoin exposure strengthens BTC adoption, arguing institutional entry validates Bitcoin as global money** [CoinTelegraph](https://leviathannews.xyz/redirect/240247?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Australian police seized $4.1M in Bitcoin linked to alleged darknet drug and weapons marketplace activity following a 15-month cybercrime investigation** [CoinTelegraph](https://leviathannews.xyz/redirect/239971?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Senator Elizabeth Warren demands answers from Mark Zuckerberg on Meta’s stablecoin trials, citing risks tied to financial stability, data privacy and payment market dominance** [The Block](https://leviathannews.xyz/redirect/239970?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **May SQUID Drop (Covering April)
+
+Voting is live now on Snapshot, vote with your SQUID!** [snapshot.box](https://leviathannews.xyz/redirect/240409?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/09/signals_2026-05-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/09/signals_2026-05-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/10/signals_2026-05-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/10/signals_2026-05-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
