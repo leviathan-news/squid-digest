@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": -3503.934507298632,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -56,14 +56,6 @@
       "entry_price": 0.1240838158080941,
       "entry_date": "2026-01-24T13:27:58.423708",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": -24717.568591963,
-      "entry_price": 0.12210676345302983,
-      "entry_date": "2026-02-05T14:02:54.497146",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "BNB": {
       "symbol": "BNB",
@@ -1762,6 +1754,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-11T15:54:22.226576",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "COVER",
+      "quantity": 24717.568591963,
+      "price": 0.14175886654312544,
+      "value": 3503.934507298632,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -485.75220610576616,
+      "entry_price": 0.12210676345302983
     }
   ],
   "daily_values": [
@@ -2248,6 +2252,10 @@
     [
       "2026-05-10T14:18:58.971345",
       9887.000755919458
+    ],
+    [
+      "2026-05-11T15:54:22.226576",
+      8944.779407841253
     ]
   ]
 }
