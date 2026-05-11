@@ -11,13 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **May SQUID Drop (Covering April)
-
-Voting is live now on Snapshot, vote with your SQUID!** [snapshot.box](https://leviathannews.xyz/redirect/240409?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Founder of Five North argues information sensitivity dictates infrastructure vanilla assets belong on public chains, but trillions in institutional books will only tokenize on privacy-first networks like Canton.** [𝕏/@bc1pxxx](https://leviathannews.xyz/redirect/240723?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **1inch partners with OpenUX on DeFi user survey: share your views in 10 minutes** [𝕏/@1inch](https://leviathannews.xyz/redirect/240656?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto crime surges past $11B as scammers, hackers, and sanctioned states exploit pseudonymous, cross-border crypto rails yet growing on-chain forensics are turning blockchain’s transparency into their biggest weakness.** [info.arkm](https://leviathannews.xyz/redirect/240645?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **U.S. Lawmakers return to Washington seeking clarity on Trump administration's AI policy amid conflicting signals from officials and confusion over federal regulatory direction** [punchbowl.news](https://leviathannews.xyz/redirect/240592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI blurs lines between product managers, designers, and engineers, says alive_eth on unchained_pod** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/240579?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/10/signals_2026-05-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/10/signals_2026-05-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/11/signals_2026-05-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/11/signals_2026-05-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
