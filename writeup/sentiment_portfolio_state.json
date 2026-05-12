@@ -1,5 +1,5 @@
 {
-  "cash": 9133.964404082048,
+  "cash": 6350.540877600833,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -47,14 +47,6 @@
       "quantity": -23540.579585710802,
       "entry_price": 0.1241857092535026,
       "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": -3.961182187592932,
-      "entry_price": 636.5313371812161,
-      "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "CRV": {
@@ -228,10 +220,18 @@
     "ARB": {
       "symbol": "ARB",
       "token_name": "Arbitrum",
-      "quantity": -4783.06573733158,
-      "entry_price": 0.14175886654312544,
+      "quantity": -5981.031219888221,
+      "entry_price": 0.14059926418547347,
       "entry_date": "2026-05-11T15:54:22.226576",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 0.5558079921272278,
+      "entry_price": 652.2728676211098,
+      "entry_date": "2026-05-12T15:37:33.085755",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1998,6 +1998,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "COVER",
+      "quantity": 3.961182187592932,
+      "price": 652.2728676211098,
+      "value": 2583.7716646709023,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -62.3550699839584,
+      "entry_price": 636.5313371812161
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.5558079921272278,
+      "price": 652.2728676211098,
+      "value": 362.53847287155804,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 1197.965482556641,
+      "price": 0.13596936926231007,
+      "value": 162.8866110612454,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2488,6 +2524,10 @@
     [
       "2026-05-11T15:54:22.226576",
       8838.375911433921
+    ],
+    [
+      "2026-05-12T15:37:33.085755",
+      9671.276669668008
     ]
   ]
 }

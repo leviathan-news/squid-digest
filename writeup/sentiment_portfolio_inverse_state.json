@@ -1,5 +1,5 @@
 {
-  "cash": -3503.934507298632,
+  "cash": -67.4020612959022,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -55,14 +55,6 @@
       "quantity": 24095.56860999221,
       "entry_price": 0.1240838158080941,
       "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": 5.021551911683984,
-      "entry_price": 641.0985272163744,
-      "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_LONG"
     },
     "CRV": {
@@ -215,6 +207,14 @@
       "quantity": -0.08185497246422764,
       "entry_price": 2620.920404447618,
       "entry_date": "2026-04-22T14:45:08.084088",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.24699843985222686,
+      "entry_price": 652.2728676211098,
+      "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1766,6 +1766,30 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": -485.75220610576616,
       "entry_price": 0.12210676345302983
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SELL",
+      "quantity": 5.021551911683984,
+      "price": 652.2728676211098,
+      "value": 3275.4220653423777,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 56.11253042120643,
+      "entry_price": 641.0985272163744
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.24699843985222686,
+      "price": 652.2728676211098,
+      "value": 161.1103806603522,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2256,6 +2280,10 @@
     [
       "2026-05-11T15:54:22.226576",
       8944.779407841253
+    ],
+    [
+      "2026-05-12T15:37:33.085755",
+      8595.73911359098
     ]
   ]
 }
