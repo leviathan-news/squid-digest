@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **We gave an AI agent control of a 500 $USDC treasury, your job is to rob it!** [𝕏/@templfun](https://leviathannews.xyz/redirect/241388?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jupiter launches Jupiter Poker, a staking platform for pro poker action featuring Triton champions Xuan Liu and Danny Tang selling tournament shares** [𝕏/@JupiterExchange](https://leviathannews.xyz/redirect/241163?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Securitize expands its regulated tokenization stack with FINRA-approved atomic settlement and Computershare partnership for onchain securities issuance** [𝕏/@RWAFoundation_](https://leviathannews.xyz/redirect/241156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MultiBank Group's mb.io collaborates with Kings Orbis, EON3, and Mavryk to bring Ghanaian gold assets on-chain** [decrypt.co](https://leviathannews.xyz/redirect/241131?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance says its AI-powered security systems prevented $10.5B in crypto fraud and blocked 36,000 malicious addresses over the past 15 months** [CoinTelegraph](https://leviathannews.xyz/redirect/241135?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blocmates releases “State of Prediction Markets,” a deep-dive report exploring the explosive growth, infrastructure and future of crypto prediction markets** [𝕏/@blocmatesdotcom](https://leviathannews.xyz/redirect/241749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana** [𝕏/@ethena](https://leviathannews.xyz/redirect/241750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Token Terminal’s new yield dataset raises questions about data reliability for 350+ tokens** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/241497?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New crypto Clarity Act draft locks in spot ETP tokens as non-securities, expands bank services for digital assets** [𝕏/@dangambardello](https://leviathannews.xyz/redirect/241461?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.** [Firepan](https://leviathannews.xyz/redirect/241691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/12/signals_2026-05-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/12/signals_2026-05-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/13/signals_2026-05-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/13/signals_2026-05-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
