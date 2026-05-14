@@ -11,15 +11,16 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Blocmates releases “State of Prediction Markets,” a deep-dive report exploring the explosive growth, infrastructure and future of crypto prediction markets** [𝕏/@blocmatesdotcom](https://leviathannews.xyz/redirect/241749?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana** [𝕏/@ethena](https://leviathannews.xyz/redirect/241750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Token Terminal’s new yield dataset raises questions about data reliability for 350+ tokens** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/241497?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **New crypto Clarity Act draft locks in spot ETP tokens as non-securities, expands bank services for digital assets** [𝕏/@dangambardello](https://leviathannews.xyz/redirect/241461?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.** [Firepan](https://leviathannews.xyz/redirect/241691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The LIVE Senate Banking Committee is holding a closed‑door executive session Digital Asset Market Clarity Act of 2025,** [banking.senate.gov](https://leviathannews.xyz/redirect/242212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase acquires Hyperliquid's USDH deployer, Native Markets, to switch All USDH into USDC** [𝕏/@coinbase](https://leviathannews.xyz/redirect/242173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Code4rena is shutting down** [𝕏/@code4rena](https://leviathannews.xyz/redirect/241887?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New Curve Letters paper just dropped  
+They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility and fees to arb volume, giving a clean framework for dynamic fees and LP/arb profitability.** [Github](https://leviathannews.xyz/redirect/242099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket’s on‑chain data shows dozens of improbably successful long‑shot bets tied to wars, politics, and crypto, strongly suggesting widespread insider trading that current regulation struggles to police.** [NY Times](https://leviathannews.xyz/redirect/242098?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/13/signals_2026-05-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/13/signals_2026-05-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/14/signals_2026-05-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/14/signals_2026-05-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
