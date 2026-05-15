@@ -11,16 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The LIVE Senate Banking Committee is holding a closed‑door executive session Digital Asset Market Clarity Act of 2025,** [banking.senate.gov](https://leviathannews.xyz/redirect/242212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase acquires Hyperliquid's USDH deployer, Native Markets, to switch All USDH into USDC** [𝕏/@coinbase](https://leviathannews.xyz/redirect/242173?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Code4rena is shutting down** [𝕏/@code4rena](https://leviathannews.xyz/redirect/241887?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **New Curve Letters paper just dropped  
-They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility and fees to arb volume, giving a clean framework for dynamic fees and LP/arb profitability.** [Github](https://leviathannews.xyz/redirect/242099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket’s on‑chain data shows dozens of improbably successful long‑shot bets tied to wars, politics, and crypto, strongly suggesting widespread insider trading that current regulation struggles to police.** [NY Times](https://leviathannews.xyz/redirect/242098?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Researchers used Mythos Preview to uncover the first public macOS kernel memory corruption exploit on Apple’s M5 silicon, bypassing Apple’s flagship Memory Integrity Enforcement in just five days.** [blog.calif.io](https://leviathannews.xyz/redirect/242965?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Suspected Thorchain exploit drains $7.4M+ across Bitcoin, Ethereum, BSC, and Base** [ꘜ/@investigations](https://leviathannews.xyz/redirect/242856?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Senate Banking Committee approves the Clarity Act after key Democratic defections, pushing major U.S. crypto legislation closer to becoming law** [decrypt.co](https://leviathannews.xyz/redirect/242366?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DefiLlama brings LlamaAI directly to Telegram, giving users instant DeFi analytics and onchain insights through a chat-based crypto assistant experience** [𝕏/@DefiLlama](https://leviathannews.xyz/redirect/242470?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Upshift launches Clear vaults to front USDC for instant redemptions on Superstate's $267M USCC** [The Block](https://leviathannews.xyz/redirect/242272?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/14/signals_2026-05-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/14/signals_2026-05-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/15/signals_2026-05-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/15/signals_2026-05-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
