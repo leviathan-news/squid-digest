@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Pump.fun adjusts from 100% revenue to PUMP buybacks to 50/50 distribution after burning 36% of circulating supply, with half now automated via smart contract** [Coindesk](https://leviathannews.xyz/redirect/237094?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **PocketOS founder says Claude Opus agent admitted breaking safety rules after wiping full database in 9 secs, reigniting concerns over autonomous coding tools and unchecked API permissions** [decrypt.co](https://leviathannews.xyz/redirect/237057?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Federal Judge denies Sam Bankman-Fried’s request for new trial, calling it a reputational rescue attempt and rejecting claims of new evidence in latest blow to former FTX CEO** [CoinTelegraph](https://leviathannews.xyz/redirect/237058?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hong Kong warns of fake “HKDAP” and “HSBC” tokens impersonating licensed stablecoins, as regulators flag rising scam risks in digital asset markets** [The Block](https://leviathannews.xyz/redirect/237061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket rejects hacker breach claims, says alleged 300K user records are scraped from public APIs and on-chain data, not a database leak** [CoinTelegraph](https://leviathannews.xyz/redirect/237062?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New security audit released for CoWSwap’s CoW-Euler integration, enabling atomic leverage on Euler** [𝕏/@yAuditDAO](https://leviathannews.xyz/redirect/243533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve DAO debates Llama Lend SQUID-recovery pool gauge** [gov.curve.finance](https://leviathannews.xyz/redirect/243164?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z says the CLARITY Act could become crypto’s “1933 Securities Act moment,” creating clear US rules for blockchain networks, builders and digital assets** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/243190?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave V4 integrates Chainlink SVR feeds to redirect liquidation MEV back to the DAO, expanding a revenue stream that has already returned $11M since 2025** [𝕏/@aave](https://leviathannews.xyz/redirect/243210?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jito Labs is launching consumer trading platform JTX for spot, perps and prediction markets as CEO Lucas Bruder says users now want to “trade anything and everything”** [The Block](https://leviathannews.xyz/redirect/243182?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/04/29/signals_2026-04-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/04/29/signals_2026-04-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/16/signals_2026-05-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/16/signals_2026-05-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

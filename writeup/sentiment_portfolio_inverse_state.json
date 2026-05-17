@@ -1,5 +1,5 @@
 {
-  "cash": -258.3978670004685,
+  "cash": -19.285606478162407,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -52,25 +52,9 @@
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
-      "quantity": 23869.801416302416,
-      "entry_price": 0.1241857092535026,
+      "quantity": 24095.56860999221,
+      "entry_price": 0.1240838158080941,
       "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": -24717.568591963,
-      "entry_price": 0.12210676345302983,
-      "entry_date": "2026-02-05T14:02:54.497146",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": 5.021551911683984,
-      "entry_price": 641.0985272163744,
-      "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_LONG"
     },
     "CRV": {
@@ -172,8 +156,8 @@
     "SQUID": {
       "symbol": "SQUID",
       "token_name": "Leviathan Points",
-      "quantity": -144564.0522040645,
-      "entry_price": 0.0023020270599190657,
+      "quantity": -171204.60861949972,
+      "entry_price": 0.0022248630919136634,
       "entry_date": "2026-04-12T13:57:18.362748",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -212,8 +196,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -8.560034052010705,
-      "entry_price": 85.64878394999874,
+      "quantity": -11.947277480093243,
+      "entry_price": 85.13540046176428,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -223,6 +207,14 @@
       "quantity": -0.08185497246422764,
       "entry_price": 2620.920404447618,
       "entry_date": "2026-04-22T14:45:08.084088",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.24699843985222686,
+      "entry_price": 652.2728676211098,
+      "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1726,6 +1718,90 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-30T15:04:00.614609",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.1627010047155855,
+      "price": 83.22143447700508,
+      "value": 179.98307995729112,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-04T15:08:34.246073",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 1.2245424233669542,
+      "price": 84.92696016771943,
+      "value": 103.99666561296794,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-06T15:25:29.384108",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 225.76719368979172,
+      "price": 0.11331087635761872,
+      "value": 25.581878569790547,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-11T15:54:22.226576",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "COVER",
+      "quantity": 24717.568591963,
+      "price": 0.14175886654312544,
+      "value": 3503.934507298632,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -485.75220610576616,
+      "entry_price": 0.12210676345302983
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SELL",
+      "quantity": 5.021551911683984,
+      "price": 652.2728676211098,
+      "value": 3275.4220653423777,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 56.11253042120643,
+      "entry_price": 641.0985272163744
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.24699843985222686,
+      "price": 652.2728676211098,
+      "value": 161.1103806603522,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-16T14:20:43.104670",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "SHORT",
+      "quantity": 26640.556415435214,
+      "price": 0.0018061355051076076,
+      "value": 48.11645481773979,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2172,6 +2248,70 @@
     [
       "2026-04-29T15:08:03.088425",
       9846.161346196264
+    ],
+    [
+      "2026-04-30T15:04:00.614609",
+      9870.359217349125
+    ],
+    [
+      "2026-05-01T14:15:55.410745",
+      9971.314991058658
+    ],
+    [
+      "2026-05-02T14:08:54.891690",
+      9961.729419606801
+    ],
+    [
+      "2026-05-03T14:09:04.609347",
+      9944.485965426502
+    ],
+    [
+      "2026-05-04T15:08:34.246073",
+      10009.408020209596
+    ],
+    [
+      "2026-05-06T15:25:29.384108",
+      9923.097854316875
+    ],
+    [
+      "2026-05-07T15:27:05.803916",
+      9856.237585415756
+    ],
+    [
+      "2026-05-08T14:48:39.496749",
+      9852.405804297894
+    ],
+    [
+      "2026-05-09T14:15:51.753383",
+      9855.866070309652
+    ],
+    [
+      "2026-05-10T14:18:58.971345",
+      9887.000755919458
+    ],
+    [
+      "2026-05-11T15:54:22.226576",
+      8944.779407841253
+    ],
+    [
+      "2026-05-12T15:37:33.085755",
+      8595.73911359098
+    ],
+    [
+      "2026-05-13T15:40:56.054141",
+      8557.546227918743
+    ],
+    [
+      "2026-05-14T15:15:31.855660",
+      8478.693834128455
+    ],
+    [
+      "2026-05-15T15:11:42.389448",
+      9526.960041272292
+    ],
+    [
+      "2026-05-16T14:20:43.104670",
+      9222.769426440775
     ]
   ]
 }

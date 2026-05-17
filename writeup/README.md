@@ -15,18 +15,54 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (April 29, 2026)
+## 🔥 Latest Headlines (May 16, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/04/29/signals_2026-04-29.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/04/29/signals_2026-04-29.md)
+📊 [View Full Analysis →](writeup/2026/05/16/signals_2026-05-16.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/05/16/signals_2026-05-16.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Apr 22 - Apr 29)
+### 📅 This Week (May 09 - May 16)
+
+[**Saturday, May 16, 2026**](writeup/2026/05/16/signals_2026-05-16.md)
+
+[**Friday, May 15, 2026**](writeup/2026/05/15/signals_2026-05-15.md)
+
+[**Thursday, May 14, 2026**](writeup/2026/05/14/signals_2026-05-14.md)
+
+[**Wednesday, May 13, 2026**](writeup/2026/05/13/signals_2026-05-13.md)
+
+[**Tuesday, May 12, 2026**](writeup/2026/05/12/signals_2026-05-12.md)
+
+[**Monday, May 11, 2026**](writeup/2026/05/11/signals_2026-05-11.md)
+
+[**Sunday, May 10, 2026**](writeup/2026/05/10/signals_2026-05-10.md)
+
+[**Saturday, May 09, 2026**](writeup/2026/05/09/signals_2026-05-09.md)
+
+### 📅 Last Week (May 02 - May 08)
+
+[**Friday, May 08, 2026**](writeup/2026/05/08/signals_2026-05-08.md)
+
+[**Thursday, May 07, 2026**](writeup/2026/05/07/signals_2026-05-07.md)
+
+[**Wednesday, May 06, 2026**](writeup/2026/05/06/signals_2026-05-06.md)
+
+[**Monday, May 04, 2026**](writeup/2026/05/04/signals_2026-05-04.md)
+
+[**Sunday, May 03, 2026**](writeup/2026/05/03/signals_2026-05-03.md)
+
+[**Saturday, May 02, 2026**](writeup/2026/05/02/signals_2026-05-02.md)
+
+### 📅 Week of Apr 25 - May 01
+
+[**Friday, May 01, 2026**](writeup/2026/05/01/signals_2026-05-01.md)
+
+[**Thursday, April 30, 2026**](writeup/2026/04/30/signals_2026-04-30.md)
 
 [**Wednesday, April 29, 2026**](writeup/2026/04/29/signals_2026-04-29.md)
 
@@ -36,55 +72,19 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, April 25, 2026**](writeup/2026/04/25/signals_2026-04-25.md)
 
+### 📅 Week of Apr 19 - Apr 24
+
 [**Friday, April 24, 2026**](writeup/2026/04/24/signals_2026-04-24.md)
 
 [**Thursday, April 23, 2026**](writeup/2026/04/23/signals_2026-04-23.md)
 
 [**Wednesday, April 22, 2026**](writeup/2026/04/22/signals_2026-04-22.md)
 
-### 📅 Last Week (Apr 15 - Apr 21)
-
 [**Tuesday, April 21, 2026**](writeup/2026/04/21/signals_2026-04-21.md)
 
 [**Monday, April 20, 2026**](writeup/2026/04/20/signals_2026-04-20.md)
 
 [**Sunday, April 19, 2026**](writeup/2026/04/19/signals_2026-04-19.md)
-
-[**Saturday, April 18, 2026**](writeup/2026/04/18/signals_2026-04-18.md)
-
-[**Friday, April 17, 2026**](writeup/2026/04/17/signals_2026-04-17.md)
-
-[**Thursday, April 16, 2026**](writeup/2026/04/16/signals_2026-04-16.md)
-
-[**Wednesday, April 15, 2026**](writeup/2026/04/15/signals_2026-04-15.md)
-
-### 📅 Week of Apr 08 - Apr 14
-
-[**Tuesday, April 14, 2026**](writeup/2026/04/14/signals_2026-04-14.md)
-
-[**Monday, April 13, 2026**](writeup/2026/04/13/signals_2026-04-13.md)
-
-[**Sunday, April 12, 2026**](writeup/2026/04/12/signals_2026-04-12.md)
-
-[**Friday, April 10, 2026**](writeup/2026/04/10/signals_2026-04-10.md)
-
-[**Thursday, April 09, 2026**](writeup/2026/04/09/signals_2026-04-09.md)
-
-[**Wednesday, April 08, 2026**](writeup/2026/04/08/signals_2026-04-08.md)
-
-### 📅 Week of Apr 02 - Apr 07
-
-[**Tuesday, April 07, 2026**](writeup/2026/04/07/signals_2026-04-07.md)
-
-[**Monday, April 06, 2026**](writeup/2026/04/06/signals_2026-04-06.md)
-
-[**Sunday, April 05, 2026**](writeup/2026/04/05/signals_2026-04-05.md)
-
-[**Saturday, April 04, 2026**](writeup/2026/04/04/signals_2026-04-04.md)
-
-[**Friday, April 03, 2026**](writeup/2026/04/03/signals_2026-04-03.md)
-
-[**Thursday, April 02, 2026**](writeup/2026/04/02/signals_2026-04-02.md)
 <!-- DAILY_UPDATE_END -->
 
 ---

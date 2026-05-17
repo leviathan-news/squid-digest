@@ -1,5 +1,5 @@
 {
-  "cash": 1134.758418655931,
+  "cash": 6317.541311588153,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -47,22 +47,6 @@
       "quantity": -23540.579585710802,
       "entry_price": 0.1241857092535026,
       "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": 47045.037335040106,
-      "entry_price": 0.11396776467401717,
-      "entry_date": "2026-02-05T14:02:54.497146",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": -3.961182187592932,
-      "entry_price": 636.5313371812161,
-      "entry_date": "2026-02-06T13:59:08.454245",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "CRV": {
@@ -180,8 +164,8 @@
     "SQUID": {
       "symbol": "SQUID",
       "token_name": "Leviathan Points",
-      "quantity": 253894.8844946432,
-      "entry_price": 0.0023254594710379614,
+      "quantity": 346785.3380096301,
+      "entry_price": 0.0021863525555225988,
       "entry_date": "2026-04-12T13:57:18.362748",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -212,16 +196,16 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 14.457431405972985,
-      "entry_price": 86.29302859321994,
+      "quantity": 20.09313689637439,
+      "entry_price": 87.14339679806396,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": -6.6378464366003564,
-      "entry_price": 93.11412516163283,
+      "quantity": -18.913950158757935,
+      "entry_price": 93.77199091671046,
       "entry_date": "2026-04-23T15:11:29.344391",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -231,6 +215,22 @@
       "quantity": 0.12710448611160025,
       "entry_price": 2518.6665802682387,
       "entry_date": "2026-04-24T14:43:47.541498",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": -6993.770715194261,
+      "entry_price": 0.13951011671474461,
+      "entry_date": "2026-05-11T15:54:22.226576",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 0.5558079921272278,
+      "entry_price": 652.2728676211098,
+      "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -1926,6 +1926,150 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-04-30T15:04:00.614609",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 2.996987156758877,
+      "price": 83.22143447700508,
+      "value": 249.4135702946346,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-08T14:48:39.496749",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 8.891249677317521,
+      "price": 93.69672999230129,
+      "value": 833.0810203097557,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-09T14:15:51.753383",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 3.384854044840056,
+      "price": 95.25978786785176,
+      "value": 322.4404782751037,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-11T15:54:22.226576",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 2.6387183336425277,
+      "price": 96.25699198185231,
+      "value": 253.99508948379548,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-11T15:54:22.226576",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SELL",
+      "quantity": 47045.037335040106,
+      "price": 0.14175886654312544,
+      "value": 6669.051169094304,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 1307.433425014101,
+      "entry_price": 0.11396776467401717
+    },
+    {
+      "date": "2026-05-11T15:54:22.226576",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 4783.06573733158,
+      "price": 0.14175886654312544,
+      "value": 678.0419775253833,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "COVER",
+      "quantity": 3.961182187592932,
+      "price": 652.2728676211098,
+      "value": 2583.7716646709023,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -62.3550699839584,
+      "entry_price": 636.5313371812161
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.5558079921272278,
+      "price": 652.2728676211098,
+      "value": 362.53847287155804,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-12T15:37:33.085755",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 1197.965482556641,
+      "price": 0.13596936926231007,
+      "value": 162.8866110612454,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-14T15:15:31.855660",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 1012.7394953060405,
+      "price": 0.13307783570300927,
+      "value": 134.77318016628578,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-15T15:11:42.389448",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "BUY",
+      "quantity": 35421.74035986015,
+      "price": 0.0018061355051076076,
+      "value": 63.97646291664654,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-16T14:20:43.104670",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "BUY",
+      "quantity": 57468.71315512677,
+      "price": 0.0018061355051076076,
+      "value": 103.7962832623191,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2372,6 +2516,70 @@
     [
       "2026-04-29T15:08:03.088425",
       7876.724458063631
+    ],
+    [
+      "2026-04-30T15:04:00.614609",
+      8033.462555621909
+    ],
+    [
+      "2026-05-01T14:15:55.410745",
+      8055.52179719872
+    ],
+    [
+      "2026-05-02T14:08:54.891690",
+      8096.184163115553
+    ],
+    [
+      "2026-05-03T14:09:04.609347",
+      8059.373343725556
+    ],
+    [
+      "2026-05-04T15:08:34.246073",
+      7909.410552616651
+    ],
+    [
+      "2026-05-06T15:25:29.384108",
+      7932.612035791644
+    ],
+    [
+      "2026-05-07T15:27:05.803916",
+      7807.8859987023725
+    ],
+    [
+      "2026-05-08T14:48:39.496749",
+      7515.287102535669
+    ],
+    [
+      "2026-05-09T14:15:51.753383",
+      7548.863299254009
+    ],
+    [
+      "2026-05-10T14:18:58.971345",
+      7510.395448325636
+    ],
+    [
+      "2026-05-11T15:54:22.226576",
+      8838.375911433921
+    ],
+    [
+      "2026-05-12T15:37:33.085755",
+      9671.276669668008
+    ],
+    [
+      "2026-05-13T15:40:56.054141",
+      9469.927390037046
+    ],
+    [
+      "2026-05-14T15:15:31.855660",
+      9587.412047802765
+    ],
+    [
+      "2026-05-15T15:11:42.389448",
+      9106.131813284683
+    ],
+    [
+      "2026-05-16T14:20:43.104670",
+      9340.63994749516
     ]
   ]
 }
