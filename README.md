@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **New security audit released for CoWSwap’s CoW-Euler integration, enabling atomic leverage on Euler** [𝕏/@yAuditDAO](https://leviathannews.xyz/redirect/243533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Curve DAO debates Llama Lend SQUID-recovery pool gauge** [gov.curve.finance](https://leviathannews.xyz/redirect/243164?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z says the CLARITY Act could become crypto’s “1933 Securities Act moment,” creating clear US rules for blockchain networks, builders and digital assets** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/243190?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave V4 integrates Chainlink SVR feeds to redirect liquidation MEV back to the DAO, expanding a revenue stream that has already returned $11M since 2025** [𝕏/@aave](https://leviathannews.xyz/redirect/243210?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jito Labs is launching consumer trading platform JTX for spot, perps and prediction markets as CEO Lucas Bruder says users now want to “trade anything and everything”** [The Block](https://leviathannews.xyz/redirect/243182?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jump Crypto is rolling out Firedancer cautiously across Solana, prioritizing stability and validator resilience as the network’s long-awaited second client nears adoption** [Coindesk](https://leviathannews.xyz/redirect/243562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cerebras’ IPO is accelerating the AI shift from training to inference, with Venice’s token ecosystem positioning API access and compute capacity as tradable onchain assets** [𝕏/@davewardonline](https://leviathannews.xyz/redirect/243739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Abu Dhabi’s Mubadala boosted its BlackRock IBIT position to nearly $660M while Harvard dumped its ether ETF and slashed bitcoin ETF exposure another 43%** [The Block](https://leviathannews.xyz/redirect/243609?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenSea says it’s evolving beyond NFTs into a broader crypto ownership platform, betting on onchain assets and verifiable digital property across Web3** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/243735?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy is repurchasing $1.5B in 0% convertible notes as Michael Saylor’s bitcoin treasury giant moves to reduce debt and gradually shift toward equity financing** [CoinTelegraph](https://leviathannews.xyz/redirect/243838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/16/signals_2026-05-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/16/signals_2026-05-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/17/signals_2026-05-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/17/signals_2026-05-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
