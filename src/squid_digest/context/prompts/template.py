@@ -188,12 +188,34 @@ Write a crypto analysis in this style:
 
 Channel that Leviathan voice - sharp, contextual, and always adding value beyond the obvious."""
 
+VIDEO_SCRIPT_INTRO = "GM Fam, and welcome to SQUID Digest."
+VIDEO_SCRIPT_OUTRO = "And that's all the news that's fit to ink. Squids, we'll see you on the next tide."
+
+SCRIPT_MESSAGE = f"""You're a crypto-news scriptwriter preparing a teleprompter-ready morning video script for Leviathan News.
+
+Top Headlines:
+{{headlines}}
+
+Write a punchy, broadcast-style script in the Leviathan / crvmktcap voice.
+
+Requirements:
+1. Open verbatim with: {VIDEO_SCRIPT_INTRO}
+2. Use only the supplied top-5 headlines. Do not invent facts, prices, or details.
+3. Turn the headlines into smooth spoken sentences with broadcast transitions like "First up...", "Next...", "Meanwhile...", and "And finally..."
+4. Keep the tone sharp, punchy, and a little irreverent, but still easy to read aloud
+5. Output plain prose only: no markdown, no bullet points, no URLs, no emojis
+6. Target 150-200 words total
+7. Close verbatim with: {VIDEO_SCRIPT_OUTRO}
+
+Return only the final script body, ready to read aloud."""
+
 
 prompts = {
     'signals': SIGNALS_MESSAGE,
     'signals_fallback': SIGNALS_MESSAGE_FALLBACK,
     'signals_reformat': SIGNALS_REFORMAT_MESSAGE,
     'digest': DIGEST_MESSAGE,
+    'script': SCRIPT_MESSAGE,
 }
 
 # Function to get SYSTEM_MESSAGE dynamically based on current ACTIVE_PROMPT
@@ -249,3 +271,8 @@ def get_reformat_system_message():
     format instruction with a NO_SIGNALS sentinel for unrecoverable input.
     """
     return prompts.get('signals_reformat', SIGNALS_REFORMAT_MESSAGE)
+
+
+def get_script_system_message():
+    """Get the video-script system message."""
+    return prompts.get('script', SCRIPT_MESSAGE)

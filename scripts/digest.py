@@ -21,7 +21,14 @@ from squid_digest.config import (
     get_writeup_file_path, save_meta, load_meta, DEFAULT_BLURB, generate_blurb,
 )
 import os
-from squid_digest.context.prompts.template import ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT, get_fallback_system_message, get_reformat_system_message
+from squid_digest.context.prompts.template import (
+    ACTIVE_PROMPT as DEFAULT_ACTIVE_PROMPT,
+    VIDEO_SCRIPT_INTRO,
+    VIDEO_SCRIPT_OUTRO,
+    get_fallback_system_message,
+    get_reformat_system_message,
+    get_script_system_message,
+)
 from squid_digest.backtest.incremental_backtest import IncrementalBacktest
 from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsletter
 from squid_digest.backtest.signal_parser import SignalParser
@@ -203,6 +210,82 @@ def promote_first_non_duplicate(news_data, today):
         yesterday_lead,
     )
     return news_data
+
+
+def get_video_script_headlines(news_data, limit=5):
+    """Extract plain headline strings for the daily video script."""
+    return [
+        story.get("headline", "").strip()
+        for story in news_data[:limit]
+        if story.get("headline", "").strip()
+    ]
+
+
+def format_video_script_headlines(headline_texts, limit=5):
+    """Format top headlines for the script prompt."""
+    cleaned_headlines = [headline.strip() for headline in headline_texts if headline and headline.strip()]
+    return "\n".join(
+        f"[{i + 1}] {headline}"
+        for i, headline in enumerate(cleaned_headlines[:limit])
+    )
+
+
+async def generate_video_script(engine, headline_texts, today, verbose=False):
+    """Generate a daily newscaster video script without breaking the digest run."""
+    today_str = today.strftime("%Y-%m-%d")
+    script_file = get_writeup_file_path(f"video_script_{today_str}.md", today)
+    diagnostic_file = get_writeup_file_path(f"diagnostic_video_script_{today_str}.txt", today)
+    headlines_summary = ""
+
+    try:
+        headlines_summary = format_video_script_headlines(headline_texts)
+        if not headlines_summary:
+            raise ValueError("No headlines available for video script generation")
+
+        if verbose:
+            logger.info("Generating daily video script...")
+            logger.info(headlines_summary)
+
+        script_body = await engine.generate_writeup_with_prompt(
+            headlines=headlines_summary,
+            token_list="",
+            system_message=get_script_system_message(),
+            prompt_type="script",
+        )
+        if not script_body or not script_body.strip():
+            raise ValueError("LLM returned an empty video script")
+
+        script_body = script_body.strip()
+        if not script_body.startswith(VIDEO_SCRIPT_INTRO):
+            raise ValueError("Video script is missing the required intro line")
+        if not script_body.endswith(VIDEO_SCRIPT_OUTRO):
+            raise ValueError("Video script is missing the required outro line")
+
+        full_script = (
+            f"# 🎙️ SQUID Digest — Video Script — {today.strftime('%B %d, %Y')}\n"
+            f"> Draft — read time ≈ 1 min\n\n"
+            f"{script_body}\n"
+        )
+        script_file.write_text(full_script)
+
+        if verbose:
+            logger.info(f"✓ Created video script: {script_file}")
+
+        return script_file
+    except Exception as exc:
+        logger.warning("Video script generation failed: %s", exc, exc_info=verbose)
+        try:
+            diagnostic_file.write_text(
+                "Video Script Generation Diagnostic\n"
+                "==================================\n\n"
+                f"Date: {today_str}\n"
+                f"Error: {exc}\n\n"
+                f"Headlines sent to model:\n{headlines_summary or '(none)'}\n"
+            )
+            logger.warning(f"Video script diagnostic saved: {diagnostic_file}")
+        except Exception as diag_error:
+            logger.warning(f"Could not save video script diagnostic: {diag_error}")
+        return None
 
 
 def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None):
@@ -2134,7 +2217,7 @@ async def bundle_writeup(verbose=False):
 
     # --- Generate blurb and write distribution metadata ---
     title = f"Crypto Trading Signals - {today.strftime('%B %d, %Y')}"
-    headline_texts = [s.get("headline", "") for s in news_data[:5] if s.get("headline")]
+    headline_texts = get_video_script_headlines(news_data)
     blurb = generate_blurb(headline_texts)
     if verbose:
         logger.info(f"Blurb: {blurb}")
@@ -2160,6 +2243,8 @@ async def bundle_writeup(verbose=False):
     })
     if verbose:
         logger.info("✓ Distribution metadata saved")
+
+    await generate_video_script(engine, headline_texts, today, verbose=verbose)
 
     # Generate RSS feed
     if verbose:
