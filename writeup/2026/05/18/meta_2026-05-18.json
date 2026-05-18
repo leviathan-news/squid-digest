@@ -1,0 +1,9 @@
+{
+  "blurb": "KelpDAO ends rsETH on 19 chains, Arcane brings Solana privacy, and crypto bulls face $563M liquidations as BTC/ETH wobble.",
+  "date": "2026-05-18",
+  "title": "Crypto Trading Signals - May 18, 2026",
+  "top_story_headline": "KelpDAO is shutting down rsETH bridging support across 19 networks, urging users to return assets to Ethereum mainnet before the June 15 deadline",
+  "top_story_comment": "Six Aave deployments got WETH LTVs back to pre-incident levels while Kelp is cutting the long-tail rsETH routes, which is the cleanup pattern: keep collateral usable where lending depth exists, kill everywhere else. After 116,500 forged rsETH forced a 117,132 rsETH refill into the LayerZero OFT adapter, every bridge route became an insurance line against another verifier/RPC failure. The $100 post-deadline recovery fee will make dust balances sell locally, so rsETH/ETH basis on deprecated L2 pools is the thing to watch before June 15.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok"
+}

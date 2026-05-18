@@ -1,5 +1,5 @@
 {
-  "cash": 6317.541311588153,
+  "cash": 6316.561874711151,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -188,16 +188,16 @@
     "rsETH": {
       "symbol": "rsETH",
       "token_name": "Kelp DAO Restaked ETH",
-      "quantity": -0.9349161883186399,
-      "entry_price": 2378.1668557477487,
+      "quantity": -1.1171507699562637,
+      "entry_price": 2357.813725407253,
       "entry_date": "2026-04-19T13:58:00.589260",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 20.09313689637439,
-      "entry_price": 87.14339679806396,
+      "quantity": 24.208413334571176,
+      "entry_price": 86.66348413291634,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -228,8 +228,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 0.5558079921272278,
-      "entry_price": 652.2728676211098,
+      "quantity": 0.6570752985614846,
+      "entry_price": 650.0980847238802,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -2070,6 +2070,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.115276438196789,
+      "price": 84.32027559664111,
+      "value": 347.00124342511685,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.10126730643425687,
+      "price": 638.1617376639676,
+      "value": 64.62492024263486,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "SHORT",
+      "quantity": 0.1822345816376238,
+      "price": 2253.396271446036,
+      "value": 410.64672679074965,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2584,6 +2620,10 @@
     [
       "2026-05-17T14:23:53.691617",
       8982.50026311069
+    ],
+    [
+      "2026-05-18T16:20:36.306275",
+      8821.47858402146
     ]
   ]
 }
