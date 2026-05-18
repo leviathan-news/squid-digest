@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Jump Crypto is rolling out Firedancer cautiously across Solana, prioritizing stability and validator resilience as the network’s long-awaited second client nears adoption** [Coindesk](https://leviathannews.xyz/redirect/243562?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cerebras’ IPO is accelerating the AI shift from training to inference, with Venice’s token ecosystem positioning API access and compute capacity as tradable onchain assets** [𝕏/@davewardonline](https://leviathannews.xyz/redirect/243739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Abu Dhabi’s Mubadala boosted its BlackRock IBIT position to nearly $660M while Harvard dumped its ether ETF and slashed bitcoin ETF exposure another 43%** [The Block](https://leviathannews.xyz/redirect/243609?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenSea says it’s evolving beyond NFTs into a broader crypto ownership platform, betting on onchain assets and verifiable digital property across Web3** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/243735?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy is repurchasing $1.5B in 0% convertible notes as Michael Saylor’s bitcoin treasury giant moves to reduce debt and gradually shift toward equity financing** [CoinTelegraph](https://leviathannews.xyz/redirect/243838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **KelpDAO is shutting down rsETH bridging support across 19 networks, urging users to return assets to Ethereum mainnet before the June 15 deadline** [𝕏/@KelpDAO](https://leviathannews.xyz/redirect/244014?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WalletConnect’s CEO says the ideal stablecoin payment merchants could onboard within 18 months as crypto payment rails become easier to integrate** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/244016?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockchain Capital’s Spencer Bogart says crypto is still in its “email era,” arguing the biggest onchain breakthroughs will be entirely new financial primitives, not faster legacy systems** [𝕏/@CremeDeLaCrypto](https://leviathannews.xyz/redirect/244013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arcane is launching a decentralized privacy layer on Solana, aiming to bring confidential transactions and stronger onchain privacy infrastructure to crypto users** [𝕏/@ArcanePrivacy](https://leviathannews.xyz/redirect/244012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto bulls suffered $563M in liquidations as macro fears triggered sharp sell-offs across bitcoin and ether, wiping out leveraged rally bets** [Coindesk](https://leviathannews.xyz/redirect/244229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/17/signals_2026-05-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/17/signals_2026-05-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/18/signals_2026-05-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/18/signals_2026-05-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
