@@ -1,5 +1,5 @@
 {
-  "cash": 52.357991570902726,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -216,6 +216,14 @@
       "entry_price": 647.8633133429496,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": 456.5933302957776,
+      "entry_price": 0.11467095136274905,
+      "entry_date": "2026-05-19T16:16:08.641182",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1814,6 +1822,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-19T16:16:08.641182",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 456.5933302957776,
+      "price": 0.11467095136274905,
+      "value": 52.357991570902726,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2332,6 +2352,10 @@
     [
       "2026-05-18T16:20:36.306275",
       9646.504350739831
+    ],
+    [
+      "2026-05-19T16:16:08.641182",
+      9273.524982592586
     ]
   ]
 }

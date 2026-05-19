@@ -1,5 +1,5 @@
 {
-  "cash": 6316.561874711151,
+  "cash": 6165.480619788405,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -84,8 +84,8 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
-      "quantity": 135.5554364733736,
-      "entry_price": 8.758378785055413,
+      "quantity": 151.49517846506643,
+      "entry_price": 8.834123484917875,
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -2106,6 +2106,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-19T16:16:08.641182",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "BUY",
+      "quantity": 15.939741991692856,
+      "price": 9.478274805293799,
+      "value": 151.08125492274598,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2624,6 +2636,10 @@
     [
       "2026-05-18T16:20:36.306275",
       8821.47858402146
+    ],
+    [
+      "2026-05-19T16:16:08.641182",
+      9098.769111975496
     ]
   ]
 }
