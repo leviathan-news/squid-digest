@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **KelpDAO is shutting down rsETH bridging support across 19 networks, urging users to return assets to Ethereum mainnet before the June 15 deadline** [𝕏/@KelpDAO](https://leviathannews.xyz/redirect/244014?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WalletConnect’s CEO says the ideal stablecoin payment merchants could onboard within 18 months as crypto payment rails become easier to integrate** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/244016?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockchain Capital’s Spencer Bogart says crypto is still in its “email era,” arguing the biggest onchain breakthroughs will be entirely new financial primitives, not faster legacy systems** [𝕏/@CremeDeLaCrypto](https://leviathannews.xyz/redirect/244013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arcane is launching a decentralized privacy layer on Solana, aiming to bring confidential transactions and stronger onchain privacy infrastructure to crypto users** [𝕏/@ArcanePrivacy](https://leviathannews.xyz/redirect/244012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto bulls suffered $563M in liquidations as macro fears triggered sharp sell-offs across bitcoin and ether, wiping out leveraged rally bets** [Coindesk](https://leviathannews.xyz/redirect/244229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BTNOMB Cleanroom: AI-Rebuilt npm Packages With Zero Supply-Chain Risk** [cleanroom.btnomb](https://leviathannews.xyz/redirect/245106?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Karpathy Joins Anthropic: AI Visionary Returns to Frontier LLM R&D, Betting the Next Few Years Will Redefine Artificial Intelligence While Putting His Education Mission Briefly on Hold** [𝕏/@karpathy](https://leviathannews.xyz/redirect/245167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z’s Eddy Lazzarin says crypto hacks appear worse because blockchain transparency exposes exact losses instantly, while TradFi breaches often bury the true scale of damage** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/244691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analysts say Hyperliquid’s USDC revenue-sharing deal could redirect $160M away from Circle and Coinbase while significantly boosting value accrual for the HYPE ecosystem** [Coindesk](https://leviathannews.xyz/redirect/244671?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Minnesota banks and credit unions will begin offering crypto custody services on August 1 under the Midwest’s first unified digital asset framework** [Coindesk](https://leviathannews.xyz/redirect/244670?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/18/signals_2026-05-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/18/signals_2026-05-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/19/signals_2026-05-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/19/signals_2026-05-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
