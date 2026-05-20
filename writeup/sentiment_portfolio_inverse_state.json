@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 77.86988218243806,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -212,8 +212,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -0.35926402053608475,
-      "entry_price": 647.8633133429496,
+      "quantity": -0.47966517645635315,
+      "entry_price": 647.5847656623046,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -1834,6 +1834,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-20T16:21:57.438815",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.12040115592026839,
+      "price": 646.7536095251841,
+      "value": 77.86988218243806,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2356,6 +2368,10 @@
     [
       "2026-05-19T16:16:08.641182",
       9273.524982592586
+    ],
+    [
+      "2026-05-20T16:21:57.438815",
+      9100.802638525189
     ]
   ]
 }
