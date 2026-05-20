@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (May 19, 2026)
+## 🔥 Latest Headlines (May 20, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/05/19/signals_2026-05-19.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/05/19/signals_2026-05-19.md)
+📊 [View Full Analysis →](writeup/2026/05/20/signals_2026-05-20.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/05/20/signals_2026-05-20.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (May 12 - May 19)
+### 📅 This Week (May 13 - May 20)
+
+[**Wednesday, May 20, 2026**](writeup/2026/05/20/signals_2026-05-20.md)
 
 [**Tuesday, May 19, 2026**](writeup/2026/05/19/signals_2026-05-19.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, May 13, 2026**](writeup/2026/05/13/signals_2026-05-13.md)
 
-[**Tuesday, May 12, 2026**](writeup/2026/05/12/signals_2026-05-12.md)
+### 📅 Last Week (May 06 - May 12)
 
-### 📅 Last Week (May 06 - May 11)
+[**Tuesday, May 12, 2026**](writeup/2026/05/12/signals_2026-05-12.md)
 
 [**Monday, May 11, 2026**](writeup/2026/05/11/signals_2026-05-11.md)
 
@@ -72,7 +74,7 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Wednesday, April 29, 2026**](writeup/2026/04/29/signals_2026-04-29.md)
 
-### 📅 Week of Apr 22 - Apr 27
+### 📅 Week of Apr 23 - Apr 27
 
 [**Monday, April 27, 2026**](writeup/2026/04/27/signals_2026-04-27.md)
 
@@ -83,8 +85,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Friday, April 24, 2026**](writeup/2026/04/24/signals_2026-04-24.md)
 
 [**Thursday, April 23, 2026**](writeup/2026/04/23/signals_2026-04-23.md)
-
-[**Wednesday, April 22, 2026**](writeup/2026/04/22/signals_2026-04-22.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
