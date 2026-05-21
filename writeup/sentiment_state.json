@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-05-20",
+  "last_processed_date": "2026-05-21",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 6.35773351912875,
+      "score": 5.480193498219885,
       "last_signal_date": "2026-05-18",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 4.193101070323496,
+      "score": 3.990553964710512,
       "last_signal_date": "2026-05-20",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 13.787328106586012,
+      "score": 13.12133333200499,
       "last_signal_date": "2026-05-20",
       "token_name": "Solana"
     },
@@ -27,13 +27,13 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 1.1348851464288474,
-      "last_signal_date": "2026-05-16",
+      "score": 1.8860152545091289,
+      "last_signal_date": "2026-05-21",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 2.1085652235139896,
+      "score": 1.909777420580534,
       "last_signal_date": "2026-05-19",
       "token_name": "Ethereum"
     },
@@ -45,13 +45,13 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 3.528035555348037,
+      "score": 3.195425290843171,
       "last_signal_date": "2026-05-19",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.5,
+      "score": 0.33647504815808904,
       "last_signal_date": "2026-05-13",
       "token_name": "Ethena"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 9.036594194331709,
+      "score": 8.18465720615606,
       "last_signal_date": "2026-05-19",
       "token_name": "ChainLink Token"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.7935102453564937,
+      "score": 1.7068750073806622,
       "last_signal_date": "2026-05-20",
       "token_name": "Aave"
     },
@@ -123,7 +123,7 @@
     },
     "ARB": {
       "symbol": "ARB",
-      "score": -0.09912090333029558,
+      "score": -0.060414867288356086,
       "last_signal_date": "2026-05-11",
       "token_name": "Arbitrum"
     },
@@ -135,8 +135,8 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 2.349700906342482,
-      "last_signal_date": "2026-05-16",
+      "score": 3.8344330729011697,
+      "last_signal_date": "2026-05-21",
       "token_name": "Leviathan Points"
     },
     "POL": {
@@ -219,7 +219,7 @@
     },
     "rsETH": {
       "symbol": "rsETH",
-      "score": -3.8668051535052066,
+      "score": -3.3330809473792358,
       "last_signal_date": "2026-05-18",
       "token_name": "Kelp DAO Restaked ETH"
     },
@@ -231,7 +231,7 @@
     },
     "COW": {
       "symbol": "COW",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-05-16",
       "token_name": "CoW Protocol"
     }
