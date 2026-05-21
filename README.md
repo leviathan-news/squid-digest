@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Singapore revoked BSQ’s crypto payment license after MAS uncovered “serious breaches” of regulatory requirements, escalating the city-state’s crackdown on digital asset risks** [Bloomberg](https://leviathannews.xyz/redirect/245679?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z’s Eddy Lazzarin says humans are inherently “prompt injectable,” arguing multisigs and consensus systems are critical defenses against AI-era social engineering** [𝕏/@a16z](https://leviathannews.xyz/redirect/245204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Circle expands CCTP to Stellar, enabling developers and institutions to move USDC across 23 blockchains using canonical burn-and-mint infrastructure** [𝕏/@circle](https://leviathannews.xyz/redirect/245197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave launches address monitoring on Aave Pro, letting users track Ethereum wallets, V4 positions, balances and protocol activity without connecting accounts** [𝕏/@aave](https://leviathannews.xyz/redirect/245196?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Circle CEO Jeremy Allaire says near-zero transaction costs will unlock software-driven commerce, making nanopayments a core pillar of the internet economy** [𝕏/@circle](https://leviathannews.xyz/redirect/245623?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve DAO voting opens on the SQUID Recovery pool on Fraxtal** [Curvemonitor](https://leviathannews.xyz/redirect/245636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **WalletConnect unveils compliance framework combining Travel Rule data collection and wallet ownership verification inside stablecoin payment flows** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/246203?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Y Combinator launches YC Crypto Deals program to support fintech startups with wallets, onramps, audits, blockchain infrastructure, and onchain analytics tools** [𝕏/@ycombinator](https://leviathannews.xyz/redirect/246201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solv Protocol is shutting down burn-mint permissions for SolvBTC assets across major chains, urging users to redeem and withdraw underlying assets before June ends** [𝕏/@SolvProtocol](https://leviathannews.xyz/redirect/246389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **IG Europe picks Bitpanda infrastructure to expand regulated crypto access across the EU** [The Block](https://leviathannews.xyz/redirect/246277?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/20/signals_2026-05-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/20/signals_2026-05-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/21/signals_2026-05-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/21/signals_2026-05-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
