@@ -5,5 +5,8 @@
   "top_story_headline": "Curve DAO voting opens on the SQUID Recovery pool on Fraxtal",
   "top_story_comment": "$1.3k in SQUID-rec liquidity is the constraint, not gauge whitelisting: a weight=0 Curve gauge just gets the Fraxtal pool into the emissions machine. If veCRV/vlCVX voters route CRV to a pool holding frxETH, cvcrvUSD, and SQUID, this becomes a live test of whether distressed LlamaLend claims can bootstrap depth without a treasury backstop. If they do not, affected lenders still just have an onchain exit door with no bid behind it.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a0f2f6120c639305e75bf9f",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/3ca8053b-9457-469e-809a-b37cb02f5fcd/",
+  "telegram_part1_message_id": 1001
 }
