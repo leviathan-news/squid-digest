@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Curve DAO voting opens on the SQUID Recovery pool on Fraxtal** [Curvemonitor](https://leviathannews.xyz/redirect/245636?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **WalletConnect unveils compliance framework combining Travel Rule data collection and wallet ownership verification inside stablecoin payment flows** [𝕏/@WalletConnect](https://leviathannews.xyz/redirect/246203?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Y Combinator launches YC Crypto Deals program to support fintech startups with wallets, onramps, audits, blockchain infrastructure, and onchain analytics tools** [𝕏/@ycombinator](https://leviathannews.xyz/redirect/246201?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solv Protocol is shutting down burn-mint permissions for SolvBTC assets across major chains, urging users to redeem and withdraw underlying assets before June ends** [𝕏/@SolvProtocol](https://leviathannews.xyz/redirect/246389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **IG Europe picks Bitpanda infrastructure to expand regulated crypto access across the EU** [The Block](https://leviathannews.xyz/redirect/246277?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Existential Bitcoin Crisis No One Wants To Talk About** [youtu.be](https://leviathannews.xyz/redirect/247386?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Templ.Fun is live on Base and a bounty program has been started! Up to 10,000 USDC at stakes 🐸** [𝕏/@marcoworms](https://leviathannews.xyz/redirect/247023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z crypto says tokenized asset markets are diversifying beyond Treasurys and commodities as new categories steadily capture a larger share of onchain finance** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/247204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **STBL executive says the Clarity Act may push crypto firms toward AI-powered yield infrastructure instead of traditional hold-to-earn products** [Coindesk](https://leviathannews.xyz/redirect/247385?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MoonPay launches inside ChatGPT’s App Store, becoming the first crypto onramp integrated directly into OpenAI’s platform with Apple Pay token purchases** [𝕏/@moonpay](https://leviathannews.xyz/redirect/247308?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/21/signals_2026-05-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/21/signals_2026-05-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/23/signals_2026-05-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/23/signals_2026-05-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
