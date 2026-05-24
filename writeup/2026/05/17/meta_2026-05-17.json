@@ -1,0 +1,16 @@
+{
+  "blurb": "Firedancer, IBIT, ETH, and MSTR headline a major crypto shift: Solana\u2019s 2nd client rolls out, Mubadala nears $660M, Harvard cuts ETH, and...",
+  "date": "2026-05-17",
+  "title": "Crypto Trading Signals - May 17, 2026",
+  "top_story_headline": "Jump Crypto is rolling out Firedancer cautiously across Solana, prioritizing stability and validator resilience as the network\u2019s long-awaited second client nears adoption",
+  "top_story_comment": "13.85% of stake across 93 of 779 validators is enough to make Agave/Jito monoculture less embarrassing, but not enough to let a C/C++ consensus bug become the network\u2019s problem. The 33% line matters: below it, Firedancer is a recovery path; above it, every rollout mistake starts looking like an Ethereum-style client diversity fire drill. For apps like Jupiter, Phoenix and Kamino, the alpha is not 1M TPS demos, it\u2019s fewer weird leader/packet-path failures when Solana is already doing ~1k non-vote TPS at low utilization.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok",
+  "draft_post_id": "6a09cf9a20c639305e75bd87",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/3f44e6a4-ded3-493c-ad72-830976a27486/",
+  "telegram_part1_message_id": 987,
+  "published_ghost_url": "https://digest.leviathannews.xyz/leviathan-news-daily-digest-may-17-2026/",
+  "broadcast_photo_message_id": 18805,
+  "tweet_status": "FAILED",
+  "agents_chat_message_id": 4079
+}

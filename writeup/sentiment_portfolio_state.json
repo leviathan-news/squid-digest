@@ -1,5 +1,5 @@
 {
-  "cash": 6317.541311588153,
+  "cash": 5947.519455889821,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -84,8 +84,8 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
-      "quantity": 135.5554364733736,
-      "entry_price": 8.758378785055413,
+      "quantity": 151.49517846506643,
+      "entry_price": 8.834123484917875,
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -188,16 +188,16 @@
     "rsETH": {
       "symbol": "rsETH",
       "token_name": "Kelp DAO Restaked ETH",
-      "quantity": -0.9349161883186399,
-      "entry_price": 2378.1668557477487,
+      "quantity": -1.1171507699562637,
+      "entry_price": 2357.813725407253,
       "entry_date": "2026-04-19T13:58:00.589260",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 20.09313689637439,
-      "entry_price": 87.14339679806396,
+      "quantity": 24.208413334571176,
+      "entry_price": 86.66348413291634,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -228,8 +228,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 0.5558079921272278,
-      "entry_price": 652.2728676211098,
+      "quantity": 0.9940833348345275,
+      "entry_price": 648.9642612509577,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -2070,6 +2070,66 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 4.115276438196789,
+      "price": 84.32027559664111,
+      "value": 347.00124342511685,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.10126730643425687,
+      "price": 638.1617376639676,
+      "value": 64.62492024263486,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "SHORT",
+      "quantity": 0.1822345816376238,
+      "price": 2253.396271446036,
+      "value": 410.64672679074965,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-19T16:16:08.641182",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "BUY",
+      "quantity": 15.939741991692856,
+      "price": 9.478274805293799,
+      "value": 151.08125492274598,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-20T16:21:57.438815",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.3370080362730429,
+      "price": 646.7536095251841,
+      "value": 217.96116389858463,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2580,6 +2640,30 @@
     [
       "2026-05-16T14:20:43.104670",
       9340.63994749516
+    ],
+    [
+      "2026-05-17T14:23:53.691617",
+      8982.50026311069
+    ],
+    [
+      "2026-05-18T16:20:36.306275",
+      8821.47858402146
+    ],
+    [
+      "2026-05-19T16:16:08.641182",
+      9098.769111975496
+    ],
+    [
+      "2026-05-20T16:21:57.438815",
+      9430.490976448034
+    ],
+    [
+      "2026-05-21T16:13:44.200018",
+      8927.449378785781
+    ],
+    [
+      "2026-05-23T14:27:09.937566",
+      9576.859065638178
     ]
   ]
 }

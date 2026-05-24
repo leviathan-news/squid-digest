@@ -1,5 +1,5 @@
 {
-  "cash": -19.285606478162407,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -212,10 +212,18 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -0.24699843985222686,
-      "entry_price": 652.2728676211098,
+      "quantity": -0.47966517645635315,
+      "entry_price": 647.5847656623046,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": 1149.4014447366192,
+      "entry_price": 0.11330060036872669,
+      "entry_date": "2026-05-19T16:16:08.641182",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -1802,6 +1810,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-18T16:20:36.306275",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.11226558068385792,
+      "price": 638.1617376639676,
+      "value": 71.64359804906513,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-19T16:16:08.641182",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 456.5933302957776,
+      "price": 0.11467095136274905,
+      "value": 52.357991570902726,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-20T16:21:57.438815",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.12040115592026839,
+      "price": 646.7536095251841,
+      "value": 77.86988218243806,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-05-21T16:13:44.200018",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "BUY",
+      "quantity": 692.8081144408416,
+      "price": 0.11239747422024071,
+      "value": 77.86988218243806,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2312,6 +2368,30 @@
     [
       "2026-05-16T14:20:43.104670",
       9222.769426440775
+    ],
+    [
+      "2026-05-17T14:23:53.691617",
+      9598.041245475808
+    ],
+    [
+      "2026-05-18T16:20:36.306275",
+      9646.504350739831
+    ],
+    [
+      "2026-05-19T16:16:08.641182",
+      9273.524982592586
+    ],
+    [
+      "2026-05-20T16:21:57.438815",
+      9100.802638525189
+    ],
+    [
+      "2026-05-21T16:13:44.200018",
+      9617.433074003398
+    ],
+    [
+      "2026-05-23T14:27:09.937566",
+      8970.589544722849
     ]
   ]
 }
