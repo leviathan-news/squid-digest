@@ -301,6 +301,241 @@ class TestAgentsChatCaption:
         assert "$ETH" in caption
 
 
+class TestPickTopYap:
+    """Tests for pick_top_yap helper in scripts/digest.py.
+
+    Bots are skipped; cyborgs and humans pass. Reflects upstream Leviathan
+    API account_type classification (default 'cyborg').
+    """
+
+    def _pick(self, yaps):
+        from digest import pick_top_yap
+        return pick_top_yap(yaps)
+
+    def test_skips_bot_returns_next(self):
+        yaps = [
+            {"text": "moon ser", "author": {"display_name": "DegenDan", "account_type": "bot"}},
+            {"text": "real take", "author": {"display_name": "Benthic", "account_type": "human"}},
+        ]
+        assert self._pick(yaps)["author"]["display_name"] == "Benthic"
+
+    def test_returns_first_when_human(self):
+        yaps = [
+            {"text": "a", "author": {"display_name": "Benthic", "account_type": "human"}},
+            {"text": "b", "author": {"display_name": "Spencer420", "account_type": "cyborg"}},
+        ]
+        assert self._pick(yaps)["author"]["display_name"] == "Benthic"
+
+    def test_returns_first_cyborg(self):
+        yaps = [
+            {"text": "a", "author": {"display_name": "Spencer420", "account_type": "cyborg"}},
+        ]
+        assert self._pick(yaps)["author"]["display_name"] == "Spencer420"
+
+    def test_returns_none_when_all_bots(self):
+        yaps = [
+            {"text": "a", "author": {"display_name": "DegenDan", "account_type": "bot"}},
+            {"text": "b", "author": {"display_name": "CryptoSpark", "account_type": "bot"}},
+        ]
+        assert self._pick(yaps) is None
+
+    def test_returns_none_on_empty(self):
+        assert self._pick([]) is None
+        assert self._pick(None) is None
+
+    def test_missing_account_type_treated_as_non_bot(self):
+        # Defensive: if upstream omits the field entirely, fall back to
+        # the legacy behavior of accepting the yap (cyborg is the default
+        # on the upstream model).
+        yaps = [{"text": "a", "author": {"display_name": "Legacy"}}]
+        assert self._pick(yaps)["author"]["display_name"] == "Legacy"
+
+
+class TestTrimToSentence:
+    """Tests for trim_to_sentence in post_telegram_broadcast.py."""
+
+    def _trim(self, text, limit=None):
+        from post_telegram_broadcast import trim_to_sentence, QUOTE_MAX
+        return trim_to_sentence(text, limit if limit is not None else QUOTE_MAX)
+
+    def test_returns_full_text_when_under_limit(self):
+        assert self._trim("Short sentence.", limit=200) == "Short sentence."
+
+    def test_trims_at_last_sentence_boundary(self):
+        text = "First sentence. Second sentence runs past the limit considerably."
+        result = self._trim(text, limit=20)
+        assert result == "First sentence."
+
+    def test_handles_question_mark(self):
+        text = "What about this? And then a long ramble that overflows the window."
+        result = self._trim(text, limit=20)
+        assert result == "What about this?"
+
+    def test_handles_exclamation(self):
+        text = "Wow! And then a long ramble that overflows the window for sure."
+        result = self._trim(text, limit=15)
+        assert result == "Wow!"
+
+    def test_returns_none_when_no_sentence_fits(self):
+        text = "this is a run on quote with no sentence terminators inside the window at all"
+        assert self._trim(text, limit=30) is None
+
+    def test_returns_none_on_empty(self):
+        assert self._trim("") is None
+        assert self._trim(None) is None
+        assert self._trim("   ") is None
+
+    def test_strips_whitespace(self):
+        assert self._trim("  Hello world.  ", limit=200) == "Hello world."
+
+
+class TestBroadcastCaptionQuote:
+    """Caption-level assertions for the 💬 quote block — the regression site."""
+
+    def _build(self, meta, content=None):
+        from post_telegram_broadcast import _build_caption, CAPTION_LIMIT
+        date = datetime(2026, 3, 27)
+        content = content or (
+            '• 🟢 **[BTC](url)**: $71,400.00 (+2.15%)\n'
+            '• 🟢 **[ETH](url)**: $2,179.80 (+2.27%)\n'
+        )
+        return _build_caption(date, meta, content, "https://example.com/digest"), CAPTION_LIMIT
+
+    def test_no_at_prefix_on_author(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "A complete thought.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" in caption
+        assert "@Benthic" not in caption
+
+    def test_profile_link_present(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "A complete thought.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert 'href="https://leviathannews.xyz/u/Benthic/comments"' in caption
+
+    def test_quote_dropped_when_no_sentence_fits(self):
+        # Long run-on with no sentence terminators in the 200-char window.
+        long_no_punct = "this is a long ramble with no sentence terminators at all " * 5
+        meta = {
+            "blurb": "blurb here",
+            "top_story_headline": "Headline survives",
+            "top_story_comment": long_no_punct,
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" not in caption
+        # Headline, blurb, links still render.
+        assert "Headline survives" in caption
+        assert "blurb here" in caption
+        assert "https://example.com/digest" in caption
+
+    def test_quote_kept_when_sentence_fits(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "First sentence ends here. Second sentence keeps going.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" in caption
+        # The rendered quote line ends on a sentence terminator (not mid-word).
+        quote_line = next(line for line in caption.split("\n") if line.startswith("💬"))
+        # Trailing `" — <a ...>Benthic</a>` after the quote text.
+        quoted_text = quote_line.split('"')[1]
+        assert quoted_text.endswith(".")
+
+    def test_no_ellipsis_in_quote(self):
+        # Even when the comment is longer than the window, we never emit
+        # an ellipsis — we either sentence-trim or drop the block.
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "Short sentence. " + ("filler " * 50),
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "..." not in caption
+
+
+class TestAgentsChatCaptionQuote:
+    """Same quote-block assertions for the agents-chat caption builder."""
+
+    def _build(self, meta, content=None):
+        from post_agents_chat import _build_caption, CAPTION_LIMIT
+        date = datetime(2026, 4, 8)
+        content = content or (
+            '• 🟢 **[BTC](url)**: $71,400.00 (+2.15%)\n'
+            '• 🟢 **[ETH](url)**: $2,179.80 (+2.27%)\n'
+        )
+        return _build_caption(date, meta, content, "https://example.com/digest"), CAPTION_LIMIT
+
+    def test_no_at_prefix_on_author(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "A complete thought.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" in caption
+        assert "@Benthic" not in caption
+
+    def test_profile_link_present(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "A complete thought.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert 'href="https://leviathannews.xyz/u/Benthic/comments"' in caption
+
+    def test_quote_dropped_when_no_sentence_fits(self):
+        long_no_punct = "this is a long ramble with no sentence terminators at all " * 5
+        meta = {
+            "blurb": "blurb here",
+            "top_story_headline": "Headline survives",
+            "top_story_comment": long_no_punct,
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" not in caption
+        assert "Headline survives" in caption
+        assert "blurb here" in caption
+
+    def test_quote_kept_when_sentence_fits(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "First sentence ends here. Second sentence keeps going.",
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "💬" in caption
+        quote_line = next(line for line in caption.split("\n") if line.startswith("💬"))
+        quoted_text = quote_line.split('"')[1]
+        assert quoted_text.endswith(".")
+
+    def test_no_ellipsis_in_quote(self):
+        meta = {
+            "blurb": "blurb",
+            "top_story_headline": "Headline",
+            "top_story_comment": "Short sentence. " + ("filler " * 50),
+            "top_story_author": "Benthic",
+        }
+        caption, _ = self._build(meta)
+        assert "..." not in caption
+
+
 class TestGenerateBlurb:
     """Tests for generate_blurb fallback chain (without Perplexity API)."""
 

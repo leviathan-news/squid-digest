@@ -97,6 +97,18 @@ def proxy_image_url_for_github(url: str) -> str:
     return f"https://images.weserv.nl/?url={encoded_url}"
 
 
+def pick_top_yap(top_yaps):
+    """Return the first yap whose author isn't a bot, or None.
+
+    Cyborgs and humans pass; bots are skipped. top_yaps is already
+    score-sorted by the upstream API.
+    """
+    for yap in top_yaps or []:
+        if (yap.get("author") or {}).get("account_type") != "bot":
+            return yap
+    return None
+
+
 def generate_squid_pass_winner_section(winner_data):
     """
     Generate a featured SQUID Pass winner section.
@@ -135,8 +147,8 @@ def generate_squid_pass_winner_section(winner_data):
     
     # Get top comment if available
     top_comment = ""
-    if top_yaps:
-        top_yap = top_yaps[0]  # Highest scored comment
+    top_yap = pick_top_yap(top_yaps)
+    if top_yap:
         comment_text = top_yap.get('text', '')
         comment_author = top_yap.get('author', {}).get('display_name', '') or ''
         if comment_text:
@@ -328,8 +340,8 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
         
         # Get top comment if available
         top_comment = ""
-        if top_yaps:
-            top_yap = top_yaps[0]  # Highest scored comment
+        top_yap = pick_top_yap(top_yaps)
+        if top_yap:
             comment_text = top_yap.get('text', '')
             comment_author = top_yap.get('author', {}).get('display_name', '') or ''
             if comment_text:
@@ -338,7 +350,7 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
                     top_comment = f"💬 <i>{comment_text}</i> — <a href=\"{comment_author_link}\">@{comment_author}</a>"
                 else:
                     top_comment = f"💬 <i>{comment_text}</i>"
-        
+
         # Format as vertical div (image on top, text below) for Ghost compatibility
         section += "  <div style=\"padding: 16px; border-bottom: 1px solid #e0e0e0;\">\n"
         
@@ -385,8 +397,8 @@ def generate_top_stories_section(news_data, limit=5, squid_pass_winner_data=None
 
         # Get top comment
         top_comment = ""
-        if top_yaps:
-            top_yap = top_yaps[0]
+        top_yap = pick_top_yap(top_yaps)
+        if top_yap:
             comment_text = top_yap.get('text', '')
             comment_author = top_yap.get('author', {}).get('display_name', '') or ''
             if comment_text:
@@ -2227,10 +2239,10 @@ async def bundle_writeup(verbose=False):
     top_comment_text = ""
     top_comment_author = ""
     if news_data:
-        top_yaps = news_data[0].get("top_yaps", [])
-        if top_yaps:
-            top_comment_text = top_yaps[0].get("text", "")
-            top_comment_author = top_yaps[0].get("author", {}).get("display_name", "") or ""
+        top_yap = pick_top_yap(news_data[0].get("top_yaps", []))
+        if top_yap:
+            top_comment_text = top_yap.get("text", "")
+            top_comment_author = top_yap.get("author", {}).get("display_name", "") or ""
 
     save_meta(today, {
         "blurb": blurb,

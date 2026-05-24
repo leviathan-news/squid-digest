@@ -41,6 +41,30 @@ from squid_digest.config import (
 # Max caption length for Telegram sendPhoto
 CAPTION_LIMIT = 1024
 
+# Max length of a featured quote in the caption. Telegram budget allows more
+# than the historical 120; we still cap so the rest of the caption fits.
+QUOTE_MAX = 200
+
+
+def trim_to_sentence(text: str, limit: int = QUOTE_MAX) -> str | None:
+    """Trim a quote to the last sentence boundary that fits within `limit`.
+
+    Returns None when no sentence terminator (. ! ?) fits inside the window,
+    signalling the caller to drop the quote block entirely rather than
+    rendering a half-sentence with an ellipsis.
+    """
+    text = (text or "").strip()
+    if not text:
+        return None
+    if len(text) <= limit:
+        return text
+    window = text[:limit]
+    for match in reversed(list(re.finditer(r"[.!?](?=\s|$)", window))):
+        candidate = window[: match.end()].strip()
+        if candidate:
+            return candidate
+    return None
+
 
 def _format_compact_price(price: float) -> str:
     """Format a price compactly for captions."""
@@ -114,10 +138,12 @@ def _build_caption(date: datetime, meta: dict, content: str, digest_url: str) ->
         lines.append('')
         lines.append(f'🔥 {headline}')
         if comment and author:
-            # Truncate comment if too long
-            max_comment = 120
-            short_comment = comment[:max_comment - 3] + "..." if len(comment) > max_comment else comment
-            lines.append(f'💬 "{short_comment}" — @{author}')
+            short_comment = trim_to_sentence(comment)
+            if short_comment:
+                profile_url = f"https://leviathannews.xyz/u/{author}/comments"
+                lines.append(
+                    f'💬 "{short_comment}" — <a href="{profile_url}">{author}</a>'
+                )
 
     lines.append('')
     lines.append(
