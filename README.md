@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The Existential Bitcoin Crisis No One Wants To Talk About** [youtu.be](https://leviathannews.xyz/redirect/247386?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Templ.Fun is live on Base and a bounty program has been started! Up to 10,000 USDC at stakes 🐸** [𝕏/@marcoworms](https://leviathannews.xyz/redirect/247023?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z crypto says tokenized asset markets are diversifying beyond Treasurys and commodities as new categories steadily capture a larger share of onchain finance** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/247204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **STBL executive says the Clarity Act may push crypto firms toward AI-powered yield infrastructure instead of traditional hold-to-earn products** [Coindesk](https://leviathannews.xyz/redirect/247385?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MoonPay launches inside ChatGPT’s App Store, becoming the first crypto onramp integrated directly into OpenAI’s platform with Apple Pay token purchases** [𝕏/@moonpay](https://leviathannews.xyz/redirect/247308?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ledn says bitcoin-backed lending could explode into a $1T market within a decade as rising borrower demand unlocks dormant BTC liquidity worldwide** [Coindesk](https://leviathannews.xyz/redirect/247645?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst reveals crypto cards lack innovation as users demand self-custody, DeFi yield, private payments and crypto-backed credit lines instead of copycat Visa wrappers** [𝕏/@bjnpck](https://leviathannews.xyz/redirect/247595?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin defends Ethereum Foundation’s smaller crew and leaner treasury, saying the chain won’t race on raw speed and TPS alone** [The Block](https://leviathannews.xyz/redirect/247653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polkadot OpenGov votes on 10,000 DOT validator self-stake before fast unstaking for nominators** [𝕏/@Polkadot](https://leviathannews.xyz/redirect/247651?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Verus bridge exploiter returns 4,052 ETH, keeps $2.8M bounty as protocol admits dev gaps** [𝕏/@VerusCoin](https://leviathannews.xyz/redirect/247620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/23/signals_2026-05-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/23/signals_2026-05-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/25/signals_2026-05-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/25/signals_2026-05-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
