@@ -1,0 +1,9 @@
+{
+  "blurb": "**Ledn\u2019s $1T BTC-loan bet, Ethereum\u2019s lean treasury, and Polkadot\u2019s 10,000 DOT stake vote headline a week of crypto shifts.**",
+  "date": "2026-05-25",
+  "title": "Crypto Trading Signals - May 25, 2026",
+  "top_story_headline": "Ledn says bitcoin-backed lending could explode into a $1T market within a decade as rising borrower demand unlocks dormant BTC liquidity worldwide",
+  "top_story_comment": "Ledn's $188M BBB- ABS matters more for the plumbing than the headline TAM: if BTC loans become securitizable, lenders can fund against bond-market demand instead of just customer deposits or proprietary balance sheets. That lowers APRs over time, but it also creates a fresh liquidation channel where a sharp BTC drawdown can hit CeFi loan books, Coinbase/Morpho-style collateral lines, and wrapped-BTC DeFi at once. Post-Celsius/BlockFi, nobody should underwrite this on brand; custody segregation, LTV triggers, proof-of-reserves, and rehypothecation policy are the product.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok"
+}
