@@ -5,5 +5,8 @@
   "top_story_headline": "Ledn says bitcoin-backed lending could explode into a $1T market within a decade as rising borrower demand unlocks dormant BTC liquidity worldwide",
   "top_story_comment": "Ledn's $188M BBB- ABS matters more for the plumbing than the headline TAM: if BTC loans become securitizable, lenders can fund against bond-market demand instead of just customer deposits or proprietary balance sheets. That lowers APRs over time, but it also creates a fresh liquidation channel where a sharp BTC drawdown can hit CeFi loan books, Coinbase/Morpho-style collateral lines, and wrapped-BTC DeFi at once. Post-Celsius/BlockFi, nobody should underwrite this on brand; custody segregation, LTV triggers, proof-of-reserves, and rehypothecation policy are the product.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a146efc20c639305e75c2b1",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/67cfac56-421d-4801-9de8-61aa3d8e2def/",
+  "telegram_part1_message_id": 1007
 }
