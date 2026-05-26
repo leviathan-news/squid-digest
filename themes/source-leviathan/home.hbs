@@ -1,0 +1,112 @@
+{{!< default}}
+{{!--
+    Custom homepage layout for digest.leviathannews.xyz.
+
+    Each of the 3 sections is wrapped in its own <section class="gh-container is-grid">
+    — the same wrapper Source's post-list partial uses for the standard archive grid.
+    This makes each section render with Source's identical column grid + centered
+    container, so styling matches the rest of the theme.
+
+    Sections (top to bottom):
+      1. Latest Daily Digest      (latest 1 post tagged `digest`)
+      2. Recent Updates           (latest 3 posts tagged `leviathan-updates`, excluding monthly-drop)
+      3. Latest Monthly Drop      (latest 1 post tagged `monthly-drop`)
+
+    Only the homepage (/) is affected. Tag/author/index pages still use index.hbs.
+    Revert: delete this file and re-upload theme.
+--}}
+
+{{> "components/header" headerStyle=@custom.header_style}}
+
+{{!-- Section 1: Latest Daily Digest --}}
+{{#get "posts" filter="tag:digest+status:published" limit="1" order="published_at desc" as |digests|}}
+    {{#if digests}}
+        <section class="gh-container is-grid{{#unless @custom.show_images_in_feed}} no-image{{/unless}} gh-outer lev-section">
+            <div class="gh-container-inner gh-inner">
+                <h2 class="gh-container-title lev-section-title">
+                    <span>📰 Latest Daily Digest</span>
+                    <a href="{{@site.url}}/tag/digest/" class="lev-section-link">All digests →</a>
+                </h2>
+                <main class="gh-main">
+                    <div class="gh-feed">
+                        {{#foreach digests}}
+                            {{> "post-card" lazyLoad=false}}
+                        {{/foreach}}
+                    </div>
+                </main>
+            </div>
+        </section>
+    {{/if}}
+{{/get}}
+
+{{!-- Section 2: Recent Updates --}}
+{{#get "posts" filter="tag:leviathan-updates+tag:-monthly-drop+status:published" limit="3" order="published_at desc" as |updates|}}
+    {{#if updates}}
+        <section class="gh-container is-grid{{#unless @custom.show_images_in_feed}} no-image{{/unless}} gh-outer lev-section">
+            <div class="gh-container-inner gh-inner">
+                <h2 class="gh-container-title lev-section-title">
+                    <span>⚓ Recent Updates</span>
+                    <a href="{{@site.url}}/tag/leviathan-updates/" class="lev-section-link">All updates →</a>
+                </h2>
+                <main class="gh-main">
+                    <div class="gh-feed">
+                        {{#foreach updates}}
+                            {{> "post-card" lazyLoad=true}}
+                        {{/foreach}}
+                    </div>
+                </main>
+            </div>
+        </section>
+    {{/if}}
+{{/get}}
+
+{{!-- Section 3: Latest Monthly Drop --}}
+{{#get "posts" filter="tag:monthly-drop+status:published" limit="1" order="published_at desc" as |drops|}}
+    {{#if drops}}
+        <section class="gh-container is-grid{{#unless @custom.show_images_in_feed}} no-image{{/unless}} gh-outer lev-section">
+            <div class="gh-container-inner gh-inner">
+                <h2 class="gh-container-title lev-section-title">
+                    <span>🦑 Latest Monthly $SQUID Drop</span>
+                    <a href="{{@site.url}}/tag/monthly-drop/" class="lev-section-link">All drops →</a>
+                </h2>
+                <main class="gh-main">
+                    <div class="gh-feed">
+                        {{#foreach drops}}
+                            {{> "post-card" lazyLoad=true}}
+                        {{/foreach}}
+                    </div>
+                </main>
+            </div>
+        </section>
+    {{/if}}
+{{/get}}
+
+{{> "components/cta"}}
+
+<style>
+    /* Section-header "All X →" link aligned to the right of the title.
+       gh-container-title's existing styles drive the typography; we just
+       restyle the flow to be a flex row with the link inline-end. */
+    .lev-section-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+    }
+    .lev-section-link {
+        font-size: 0.875rem;
+        font-weight: 400;
+        opacity: 0.65;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    .lev-section-link:hover {
+        opacity: 1;
+    }
+    /* Reduce the default outer-section vertical padding when we stack 3
+       sections back-to-back, so they don't feel cavernous. */
+    .lev-section + .lev-section {
+        padding-top: 0;
+    }
+</style>
