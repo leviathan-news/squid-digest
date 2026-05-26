@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ledn says bitcoin-backed lending could explode into a $1T market within a decade as rising borrower demand unlocks dormant BTC liquidity worldwide** [Coindesk](https://leviathannews.xyz/redirect/247645?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst reveals crypto cards lack innovation as users demand self-custody, DeFi yield, private payments and crypto-backed credit lines instead of copycat Visa wrappers** [𝕏/@bjnpck](https://leviathannews.xyz/redirect/247595?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin defends Ethereum Foundation’s smaller crew and leaner treasury, saying the chain won’t race on raw speed and TPS alone** [The Block](https://leviathannews.xyz/redirect/247653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polkadot OpenGov votes on 10,000 DOT validator self-stake before fast unstaking for nominators** [𝕏/@Polkadot](https://leviathannews.xyz/redirect/247651?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Verus bridge exploiter returns 4,052 ETH, keeps $2.8M bounty as protocol admits dev gaps** [𝕏/@VerusCoin](https://leviathannews.xyz/redirect/247620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Franklin Templeton doubles down on crypto adoption, saying digital assets are here to stay as it pushes traditional finance further onchain through its Benji platform** [𝕏/@FTDA_US](https://leviathannews.xyz/redirect/248273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stacy Muur says Wall Street has absorbed Bitcoin and stablecoins, while prediction markets, DeFi yield, and selective altcoins emerge as crypto’s next retail opportunity** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/248283?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst argues true “native tokenization” requires blockchains to function as the legal stock ledger itself, positioning Ethereum as the strongest foundation for onchain securities** [𝕏/@lex_node](https://leviathannews.xyz/redirect/248285?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **GSR Researcher, Carlos Guzman, says Ethereum’s long-term moat lies in “credible neutrality,” even as leadership exits, declining revenues, and rising competitors pressure the ecosystem** [𝕏/@Carlos_Guzman](https://leviathannews.xyz/redirect/248284?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Castle Labs says onchain vaults have evolved into core institutional finance infrastructure, with $120B TVL spanning lending, staking, RWAs and yield optimisation** [𝕏/@castle_labs](https://leviathannews.xyz/redirect/248288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/25/signals_2026-05-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/25/signals_2026-05-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/26/signals_2026-05-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/26/signals_2026-05-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
