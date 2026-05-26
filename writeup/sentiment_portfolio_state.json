@@ -1,5 +1,5 @@
 {
-  "cash": 5947.519455889821,
+  "cash": 7381.453972628195,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -137,14 +137,6 @@
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "UNI": {
-      "symbol": "UNI",
-      "token_name": "UNI",
-      "quantity": 155.9328447014763,
-      "entry_price": 3.543442629168536,
-      "entry_date": "2026-04-01T14:27:01.444605",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "ADA": {
       "symbol": "ADA",
       "token_name": "Cardano",
@@ -232,6 +224,14 @@
       "entry_price": 648.9642612509577,
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "quantity": -280.9004088140732,
+      "entry_price": 3.282567215747302,
+      "entry_date": "2026-05-26T16:36:57.805648",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2130,6 +2130,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-05-26T16:36:57.805648",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SELL",
+      "quantity": 155.9328447014763,
+      "price": 3.282567215747302,
+      "value": 511.8600438752815,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -40.67904532744677,
+      "entry_price": 3.543442629168536
+    },
+    {
+      "date": "2026-05-26T16:36:57.805648",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SHORT",
+      "quantity": 280.9004088140732,
+      "price": 3.282567215747302,
+      "value": 922.0744728630913,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2668,6 +2692,10 @@
     [
       "2026-05-25T15:46:14.514028",
       9980.631035769027
+    ],
+    [
+      "2026-05-26T16:36:57.805648",
+      9662.747807954634
     ]
   ]
 }
