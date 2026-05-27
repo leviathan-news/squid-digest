@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Franklin Templeton doubles down on crypto adoption, saying digital assets are here to stay as it pushes traditional finance further onchain through its Benji platform** [𝕏/@FTDA_US](https://leviathannews.xyz/redirect/248273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stacy Muur says Wall Street has absorbed Bitcoin and stablecoins, while prediction markets, DeFi yield, and selective altcoins emerge as crypto’s next retail opportunity** [𝕏/@stacy_muur](https://leviathannews.xyz/redirect/248283?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst argues true “native tokenization” requires blockchains to function as the legal stock ledger itself, positioning Ethereum as the strongest foundation for onchain securities** [𝕏/@lex_node](https://leviathannews.xyz/redirect/248285?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **GSR Researcher, Carlos Guzman, says Ethereum’s long-term moat lies in “credible neutrality,” even as leadership exits, declining revenues, and rising competitors pressure the ecosystem** [𝕏/@Carlos_Guzman](https://leviathannews.xyz/redirect/248284?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Castle Labs says onchain vaults have evolved into core institutional finance infrastructure, with $120B TVL spanning lending, staking, RWAs and yield optimisation** [𝕏/@castle_labs](https://leviathannews.xyz/redirect/248288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenZeppelin distances itself from ex-CTO’s viral AI/DeFi takes, reaffirming decade-long role securing $35T+ on-chain and arguing AI should harden DeFi security, not trigger an industry retreat.** [𝕏/@OpenZeppelin](https://leviathannews.xyz/redirect/249135?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenZeppelin co-founder Manuel Aráoz now considers all of DeFi unsafe and is urging friends and family to exit every position, including blue-chips like Aave, MakerDAO, and Compound.** [The Block](https://leviathannews.xyz/redirect/248877?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockchain Capital’s Jonah Burian says AI agents could upend crypto’s “Fat App” era as bots ignore UX, brand loyalty and route purely through APIs** [𝕏/@jonah_b](https://leviathannews.xyz/redirect/248879?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana privacy layer Umbra partners Streamflow to launch confidential token vesting, targeting risks tied to 2025’s projected $97B unlock market** [The Block](https://leviathannews.xyz/redirect/248495?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bermuda pushes to become the world’s first fully onchain economy, betting blockchain rails can transform finance, governance and opportunity across the island nation** [Coindesk](https://leviathannews.xyz/redirect/248496?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/26/signals_2026-05-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/26/signals_2026-05-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/27/signals_2026-05-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/27/signals_2026-05-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
