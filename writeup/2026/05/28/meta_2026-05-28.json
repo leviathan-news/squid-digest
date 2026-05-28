@@ -1,0 +1,9 @@
+{
+  "blurb": "HIP-4 makes Hyperliquid a Wall Street-style venue; Wintermute pledges $200K for Ethereum security as a16z, Blockworks, Coinbase, Kraken, ...",
+  "date": "2026-05-28",
+  "title": "Crypto Trading Signals - May 28, 2026",
+  "top_story_headline": "Delphi Digital says HIP-4 gives Hyperliquid unmatched capital efficiency while turning the platform into crypto\u2019s closest version of a full-stack Wall Street venue",
+  "top_story_comment": "$3B/month of HIP-4 volume at 7 bps is only ~$25M annualized, so fee revenue is the small line item; the bigger moat is trapping event-risk collateral inside the same account already running perps, spot, and vault exposure. If CPI/FOMC binaries get liquid, Hyperliquid starts internalizing the catalyst hedges that now leak to Kalshi, Polymarket, and CME, while AQA v2 reserve yield and fee flows keep feeding HYPE buybacks via the Assistance Fund. The uncomfortable part is settlement: validator-resolved outcomes carry a totally different dispute surface than perp marks, and macro binaries will test whether Hyperliquid\u2019s closed core can handle Wall Street-style adjudication without becoming a trust-me venue.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok"
+}
