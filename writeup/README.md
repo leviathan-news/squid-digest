@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (May 27, 2026)
+## 🔥 Latest Headlines (May 28, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/05/27/signals_2026-05-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/05/27/signals_2026-05-27.md)
+📊 [View Full Analysis →](writeup/2026/05/28/signals_2026-05-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/05/28/signals_2026-05-28.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (May 20 - May 27)
+### 📅 This Week (May 21 - May 28)
+
+[**Thursday, May 28, 2026**](writeup/2026/05/28/signals_2026-05-28.md)
 
 [**Wednesday, May 27, 2026**](writeup/2026/05/27/signals_2026-05-27.md)
 
@@ -38,9 +40,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, May 21, 2026**](writeup/2026/05/21/signals_2026-05-21.md)
 
-[**Wednesday, May 20, 2026**](writeup/2026/05/20/signals_2026-05-20.md)
+### 📅 Last Week (May 14 - May 20)
 
-### 📅 Last Week (May 13 - May 19)
+[**Wednesday, May 20, 2026**](writeup/2026/05/20/signals_2026-05-20.md)
 
 [**Tuesday, May 19, 2026**](writeup/2026/05/19/signals_2026-05-19.md)
 
@@ -54,9 +56,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, May 14, 2026**](writeup/2026/05/14/signals_2026-05-14.md)
 
-[**Wednesday, May 13, 2026**](writeup/2026/05/13/signals_2026-05-13.md)
+### 📅 Week of May 07 - May 13
 
-### 📅 Week of May 06 - May 12
+[**Wednesday, May 13, 2026**](writeup/2026/05/13/signals_2026-05-13.md)
 
 [**Tuesday, May 12, 2026**](writeup/2026/05/12/signals_2026-05-12.md)
 
@@ -70,9 +72,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Thursday, May 07, 2026**](writeup/2026/05/07/signals_2026-05-07.md)
 
-[**Wednesday, May 06, 2026**](writeup/2026/05/06/signals_2026-05-06.md)
+### 📅 Week of May 01 - May 06
 
-### 📅 Week of Apr 30 - May 04
+[**Wednesday, May 06, 2026**](writeup/2026/05/06/signals_2026-05-06.md)
 
 [**Monday, May 04, 2026**](writeup/2026/05/04/signals_2026-05-04.md)
 
@@ -81,8 +83,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Saturday, May 02, 2026**](writeup/2026/05/02/signals_2026-05-02.md)
 
 [**Friday, May 01, 2026**](writeup/2026/05/01/signals_2026-05-01.md)
-
-[**Thursday, April 30, 2026**](writeup/2026/04/30/signals_2026-04-30.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
