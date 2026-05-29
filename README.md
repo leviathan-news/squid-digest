@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Delphi Digital says HIP-4 gives Hyperliquid unmatched capital efficiency while turning the platform into crypto’s closest version of a full-stack Wall Street venue** [𝕏/@Delphi_Digital](https://leviathannews.xyz/redirect/249316?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Wintermute commits $200K to Ethereum security funding, arguing censorship resistance and decentralization mean nothing if the base layer can be exploited** [𝕏/@wintermute_t](https://leviathannews.xyz/redirect/249323?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized assets are no longer experimental as a16z crypto highlights growing adoption, shifting focus from proving the concept to solving scalability hurdles** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/249315?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockworks launches the Transparency Alliance with Coinbase, Kraken, Ripple, and VanEck to standardize token disclosures ahead of looming US crypto regulation** [𝕏/@Blockworks](https://leviathannews.xyz/redirect/249334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave Labs secures FCA approval for UK crypto exchange operations through Push subsidiaries, expanding regulated stablecoin and payments infrastructure** [𝕏/@aave](https://leviathannews.xyz/redirect/249452?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NYSE parent ICE held multiple talks with Hyperliquid as CEO Jeffrey Sprecher pushes regulators for equal access to booming onchain perpetual futures market** [The Block](https://leviathannews.xyz/redirect/249939?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Open Transaction Layer unites major crypto and finance players to set interoperability standard for global onchain finance** [Prnewswire](https://leviathannews.xyz/redirect/249747?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OKX Ventures acquires a $53M stake in South Korea’s Coinone exchange as the platform expands into stablecoins and tokenized securities** [Coindesk](https://leviathannews.xyz/redirect/249924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nakamoto's UTXO Management joins Stacks' Bitcoin staking launch as inaugural institution** [𝕏/@UTXOmgmt](https://leviathannews.xyz/redirect/249755?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Korean institutions are racing to dominate crypto infrastructure through exchange acquisitions, stablecoin rails and STO alliances ahead of full regulation** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/249937?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/28/signals_2026-05-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/28/signals_2026-05-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/29/signals_2026-05-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/29/signals_2026-05-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
