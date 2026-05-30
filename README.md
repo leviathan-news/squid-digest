@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **NYSE parent ICE held multiple talks with Hyperliquid as CEO Jeffrey Sprecher pushes regulators for equal access to booming onchain perpetual futures market** [The Block](https://leviathannews.xyz/redirect/249939?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Open Transaction Layer unites major crypto and finance players to set interoperability standard for global onchain finance** [Prnewswire](https://leviathannews.xyz/redirect/249747?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OKX Ventures acquires a $53M stake in South Korea’s Coinone exchange as the platform expands into stablecoins and tokenized securities** [Coindesk](https://leviathannews.xyz/redirect/249924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nakamoto's UTXO Management joins Stacks' Bitcoin staking launch as inaugural institution** [𝕏/@UTXOmgmt](https://leviathannews.xyz/redirect/249755?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Korean institutions are racing to dominate crypto infrastructure through exchange acquisitions, stablecoin rails and STO alliances ahead of full regulation** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/249937?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Wintermute brings two-sided liquidity to prediction markets.** [𝕏/@wintermute_t](https://leviathannews.xyz/redirect/250168?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst argues that Ethereum commoditizes institutional capabilities like settlement, governance and capital coordination, making economic trust infrastructure globally accessible** [𝕏/@trent_vanepps](https://leviathannews.xyz/redirect/250422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anchorage Digital urges crypto startups to treat treasury management as a runway multiplier, using institutional yield strategies instead of leaving assets idle** [𝕏/@AD_VenturesX](https://leviathannews.xyz/redirect/250424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Attackers compromise Alephium TokenBridge approval keys, drain $815K and mint 13.76M unbacked ALPH without touching contract code** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/250486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sharplink CEO Joseph Chalom says Ethereum is winning institutional finance through stablecoins, RWAs and DeFi despite ongoing criticism of ETH and the Ethereum foundation** [𝕏/@joechalom](https://leviathannews.xyz/redirect/250425?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/29/signals_2026-05-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/29/signals_2026-05-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/30/signals_2026-05-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/30/signals_2026-05-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
