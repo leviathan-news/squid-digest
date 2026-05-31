@@ -5,5 +5,8 @@
   "top_story_headline": "SEC sues Texas man over alleged $12.3M crypto fraud, claiming fake AI trading bots were used to lure investors into a scheme with Ponzi-like payouts",
   "top_story_comment": "Only $380k of $12.3M reportedly touched crypto, and the SEC says those trades produced no profit - that is the diligence screen. If a fund is pitching 40-50% in 30-45 days from \"AI arbitrage,\" the first ask should be exchange API logs, venue balances, wallet flows, and per-market capacity; BTC/ETH arb spreads do not print retail JV money at BitConnect-era yields. AI just gave an old managed-account Ponzi a 2026 wrapper.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a1c45a220c639305e75c7ba",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/b7780611-9e31-4f65-a6e9-4fb40ef42830/",
+  "telegram_part1_message_id": 1060
 }
