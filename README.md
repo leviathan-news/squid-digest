@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Wintermute brings two-sided liquidity to prediction markets.** [𝕏/@wintermute_t](https://leviathannews.xyz/redirect/250168?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst argues that Ethereum commoditizes institutional capabilities like settlement, governance and capital coordination, making economic trust infrastructure globally accessible** [𝕏/@trent_vanepps](https://leviathannews.xyz/redirect/250422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anchorage Digital urges crypto startups to treat treasury management as a runway multiplier, using institutional yield strategies instead of leaving assets idle** [𝕏/@AD_VenturesX](https://leviathannews.xyz/redirect/250424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Attackers compromise Alephium TokenBridge approval keys, drain $815K and mint 13.76M unbacked ALPH without touching contract code** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/250486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sharplink CEO Joseph Chalom says Ethereum is winning institutional finance through stablecoins, RWAs and DeFi despite ongoing criticism of ETH and the Ethereum foundation** [𝕏/@joechalom](https://leviathannews.xyz/redirect/250425?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC sues Texas man over alleged $12.3M crypto fraud, claiming fake AI trading bots were used to lure investors into a scheme with Ponzi-like payouts** [Coindesk](https://leviathannews.xyz/redirect/250596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **f(x) Protocol aims to fix DeFi's stablecoin and leverage flaws by linking fxUSD, leveraged positions, staking yield, and liquidity into a single system managing $152M TVL and $56M supply** [𝕏/@0xWhizMiz](https://leviathannews.xyz/redirect/250676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave details April's rsETH bridge exploit that forged a LayerZero message, releasing 116,500 unbacked rsETH and triggering a DeFi-wide recovery effort that secured over $300M in commitments** [𝕏/@aave](https://leviathannews.xyz/redirect/250675?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **XRPL AMM draft highlights flash-loan resistance after $600M in recent DeFi exploits** [Coindesk](https://leviathannews.xyz/redirect/250659?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pantera Capital releases May 2026 Blockchain Letter, reveals AI and blockchain are entering a powerful convergence cycle, with crypto poised to become the financial layer powering autonomous AI agents** [𝕏/@PanteraCapital](https://leviathannews.xyz/redirect/250597?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/30/signals_2026-05-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/30/signals_2026-05-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/31/signals_2026-05-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/31/signals_2026-05-31.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
