@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **SEC sues Texas man over alleged $12.3M crypto fraud, claiming fake AI trading bots were used to lure investors into a scheme with Ponzi-like payouts** [Coindesk](https://leviathannews.xyz/redirect/250596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **f(x) Protocol aims to fix DeFi's stablecoin and leverage flaws by linking fxUSD, leveraged positions, staking yield, and liquidity into a single system managing $152M TVL and $56M supply** [𝕏/@0xWhizMiz](https://leviathannews.xyz/redirect/250676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave details April's rsETH bridge exploit that forged a LayerZero message, releasing 116,500 unbacked rsETH and triggering a DeFi-wide recovery effort that secured over $300M in commitments** [𝕏/@aave](https://leviathannews.xyz/redirect/250675?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **XRPL AMM draft highlights flash-loan resistance after $600M in recent DeFi exploits** [Coindesk](https://leviathannews.xyz/redirect/250659?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pantera Capital releases May 2026 Blockchain Letter, reveals AI and blockchain are entering a powerful convergence cycle, with crypto poised to become the financial layer powering autonomous AI agents** [𝕏/@PanteraCapital](https://leviathannews.xyz/redirect/250597?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **TXFetch introduces a new way to trace crypto activity, enabling users to locate transactions from timestamps, amounts, memos, and networks across more than 10 blockchains** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/250916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum’s price action looks weak but its infrastructure role and tokenization fundamentals are quietly strengthening** [𝕏/@strato_money](https://leviathannews.xyz/redirect/250907?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Citrea aims to unlock institutional Bitcoin utility with a zk-rollup that enables lending, stablecoins and DeFi without altering Bitcoin's consensus rules** [𝕏/@FourPillarsFP](https://leviathannews.xyz/redirect/251093?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **How crypto hedge funds are navigating weak markets as falling asset prices, lower volatility and tighter liquidity reshape trading conditions** [The Block](https://leviathannews.xyz/redirect/251092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ECB board member Isabel Schnabel says a digital euro is essential to counter stablecoin risks, warning dollar-backed tokens could strengthen U.S. monetary dominance** [The Block](https://leviathannews.xyz/redirect/251111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/05/31/signals_2026-05-31.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/05/31/signals_2026-05-31.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/01/signals_2026-06-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/01/signals_2026-06-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
