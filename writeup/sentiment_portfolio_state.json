@@ -1,5 +1,5 @@
 {
-  "cash": 8626.459527206836,
+  "cash": 6171.221325769207,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -60,8 +60,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.802110286140581,
-      "entry_price": 2014.4495255234704,
+      "quantity": 0.9932343429066574,
+      "entry_price": 2009.8580503585786,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -193,14 +193,6 @@
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": -18.913950158757935,
-      "entry_price": 93.77199091671046,
-      "entry_date": "2026-04-23T15:11:29.344391",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "weETH": {
       "symbol": "weETH",
       "token_name": "weETH",
@@ -232,6 +224,14 @@
       "entry_price": 3.282567215747302,
       "entry_date": "2026-05-26T16:36:57.805648",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "quantity": 6.84838389718782,
+      "entry_price": 80.53574813065566,
+      "entry_date": "2026-06-01T18:35:15.675707",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2178,6 +2178,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-01T18:35:15.675707",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.19112405676607638,
+      "price": 1990.588527093769,
+      "value": 380.4493546501699,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-01T18:35:15.675707",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "COVER",
+      "quantity": 18.913950158757935,
+      "price": 80.53574813065566,
+      "value": 1523.2491261415037,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 250.34963634465976,
+      "entry_price": 93.77199091671046
+    },
+    {
+      "date": "2026-06-01T18:35:15.675707",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "BUY",
+      "quantity": 6.84838389718782,
+      "price": 80.53574813065566,
+      "value": 551.5397206459563,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2740,6 +2776,10 @@
     [
       "2026-05-31T14:28:17.698978",
       10259.144581622066
+    ],
+    [
+      "2026-06-01T18:35:15.675707",
+      10477.886300336475
     ]
   ]
 }
