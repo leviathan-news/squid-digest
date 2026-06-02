@@ -1,5 +1,5 @@
 {
-  "cash": 6171.221325769207,
+  "cash": 5764.264951233536,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -60,8 +60,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 0.9932343429066574,
-      "entry_price": 2009.8580503585786,
+      "quantity": 1.1663998536298181,
+      "entry_price": 1996.8030414524603,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -228,8 +228,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": 6.84838389718782,
-      "entry_price": 80.53574813065566,
+      "quantity": 7.8230014059808415,
+      "entry_price": 79.98021825857178,
       "entry_date": "2026-06-01T18:35:15.675707",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -2214,6 +2214,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-02T17:15:50.263172",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.17316551072316078,
+      "price": 1921.9227541576154,
+      "value": 332.8107352941672,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-02T17:15:50.263172",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "BUY",
+      "quantity": 0.9746175087930214,
+      "price": 76.0766542490378,
+      "value": 74.14563924150525,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2780,6 +2804,10 @@
     [
       "2026-06-01T18:35:15.675707",
       10477.886300336475
+    ],
+    [
+      "2026-06-02T17:15:50.263172",
+      10410.61738685597
     ]
   ]
 }
