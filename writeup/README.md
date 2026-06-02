@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (June 01, 2026)
+## 🔥 Latest Headlines (June 02, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/06/01/signals_2026-06-01.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/06/01/signals_2026-06-01.md)
+📊 [View Full Analysis →](writeup/2026/06/02/signals_2026-06-02.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/06/02/signals_2026-06-02.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (May 25 - Jun 01)
+### 📅 This Week (May 26 - Jun 02)
+
+[**Tuesday, June 02, 2026**](writeup/2026/06/02/signals_2026-06-02.md)
 
 [**Monday, June 01, 2026**](writeup/2026/06/01/signals_2026-06-01.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Tuesday, May 26, 2026**](writeup/2026/05/26/signals_2026-05-26.md)
 
-[**Monday, May 25, 2026**](writeup/2026/05/25/signals_2026-05-25.md)
+### 📅 Last Week (May 19 - May 25)
 
-### 📅 Last Week (May 18 - May 23)
+[**Monday, May 25, 2026**](writeup/2026/05/25/signals_2026-05-25.md)
 
 [**Saturday, May 23, 2026**](writeup/2026/05/23/signals_2026-05-23.md)
 
@@ -54,9 +56,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Tuesday, May 19, 2026**](writeup/2026/05/19/signals_2026-05-19.md)
 
-[**Monday, May 18, 2026**](writeup/2026/05/18/signals_2026-05-18.md)
+### 📅 Week of May 12 - May 18
 
-### 📅 Week of May 11 - May 17
+[**Monday, May 18, 2026**](writeup/2026/05/18/signals_2026-05-18.md)
 
 [**Sunday, May 17, 2026**](writeup/2026/05/17/signals_2026-05-17.md)
 
@@ -70,9 +72,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Tuesday, May 12, 2026**](writeup/2026/05/12/signals_2026-05-12.md)
 
-[**Monday, May 11, 2026**](writeup/2026/05/11/signals_2026-05-11.md)
+### 📅 Week of May 06 - May 11
 
-### 📅 Week of May 06 - May 10
+[**Monday, May 11, 2026**](writeup/2026/05/11/signals_2026-05-11.md)
 
 [**Sunday, May 10, 2026**](writeup/2026/05/10/signals_2026-05-10.md)
 

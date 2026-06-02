@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **TXFetch introduces a new way to trace crypto activity, enabling users to locate transactions from timestamps, amounts, memos, and networks across more than 10 blockchains** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/250916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum’s price action looks weak but its infrastructure role and tokenization fundamentals are quietly strengthening** [𝕏/@strato_money](https://leviathannews.xyz/redirect/250907?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Citrea aims to unlock institutional Bitcoin utility with a zk-rollup that enables lending, stablecoins and DeFi without altering Bitcoin's consensus rules** [𝕏/@FourPillarsFP](https://leviathannews.xyz/redirect/251093?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **How crypto hedge funds are navigating weak markets as falling asset prices, lower volatility and tighter liquidity reshape trading conditions** [The Block](https://leviathannews.xyz/redirect/251092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ECB board member Isabel Schnabel says a digital euro is essential to counter stablecoin risks, warning dollar-backed tokens could strengthen U.S. monetary dominance** [The Block](https://leviathannews.xyz/redirect/251111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood enters Canada with C$250M WonderFi close, adding Bitbuy, Coinsquare and 300K funded customers** [Robinhood](https://leviathannews.xyz/redirect/251494?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoins won't replace Visa or Mastercard at checkout but will increasingly power the balances behind fintech accounts, cards and digital wallets** [𝕏/@gaspardlezin](https://leviathannews.xyz/redirect/251505?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Injective MCP gives AI agents 22 tools to trade perps, bridge tokens, and query markets from chat** [Injective](https://leviathannews.xyz/redirect/251481?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mt. Gox moves 10,306 BTC, worth about $731M, to a new wallet after two months of inactivity** [𝕏/@OnchainLens](https://leviathannews.xyz/redirect/251499?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zama's cUSDC contract resumes operations after a U.S. court lifts a temporary freeze tied to an unrelated Overnight Finance dispute, restoring access to roughly $12.5M in shielded USDC** [𝕏/@randhindi](https://leviathannews.xyz/redirect/251424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/01/signals_2026-06-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/01/signals_2026-06-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/02/signals_2026-06-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/02/signals_2026-06-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
