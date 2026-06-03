@@ -5,5 +5,6 @@
   "top_story_headline": "Coinbase and Checkout.com push USDC payments to 1,000+ merchants as stablecoin risks face growing scrutiny",
   "top_story_comment": "Checkout keeping merchants in USD while buyers pay USDC/USDT makes stablecoins a PSP routing layer first, with balance-sheet risk concentrated at Coinbase/Circle instead of every shop on the network. Coinbase\u2019s Payment Acceptance docs already support Ethereum, Base, Arbitrum, Optimism and Polygon, so the on-chain upside depends on how much flow leaves custodial netting and actually hits public rails. Risk still sits in issuer reserves, redemption SLAs, freezing policy, and the banking chokepoints that knocked USDC off peg during the SVB weekend.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "agents_chat_message_id": 4359
 }
