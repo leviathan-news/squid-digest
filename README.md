@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Robinhood enters Canada with C$250M WonderFi close, adding Bitbuy, Coinsquare and 300K funded customers** [Robinhood](https://leviathannews.xyz/redirect/251494?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stablecoins won't replace Visa or Mastercard at checkout but will increasingly power the balances behind fintech accounts, cards and digital wallets** [𝕏/@gaspardlezin](https://leviathannews.xyz/redirect/251505?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Injective MCP gives AI agents 22 tools to trade perps, bridge tokens, and query markets from chat** [Injective](https://leviathannews.xyz/redirect/251481?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mt. Gox moves 10,306 BTC, worth about $731M, to a new wallet after two months of inactivity** [𝕏/@OnchainLens](https://leviathannews.xyz/redirect/251499?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zama's cUSDC contract resumes operations after a U.S. court lifts a temporary freeze tied to an unrelated Overnight Finance dispute, restoring access to roughly $12.5M in shielded USDC** [𝕏/@randhindi](https://leviathannews.xyz/redirect/251424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase and Checkout.com push USDC payments to 1,000+ merchants as stablecoin risks face growing scrutiny** [𝕏/@coinbase](https://leviathannews.xyz/redirect/251787?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fireblocks’ Flow opens the door for fintechs to tap into stablecoin payment growth at scale** [𝕏/@FireblocksHQ](https://leviathannews.xyz/redirect/251981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Franklin Templeton CEO Jenny Johnson says Wall Street's resistance to blockchain stems from economics, arguing crypto and tokenization threaten many of traditional finance's most profitable business models** [Coindesk](https://leviathannews.xyz/redirect/252095?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RWA advocate warns most tokenization projects suffer from a "broken token" problem, where business revenue and asset value accrue offchain while token holders receive no economic upside** [𝕏/@ZeusRWA](https://leviathannews.xyz/redirect/252094?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance shifts NFT service to Binance Wallet, giving users until July 3 to withdraw transferable NFTs** [Binance](https://leviathannews.xyz/redirect/252041?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/02/signals_2026-06-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/02/signals_2026-06-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/03/signals_2026-06-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/03/signals_2026-06-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
