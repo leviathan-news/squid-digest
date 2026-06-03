@@ -1,5 +1,5 @@
 {
-  "cash": -82.97458584445533,
+  "cash": -240.82773397474273,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -68,8 +68,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": -0.45994671697591183,
-      "entry_price": 2021.916117918014,
+      "quantity": -0.5349428940374847,
+      "entry_price": 1994.2525566085842,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -136,14 +136,6 @@
       "entry_price": 0.10302849173685151,
       "entry_date": "2026-03-09T14:03:09.027691",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "ADA": {
-      "symbol": "ADA",
-      "token_name": "Cardano",
-      "quantity": -1407.449931967042,
-      "entry_price": 0.25499052048950677,
-      "entry_date": "2026-04-06T14:08:44.297814",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "SQUID": {
       "symbol": "SQUID",
@@ -1894,6 +1886,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-03T17:58:22.132938",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "COVER",
+      "quantity": 1407.449931967042,
+      "price": 0.20937917227024014,
+      "value": 294.69070176706504,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 64.19568894813187,
+      "entry_price": 0.25499052048950677
+    },
+    {
+      "date": "2026-06-03T17:58:22.132938",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.07499617706157295,
+      "price": 1824.593719282945,
+      "value": 136.83755363677767,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2464,6 +2480,10 @@
     [
       "2026-06-02T17:15:50.263172",
       7871.773638346497
+    ],
+    [
+      "2026-06-03T17:58:22.132938",
+      8489.026963741067
     ]
   ]
 }

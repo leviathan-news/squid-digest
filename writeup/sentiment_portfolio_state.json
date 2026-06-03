@@ -1,5 +1,5 @@
 {
-  "cash": 5764.264951233536,
+  "cash": 7172.746646394329,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -137,14 +137,6 @@
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ADA": {
-      "symbol": "ADA",
-      "token_name": "Cardano",
-      "quantity": 1949.1022602394862,
-      "entry_price": 0.25499052048950677,
-      "entry_date": "2026-04-06T14:08:44.297814",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
@@ -232,6 +224,14 @@
       "entry_price": 79.98021825857178,
       "entry_date": "2026-06-01T18:35:15.675707",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": -4777.840443225325,
+      "entry_price": 0.20937917227024014,
+      "entry_date": "2026-06-03T17:58:22.132938",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2238,6 +2238,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-03T17:58:22.132938",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "SELL",
+      "quantity": 1949.1022602394862,
+      "price": 0.20937917227024014,
+      "value": 408.1014179189978,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -88.90118190674286,
+      "entry_price": 0.25499052048950677
+    },
+    {
+      "date": "2026-06-03T17:58:22.132938",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "SHORT",
+      "quantity": 4777.840443225325,
+      "price": 0.20937917227024014,
+      "value": 1000.3802772417957,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2808,6 +2832,10 @@
     [
       "2026-06-02T17:15:50.263172",
       10410.61738685597
+    ],
+    [
+      "2026-06-03T17:58:22.132938",
+      8886.997063630723
     ]
   ]
 }
