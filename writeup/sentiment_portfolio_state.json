@@ -1,5 +1,5 @@
 {
-  "cash": 7172.746646394329,
+  "cash": 6941.624524353595,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -60,8 +60,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 1.1663998536298181,
-      "entry_price": 1996.8030414524603,
+      "quantity": 1.3725512059769607,
+      "entry_price": 1963.0241105171012,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -219,17 +219,17 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": 7.8230014059808415,
-      "entry_price": 79.98021825857178,
+      "token_name": "Aave",
+      "quantity": 9.752577251106633,
+      "entry_price": 78.40812614591177,
       "entry_date": "2026-06-01T18:35:15.675707",
       "entry_signal": "SENTIMENT_LONG"
     },
     "ADA": {
       "symbol": "ADA",
       "token_name": "Cardano",
-      "quantity": -4777.840443225325,
-      "entry_price": 0.20937917227024014,
+      "quantity": -6233.823752772492,
+      "entry_price": 0.20429426434683642,
       "entry_date": "2026-06-03T17:58:22.132938",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -2262,6 +2262,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-04T16:18:40.331765",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.20615135234714255,
+      "price": 1771.9036562965132,
+      "value": 365.28033497437264,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-04T16:18:40.331765",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 1.9295758451257923,
+      "price": 72.03445659633832,
+      "value": 138.9959474650567,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-04T16:18:40.331765",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "SHORT",
+      "quantity": 1455.9833095471674,
+      "price": 0.18760802998741147,
+      "value": 273.1541603986956,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2836,6 +2872,10 @@
     [
       "2026-06-03T17:58:22.132938",
       8886.997063630723
+    ],
+    [
+      "2026-06-04T16:18:40.331765",
+      9567.169822792519
     ]
   ]
 }
