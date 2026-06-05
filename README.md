@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Cap recaps the "State of Cap"** [𝕏/@CapApp](https://leviathannews.xyz/redirect/252418?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Revolut plans 2027 U.S. bank with stablecoin access and FDIC-insured accounts** [Reuters](https://leviathannews.xyz/redirect/252443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CoinShares' new 5-year Ethereum valuation model projects ETH at $4,935 by 2031 in its base case, arguing monetary premium and collateral demand now outweigh fee revenues** [𝕏/@CoinSharesCo](https://leviathannews.xyz/redirect/252459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto's next trillion-dollar opportunity may be P2P infrastructure, with stablecoin settlement networks already processing an estimated $250B-$300B annually** [𝕏/@strato_money](https://leviathannews.xyz/redirect/252456?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hypercall launches mainnet alpha for USDC-funded SpaceX options through SPCX** [blog.hypercall.xyz](https://leviathannews.xyz/redirect/252542?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grayscale warns Bitcoin may struggle to find a sustainable bottom after Strategy's BTC sale since 2022, arguing new buyers must replace the firm's historically dominant demand** [The Block](https://leviathannews.xyz/redirect/253232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash contributors are considering a second Orchard pool after a recently patched counterfeiting flaw, with formal verification emerging as the preferred safeguard against future vulnerabilities** [𝕏/@jswihart](https://leviathannews.xyz/redirect/253224?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z urges Treasury to keep state stablecoin rules aligned with the GENIUS Act, warning fragmented regulations could undermine fungibility, competition and nationwide adoption** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/253214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Morpho CEO Paul Frambot outlines a vision for an open global credit network, aiming to make credit globally accessible by enabling lenders to compete in real time for borrower opportunities** [𝕏/@PaulFrambot](https://leviathannews.xyz/redirect/253215?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Catena Labs cofounder says AI agents will eventually need their own banking stack, handling payments, lending, credit, FX conversion and treasury management autonomously** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/253216?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/04/signals_2026-06-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/04/signals_2026-06-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/05/signals_2026-06-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/05/signals_2026-06-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
