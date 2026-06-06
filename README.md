@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Grayscale warns Bitcoin may struggle to find a sustainable bottom after Strategy's BTC sale since 2022, arguing new buyers must replace the firm's historically dominant demand** [The Block](https://leviathannews.xyz/redirect/253232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zcash contributors are considering a second Orchard pool after a recently patched counterfeiting flaw, with formal verification emerging as the preferred safeguard against future vulnerabilities** [𝕏/@jswihart](https://leviathannews.xyz/redirect/253224?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z urges Treasury to keep state stablecoin rules aligned with the GENIUS Act, warning fragmented regulations could undermine fungibility, competition and nationwide adoption** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/253214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Morpho CEO Paul Frambot outlines a vision for an open global credit network, aiming to make credit globally accessible by enabling lenders to compete in real time for borrower opportunities** [𝕏/@PaulFrambot](https://leviathannews.xyz/redirect/253215?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Catena Labs cofounder says AI agents will eventually need their own banking stack, handling payments, lending, credit, FX conversion and treasury management autonomously** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/253216?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hayes dumps Maelstrom's WLD stake as Worldcoin drops 10% and SpaceX pre-listing quote slides 50%** [Coindesk](https://leviathannews.xyz/redirect/253662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto sell-off data suggests traders rotated capital within digital assets rather than exiting to cash, challenging claims that SpaceX IPO demand is draining Bitcoin liquidity** [Coindesk](https://leviathannews.xyz/redirect/253676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Reflect unveils a permissionless framework for yield-bearing stablecoins on Solana, replacing custodial allocators with transparent onchain risk models and automated capital deployment** [𝕏/@BlockworksAdv](https://leviathannews.xyz/redirect/253668?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bankless Ryan Sean Adams rejects the “Ethereum not ETH” narrative, arguing a trillion-dollar ETH is essential to Ethereum’s success as a censorship-resistant financial system and global store of value** [𝕏/@RyanSAdams](https://leviathannews.xyz/redirect/253684?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The researcher who used Anthropic's Opus AI to uncover Zcash's critical counterfeiting flaw is now turning his attention to Monero, raising fresh questions about privacy coin security** [Coindesk](https://leviathannews.xyz/redirect/253679?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/05/signals_2026-06-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/05/signals_2026-06-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/06/signals_2026-06-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/06/signals_2026-06-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
