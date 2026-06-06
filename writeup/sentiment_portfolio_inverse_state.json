@@ -1,5 +1,5 @@
 {
-  "cash": 159.45513309131132,
+  "cash": 226.20973089650477,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -41,14 +41,6 @@
       "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "XMR": {
-      "symbol": "XMR",
-      "token_name": "Monero",
-      "quantity": -1.1870760797272681,
-      "entry_price": 693.5876115896451,
-      "entry_date": "2026-01-16T13:34:53.147325",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
@@ -68,8 +60,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": -0.6940031958221957,
-      "entry_price": 1898.9476813485455,
+      "quantity": -0.7881199208965662,
+      "entry_price": 1858.4002650641082,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -201,20 +193,28 @@
       "entry_date": "2026-05-12T15:37:33.085755",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "ARB": {
-      "symbol": "ARB",
-      "token_name": "Arbitrum",
-      "quantity": 1149.4014447366192,
-      "entry_price": 0.11330060036872669,
-      "entry_date": "2026-05-19T16:16:08.641182",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "AAVE",
-      "quantity": -5.210282040675603,
-      "entry_price": 74.06461972288646,
+      "quantity": -6.968368118569867,
+      "entry_price": 70.80372594053652,
       "entry_date": "2026-06-01T18:35:15.675707",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "quantity": 993.476198606793,
+      "entry_price": 0.16050221768264217,
+      "entry_date": "2026-06-06T14:26:47.202149",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ARB": {
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "quantity": -2848.8422038339136,
+      "entry_price": 0.08055573431456148,
+      "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -1946,6 +1946,78 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "BUY",
+      "quantity": 993.476198606793,
+      "price": 0.16050221768264217,
+      "value": 159.45513309131132,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "COVER",
+      "quantity": 1.1870760797272681,
+      "price": 294.9491671442669,
+      "value": 350.1271010524391,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 473.2141618607959,
+      "entry_price": 693.5876115896451
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.09411672507437056,
+      "price": 1559.409448485053,
+      "value": 146.76651034144356,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.7580860778942644,
+      "price": 61.13970748071312,
+      "value": 107.48886852836955,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SELL",
+      "quantity": 1149.4014447366192,
+      "price": 0.08055573431456148,
+      "value": 92.5908774029762,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -37.63699635036458,
+      "entry_price": 0.11330060036872669
+    },
+    {
+      "date": "2026-06-06T14:26:47.202149",
+      "symbol": "ARB",
+      "token_name": "Arbitrum",
+      "action": "SHORT",
+      "quantity": 2848.8422038339136,
+      "price": 0.08055573431456148,
+      "value": 229.49057567615455,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2528,6 +2600,10 @@
     [
       "2026-06-05T15:49:38.462438",
       8220.649254451655
+    ],
+    [
+      "2026-06-06T14:26:47.202149",
+      9514.966754677922
     ]
   ]
 }
