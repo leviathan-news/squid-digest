@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hayes dumps Maelstrom's WLD stake as Worldcoin drops 10% and SpaceX pre-listing quote slides 50%** [Coindesk](https://leviathannews.xyz/redirect/253662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto sell-off data suggests traders rotated capital within digital assets rather than exiting to cash, challenging claims that SpaceX IPO demand is draining Bitcoin liquidity** [Coindesk](https://leviathannews.xyz/redirect/253676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Reflect unveils a permissionless framework for yield-bearing stablecoins on Solana, replacing custodial allocators with transparent onchain risk models and automated capital deployment** [𝕏/@BlockworksAdv](https://leviathannews.xyz/redirect/253668?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bankless Ryan Sean Adams rejects the “Ethereum not ETH” narrative, arguing a trillion-dollar ETH is essential to Ethereum’s success as a censorship-resistant financial system and global store of value** [𝕏/@RyanSAdams](https://leviathannews.xyz/redirect/253684?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The researcher who used Anthropic's Opus AI to uncover Zcash's critical counterfeiting flaw is now turning his attention to Monero, raising fresh questions about privacy coin security** [Coindesk](https://leviathannews.xyz/redirect/253679?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ondo launches tokenized equity perps with 20x leverage for traders abroad on June 9** [𝕏/@OndoPerps](https://leviathannews.xyz/redirect/253872?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZachXBT flags JuCoin withdrawals and JuChain-issued USDT and USDC in self-reported $511M reserves** [wublockchain.xyz](https://leviathannews.xyz/redirect/253859?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Consensys founder Joe Lubin dismisses concerns over Ethereum Foundation staff cuts and departures, arguing the organization should remain focused on stewarding Ethereum’s core technology and values** [Coindesk](https://leviathannews.xyz/redirect/253881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **2011 Bitcoin wallet moves 35.55 BTC after OP_RETURN notice in Noah Doe's $285B abandoned-BTC lawsuit** [Coindesk](https://leviathannews.xyz/redirect/253752?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RARI Chain to sunset, asks users to bridge assets back to Ethereum by June 14** [𝕏/@RariChain](https://leviathannews.xyz/redirect/253779?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/06/signals_2026-06-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/06/signals_2026-06-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/07/signals_2026-06-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/07/signals_2026-06-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
