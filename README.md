@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ondo launches tokenized equity perps with 20x leverage for traders abroad on June 9** [𝕏/@OndoPerps](https://leviathannews.xyz/redirect/253872?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZachXBT flags JuCoin withdrawals and JuChain-issued USDT and USDC in self-reported $511M reserves** [wublockchain.xyz](https://leviathannews.xyz/redirect/253859?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Consensys founder Joe Lubin dismisses concerns over Ethereum Foundation staff cuts and departures, arguing the organization should remain focused on stewarding Ethereum’s core technology and values** [Coindesk](https://leviathannews.xyz/redirect/253881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **2011 Bitcoin wallet moves 35.55 BTC after OP_RETURN notice in Noah Doe's $285B abandoned-BTC lawsuit** [Coindesk](https://leviathannews.xyz/redirect/253752?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RARI Chain to sunset, asks users to bridge assets back to Ethereum by June 14** [𝕏/@RariChain](https://leviathannews.xyz/redirect/253779?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Galaxy cuts 2026 CLARITY Act passage odds from 75% to 60% as Senate calendar tightens** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/254074?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan flags Strategy's 6.3-month cash buffer as $1.7B dividend bill raises BTC sale fears** [The Block](https://leviathannews.xyz/redirect/254071?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CME's Bitcoin Volatility futures go live as DV Chain and Monarq execute first block trades** [investor.cmegroup](https://leviathannews.xyz/redirect/254051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Yuga Labs rescues 68 NFTs from Flooring Protocol exploit, including 29 BAYC and 2 CryptoPunks** [𝕏/@mfigge](https://leviathannews.xyz/redirect/254032?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tiger Research finds stock perpetuals predict next-day equity opens with up to 95% accuracy, positioning tokenized equities as a growing bridge between crypto and traditional markets** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/254108?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/07/signals_2026-06-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/07/signals_2026-06-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/08/signals_2026-06-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/08/signals_2026-06-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
