@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 4529.790257032036,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -105,14 +105,6 @@
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "SUI": {
-      "symbol": "SUI",
-      "token_name": "Sui",
-      "quantity": 5866.889917065338,
-      "entry_price": 0.9030940951003175,
-      "entry_date": "2026-03-07T13:35:55.636587",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
@@ -215,6 +207,14 @@
       "quantity": -2848.8422038339136,
       "entry_price": 0.08055573431456148,
       "entry_date": "2026-06-06T14:26:47.202149",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": -277.8236718447281,
+      "entry_price": 0.7371849300197438,
+      "entry_date": "2026-06-09T15:50:52.001583",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2030,6 +2030,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-09T15:50:52.001583",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SELL",
+      "quantity": 5866.889917065338,
+      "price": 0.7371849300197438,
+      "value": 4324.982832945351,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -973.3708077599467,
+      "entry_price": 0.9030940951003175
+    },
+    {
+      "date": "2026-06-09T15:50:52.001583",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SHORT",
+      "quantity": 277.8236718447281,
+      "price": 0.7371849300197438,
+      "value": 204.80742408668414,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2624,6 +2648,10 @@
     [
       "2026-06-08T16:45:09.400378",
       10293.451760805254
+    ],
+    [
+      "2026-06-09T15:50:52.001583",
+      9388.764152128335
     ]
   ]
 }

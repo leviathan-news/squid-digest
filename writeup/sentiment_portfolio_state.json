@@ -1,5 +1,5 @@
 {
-  "cash": 5659.189140964918,
+  "cash": 4128.669342705836,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -88,14 +88,6 @@
       "entry_price": 8.834123484917875,
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "SUI": {
-      "symbol": "SUI",
-      "token_name": "Sui",
-      "quantity": -2623.7886790390567,
-      "entry_price": 0.8882317497970887,
-      "entry_date": "2026-03-02T13:57:22.393936",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "BTC": {
       "symbol": "BTC",
@@ -236,10 +228,18 @@
     "XMR": {
       "symbol": "XMR",
       "token_name": "Monero",
-      "quantity": -3.945363986401965,
-      "entry_price": 294.9491671442669,
+      "quantity": -6.4605735915856695,
+      "entry_price": 302.08114361361424,
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": 521.2232995330729,
+      "entry_price": 0.7371849300197438,
+      "entry_date": "2026-06-09T15:50:52.001583",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2378,6 +2378,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-09T15:50:52.001583",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "COVER",
+      "quantity": 2623.7886790390567,
+      "price": 0.7371849300197438,
+      "value": 1934.2174737440032,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 396.3149357366501,
+      "entry_price": 0.8882317497970887
+    },
+    {
+      "date": "2026-06-09T15:50:52.001583",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "BUY",
+      "quantity": 521.2232995330729,
+      "price": 0.7371849300197438,
+      "value": 384.2379615909484,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-09T15:50:52.001583",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 2.515209605183704,
+      "price": 313.2683794829582,
+      "value": 787.9356370758701,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2972,6 +3008,10 @@
     [
       "2026-06-08T16:45:09.400378",
       8836.882859985053
+    ],
+    [
+      "2026-06-09T15:50:52.001583",
+      8807.101636474585
     ]
   ]
 }
