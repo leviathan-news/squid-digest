@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Galaxy cuts 2026 CLARITY Act passage odds from 75% to 60% as Senate calendar tightens** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/254074?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan flags Strategy's 6.3-month cash buffer as $1.7B dividend bill raises BTC sale fears** [The Block](https://leviathannews.xyz/redirect/254071?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CME's Bitcoin Volatility futures go live as DV Chain and Monarq execute first block trades** [investor.cmegroup](https://leviathannews.xyz/redirect/254051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Yuga Labs rescues 68 NFTs from Flooring Protocol exploit, including 29 BAYC and 2 CryptoPunks** [𝕏/@mfigge](https://leviathannews.xyz/redirect/254032?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tiger Research finds stock perpetuals predict next-day equity opens with up to 95% accuracy, positioning tokenized equities as a growing bridge between crypto and traditional markets** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/254108?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid secures up to $160 million annual yield from Coinbase on $6.2 billion USDC** [𝕏/@coinbase](https://leviathannews.xyz/redirect/254315?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy faces criticism after Arca labels Saylor's AI-driven explanation for bitcoin's decline as 'nonsense,' pointing instead to the firm's reported 32 BTC sale as a key catalyst** [Coindesk](https://leviathannews.xyz/redirect/254589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ondo lines up SPCXon for day-one tokenized exposure to record $75B SpaceX IPO** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/254483?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UNDP launches 26-member Blockchain Advisory Group with Ethereum, Cardano, Sui and Kraken** [undp.org](https://leviathannews.xyz/redirect/254320?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Researcher at Ethereum Foundation explains why Ethereum prioritizes continuous block production over halts, using a two-layer consensus design that preserves liveness even during major disruptions** [𝕏/@with_blockmedia](https://leviathannews.xyz/redirect/254606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/08/signals_2026-06-08.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/08/signals_2026-06-08.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/09/signals_2026-06-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/09/signals_2026-06-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
