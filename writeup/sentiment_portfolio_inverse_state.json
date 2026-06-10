@@ -1,5 +1,5 @@
 {
-  "cash": 4529.790257032036,
+  "cash": 2654.41645749656,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -216,6 +216,14 @@
       "entry_price": 0.7371849300197438,
       "entry_date": "2026-06-09T15:50:52.001583",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "XMR": {
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "quantity": 5.814505192132608,
+      "entry_price": 322.533687315814,
+      "entry_date": "2026-06-10T16:32:07.702713",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2054,6 +2062,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-10T16:32:07.702713",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "BUY",
+      "quantity": 5.814505192132608,
+      "price": 322.533687315814,
+      "value": 1875.3737995354757,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2652,6 +2672,10 @@
     [
       "2026-06-09T15:50:52.001583",
       9388.764152128335
+    ],
+    [
+      "2026-06-10T16:32:07.702713",
+      8963.14104429079
     ]
   ]
 }
