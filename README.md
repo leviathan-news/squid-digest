@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hyperliquid secures up to $160 million annual yield from Coinbase on $6.2 billion USDC** [𝕏/@coinbase](https://leviathannews.xyz/redirect/254315?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy faces criticism after Arca labels Saylor's AI-driven explanation for bitcoin's decline as 'nonsense,' pointing instead to the firm's reported 32 BTC sale as a key catalyst** [Coindesk](https://leviathannews.xyz/redirect/254589?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ondo lines up SPCXon for day-one tokenized exposure to record $75B SpaceX IPO** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/254483?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UNDP launches 26-member Blockchain Advisory Group with Ethereum, Cardano, Sui and Kraken** [undp.org](https://leviathannews.xyz/redirect/254320?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Researcher at Ethereum Foundation explains why Ethereum prioritizes continuous block production over halts, using a two-layer consensus design that preserves liveness even during major disruptions** [𝕏/@with_blockmedia](https://leviathannews.xyz/redirect/254606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid perps launch on Nansen raises questions about leverage risks** [𝕏/@nansen_ai](https://leviathannews.xyz/redirect/254856?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EU targets 11 offshore crypto platforms and 31 Russian banks in new Russia sanctions package** [The Block](https://leviathannews.xyz/redirect/255148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NYDFS proposes GENIUS-aligned stablecoin rule with reserve concentration caps and 1-year transition** [dfs.ny.gov](https://leviathannews.xyz/redirect/255146?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainalysis signs KNPA deal to train Korean police after DPRK hackers stole over $2B in 2025** [Chainalysis](https://leviathannews.xyz/redirect/255117?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **U.S. spot bitcoin ETF assets slide to $77.6B, erasing post-Trump election gains** [Coindesk](https://leviathannews.xyz/redirect/255115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/09/signals_2026-06-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/09/signals_2026-06-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/10/signals_2026-06-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/10/signals_2026-06-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
