@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Helius buys Light Protocol to make privacy first-class on Solana after ZK Compression** [The Block](https://leviathannews.xyz/redirect/255417?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitwise CIO Matt Hougan says stablecoins and tokenization now generate more advisor interest than Bitcoin, with Ethereum, Solana, Chainlink and Avalanche among top beneficiaries** [The Block](https://leviathannews.xyz/redirect/255431?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto neobanks are facing a consolidation wave as stablecoin accounts and card issuance become commoditized, leaving distribution, licensing and payment rails as the industry's only durable moat** [𝕏/@cryptoreine](https://leviathannews.xyz/redirect/255645?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crossmint and Paga partner to bring multi-chain stablecoin infrastructure to Africa.** [𝕏/@crossmint](https://leviathannews.xyz/redirect/255507?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Raydium reveals plan to reimburse users after an exploit drained roughly $1.34M from five inactive liquidity pools tied to its retired AMM V3 program, which has been phased out since 2021** [The Block](https://leviathannews.xyz/redirect/255393?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase says 7M BTC are quantum-vulnerable as migration fight turns to abandoned coins** [Coinbase](https://leviathannews.xyz/redirect/255974?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase launches Ethena-backed SteakhouseFi USDe yield vault on Morpho** [𝕏/@ethena](https://leviathannews.xyz/redirect/255965?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin Core warns 31.0 privatebroadcast bug can leak originator IPs; 31.1 fix pending** [𝕏/@bitcoincoreorg](https://leviathannews.xyz/redirect/256046?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock's iShares files Form 8-A to register Bitcoin Premium Income ETF shares on Nasdaq** [sec.gov](https://leviathannews.xyz/redirect/255978?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **HPX introduces Sealer2100, the first iris recognition hardware wallet, supported by a 10 BTC security challenge** [Globenewswire](https://leviathannews.xyz/redirect/256055?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/11/signals_2026-06-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/11/signals_2026-06-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/12/signals_2026-06-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/12/signals_2026-06-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
