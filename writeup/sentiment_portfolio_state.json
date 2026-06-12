@@ -1,5 +1,5 @@
 {
-  "cash": 4128.669342705836,
+  "cash": 2789.2399522699916,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -105,14 +105,6 @@
       "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ENA": {
-      "symbol": "ENA",
-      "token_name": "Ethena",
-      "quantity": -11163.062317498856,
-      "entry_price": 0.10302849173685151,
-      "entry_date": "2026-03-09T14:03:09.027691",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "wstETH": {
       "symbol": "wstETH",
       "token_name": "Wrapped liquid staked Ether 2.0",
@@ -148,8 +140,8 @@
     "AVAX": {
       "symbol": "AVAX",
       "token_name": "Avalanche",
-      "quantity": 108.06412741154976,
-      "entry_price": 9.38296513754807,
+      "quantity": 125.87120725281937,
+      "entry_price": 8.983286974736167,
       "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -239,6 +231,14 @@
       "quantity": 521.2232995330729,
       "entry_price": 0.7371849300197438,
       "entry_date": "2026-06-09T15:50:52.001583",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": 4479.82415416169,
+      "entry_price": 0.07816039297890595,
+      "entry_date": "2026-06-12T16:13:27.411325",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -2414,6 +2414,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-12T16:13:27.411325",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 17.807079841269616,
+      "price": 6.557798219998253,
+      "value": 116.77523648644467,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-12T16:13:27.411325",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 11163.062317498856,
+      "price": 0.07816039297890595,
+      "value": 872.5093375837272,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 277.60413615266214,
+      "entry_price": 0.10302849173685151
+    },
+    {
+      "date": "2026-06-12T16:13:27.411325",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 4479.82415416169,
+      "price": 0.07816039297890595,
+      "value": 350.1448163656726,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3020,6 +3056,10 @@
     [
       "2026-06-11T16:49:14.817176",
       8450.589949091565
+    ],
+    [
+      "2026-06-12T16:13:27.411325",
+      8775.583050103573
     ]
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 145.81661559013014,
+  "cash": 772.1137523641924,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -113,14 +113,6 @@
       "entry_date": "2026-03-08T13:37:04.554776",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "ENA": {
-      "symbol": "ENA",
-      "token_name": "Ethena",
-      "quantity": 5550.838165235118,
-      "entry_price": 0.10302849173685151,
-      "entry_date": "2026-03-09T14:03:09.027691",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "SQUID": {
       "symbol": "SQUID",
       "token_name": "Leviathan Points",
@@ -224,6 +216,14 @@
       "entry_price": 340.1530970113719,
       "entry_date": "2026-06-10T16:32:07.702713",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": -2462.135067167746,
+      "entry_price": 0.07816039297890595,
+      "entry_date": "2026-06-12T16:13:27.411325",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2098,6 +2098,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-12T16:13:27.411325",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SELL",
+      "quantity": 5550.838165235118,
+      "price": 0.07816039297890595,
+      "value": 433.8556923570861,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -138.0387916824402,
+      "entry_price": 0.10302849173685151
+    },
+    {
+      "date": "2026-06-12T16:13:27.411325",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SHORT",
+      "quantity": 2462.135067167746,
+      "price": 0.07816039297890595,
+      "value": 192.44144441697603,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2704,6 +2728,10 @@
     [
       "2026-06-11T16:49:14.817176",
       9610.056446236995
+    ],
+    [
+      "2026-06-12T16:13:27.411325",
+      9646.213788293728
     ]
   ]
 }
