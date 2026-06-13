@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Coinbase says 7M BTC are quantum-vulnerable as migration fight turns to abandoned coins** [Coinbase](https://leviathannews.xyz/redirect/255974?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase launches Ethena-backed SteakhouseFi USDe yield vault on Morpho** [𝕏/@ethena](https://leviathannews.xyz/redirect/255965?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin Core warns 31.0 privatebroadcast bug can leak originator IPs; 31.1 fix pending** [𝕏/@bitcoincoreorg](https://leviathannews.xyz/redirect/256046?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock's iShares files Form 8-A to register Bitcoin Premium Income ETF shares on Nasdaq** [sec.gov](https://leviathannews.xyz/redirect/255978?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **HPX introduces Sealer2100, the first iris recognition hardware wallet, supported by a 10 BTC security challenge** [Globenewswire](https://leviathannews.xyz/redirect/256055?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **June SQUID Drop DAO vote now live!  Vote early, vote often, fellow anons!** [snapshot.box](https://leviathannews.xyz/redirect/256364?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SpaceX IPO rush exposes a hard truth: tokenizing a stock and actually owning one are two very different things** [Coindesk](https://leviathannews.xyz/redirect/256582?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New research proposes a falsification test for tokens, claiming assets, blockspace, performance bonds, and capital allocators are crypto's only valid categories** [𝕏/@Aryonchain](https://leviathannews.xyz/redirect/256587?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Y Combinator says Clarity Act passage could embed crypto technology across every one of its portfolio companies, including Airbnb and DoorDash** [The Block](https://leviathannews.xyz/redirect/256444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockworks buys Messari for over $10M, a steep drop from its $300M 2022 valuation** [WSJ](https://leviathannews.xyz/redirect/256383?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/12/signals_2026-06-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/12/signals_2026-06-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/13/signals_2026-06-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/13/signals_2026-06-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
