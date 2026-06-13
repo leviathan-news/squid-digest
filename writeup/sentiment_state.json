@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-06-12",
+  "last_processed_date": "2026-06-13",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 3.883443099496873,
+      "score": 3.6958539747837116,
       "last_signal_date": "2026-06-12",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.010381957895396492,
-      "last_signal_date": "2026-05-28",
+      "score": 3.0,
+      "last_signal_date": "2026-06-13",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.99399338256394,
+      "score": 5.428901650029421,
       "last_signal_date": "2026-06-11",
       "token_name": "Solana"
     },
@@ -27,49 +27,49 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.04597148874671297,
+      "score": 0.041637465239339824,
       "last_signal_date": "2026-06-11",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 13.482995223166908,
-      "last_signal_date": "2026-06-11",
+      "score": 14.211867838779483,
+      "last_signal_date": "2026-06-13",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 0.3296626640697453,
+      "score": 0.20093164439122133,
       "last_signal_date": "2026-06-03",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.12283701982650397,
+      "score": 0.061418509913251984,
       "last_signal_date": "2026-05-30",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 2.0,
+      "score": 1.9033903060212392,
       "last_signal_date": "2026-06-12",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 4.714837634549053,
+      "score": 4.487088124032388,
       "last_signal_date": "2026-06-12",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 1.4859942891369484,
+      "score": 1.2190136542044754,
       "last_signal_date": "2026-06-09",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-06-11",
       "token_name": "ChainLink Token"
     },
@@ -81,7 +81,7 @@
     },
     "ADA": {
       "symbol": "ADA",
-      "score": 0.48030798490516935,
+      "score": 0.3940136217904933,
       "last_signal_date": "2026-06-09",
       "token_name": "Cardano"
     },
@@ -99,7 +99,7 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.5080349147518177,
+      "score": 1.0663417144870875,
       "last_signal_date": "2026-06-06",
       "token_name": "Aave"
     },
@@ -123,7 +123,7 @@
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.44843148746497924,
+      "score": 0.28719496178254306,
       "last_signal_date": "2026-06-04",
       "token_name": "Arbitrum"
     },
@@ -135,8 +135,8 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.0,
-      "last_signal_date": "2026-05-21",
+      "score": 1.0,
+      "last_signal_date": "2026-06-13",
       "token_name": "Leviathan Points"
     },
     "POL": {
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": -0.35355339059327373,
+      "score": -0.25,
       "last_signal_date": "2026-06-06",
       "token_name": "Monero"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 0.13134457983165243,
+      "score": 0.07618835338777971,
       "last_signal_date": "2026-06-02",
       "token_name": "Injective"
     },
@@ -219,7 +219,7 @@
     },
     "rsETH": {
       "symbol": "rsETH",
-      "score": -0.044297972115453,
+      "score": -0.02327319413959372,
       "last_signal_date": "2026-05-31",
       "token_name": "Kelp DAO Restaked ETH"
     },
@@ -234,6 +234,12 @@
       "score": 0.0,
       "last_signal_date": "2026-05-16",
       "token_name": "CoW Protocol"
+    },
+    "stETH": {
+      "symbol": "stETH",
+      "score": 2.0,
+      "last_signal_date": "2026-06-13",
+      "token_name": "Liquid staked Ether 2.0"
     }
   }
 }
