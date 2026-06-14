@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jun 2026 10:10:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 15:06:37 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - May 14, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/05/14/signals_2026-05-14.md</link>
@@ -3844,24 +3844,24 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
     <item>
       <title>📊 Crypto Trading Signals - June 14, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/06/14/signals_2026-06-14.md</link>
-      <description>Market: BTC $64,495. (+1.19%), ETH $1,674. (+0.09%) | 13 trading signals</description>
+      <description>Market: BTC $64,095. (-0.12%), ETH $1,661. (-1.03%) | 15 trading signals</description>
       <content:encoded>&lt;h1 id="crypto-trading-signals-june-14-2026"&gt;📊 Crypto Trading Signals - June 14, 2026&lt;/h1&gt;
 
 &lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
 
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $64,495.00 (+1.19%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,674.93 (+0.09%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3096 (+0.81%)&lt;/p&gt;
+&lt;p&gt;• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $64,095.00 (-0.12%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,661.12 (-1.03%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3070 (-0.73%)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2356/COW?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;COW&lt;/a&gt;&lt;/strong&gt;: $0.1529 (+4.9%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1090/AIOZ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AIOZ&lt;/a&gt;&lt;/strong&gt;: $0.0582 (+4.8%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/333/NEAR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;NEAR&lt;/a&gt;&lt;/strong&gt;: $2.11 (+4.4%)&lt;/p&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2356/COW?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;COW&lt;/a&gt;&lt;/strong&gt;: $0.1515 (+3.2%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/451/ASF?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ASF&lt;/a&gt;&lt;/strong&gt;: $0.0133 (+2.4%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2479/RSUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;RSUP&lt;/a&gt;&lt;/strong&gt;: $0.0634 (+1.2%)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2956/INJ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INJ&lt;/a&gt;&lt;/strong&gt;: $5.14 (-2.6%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/760/OP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OP&lt;/a&gt;&lt;/strong&gt;: $0.1066 (-2.4%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2367/SEI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SEI&lt;/a&gt;&lt;/strong&gt;: $0.0534 (-1.7%)&lt;/p&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/707/ENA?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ENA&lt;/a&gt;&lt;/strong&gt;: $0.0809 (-5.7%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2249/ARB?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ARB&lt;/a&gt;&lt;/strong&gt;: $0.0824 (-4.6%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/613/ADA?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ADA&lt;/a&gt;&lt;/strong&gt;: $0.1669 (-4.2%)&lt;/p&gt;
 
 &lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
 
@@ -3897,9 +3897,9 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
 
 &lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
 
-&lt;p&gt;🟡 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): WEAK BUY - A new post-quantum account protection scheme that works today without a hard fork at roughly $0.07 per account quietly upgrades Ethereum’s security and future-proofs the L1, a slow-burn bullish catalyst for long-term allocators&lt;/p&gt;
+&lt;p&gt;🟢 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): BUY - Live-ready post-quantum account protection and SPHINCS- signature verification that work today without a hard fork and at low per-account cost strengthen Ethereum’s security narrative and justify fresh accumulation.&lt;/p&gt;
 
-&lt;p&gt;🟠 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK SELL - A projected ~9.5% difficulty drop as hashrate retreats following BTC’s slide to $60K flags miner stress and softening network momentum, making bounces attractive fade territory until hashpower stabilizes&lt;/p&gt;
+&lt;p&gt;🟡 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK BUY - A projected ~9.55% difficulty drop as hashrate falls after the move to $60K should relieve miner margin stress and selling pressure, setting up a favorable zone for staggered dip-buying.&lt;/p&gt;
 
 &lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
 
@@ -3907,15 +3907,15 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
 
 &lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
 
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+14.53) · SOL (+4.68) · AVAX (+4.06) · BNB (+2.86) · BTC (+2.35)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; rsETH (-0.01) · XMR (-0.17)&lt;/p&gt;
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+16.53) · SOL (+4.03) · AVAX (+3.68) · BTC (+3.35) · BNB (+2.72)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; XMR (-0.11)&lt;/p&gt;
 
 &lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-30.95%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+20.84%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+23.44%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-31.38%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+14.06%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+27.79%&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
@@ -3923,9 +3923,9 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
 &lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,989.31&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-10.11%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$2,789.24&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,268.54&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-17.31%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$3,077.87&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
@@ -3933,14 +3933,20 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
 &lt;p&gt;&lt;strong&gt;Long (21):&lt;/strong&gt; XRP, POL, TON, SYRUP, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, SQUID, AVAX, MON, SOL, weETH, BNB, AAVE, ARB, SUI, ENA
 &lt;strong&gt;Short (9):&lt;/strong&gt; PEPE, DOGE, CRV, wstETH, WLFI, rsETH, UNI, ADA, XMR&lt;/p&gt;
 
+&lt;h3 id="todays-trades"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🔴 SHORT 0.8507 XMR @ $339.28&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
 
 &lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$9,248.75&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-7.51%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$772.11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$9,641.73&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-3.58%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$0.00&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
@@ -3948,9 +3954,15 @@ They prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility 
 &lt;p&gt;&lt;strong&gt;Long (7):&lt;/strong&gt; PEPE, DOGE, CRV, WLFI, rsETH, ADA, XMR
 &lt;strong&gt;Short (21):&lt;/strong&gt; XRP, POL, TON, SYRUP, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, SQUID, AVAX, MON, SOL, weETH, BNB, AAVE, ARB, SUI, ENA&lt;/p&gt;
 
+&lt;h3 id="todays-trades-2"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🟢 BUY 2.2758 XMR @ $339.28&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete madman to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete dunce to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
 </content:encoded>
       <author>squid@leviathannews.xyz (Squid Digest)</author>
       <guid isPermaLink="false">squid-digest-2026-06-14</guid>
