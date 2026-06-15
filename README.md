@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum researcher Nico says post-quantum account protection can be deployed today without a hard fork, costing roughly $0.07 per account and undergoing further audits** [𝕏/@ncsgy](https://leviathannews.xyz/redirect/256794?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase opens U.S.-regulated gold and silver futures to 24/7 trading, with oil next** [𝕏/@coinbase](https://leviathannews.xyz/redirect/256626?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **TVL Capital raises $5M seed led by Framework Ventures to build onchain chain-traded structured products** [𝕏/@TVLCap](https://leviathannews.xyz/redirect/256782?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SPHINCS- verifies post-quantum Ethereum signatures at 127K gas without precompile or hard fork** [ethresear.ch](https://leviathannews.xyz/redirect/256711?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Decibel opens 24/7 fully onchain markets on Aptos after Aptos Labs incubation** [𝕏/@AptosLabs](https://leviathannews.xyz/redirect/256709?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Amundi and CACEIS join Ant International to pioneer tokenized investment solutions on blockchain** [Caceis](https://leviathannews.xyz/redirect/257029?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy buys 1,587 BTC for $100 million, lifting bitcoin holdings to 846,842** [sec.gov](https://leviathannews.xyz/redirect/257167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cap token auction now live for registered users, with Uniswap Auctions guide explaining how to participate over the next 5 days** [𝕏/@caplabslimited](https://leviathannews.xyz/redirect/257147?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paradigm leads El Dorado's $9M Series A as the LatAm payments app scales to 100K+ users, targeting a cross-border payments market estimated at up to $1T annually** [The Block](https://leviathannews.xyz/redirect/257183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bybit launches RWA Earn, bringing institutional investment opportunities on-chain to eligible users.** [𝕏/@Bybit_Official](https://leviathannews.xyz/redirect/257176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/14/signals_2026-06-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/14/signals_2026-06-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/15/signals_2026-06-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/15/signals_2026-06-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
