@@ -2,8 +2,11 @@ name: Generate Daily Digest Draft
 
 on:
   schedule:
-    # Run at 5 AM PT (13:00 UTC - works for PDT, close enough for PST)
-    - cron: '0 13 * * *'
+    # Run at ~5 AM PT (13:17 UTC). Offset off the top-of-hour to reduce
+    # GitHub's best-effort scheduler dispatch delay (scheduled workflows are
+    # deprioritized under load, worst at :00). Send-digest runs ~1h later
+    # (14:17) preserving the intended human review window before publish.
+    - cron: '17 13 * * *'
   workflow_dispatch:  # Allow manual triggering for testing
 
 jobs:
