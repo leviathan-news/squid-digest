@@ -1,0 +1,4 @@
+# 🎙️ SQUID Digest — Video Script — June 15, 2026
+> Draft — read time ≈ 1 min
+
+GM Fam, and welcome to SQUID Digest. First up, Wall Street's getting crypto-curious as Amundi and CACEIS team with Ant International to pioneer tokenized investment solutions on blockchain. Next, Strategy's doubling down hard—snapping up 1,587 BTC for $100 million, pushing their total stash to 846,842 coins. Meanwhile, the Cap token auction just went live for registered users, with Uniswap dropping a guide on how to play over the next five days. Then, Paradigm leads El Dorado's $9 million Series A as that LatAm payments app surges past 100K users, eyeing a cross-border market worth up to $1T yearly. And finally, Bybit launches RWA Earn, dragging institutional-grade real-world assets on-chain for eligible traders. Wall Street’s playing catch-up while the crypto crew builds the future—no surprise there. And that's all the news that's fit to ink. Squids, we'll see you on the next tide.
