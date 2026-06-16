@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Amundi and CACEIS join Ant International to pioneer tokenized investment solutions on blockchain** [Caceis](https://leviathannews.xyz/redirect/257029?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Strategy buys 1,587 BTC for $100 million, lifting bitcoin holdings to 846,842** [sec.gov](https://leviathannews.xyz/redirect/257167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cap token auction now live for registered users, with Uniswap Auctions guide explaining how to participate over the next 5 days** [𝕏/@caplabslimited](https://leviathannews.xyz/redirect/257147?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Paradigm leads El Dorado's $9M Series A as the LatAm payments app scales to 100K+ users, targeting a cross-border payments market estimated at up to $1T annually** [The Block](https://leviathannews.xyz/redirect/257183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bybit launches RWA Earn, bringing institutional investment opportunities on-chain to eligible users.** [𝕏/@Bybit_Official](https://leviathannews.xyz/redirect/257176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto's insurance sector has collapsed from $1.9B to under $100M in TVL despite $840M in exploit losses during the first five months of 2026, exposing DeFi's growing protection gap** [𝕏/@blocmates](https://leviathannews.xyz/redirect/257404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase brings x402 agent payments to AWS CloudFront and WAF for a quarter of the web** [Coinbase](https://leviathannews.xyz/redirect/257392?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polygon expands DPTPay collaboration to push low-fee stablecoin payments across Africa** [𝕏/@0xPolygon](https://leviathannews.xyz/redirect/257334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Spot HYPE ETFs close in on $900M volume as institutions chase regulated Hyperliquid exposure** [The Block](https://leviathannews.xyz/redirect/257330?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink exclusively powers Predictstreet’s official 2026 FIFA World Cup prediction markets** [𝕏/@chainlink](https://leviathannews.xyz/redirect/257419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/15/signals_2026-06-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/15/signals_2026-06-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/16/signals_2026-06-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/16/signals_2026-06-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
