@@ -1,5 +1,5 @@
 {
-  "cash": 3077.8660366043123,
+  "cash": 3634.9218632202255,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -220,8 +220,8 @@
     "XMR": {
       "symbol": "XMR",
       "token_name": "Monero",
-      "quantity": -7.311278632722065,
-      "entry_price": 306.4092692698225,
+      "quantity": -8.93283876698641,
+      "entry_price": 313.1478629430191,
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2462,6 +2462,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-16T18:12:40.511370",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 1.6215601342643466,
+      "price": 343.53078547323366,
+      "value": 557.0558266159132,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3088,6 +3100,10 @@
     [
       "2026-06-15T18:04:06.728108",
       8840.583697957367
+    ],
+    [
+      "2026-06-16T18:12:40.511370",
+      10229.017060428647
     ]
   ]
 }
