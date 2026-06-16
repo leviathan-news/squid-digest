@@ -35,14 +35,18 @@ to appear.
 3. **Validate against your Ghost version's gscan**:
    ```
    cd themes/source-leviathan
-   npx --yes gscan@latest --v5 .          # for Ghost 5.x — current production
-   npx --yes gscan@latest --v5 --fatal .  # extra strict
+   npx --yes gscan@latest --v6 .          # for Ghost 6.x — current production
+   npx --yes gscan@latest --v6 --fatal .  # extra strict
    ```
-   Both must pass with `✓ Your theme is compatible with Ghost 5.x`.
-   **⚠️ Important:** gscan's default is `--v6`. Production Ghost is 5.129
-   as of 2026-05-26. Always explicitly pass `--v5` until production
-   upgrades; otherwise you'll validate against the wrong target and ship
-   a theme that fails upload (this happened once — see git log).
+   Both must pass with `✓ Your theme is compatible with Ghost 6.x`.
+   **⚠️ Important:** Production Ghost is **6.37.1** (migrated 2026-06-12).
+   Always explicitly pass `--v6` when validating. gscan's default is also
+   `--v6` as of current releases, but pass it explicitly to be safe and
+   to make the target version obvious in CI logs. Do NOT pin to
+   unreleased master tags — always use a released gscan version (e.g.
+   `gscan@latest` resolves to a stable tag); this avoids validating
+   against helpers not yet shipped in production Ghost (this bit us once
+   — see git log).
 4. Package the zip with contents at root (not in a wrapper folder):
    ```
    cd themes/source-leviathan

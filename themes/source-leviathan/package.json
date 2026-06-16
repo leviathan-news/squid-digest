@@ -2,7 +2,7 @@
     "name": "source-leviathan",
     "description": "Leviathan-customized Source theme. Adds curated 3-section homepage (digest / updates / drop) using Source's native gh-container layout. Based on upstream Source v1.6.1.",
     "demo": "https://source.ghost.io",
-    "version": "1.6.1-leviathan.2",
+    "version": "1.6.1-leviathan.3",
     "engines": {
         "ghost": ">=5.0.0",
         "node": ">=22.12.0"
