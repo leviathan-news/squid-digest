@@ -187,8 +187,8 @@ def ghost_slug_exists(ghost_url, key, slug):
         raise
 
 
-def ghost_create(ghost_url, key, title, slug, html, published_at, tag):
-    payload = {"posts": [{
+def ghost_create(ghost_url, key, title, slug, html, published_at, tag, feature_image=None):
+    post = {
         "title": title,
         "slug": slug,
         "html": html,
@@ -200,7 +200,12 @@ def ghost_create(ghost_url, key, title, slug, html, published_at, tag):
         # creates a DUPLICATE tag (monthly-drop-2). Slug-keyed attach reuses it.
         "tags": [{"slug": tag}],
         # NO newsletter/email_segment params -> silent publish, no email.
-    }]}
+    }
+    # Substack's cover_image -> Ghost feature_image (the homepage-card thumbnail).
+    # Without this the post still has body images but the homepage card is bare.
+    if feature_image:
+        post["feature_image"] = feature_image
+    payload = {"posts": [post]}
     # ?source=html -> Ghost converts html field to lexical
     r = ghost_request(ghost_url, key, "POST", "/ghost/api/admin/posts/?source=html", payload)
     return r["posts"][0]
@@ -239,6 +244,7 @@ def main():
             "slug": slug,
             "published_at": p.get("post_date"),
             "tag": tag_for(title),
+            "feature_image": p.get("cover_image"),
         })
 
     by_tag = {}
@@ -281,7 +287,8 @@ def main():
                 errors += 1
                 continue
             cleaned = strip_substack_chrome(body)
-            post = ghost_create(ghost_url, key, title, slug, cleaned, t["published_at"], tag)
+            post = ghost_create(ghost_url, key, title, slug, cleaned,
+                                t["published_at"], tag, feature_image=t.get("feature_image"))
             print(f"          CREATED  {post.get('url')}")
             created += 1
             time.sleep(0.5)
