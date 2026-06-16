@@ -5,5 +5,7 @@
   "top_story_headline": "Crypto's insurance sector has collapsed from $1.9B to under $100M in TVL despite $840M in exploit losses during the first five months of 2026, exposing DeFi's growing protection gap",
   "top_story_comment": "DeFiLlama\u2019s insurance category has about $97.7M of TVL, and $82.7M of that is Nexus Mutual; Sherlock, InsurAce, Bridge Mutual and Risk Harbor are basically dust. That concentration matters because smart-contract cover is underwriting correlated tail risk: one oracle, bridge, multisig or governance failure can hit half the book at once, so capital providers pull back right when premiums should be fat. Until protocols escrow self-insurance funds or give cover buyers enforceable claim paths, users are just buying audits, bug bounties and post-hack governance theater.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a31926ed5269a77db20e02e",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/86c0e92e-dd24-4351-86c0-48953bd38f0a/"
 }
