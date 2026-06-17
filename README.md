@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Crypto's insurance sector has collapsed from $1.9B to under $100M in TVL despite $840M in exploit losses during the first five months of 2026, exposing DeFi's growing protection gap** [𝕏/@blocmates](https://leviathannews.xyz/redirect/257404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase brings x402 agent payments to AWS CloudFront and WAF for a quarter of the web** [Coinbase](https://leviathannews.xyz/redirect/257392?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polygon expands DPTPay collaboration to push low-fee stablecoin payments across Africa** [𝕏/@0xPolygon](https://leviathannews.xyz/redirect/257334?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Spot HYPE ETFs close in on $900M volume as institutions chase regulated Hyperliquid exposure** [The Block](https://leviathannews.xyz/redirect/257330?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink exclusively powers Predictstreet’s official 2026 FIFA World Cup prediction markets** [𝕏/@chainlink](https://leviathannews.xyz/redirect/257419?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Matter Labs cuts team size as zkSync developer pivots fully to Prividium for regulated institutions** [𝕏/@gluk64](https://leviathannews.xyz/redirect/258079?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump-backed World Liberty Financial nears OCC trust charter to issue USD1 directly** [notus.org](https://leviathannews.xyz/redirect/258053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase unveils AI-powered SEC-registered advisor, unified global liquidity, options trading and tokenized stocks as it expands its vision of an "Everything Exchange"** [The Block](https://leviathannews.xyz/redirect/257903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Canton approves CIP-0112 to bring private settlement and prefunded trading into Token Standard V2** [𝕏/@CantonFdn](https://leviathannews.xyz/redirect/258033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trading cards could emerge as crypto’s next supercycle bet as tokenization transforms a $17B-$27B collectibles market into an investable asset class with growing onchain adoption** [𝕏/@AvgJoesCrypto](https://leviathannews.xyz/redirect/257809?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/16/signals_2026-06-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/16/signals_2026-06-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/17/signals_2026-06-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/17/signals_2026-06-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
