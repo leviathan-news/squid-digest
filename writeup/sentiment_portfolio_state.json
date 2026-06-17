@@ -1,5 +1,5 @@
 {
-  "cash": 3634.9218632202255,
+  "cash": 1194.5333271970069,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -60,8 +60,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": 1.5985745624636374,
-      "entry_price": 1905.9568064439488,
+      "quantity": 1.804063495212789,
+      "entry_price": 1890.8871794352492,
       "entry_date": "2026-02-11T14:14:16.513730",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -120,14 +120,6 @@
       "entry_price": 40.429516918533395,
       "entry_date": "2026-03-18T14:20:16.066802",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": -29211.278083472782,
-      "entry_price": 0.08539562549428999,
-      "entry_date": "2026-04-07T14:27:57.961094",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "SQUID": {
       "symbol": "SQUID",
@@ -220,8 +212,8 @@
     "XMR": {
       "symbol": "XMR",
       "token_name": "Monero",
-      "quantity": -8.93283876698641,
-      "entry_price": 313.1478629430191,
+      "quantity": -9.957554280009978,
+      "entry_price": 315.73844120325344,
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -239,6 +231,14 @@
       "quantity": 4479.82415416169,
       "entry_price": 0.07816039297890595,
       "entry_date": "2026-06-12T16:13:27.411325",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": 10067.310012933956,
+      "entry_price": 0.06167750634769757,
+      "entry_date": "2026-06-17T16:45:25.124266",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -2474,6 +2474,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-17T16:45:25.124266",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.2054889327491515,
+      "price": 1773.6549661007755,
+      "value": 364.4664660492808,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-17T16:45:25.124266",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "COVER",
+      "quantity": 29211.278083472782,
+      "price": 0.06167750634769757,
+      "value": 1801.6787894177514,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 692.8365740080512,
+      "entry_price": 0.08539562549428999
+    },
+    {
+      "date": "2026-06-17T16:45:25.124266",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "BUY",
+      "quantity": 10067.310012933956,
+      "price": 0.06167750634769757,
+      "value": 620.9265772269734,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-17T16:45:25.124266",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 1.0247155130235668,
+      "price": 338.32150705696785,
+      "value": 346.68329667078706,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3104,6 +3152,10 @@
     [
       "2026-06-16T18:12:40.511370",
       10229.017060428647
+    ],
+    [
+      "2026-06-17T16:45:25.124266",
+      11229.515902048455
     ]
   ]
 }
