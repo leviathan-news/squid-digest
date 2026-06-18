@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Matter Labs cuts team size as zkSync developer pivots fully to Prividium for regulated institutions** [𝕏/@gluk64](https://leviathannews.xyz/redirect/258079?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump-backed World Liberty Financial nears OCC trust charter to issue USD1 directly** [notus.org](https://leviathannews.xyz/redirect/258053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase unveils AI-powered SEC-registered advisor, unified global liquidity, options trading and tokenized stocks as it expands its vision of an "Everything Exchange"** [The Block](https://leviathannews.xyz/redirect/257903?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Canton approves CIP-0112 to bring private settlement and prefunded trading into Token Standard V2** [𝕏/@CantonFdn](https://leviathannews.xyz/redirect/258033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trading cards could emerge as crypto’s next supercycle bet as tokenization transforms a $17B-$27B collectibles market into an investable asset class with growing onchain adoption** [𝕏/@AvgJoesCrypto](https://leviathannews.xyz/redirect/257809?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase to add Re (RE), opens deposit addresses before issuer unlocks transfers** [𝕏/@CoinbaseMarkets](https://leviathannews.xyz/redirect/258403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum Foundation loses another top leader as co-ED Hsiao-Wei Wang resigns amid restructuring plans, CROPs mandate debates, and executive turnover** [The Block](https://leviathannews.xyz/redirect/258913?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aster directs 99% of daily fees to ASTER buybacks, matching each with reserve burns** [𝕏/@Aster_DEX](https://leviathannews.xyz/redirect/258411?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MAS puts Bybit on Singapore investor alert list as exchange remains unlicensed** [CoinTelegraph](https://leviathannews.xyz/redirect/258407?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cosmos Labs acquires Mintscan as Korea unit stewards Skip:Go, IBC Eureka, and Hub roadmap** [cosmos.network](https://leviathannews.xyz/redirect/258585?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/17/signals_2026-06-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/17/signals_2026-06-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/18/signals_2026-06-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/18/signals_2026-06-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
