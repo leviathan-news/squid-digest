@@ -1,5 +1,5 @@
 {
-  "cash": 578.0000041348725,
+  "cash": 30.783768189805954,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -220,10 +220,18 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -3559.6074981984452,
-      "entry_price": 0.06167750634769757,
+      "quantity": -4081.3261597214587,
+      "entry_price": 0.06133581891243335,
       "entry_date": "2026-06-17T16:45:25.124266",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "quantity": 196.03785198618905,
+      "entry_price": 2.9484102089406328,
+      "entry_date": "2026-06-18T16:44:33.408806",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2158,6 +2166,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-18T16:44:33.408806",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "BUY",
+      "quantity": 196.03785198618905,
+      "price": 2.9484102089406328,
+      "value": 578.0000041348725,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-18T16:44:33.408806",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 521.7186615230136,
+      "price": 0.05900453723457245,
+      "value": 30.783768189805954,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2792,6 +2824,10 @@
     [
       "2026-06-17T16:45:25.124266",
       7941.082365540654
+    ],
+    [
+      "2026-06-18T16:44:33.408806",
+      8157.818757749487
     ]
   ]
 }
