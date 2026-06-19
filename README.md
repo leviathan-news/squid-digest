@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Coinbase to add Re (RE), opens deposit addresses before issuer unlocks transfers** [𝕏/@CoinbaseMarkets](https://leviathannews.xyz/redirect/258403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum Foundation loses another top leader as co-ED Hsiao-Wei Wang resigns amid restructuring plans, CROPs mandate debates, and executive turnover** [The Block](https://leviathannews.xyz/redirect/258913?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aster directs 99% of daily fees to ASTER buybacks, matching each with reserve burns** [𝕏/@Aster_DEX](https://leviathannews.xyz/redirect/258411?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MAS puts Bybit on Singapore investor alert list as exchange remains unlicensed** [CoinTelegraph](https://leviathannews.xyz/redirect/258407?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cosmos Labs acquires Mintscan as Korea unit stewards Skip:Go, IBC Eureka, and Hub roadmap** [cosmos.network](https://leviathannews.xyz/redirect/258585?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC and SEC seek comments on swap definitions as CME sues over crypto perps** [cftc.gov](https://leviathannews.xyz/redirect/259214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses** [Microsoft](https://leviathannews.xyz/redirect/259212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi has reportedly begun IPO talks with investment banks after surpassing $2B in annualized revenue and reaching a $22B valuation in its latest funding round** [The Block](https://leviathannews.xyz/redirect/259233?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Token Terminal launches redesigned stablecoin and RWA issuer dashboards, giving investors deeper insights into product mix, market share and chain distribution** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/259234?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Franklin Templeton files two Bitcoin DRIP ETFs that reinvest equity dividends into BTC** [sec.gov](https://leviathannews.xyz/redirect/259123?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/18/signals_2026-06-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/18/signals_2026-06-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/19/signals_2026-06-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/19/signals_2026-06-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
