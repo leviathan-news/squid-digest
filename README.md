@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **CFTC and SEC seek comments on swap definitions as CME sues over crypto perps** [cftc.gov](https://leviathannews.xyz/redirect/259214?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses** [Microsoft](https://leviathannews.xyz/redirect/259212?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi has reportedly begun IPO talks with investment banks after surpassing $2B in annualized revenue and reaching a $22B valuation in its latest funding round** [The Block](https://leviathannews.xyz/redirect/259233?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Token Terminal launches redesigned stablecoin and RWA issuer dashboards, giving investors deeper insights into product mix, market share and chain distribution** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/259234?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Franklin Templeton files two Bitcoin DRIP ETFs that reinvest equity dividends into BTC** [sec.gov](https://leviathannews.xyz/redirect/259123?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Injective launches AI agent platform with ERC-8004 IDs and automatic trading fee payouts** [𝕏/@injective](https://leviathannews.xyz/redirect/259635?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Etherealize says Ethereum is replaying the Internet's rise, arguing permissionless infrastructure will outcompete corporate chains just as Linux defeated proprietary software** [𝕏/@Etherealize_io](https://leviathannews.xyz/redirect/259527?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Banks can't scale stablecoin payments without sanctions screening, fund freezes and AML controls, argues Tempo's Jevgenijs Kazanins as onchain volume hits $390B** [𝕏/@jevgenijs](https://leviathannews.xyz/redirect/259525?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana Foundation's researcher argues revenue is crypto's new north star, warning chains that fail to generate real onchain fees risk losing capital, builders and relevance** [𝕏/@therealchaseeb](https://leviathannews.xyz/redirect/259526?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aptos Labs launches Confidential APT on mainnet with encrypted balances via Petra mobile** [𝕏/@AptosLabs](https://leviathannews.xyz/redirect/259564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/19/signals_2026-06-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/19/signals_2026-06-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/20/signals_2026-06-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/20/signals_2026-06-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
