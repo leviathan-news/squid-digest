@@ -1,5 +1,5 @@
 {
-  "cash": 30.783768189805954,
+  "cash": 270.6999658867119,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -232,6 +232,14 @@
       "entry_price": 2.9484102089406328,
       "entry_date": "2026-06-18T16:44:33.408806",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "INJ": {
+      "symbol": "INJ",
+      "token_name": "Injective",
+      "quantity": -47.981560407568324,
+      "entry_price": 5.000174976782602,
+      "entry_date": "2026-06-20T15:15:36.745547",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2190,6 +2198,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-20T15:15:36.745547",
+      "symbol": "INJ",
+      "token_name": "Injective",
+      "action": "SHORT",
+      "quantity": 47.981560407568324,
+      "price": 5.000174976782602,
+      "value": 239.91619769690595,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2832,6 +2852,10 @@
     [
       "2026-06-19T16:19:39.881990",
       8382.730226922122
+    ],
+    [
+      "2026-06-20T15:15:36.745547",
+      9167.211570334317
     ]
   ]
 }
