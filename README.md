@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Injective launches AI agent platform with ERC-8004 IDs and automatic trading fee payouts** [𝕏/@injective](https://leviathannews.xyz/redirect/259635?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Etherealize says Ethereum is replaying the Internet's rise, arguing permissionless infrastructure will outcompete corporate chains just as Linux defeated proprietary software** [𝕏/@Etherealize_io](https://leviathannews.xyz/redirect/259527?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Banks can't scale stablecoin payments without sanctions screening, fund freezes and AML controls, argues Tempo's Jevgenijs Kazanins as onchain volume hits $390B** [𝕏/@jevgenijs](https://leviathannews.xyz/redirect/259525?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana Foundation's researcher argues revenue is crypto's new north star, warning chains that fail to generate real onchain fees risk losing capital, builders and relevance** [𝕏/@therealchaseeb](https://leviathannews.xyz/redirect/259526?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aptos Labs launches Confidential APT on mainnet with encrypted balances via Petra mobile** [𝕏/@AptosLabs](https://leviathannews.xyz/redirect/259564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum's endgame isn't payments but global settlement: supporters envision ETH securing a shared infrastructure layer for identity, AI, assets, and coordination** [𝕏/@Bookof_Eth](https://leviathannews.xyz/redirect/259881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Neutral atom quantum computers are emerging as a leading path to fault tolerance, with 6,100-qubit arrays, logical qubits and error correction already demonstrated** [𝕏/@apruden08](https://leviathannews.xyz/redirect/259878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI-powered security tools are making smart contract audits faster, cheaper and more accessible, raising the baseline for crypto due diligence as developers deploy code onchain** [Coindesk](https://leviathannews.xyz/redirect/259798?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Galaxy Researcher says Coinbase's tokenized stock offering may rely on offshore wrapper structures, raising questions around shareholder rights, custody, and regulation** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/259919?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The next AI battleground is human labor, argues VD, warning that biometric data extraction, outsourced labeling and AI training risk creating a new digital colonialism** [𝕏/@hmalviya9](https://leviathannews.xyz/redirect/259880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/20/signals_2026-06-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/20/signals_2026-06-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/21/signals_2026-06-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/21/signals_2026-06-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
