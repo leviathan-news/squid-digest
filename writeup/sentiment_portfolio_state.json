@@ -1,5 +1,5 @@
 {
-  "cash": 2788.553578538127,
+  "cash": 6307.7371844557765,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -169,14 +169,6 @@
       "entry_date": "2026-04-24T14:43:47.541498",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": 0.9940833348345275,
-      "entry_price": 648.9642612509577,
-      "entry_date": "2026-05-12T15:37:33.085755",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
@@ -248,6 +240,22 @@
       "entry_price": 5.000174976782602,
       "entry_date": "2026-06-20T15:15:36.745547",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.7354377612813217,
+      "entry_price": 588.9703045896138,
+      "entry_date": "2026-06-21T15:18:23.948010",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "S": {
+      "symbol": "S",
+      "token_name": "S",
+      "quantity": -89126.90544724293,
+      "entry_price": 0.028056028946548458,
+      "entry_date": "2026-06-21T15:18:23.948010",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2554,6 +2562,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-21T15:18:23.948010",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SELL",
+      "quantity": 0.9940833348345275,
+      "price": 588.9703045896138,
+      "value": 585.4855645049506,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -59.63899250782697,
+      "entry_price": 648.9642612509577
+    },
+    {
+      "date": "2026-06-21T15:18:23.948010",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.7354377612813217,
+      "price": 588.9703045896138,
+      "value": 433.1510022685637,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-21T15:18:23.948010",
+      "symbol": "S",
+      "token_name": "S",
+      "action": "SHORT",
+      "quantity": 89126.90544724293,
+      "price": 0.028056028946548458,
+      "value": 2500.547039144135,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3200,6 +3244,10 @@
     [
       "2026-06-20T15:15:36.745547",
       9797.772214302473
+    ],
+    [
+      "2026-06-21T15:18:23.948010",
+      9778.993471375667
     ]
   ]
 }
