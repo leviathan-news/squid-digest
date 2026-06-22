@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum's endgame isn't payments but global settlement: supporters envision ETH securing a shared infrastructure layer for identity, AI, assets, and coordination** [𝕏/@Bookof_Eth](https://leviathannews.xyz/redirect/259881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Neutral atom quantum computers are emerging as a leading path to fault tolerance, with 6,100-qubit arrays, logical qubits and error correction already demonstrated** [𝕏/@apruden08](https://leviathannews.xyz/redirect/259878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI-powered security tools are making smart contract audits faster, cheaper and more accessible, raising the baseline for crypto due diligence as developers deploy code onchain** [Coindesk](https://leviathannews.xyz/redirect/259798?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Galaxy Researcher says Coinbase's tokenized stock offering may rely on offshore wrapper structures, raising questions around shareholder rights, custody, and regulation** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/259919?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The next AI battleground is human labor, argues VD, warning that biometric data extraction, outsourced labeling and AI training risk creating a new digital colonialism** [𝕏/@hmalviya9](https://leviathannews.xyz/redirect/259880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI’s Daybreak update expands cyber defense tools to help trusted defenders find, validate, and patch vulnerabilities faster.** [Openai](https://leviathannews.xyz/redirect/260378?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tradfi giants chart an onchain course with Chainlink, as global banks test tokenized assets and settlements on open seas of blockchain rails** [𝕏/@chainlink](https://leviathannews.xyz/redirect/259924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bank of England drops wallet caps and sets £40B guardrail for systemic sterling stablecoins** [bankofengland.co.uk](https://leviathannews.xyz/redirect/260110?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MainStreet-linked MSUSD plunges 85% as Morpho msY/USDC hits 100% utilization and $18M exposure** [𝕏/@peckshieldalert](https://leviathannews.xyz/redirect/260113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitget launches Stock+, allowing users to buy full and fractional U.S. stocks directly with crypto, accelerating the convergence of traditional and digital assets** [The Block](https://leviathannews.xyz/redirect/260065?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/21/signals_2026-06-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/21/signals_2026-06-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/22/signals_2026-06-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/22/signals_2026-06-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
