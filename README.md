@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **OpenAI’s Daybreak update expands cyber defense tools to help trusted defenders find, validate, and patch vulnerabilities faster.** [Openai](https://leviathannews.xyz/redirect/260378?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tradfi giants chart an onchain course with Chainlink, as global banks test tokenized assets and settlements on open seas of blockchain rails** [𝕏/@chainlink](https://leviathannews.xyz/redirect/259924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bank of England drops wallet caps and sets £40B guardrail for systemic sterling stablecoins** [bankofengland.co.uk](https://leviathannews.xyz/redirect/260110?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MainStreet-linked MSUSD plunges 85% as Morpho msY/USDC hits 100% utilization and $18M exposure** [𝕏/@peckshieldalert](https://leviathannews.xyz/redirect/260113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitget launches Stock+, allowing users to buy full and fractional U.S. stocks directly with crypto, accelerating the convergence of traditional and digital assets** [The Block](https://leviathannews.xyz/redirect/260065?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Securitize sues tZERO after cease-and-desist over tokenized securities patents** [The Block](https://leviathannews.xyz/redirect/260384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum's largest corporate backers launch Ethlabs, a new research hub backed by SharpLink, BitMine, and Consensys to accelerate protocol innovation beyond the Ethereum Foundation** [Coindesk](https://leviathannews.xyz/redirect/260391?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto PACs pour more than $8M into New York, Maryland, and Utah primaries as 2026 map takes shape** [CoinTelegraph](https://leviathannews.xyz/redirect/260396?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Firepan finds two confirmed auth-bypass bugs in Via Labs cross-chain gateway; CEO: “exactly the partner you want in your corner”** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/260368?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ondo tokenized stocks and ETFs go live on LI.FI with gasless access across 1,000+ wallets and apps** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/260424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/22/signals_2026-06-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/22/signals_2026-06-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/23/signals_2026-06-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/23/signals_2026-06-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
