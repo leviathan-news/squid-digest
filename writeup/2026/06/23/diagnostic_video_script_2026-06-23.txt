@@ -1,0 +1,12 @@
+Video Script Generation Diagnostic
+==================================
+
+Date: 2026-06-23
+Error: Video script is missing the required intro line
+
+Headlines sent to model:
+[1] Securitize sues tZERO after cease-and-desist over tokenized securities patents
+[2] Ethereum's largest corporate backers launch Ethlabs, a new research hub backed by SharpLink, BitMine, and Consensys to accelerate protocol innovation beyond the Ethereum Foundation
+[3] Crypto PACs pour more than $8M into New York, Maryland, and Utah primaries as 2026 map takes shape
+[4] Firepan finds two confirmed auth-bypass bugs in Via Labs cross-chain gateway; CEO: “exactly the partner you want in your corner”
+[5] Ondo tokenized stocks and ETFs go live on LI.FI with gasless access across 1,000+ wallets and apps
