@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Securitize sues tZERO after cease-and-desist over tokenized securities patents** [The Block](https://leviathannews.xyz/redirect/260384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum's largest corporate backers launch Ethlabs, a new research hub backed by SharpLink, BitMine, and Consensys to accelerate protocol innovation beyond the Ethereum Foundation** [Coindesk](https://leviathannews.xyz/redirect/260391?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto PACs pour more than $8M into New York, Maryland, and Utah primaries as 2026 map takes shape** [CoinTelegraph](https://leviathannews.xyz/redirect/260396?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Firepan finds two confirmed auth-bypass bugs in Via Labs cross-chain gateway; CEO: “exactly the partner you want in your corner”** [𝕏/@FirepanHQ](https://leviathannews.xyz/redirect/260368?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ondo tokenized stocks and ETFs go live on LI.FI with gasless access across 1,000+ wallets and apps** [𝕏/@OndoFinance](https://leviathannews.xyz/redirect/260424?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket paid creators to stage $900K in fake winning bets on cloned sites, courting American users it's banned from serving** [Youtube](https://leviathannews.xyz/redirect/261663?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockaid flags vote.yieldyak.com front-end attack after site serves Eleven drainer code** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/261557?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chainlink teams with global banks on Project Pangea to push instant FX settlement forward** [Prnewswire](https://leviathannews.xyz/redirect/261168?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meta reportedly builds points-based Arena prediction market app to rival Polymarket and Kalshi** [NY Times](https://leviathannews.xyz/redirect/261347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UBS and Nethermind test compliance proofs of concept on Ethereum** [𝕏/@Nethermind](https://leviathannews.xyz/redirect/261134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/23/signals_2026-06-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/23/signals_2026-06-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/24/signals_2026-06-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/24/signals_2026-06-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
