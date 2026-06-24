@@ -1,5 +1,5 @@
 {
-  "cash": 6615.562126134271,
+  "cash": 6904.375152059645,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -188,8 +188,8 @@
     "ADA": {
       "symbol": "ADA",
       "token_name": "Cardano",
-      "quantity": -7085.907406194237,
-      "entry_price": 0.1986928676040013,
+      "quantity": -9090.454688978263,
+      "entry_price": 0.18664988123154538,
       "entry_date": "2026-06-03T17:58:22.132938",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2610,6 +2610,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-24T15:39:40.289166",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "SHORT",
+      "quantity": 2004.547282784026,
+      "price": 0.14407892914566442,
+      "value": 288.81302592537384,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3268,6 +3280,10 @@
     [
       "2026-06-23T16:07:46.925383",
       9607.290360235955
+    ],
+    [
+      "2026-06-24T15:39:40.289166",
+      10074.331010321746
     ]
   ]
 }
