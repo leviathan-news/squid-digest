@@ -1,5 +1,5 @@
 {
-  "cash": -11.808579191817273,
+  "cash": 713.6188102513289,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -217,20 +217,20 @@
       "entry_date": "2026-06-17T16:45:25.124266",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "UNI": {
-      "symbol": "UNI",
-      "token_name": "Uniswap",
-      "quantity": 196.03785198618905,
-      "entry_price": 2.9484102089406328,
-      "entry_date": "2026-06-18T16:44:33.408806",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "INJ": {
       "symbol": "INJ",
       "token_name": "Injective",
       "quantity": -47.981560407568324,
       "entry_price": 5.000174976782602,
       "entry_date": "2026-06-20T15:15:36.745547",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "UNI": {
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "quantity": -59.25085242174237,
+      "entry_price": 2.841596110276661,
+      "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2214,6 +2214,30 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": 28.115315813326276,
       "entry_price": 647.5847656623046
+    },
+    {
+      "date": "2026-06-25T15:47:07.360703",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "SELL",
+      "quantity": 196.03785198618905,
+      "price": 2.841596110276661,
+      "value": 557.0603976709466,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -20.939606463925884,
+      "entry_price": 2.9484102089406328
+    },
+    {
+      "date": "2026-06-25T15:47:07.360703",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SHORT",
+      "quantity": 59.25085242174237,
+      "price": 2.841596110276661,
+      "value": 168.3669917721996,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2876,6 +2900,10 @@
     [
       "2026-06-24T15:39:40.289166",
       9465.394608794883
+    ],
+    [
+      "2026-06-25T15:47:07.360703",
+      9315.410825008725
     ]
   ]
 }
