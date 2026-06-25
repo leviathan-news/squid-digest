@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Polymarket paid creators to stage $900K in fake winning bets on cloned sites, courting American users it's banned from serving** [Youtube](https://leviathannews.xyz/redirect/261663?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockaid flags vote.yieldyak.com front-end attack after site serves Eleven drainer code** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/261557?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chainlink teams with global banks on Project Pangea to push instant FX settlement forward** [Prnewswire](https://leviathannews.xyz/redirect/261168?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Meta reportedly builds points-based Arena prediction market app to rival Polymarket and Kalshi** [NY Times](https://leviathannews.xyz/redirect/261347?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UBS and Nethermind test compliance proofs of concept on Ethereum** [𝕏/@Nethermind](https://leviathannews.xyz/redirect/261134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Squid (@squidrouter) reveals their public token sale just weeks after announcing their $6m private round.** [𝕏/@legiondotcc](https://leviathannews.xyz/redirect/262427?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MemeCore M erases nearly $3B in market value after 74% crash with no clear trigger** [Coindesk](https://leviathannews.xyz/redirect/262397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid expands portfolio margin beta with higher limits for sub-$25M accounts** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/262385?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap lets teams launch CCA token auctions from web app on Ethereum, Base, Arbitrum, and Unichain** [blog.uniswap.org](https://leviathannews.xyz/redirect/262012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecore, Circuit and Curql launch stablecoin pilot for credit unions managing $25B** [CoinTelegraph](https://leviathannews.xyz/redirect/262021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/24/signals_2026-06-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/24/signals_2026-06-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/25/signals_2026-06-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/25/signals_2026-06-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
