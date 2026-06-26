@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Squid (@squidrouter) reveals their public token sale just weeks after announcing their $6m private round.** [𝕏/@legiondotcc](https://leviathannews.xyz/redirect/262427?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MemeCore M erases nearly $3B in market value after 74% crash with no clear trigger** [Coindesk](https://leviathannews.xyz/redirect/262397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid expands portfolio margin beta with higher limits for sub-$25M accounts** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/262385?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Uniswap lets teams launch CCA token auctions from web app on Ethereum, Base, Arbitrum, and Unichain** [blog.uniswap.org](https://leviathannews.xyz/redirect/262012?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stablecore, Circuit and Curql launch stablecoin pilot for credit unions managing $25B** [CoinTelegraph](https://leviathannews.xyz/redirect/262021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Unlink goes live on Monad with ZK private transfers and scoped audit views for institutions** [blog.monad.xyz](https://leviathannews.xyz/redirect/262781?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **USDT0 clears $100B in transfer volume less than 530 days after January 2025 launch** [The Block](https://leviathannews.xyz/redirect/262786?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solstice and Tensorx’s $1 billion AI infrastructure deal positions Europe as a global AI leader** [decrypt.co](https://leviathannews.xyz/redirect/263085?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Story rebrands into DATA Foundation, launches Trace with 1.5B Kled AI training records** [The Block](https://leviathannews.xyz/redirect/262783?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SharpLink resumes ETH buys with $7.85M purchase as ether sinks to 2026 low ahead of Russell inclusion** [CoinTelegraph](https://leviathannews.xyz/redirect/263136?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/25/signals_2026-06-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/25/signals_2026-06-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/26/signals_2026-06-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/26/signals_2026-06-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
