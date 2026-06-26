@@ -1,5 +1,5 @@
 {
-  "cash": 713.6188102513289,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -232,6 +232,22 @@
       "entry_price": 2.841596110276661,
       "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 0.71266457354336,
+      "entry_price": 563.8905160348176,
+      "entry_date": "2026-06-26T15:34:59.646337",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "S": {
+      "symbol": "S",
+      "token_name": "S",
+      "quantity": 15691.939805289176,
+      "entry_price": 0.01986714325855046,
+      "entry_date": "2026-06-26T15:34:59.646337",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2238,6 +2254,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-26T15:34:59.646337",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.71266457354336,
+      "price": 563.8905160348176,
+      "value": 401.86479413509846,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-26T15:34:59.646337",
+      "symbol": "S",
+      "token_name": "S",
+      "action": "BUY",
+      "quantity": 15691.939805289176,
+      "price": 0.01986714325855046,
+      "value": 311.75401611623045,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2904,6 +2944,10 @@
     [
       "2026-06-25T15:47:07.360703",
       9315.410825008725
+    ],
+    [
+      "2026-06-26T15:34:59.646337",
+      9205.707865135622
     ]
   ]
 }
