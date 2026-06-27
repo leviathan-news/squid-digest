@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Unlink goes live on Monad with ZK private transfers and scoped audit views for institutions** [blog.monad.xyz](https://leviathannews.xyz/redirect/262781?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **USDT0 clears $100B in transfer volume less than 530 days after January 2025 launch** [The Block](https://leviathannews.xyz/redirect/262786?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solstice and Tensorx’s $1 billion AI infrastructure deal positions Europe as a global AI leader** [decrypt.co](https://leviathannews.xyz/redirect/263085?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Story rebrands into DATA Foundation, launches Trace with 1.5B Kled AI training records** [The Block](https://leviathannews.xyz/redirect/262783?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SharpLink resumes ETH buys with $7.85M purchase as ether sinks to 2026 low ahead of Russell inclusion** [CoinTelegraph](https://leviathannews.xyz/redirect/263136?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Spain's CNMV rules out MiCA deadline extensions as Binance and unlicensed crypto firms face July 1 exit** [Reuters](https://leviathannews.xyz/redirect/263463?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cypher Industries launches as a community-owned DEX with a fair-launch model** [𝕏/@0x_narrator](https://leviathannews.xyz/redirect/263954?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LayerZero fee switch stays off as fourth referendum draws 3.52M ZRO, just 2.82% of quorum** [layerzero.foundation](https://leviathannews.xyz/redirect/263849?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kraken opens Bending Spoons IPO access to eligible users via xStocks with 24/5 trading.** [blog.kraken](https://leviathannews.xyz/redirect/263806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EU MiCA licenses near 230 before July 1 deadline as smaller crypto firms face shutdown pressure** [lesechos.fr](https://leviathannews.xyz/redirect/263835?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/26/signals_2026-06-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/26/signals_2026-06-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/27/signals_2026-06-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/27/signals_2026-06-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
