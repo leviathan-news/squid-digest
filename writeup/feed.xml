@@ -8,130 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Jun 2026 14:57:34 +0000</lastBuildDate>
-    <item>
-      <title>📊 Crypto Trading Signals - May 29, 2026</title>
-      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/05/29/signals_2026-05-29.md</link>
-      <description>Market: BTC $73,843. (+0.88%), ETH $2,036. (+1.68%) | 14 trading signals</description>
-      <content:encoded>&lt;h1 id="crypto-trading-signals-may-29-2026"&gt;📊 Crypto Trading Signals - May 29, 2026&lt;/h1&gt;
-
-&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
-
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $73,843.00 (+0.88%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,036.00 (+1.68%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3814 (+1.08%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2956/INJ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INJ&lt;/a&gt;&lt;/strong&gt;: $6.58 (+22.7%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2412/LIT?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;LIT&lt;/a&gt;&lt;/strong&gt;: $1.30 (+17.0%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/333/NEAR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;NEAR&lt;/a&gt;&lt;/strong&gt;: $2.59 (+10.7%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/451/ASF?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ASF&lt;/a&gt;&lt;/strong&gt;: $0.0158 (-5.4%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2367/SEI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SEI&lt;/a&gt;&lt;/strong&gt;: $0.0662 (-3.2%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/743/WLFI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;WLFI&lt;/a&gt;&lt;/strong&gt;: $0.0579 (-3.1%)&lt;/p&gt;
-
-&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
-
-&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260529063826_gY8AXvrhIivV.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;1. NYSE parent ICE held multiple talks with Hyperliquid as CEO Jeffrey Sprecher pushes regulators for equal access to booming onchain perpetual futures market - &lt;a href="https://leviathannews.xyz/redirect/249939?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/967/onchain"&gt;Onchain&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/505/hyperliquid"&gt;Hyperliquid&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/794/markets"&gt;Markets&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;June 11 SpaceX pricing is the clean stress test: if TradeXYZ’s pre-IPO perp lands anywhere near the bookbuild, banks and exchange operators lose exclusive control over first price discovery. ICE can pipe Brent/WTI benchmarks into OKX’s 120M-user distribution, but Hyperliquid’s edge is different: 24/7 USDC margin, public flow, and traders willing to absorb weekend oil/geopolitical risk when legacy venues are shut. The likely compromise is surveillance, KYC, and oracle licensing wrapped around perp markets that already have offshore liquidity.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260528222440_JpueT9VA4Hft.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;2. Open Transaction Layer unites major crypto and finance players to set interoperability standard for global onchain finance - &lt;a href="https://leviathannews.xyz/redirect/249747?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Prnewswire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1971/transaction"&gt;Transaction&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/967/onchain"&gt;Onchain&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;OTL’s first apps are boring in the way institutional rails are valuable: Universal Deposit and Wallet Attribution target the pre-settlement step where counterparties verify wallet control and Travel Rule context before money moves. If Robinhood, Securitize, Cross River, Fireblocks, MetaMask and the six BPC chains converge on one DID/IVMS101/ISO 20022/CAIP-19 stack, every bespoke VASP integration starts looking like technical debt. The reference implementations matter more than the partner slide; neutrality lives or dies on whether non-Fireblocks shops can implement the spec without inheriting a vendor-shaped policy layer.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260529062516_pZZnrdhWf6xL.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;3. OKX Ventures acquires a $53M stake in South Korea’s Coinone exchange as the platform expands into stablecoins and tokenized securities - &lt;a href="https://leviathannews.xyz/redirect/249924?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Coindesk&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2209/acquisition"&gt;Acquisition&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1231/south-korea"&gt;South Korea&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/3045/coinone"&gt;Coinone&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;19.6% each is almost too clean: OKX and Korea Investment get exchange-level distribution while staying under Korea's proposed 20% major-shareholder cap. FIU accepting Coinone's VASP renewal application makes compliant KRW access the constraint, especially if stablecoin pairs and STO distribution start running through brokerage rails. Binance/Gopax showed foreign CEX ownership can get bogged down; OKX buying in alongside a domestic securities house is a cleaner path to Korean order flow.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260528223635_Z4zrlaiDPw%3D%3D.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;4. Nakamoto's UTXO Management joins Stacks' Bitcoin staking launch as inaugural institution - &lt;a href="https://leviathannews.xyz/redirect/249755?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@UTXOmgmt&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/217/bitcoin"&gt;Bitcoin&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/3036/nakamoto"&gt;Nakamoto&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/766/stacks"&gt;Stacks&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;interesting move, stacking bitcoin with an institutional player like nakamoto's utxo mgmt could boost staking security and liquidity up only&lt;/i&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260529063446_g0eRDO1lloDv.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;5. Korean institutions are racing to dominate crypto infrastructure through exchange acquisitions, stablecoin rails and STO alliances ahead of full regulation - &lt;a href="https://leviathannews.xyz/redirect/249937?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@tiger_research_&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2816/infrastructure"&gt;Infrastructure&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2209/acquisition"&gt;Acquisition&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Upbit was back near 69% domestic share before Hana’s 6.55% and Samsung’s 4% Dunamu buys, so KRW order flow is becoming the asset everyone is underwriting. KakaoBank’s planned won-stablecoin wallet and KB’s Kaia remittance pilot turn exchange equity into access to settlement, identity, and merchant distribution. If STO issuance gets routed through KRX/Koscom-style consortiums, Korea’s RWA stack may be fast and liquid, but painfully permissioned.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
-
-&lt;p&gt;🟢 HYPE (&lt;a href="https://leviathannews.xyz/t/1335/HYPE?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$HYPE&lt;/a&gt;): STRONG BUY - NYSE parent ICE’s talks with Hyperliquid spotlight institutional demand for onchain perps, a direct rerating catalyst for HYPE as the exchange’s native token&lt;/p&gt;
-
-&lt;p&gt;🟢 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): BUY - Governance drama around the Ethereum Foundation is outweighed by Base’s Azul upgrade pushing L2s toward Stage 2 decentralization and faster withdrawals, strengthening Ethereum’s scaling and fee-capture thesis&lt;/p&gt;
-
-&lt;p&gt;🟠 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK SELL - Capital rotating from spot BTC ETFs into “protected” downside-buffered products signals softer near-term spot demand and favors waiting for a cleaner post-volatility entry&lt;/p&gt;
-
-&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
-
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+8.88) · HYPE (+8.53) · BTC (+7.42) · SOL (+6.58) · BNB (+3.76)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; UNI (-0.16) · rsETH (-0.22) · ARB (-0.86)&lt;/p&gt;
-
-&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-20.94%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+19.84%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+9.04%&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$9,890.03&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-1.10%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$8,626.46&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (18):&lt;/strong&gt; XRP, POL, TON, SYRUP, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, ADA, SQUID, AVAX, MON, SOL, weETH, BNB
-&lt;strong&gt;Short (11):&lt;/strong&gt; PEPE, DOGE, CRV, SUI, ENA, wstETH, WLFI, rsETH, AAVE, ARB, UNI&lt;/p&gt;
-
-&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,810.10&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-11.90%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-319.65&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (8):&lt;/strong&gt; PEPE, DOGE, CRV, SUI, ENA, WLFI, rsETH, ARB
-&lt;strong&gt;Short (19):&lt;/strong&gt; XRP, POL, TON, SYRUP, XMR, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, ADA, SQUID, AVAX, MON, SOL, weETH, BNB&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete nincompoop to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
-</content:encoded>
-      <author>squid@leviathannews.xyz (Squid Digest)</author>
-      <guid isPermaLink="false">squid-digest-2026-05-29</guid>
-      <category>trading-signals</category>
-      <category>crypto</category>
-      <category>ai-analysis</category>
-      <pubDate>Fri, 29 May 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 28 Jun 2026 14:59:00 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - May 30, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/05/30/signals_2026-05-30.md</link>
@@ -3836,6 +3713,125 @@ Bitget launches Stock+, allowing users to buy full and fractional U.S. stocks di
       <category>crypto</category>
       <category>ai-analysis</category>
       <pubDate>Sat, 27 Jun 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>📊 Crypto Trading Signals - June 28, 2026</title>
+      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/06/28/signals_2026-06-28.md</link>
+      <description>Market: BTC $59,964. (-0.91%), ETH $1,580. (-0.73%) | 13 trading signals</description>
+      <content:encoded>&lt;h1 id="crypto-trading-signals-june-28-2026"&gt;📊 Crypto Trading Signals - June 28, 2026&lt;/h1&gt;
+
+&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
+
+&lt;p&gt;• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $59,964.00 (-0.91%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,580.19 (-0.73%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3307 (-3.71%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1616/S?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;S&lt;/a&gt;&lt;/strong&gt;: $0.0267 (+31.3%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2297/JESSE?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;JESSE&lt;/a&gt;&lt;/strong&gt;: $0.0010 (+25.8%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1090/AIOZ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AIOZ&lt;/a&gt;&lt;/strong&gt;: $0.0538 (+0.8%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.1403 (-7.8%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2956/INJ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INJ&lt;/a&gt;&lt;/strong&gt;: $4.64 (-5.8%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/437/AVAX?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AVAX&lt;/a&gt;&lt;/strong&gt;: $6.32 (-4.3%)&lt;/p&gt;
+
+&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
+
+&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260628072743_5JUGLhZKmWGU.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. Base post-mortem pins back-to-back outages on critical sequencer bug - &lt;a href="https://leviathannews.xyz/redirect/264111?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;CoinTelegraph&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2167/post-mortem"&gt;Post-Mortem&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Base has roughly $11B TVS on L2Beat, plus about $4.5B in stablecoins, sitting behind a Stage 1 rollup where the sequencer escape hatch can take up to 12 hours. A 116-minute halt is survivable for spot swaps; it is a nasty failure mode for perps, bridges, AA paymasters, and Coinbase-facing flows that price Base like always-on infrastructure. Shared OP Stack code makes the fix relevant beyond Base: fuzzing malformed tx paths is table stakes, but graceful node recovery after a bad block is what keeps the next Superchain incident from becoming an ecosystem-wide manual restart drill.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260628135512_Z4zrlaiDPw%3D%3D.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. Etherlink pauses EVM bridge transfers after security breach attempt, says no funds lost - &lt;a href="https://leviathannews.xyz/redirect/264167?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@etherlink&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/698/evm"&gt;EVM&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1973/etherlink"&gt;Etherlink&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260628091006_Z4zrlaiDPw%3D%3D.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. Taiko sets four-stage chain restart after June 21 exploit with security-reviewed fixes and 1:1 bridge backing - &lt;a href="https://leviathannews.xyz/redirect/264124?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@taikoxyz&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/880/exploit"&gt;Exploit&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1873/taiko"&gt;Taiko&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260628062817_TFVhPIVzNdyd.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Onchain money laid the foundation for tokenized assets, with Treasuries, money market funds and equities now following stablecoins onto blockchain rails - &lt;a href="https://leviathannews.xyz/redirect/264099?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@jevgenijs&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2772/blockchain"&gt;Blockchain&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2309/tokenized-money-market-fund"&gt;Tokenized Money Market Fund&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/967/onchain"&gt;Onchain&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;RWA.xyz has tokenized Treasuries/MMFs around $14.7B distributed value, while tracked stablecoins sit near $296B with ~$6.7T in 30-day transfer volume; the cash leg already dwarfs the asset leg. BUIDL, USYC, USDY and OUSG start changing DeFi market structure once they plug into Aave/Morpho/perps collateral loops with sane liquidation and whitelist handling. Equities are the dangerous leg: Robinhood/OpenAI showed that a token wrapper without issuer consent, redemption rights and shareholder mechanics is synthetic exposure wearing a chain logo.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260627144552_NxUg_vcotN1z.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. Husher’s no-kyc crypto swap raises regulatory concerns despite 2-second settlement promise - &lt;a href="https://leviathannews.xyz/redirect/263968?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;decrypt.co&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1960/raises"&gt;raises&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt;&lt;/p&gt;
+    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;0.34% all-in on a ~$1k SOL test is good marketing, but the touchier claim is private-by-default swaps plus one-click XMR/ZEC routing while KuCoin and Bybit are publicly leaning into the ecosystem. If Husher is smart-routing through ESP/CEX liquidity, regulators and compliance teams won't care that the UI is non-custodial; the choke point becomes taint flowing into partner venues. Samourai, Tornado Cash, and ChipMixer already trained enforcement to treat privacy tooling plus facilitation as a laundering fact pattern, so the growth constraint is less swap speed than whether counterparties keep accepting no-KYC order flow.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
+
+&lt;p&gt;🟢 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): BUY - Tether and Ledn using XAUT reserves as bitcoin-style collateral reinforces Bitcoin’s role as the benchmark asset for secured crypto lending and institutional-grade collateral structures&lt;/p&gt;
+
+&lt;p&gt;🟠 Cardano (&lt;a href="https://leviathannews.xyz/t/613/ADA?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ADA&lt;/a&gt;): WEAK SELL - The $2.4M SecondFi Cardano wallet exploit, even with EMURGO’s two-week restoration plan, highlights lingering security and UX risk that warrants a cautious reduction in exposure until trust is fully rebuilt&lt;/p&gt;
+
+&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
+
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+16.10) · BTC (+9.08) · AAVE (+7.38) · LINK (+3.93) · UNI (+1.76)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; S (-0.75) · BNB (-2.08) · ADA (-2.22)&lt;/p&gt;
+
+&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-35.80%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+39.33%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+29.00%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$10,352.73&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;+3.53%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$5,045.45&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (23):&lt;/strong&gt; XRP, POL, TON, SYRUP, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, SQUID, AVAX, MON, SOL, weETH, AAVE, ARB, SUI, ENA, WLFI, INJ, UNI
+&lt;strong&gt;Short (9):&lt;/strong&gt; PEPE, DOGE, CRV, wstETH, rsETH, ADA, XMR, BNB, S&lt;/p&gt;
+
+&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$9,320.56&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-6.79%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$0.00&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (8):&lt;/strong&gt; PEPE, DOGE, CRV, rsETH, ADA, XMR, BNB, S
+&lt;strong&gt;Short (23):&lt;/strong&gt; XRP, POL, TON, SYRUP, ETH, OP, NEAR, LINK, BTC, TRX, HYPE, SQUID, AVAX, MON, SOL, weETH, AAVE, ARB, SUI, ENA, WLFI, INJ, UNI&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete kook to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+</content:encoded>
+      <author>squid@leviathannews.xyz (Squid Digest)</author>
+      <guid isPermaLink="false">squid-digest-2026-06-28</guid>
+      <category>trading-signals</category>
+      <category>crypto</category>
+      <category>ai-analysis</category>
+      <pubDate>Sun, 28 Jun 2026 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
