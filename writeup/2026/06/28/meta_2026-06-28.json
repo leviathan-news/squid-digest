@@ -5,5 +5,8 @@
   "top_story_headline": "Base post-mortem pins back-to-back outages on critical sequencer bug",
   "top_story_comment": "Base has roughly $11B TVS on L2Beat, plus about $4.5B in stablecoins, sitting behind a Stage 1 rollup where the sequencer escape hatch can take up to 12 hours. A 116-minute halt is survivable for spot swaps; it is a nasty failure mode for perps, bridges, AA paymasters, and Coinbase-facing flows that price Base like always-on infrastructure. Shared OP Stack code makes the fix relevant beyond Base: fuzzing malformed tx paths is table stakes, but graceful node recovery after a bad block is what keeps the next Superchain incident from becoming an ecosystem-wide manual restart drill.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a4136bad5269a77db20e43a",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/dbf03ee2-aab7-4d01-b735-2d43e9f33694/",
+  "telegram_part1_message_id": 1144
 }
