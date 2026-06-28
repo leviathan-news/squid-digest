@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Spain's CNMV rules out MiCA deadline extensions as Binance and unlicensed crypto firms face July 1 exit** [Reuters](https://leviathannews.xyz/redirect/263463?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cypher Industries launches as a community-owned DEX with a fair-launch model** [𝕏/@0x_narrator](https://leviathannews.xyz/redirect/263954?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LayerZero fee switch stays off as fourth referendum draws 3.52M ZRO, just 2.82% of quorum** [layerzero.foundation](https://leviathannews.xyz/redirect/263849?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kraken opens Bending Spoons IPO access to eligible users via xStocks with 24/5 trading.** [blog.kraken](https://leviathannews.xyz/redirect/263806?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **EU MiCA licenses near 230 before July 1 deadline as smaller crypto firms face shutdown pressure** [lesechos.fr](https://leviathannews.xyz/redirect/263835?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Base post-mortem pins back-to-back outages on critical sequencer bug** [CoinTelegraph](https://leviathannews.xyz/redirect/264111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Etherlink pauses EVM bridge transfers after security breach attempt, says no funds lost** [𝕏/@etherlink](https://leviathannews.xyz/redirect/264167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Taiko sets four-stage chain restart after June 21 exploit with security-reviewed fixes and 1:1 bridge backing** [𝕏/@taikoxyz](https://leviathannews.xyz/redirect/264124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Onchain money laid the foundation for tokenized assets, with Treasuries, money market funds and equities now following stablecoins onto blockchain rails** [𝕏/@jevgenijs](https://leviathannews.xyz/redirect/264099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Husher’s no-kyc crypto swap raises regulatory concerns despite 2-second settlement promise** [decrypt.co](https://leviathannews.xyz/redirect/263968?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/27/signals_2026-06-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/27/signals_2026-06-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/28/signals_2026-06-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/28/signals_2026-06-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
