@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Base post-mortem pins back-to-back outages on critical sequencer bug** [CoinTelegraph](https://leviathannews.xyz/redirect/264111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Etherlink pauses EVM bridge transfers after security breach attempt, says no funds lost** [𝕏/@etherlink](https://leviathannews.xyz/redirect/264167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Taiko sets four-stage chain restart after June 21 exploit with security-reviewed fixes and 1:1 bridge backing** [𝕏/@taikoxyz](https://leviathannews.xyz/redirect/264124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Onchain money laid the foundation for tokenized assets, with Treasuries, money market funds and equities now following stablecoins onto blockchain rails** [𝕏/@jevgenijs](https://leviathannews.xyz/redirect/264099?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Husher’s no-kyc crypto swap raises regulatory concerns despite 2-second settlement promise** [decrypt.co](https://leviathannews.xyz/redirect/263968?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **o1.exchange secures $4.8m seed from Coinbase Ventures and a16z to bring AI trading terminal to Base.** [𝕏/@o1_exchange](https://leviathannews.xyz/redirect/264426?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AIDC burn bug lets attacker drain 220.12 WBNB from PancakeSwap pair by abusing sync()** [𝕏/@SlowMist_Team](https://leviathannews.xyz/redirect/264401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash developers rally around a “breach all gates” vision as ZODL ships major wallet upgrades, advances Ironwood migration, and expands privacy-focused infrastructure** [𝕏/@jswihart](https://leviathannews.xyz/redirect/264395?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Galaxy Research cuts 2026 CLARITY Act odds to 50-50 as Senate calendar crowds out crypto market structure** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/264463?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik’s new post explains how obfuscation could hide a program’s inner logic while still letting it run, then walks through the layered cryptography needed to build it.** [vitalik.eth.limo](https://leviathannews.xyz/redirect/264394?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/28/signals_2026-06-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/28/signals_2026-06-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/29/signals_2026-06-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/29/signals_2026-06-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
