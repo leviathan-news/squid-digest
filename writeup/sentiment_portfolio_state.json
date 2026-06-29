@@ -1,5 +1,5 @@
 {
-  "cash": 5045.45085329152,
+  "cash": 4856.433048069247,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -212,8 +212,8 @@
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
-      "quantity": 4479.82415416169,
-      "entry_price": 0.07816039297890595,
+      "quantity": 6882.508799590981,
+      "entry_price": 0.07833809404210086,
       "entry_date": "2026-06-12T16:13:27.411325",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -2670,6 +2670,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-29T16:43:52.359541",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "BUY",
+      "quantity": 2402.684645429291,
+      "price": 0.07866941905249503,
+      "value": 189.01780522227233,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3348,6 +3360,10 @@
     [
       "2026-06-28T14:58:22.207847",
       10352.726652131007
+    ],
+    [
+      "2026-06-29T16:43:52.359541",
+      10513.293949313125
     ]
   ]
 }
