@@ -1,5 +1,5 @@
 {
-  "cash": 45.50160857094903,
+  "cash": 139.6036467906049,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -228,8 +228,8 @@
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": -59.25085242174237,
-      "entry_price": 2.841596110276661,
+      "quantity": -109.81026348244893,
+      "entry_price": 2.8045706184106165,
       "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -244,8 +244,8 @@
     "S": {
       "symbol": "S",
       "token_name": "S",
-      "quantity": 15691.939805289176,
-      "entry_price": 0.01986714325855046,
+      "quantity": 17692.345262250255,
+      "entry_price": 0.02019266634194888,
       "entry_date": "2026-06-26T15:34:59.646337",
       "entry_signal": "SENTIMENT_LONG"
     }
@@ -2290,6 +2290,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-06-30T15:43:40.334143",
+      "symbol": "S",
+      "token_name": "S",
+      "action": "BUY",
+      "quantity": 2000.4054569610803,
+      "price": 0.02274619298433273,
+      "value": 45.50160857094903,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-06-30T15:43:40.334143",
+      "symbol": "UNI",
+      "token_name": "UNI",
+      "action": "SHORT",
+      "quantity": 50.559411060706566,
+      "price": 2.7611802404696353,
+      "value": 139.6036467906049,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -2972,6 +2996,10 @@
     [
       "2026-06-29T16:43:52.359541",
       9289.035484361915
+    ],
+    [
+      "2026-06-30T15:43:40.334143",
+      9874.149361788463
     ]
   ]
 }
