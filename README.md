@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Uniswap adds MegaETH swaps, LPing, and API support with 100,000 TPS and 10ms blocks** [blog.uniswap.org](https://leviathannews.xyz/redirect/264800?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Michigan court blocks Kalshi sports event contracts for 14 days in state gambling suit** [michigan.gov](https://leviathannews.xyz/redirect/265342?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AnomaPay launches on StableChain with shielded USDT0 payments for Stable's USDT-native L1** [anoma.net](https://leviathannews.xyz/redirect/264629?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ripple proposes a new XRPL lending standard that would let institutions borrow against tokenized assets, bringing real-world credit markets onchain** [Coindesk](https://leviathannews.xyz/redirect/264802?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bluprynt and Chainproof launch verified D&O insurance as digital asset firms face rising issuer and collateral scrutiny** [Bluprynt](https://leviathannews.xyz/redirect/265070?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Convex votes to activate onchain DAO voting** [vote.convexfinance](https://leviathannews.xyz/redirect/266363?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ornn launches compute forward curves for Nvidia H100, H200, and B200 GPUs, bringing transparent market-based pricing to future AI compute demand and supply** [𝕏/@OrnnExchange](https://leviathannews.xyz/redirect/265898?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OKX launches AI marketplace where agents can find work, hire each other, and get paid onchain** [𝕏/@okx](https://leviathannews.xyz/redirect/265616?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **StarkWare lays out 3-phase quantum-proofing plan for Starknet as Ben-Sasson tells crypto to stop stalling** [CoinTelegraph](https://leviathannews.xyz/redirect/265530?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Plume and FalconX roll out FALX, opening institutional onchain access to overcollateralized structured credit yields** [plume.org](https://leviathannews.xyz/redirect/265615?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/06/30/signals_2026-06-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/06/30/signals_2026-06-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/01/signals_2026-07-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/01/signals_2026-07-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
