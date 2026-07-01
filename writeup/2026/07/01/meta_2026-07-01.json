@@ -5,5 +5,8 @@
   "top_story_headline": "Convex votes to activate onchain DAO voting",
   "top_story_comment": "311,915 CVX across 3 For votes is thin social consent for a system meant to route Convex weight across Curve, F(x), Frax, Resupply, and Convex itself. The upside is cleaner execution than Snapshot-plus-multisig, especially for Curve/F(x) gauge votes where the repo stores per-gauge basis-point totals and submits them on-chain. The footgun is already in the code docs: delegation is lazy, expired vlCVX locks can revert `sync()`, and DAO votes sit behind a 12-hour finalization window.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a4537785320d3e7b8e9099d",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/0a7f32bf-9ba3-4864-8626-8c0c9a1d5aa8/",
+  "telegram_part1_message_id": 1153
 }
