@@ -3,14 +3,14 @@
 
 GM Fam, and welcome to SQUID Digest.
 
-First up, JPMorgan just pulled off a tokenized equity conversion using Invesco's QQQ Trust and the DTCC’s infrastructure. Real-world assets are finally knocking on traditional capital markets’ door, and the bank is answering.
+First up, Keyrock has officially closed the deal for BlockFills' institutional trading and brokerage assets, signaling more consolidation in the digital asset prime services space.
 
-Next, Summer.fi is winding down operations after a $6.04 million exploit on Lazy Summer drained their runway. Another DeFi protocol gets caught in the crossfire—no lifeline here.
+Next, Summer.fi is winding down operations after the Lazy Summer exploit drained $6.04 million from its team runway. The protocol is shutting up shop, proving that even in DeFi, one bad exploit can sink the ship.
 
-Meanwhile, BlackRock leads a $239 million inflow into U.S. spot Bitcoin and Ether ETFs, just one day after a brutal $425 million Bitcoin ETF outflow. Whiplash is the new normal.
+Meanwhile, OpenAI unveiled GPT-Red, an automated AI red teamer that uses adversarial self-play to hunt down prompt injection flaws. Think of it as an AI that fights itself to make future models harder to jailbreak.
 
-And finally, Bybit launches an OJK-supervised crypto exchange in Indonesia after taking a majority stake in NOBI. Regulatory compliance meets market expansion.
+In price feed news, Pyth has added fixed income data from Tradeweb, Fenics, and OpenYield, now including regulated government bond benchmarks. Real-world assets just got a deeper data pipeline.
 
-Also, Starknet opens its STRK20 Privacy SDK and Wallet API for private transfers, swaps, and DeFi integrations. Privacy is back on the menu.
+And finally, Alpaca raised $135 million led by Peak XV to expand its brokerage rails for tokenized assets and AI agents. The infrastructure race for the next wave of trading is heating up fast.
 
 And that's all the news that's fit to ink. Squids, we'll see you on the next tide.

@@ -1,5 +1,5 @@
 {
-  "cash": 4797.17167761698,
+  "cash": 6980.946335419547,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -169,14 +169,6 @@
       "entry_date": "2026-04-24T14:43:47.541498",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "Aave",
-      "quantity": 14.134214503239718,
-      "entry_price": 73.05487878352587,
-      "entry_date": "2026-06-01T18:35:15.675707",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "ADA": {
       "symbol": "ADA",
       "token_name": "Cardano",
@@ -255,6 +247,14 @@
       "quantity": -32379.499307043716,
       "entry_price": 0.057580561377677836,
       "entry_date": "2026-07-16T09:40:41.164284",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "quantity": -9.455803754755076,
+      "entry_price": 92.57197827994361,
+      "entry_date": "2026-07-16T15:14:16.503185",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2742,6 +2742,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-16T15:14:16.503185",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SELL",
+      "quantity": 14.134214503239718,
+      "price": 92.57197827994361,
+      "value": 1308.4321979979711,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 275.85887076344034,
+      "entry_price": 73.05487878352587
+    },
+    {
+      "date": "2026-07-16T15:14:16.503185",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 9.455803754755076,
+      "price": 92.57197827994361,
+      "value": 875.342459804596,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3436,6 +3460,10 @@
     [
       "2026-07-16T09:40:41.164284",
       11038.990136545755
+    ],
+    [
+      "2026-07-16T15:14:16.503185",
+      10588.009822226924
     ]
   ]
 }

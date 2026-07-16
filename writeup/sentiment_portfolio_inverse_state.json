@@ -1,5 +1,5 @@
 {
-  "cash": 609.8193121026084,
+  "cash": -489.93625462355544,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -161,19 +161,11 @@
       "entry_date": "2026-04-22T14:45:08.084088",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "AAVE",
-      "quantity": -6.968368118569867,
-      "entry_price": 70.80372594053652,
-      "entry_date": "2026-06-01T18:35:15.675707",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "ADA": {
       "symbol": "ADA",
       "token_name": "Cardano",
-      "quantity": 2388.2982913814453,
-      "entry_price": 0.16148102830352018,
+      "quantity": 5179.391106454717,
+      "entry_price": 0.1622477992727398,
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -2354,6 +2346,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-16T15:14:16.503185",
+      "symbol": "ADA",
+      "token_name": "Cardano",
+      "action": "BUY",
+      "quantity": 2791.092815073272,
+      "price": 0.16290391424884462,
+      "value": 454.67994460726266,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-16T15:14:16.503185",
+      "symbol": "AAVE",
+      "token_name": "AAVE",
+      "action": "COVER",
+      "quantity": 6.968368118569867,
+      "price": 92.57197827994361,
+      "value": 645.0756221189012,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -151.6891955989082,
+      "entry_price": 70.80372594053652
     }
   ],
   "daily_values": [
@@ -3048,6 +3064,10 @@
     [
       "2026-07-16T09:40:41.164284",
       8968.735860038805
+    ],
+    [
+      "2026-07-16T15:14:16.503185",
+      8939.547496746092
     ]
   ]
 }
