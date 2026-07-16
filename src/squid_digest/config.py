@@ -22,6 +22,21 @@ PERPLEXITY_CHAT_MODEL = {
     "REASONING": os.getenv("PERPLEXITY_REASONING", "high"),
 }
 
+# DeepSeek is the FALLBACK provider only (2026-07-16): when
+# DEEPSEEK_API_KEY is set, Perplexity chat failures (401/quota/etc.)
+# degrade to DeepSeek's OpenAI-compatible endpoint instead of crashing the
+# daily pipeline. The digest was dark 2026-07-02 → 07-15 because a
+# Perplexity 401 had no fallback. DeepSeek has no web search — reasoning
+# runs over the provided headlines only, which is the pipeline's normal
+# input contract anyway.
+DEEPSEEK_CHAT_MODEL = {
+    "API_KEY": os.getenv("DEEPSEEK_API_KEY"),
+    "MODEL": os.getenv("DEEPSEEK_CHAT_MODEL", "deepseek-chat"),
+    "BASE_URL": os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
+    "TEMPERATURE": float(os.getenv("DEEPSEEK_TEMPERATURE", 0.7)),
+    "MAX_TOKENS": int(os.getenv("DEEPSEEK_MAX_TOKENS", 4000)),
+}
+
 WRITEUP_DIR = Path("writeup")
 WRITEUP_DIR.mkdir(exist_ok=True)
 

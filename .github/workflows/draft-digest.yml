@@ -74,6 +74,9 @@ jobs:
     - name: Generate digest
       env:
         PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        # Fallback provider (2026-07-16): Perplexity 401/quota failures
+        # degrade to DeepSeek instead of crashing the daily run.
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS || 'squid@leviathannews.xyz' }}
