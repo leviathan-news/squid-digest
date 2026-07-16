@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 609.8193121026084,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -209,14 +209,6 @@
       "entry_date": "2026-06-12T16:13:27.411325",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "WLFI": {
-      "symbol": "WLFI",
-      "token_name": "World Liberty Financial",
-      "quantity": -4081.3261597214587,
-      "entry_price": 0.06133581891243335,
-      "entry_date": "2026-06-17T16:45:25.124266",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "INJ": {
       "symbol": "INJ",
       "token_name": "Injective",
@@ -233,14 +225,6 @@
       "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": 0.9651303790406686,
-      "entry_price": 561.0313929439444,
-      "entry_date": "2026-06-26T15:34:59.646337",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "S": {
       "symbol": "S",
       "token_name": "S",
@@ -248,6 +232,14 @@
       "entry_price": 0.02019266634194888,
       "entry_date": "2026-06-26T15:34:59.646337",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.49850115761605784,
+      "entry_price": 577.2110960894888,
+      "entry_date": "2026-07-16T09:40:41.164284",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2326,6 +2318,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-16T09:40:41.164284",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "COVER",
+      "quantity": 4081.3261597214587,
+      "price": 0.057580561377677836,
+      "value": 235.00505144216362,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 15.32643081308882,
+      "entry_price": 0.06133581891243335
+    },
+    {
+      "date": "2026-07-16T09:40:41.164284",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SELL",
+      "quantity": 0.9651303790406686,
+      "price": 577.2110960894888,
+      "value": 557.0839639553282,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 15.615523029624796,
+      "entry_price": 561.0313929439444
+    },
+    {
+      "date": "2026-07-16T09:40:41.164284",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.49850115761605784,
+      "price": 577.2110960894888,
+      "value": 287.74039958944377,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3016,6 +3044,10 @@
     [
       "2026-07-01T15:50:33.539789",
       9785.938946626338
+    ],
+    [
+      "2026-07-16T09:40:41.164284",
+      8968.735860038805
     ]
   ]
 }

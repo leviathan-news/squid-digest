@@ -1,0 +1,9 @@
+{
+  "blurb": "In today's digest: JPMorgan completes tokenized equity conversion using Invesco, Summer.fi winds down operations after $6.04M Lazy Summer exp, and BlackRock leads $239M inflow into U.S. spot Bitcoin and ethe",
+  "date": "2026-07-16",
+  "title": "Crypto Trading Signals - July 16, 2026",
+  "top_story_headline": "JPMorgan completes tokenized equity conversion using Invesco's QQQ Trust with DTCC infrastructure, showcasing real-world tokenization within traditional capital markets",
+  "top_story_comment": "DTCC\u2019s March 3 FAQ makes the limitation explicit: the QQQ token moves 24/7 only free-of-value between DTC-registered wallets, receives no DTC collateral or end-of-day settlement value, and must return to book-entry form for traditional settlement. This is permissioned collateral plumbing, not DeFi composability; ComposerX LedgerScan remains the authoritative movement record, with DTC retaining clawback and force-transfer rights.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok"
+}
