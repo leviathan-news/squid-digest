@@ -10,7 +10,12 @@ from pathlib import Path
 from langchain_core.language_models import BaseChatModel
 from langchain_openai import ChatOpenAI
 
-from squid_digest.config import OPENAI_CHAT_MODEL, PERPLEXITY_CHAT_MODEL, get_writeup_date_path
+from squid_digest.config import (
+    DEEPSEEK_CHAT_MODEL,
+    OPENAI_CHAT_MODEL,
+    PERPLEXITY_CHAT_MODEL,
+    get_writeup_date_path,
+)
 
 
 class LLMChatProvider(ABC):
@@ -66,16 +71,35 @@ class PerplexityChatProvider(LLMChatProvider):
         """Get default Perplexity model."""
         return PERPLEXITY_CHAT_MODEL["MODEL"]
 
-    def get_model(self, prompt_type: str = "signals", **kwargs) -> BaseChatModel:
-        """Get Perplexity chat model instance."""
+    def get_model(self, prompt_type: str = "signals", **kwargs):
+        """Get Perplexity chat model instance.
+
+        Resilience (2026-07-16): the daily digest was dark 2026-07-02→07-15
+        because a Perplexity 401 crashed the pipeline with no fallback. When
+        DEEPSEEK_API_KEY is configured, Perplexity failures now degrade to
+        DeepSeek's OpenAI-compatible endpoint (no web search — it reasons
+        over the provided headlines, the pipeline's normal input) instead of
+        killing the run. Returns a plain chat model when no fallback key is
+        set, or a RunnableWithFallbacks when one is.
+        """
         # For now, we'll use a simple HTTP-based implementation
         # In the future, this could be replaced with a proper LangChain integration
-        return PerplexityLangChainModel(
+        model = PerplexityLangChainModel(
             model=self.model or self.get_default_model(),
             api_key=self.api_key,
             prompt_type=prompt_type,
             **kwargs
         )
+        if DEEPSEEK_CHAT_MODEL["API_KEY"]:
+            fallback = ChatOpenAI(
+                model=DEEPSEEK_CHAT_MODEL["MODEL"],
+                api_key=DEEPSEEK_CHAT_MODEL["API_KEY"],
+                base_url=DEEPSEEK_CHAT_MODEL["BASE_URL"],
+                temperature=DEEPSEEK_CHAT_MODEL["TEMPERATURE"],
+                max_tokens=DEEPSEEK_CHAT_MODEL["MAX_TOKENS"],
+            )
+            return model.with_fallbacks([fallback])
+        return model
 
 
 class PerplexityLangChainModel(BaseChatModel):
