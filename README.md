@@ -11,11 +11,11 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **JPMorgan completes tokenized equity conversion using Invesco's QQQ Trust with DTCC infrastructure, showcasing real-world tokenization within traditional capital markets** [𝕏/@The_DTCC](https://leviathannews.xyz/redirect/275858?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Keyrock closes deal for BlockFills' institutional trading and brokerage assets** [The Block](https://leviathannews.xyz/redirect/276752?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 - **Summer.fi winds down operations after $6.04M Lazy Summer exploit drains team runway** [blog.summer.fi](https://leviathannews.xyz/redirect/276247?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock leads $239M inflow into U.S. spot Bitcoin and ether ETFs one day after $425M Bitcoin ETF outflow** [Coindesk](https://leviathannews.xyz/redirect/275607?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bybit launches OJK-supervised Indonesian exchange after taking majority stake in NOBI** [announcements.bybit.id](https://leviathannews.xyz/redirect/275606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Starknet opens STRK20 Privacy SDK and Wallet API for private transfers, swaps and DeFi integrations** [starknet.io](https://leviathannews.xyz/redirect/275709?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI unveils GPT-Red, an automated AI red teamer that uses adversarial self-play to uncover prompt injection flaws and strengthen future models** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/276261?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pyth adds fixed income data from Tradeweb, Fenics and OpenYield, including regulated government bond benchmarks** [pyth.network](https://leviathannews.xyz/redirect/275937?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Alpaca raises $135M led by Peak XV to expand brokerage rails for tokenized assets and AI agents** [alpaca.markets](https://leviathannews.xyz/redirect/276702?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
 **Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/16/signals_2026-07-16.md)
