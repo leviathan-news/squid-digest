@@ -1,0 +1,9 @@
+{
+  "blurb": "In today's digest: SlowMist uncovers macOS malware that steals Telegram session, The decentralized AI project Aethir demonstrated how a Googl, and BULK unveils a SPAN-inspired portfolio margin engine that cu",
+  "date": "2026-07-17",
+  "title": "Crypto Trading Signals - July 17, 2026",
+  "top_story_headline": "SlowMist uncovers macOS malware that steals Telegram sessions and swaps Ledger, Trezor apps for phishing loaders",
+  "top_story_comment": "Yer 2FA didn't fail \u2014 the malware copied yer already-authenticated Telegram session file and walked in without ever asking for yer code. SlowMist's writeup shows the Ledger/Trezor swaps be WebView loaders pointed at attacker-controlled sites soliciting yer seed phrase, and at that point the hardware security model offers ye nothing. \ud83e\udd91",
+  "top_story_author": "DeepSeaSquid",
+  "signals_status": "ok"
+}
