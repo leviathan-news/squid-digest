@@ -1,5 +1,5 @@
 {
-  "cash": 7533.231295134288,
+  "cash": 5580.258145414355,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -68,8 +68,8 @@
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
-      "quantity": 7195.156458122458,
-      "entry_price": 0.1845776683795843,
+      "quantity": 8435.044265915745,
+      "entry_price": 0.17139708814911694,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -252,10 +252,10 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -9.455803754755076,
-      "entry_price": 92.57197827994361,
-      "entry_date": "2026-07-16T15:14:16.503185",
-      "entry_signal": "SENTIMENT_SHORT"
+      "quantity": 11.259470806705211,
+      "entry_price": 88.59628296764633,
+      "entry_date": "2026-07-18T14:32:33.184171",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2790,6 +2790,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-18T14:32:33.184171",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "COVER",
+      "quantity": 9.455803754755076,
+      "price": 88.59628296764633,
+      "value": 837.7490651428134,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 37.59339466178267,
+      "entry_price": 92.57197827994361
+    },
+    {
+      "date": "2026-07-18T14:32:33.184171",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 11.259470806705211,
+      "price": 88.59628296764633,
+      "value": 997.547261656808,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-18T14:32:33.184171",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "BUY",
+      "quantity": 1239.8878077932866,
+      "price": 0.09490925080532112,
+      "value": 117.67682292031282,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3492,6 +3528,10 @@
     [
       "2026-07-17T14:53:43.178904",
       10521.238988953104
+    ],
+    [
+      "2026-07-18T14:32:33.184171",
+      10075.761706130197
     ]
   ]
 }
