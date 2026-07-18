@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **SlowMist uncovers macOS malware that steals Telegram sessions and swaps Ledger, Trezor apps for phishing loaders** [slowmist.medium](https://leviathannews.xyz/redirect/277403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The decentralized AI project Aethir demonstrated how a Google protocol for agent communication can be used in conjunction with the x402 payment standard.** [app.distro.media](https://leviathannews.xyz/redirect/276885?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BULK unveils a SPAN-inspired portfolio margin engine that cuts collateral needs by up to 69%, bringing CEX-grade risk management fully onchain for DeFi traders** [𝕏/@bulktrade](https://leviathannews.xyz/redirect/276941?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Injective files for SEC transfer agent registration to support regulated securities issuance onchain** [𝕏/@injective](https://leviathannews.xyz/redirect/276804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Visa introduces platform for stablecoin minting, movement and management.** [investor.visa](https://leviathannews.xyz/redirect/276763?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Apple bans crypto ATM and home services ads from Maps under policies effective July 14** [ads.apple](https://leviathannews.xyz/redirect/277950?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trezor defends hardware wallets after ZachXBT called them "complete garbage," arguing they remain the strongest self-custody option despite usability tradeoffs** [The Block](https://leviathannews.xyz/redirect/277840?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FTX to distribute roughly $900 million to creditors in fifth payout on July 31** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/277829?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CryptoQuant says Strategy's new capital framework strengthens liquidity but still lacks disciplined rules for Bitcoin accumulation and selling during future bull markets** [The Block](https://leviathannews.xyz/redirect/277826?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MoonPay and AskVenice launch Lumara Film Festival with $100,000 in prizes for AI-generated films** [𝕏/@moonpay](https://leviathannews.xyz/redirect/277813?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/17/signals_2026-07-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/17/signals_2026-07-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/18/signals_2026-07-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/18/signals_2026-07-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
