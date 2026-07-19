@@ -1,5 +1,5 @@
 {
-  "cash": 5580.258145414355,
+  "cash": 453.0395645563963,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -68,8 +68,8 @@
     "OP": {
       "symbol": "OP",
       "token_name": "Optimism",
-      "quantity": 8435.044265915745,
-      "entry_price": 0.17139708814911694,
+      "quantity": 10038.647628476405,
+      "entry_price": 0.1590330065176709,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -185,14 +185,6 @@
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "XMR": {
-      "symbol": "XMR",
-      "token_name": "Monero",
-      "quantity": -9.957554280009978,
-      "entry_price": 315.73844120325344,
-      "entry_date": "2026-06-06T14:26:47.202149",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "SUI": {
       "symbol": "SUI",
       "token_name": "Sui",
@@ -252,9 +244,17 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 11.259470806705211,
-      "entry_price": 88.59628296764633,
+      "quantity": 13.14066263919413,
+      "entry_price": 88.72234098146636,
       "entry_date": "2026-07-18T14:32:33.184171",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "XMR": {
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "quantity": 4.409548825803347,
+      "entry_price": 334.66462706953286,
+      "entry_date": "2026-07-19T14:35:19.464652",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -2826,6 +2826,54 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "COVER",
+      "quantity": 9.957554280009978,
+      "price": 334.66462706953286,
+      "value": 3332.44118964417,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -188.4585230770349,
+      "entry_price": 315.73844120325344
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "action": "BUY",
+      "quantity": 4.409548825803347,
+      "price": 334.66462706953286,
+      "value": 1475.7200133323736,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 1.8811918324889176,
+      "price": 89.47683422455052,
+      "value": 168.3230897401893,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "OP",
+      "token_name": "Optimism",
+      "action": "BUY",
+      "quantity": 1603.60336256066,
+      "price": 0.09399723875642811,
+      "value": 150.7342881412253,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3532,6 +3580,10 @@
     [
       "2026-07-18T14:32:33.184171",
       10075.761706130197
+    ],
+    [
+      "2026-07-19T14:35:19.464652",
+      10125.057055673948
     ]
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 136.04056232746598,
+  "cash": 5939.188017409345,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -185,14 +185,6 @@
       "entry_date": "2026-06-09T15:50:52.001583",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "XMR": {
-      "symbol": "XMR",
-      "token_name": "Monero",
-      "quantity": 15.59266697507228,
-      "entry_price": 340.0254759414979,
-      "entry_date": "2026-06-10T16:32:07.702713",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
@@ -236,9 +228,25 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -5.183362471495003,
-      "entry_price": 88.59628296764633,
+      "quantity": -5.8711113421524095,
+      "entry_price": 88.69943177495028,
       "entry_date": "2026-07-18T14:32:33.184171",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "WLFI": {
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "quantity": 2382.539001202518,
+      "entry_price": 0.057098986526056196,
+      "entry_date": "2026-07-19T14:35:19.464652",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "XMR": {
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "quantity": -1.9701405352064156,
+      "entry_price": 334.66462706953286,
+      "entry_date": "2026-07-19T14:35:19.464652",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2402,6 +2410,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "BUY",
+      "quantity": 2382.539001202518,
+      "price": 0.057098986526056196,
+      "value": 136.04056232746598,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SELL",
+      "quantity": 15.59266697507228,
+      "price": 334.66462706953286,
+      "value": 5218.314078231985,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -83.58993116424335,
+      "entry_price": 340.0254759414979
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "action": "SHORT",
+      "quantity": 1.9701405352064156,
+      "price": 334.66462706953286,
+      "value": 659.336347489425,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-19T14:35:19.464652",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 0.6877488706574065,
+      "price": 89.47683422455052,
+      "value": 61.537591687934594,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3108,6 +3164,10 @@
     [
       "2026-07-18T14:32:33.184171",
       9276.870289175586
+    ],
+    [
+      "2026-07-19T14:35:19.464652",
+      9047.540287991627
     ]
   ]
 }
