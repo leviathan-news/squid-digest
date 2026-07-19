@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Apple bans crypto ATM and home services ads from Maps under policies effective July 14** [ads.apple](https://leviathannews.xyz/redirect/277950?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trezor defends hardware wallets after ZachXBT called them "complete garbage," arguing they remain the strongest self-custody option despite usability tradeoffs** [The Block](https://leviathannews.xyz/redirect/277840?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **FTX to distribute roughly $900 million to creditors in fifth payout on July 31** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/277829?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CryptoQuant says Strategy's new capital framework strengthens liquidity but still lacks disciplined rules for Bitcoin accumulation and selling during future bull markets** [The Block](https://leviathannews.xyz/redirect/277826?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MoonPay and AskVenice launch Lumara Film Festival with $100,000 in prizes for AI-generated films** [𝕏/@moonpay](https://leviathannews.xyz/redirect/277813?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Federal regulators leave GENIUS Act stablecoin rules unfinished at one-year mark, shrinking runway to Jan. 18, 2027** [The Block](https://leviathannews.xyz/redirect/278124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash retires its original zcashd node after 10 years, transitioning to Rust-based Zebra and Zakura while the network continues uninterrupted** [𝕏/@jswihart](https://leviathannews.xyz/redirect/278141?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto executives say digital-native generations could bypass traditional banks as stablecoins, self-custody and blockchain finance reshape how younger users manage money** [Coindesk](https://leviathannews.xyz/redirect/278138?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Michael Saylor publishes 110 reasons opposing Bitcoin's BIP 110, arguing the proposal threatens neutral consensus, permissionless innovation and future protocol flexibility** [𝕏/@saylor](https://leviathannews.xyz/redirect/278145?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin Japan plans a $60M raise with EVO Fund, allocating $4.1M for its first Bitcoin purchase despite adopting a BTC treasury strategy and still holding zero BTC** [The Block](https://leviathannews.xyz/redirect/278137?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/18/signals_2026-07-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/18/signals_2026-07-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/19/signals_2026-07-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/19/signals_2026-07-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
