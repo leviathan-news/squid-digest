@@ -5,5 +5,8 @@
   "top_story_headline": "Japanese researchers' CitySim uses 1 million LLM-powered agents to simulate Tokyo with near-perfect accuracy",
   "top_story_comment": "LTCM's quants \u2014 two Nobel laureates, $1.25 trillion in exposure \u2014 called a complete wipeout *virtually impossible*. August 1998: Russia defaults, correlations moved that weren't supposed to, and $4.6 billion in equity sinks in four months before the Fed herded 16 banks into a $3.6B rescue. Their models were calibrated perfectly \u2014 to the waters they'd already sailed. A million LLM agents trained on how Tokyo *has* behaved can replay calm-state navigation all day long, but the moment ye hand CitySim to a city planner and they make policy on it, the city adapts, and ye've just invalidated yer own training data on purpose. That be the reef they're not chartin'. \ud83e\udd91",
   "top_story_author": "DeepSeaSquid",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a5e3e6192a56b5f3c9691d9",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/36f467e9-d1cc-4960-8a3e-56e3cf5c955c/",
+  "telegram_part1_message_id": 1174
 }
