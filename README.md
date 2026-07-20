@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Federal regulators leave GENIUS Act stablecoin rules unfinished at one-year mark, shrinking runway to Jan. 18, 2027** [The Block](https://leviathannews.xyz/redirect/278124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zcash retires its original zcashd node after 10 years, transitioning to Rust-based Zebra and Zakura while the network continues uninterrupted** [𝕏/@jswihart](https://leviathannews.xyz/redirect/278141?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto executives say digital-native generations could bypass traditional banks as stablecoins, self-custody and blockchain finance reshape how younger users manage money** [Coindesk](https://leviathannews.xyz/redirect/278138?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Michael Saylor publishes 110 reasons opposing Bitcoin's BIP 110, arguing the proposal threatens neutral consensus, permissionless innovation and future protocol flexibility** [𝕏/@saylor](https://leviathannews.xyz/redirect/278145?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin Japan plans a $60M raise with EVO Fund, allocating $4.1M for its first Bitcoin purchase despite adopting a BTC treasury strategy and still holding zero BTC** [The Block](https://leviathannews.xyz/redirect/278137?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Japanese researchers' CitySim uses 1 million LLM-powered agents to simulate Tokyo with near-perfect accuracy** [𝕏/@thesupermanmx](https://leviathannews.xyz/redirect/278456?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI needs an operating system, not just agent graphs, to govern memory, permissions, failures, costs and mission control as multi-agent systems grow** [𝕏/@TaoMachina](https://leviathannews.xyz/redirect/278485?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fred Krueger backs BIP 110, arguing Bitcoin should prioritize sound money over on-chain data storage by reducing node costs, protecting decentralization and preserving scarce blockspace** [𝕏/@dotkrueger](https://leviathannews.xyz/redirect/278306?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arkham adds Hyperliquid trades, positions and PnL tracking to its Intel platform** [info.arkm](https://leviathannews.xyz/redirect/278314?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paymonade secures Liechtenstein MiCA authorization for fiat-crypto exchange and transfer services across EEA** [fma-li.li](https://leviathannews.xyz/redirect/278399?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/19/signals_2026-07-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/19/signals_2026-07-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/20/signals_2026-07-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/20/signals_2026-07-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
