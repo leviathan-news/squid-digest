@@ -1,5 +1,5 @@
 {
-  "cash": 5939.188017409345,
+  "cash": 664.5641669055894,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -236,8 +236,8 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": 2382.539001202518,
-      "entry_price": 0.057098986526056196,
+      "quantity": 95002.70197368703,
+      "entry_price": 0.05695274240020897,
       "entry_date": "2026-07-19T14:35:19.464652",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -2458,6 +2458,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-20T15:25:58.863076",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "BUY",
+      "quantity": 92620.16297248451,
+      "price": 0.0569489804511652,
+      "value": 5274.623850503755,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3168,6 +3180,10 @@
     [
       "2026-07-19T14:35:19.464652",
       9047.540287991627
+    ],
+    [
+      "2026-07-20T15:25:58.863076",
+      9017.178362512292
     ]
   ]
 }
