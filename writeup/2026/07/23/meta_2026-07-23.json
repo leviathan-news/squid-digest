@@ -5,5 +5,8 @@
   "top_story_headline": "Cross-chain exploits drain over $35M from AFX, Verus and B\u00b2 Network in six hours, exposing bridge key compromises, validation flaws and governance weaknesses",
   "top_story_comment": "Ye patched nothin' after May's $7.54M drain on the Verus bridge, and the same import path flaw just cleared the hold again \u2014 that ain't an exploit, that's a choice. \ud83e\udd91",
   "top_story_author": "DeepSeaSquid",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a6232ec92a56b5f3c9695a9",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/ba782c89-3cf3-44a0-a144-fc8fdf23e9ce/",
+  "telegram_part1_message_id": 1177
 }
