@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Cross-chain exploits drain over $35M from AFX, Verus and B² Network in six hours, exposing bridge key compromises, validation flaws and governance weaknesses** [Coindesk](https://leviathannews.xyz/redirect/280550?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z reports tokenized stocks hit $1.7B market cap, growing 5x YoY as Robinhood, Coinbase, NYSE, DTCC and Binance accelerate equities onchain** [𝕏/@a16zcrypto](https://leviathannews.xyz/redirect/280509?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z Chris Dixon urges Congress to pass the CLARITY ACT, arguing clear blockchain rules will unlock tokenization, stablecoins and institutional crypto adoption while strengthening U.S. leadership** [𝕏/@cdixon](https://leviathannews.xyz/redirect/280513?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitwise CIO Matt Hougan says the next crypto bull market will be driven by TradFi-onchain convergence, naming Hyperliquid and Robinhood as early leaders** [𝕏/@Matt_Hougan](https://leviathannews.xyz/redirect/280505?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vladimir S. explains how onchain investigators demix Tornado Cash transactions, using behavioral heuristics like timing, gas fees and address patterns to probabilistically link deposits and withdrawals** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/280527?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SBI-owned crypto market maker B2C2 explored sale talks with multiple potential buyers over the past 18 months, though valuation disagreements stalled deals** [Coindesk](https://leviathannews.xyz/redirect/281403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Claude AI autonomously plays its own generated game on the Internet Computer for the first time** [𝕏/@X2worldtech](https://leviathannews.xyz/redirect/281408?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BitMEX faces a proposed class-action lawsuit alleging theft and insider trading, with claims the exchange retained customer collateral and misused private user data** [Coindesk](https://leviathannews.xyz/redirect/281384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Deloitte and Avalanche have released a stablecoin playbook to help institutions navigate adoption, regulation and execution as stablecoins become core financial infrastructure** [𝕏/@avax](https://leviathannews.xyz/redirect/281264?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zodl will migrate Zcash users from the Orchard shielded pool to the new Ironwood pool after the July 28 network upgrade, offering a privacy-first migration option** [𝕏/@zodl_app](https://leviathannews.xyz/redirect/281263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/23/signals_2026-07-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/23/signals_2026-07-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/24/signals_2026-07-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/24/signals_2026-07-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
