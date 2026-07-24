@@ -1,5 +1,5 @@
 {
-  "cash": 877.7285498387669,
+  "cash": 718.1204828609771,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -132,8 +132,8 @@
     "AVAX": {
       "symbol": "AVAX",
       "token_name": "Avalanche",
-      "quantity": 125.87120725281937,
-      "entry_price": 8.983286974736167,
+      "quantity": 151.6997484590752,
+      "entry_price": 8.50591551201195,
       "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -2886,6 +2886,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-24T15:08:57.172987",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 25.828541206255824,
+      "price": 6.179523098235675,
+      "value": 159.6080669777898,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3604,6 +3616,10 @@
     [
       "2026-07-23T15:26:30.973384",
       11367.889809594757
+    ],
+    [
+      "2026-07-24T15:08:57.172987",
+      11061.621851195092
     ]
   ]
 }

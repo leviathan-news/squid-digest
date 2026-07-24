@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-07-23",
+  "last_processed_date": "2026-07-24",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 4.933877876286019,
+      "score": 4.0474344641413,
       "last_signal_date": "2026-07-20",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.6380489345033868,
+      "score": 0.429375091928489,
       "last_signal_date": "2026-07-16",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.23263505306221557,
+      "score": 0.19083875907364836,
       "last_signal_date": "2026-07-20",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.7013667494717,
+      "score": 1.3282726435269698,
       "last_signal_date": "2026-07-19",
       "token_name": "ETH"
     },
@@ -45,20 +45,20 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 2.8619728212469777,
+      "score": 2.723725662028877,
       "last_signal_date": "2026-07-23",
       "token_name": "Hyperliquid"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.0,
-      "last_signal_date": "2026-06-29",
+      "score": 1.0,
+      "last_signal_date": "2026-07-24",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.0,
-      "last_signal_date": "2026-06-12",
+      "score": 2.0,
+      "last_signal_date": "2026-07-24",
       "token_name": "Avalanche"
     },
     "SUI": {
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.6646591383174602,
+      "score": 0.44728243114816274,
       "last_signal_date": "2026-07-16",
       "token_name": "ChainLink Token"
     },
@@ -87,19 +87,19 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": 0.43098641062348886,
+      "score": 0.29003234654004073,
       "last_signal_date": "2026-07-16",
       "token_name": "Dogecoin"
     },
     "OP": {
       "symbol": "OP",
-      "score": 1.3564150378872963,
+      "score": 1.0078125,
       "last_signal_date": "2026-07-18",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 2.690169130811025,
+      "score": 2.560220922571644,
       "last_signal_date": "2026-07-23",
       "token_name": "Aave"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.43098641062348886,
+      "score": -0.29003234654004073,
       "last_signal_date": "2026-07-16",
       "token_name": "World Liberty Financial"
     },
@@ -171,9 +171,9 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 2.3421275464671303,
-      "last_signal_date": "2026-07-19",
-      "token_name": "XMR"
+      "score": 2.828520481306713,
+      "last_signal_date": "2026-07-24",
+      "token_name": "Monero"
     },
     "WETH": {
       "symbol": "WETH",
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 1.1040895136738123,
+      "score": 0.7807091821557101,
       "last_signal_date": "2026-07-17",
       "token_name": "Injective"
     },
