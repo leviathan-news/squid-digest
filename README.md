@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **SBI-owned crypto market maker B2C2 explored sale talks with multiple potential buyers over the past 18 months, though valuation disagreements stalled deals** [Coindesk](https://leviathannews.xyz/redirect/281403?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Claude AI autonomously plays its own generated game on the Internet Computer for the first time** [𝕏/@X2worldtech](https://leviathannews.xyz/redirect/281408?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BitMEX faces a proposed class-action lawsuit alleging theft and insider trading, with claims the exchange retained customer collateral and misused private user data** [Coindesk](https://leviathannews.xyz/redirect/281384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Deloitte and Avalanche have released a stablecoin playbook to help institutions navigate adoption, regulation and execution as stablecoins become core financial infrastructure** [𝕏/@avax](https://leviathannews.xyz/redirect/281264?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zodl will migrate Zcash users from the Orchard shielded pool to the new Ironwood pool after the July 28 network upgrade, offering a privacy-first migration option** [𝕏/@zodl_app](https://leviathannews.xyz/redirect/281263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Rotki founder Karapetsas banned from r/CryptoTax for privacy tool recommendation after a user asked for the most privacy-respecting crypto tax tools, criticizing Koinly's security flaws.** [𝕏/@LefterisJP](https://leviathannews.xyz/redirect/282049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DPRK's BlueNoroff fingerprints crypto wallets before pushing malware via hijacked Telegram accounts and fake Zoom calls** [Jumpsec](https://leviathannews.xyz/redirect/282031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Monad's Keone says Phantom's decision to remove the network is a step backward, recommending MetaMask, Backpack, Rabby, Rainbow, Infinex and Ambire** [𝕏/@keoneHD](https://leviathannews.xyz/redirect/282061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Michael Saylor unveils a 38-book curriculum for leaders, arguing that history, technology, capital, energy and Bitcoin are essential to building stronger civilizations** [𝕏/@saylor](https://leviathannews.xyz/redirect/282064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The EU adds HTX to its Russia sanctions list, banning EU individuals and companies from transacting with the crypto exchange starting August 23** [The Block](https://leviathannews.xyz/redirect/282059?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/24/signals_2026-07-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/24/signals_2026-07-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/26/signals_2026-07-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/26/signals_2026-07-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
