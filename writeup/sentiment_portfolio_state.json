@@ -1,5 +1,5 @@
 {
-  "cash": 718.1204828609771,
+  "cash": 976.3363665011163,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -204,8 +204,8 @@
     "INJ": {
       "symbol": "INJ",
       "token_name": "Injective",
-      "quantity": 188.69964476737545,
-      "entry_price": 5.017280005103114,
+      "quantity": 219.5428399613742,
+      "entry_price": 4.986987087406817,
       "entry_date": "2026-06-20T15:15:36.745547",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -236,8 +236,8 @@
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
-      "quantity": -56725.55534396413,
-      "entry_price": 0.057739854190448324,
+      "quantity": -64235.674018594465,
+      "entry_price": 0.057314562160049605,
       "entry_date": "2026-07-16T09:40:41.164284",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2898,6 +2898,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-27T15:51:02.034001",
+      "symbol": "INJ",
+      "token_name": "Injective",
+      "action": "BUY",
+      "quantity": 30.843195193998746,
+      "price": 4.801654057793502,
+      "value": 148.0983533585811,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-27T15:51:02.034001",
+      "symbol": "WLFI",
+      "token_name": "World Liberty Financial",
+      "action": "SHORT",
+      "quantity": 7510.118674630339,
+      "price": 0.054102239205789895,
+      "value": 406.3142369987204,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3624,6 +3648,10 @@
     [
       "2026-07-26T14:45:44.803067",
       11382.4749931124
+    ],
+    [
+      "2026-07-27T15:51:02.034001",
+      11584.312670997138
     ]
   ]
 }
