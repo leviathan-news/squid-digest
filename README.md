@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Rotki founder Karapetsas banned from r/CryptoTax for privacy tool recommendation after a user asked for the most privacy-respecting crypto tax tools, criticizing Koinly's security flaws.** [𝕏/@LefterisJP](https://leviathannews.xyz/redirect/282049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DPRK's BlueNoroff fingerprints crypto wallets before pushing malware via hijacked Telegram accounts and fake Zoom calls** [Jumpsec](https://leviathannews.xyz/redirect/282031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Monad's Keone says Phantom's decision to remove the network is a step backward, recommending MetaMask, Backpack, Rabby, Rainbow, Infinex and Ambire** [𝕏/@keoneHD](https://leviathannews.xyz/redirect/282061?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Michael Saylor unveils a 38-book curriculum for leaders, arguing that history, technology, capital, energy and Bitcoin are essential to building stronger civilizations** [𝕏/@saylor](https://leviathannews.xyz/redirect/282064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The EU adds HTX to its Russia sanctions list, banning EU individuals and companies from transacting with the crypto exchange starting August 23** [The Block](https://leviathannews.xyz/redirect/282059?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Triple-a hot wallet losses reach $11.8 million as fresh deposits continue to be drained** [The Block](https://leviathannews.xyz/redirect/282232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **U.S. sanctions Turkish fintech Zedpay for supporting crypto exchanges used to launder IRGC funds** [home.treasury.gov](https://leviathannews.xyz/redirect/282217?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance founder CZ warns acquiring small crypto exchanges poses hidden security risks after BitMEX and BitMart shut down.** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/282148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sen. Cynthia Lummis says the CLARITY Act would give the Treasury new sanctions powers and let crypto firms freeze suspicious transactions before illicit funds move** [𝕏/@SenLummis](https://leviathannews.xyz/redirect/282305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tiger Research argues AI wallet providers are positioning for a $50B agent economy where payment data powers lending, programmable finance and autonomous commerce** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/282313?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/26/signals_2026-07-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/26/signals_2026-07-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/27/signals_2026-07-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/27/signals_2026-07-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
