@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Triple-a hot wallet losses reach $11.8 million as fresh deposits continue to be drained** [The Block](https://leviathannews.xyz/redirect/282232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **U.S. sanctions Turkish fintech Zedpay for supporting crypto exchanges used to launder IRGC funds** [home.treasury.gov](https://leviathannews.xyz/redirect/282217?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance founder CZ warns acquiring small crypto exchanges poses hidden security risks after BitMEX and BitMart shut down.** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/282148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sen. Cynthia Lummis says the CLARITY Act would give the Treasury new sanctions powers and let crypto firms freeze suspicious transactions before illicit funds move** [𝕏/@SenLummis](https://leviathannews.xyz/redirect/282305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tiger Research argues AI wallet providers are positioning for a $50B agent economy where payment data powers lending, programmable finance and autonomous commerce** [𝕏/@tiger_research_](https://leviathannews.xyz/redirect/282313?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Xryma Plc announces the upcoming launch of XrymaCoin (XREUR), the regulated euro stablecoin designed to work like money.** [Prnewswire](https://leviathannews.xyz/redirect/282946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coupang and Woori Bank completed South Korea's first end-to-end KRW stablecoin payment on Tempo, enabling real-time onchain settlement from customer checkout to merchant payout** [𝕏/@tempo](https://leviathannews.xyz/redirect/282753?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **New York AG Letitia James warned the Clarity Act would weaken states' power to prosecute crypto fraud, urging Congress to strengthen AML, ethics and investor protection rules** [The Block](https://leviathannews.xyz/redirect/282860?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A growing share of lending activity now happens through curated vaults. DefiLlama Research and Sentora investigate the 'vaultification' of onchain lending and the vault economy in this new report.** [Defillama](https://leviathannews.xyz/redirect/282838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Metaplanet's Siiibo Securities acquisition could unlock bitcoin-backed "Bitbonds," with plans for 4–6% yields, stablecoin settlement and an onchain fixed-income market** [The Block](https://leviathannews.xyz/redirect/282676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/27/signals_2026-07-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/27/signals_2026-07-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/28/signals_2026-07-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/28/signals_2026-07-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
