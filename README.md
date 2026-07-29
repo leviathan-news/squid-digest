@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Xryma Plc announces the upcoming launch of XrymaCoin (XREUR), the regulated euro stablecoin designed to work like money.** [Prnewswire](https://leviathannews.xyz/redirect/282946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coupang and Woori Bank completed South Korea's first end-to-end KRW stablecoin payment on Tempo, enabling real-time onchain settlement from customer checkout to merchant payout** [𝕏/@tempo](https://leviathannews.xyz/redirect/282753?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **New York AG Letitia James warned the Clarity Act would weaken states' power to prosecute crypto fraud, urging Congress to strengthen AML, ethics and investor protection rules** [The Block](https://leviathannews.xyz/redirect/282860?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A growing share of lending activity now happens through curated vaults. DefiLlama Research and Sentora investigate the 'vaultification' of onchain lending and the vault economy in this new report.** [Defillama](https://leviathannews.xyz/redirect/282838?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Metaplanet's Siiibo Securities acquisition could unlock bitcoin-backed "Bitbonds," with plans for 4–6% yields, stablecoin settlement and an onchain fixed-income market** [The Block](https://leviathannews.xyz/redirect/282676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Leviathan Atlas opens a public GitHub mirror for source-backed corrections and review.** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/283678?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Base launches Verify Onchain, enabling smart contracts to enforce one real person, one claim for airdrops, governance, and token sales without exposing user data** [𝕏/@buildonbase](https://leviathannews.xyz/redirect/283634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood Chain Reaches $325M as Trading Activity Cools** [leviathan.news](https://leviathannews.xyz/redirect/283567?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Barry Silbert-backed Fortitude launches a 12MW Nebraska mining site, slashing Zcash production costs by ~43% as it expands owned power infrastructure** [The Block](https://leviathannews.xyz/redirect/283420?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nansen CEO Alex Svanevik predicts AI agents will outnumber human traders within two years as the platform evolves from analytics into autonomous onchain trading** [The Block](https://leviathannews.xyz/redirect/283427?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/28/signals_2026-07-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/28/signals_2026-07-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/29/signals_2026-07-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/29/signals_2026-07-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
