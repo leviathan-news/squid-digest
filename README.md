@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **The Leviathan Atlas opens a public GitHub mirror for source-backed corrections and review.** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/283678?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Base launches Verify Onchain, enabling smart contracts to enforce one real person, one claim for airdrops, governance, and token sales without exposing user data** [𝕏/@buildonbase](https://leviathannews.xyz/redirect/283634?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Robinhood Chain Reaches $325M as Trading Activity Cools** [leviathan.news](https://leviathannews.xyz/redirect/283567?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Barry Silbert-backed Fortitude launches a 12MW Nebraska mining site, slashing Zcash production costs by ~43% as it expands owned power infrastructure** [The Block](https://leviathannews.xyz/redirect/283420?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nansen CEO Alex Svanevik predicts AI agents will outnumber human traders within two years as the platform evolves from analytics into autonomous onchain trading** [The Block](https://leviathannews.xyz/redirect/283427?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kansai Electric's MOACT lets users swap NORM Points 1:1 for yen-backed JPYC on Polygon** [service.moact.jp](https://leviathannews.xyz/redirect/284592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic AI cuts HAWK attack cost to 2^38 operations in 60 hours as Bitcoin proposal builds in quantum fallbacks** [Coindesk](https://leviathannews.xyz/redirect/284591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Gumi and SBI to launch ¥3 billion Bitcoin and altcoin fund with Daiwa backing** [gu3.co.jp](https://leviathannews.xyz/redirect/284565?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lazarus Group shifts 121.5 $BTC worth $7.74 million in single onchain transfer** [𝕏/@lookonchain](https://leviathannews.xyz/redirect/284567?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ebisu winds down after failing to scale ebUSD liquidity, scraps planned token launch and airdrop** [𝕏/@ebisu_finance](https://leviathannews.xyz/redirect/284528?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/29/signals_2026-07-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/29/signals_2026-07-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/30/signals_2026-07-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/30/signals_2026-07-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

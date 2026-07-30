@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (July 29, 2026)
+## 🔥 Latest Headlines (July 30, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/07/29/signals_2026-07-29.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/07/29/signals_2026-07-29.md)
+📊 [View Full Analysis →](writeup/2026/07/30/signals_2026-07-30.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/07/30/signals_2026-07-30.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Jul 23 - Jul 29)
+### 📅 This Week (Jul 23 - Jul 30)
+
+[**Thursday, July 30, 2026**](writeup/2026/07/30/signals_2026-07-30.md)
 
 [**Wednesday, July 29, 2026**](writeup/2026/07/29/signals_2026-07-29.md)
 
