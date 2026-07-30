@@ -1,5 +1,5 @@
 {
-  "cash": 664.5641669055894,
+  "cash": 0.0,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -225,14 +225,6 @@
       "entry_date": "2026-07-16T09:40:41.164284",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "AAVE": {
-      "symbol": "AAVE",
-      "token_name": "Aave",
-      "quantity": -5.8711113421524095,
-      "entry_price": 88.69943177495028,
-      "entry_date": "2026-07-18T14:32:33.184171",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
@@ -248,6 +240,14 @@
       "entry_price": 334.66462706953286,
       "entry_date": "2026-07-19T14:35:19.464652",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AAVE": {
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "quantity": 0.8432999961321347,
+      "entry_price": 98.97579004675309,
+      "entry_date": "2026-07-30T15:24:04.368312",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2470,6 +2470,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-30T15:24:04.368312",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "COVER",
+      "quantity": 5.8711113421524095,
+      "price": 98.97579004675309,
+      "value": 581.0978835419876,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -60.33364360560313,
+      "entry_price": 88.69943177495028
+    },
+    {
+      "date": "2026-07-30T15:24:04.368312",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 0.8432999961321347,
+      "price": 98.97579004675309,
+      "value": 83.46628336360186,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3208,6 +3232,10 @@
     [
       "2026-07-29T15:33:53.823949",
       8027.214126132876
+    ],
+    [
+      "2026-07-30T15:24:04.368312",
+      8063.8482892163065
     ]
   ]
 }
