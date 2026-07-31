@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kansai Electric's MOACT lets users swap NORM Points 1:1 for yen-backed JPYC on Polygon** [service.moact.jp](https://leviathannews.xyz/redirect/284592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic AI cuts HAWK attack cost to 2^38 operations in 60 hours as Bitcoin proposal builds in quantum fallbacks** [Coindesk](https://leviathannews.xyz/redirect/284591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Gumi and SBI to launch ¥3 billion Bitcoin and altcoin fund with Daiwa backing** [gu3.co.jp](https://leviathannews.xyz/redirect/284565?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lazarus Group shifts 121.5 $BTC worth $7.74 million in single onchain transfer** [𝕏/@lookonchain](https://leviathannews.xyz/redirect/284567?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ebisu winds down after failing to scale ebUSD liquidity, scraps planned token launch and airdrop** [𝕏/@ebisu_finance](https://leviathannews.xyz/redirect/284528?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Umia launches public testnet for token auctions and decision-market governance** [𝕏/@umia_finance](https://leviathannews.xyz/redirect/285101?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinkite warns Coldcard Mk3 seeds generated on firmware 4.0.1–5.0.3 may be at risk, urges users to migrate funds** [blog.coinkite](https://leviathannews.xyz/redirect/285254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Simile announces $200M Series B raise from Greenoaks with participation from Index Ventures and investors to simulate all eight billion people on earth, accurately.** [𝕏/@simile_ai](https://leviathannews.xyz/redirect/285323?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PancakeSwap adds 10 bStocks on BNB Chain, including Apple, Amazon, PayPal and Goldman Sachs** [𝕏/@PancakeSwap](https://leviathannews.xyz/redirect/285349?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sui channels stablecoin float yield into $SUI buybacks and reinvests purchased tokens across its ecosystem** [𝕏/@SuiNetwork](https://leviathannews.xyz/redirect/285129?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/30/signals_2026-07-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/30/signals_2026-07-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/31/signals_2026-07-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/31/signals_2026-07-31.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
