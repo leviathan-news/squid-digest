@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 528.6810330641854,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -180,8 +180,8 @@
     "SUI": {
       "symbol": "SUI",
       "token_name": "Sui",
-      "quantity": -277.8236718447281,
-      "entry_price": 0.7371849300197438,
+      "quantity": -763.0712456110671,
+      "entry_price": 0.7031937598438561,
       "entry_date": "2026-06-09T15:50:52.001583",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -220,8 +220,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -0.49850115761605784,
-      "entry_price": 577.2110960894888,
+      "quantity": -0.8358428410133902,
+      "entry_price": 579.8242142299672,
       "entry_date": "2026-07-16T09:40:41.164284",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2494,6 +2494,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-07-31T15:29:47.489740",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SHORT",
+      "quantity": 485.2475737663389,
+      "price": 0.6837324534528397,
+      "value": 331.77951414329675,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-07-31T15:29:47.489740",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.33734168339733234,
+      "price": 583.6857068415451,
+      "value": 196.90151892088863,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3236,6 +3260,10 @@
     [
       "2026-07-30T15:24:04.368312",
       8063.8482892163065
+    ],
+    [
+      "2026-07-31T15:29:47.489740",
+      8365.751838760258
     ]
   ]
 }
