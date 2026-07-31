@@ -5,5 +5,8 @@
   "top_story_headline": "Umia launches public testnet for token auctions and decision-market governance",
   "top_story_comment": "Umia\u2019s published Certora assessment logged 20 findings, including two high-severity settlement bugs; both were fixed and verified. Since a winning TWAP above the No-Op threshold becomes a MetaLeX Cayman SPC board resolution, governance security is priced by the capital required to hold a distortion across Umia\u2019s default three-day market.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a6cbfb892a56b5f3c96b03e",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/6aba63df-5349-4429-a4b0-6de12b28a399/",
+  "telegram_part1_message_id": 1198
 }
