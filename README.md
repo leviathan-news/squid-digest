@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Umia launches public testnet for token auctions and decision-market governance** [𝕏/@umia_finance](https://leviathannews.xyz/redirect/285101?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinkite warns Coldcard Mk3 seeds generated on firmware 4.0.1–5.0.3 may be at risk, urges users to migrate funds** [blog.coinkite](https://leviathannews.xyz/redirect/285254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Simile announces $200M Series B raise from Greenoaks with participation from Index Ventures and investors to simulate all eight billion people on earth, accurately.** [𝕏/@simile_ai](https://leviathannews.xyz/redirect/285323?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **PancakeSwap adds 10 bStocks on BNB Chain, including Apple, Amazon, PayPal and Goldman Sachs** [𝕏/@PancakeSwap](https://leviathannews.xyz/redirect/285349?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sui channels stablecoin float yield into $SUI buybacks and reinvests purchased tokens across its ecosystem** [𝕏/@SuiNetwork](https://leviathannews.xyz/redirect/285129?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sygnum says Ethereum's 43-day staking queue reflects validator mechanics as much as demand, while near-zero exits signal strong long-term institutional conviction** [The Block](https://leviathannews.xyz/redirect/285842?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Verus bridge attacker drains $7.44M by using duplicate state roots to overwrite Ethereum checkpoint** [Certik](https://leviathannews.xyz/redirect/285691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap adds Morpho-powered lending vaults for USDC, USDT and ETH to Web App and Wallet on Ethereum Mainnet** [blog.uniswap.org](https://leviathannews.xyz/redirect/285741?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anchorage explores tokenized Solana reserves with J.P. Morgan Asset Management to reduce stablecoin cash buffers** [Anchorage](https://leviathannews.xyz/redirect/285946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NEAR AI launches staking-based payments for confidential inference and IronClaw agent hosting** [near.ai](https://leviathannews.xyz/redirect/285603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/07/31/signals_2026-07-31.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/07/31/signals_2026-07-31.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/01/signals_2026-08-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/01/signals_2026-08-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
