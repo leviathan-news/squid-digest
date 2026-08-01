@@ -5,5 +5,8 @@
   "top_story_headline": "Sygnum says Ethereum's 43-day staking queue reflects validator mechanics as much as demand, while near-zero exits signal strong long-term institutional conviction",
   "top_story_comment": "A 2.49M ETH activation backlog is not a 2.49M ETH spot bid: treasury firms can queue coins they already own, and BitMine reports 4,917,189 ETH staked against 5,787,414 ETH held. ValidatorQueue shows that clearing today\u2019s backlog with no offsetting exits would lift staked supply from 33.87% to about 35.9%, squeezing a base APR already at 2.67%.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a6e06e892a56b5f3c96b401",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/e672a2bc-7ca6-4e2e-be1c-2d1ccdd1b5ff/",
+  "telegram_part1_message_id": 1201
 }
