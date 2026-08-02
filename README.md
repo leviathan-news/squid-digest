@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Sygnum says Ethereum's 43-day staking queue reflects validator mechanics as much as demand, while near-zero exits signal strong long-term institutional conviction** [The Block](https://leviathannews.xyz/redirect/285842?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Verus bridge attacker drains $7.44M by using duplicate state roots to overwrite Ethereum checkpoint** [Certik](https://leviathannews.xyz/redirect/285691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Uniswap adds Morpho-powered lending vaults for USDC, USDT and ETH to Web App and Wallet on Ethereum Mainnet** [blog.uniswap.org](https://leviathannews.xyz/redirect/285741?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anchorage explores tokenized Solana reserves with J.P. Morgan Asset Management to reduce stablecoin cash buffers** [Anchorage](https://leviathannews.xyz/redirect/285946?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NEAR AI launches staking-based payments for confidential inference and IronClaw agent hosting** [near.ai](https://leviathannews.xyz/redirect/285603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Etherfuse has been admitted by the National Bank of Kazakhstan to issue its core products the Stablebond for Kazakhstan.** [𝕏/@EtherfuseDave](https://leviathannews.xyz/redirect/286147?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump Media transfers 2,628 BTC worth $165M to Crypto.com as EmberCN estimates $555M in losses** [𝕏/@EmberCN](https://leviathannews.xyz/redirect/286257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana Foundation's new CISO warns AI is making crypto scams more convincing, with fake identities and AI exploits driving future security threats** [Coindesk](https://leviathannews.xyz/redirect/286148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bank of Italy research finds stablecoin remittances aren't always cheaper, with fees, FX spreads and banking rails eroding cost advantages** [Coindesk](https://leviathannews.xyz/redirect/286185?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Alex Thorn says Duel casino refuses to freeze $445K in ETH traced to Coldcard hack after funds cross THORChain** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/286305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/01/signals_2026-08-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/01/signals_2026-08-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/02/signals_2026-08-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/02/signals_2026-08-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
