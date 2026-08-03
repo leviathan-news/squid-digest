@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-08-02",
+  "last_processed_date": "2026-08-03",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 0.12736480865538136,
+      "score": 0.12121247106145144,
       "last_signal_date": "2026-08-02",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 2.418060873867153,
+      "score": 2.0843027533942022,
       "last_signal_date": "2026-07-31",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 4.3860022715631235,
-      "last_signal_date": "2026-08-01",
+      "score": 2.972506048869971,
+      "last_signal_date": "2026-08-03",
       "token_name": "Solana"
     },
     "STETH": {
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.9428937634187773,
+      "score": 1.7597248586791467,
       "last_signal_date": "2026-08-01",
       "token_name": "Ethereum"
     },
@@ -45,31 +45,31 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 2.3582607184149227,
-      "last_signal_date": "2026-07-30",
-      "token_name": "HYPE"
+      "score": 3.9345646459997337,
+      "last_signal_date": "2026-08-03",
+      "token_name": "Hyperliquid"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.11321545803298835,
+      "score": 0.06900559460461328,
       "last_signal_date": "2026-07-24",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.2264309160659767,
+      "score": 0.13801118920922656,
       "last_signal_date": "2026-07-24",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 2.585918463740933,
+      "score": 2.2289914337054224,
       "last_signal_date": "2026-07-31",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.6374619790489979,
+      "score": 0.49767242031870357,
       "last_signal_date": "2026-07-29",
       "token_name": "ChainLink Token"
     },
@@ -93,19 +93,19 @@
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.010596992483494501,
+      "score": 0.0,
       "last_signal_date": "2026-07-18",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -0.0798380983427036,
+      "score": -0.07231125497881565,
       "last_signal_date": "2026-08-01",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-08-01",
       "token_name": "Uniswap"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-08-01",
       "token_name": "NEAR"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.8904644836936564,
+      "score": 0.5992381600677819,
       "last_signal_date": "2026-07-26",
       "token_name": "Monero"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 0.8148533838424198,
+      "score": 0.5761883533877797,
       "last_signal_date": "2026-07-27",
       "token_name": "Injective"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.25,
+      "score": 0.16823752407904452,
       "last_signal_date": "2026-07-26",
       "token_name": "Monad"
     },
@@ -207,7 +207,7 @@
     },
     "KAT": {
       "symbol": "KAT",
-      "score": 1.4859942891369484,
+      "score": 1.2190136542044754,
       "last_signal_date": "2026-07-30",
       "token_name": "KAT"
     },
@@ -237,7 +237,7 @@
     },
     "stETH": {
       "symbol": "stETH",
-      "score": -0.25,
+      "score": -0.16823752407904452,
       "last_signal_date": "2026-07-26",
       "token_name": "Liquid staked Ether 2.0"
     },
@@ -249,7 +249,7 @@
     },
     "WBTC": {
       "symbol": "WBTC",
-      "score": -0.8619728212469777,
+      "score": -0.7429971445684742,
       "last_signal_date": "2026-07-31",
       "token_name": "Wrapped BTC"
     }
