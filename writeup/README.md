@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (August 02, 2026)
+## 🔥 Latest Headlines (August 03, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/08/02/signals_2026-08-02.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/08/02/signals_2026-08-02.md)
+📊 [View Full Analysis →](writeup/2026/08/03/signals_2026-08-03.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/08/03/signals_2026-08-03.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Jul 26 - Aug 02)
+### 📅 This Week (Jul 27 - Aug 03)
+
+[**Monday, August 03, 2026**](writeup/2026/08/03/signals_2026-08-03.md)
 
 [**Sunday, August 02, 2026**](writeup/2026/08/02/signals_2026-08-02.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, July 27, 2026**](writeup/2026/07/27/signals_2026-07-27.md)
 
-[**Sunday, July 26, 2026**](writeup/2026/07/26/signals_2026-07-26.md)
+### 📅 Last Week (Jul 20 - Jul 26)
 
-### 📅 Last Week (Jul 19 - Jul 24)
+[**Sunday, July 26, 2026**](writeup/2026/07/26/signals_2026-07-26.md)
 
 [**Friday, July 24, 2026**](writeup/2026/07/24/signals_2026-07-24.md)
 
@@ -52,9 +54,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, July 20, 2026**](writeup/2026/07/20/signals_2026-07-20.md)
 
-[**Sunday, July 19, 2026**](writeup/2026/07/19/signals_2026-07-19.md)
+### 📅 Week of Jul 16 - Jul 19
 
-### 📅 Week of Jul 16 - Jul 18
+[**Sunday, July 19, 2026**](writeup/2026/07/19/signals_2026-07-19.md)
 
 [**Saturday, July 18, 2026**](writeup/2026/07/18/signals_2026-07-18.md)
 

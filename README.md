@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Etherfuse has been admitted by the National Bank of Kazakhstan to issue its core products the Stablebond for Kazakhstan.** [𝕏/@EtherfuseDave](https://leviathannews.xyz/redirect/286147?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump Media transfers 2,628 BTC worth $165M to Crypto.com as EmberCN estimates $555M in losses** [𝕏/@EmberCN](https://leviathannews.xyz/redirect/286257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana Foundation's new CISO warns AI is making crypto scams more convincing, with fake identities and AI exploits driving future security threats** [Coindesk](https://leviathannews.xyz/redirect/286148?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bank of Italy research finds stablecoin remittances aren't always cheaper, with fees, FX spreads and banking rails eroding cost advantages** [Coindesk](https://leviathannews.xyz/redirect/286185?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Alex Thorn says Duel casino refuses to freeze $445K in ETH traced to Coldcard hack after funds cross THORChain** [𝕏/@intangiblecoins](https://leviathannews.xyz/redirect/286305?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fun CEO Alex Fine says crypto payments will outgrow on-ramps and bridges as unified funding flows hide blockchain complexity from users** [Coindesk](https://leviathannews.xyz/redirect/286370?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperscan launches a native HyperEVM explorer with real-time analytics, CoreWriter tracking, HIP-3/4 support and 16 developer tools for the Hyperliquid ecosystem** [𝕏/@hl_eco](https://leviathannews.xyz/redirect/286374?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bithumb targets 2028 IPO as exchange shifts to K-IFRS and tightens internal controls** [feed.bithumb](https://leviathannews.xyz/redirect/286580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kraken's security chief says Coldcard's five-year RNG flaw exposed a hardware wallet testing blind spot, urging independent entropy verification** [CoinTelegraph](https://leviathannews.xyz/redirect/286588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RAIN and SOL lead $1.28B token unlock slate through September 3 with $569M and $146M releases** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/286525?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/02/signals_2026-08-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/02/signals_2026-08-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/03/signals_2026-08-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/03/signals_2026-08-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
