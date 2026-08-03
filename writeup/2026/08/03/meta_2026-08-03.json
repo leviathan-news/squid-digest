@@ -5,5 +5,8 @@
   "top_story_headline": "Fun CEO Alex Fine says crypto payments will outgrow on-ramps and bridges as unified funding flows hide blockchain complexity from users",
   "top_story_comment": "Phantom already bundles Stripe\u2019s onramp, Bridge conversion, CASH and a debit card inside one wallet, per Stripe\u2019s 2026 case study. That UX win creates a middleware choke point: Fun says it handles more than $3B monthly across Polymarket withdrawals and deposits into Aave\u2019s largest vaults.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a70b9a592a56b5f3c96bcd7",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/5f5ad20d-3ba6-40cc-84df-281daa644ff8/",
+  "telegram_part1_message_id": 1207
 }
