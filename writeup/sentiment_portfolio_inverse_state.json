@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": -1316.7211561562972,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -89,14 +89,6 @@
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.023010555334437126,
-      "entry_price": 70283.65089286776,
-      "entry_date": "2026-03-04T13:54:44.148373",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
@@ -148,8 +140,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -11.947277480093243,
-      "entry_price": 85.13540046176428,
+      "quantity": -14.014025648120949,
+      "entry_price": 83.41247993634735,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2530,6 +2522,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-04T15:36:26.945674",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.023010555334437126,
+      "price": 63819.82161309751,
+      "value": 1468.5295366620867,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 148.7363013145084,
+      "entry_price": 70283.65089286776
+    },
+    {
+      "date": "2026-08-04T15:36:26.945674",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.0667481680277056,
+      "price": 73.45277129272121,
+      "value": 151.80838050578961,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3288,6 +3304,10 @@
     [
       "2026-08-03T15:53:36.759722",
       8140.331973678891
+    ],
+    [
+      "2026-08-04T15:36:26.945674",
+      9113.577315046734
     ]
   ]
 }

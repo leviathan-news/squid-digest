@@ -1,5 +1,5 @@
 {
-  "cash": 4010.9330582686607,
+  "cash": 9158.491800096233,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -87,14 +87,6 @@
       "quantity": 151.49517846506643,
       "entry_price": 8.834123484917875,
       "entry_date": "2026-03-01T13:35:42.340123",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.0355357809611964,
-      "entry_price": 70343.26718528625,
-      "entry_date": "2026-03-04T13:54:44.148373",
       "entry_signal": "SENTIMENT_LONG"
     },
     "TRX": {
@@ -255,6 +247,14 @@
       "quantity": -35.79994573067395,
       "entry_price": 98.1543255717883,
       "entry_date": "2026-07-30T15:24:04.368312",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.04512189892130514,
+      "entry_price": 63819.82161309751,
+      "entry_date": "2026-08-04T15:36:26.945674",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2994,6 +2994,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-04T15:36:26.945674",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.0355357809611964,
+      "price": 63819.82161309751,
+      "value": 2267.887201825661,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -231.815732965586,
+      "entry_price": 70343.26718528625
+    },
+    {
+      "date": "2026-08-04T15:36:26.945674",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.04512189892130514,
+      "price": 63819.82161309751,
+      "value": 2879.671540001911,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3752,6 +3776,10 @@
     [
       "2026-08-03T15:53:36.759722",
       11292.280174559932
+    ],
+    [
+      "2026-08-04T15:36:26.945674",
+      9598.905133339702
     ]
   ]
 }
