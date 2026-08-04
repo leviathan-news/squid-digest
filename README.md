@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Fun CEO Alex Fine says crypto payments will outgrow on-ramps and bridges as unified funding flows hide blockchain complexity from users** [Coindesk](https://leviathannews.xyz/redirect/286370?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperscan launches a native HyperEVM explorer with real-time analytics, CoreWriter tracking, HIP-3/4 support and 16 developer tools for the Hyperliquid ecosystem** [𝕏/@hl_eco](https://leviathannews.xyz/redirect/286374?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bithumb targets 2028 IPO as exchange shifts to K-IFRS and tightens internal controls** [feed.bithumb](https://leviathannews.xyz/redirect/286580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kraken's security chief says Coldcard's five-year RNG flaw exposed a hardware wallet testing blind spot, urging independent entropy verification** [CoinTelegraph](https://leviathannews.xyz/redirect/286588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RAIN and SOL lead $1.28B token unlock slate through September 3 with $569M and $146M releases** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/286525?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Former FBI agent accused of stealing $1M in crypto allegedly used ChatGPT to plan investments and a move to Portugal before his arrest** [The Block](https://leviathannews.xyz/redirect/287068?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock files with the SEC to issue tokenized fund shares on Solana, expanding its cash management strategy with the BRSRV reserve vehicle** [𝕏/@solana](https://leviathannews.xyz/redirect/287077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DEX-to-CEX spot volume ratio hits record 24% as centralized exchange trading nears 12-month low** [The Block](https://leviathannews.xyz/redirect/287121?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bessent’s top crypto adviser Tyler Williams exits Treasury as CLARITY Act stalls** [𝕏/@BrendanPedersen](https://leviathannews.xyz/redirect/287097?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Franklin Templeton becomes Canton Super Validator, earning up to 5 weight through adoption milestones** [Github](https://leviathannews.xyz/redirect/287031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/03/signals_2026-08-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/03/signals_2026-08-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/04/signals_2026-08-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/04/signals_2026-08-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
