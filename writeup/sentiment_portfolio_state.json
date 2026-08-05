@@ -1,5 +1,5 @@
 {
-  "cash": 9158.491800096233,
+  "cash": 11662.99630929744,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -24,14 +24,6 @@
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "TON": {
-      "symbol": "TON",
-      "token_name": "Toncoin",
-      "quantity": 696.6433237032154,
-      "entry_price": 1.7142011207631693,
-      "entry_date": "2026-01-12T13:39:23.118862",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "SYRUP": {
       "symbol": "SYRUP",
@@ -255,6 +247,14 @@
       "quantity": -0.04512189892130514,
       "entry_price": 63819.82161309751,
       "entry_date": "2026-08-04T15:36:26.945674",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TON": {
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "quantity": -1097.091024070442,
+      "entry_price": 1.3962516313018927,
+      "entry_date": "2026-08-05T15:28:57.211741",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3018,6 +3018,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-05T15:28:57.211741",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SELL",
+      "quantity": 696.6433237032154,
+      "price": 1.3962516313018927,
+      "value": 972.689377156187,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -221.49738910804422,
+      "entry_price": 1.7142011207631693
+    },
+    {
+      "date": "2026-08-05T15:28:57.211741",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SHORT",
+      "quantity": 1097.091024070442,
+      "price": 1.3962516313018927,
+      "value": 1531.8151320450188,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3780,6 +3804,10 @@
     [
       "2026-08-04T15:36:26.945674",
       9598.905133339702
+    ],
+    [
+      "2026-08-05T15:28:57.211741",
+      9431.964270033335
     ]
   ]
 }

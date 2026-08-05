@@ -1,5 +1,5 @@
 {
-  "cash": -1316.7211561562972,
+  "cash": -1800.452501694112,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -24,14 +24,6 @@
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "TON": {
-      "symbol": "TON",
-      "token_name": "Toncoin",
-      "quantity": -346.4499769907335,
-      "entry_price": 1.7142011207631693,
-      "entry_date": "2026-01-12T13:39:23.118862",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "SYRUP": {
       "symbol": "SYRUP",
@@ -2546,6 +2538,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-05T15:28:57.211741",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "COVER",
+      "quantity": 346.4499769907335,
+      "price": 1.3962516313018927,
+      "value": 483.73134553781483,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 110.15359330807473,
+      "entry_price": 1.7142011207631693
     }
   ],
   "daily_values": [
@@ -3308,6 +3312,10 @@
     [
       "2026-08-04T15:36:26.945674",
       9113.577315046734
+    ],
+    [
+      "2026-08-05T15:28:57.211741",
+      9168.637263290299
     ]
   ]
 }
