@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Former FBI agent accused of stealing $1M in crypto allegedly used ChatGPT to plan investments and a move to Portugal before his arrest** [The Block](https://leviathannews.xyz/redirect/287068?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock files with the SEC to issue tokenized fund shares on Solana, expanding its cash management strategy with the BRSRV reserve vehicle** [𝕏/@solana](https://leviathannews.xyz/redirect/287077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DEX-to-CEX spot volume ratio hits record 24% as centralized exchange trading nears 12-month low** [The Block](https://leviathannews.xyz/redirect/287121?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bessent’s top crypto adviser Tyler Williams exits Treasury as CLARITY Act stalls** [𝕏/@BrendanPedersen](https://leviathannews.xyz/redirect/287097?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Franklin Templeton becomes Canton Super Validator, earning up to 5 weight through adoption milestones** [Github](https://leviathannews.xyz/redirect/287031?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Circle’s Q2 2026 results show modest revenue growth, sharply improved profitability, strong USDC and CPN activity, and major progress on Arc and U.S. trust bank charters advancing regulated stablecoin infrastructure.** [Circle](https://leviathannews.xyz/redirect/288025?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Franklin Templeton warns the retirement industry faces a "Blockbuster moment" as neobrokers, AI and blockchain wallets reshape retirement savings and challenge legacy providers** [𝕏/@FTDA_US](https://leviathannews.xyz/redirect/287825?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cloudflare launches wallet nametag registration** [cloudflare.pay](https://leviathannews.xyz/redirect/287620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **HappyRobot secures $150 million Series C led by Prysm Capital and Eurazeo for enterprise AI agents** [𝕏/@HappyRobot](https://leviathannews.xyz/redirect/287812?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI startup credits 'vibe deploying' strategy for $29M annualized revenue, with top deployers earning over $100k monthly** [𝕏/@frydwia](https://leviathannews.xyz/redirect/287814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/04/signals_2026-08-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/04/signals_2026-08-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/05/signals_2026-08-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/05/signals_2026-08-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
