@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Circle’s Q2 2026 results show modest revenue growth, sharply improved profitability, strong USDC and CPN activity, and major progress on Arc and U.S. trust bank charters advancing regulated stablecoin infrastructure.** [Circle](https://leviathannews.xyz/redirect/288025?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Franklin Templeton warns the retirement industry faces a "Blockbuster moment" as neobrokers, AI and blockchain wallets reshape retirement savings and challenge legacy providers** [𝕏/@FTDA_US](https://leviathannews.xyz/redirect/287825?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cloudflare launches wallet nametag registration** [cloudflare.pay](https://leviathannews.xyz/redirect/287620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **HappyRobot secures $150 million Series C led by Prysm Capital and Eurazeo for enterprise AI agents** [𝕏/@HappyRobot](https://leviathannews.xyz/redirect/287812?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI startup credits 'vibe deploying' strategy for $29M annualized revenue, with top deployers earning over $100k monthly** [𝕏/@frydwia](https://leviathannews.xyz/redirect/287814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Fable drops the August SQUID Drop newsletter (covering July), and the discussion thread is open.** [Leviathan Digest](https://leviathannews.xyz/redirect/288481?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC rejects first spot Bitcoin ETF application, citing market manipulation risk** [Thestreet](https://leviathannews.xyz/redirect/288226?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MAGNE.AI raises $2.64M to advance edge AI devices, agentic payments, and on-chain infrastructure** [chainwire.org](https://leviathannews.xyz/redirect/288377?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BNB Chain launches 'Build the Era' hackathon to recruit developers for its official BNB Agent Studio marketplace.** [𝕏/@BNBCHAIN](https://leviathannews.xyz/redirect/288379?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Eliza Labs winds down token after lawsuit settlement, founder says treasury and funds exhausted** [𝕏/@shawmakesmagic](https://leviathannews.xyz/redirect/288384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/05/signals_2026-08-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/05/signals_2026-08-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/06/signals_2026-08-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/06/signals_2026-08-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
