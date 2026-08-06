@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-08-05",
+  "last_processed_date": "2026-08-06",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": -0.8472132973594626,
-      "last_signal_date": "2026-08-04",
+      "score": -1.7673411320975192,
+      "last_signal_date": "2026-08-06",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 1.3348778271308293,
-      "last_signal_date": "2026-07-31",
+      "score": 2.9918104139059754,
+      "last_signal_date": "2026-08-06",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.547354529660996,
+      "score": 5.024370271575538,
       "last_signal_date": "2026-08-04",
       "token_name": "Solana"
     },
@@ -33,49 +33,49 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.2443133805945636,
+      "score": 0.9714468817093885,
       "last_signal_date": "2026-08-01",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-08-04",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 3.3914877882910064,
+      "score": 2.9233702970978714,
       "last_signal_date": "2026-08-03",
       "token_name": "Hyperliquid"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.02209708691207961,
+      "score": 0.011609330383882411,
       "last_signal_date": "2026-07-24",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 1.9795786594090188,
+      "score": 1.7929512370985687,
       "last_signal_date": "2026-08-04",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 1.4275427295159293,
-      "last_signal_date": "2026-07-31",
-      "token_name": "Sui"
+      "score": 2.060660171779821,
+      "last_signal_date": "2026-08-06",
+      "token_name": "SUI"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.26146629976224656,
-      "last_signal_date": "2026-07-29",
+      "score": 3.1759537716084383,
+      "last_signal_date": "2026-08-06",
       "token_name": "ChainLink Token"
     },
     "TON": {
       "symbol": "TON",
-      "score": -1.0,
+      "score": -0.9516951530106196,
       "last_signal_date": "2026-08-05",
       "token_name": "Toncoin"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -0.05113177875163004,
+      "score": -0.0399190491713518,
       "last_signal_date": "2026-08-01",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-08-01",
       "token_name": "Uniswap"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 1.2190136542044754,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-08-01",
       "token_name": "NEAR"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.2339153669315052,
+      "score": 0.13568604552583816,
       "last_signal_date": "2026-07-26",
       "token_name": "Monero"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 0.24832935026965755,
+      "score": 0.1513584343592192,
       "last_signal_date": "2026-07-27",
       "token_name": "Injective"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.06567228991582622,
+      "score": 0.038094176693889856,
       "last_signal_date": "2026-07-26",
       "token_name": "Monad"
     },
@@ -207,7 +207,7 @@
     },
     "KAT": {
       "symbol": "KAT",
-      "score": 0.7071067811865475,
+      "score": 0.5,
       "last_signal_date": "2026-07-30",
       "token_name": "KAT"
     },
@@ -237,7 +237,7 @@
     },
     "stETH": {
       "symbol": "stETH",
-      "score": -0.06567228991582622,
+      "score": -0.038094176693889856,
       "last_signal_date": "2026-07-26",
       "token_name": "Liquid staked Ether 2.0"
     },
@@ -249,7 +249,7 @@
     },
     "WBTC": {
       "symbol": "WBTC",
-      "score": -0.4758475765053098,
+      "score": -0.35355339059327373,
       "last_signal_date": "2026-07-31",
       "token_name": "Wrapped BTC"
     }
