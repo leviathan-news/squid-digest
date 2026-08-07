@@ -1,5 +1,5 @@
 {
-  "cash": -1800.452501694112,
+  "cash": -1625.078920168839,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -140,8 +140,8 @@
     "weETH": {
       "symbol": "weETH",
       "token_name": "weETH",
-      "quantity": -0.08185497246422764,
-      "entry_price": 2620.920404447618,
+      "quantity": -0.16511931660317508,
+      "entry_price": 2361.376955061645,
       "entry_date": "2026-04-22T14:45:08.084088",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2550,6 +2550,18 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": 110.15359330807473,
       "entry_price": 1.7142011207631693
+    },
+    {
+      "date": "2026-08-07T14:19:37.568260",
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "action": "SHORT",
+      "quantity": 0.08326434413894744,
+      "price": 2106.2266608696073,
+      "value": 175.37358152527312,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3320,6 +3332,10 @@
     [
       "2026-08-06T15:29:56.356162",
       8444.845189556838
+    ],
+    [
+      "2026-08-07T14:19:37.568260",
+      8461.946254532957
     ]
   ]
 }
