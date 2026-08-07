@@ -11,15 +11,16 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Fable drops the August SQUID Drop newsletter (covering July), and the discussion thread is open.** [Leviathan Digest](https://leviathannews.xyz/redirect/288481?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC rejects first spot Bitcoin ETF application, citing market manipulation risk** [Thestreet](https://leviathannews.xyz/redirect/288226?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MAGNE.AI raises $2.64M to advance edge AI devices, agentic payments, and on-chain infrastructure** [chainwire.org](https://leviathannews.xyz/redirect/288377?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BNB Chain launches 'Build the Era' hackathon to recruit developers for its official BNB Agent Studio marketplace.** [𝕏/@BNBCHAIN](https://leviathannews.xyz/redirect/288379?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Eliza Labs winds down token after lawsuit settlement, founder says treasury and funds exhausted** [𝕏/@shawmakesmagic](https://leviathannews.xyz/redirect/288384?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FairClub launches a platform for private capital formation, connecting founders and investors with deal rooms, stablecoin settlements, and investor social scoring.** [𝕏/@fairdotclub](https://leviathannews.xyz/redirect/288900?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin app Glow launches with developer tools, powered by Breez's Lightning infrastructure.** [𝕏/@Breez_Tech](https://leviathannews.xyz/redirect/288656?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ether.fi separates staking and restaking: weETH becomes pure LST, restaking moves to weETHs via Symbiotic.** [𝕏/@ether_fi](https://leviathannews.xyz/redirect/288905?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Defi Saver says it located $50 million in lost crypto assets and outlines a claim process.** [𝕏/@DeFiSaver](https://leviathannews.xyz/redirect/288686?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **How Binance.US Is Plotting Its Comeback with
+CEO Steve Gregory** [coinage.media](https://leviathannews.xyz/redirect/288906?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/06/signals_2026-08-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/06/signals_2026-08-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/07/signals_2026-08-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/07/signals_2026-08-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
