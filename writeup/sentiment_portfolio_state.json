@@ -1,5 +1,5 @@
 {
-  "cash": 11371.906755211758,
+  "cash": 9462.020623339055,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -32,14 +32,6 @@
       "entry_price": 0.3966761435161592,
       "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "DOGE": {
-      "symbol": "DOGE",
-      "token_name": "Dogecoin",
-      "quantity": -23540.579585710802,
-      "entry_price": 0.1241857092535026,
-      "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "CRV": {
       "symbol": "CRV",
@@ -76,8 +68,8 @@
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
-      "quantity": 151.49517846506643,
-      "entry_price": 8.834123484917875,
+      "quantity": 181.22772022334345,
+      "entry_price": 8.74593914044927,
       "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -148,8 +140,8 @@
     "weETH": {
       "symbol": "weETH",
       "token_name": "weETH",
-      "quantity": 0.41604746250362246,
-      "entry_price": 2232.2290253393016,
+      "quantity": 0.49393284974644475,
+      "entry_price": 2213.9800607738052,
       "entry_date": "2026-04-24T14:43:47.541498",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -252,10 +244,18 @@
     "TON": {
       "symbol": "TON",
       "token_name": "Toncoin",
-      "quantity": -1334.355361781921,
-      "entry_price": 1.385916399239884,
+      "quantity": -2312.6112175350204,
+      "entry_price": 1.3662217542592077,
       "entry_date": "2026-08-05T15:28:57.211741",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": 16423.80097248267,
+      "entry_price": 0.07027750992736825,
+      "entry_date": "2026-08-09T14:01:15.281406",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -3066,6 +3066,66 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "BUY",
+      "quantity": 29.732541758277037,
+      "price": 8.296616539249952,
+      "value": 246.6794977056611,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "COVER",
+      "quantity": 23540.579585710802,
+      "price": 0.07027750992736825,
+      "value": 1654.3733155307934,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 1269.0302565592272,
+      "entry_price": 0.1241857092535026
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 16423.80097248267,
+      "price": 0.07027750992736825,
+      "value": 1154.2238358887712,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "weETH",
+      "token_name": "weETH",
+      "action": "BUY",
+      "quantity": 0.07788538724282229,
+      "price": 2116.497905653712,
+      "value": 164.84425898046175,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SHORT",
+      "quantity": 978.2558557530996,
+      "price": 1.339357969111583,
+      "value": 1310.234776232985,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3840,6 +3900,10 @@
     [
       "2026-08-07T14:19:37.568260",
       10660.688705190452
+    ],
+    [
+      "2026-08-09T14:01:15.281406",
+      11784.849298860963
     ]
   ]
 }

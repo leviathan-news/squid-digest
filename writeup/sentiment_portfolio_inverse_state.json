@@ -1,5 +1,5 @@
 {
-  "cash": -1625.078920168839,
+  "cash": 443.0597367986451,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -32,14 +32,6 @@
       "entry_price": 0.3961528931255436,
       "entry_date": "2026-01-13T13:53:29.613208",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "DOGE": {
-      "symbol": "DOGE",
-      "token_name": "Dogecoin",
-      "quantity": 24095.56860999221,
-      "entry_price": 0.1240838158080941,
-      "entry_date": "2026-01-24T13:27:58.423708",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "CRV": {
       "symbol": "CRV",
@@ -232,6 +224,14 @@
       "entry_price": 93.02721822998753,
       "entry_date": "2026-07-30T15:24:04.368312",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": -5332.603490938852,
+      "entry_price": 0.07027750992736825,
+      "entry_date": "2026-08-09T14:01:15.281406",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -2562,6 +2562,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SELL",
+      "quantity": 24095.56860999221,
+      "price": 0.07027750992736825,
+      "value": 1693.3765621943103,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1296.493534999257,
+      "entry_price": 0.1240838158080941
+    },
+    {
+      "date": "2026-08-09T14:01:15.281406",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 5332.603490938852,
+      "price": 0.07027750992736825,
+      "value": 374.76209477317377,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3336,6 +3360,10 @@
     [
       "2026-08-07T14:19:37.568260",
       8461.946254532957
+    ],
+    [
+      "2026-08-09T14:01:15.281406",
+      7652.787392709689
     ]
   ]
 }
