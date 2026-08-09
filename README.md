@@ -11,16 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **FairClub launches a platform for private capital formation, connecting founders and investors with deal rooms, stablecoin settlements, and investor social scoring.** [𝕏/@fairdotclub](https://leviathannews.xyz/redirect/288900?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin app Glow launches with developer tools, powered by Breez's Lightning infrastructure.** [𝕏/@Breez_Tech](https://leviathannews.xyz/redirect/288656?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ether.fi separates staking and restaking: weETH becomes pure LST, restaking moves to weETHs via Symbiotic.** [𝕏/@ether_fi](https://leviathannews.xyz/redirect/288905?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Defi Saver says it located $50 million in lost crypto assets and outlines a claim process.** [𝕏/@DeFiSaver](https://leviathannews.xyz/redirect/288686?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **How Binance.US Is Plotting Its Comeback with
-CEO Steve Gregory** [coinage.media](https://leviathannews.xyz/redirect/288906?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Brazil's central bank orders exchanges to delay large crypto transfers abroad for up to 24 hours** [Coindesk](https://leviathannews.xyz/redirect/289693?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tom Lee predicts crypto platforms will become the future of trading as BlackRock tokenizes "almost every asset" on blockchain rails, shifting markets toward onchain finance** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/289695?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tokenized deposits and stablecoins share a 50-year-old netting technique from 1970s CHIPS clearing systems** [Fintechbrainfood](https://leviathannews.xyz/redirect/289598?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Controversial BIP-110 Bitcoin fork stalls after mining just two blocks in eight hours, while the main chain advances 48 blocks as miners largely reject the split** [Coindesk](https://leviathannews.xyz/redirect/289810?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Analyst says Bitcoin looks "cheap" after a brutal year, with weak ETF flows, low volatility and bearish derivatives pricing already reflecting major market risks** [𝕏/@WClemente](https://leviathannews.xyz/redirect/289811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/07/signals_2026-08-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/07/signals_2026-08-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/09/signals_2026-08-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/09/signals_2026-08-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
