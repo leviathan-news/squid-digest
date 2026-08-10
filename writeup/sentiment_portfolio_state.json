@@ -1,5 +1,5 @@
 {
-  "cash": 9462.020623339055,
+  "cash": 9933.90020340971,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -40,14 +40,6 @@
       "entry_price": 0.23835479537544554,
       "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": 1.804063495212789,
-      "entry_price": 1890.8871794352492,
-      "entry_date": "2026-02-11T14:14:16.513730",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "OP": {
       "symbol": "OP",
@@ -233,14 +225,6 @@
       "entry_date": "2026-07-30T15:24:04.368312",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.04512189892130514,
-      "entry_price": 63819.82161309751,
-      "entry_date": "2026-08-04T15:36:26.945674",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "TON": {
       "symbol": "TON",
       "token_name": "Toncoin",
@@ -256,6 +240,22 @@
       "entry_price": 0.07027750992736825,
       "entry_date": "2026-08-09T14:01:15.281406",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.03022735182354361,
+      "entry_price": 64742.9787570786,
+      "entry_date": "2026-08-10T14:32:39.552071",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -1.0151619977383524,
+      "entry_price": 1897.760407524418,
+      "entry_date": "2026-08-10T14:32:39.552071",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3126,6 +3126,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-10T14:32:39.552071",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.04512189892130514,
+      "price": 64742.9787570786,
+      "value": 2921.326143341106,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -41.65460333919509,
+      "entry_price": 63819.82161309751
+    },
+    {
+      "date": "2026-08-10T14:32:39.552071",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.03022735182354361,
+      "price": 64742.9787570786,
+      "value": 1957.008796994425,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-10T14:32:39.552071",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 1.804063495212789,
+      "price": 1897.760407524418,
+      "value": 3423.6802738749484,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 12.39973988994052,
+      "entry_price": 1890.8871794352492
+    },
+    {
+      "date": "2026-08-10T14:32:39.552071",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 1.0151619977383524,
+      "price": 1897.760407524418,
+      "value": 1926.534246531238,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3904,6 +3952,10 @@
     [
       "2026-08-09T14:01:15.281406",
       11784.849298860963
+    ],
+    [
+      "2026-08-10T14:32:39.552071",
+      11567.664112345043
     ]
   ]
 }
