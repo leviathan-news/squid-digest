@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Brazil's central bank orders exchanges to delay large crypto transfers abroad for up to 24 hours** [Coindesk](https://leviathannews.xyz/redirect/289693?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tom Lee predicts crypto platforms will become the future of trading as BlackRock tokenizes "almost every asset" on blockchain rails, shifting markets toward onchain finance** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/289695?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized deposits and stablecoins share a 50-year-old netting technique from 1970s CHIPS clearing systems** [Fintechbrainfood](https://leviathannews.xyz/redirect/289598?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Controversial BIP-110 Bitcoin fork stalls after mining just two blocks in eight hours, while the main chain advances 48 blocks as miners largely reject the split** [Coindesk](https://leviathannews.xyz/redirect/289810?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Analyst says Bitcoin looks "cheap" after a brutal year, with weak ETF flows, low volatility and bearish derivatives pricing already reflecting major market risks** [𝕏/@WClemente](https://leviathannews.xyz/redirect/289811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoin rules converge on reserves and redemption, but holder rights, insolvency treatment, and yield economics still differ across jurisdictions.** [insights4.vc](https://leviathannews.xyz/redirect/289876?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tokenisation may bring slow finance to retail investors, Grvt's full-stack brokerage model suggests** [decentralised.co](https://leviathannews.xyz/redirect/289865?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Avenir-backed UMX launches invite-only beta, plans crypto and real U.S. stock trading on one platform** [wublockchain.xyz](https://leviathannews.xyz/redirect/290041?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Minimalist USD loses 70.83 ETH as flash-loan attacker manipulates FUM redemption pricing** [etherscan.io](https://leviathannews.xyz/redirect/290017?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK regulator drafts tokenised gold framework to bolster London’s role in global bullion trading** [FT](https://leviathannews.xyz/redirect/290011?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/09/signals_2026-08-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/09/signals_2026-08-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/10/signals_2026-08-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/10/signals_2026-08-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
