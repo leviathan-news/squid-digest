@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Stablecoin rules converge on reserves and redemption, but holder rights, insolvency treatment, and yield economics still differ across jurisdictions.** [insights4.vc](https://leviathannews.xyz/redirect/289876?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenisation may bring slow finance to retail investors, Grvt's full-stack brokerage model suggests** [decentralised.co](https://leviathannews.xyz/redirect/289865?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Avenir-backed UMX launches invite-only beta, plans crypto and real U.S. stock trading on one platform** [wublockchain.xyz](https://leviathannews.xyz/redirect/290041?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Minimalist USD loses 70.83 ETH as flash-loan attacker manipulates FUM redemption pricing** [etherscan.io](https://leviathannews.xyz/redirect/290017?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK regulator drafts tokenised gold framework to bolster London’s role in global bullion trading** [FT](https://leviathannews.xyz/redirect/290011?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Base launches Builder Grant Program offering up to $5,000 in seed capital plus GTM and product support.** [𝕏/@base](https://leviathannews.xyz/redirect/290295?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik’s updated Ethereum roadmap prioritizes quantum safety, privacy, native rollups, specialized scaling, recursive STARKs and AI-assisted formal verification over older EVM-focused upgrades.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/290323?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Midas and Wellington Management launch mWIN to bring institutional credit strategies onchain** [midas.app](https://leviathannews.xyz/redirect/290590?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Computer-using agents surpass human benchmark scores but production reliability hinges on verification and process design** [𝕏/@fabrisera2000](https://leviathannews.xyz/redirect/290608?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Broadridge's Distributed Ledger Repo platform processes $8T in July as blockchain expands into institutional repo, tokenized collateral and onchain shareholder governance** [The Block](https://leviathannews.xyz/redirect/290627?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/10/signals_2026-08-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/10/signals_2026-08-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/11/signals_2026-08-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/11/signals_2026-08-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
