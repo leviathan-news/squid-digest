@@ -1,5 +1,5 @@
 {
-  "cash": 9933.90020340971,
+  "cash": 9994.904879811642,
   "positions": {
     "XRP": {
       "symbol": "XRP",
@@ -228,8 +228,8 @@
     "TON": {
       "symbol": "TON",
       "token_name": "Toncoin",
-      "quantity": -2312.6112175350204,
-      "entry_price": 1.3662217542592077,
+      "quantity": -2584.7775101243546,
+      "entry_price": 1.3639115025015587,
       "entry_date": "2026-08-05T15:28:57.211741",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -244,8 +244,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": 0.03022735182354361,
-      "entry_price": 64742.9787570786,
+      "quantity": 0.03499508657463644,
+      "entry_price": 64633.99193753021,
       "entry_date": "2026-08-10T14:32:39.552071",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -3174,6 +3174,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-11T14:32:19.803239",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.004767734751092825,
+      "price": 63943.01747888126,
+      "value": 304.8633465237981,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-11T14:32:19.803239",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SHORT",
+      "quantity": 272.1662925893344,
+      "price": 1.3442811725321875,
+      "value": 365.86802292572884,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3956,6 +3980,10 @@
     [
       "2026-08-10T14:32:39.552071",
       11567.664112345043
+    ],
+    [
+      "2026-08-11T14:32:19.803239",
+      11582.225806815986
     ]
   ]
 }
