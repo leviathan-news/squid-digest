@@ -1,14 +1,6 @@
 {
-  "cash": 9994.904879811642,
+  "cash": 12902.437102565047,
   "positions": {
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": 968.1160771595023,
-      "entry_price": 2.166400050956216,
-      "entry_date": "2026-01-06T13:34:39.467824",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "POL": {
       "symbol": "POL",
       "token_name": "Polygon",
@@ -236,8 +228,8 @@
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
-      "quantity": 16423.80097248267,
-      "entry_price": 0.07027750992736825,
+      "quantity": 18964.966953093943,
+      "entry_price": 0.07029876760671291,
       "entry_date": "2026-08-09T14:01:15.281406",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -255,6 +247,14 @@
       "quantity": -1.0151619977383524,
       "entry_price": 1897.760407524418,
       "entry_date": "2026-08-10T14:32:39.552071",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": -2078.5068543292755,
+      "entry_price": 1.0130962251573747,
+      "entry_date": "2026-08-12T14:33:06.431831",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3198,6 +3198,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-12T14:33:06.431831",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 2541.165980611274,
+      "price": 0.07043615803982796,
+      "value": 178.98996861577007,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-12T14:33:06.431831",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SELL",
+      "quantity": 968.1160771595023,
+      "price": 1.0130962251573747,
+      "value": 980.7947432844576,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1116.53197560542,
+      "entry_price": 2.166400050956216
+    },
+    {
+      "date": "2026-08-12T14:33:06.431831",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 2078.5068543292755,
+      "price": 1.0130962251573747,
+      "value": 2105.727448084718,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3984,6 +4020,10 @@
     [
       "2026-08-11T14:32:19.803239",
       11582.225806815986
+    ],
+    [
+      "2026-08-12T14:33:06.431831",
+      10470.519129156171
     ]
   ]
 }

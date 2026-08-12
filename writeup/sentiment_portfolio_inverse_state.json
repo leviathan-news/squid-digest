@@ -1,14 +1,6 @@
 {
-  "cash": -925.9706131990653,
+  "cash": -1470.2373242390424,
   "positions": {
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": -684.36686448102,
-      "entry_price": 1.9870975382223834,
-      "entry_date": "2026-01-06T13:34:39.467824",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "POL": {
       "symbol": "POL",
       "token_name": "Polygon",
@@ -220,8 +212,8 @@
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
-      "quantity": -5332.603490938852,
-      "entry_price": 0.07027750992736825,
+      "quantity": -7448.88552756336,
+      "entry_price": 0.07032258299894394,
       "entry_date": "2026-08-09T14:01:15.281406",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2642,6 +2634,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-12T14:33:06.431831",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "COVER",
+      "quantity": 684.36686448102,
+      "price": 1.0130962251573747,
+      "value": 693.32948702851,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 666.5742246226963,
+      "entry_price": 1.9870975382223834
+    },
+    {
+      "date": "2026-08-12T14:33:06.431831",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 2116.2820366245082,
+      "price": 0.07043615803982796,
+      "value": 149.06277598853285,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3428,6 +3444,10 @@
     [
       "2026-08-11T14:32:19.803239",
       7562.297524728427
+    ],
+    [
+      "2026-08-12T14:33:06.431831",
+      8225.028664710944
     ]
   ]
 }
