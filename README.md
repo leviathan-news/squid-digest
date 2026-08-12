@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Base launches Builder Grant Program offering up to $5,000 in seed capital plus GTM and product support.** [𝕏/@base](https://leviathannews.xyz/redirect/290295?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik’s updated Ethereum roadmap prioritizes quantum safety, privacy, native rollups, specialized scaling, recursive STARKs and AI-assisted formal verification over older EVM-focused upgrades.** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/290323?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Midas and Wellington Management launch mWIN to bring institutional credit strategies onchain** [midas.app](https://leviathannews.xyz/redirect/290590?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Computer-using agents surpass human benchmark scores but production reliability hinges on verification and process design** [𝕏/@fabrisera2000](https://leviathannews.xyz/redirect/290608?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Broadridge's Distributed Ledger Repo platform processes $8T in July as blockchain expands into institutional repo, tokenized collateral and onchain shareholder governance** [The Block](https://leviathannews.xyz/redirect/290627?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mercury Spend launches team and AI agent cards with budgets, automated receipt matching and policy controls, letting companies manage spending without adding finance overhead** [𝕏/@mercury](https://leviathannews.xyz/redirect/291189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Barça Mobile to develop digital wallet with Wirex and Crossmint on Stellar, bringing blockchain payments and digital finance to FC Barcelona’s global fanbase** [𝕏/@StellarOrg](https://leviathannews.xyz/redirect/291183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polygon launches free embedded wallets for businesses, bundling non-custodial stablecoin accounts with crosschain routing across 20+ blockchains through Polygon Open Money Stack** [𝕏/@0xPolygon](https://leviathannews.xyz/redirect/291191?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto.com launches 24/7 stock derivatives as tokenized equity market swells 600% in one year** [Coindesk](https://leviathannews.xyz/redirect/291165?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anchored launches three tokenized funds to bring institutional alternative strategies onchain** [𝕏/@AnchoredFi](https://leviathannews.xyz/redirect/291129?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/11/signals_2026-08-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/11/signals_2026-08-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/12/signals_2026-08-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/12/signals_2026-08-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
