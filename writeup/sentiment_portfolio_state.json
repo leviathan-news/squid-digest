@@ -1,5 +1,5 @@
 {
-  "cash": 12902.437102565047,
+  "cash": 16353.772255011785,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -72,14 +72,6 @@
       "entry_price": 2628.5058184553905,
       "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "HYPE": {
-      "symbol": "HYPE",
-      "token_name": "HYPE",
-      "quantity": 35.72506480553102,
-      "entry_price": 40.429516918533395,
-      "entry_date": "2026-03-18T14:20:16.066802",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "SQUID": {
       "symbol": "SQUID",
@@ -228,8 +220,8 @@
     "DOGE": {
       "symbol": "DOGE",
       "token_name": "Dogecoin",
-      "quantity": 18964.966953093943,
-      "entry_price": 0.07029876760671291,
+      "quantity": 21168.43758547854,
+      "entry_price": 0.07019523042830217,
       "entry_date": "2026-08-09T14:01:15.281406",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -255,6 +247,14 @@
       "quantity": -2078.5068543292755,
       "entry_price": 1.0130962251573747,
       "entry_date": "2026-08-12T14:33:06.431831",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "quantity": -28.912679603741477,
+      "entry_price": 55.757587691209466,
+      "entry_date": "2026-08-14T14:20:42.610201",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3234,6 +3234,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-14T14:20:42.610201",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "BUY",
+      "quantity": 2203.470632384598,
+      "price": 0.06930410025478512,
+      "value": 152.70954961525695,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-14T14:20:42.610201",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SELL",
+      "quantity": 35.72506480553102,
+      "price": 55.757587691209466,
+      "value": 1991.943433668537,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 547.5963216976186,
+      "entry_price": 40.429516918533395
+    },
+    {
+      "date": "2026-08-14T14:20:42.610201",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 28.912679603741477,
+      "price": 55.757587691209466,
+      "value": 1612.1012683934587,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4024,6 +4060,10 @@
     [
       "2026-08-12T14:33:06.431831",
       10470.519129156171
+    ],
+    [
+      "2026-08-14T14:20:42.610201",
+      11021.56954652299
     ]
   ]
 }
