@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Mercury Spend launches team and AI agent cards with budgets, automated receipt matching and policy controls, letting companies manage spending without adding finance overhead** [𝕏/@mercury](https://leviathannews.xyz/redirect/291189?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Barça Mobile to develop digital wallet with Wirex and Crossmint on Stellar, bringing blockchain payments and digital finance to FC Barcelona’s global fanbase** [𝕏/@StellarOrg](https://leviathannews.xyz/redirect/291183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polygon launches free embedded wallets for businesses, bundling non-custodial stablecoin accounts with crosschain routing across 20+ blockchains through Polygon Open Money Stack** [𝕏/@0xPolygon](https://leviathannews.xyz/redirect/291191?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto.com launches 24/7 stock derivatives as tokenized equity market swells 600% in one year** [Coindesk](https://leviathannews.xyz/redirect/291165?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anchored launches three tokenized funds to bring institutional alternative strategies onchain** [𝕏/@AnchoredFi](https://leviathannews.xyz/redirect/291129?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket acquires Turf, adding its six-person team behind a real-time NFL prediction game to help build its US web and app experience** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/292473?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenPay officially launches full platform after leaving beta stage** [𝕏/@OpenPayTeam](https://leviathannews.xyz/redirect/292484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RedotPay reportedly puts $1B U.S. IPO plan on hold, as the stablecoin payments company declines to comment on its listing plans** [Coindesk](https://leviathannews.xyz/redirect/292487?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MegaETH's USDm supply plunges over 95% from $600M May peak to $18M as network usage dwindles** [𝕏/@castle_labs](https://leviathannews.xyz/redirect/292273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC again delays tokenization exemption as White House and Wall Street question its legal footing** [Coindesk](https://leviathannews.xyz/redirect/292257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/12/signals_2026-08-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/12/signals_2026-08-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/14/signals_2026-08-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/14/signals_2026-08-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
