@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Polymarket acquires Turf, adding its six-person team behind a real-time NFL prediction game to help build its US web and app experience** [𝕏/@Polymarket](https://leviathannews.xyz/redirect/292473?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenPay officially launches full platform after leaving beta stage** [𝕏/@OpenPayTeam](https://leviathannews.xyz/redirect/292484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RedotPay reportedly puts $1B U.S. IPO plan on hold, as the stablecoin payments company declines to comment on its listing plans** [Coindesk](https://leviathannews.xyz/redirect/292487?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MegaETH's USDm supply plunges over 95% from $600M May peak to $18M as network usage dwindles** [𝕏/@castle_labs](https://leviathannews.xyz/redirect/292273?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC again delays tokenization exemption as White House and Wall Street question its legal footing** [Coindesk](https://leviathannews.xyz/redirect/292257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mizuho lowers BitGo price target to $11, says Clarity Act delays may benefit firm** [The Block](https://leviathannews.xyz/redirect/292754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EURC becomes first euro stablecoin to exceed €400 million in circulation, with 10x growth since MiCA launch** [𝕏/@peterschroederr](https://leviathannews.xyz/redirect/292660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Dinari opens access to 724 tokenized U.S. stocks and ETFs for eligible U.S. investors, including the full S&P 500, with trades settling on its Avalanche L1** [𝕏/@avax](https://leviathannews.xyz/redirect/292662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ABFinance cancels launch and winds down five months after ex-Bybit co-CEO Helen Liu unveiled U.S. crypto platform** [𝕏/@abf_finance](https://leviathannews.xyz/redirect/292828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan reports 25% more IBIT shares and over fourfold jump in ETHA holdings in Q2; filing omits short exposure** [CoinTelegraph](https://leviathannews.xyz/redirect/292626?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/14/signals_2026-08-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/14/signals_2026-08-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/15/signals_2026-08-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/15/signals_2026-08-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
