@@ -1,5 +1,5 @@
 {
-  "cash": 16353.772255011785,
+  "cash": 13072.40287084974,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -84,8 +84,8 @@
     "AVAX": {
       "symbol": "AVAX",
       "token_name": "Avalanche",
-      "quantity": 151.6997484590752,
-      "entry_price": 8.50591551201195,
+      "quantity": 229.3906384294,
+      "entry_price": 7.846151710872449,
       "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -233,14 +233,6 @@
       "entry_date": "2026-08-10T14:32:39.552071",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -1.0151619977383524,
-      "entry_price": 1897.760407524418,
-      "entry_date": "2026-08-10T14:32:39.552071",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
@@ -256,6 +248,14 @@
       "entry_price": 55.757587691209466,
       "entry_date": "2026-08-14T14:20:42.610201",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.457791060493604,
+      "entry_price": 1881.8528276146433,
+      "entry_date": "2026-08-15T13:44:23.043986",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -3270,6 +3270,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-15T13:44:23.043986",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "BUY",
+      "quantity": 77.6908899703248,
+      "price": 6.5578925248405335,
+      "value": 509.4885065846014,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-15T13:44:23.043986",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 1.0151619977383524,
+      "price": 1881.8528276146433,
+      "value": 1910.3854759308485,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 16.148770600389298,
+      "entry_price": 1897.760407524418
+    },
+    {
+      "date": "2026-08-15T13:44:23.043986",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.457791060493604,
+      "price": 1881.8528276146433,
+      "value": 861.4954016465949,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4064,6 +4100,10 @@
     [
       "2026-08-14T14:20:42.610201",
       11021.56954652299
+    ],
+    [
+      "2026-08-15T13:44:23.043986",
+      10666.296760329866
     ]
   ]
 }

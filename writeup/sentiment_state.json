@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-08-14",
+  "last_processed_date": "2026-08-15",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 1.7204692568995592,
-      "last_signal_date": "2026-08-12",
+      "score": 2.4829977392384044,
+      "last_signal_date": "2026-08-15",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.7859161635008848,
+      "score": 0.5033347765494426,
       "last_signal_date": "2026-08-06",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 0.7286149498755377,
-      "last_signal_date": "2026-08-04",
+      "score": 2.4226438072731127,
+      "last_signal_date": "2026-08-15",
       "token_name": "Solana"
     },
     "STETH": {
@@ -33,19 +33,19 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.2824878942792749,
-      "last_signal_date": "2026-08-11",
+      "score": 1.231734807321437,
+      "last_signal_date": "2026-08-15",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": -0.5342250919796695,
+      "score": -0.46048750971464186,
       "last_signal_date": "2026-08-12",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": -0.6850167821826165,
+      "score": -0.6519271513341275,
       "last_signal_date": "2026-08-14",
       "token_name": "HYPE"
     },
@@ -57,25 +57,25 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.2600069272637834,
-      "last_signal_date": "2026-08-04",
+      "score": 2.1508208384619616,
+      "last_signal_date": "2026-08-15",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 0.5413130888764826,
+      "score": 0.34668036526853563,
       "last_signal_date": "2026-08-06",
       "token_name": "SUI"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.8342886273933242,
+      "score": 0.5343145991249069,
       "last_signal_date": "2026-08-06",
       "token_name": "ChainLink Token"
     },
     "TON": {
       "symbol": "TON",
-      "score": -0.1857492861421186,
+      "score": -0.11321545803298837,
       "last_signal_date": "2026-08-05",
       "token_name": "Toncoin"
     },
@@ -87,7 +87,7 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": 1.1601293861601627,
+      "score": 0.8619728212469776,
       "last_signal_date": "2026-08-09",
       "token_name": "Dogecoin"
     },
@@ -105,7 +105,7 @@
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.056607729016494156,
+      "score": 0.028303864508247078,
       "last_signal_date": "2026-08-01",
       "token_name": "Uniswap"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 0.056607729016494156,
+      "score": 0.028303864508247078,
       "last_signal_date": "2026-08-01",
       "token_name": "NEAR"
     },
@@ -207,7 +207,7 @@
     },
     "KAT": {
       "symbol": "KAT",
-      "score": 0.016418072478956554,
+      "score": 0.0,
       "last_signal_date": "2026-07-30",
       "token_name": "KAT"
     },
@@ -225,7 +225,7 @@
     },
     "weETH": {
       "symbol": "weETH",
-      "score": 0.7071067811865477,
+      "score": 0.4758475765053099,
       "last_signal_date": "2026-08-07",
       "token_name": "weETH"
     },
@@ -249,7 +249,7 @@
     },
     "WBTC": {
       "symbol": "WBTC",
-      "score": -0.015625,
+      "score": 0.0,
       "last_signal_date": "2026-07-31",
       "token_name": "Wrapped BTC"
     }

@@ -1,5 +1,5 @@
 {
-  "cash": -2785.313174409607,
+  "cash": -2351.521218718728,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -76,8 +76,8 @@
     "AVAX": {
       "symbol": "AVAX",
       "token_name": "Avalanche",
-      "quantity": -67.29600193804383,
-      "entry_price": 9.38296513754807,
+      "quantity": -84.8513159674719,
+      "entry_price": 8.798471705636771,
       "entry_date": "2026-04-16T14:52:46.962064",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -223,6 +223,14 @@
       "quantity": -0.011424542268261213,
       "entry_price": 64635.94556277017,
       "entry_date": "2026-08-10T14:32:39.552071",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -0.16933635211526726,
+      "entry_price": 1881.8528276146433,
+      "entry_date": "2026-08-15T13:44:23.043986",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2662,6 +2670,30 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": -554.6089347962425,
       "entry_price": 32.242855584906266
+    },
+    {
+      "date": "2026-08-15T13:44:23.043986",
+      "symbol": "AVAX",
+      "token_name": "Avalanche",
+      "action": "SHORT",
+      "quantity": 17.55531402942807,
+      "price": 6.5578925248405335,
+      "value": 115.1258626448145,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-15T13:44:23.043986",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.16933635211526726,
+      "price": 1881.8528276146433,
+      "value": 318.6660930460646,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3456,6 +3488,10 @@
     [
       "2026-08-14T14:20:42.610201",
       7692.802339608268
+    ],
+    [
+      "2026-08-15T13:44:23.043986",
+      7890.90019375067
     ]
   ]
 }
