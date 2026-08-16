@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Mizuho lowers BitGo price target to $11, says Clarity Act delays may benefit firm** [The Block](https://leviathannews.xyz/redirect/292754?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **EURC becomes first euro stablecoin to exceed €400 million in circulation, with 10x growth since MiCA launch** [𝕏/@peterschroederr](https://leviathannews.xyz/redirect/292660?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Dinari opens access to 724 tokenized U.S. stocks and ETFs for eligible U.S. investors, including the full S&P 500, with trades settling on its Avalanche L1** [𝕏/@avax](https://leviathannews.xyz/redirect/292662?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ABFinance cancels launch and winds down five months after ex-Bybit co-CEO Helen Liu unveiled U.S. crypto platform** [𝕏/@abf_finance](https://leviathannews.xyz/redirect/292828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan reports 25% more IBIT shares and over fourfold jump in ETHA holdings in Q2; filing omits short exposure** [CoinTelegraph](https://leviathannews.xyz/redirect/292626?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy CEO Michael Saylor argues money is “economic energy,” with Bitcoin designed to preserve and transfer that energy across time and borders more efficiently than gold or fiat** [𝕏/@saylor](https://leviathannews.xyz/redirect/293026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Axis Robotics partners with OpenRoboto to supply over 3 million trajectories for Bittensor's robotics AI subnet** [𝕏/@axisrobotics](https://leviathannews.xyz/redirect/293033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jupiter Exchange adds Loop USD to Offerbook with Perena, offering up to 16.6% APY through yield and fixed-rate borrowing.** [𝕏/@JupiterExchange](https://leviathannews.xyz/redirect/292878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Daos.fun founder accused of selling $6.6M in ai16z tokens before forced name change; Baoskee denies claims, says voting launched and liquidity added.** [𝕏/@shawmakesmagic](https://leviathannews.xyz/redirect/293035?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tron Inc. concentrates nearly 90% of assets in JustLend sTRX as TRX treasury tops 709 million** [Kucoin](https://leviathannews.xyz/redirect/293048?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/15/signals_2026-08-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/15/signals_2026-08-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/16/signals_2026-08-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/16/signals_2026-08-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
