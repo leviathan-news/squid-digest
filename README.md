@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Strategy CEO Michael Saylor argues money is “economic energy,” with Bitcoin designed to preserve and transfer that energy across time and borders more efficiently than gold or fiat** [𝕏/@saylor](https://leviathannews.xyz/redirect/293026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Axis Robotics partners with OpenRoboto to supply over 3 million trajectories for Bittensor's robotics AI subnet** [𝕏/@axisrobotics](https://leviathannews.xyz/redirect/293033?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jupiter Exchange adds Loop USD to Offerbook with Perena, offering up to 16.6% APY through yield and fixed-rate borrowing.** [𝕏/@JupiterExchange](https://leviathannews.xyz/redirect/292878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Daos.fun founder accused of selling $6.6M in ai16z tokens before forced name change; Baoskee denies claims, says voting launched and liquidity added.** [𝕏/@shawmakesmagic](https://leviathannews.xyz/redirect/293035?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tron Inc. concentrates nearly 90% of assets in JustLend sTRX as TRX treasury tops 709 million** [Kucoin](https://leviathannews.xyz/redirect/293048?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Strategy halts Bitcoin buys, sells 3.46M MSTR shares to raise $334M** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/293301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BitMart users and employees posted open letter from BitMart's official Chinese X account demanding answers from founders Sheldon Xia and Nancy Li over frozen funds and unpaid wages by August 19** [𝕏/@BitMart_zh](https://leviathannews.xyz/redirect/293244?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stripe agrees to acquire AI firm OpenRouter in deal valued over $7 billion** [archive.ph](https://leviathannews.xyz/redirect/293183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BiggerZ launches crypto casino, sportsbook, and prediction markets with fairness-first approach** [decrypt.co](https://leviathannews.xyz/redirect/293180?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethlabs recommends faster blocks, stronger censorship resistance, native account abstraction, and continued L1 scaling for Hegotá upgrade** [𝕏/@ethlabs_org](https://leviathannews.xyz/redirect/293197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/16/signals_2026-08-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/16/signals_2026-08-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/17/signals_2026-08-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/17/signals_2026-08-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
