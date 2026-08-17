@@ -1,5 +1,5 @@
 {
-  "cash": -2351.521218718728,
+  "cash": -1785.8188955692362,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -156,8 +156,8 @@
     "UNI": {
       "symbol": "UNI",
       "token_name": "UNI",
-      "quantity": -109.81026348244893,
-      "entry_price": 2.8045706184106165,
+      "quantity": -146.22165885341974,
+      "entry_price": 2.9249262332402832,
       "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -228,8 +228,8 @@
     "ETH": {
       "symbol": "ETH",
       "token_name": "Ethereum",
-      "quantity": -0.16933635211526726,
-      "entry_price": 1881.8528276146433,
+      "quantity": -0.4037464596263569,
+      "entry_price": 1893.8902637504766,
       "entry_date": "2026-08-15T13:44:23.043986",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -2694,6 +2694,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-17T13:54:44.887621",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.23441010751108968,
+      "price": 1902.586030096499,
+      "value": 445.9853958640176,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-17T13:54:44.887621",
+      "symbol": "UNI",
+      "token_name": "Uniswap",
+      "action": "SHORT",
+      "quantity": 36.41139537097081,
+      "price": 3.287897265835607,
+      "value": 119.71692728547418,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3496,6 +3520,10 @@
     [
       "2026-08-16T13:45:53.601179",
       7737.888934867652
+    ],
+    [
+      "2026-08-17T13:54:44.887621",
+      7501.322193273752
     ]
   ]
 }
