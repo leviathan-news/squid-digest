@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Strategy halts Bitcoin buys, sells 3.46M MSTR shares to raise $334M** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/293301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BitMart users and employees posted open letter from BitMart's official Chinese X account demanding answers from founders Sheldon Xia and Nancy Li over frozen funds and unpaid wages by August 19** [𝕏/@BitMart_zh](https://leviathannews.xyz/redirect/293244?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stripe agrees to acquire AI firm OpenRouter in deal valued over $7 billion** [archive.ph](https://leviathannews.xyz/redirect/293183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BiggerZ launches crypto casino, sportsbook, and prediction markets with fairness-first approach** [decrypt.co](https://leviathannews.xyz/redirect/293180?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethlabs recommends faster blocks, stronger censorship resistance, native account abstraction, and continued L1 scaling for Hegotá upgrade** [𝕏/@ethlabs_org](https://leviathannews.xyz/redirect/293197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kraken parent Payward joins Anthropic’s Project Glasswing, using AI cybersecurity models to hunt vulnerabilities and share findings with the open-source community** [Coindesk](https://leviathannews.xyz/redirect/293591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tokenized equities triple market share as Ondo, Binance, and xStocks lead growth** [The Block](https://leviathannews.xyz/redirect/293592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin miner IREN delivers first 50MW AI cloud deployment to Microsoft under a five-year, $9.7B deal, with 200MW planned across four Horizon phases** [The Block](https://leviathannews.xyz/redirect/293594?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Compound commits $52M to a new leadership team and institutional pivot as the DeFi lender seeks renewed growth after retail activity and TVL declined** [Coindesk](https://leviathannews.xyz/redirect/293596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jensen Huang says NVIDIA will secure land, power and shell capacity for AI factories, partnering with SB Energy to host OpenAI’s 4.25GW PORTS-Pike campus** [𝕏/@JensenHuang](https://leviathannews.xyz/redirect/293604?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/17/signals_2026-08-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/17/signals_2026-08-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/18/signals_2026-08-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/18/signals_2026-08-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
