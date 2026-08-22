@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kraken parent Payward joins Anthropic’s Project Glasswing, using AI cybersecurity models to hunt vulnerabilities and share findings with the open-source community** [Coindesk](https://leviathannews.xyz/redirect/293591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tokenized equities triple market share as Ondo, Binance, and xStocks lead growth** [The Block](https://leviathannews.xyz/redirect/293592?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin miner IREN delivers first 50MW AI cloud deployment to Microsoft under a five-year, $9.7B deal, with 200MW planned across four Horizon phases** [The Block](https://leviathannews.xyz/redirect/293594?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Compound commits $52M to a new leadership team and institutional pivot as the DeFi lender seeks renewed growth after retail activity and TVL declined** [Coindesk](https://leviathannews.xyz/redirect/293596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jensen Huang says NVIDIA will secure land, power and shell capacity for AI factories, partnering with SB Energy to host OpenAI’s 4.25GW PORTS-Pike campus** [𝕏/@JensenHuang](https://leviathannews.xyz/redirect/293604?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Base Dollar is officially live on Base.** [𝕏/@BaseDollarOrg](https://leviathannews.xyz/redirect/295610?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FedNow offramps are now in beta mode. Bridge now supports instant, 24/7/365 USD offramps to FedNow-eligible accounts.** [𝕏/@Stablecoin](https://leviathannews.xyz/redirect/295620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BitMart explores restructuring as an alternative to a full wind-down, with plans for phased operations and creditor distributions under White & Case** [𝕏/@BitMartExchange](https://leviathannews.xyz/redirect/295618?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BounceBit will shut down its standalone Layer 1 and migrate to BNB Chain after a $3M exploit stole 286.5M BB tokens through an authorization flaw** [The Block](https://leviathannews.xyz/redirect/295676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Delpho published USDV Liquidity Event Report detailing market activity, protocol performance, and next steps as its USDV stablecoin experienced a depeg on August 21 but later returned to $1 peg.** [𝕏/@delpho_labs](https://leviathannews.xyz/redirect/295596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/18/signals_2026-08-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/18/signals_2026-08-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/22/signals_2026-08-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/22/signals_2026-08-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
