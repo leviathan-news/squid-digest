@@ -1,5 +1,5 @@
 {
-  "cash": -1785.8188955692362,
+  "cash": -1341.418507669412,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -231,6 +231,14 @@
       "quantity": -0.4037464596263569,
       "entry_price": 1893.8902637504766,
       "entry_date": "2026-08-15T13:44:23.043986",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": -297.2814223928376,
+      "entry_price": 1.4948811275283076,
+      "entry_date": "2026-08-22T13:45:12.748484",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2718,6 +2726,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-22T13:45:12.748484",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "SHORT",
+      "quantity": 297.2814223928376,
+      "price": 1.4948811275283076,
+      "value": 444.4003878998242,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3528,6 +3548,10 @@
     [
       "2026-08-18T14:02:05.624098",
       7490.563910197785
+    ],
+    [
+      "2026-08-22T13:45:12.748484",
+      6867.908852081358
     ]
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 11361.146737347075,
+  "cash": 7413.724234850271,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -233,19 +233,11 @@
       "entry_date": "2026-08-10T14:32:39.552071",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "XRP": {
-      "symbol": "XRP",
-      "token_name": "XRP",
-      "quantity": -2078.5068543292755,
-      "entry_price": 1.0130962251573747,
-      "entry_date": "2026-08-12T14:33:06.431831",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": -35.631252888029195,
-      "entry_price": 56.4011749881597,
+      "quantity": -43.52281758794455,
+      "entry_price": 60.17433680382752,
       "entry_date": "2026-08-14T14:20:42.610201",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -255,6 +247,14 @@
       "quantity": 1.194873285010627,
       "entry_price": 1894.64253109065,
       "entry_date": "2026-08-15T13:44:23.043986",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "quantity": 969.7185688082128,
+      "entry_price": 1.4948811275283076,
+      "entry_date": "2026-08-22T13:45:12.748484",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -3354,6 +3354,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-22T13:45:12.748484",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "COVER",
+      "quantity": 2078.5068543292755,
+      "price": 1.4948811275283076,
+      "value": 3107.1206699750633,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1001.3932218903451,
+      "entry_price": 1.0130962251573747
+    },
+    {
+      "date": "2026-08-22T13:45:12.748484",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 969.7185688082128,
+      "price": 1.4948811275283076,
+      "value": 1449.6139875251579,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-08-22T13:45:12.748484",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 7.891564699915357,
+      "price": 77.21056319920349,
+      "value": 609.312155003418,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4164,6 +4200,10 @@
     [
       "2026-08-18T14:02:05.624098",
       11244.615988589161
+    ],
+    [
+      "2026-08-22T13:45:12.748484",
+      11201.404193271326
     ]
   ]
 }
