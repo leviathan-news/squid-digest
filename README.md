@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Base Dollar is officially live on Base.** [𝕏/@BaseDollarOrg](https://leviathannews.xyz/redirect/295610?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **FedNow offramps are now in beta mode. Bridge now supports instant, 24/7/365 USD offramps to FedNow-eligible accounts.** [𝕏/@Stablecoin](https://leviathannews.xyz/redirect/295620?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BitMart explores restructuring as an alternative to a full wind-down, with plans for phased operations and creditor distributions under White & Case** [𝕏/@BitMartExchange](https://leviathannews.xyz/redirect/295618?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BounceBit will shut down its standalone Layer 1 and migrate to BNB Chain after a $3M exploit stole 286.5M BB tokens through an authorization flaw** [The Block](https://leviathannews.xyz/redirect/295676?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Delpho published USDV Liquidity Event Report detailing market activity, protocol performance, and next steps as its USDV stablecoin experienced a depeg on August 21 but later returned to $1 peg.** [𝕏/@delpho_labs](https://leviathannews.xyz/redirect/295596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **three.ws and USC partner to build an on-campus agent economy on Solana with IBM security** [𝕏/@trythreews](https://leviathannews.xyz/redirect/295913?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aligned launches $ALIGN token for Ethereum financial infrastructure stack** [chainwire.org](https://leviathannews.xyz/redirect/295904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZachXBT says he may reject crypto victim cases from Nigeria, Canada, UK, India and other “low quality” jurisdictions based on past case-handling experiences** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/295964?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana reduces mainnet slot time to 350 milliseconds, advancing toward 200ms target** [The Block](https://leviathannews.xyz/redirect/295962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trezor adds HyperEVM support, enabling offline storage of HYPE and HyperEVM assets on its hardware wallets.** [𝕏/@Trezor](https://leviathannews.xyz/redirect/295896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/22/signals_2026-08-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/22/signals_2026-08-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/23/signals_2026-08-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/23/signals_2026-08-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
