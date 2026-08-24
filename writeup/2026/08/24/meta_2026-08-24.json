@@ -5,5 +5,8 @@
   "top_story_headline": "Keystone warns that self-custody security can fail through three single points: the seed, hardware vendor and storage location, making multisig and redundancy essential",
   "top_story_comment": "683,130,969.66 ZIL was stolen across 66 transactions after the Zilliqa Ledger app zeroed 64 bits of nonce entropy, letting four public signatures reconstruct a private key in seconds, according to [Zilliqa\u2019s August 20 post-mortem](https://www.zilliqa.com/ledger-incident/post-mortem/). A 2-of-3 using that same app for every signer reproduces the defect across all three keys once each signer publishes four affected signatures.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a8c501592a56b5f3c96fa39",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/82ab9b8e-8e34-4f06-b1d2-3a3358efa07f/",
+  "telegram_part1_message_id": 1250
 }
