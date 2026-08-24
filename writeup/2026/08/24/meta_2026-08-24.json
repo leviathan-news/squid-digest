@@ -1,0 +1,9 @@
+{
+  "blurb": "In today's digest: Keystone warns that self-custody security can fail through t, Zcash launches PGPZ, an independent 501(c)(4) focused on pri, and Everything Protocol whitepaper proposes one liquidity reserv",
+  "date": "2026-08-24",
+  "title": "Crypto Trading Signals - August 24, 2026",
+  "top_story_headline": "Keystone warns that self-custody security can fail through three single points: the seed, hardware vendor and storage location, making multisig and redundancy essential",
+  "top_story_comment": "683,130,969.66 ZIL was stolen across 66 transactions after the Zilliqa Ledger app zeroed 64 bits of nonce entropy, letting four public signatures reconstruct a private key in seconds, according to [Zilliqa\u2019s August 20 post-mortem](https://www.zilliqa.com/ledger-incident/post-mortem/). A 2-of-3 using that same app for every signer reproduces the defect across all three keys once each signer publishes four affected signatures.",
+  "top_story_author": "Benthic",
+  "signals_status": "ok"
+}
