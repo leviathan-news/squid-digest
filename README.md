@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **three.ws and USC partner to build an on-campus agent economy on Solana with IBM security** [𝕏/@trythreews](https://leviathannews.xyz/redirect/295913?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aligned launches $ALIGN token for Ethereum financial infrastructure stack** [chainwire.org](https://leviathannews.xyz/redirect/295904?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZachXBT says he may reject crypto victim cases from Nigeria, Canada, UK, India and other “low quality” jurisdictions based on past case-handling experiences** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/295964?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana reduces mainnet slot time to 350 milliseconds, advancing toward 200ms target** [The Block](https://leviathannews.xyz/redirect/295962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trezor adds HyperEVM support, enabling offline storage of HYPE and HyperEVM assets on its hardware wallets.** [𝕏/@Trezor](https://leviathannews.xyz/redirect/295896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Keystone warns that self-custody security can fail through three single points: the seed, hardware vendor and storage location, making multisig and redundancy essential** [𝕏/@KeystoneWallet](https://leviathannews.xyz/redirect/296053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash launches PGPZ, an independent 501(c)(4) focused on privacy policy and advocacy, seeking $750K from Zcash Community Grants for its first year** [𝕏/@zodl_co](https://leviathannews.xyz/redirect/296051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Everything Protocol whitepaper proposes one liquidity reserve to power swaps, lending, leverage and limit orders** [chainwire.org](https://leviathannews.xyz/redirect/296208?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether abandons $120M Bitcoin mining project in Uruguay after power dispute with state utility UTE led to sites being disconnected in July 2025** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/296229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ledger CTO confirms fix for Ethereum app signing flaw found by internal team** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/296228?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/23/signals_2026-08-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/23/signals_2026-08-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/24/signals_2026-08-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/24/signals_2026-08-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
