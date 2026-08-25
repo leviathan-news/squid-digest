@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Keystone warns that self-custody security can fail through three single points: the seed, hardware vendor and storage location, making multisig and redundancy essential** [𝕏/@KeystoneWallet](https://leviathannews.xyz/redirect/296053?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zcash launches PGPZ, an independent 501(c)(4) focused on privacy policy and advocacy, seeking $750K from Zcash Community Grants for its first year** [𝕏/@zodl_co](https://leviathannews.xyz/redirect/296051?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Everything Protocol whitepaper proposes one liquidity reserve to power swaps, lending, leverage and limit orders** [chainwire.org](https://leviathannews.xyz/redirect/296208?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether abandons $120M Bitcoin mining project in Uruguay after power dispute with state utility UTE led to sites being disconnected in July 2025** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/296229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ledger CTO confirms fix for Ethereum app signing flaw found by internal team** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/296228?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NUVA adopts Chainlink as exclusive data infrastructure for institutional RWA tokenization, starting with nvPRIME backed by U.S. HELOC-linked loans.** [𝕏/@chainlink](https://leviathannews.xyz/redirect/296449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aethir enters data center business with 10 owned sites, up to 20MW capacity for NVIDIA B300 and GB300 clusters** [𝕏/@AethirCloud](https://leviathannews.xyz/redirect/296444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **VALR launches Borrow, letting users take out loans against crypto holdings without selling assets** [chainwire.org](https://leviathannews.xyz/redirect/296730?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockchain Association backs Treasury’s GENIUS Act stablecoin rules, supporting KYC limits to direct issuer-customer transactions in primary markets** [The Block](https://leviathannews.xyz/redirect/296757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Monad proposes wallet upgrade to recover lost keys and resist quantum attacks without changing addresses** [Coindesk](https://leviathannews.xyz/redirect/296755?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/24/signals_2026-08-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/24/signals_2026-08-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/25/signals_2026-08-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/25/signals_2026-08-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
