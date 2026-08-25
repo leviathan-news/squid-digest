@@ -5,5 +5,8 @@
   "top_story_headline": "NUVA adopts Chainlink as exclusive data infrastructure for institutional RWA tokenization, starting with nvPRIME backed by U.S. HELOC-linked loans.",
   "top_story_comment": "Chainlink can push NAV and reserve status onto Ethereum, but it cannot oracle away HELOC defaults or redemption liquidity. DeFi distribution is still tiny: nvPRIME shows $5.49M across 93 holders at a 5.15% net APY, versus roughly $13B of Figure RWA TVL in its September 2025 SEC filing.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a8da1dd92a56b5f3c96fdf5",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/8b5d454a-bff8-4c4b-a7a1-9a368dd8fc51/",
+  "telegram_part1_message_id": 1252
 }
