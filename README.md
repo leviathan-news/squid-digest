@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **NUVA adopts Chainlink as exclusive data infrastructure for institutional RWA tokenization, starting with nvPRIME backed by U.S. HELOC-linked loans.** [𝕏/@chainlink](https://leviathannews.xyz/redirect/296449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aethir enters data center business with 10 owned sites, up to 20MW capacity for NVIDIA B300 and GB300 clusters** [𝕏/@AethirCloud](https://leviathannews.xyz/redirect/296444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **VALR launches Borrow, letting users take out loans against crypto holdings without selling assets** [chainwire.org](https://leviathannews.xyz/redirect/296730?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockchain Association backs Treasury’s GENIUS Act stablecoin rules, supporting KYC limits to direct issuer-customer transactions in primary markets** [The Block](https://leviathannews.xyz/redirect/296757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Monad proposes wallet upgrade to recover lost keys and resist quantum attacks without changing addresses** [Coindesk](https://leviathannews.xyz/redirect/296755?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Firefox extensions found siphoning crypto from user wallets, researchers report** [socket.dev](https://leviathannews.xyz/redirect/297437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **THORChain v3.20 launches Tuesday, advancing Zcash and Monero activation, resuming BNB, Base, and Solana trading** [𝕏/@THORChain](https://leviathannews.xyz/redirect/297217?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ORO raises $3M strategic round to simplify onchain finance with one-instruction execution stack** [𝕏/@Ask_ORO](https://leviathannews.xyz/redirect/297232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zerohash reapplies for OCC trust bank charter with narrower scope after initial rejection** [archive.ph](https://leviathannews.xyz/redirect/297231?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RockawayX acquires Relayer Capital, launches liquid opportunities fund for undervalued crypto assets** [RockawayX](https://leviathannews.xyz/redirect/297209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/25/signals_2026-08-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/25/signals_2026-08-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/26/signals_2026-08-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/26/signals_2026-08-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
