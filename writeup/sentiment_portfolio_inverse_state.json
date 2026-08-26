@@ -1,5 +1,5 @@
 {
-  "cash": -1341.418507669412,
+  "cash": -1913.059015528202,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -127,14 +127,6 @@
       "quantity": -2848.8422038339136,
       "entry_price": 0.08055573431456148,
       "entry_date": "2026-06-06T14:26:47.202149",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "SUI": {
-      "symbol": "SUI",
-      "token_name": "Sui",
-      "quantity": -763.0712456110671,
-      "entry_price": 0.7031937598438561,
-      "entry_date": "2026-06-09T15:50:52.001583",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "ENA": {
@@ -2738,6 +2730,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-26T14:10:01.830264",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "COVER",
+      "quantity": 763.0712456110671,
+      "price": 0.7491312392475497,
+      "value": 571.64050785879,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -35.0535696288091,
+      "entry_price": 0.7031937598438561
     }
   ],
   "daily_values": [
@@ -3564,6 +3568,10 @@
     [
       "2026-08-25T14:05:47.988420",
       6773.074248419482
+    ],
+    [
+      "2026-08-26T14:10:01.830264",
+      6684.344980626762
     ]
   ]
 }

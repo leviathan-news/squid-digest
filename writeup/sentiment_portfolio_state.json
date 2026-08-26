@@ -1,5 +1,5 @@
 {
-  "cash": 7413.724234850271,
+  "cash": 12614.529436101013,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -137,14 +137,6 @@
       "entry_date": "2026-06-06T14:26:47.202149",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "SUI": {
-      "symbol": "SUI",
-      "token_name": "Sui",
-      "quantity": 1991.6408913991932,
-      "entry_price": 0.6977212585254464,
-      "entry_date": "2026-06-09T15:50:52.001583",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "ENA": {
       "symbol": "ENA",
       "token_name": "Ethena",
@@ -256,6 +248,14 @@
       "entry_price": 1.4948811275283076,
       "entry_date": "2026-08-22T13:45:12.748484",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "quantity": -4950.807812882033,
+      "entry_price": 0.7491312392475497,
+      "entry_date": "2026-08-26T14:10:01.830264",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3390,6 +3390,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-26T14:10:01.830264",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SELL",
+      "quantity": 1991.6408913991932,
+      "price": 0.7491312392475497,
+      "value": 1492.000409109972,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 102.39021983218504,
+      "entry_price": 0.6977212585254464
+    },
+    {
+      "date": "2026-08-26T14:10:01.830264",
+      "symbol": "SUI",
+      "token_name": "Sui",
+      "action": "SHORT",
+      "quantity": 4950.807812882033,
+      "price": 0.7491312392475497,
+      "value": 3708.8047921407688,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4216,6 +4240,10 @@
     [
       "2026-08-25T14:05:47.988420",
       12272.111594348258
+    ],
+    [
+      "2026-08-26T14:10:01.830264",
+      12362.682640469224
     ]
   ]
 }
