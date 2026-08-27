@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Firefox extensions found siphoning crypto from user wallets, researchers report** [socket.dev](https://leviathannews.xyz/redirect/297437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **THORChain v3.20 launches Tuesday, advancing Zcash and Monero activation, resuming BNB, Base, and Solana trading** [𝕏/@THORChain](https://leviathannews.xyz/redirect/297217?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ORO raises $3M strategic round to simplify onchain finance with one-instruction execution stack** [𝕏/@Ask_ORO](https://leviathannews.xyz/redirect/297232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zerohash reapplies for OCC trust bank charter with narrower scope after initial rejection** [archive.ph](https://leviathannews.xyz/redirect/297231?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RockawayX acquires Relayer Capital, launches liquid opportunities fund for undervalued crypto assets** [RockawayX](https://leviathannews.xyz/redirect/297209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bybit expands RWA Earn with nOPAL, tokenizing Brazilian credit card receivables via Plume** [𝕏/@Bybit_Official](https://leviathannews.xyz/redirect/297977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sui Overflow 2026 winners announced: 26 teams honored for AI agents, payments, and storage tools** [𝕏/@suidevelopers](https://leviathannews.xyz/redirect/297940?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid fee discounts become tradeable instruments via stHYPE and Pendle markets** [𝕏/@ValantisLabs](https://leviathannews.xyz/redirect/297899?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Travala data breach began in June via stolen AWS keys, exposed data for 2,305 users** [𝕏/@Not_A_De_Gen](https://leviathannews.xyz/redirect/297909?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Moonwell on Base faces possible exploit as attacker borrows $9M in assets using MAMO collateral; 50.6 cbBTC drained so far.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/297880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/26/signals_2026-08-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/26/signals_2026-08-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/27/signals_2026-08-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/27/signals_2026-08-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
