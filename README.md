@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Bybit expands RWA Earn with nOPAL, tokenizing Brazilian credit card receivables via Plume** [𝕏/@Bybit_Official](https://leviathannews.xyz/redirect/297977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sui Overflow 2026 winners announced: 26 teams honored for AI agents, payments, and storage tools** [𝕏/@suidevelopers](https://leviathannews.xyz/redirect/297940?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid fee discounts become tradeable instruments via stHYPE and Pendle markets** [𝕏/@ValantisLabs](https://leviathannews.xyz/redirect/297899?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Travala data breach began in June via stolen AWS keys, exposed data for 2,305 users** [𝕏/@Not_A_De_Gen](https://leviathannews.xyz/redirect/297909?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Moonwell on Base faces possible exploit as attacker borrows $9M in assets using MAMO collateral; 50.6 cbBTC drained so far.** [𝕏/@officer_secret](https://leviathannews.xyz/redirect/297880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase outlines its vision for agentic finance, enabling AI agents to pay, trade, and transact using crypto infrastructure.** [𝕏/@coinbase](https://leviathannews.xyz/redirect/298231?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ripple begins intensive AI-powered audit of XRPL Lending Protocol V1.1, using Sherlock’s AI auditors to assess protocol security, complexity and vulnerabilities** [𝕏/@sherlockdefi](https://leviathannews.xyz/redirect/298263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Curve Finance DAO appoints yRisk as full-scope risk service provider after vote** [gov.curve.finance](https://leviathannews.xyz/redirect/298133?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethena Foundation buys back early investor tokens, proposes revenue-funded ENA buybacks, ends VC unlock overhang** [𝕏/@EthenaFndtn](https://leviathannews.xyz/redirect/298084?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Charles Schwab expands Schwab Crypto with Solana, bringing direct SOL access to its 39.9M brokerage accounts and $13.04T client asset base** [𝕏/@solana](https://leviathannews.xyz/redirect/298272?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/27/signals_2026-08-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/27/signals_2026-08-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/28/signals_2026-08-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/28/signals_2026-08-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

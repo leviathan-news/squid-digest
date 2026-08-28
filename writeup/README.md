@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (August 27, 2026)
+## 🔥 Latest Headlines (August 28, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/08/27/signals_2026-08-27.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/08/27/signals_2026-08-27.md)
+📊 [View Full Analysis →](writeup/2026/08/28/signals_2026-08-28.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/08/28/signals_2026-08-28.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Aug 22 - Aug 27)
+### 📅 This Week (Aug 22 - Aug 28)
+
+[**Friday, August 28, 2026**](writeup/2026/08/28/signals_2026-08-28.md)
 
 [**Thursday, August 27, 2026**](writeup/2026/08/27/signals_2026-08-27.md)
 
@@ -52,7 +54,7 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, August 14, 2026**](writeup/2026/08/14/signals_2026-08-14.md)
 
-### 📅 Week of Aug 06 - Aug 12
+### 📅 Week of Aug 07 - Aug 12
 
 [**Wednesday, August 12, 2026**](writeup/2026/08/12/signals_2026-08-12.md)
 
@@ -64,9 +66,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Friday, August 07, 2026**](writeup/2026/08/07/signals_2026-08-07.md)
 
-[**Thursday, August 06, 2026**](writeup/2026/08/06/signals_2026-08-06.md)
+### 📅 Week of Aug 01 - Aug 06
 
-### 📅 Week of Jul 31 - Aug 05
+[**Thursday, August 06, 2026**](writeup/2026/08/06/signals_2026-08-06.md)
 
 [**Wednesday, August 05, 2026**](writeup/2026/08/05/signals_2026-08-05.md)
 
@@ -77,8 +79,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Sunday, August 02, 2026**](writeup/2026/08/02/signals_2026-08-02.md)
 
 [**Saturday, August 01, 2026**](writeup/2026/08/01/signals_2026-08-01.md)
-
-[**Friday, July 31, 2026**](writeup/2026/07/31/signals_2026-07-31.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
