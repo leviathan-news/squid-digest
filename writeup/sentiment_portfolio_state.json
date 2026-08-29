@@ -1,5 +1,5 @@
 {
-  "cash": 7735.787468907814,
+  "cash": 7155.390207565493,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -236,8 +236,8 @@
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
-      "quantity": 969.7185688082128,
-      "entry_price": 1.4948811275283076,
+      "quantity": 1386.3675123242492,
+      "entry_price": 1.464266315260201,
       "entry_date": "2026-08-22T13:45:12.748484",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -3438,6 +3438,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-08-29T17:09:09.871843",
+      "symbol": "XRP",
+      "token_name": "XRP",
+      "action": "BUY",
+      "quantity": 416.64894351603635,
+      "price": 1.3930126797981015,
+      "value": 580.3972613423216,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4276,6 +4288,10 @@
     [
       "2026-08-28T23:03:48.657229",
       10754.947567785472
+    ],
+    [
+      "2026-08-29T17:09:09.871843",
+      11266.136811131393
     ]
   ]
 }
