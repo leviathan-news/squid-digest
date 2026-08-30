@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **De¹ receives investment from YZi Labs to develop financial world model for agentic finance on BNB Chain** [𝕏/@De1_ai](https://leviathannews.xyz/redirect/298744?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ajna v2 confirms an exploit and urges users to withdraw all funds, repay loans and avoid interacting with the protocol while the team investigates** [𝕏/@ajnafi](https://leviathannews.xyz/redirect/298745?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nansen adds support for Outcome’s HIP4 Markets, becoming the first front-end to support HIP4 deployers and expanding onchain market analytics** [𝕏/@Outcomexyz](https://leviathannews.xyz/redirect/298751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **altFINS and BitPath Holdings partner to launch active Gen 2 digital asset treasury strategy with AI analytics** [chainwire.org](https://leviathannews.xyz/redirect/298750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockstream rebuilds its explorer for Bitcoin and Liquid, letting users watch blocks fill, analyze transactions and verify Liquid’s backing in one dashboard** [𝕏/@Blockstream](https://leviathannews.xyz/redirect/298755?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Qubic activates ant colony mining, letting miners build on each other's solutions** [𝕏/@_Qubic_](https://leviathannews.xyz/redirect/298851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aero publishes full launch codebase ahead of Aug 31 audit contest** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/298890?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockchain Capital’s Kinjal Shah says crypto’s lasting moat is trust, as human judgment remains critical to managing DeFi risk beyond code** [𝕏/@_kinjalbshah](https://leviathannews.xyz/redirect/298901?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Clutch Markets launches STORMM on Robinhood Chain, allowing stock token and ETH liquidity providers to earn swap fees, option premiums, and dividends.** [𝕏/@ClutchMarkets](https://leviathannews.xyz/redirect/298867?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **British man recovers 61 Bitcoin lost for 12 years, now worth $4.7 million** [𝕏/@BullTheoryio](https://leviathannews.xyz/redirect/298869?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/29/signals_2026-08-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/29/signals_2026-08-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/30/signals_2026-08-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/30/signals_2026-08-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
