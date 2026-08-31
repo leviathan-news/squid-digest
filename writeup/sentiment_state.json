@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-08-30",
+  "last_processed_date": "2026-08-31",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 2.676228900024397,
-      "last_signal_date": "2026-08-29",
+      "score": 5.423923845739061,
+      "last_signal_date": "2026-08-31",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 2.3659087153837146,
+      "score": 2.1428595110112503,
       "last_signal_date": "2026-08-29",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.648847332909391,
+      "score": 4.869152872341373,
       "last_signal_date": "2026-08-28",
       "token_name": "Solana"
     },
@@ -27,49 +27,49 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.8619728212469777,
+      "score": 0.7429971445684742,
       "last_signal_date": "2026-08-28",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.776105274752012,
-      "last_signal_date": "2026-08-24",
+      "score": 2.5487893026917963,
+      "last_signal_date": "2026-08-31",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 5.584430191779448,
-      "last_signal_date": "2026-08-29",
+      "score": 6.0579505761244725,
+      "last_signal_date": "2026-08-31",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 3.857365227352136,
-      "last_signal_date": "2026-08-30",
-      "token_name": "Hyperliquid"
+      "score": 5.671035790262734,
+      "last_signal_date": "2026-08-31",
+      "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 2.585918463740933,
+      "score": 2.2289914337054224,
       "last_signal_date": "2026-08-28",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.011881718749951475,
+      "score": 0.0,
       "last_signal_date": "2026-08-15",
       "token_name": "Avalanche"
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 0.19095238773156806,
+      "score": 0.1566449949702844,
       "last_signal_date": "2026-08-27",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.9516951530106196,
+      "score": 0.7071067811865475,
       "last_signal_date": "2026-08-25",
       "token_name": "ChainLink Token"
     },
@@ -105,7 +105,7 @@
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.9240511527962771,
+      "score": 0.6534028363054942,
       "last_signal_date": "2026-08-24",
       "token_name": "Uniswap"
     },
@@ -129,7 +129,7 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 0.02001385452756676,
+      "score": 0.0,
       "last_signal_date": "2026-08-16",
       "token_name": "Tron"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 2.269770292857695,
+      "score": 1.7720305090182575,
       "last_signal_date": "2026-08-26",
       "token_name": "Monero"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 1.7239456424939554,
+      "score": 1.4859942891369484,
       "last_signal_date": "2026-08-28",
       "token_name": "Injective"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.4758475765053098,
+      "score": 0.35355339059327373,
       "last_signal_date": "2026-08-25",
       "token_name": "Monad"
     },
@@ -213,7 +213,7 @@
     },
     "SEI": {
       "symbol": "SEI",
-      "score": 0.8619728212469777,
+      "score": 0.7429971445684742,
       "last_signal_date": "2026-08-28",
       "token_name": "Sei"
     },
@@ -255,13 +255,13 @@
     },
     "AERO": {
       "symbol": "AERO",
-      "score": 0.9516951530106196,
+      "score": 0.7071067811865475,
       "last_signal_date": "2026-08-25",
       "token_name": "Aerodrome Finance"
     },
     "cbBTC": {
       "symbol": "cbBTC",
-      "score": -1.4859942891369484,
+      "score": -1.2190136542044754,
       "last_signal_date": "2026-08-27",
       "token_name": "cbBTC"
     }
