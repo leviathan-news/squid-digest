@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Qubic activates ant colony mining, letting miners build on each other's solutions** [𝕏/@_Qubic_](https://leviathannews.xyz/redirect/298851?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aero publishes full launch codebase ahead of Aug 31 audit contest** [𝕏/@AerodromeFi](https://leviathannews.xyz/redirect/298890?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockchain Capital’s Kinjal Shah says crypto’s lasting moat is trust, as human judgment remains critical to managing DeFi risk beyond code** [𝕏/@_kinjalbshah](https://leviathannews.xyz/redirect/298901?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Clutch Markets launches STORMM on Robinhood Chain, allowing stock token and ETH liquidity providers to earn swap fees, option premiums, and dividends.** [𝕏/@ClutchMarkets](https://leviathannews.xyz/redirect/298867?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **British man recovers 61 Bitcoin lost for 12 years, now worth $4.7 million** [𝕏/@BullTheoryio](https://leviathannews.xyz/redirect/298869?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase CEO Brian Armstrong says on-chain reputation could replace FICO scores for creditworthiness.** [𝕏/@brian_armstrong](https://leviathannews.xyz/redirect/299085?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Sberbank forecasts Russia's regulated crypto exchanges could handle $46.4B in first-year trading volume after new rules take effect** [The Block](https://leviathannews.xyz/redirect/299086?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trust wallet previews upcoming feature to claim X usernames and display wallet profiles** [𝕏/@felix_fan](https://leviathannews.xyz/redirect/299124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **tZERO and ICE partner on NYSE tokenized securities platform; ICE to invest, license blockchain patents** [𝕏/@tZERO](https://leviathannews.xyz/redirect/299204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase and Webull expand Canadian partnership to add crypto trading and custody services** [Coinbase](https://leviathannews.xyz/redirect/299207?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/30/signals_2026-08-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/30/signals_2026-08-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/31/signals_2026-08-31.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/31/signals_2026-08-31.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
