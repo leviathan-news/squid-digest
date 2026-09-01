@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Coinbase CEO Brian Armstrong says on-chain reputation could replace FICO scores for creditworthiness.** [𝕏/@brian_armstrong](https://leviathannews.xyz/redirect/299085?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Sberbank forecasts Russia's regulated crypto exchanges could handle $46.4B in first-year trading volume after new rules take effect** [The Block](https://leviathannews.xyz/redirect/299086?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trust wallet previews upcoming feature to claim X usernames and display wallet profiles** [𝕏/@felix_fan](https://leviathannews.xyz/redirect/299124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **tZERO and ICE partner on NYSE tokenized securities platform; ICE to invest, license blockchain patents** [𝕏/@tZERO](https://leviathannews.xyz/redirect/299204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase and Webull expand Canadian partnership to add crypto trading and custody services** [Coinbase](https://leviathannews.xyz/redirect/299207?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Singapore MAS proposes stablecoin licensing framework under Payment Services Act amendments; public feedback open until October 16.** [mas.gov.sg](https://leviathannews.xyz/redirect/299496?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Alpaca partners with Kalshi to offer CFTC-regulated event contracts on its brokerage platform** [𝕏/@AlpacaHQ](https://leviathannews.xyz/redirect/299475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid in talks with Kraken parent Payward to launch regulated crypto futures in the U.S.** [archive.ph](https://leviathannews.xyz/redirect/299437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **North Korean hackers move tens of millions through Hyperliquid as US officials weigh onshoring the platform** [Coindesk](https://leviathannews.xyz/redirect/299438?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockstream report evaluates lattice-based signatures Dilithium, Falcon, and Hawk for Bitcoin adoption** [𝕏/@Blockstream](https://leviathannews.xyz/redirect/299473?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/08/31/signals_2026-08-31.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/08/31/signals_2026-08-31.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/01/signals_2026-09-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/01/signals_2026-09-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
