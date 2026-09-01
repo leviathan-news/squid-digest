@@ -101,7 +101,7 @@ jobs:
       run: |
         TODAY=$(date -u '+%Y-%m-%d')
 
-        if [ -z "$X_API_KEY" ] || [ -z "$X_ACCESS_TOKEN" ]; then
+        if [ -z "$X_API_KEY" ] || [ -z "$X_ACCESS_TOKEN" ] || [ -z "$X_ACCOUNT_USERNAME" ]; then
           echo "ERROR: X credentials not configured"
           exit 1
         fi

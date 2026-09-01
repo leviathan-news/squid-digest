@@ -11,130 +11,67 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 
-class TestFormatCompactPrice:
-    """Tests for _format_compact_price in post_x.py and post_telegram_broadcast.py."""
-
-    def _fmt(self, price):
-        from post_x import _format_compact_price
-        return _format_compact_price(price)
-
-    def test_large_round(self):
-        assert self._fmt(71400) == "$71K"
-
-    def test_large_with_decimal(self):
-        assert self._fmt(100000) == "$100K"
-
-    def test_thousands(self):
-        assert self._fmt(2179) == "$2.2K"
-
-    def test_exact_thousand(self):
-        assert self._fmt(1000) == "$1.0K"
-
-    def test_hundreds(self):
-        assert self._fmt(105.18) == "$105"
-
-    def test_near_hundred_no_scientific(self):
-        """99.9 must NOT produce scientific notation like $1e+02."""
-        result = self._fmt(99.9)
-        assert "e" not in result, f"Scientific notation detected: {result}"
-        assert result == "$99.9"
-
-    def test_tens(self):
-        assert self._fmt(10.5) == "$10.5"
-
-    def test_single_digit(self):
-        assert self._fmt(1.5) == "$1.50"
-
-    def test_sub_dollar(self):
-        assert self._fmt(0.458) == "$0.46"
-
-    def test_very_small(self):
-        assert self._fmt(0.001) == "$0.00"
-
-    def test_near_ten(self):
-        assert self._fmt(9.99) == "$9.99"
-
-
-class TestExtractMarketStats:
-    """Tests for _extract_market_stats against actual signal file format."""
-
-    SAMPLE_CONTENT = """## 💰 Market Snapshot (24h)
-• 🟢 **[BTC](https://leviathannews.xyz/t/216/BTC)**: $71,400.00 (+2.15%)
-• 🟢 **[ETH](https://leviathannews.xyz/t/227/ETH)**: $2,179.80 (+2.27%)
-• 🟢 **[OPEN](https://leviathannews.xyz/t/821/OPEN)**: $0.4580 (+3.33%)
-
-**📈 Top Gainers:**
-• 🟢 **[ENA](https://leviathannews.xyz/t/707/ENA)**: $0.0990 (+7.1%)
-"""
-
-    def test_extracts_three_stats(self):
-        from post_x import _extract_market_stats
-        stats = _extract_market_stats(self.SAMPLE_CONTENT)
-        assert len(stats) == 3
-
-    def test_first_stat_is_btc(self):
-        from post_x import _extract_market_stats
-        stats = _extract_market_stats(self.SAMPLE_CONTENT)
-        symbol, price, pct_str, pct_float = stats[0]
-        assert symbol == "BTC"
-        assert price == 71400.0
-        assert pct_str == "+2.15%"
-        assert pct_float == 2.15
-
-    def test_sub_dollar_price_parsed(self):
-        from post_x import _extract_market_stats
-        stats = _extract_market_stats(self.SAMPLE_CONTENT)
-        _, price, _, _ = stats[2]  # OPEN
-        assert price == 0.458
-
-    def test_negative_percentages(self):
-        content = '• 🔴 **[BTC](url)**: $66,324.00 (-4.78%)'
-        from post_x import _extract_market_stats
-        stats = _extract_market_stats(content)
-        assert stats[0][3] == -4.78
-
-
-class TestBuildTweet:
-    """Tests for tweet building and progressive trimming."""
+class TestBuildNativeDigestRoot:
+    """The full digest belongs in the root; the canonical URL belongs in its reply."""
 
     def _build(self, blurb="Test blurb", stats_content=None):
-        from post_x import _build_tweet, EFFECTIVE_CHAR_LIMIT, X_TCO_URL_LENGTH
+        from post_x import _build_native_root
         date = datetime(2026, 3, 27)
         content = stats_content or (
-            '• 🟢 **[BTC](url)**: $71,400.00 (+2.15%)\n'
-            '• 🟢 **[ETH](url)**: $2,179.80 (+2.27%)\n'
-            '• 🟢 **[OPEN](url)**: $0.4580 (+3.33%)\n'
+            '## Market Snapshot\n\n'
+            '• 🟢 **[BTC](https://example.com/btc)**: $71,400.00 (+2.15%)\n'
+            'Full native digest analysis follows.'
         )
-        url = "https://digest.leviathannews.xyz/leviathan-news-daily-digest-march-27-2026/"
-        tweet = _build_tweet(date, content, url, blurb)
-        real_len = len(tweet) - len(url) + X_TCO_URL_LENGTH
-        return tweet, real_len
+        return _build_native_root(date, content, blurb)
 
-    def test_within_budget(self):
-        from post_x import EFFECTIVE_CHAR_LIMIT
-        _, real_len = self._build(blurb="Short blurb here")
-        assert real_len <= EFFECTIVE_CHAR_LIMIT
+    def test_contains_branding_and_full_content(self):
+        root = self._build()
+        assert "SQUID DIGEST" in root
+        assert "Market Snapshot" in root
+        assert "Full native digest analysis follows." in root
 
-    def test_contains_branding(self):
-        tweet, _ = self._build()
-        assert "SQUID DIGEST" in tweet
+    def test_root_removes_every_outbound_url(self):
+        root = self._build(stats_content='See [Bitcoin](https://example.com/btc) and https://example.com/eth')
+        assert 'https://' not in root
+        assert 'Bitcoin' in root
 
-    def test_contains_cta(self):
-        tweet, _ = self._build()
-        assert "Read the full digest at" in tweet
+    def test_source_reply_carries_the_canonical_url_with_attribution(self):
+        from post_x import _build_source_reply
 
-    def test_long_blurb_trims_stats(self):
-        """A long blurb should cause stats to be dropped before the blurb is truncated."""
-        tweet, real_len = self._build(blurb="A" * 200)
-        from post_x import EFFECTIVE_CHAR_LIMIT
-        assert real_len <= EFFECTIVE_CHAR_LIMIT
+        reply = _build_source_reply('https://digest.leviathannews.xyz/example/')
+        assert reply.startswith('Read the complete digest and archive: ')
+        assert 'utm_source=x' in reply
+        assert 'utm_campaign=squid_digest' in reply
 
-    def test_no_stats_content(self):
-        """Tweet should work even with no market stats."""
-        tweet, real_len = self._build(stats_content="no stats here")
-        from post_x import EFFECTIVE_CHAR_LIMIT
-        assert real_len <= EFFECTIVE_CHAR_LIMIT
-        assert "Read the full digest at" in tweet
+    def test_oversized_digest_fails_instead_of_truncating_editorial_content(self):
+        from post_x import NATIVE_DIGEST_ROOT_MAX_CHARS
+        import pytest
+
+        with pytest.raises(ValueError, match='refusing to truncate'):
+            self._build(stats_content='x' * NATIVE_DIGEST_ROOT_MAX_CHARS)
+
+
+class TestXReplyClient:
+    def test_posts_the_source_link_as_a_reply(self, monkeypatch):
+        from unittest.mock import MagicMock, patch
+        from squid_digest.x.client import XClient
+
+        monkeypatch.setenv('X_API_KEY', 'key')
+        monkeypatch.setenv('X_API_SECRET', 'secret')
+        monkeypatch.setenv('X_ACCESS_TOKEN', 'token')
+        monkeypatch.setenv('X_ACCESS_TOKEN_SECRET', 'token-secret')
+        response = MagicMock()
+        response.json.return_value = {'data': {'id': 'reply-1'}}
+        with patch('squid_digest.x.client.OAuth1Session') as session_class:
+            session = session_class.return_value
+            session.post.return_value = response
+            client = XClient()
+            client.post_tweet('Read the archive', in_reply_to_tweet_id='root-1')
+
+        assert session.post.call_args.kwargs['json'] == {
+            'text': 'Read the archive',
+            'reply': {'in_reply_to_tweet_id': 'root-1'},
+        }
 
 
 class TestTruncateCaption:
@@ -738,12 +675,13 @@ class TestPostXSentinel:
         monkeypatch.setenv("X_API_SECRET", "s")
         monkeypatch.setenv("X_ACCESS_TOKEN", "t")
         monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
-        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setenv("X_ACCOUNT_USERNAME", "digest_bot")
         monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
 
         post_x = self._load_main()
 
         client = MagicMock()
+        client.search_recent.return_value = []
         client.post_tweet.side_effect = RuntimeError("boom")
         with patch("squid_digest.x.XClient", return_value=client):
             with pytest.raises(SystemExit) as exc:
@@ -766,12 +704,13 @@ class TestPostXSentinel:
         monkeypatch.setenv("X_API_SECRET", "s")
         monkeypatch.setenv("X_ACCESS_TOKEN", "t")
         monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
-        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setenv("X_ACCOUNT_USERNAME", "digest_bot")
         monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
 
         post_x = self._load_main()
 
         client = MagicMock()
+        client.search_recent.return_value = []
         client.post_tweet.return_value = {"data": {}}
         with patch("squid_digest.x.XClient", return_value=client):
             with pytest.raises(SystemExit) as exc:
@@ -793,12 +732,13 @@ class TestPostXSentinel:
         monkeypatch.setenv("X_API_SECRET", "s")
         monkeypatch.setenv("X_ACCESS_TOKEN", "t")
         monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
-        monkeypatch.delenv("X_ACCOUNT_USERNAME", raising=False)
+        monkeypatch.setenv("X_ACCOUNT_USERNAME", "digest_bot")
         monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
 
         post_x = self._load_main()
 
         client = MagicMock()
+        client.search_recent.return_value = []
         client.post_tweet.return_value = {"data": {"id": "12345"}}
         with patch("squid_digest.x.XClient", return_value=client):
             post_x.main()
@@ -806,4 +746,37 @@ class TestPostXSentinel:
         from squid_digest.config import load_meta
         meta = load_meta(date)
         assert meta.get("tweet_id") == "12345"
+        assert meta.get("tweet_reply_id") == "12345"
         assert meta.get("tweet_status") == "ok"
+
+    def test_reply_failure_keeps_the_confirmed_root_for_safe_resume(self, tmp_path, monkeypatch):
+        from unittest.mock import MagicMock, patch
+        import pytest
+
+        self._isolate(tmp_path, monkeypatch)
+        date = datetime(2026, 5, 6)
+        self._prime_signals_and_meta(tmp_path, date)
+
+        monkeypatch.setenv("X_API_KEY", "k")
+        monkeypatch.setenv("X_API_SECRET", "s")
+        monkeypatch.setenv("X_ACCESS_TOKEN", "t")
+        monkeypatch.setenv("X_ACCESS_TOKEN_SECRET", "ts")
+        monkeypatch.setenv("X_ACCOUNT_USERNAME", "digest_bot")
+        monkeypatch.setattr("sys.argv", ["post_x.py", "--date", date.strftime("%Y-%m-%d")])
+
+        post_x = self._load_main()
+        client = MagicMock()
+        client.search_recent.return_value = []
+        client.post_tweet.side_effect = [
+            {"data": {"id": "root-1"}},
+            RuntimeError("reply failed"),
+        ]
+        with patch("squid_digest.x.XClient", return_value=client):
+            with pytest.raises(SystemExit) as exc:
+                post_x.main()
+            assert exc.value.code == 1
+
+        from squid_digest.config import load_meta
+        meta = load_meta(date)
+        assert meta.get("tweet_id") == "root-1"
+        assert meta.get("tweet_status") == "ROOT_POSTED_REPLY_FAILED"

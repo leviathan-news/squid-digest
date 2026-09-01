@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Post a daily digest summary tweet to X (formerly Twitter).
+"""Post a daily digest as native X content with its source link in a reply.
 
-Posts a single tweet with a branded header, AI-generated blurb, compact
-market stats, and a link to the published digest. Includes API-based
-dedupe so reruns do not double-post.
+The root contains the full readable digest without an outbound URL. The
+published digest link is the root's first reply, so retrying that reply never
+needs to duplicate the editorial root.
 
 Usage:
     uv run python scripts/post_x.py --date 2026-03-27 --dry-run
@@ -17,6 +17,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 # Load .env
 try:
@@ -30,112 +31,62 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 from squid_digest.config import (
     get_writeup_file_path,
     resolve_public_digest_url,
-    get_canonical_url,
     load_meta,
     save_meta,
     DEFAULT_BLURB,
 )
 
-# X wraps all URLs to this length via t.co
-X_TCO_URL_LENGTH = 23
-# Leave slack for emoji rendering variance
-EFFECTIVE_CHAR_LIMIT = 260
+NATIVE_DIGEST_ROOT_MAX_CHARS = 25_000
 
 
-def _format_compact_price(price: float) -> str:
-    """Format a price compactly for tweets.
-
-    >>> _format_compact_price(71400)
-    '$71K'
-    >>> _format_compact_price(2179)
-    '$2.2K'
-    >>> _format_compact_price(0.458)
-    '$0.46'
-    >>> _format_compact_price(105.18)
-    '$105'
-    """
-    if price >= 10000:
-        return f"${price / 1000:.0f}K"
-    elif price >= 1000:
-        return f"${price / 1000:.1f}K"
-    elif price >= 100:
-        return f"${price:.0f}"
-    elif price >= 10:
-        return f"${price:.1f}"
-    elif price >= 1:
-        return f"${price:.2f}"
-    else:
-        return f"${price:.2f}"
+def _native_text(markdown: str) -> str:
+    """Keep digest prose while removing Markdown syntax and every root URL."""
+    text = str(markdown or '')
+    text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
+    text = re.sub(r'<https?://[^>]+>', '', text)
+    text = re.sub(r'https?://\S+', '', text)
+    text = re.sub(r'(?m)^\s{0,3}#{1,6}\s*', '', text)
+    text = text.replace('**', '').replace('__', '').replace('`', '')
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    text = re.sub(r'[ \t]+\n', '\n', text)
+    return text.strip()
 
 
-def _extract_market_stats(content: str) -> list:
-    """Extract market stats as structured tuples from the Market Snapshot.
-
-    Actual format: • 🟢 **[BTC](url)**: $71,400.00 (+2.15%)
-
-    Returns list of (symbol, price_float, pct_str, pct_float) tuples.
-    """
-    stats = []
-    for m in re.finditer(
-        r"•\s*[🔴🟢🟠🟡]\s*\*\*\[(\w+)\]\([^)]*\)\*\*:\s*\$([\d,.]+)\s*\(([+-][\d.]+)%\)",
-        content,
-    ):
-        symbol = m.group(1)
-        price = float(m.group(2).replace(",", ""))
-        pct_str = m.group(3) + "%"
-        pct_float = float(m.group(3))
-        stats.append((symbol, price, pct_str, pct_float))
-        if len(stats) >= 3:
-            break
-    return stats
-
-
-def _format_stats_line(stats: list) -> str:
-    """Format stats tuples into a compact line with emoji and cashtags."""
-    parts = []
-    for symbol, price, pct_str, pct_float in stats:
-        emoji = "\U0001f7e2" if pct_float >= 0 else "\U0001f534"
-        compact_price = _format_compact_price(price)
-        parts.append(f"{emoji} ${symbol}: {compact_price} ({pct_str})")
-    return " \u00b7 ".join(parts)
-
-
-def _build_tweet(date: datetime, content: str, digest_url: str, blurb: str) -> str:
-    """Build a tweet within the 260-char budget.
-
-    Progressively drops stats (OPEN first, then ETH, then all) and
-    truncates blurb to fit.
-    """
+def _build_native_root(date: datetime, content: str, blurb: str) -> str:
+    """Build a URL-free long-form root; never silently truncate editorial text."""
     title = f"\U0001f991 SQUID DIGEST \U0001f4f0 {date.strftime('%B %d, %Y')}"
-    cta = f"Read the full digest at {digest_url}"
-    stats = _extract_market_stats(content)
+    parts = [title, _native_text(blurb), _native_text(content)]
+    root = '\n\n'.join(part for part in parts if part).strip()
+    if not root:
+        raise ValueError('native digest root is empty')
+    if re.search(r'https?://', root, flags=re.IGNORECASE):
+        raise ValueError('native digest root contains an outbound URL')
+    if len(root) > NATIVE_DIGEST_ROOT_MAX_CHARS:
+        raise ValueError(
+            f'native digest root exceeds {NATIVE_DIGEST_ROOT_MAX_CHARS} characters; '
+            'refusing to truncate editorial content'
+        )
+    return root
 
-    def _real_len(text):
-        """Calculate real tweet length (URL counts as 23 regardless of actual length)."""
-        return len(text) - len(digest_url) + X_TCO_URL_LENGTH
 
-    def _assemble(blurb_text, stat_items):
-        parts = [title]
-        if blurb_text:
-            parts.append(blurb_text)
-        if stat_items:
-            parts.append(_format_stats_line(stat_items))
-        parts.append(cta)
-        return "\n\n".join(parts)
+def _tracked_digest_url(digest_url: str) -> str:
+    """Add stable attribution to the canonical URL carried by the first reply."""
+    parsed = urlsplit(digest_url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query.update({
+        'utm_source': 'x',
+        'utm_medium': 'social',
+        'utm_campaign': 'squid_digest',
+    })
+    return urlunsplit(parsed._replace(query=urlencode(query)))
 
-    # Try with full content, progressively trim
-    for stat_count in [len(stats), 2, 1, 0]:
-        tweet = _assemble(blurb, stats[:stat_count] if stat_count else [])
-        if _real_len(tweet) <= EFFECTIVE_CHAR_LIMIT:
-            return tweet
 
-    # Still over — truncate blurb
-    tweet = _assemble("", [])
-    remaining = EFFECTIVE_CHAR_LIMIT - _real_len(tweet) - 4  # 4 for \n\n separator
-    if remaining > 20 and blurb:
-        truncated_blurb = blurb[:remaining - 3] + "..."
-        tweet = _assemble(truncated_blurb, [])
-    return tweet
+def _build_source_reply(digest_url: str) -> str:
+    return f"Read the complete digest and archive: {_tracked_digest_url(digest_url)}"
+
+
+def _root_search_query(date: datetime, username: str) -> str:
+    return f'from:{username} "SQUID DIGEST" "{date.strftime("%B %d, %Y")}"'
 
 
 def main():
@@ -148,11 +99,7 @@ def main():
     date = datetime.strptime(args.date, "%Y-%m-%d")
     date_str = date.strftime("%Y-%m-%d")
 
-    # --- Fast-path dedupe ---
     meta = load_meta(date)
-    if meta.get("tweet_id") and not args.force:
-        print(f"\u23ed Already tweeted for {date_str} (tweet_id: {meta['tweet_id']}), skipping")
-        return
 
     # --- Load signals file ---
     signals_path = get_writeup_file_path(f"signals_{date_str}.md", date)
@@ -166,18 +113,29 @@ def main():
     digest_url = resolve_public_digest_url(date)
     blurb = meta.get("blurb") or DEFAULT_BLURB
 
-    # --- Build tweet ---
-    tweet = _build_tweet(date, content, digest_url, blurb)
-    real_len = len(tweet) - len(digest_url) + X_TCO_URL_LENGTH
-    print(f"Tweet ({real_len} chars / {EFFECTIVE_CHAR_LIMIT}):")
-    print(tweet)
+    # --- Build the URL-free root and its canonical-link reply ---
+    try:
+        root = _build_native_root(date, content, blurb)
+    except ValueError as exc:
+        print(f"ERROR: {exc}")
+        save_meta(date, {"tweet_status": "FAILED"})
+        sys.exit(1)
+    tracked_digest_url = _tracked_digest_url(digest_url)
+    source_reply = _build_source_reply(digest_url)
+    print(f"Native root ({len(root)} chars / {NATIVE_DIGEST_ROOT_MAX_CHARS}):")
+    print(root)
+    print("\nFirst reply:")
+    print(source_reply)
 
     if args.dry_run:
         print("\n\u2713 Dry run complete. Remove --dry-run to post.")
         return
 
     # --- Validate X credentials ---
-    required_vars = ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET"]
+    required_vars = [
+        "X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET",
+        "X_ACCOUNT_USERNAME",
+    ]
     missing = [v for v in required_vars if not os.getenv(v)]
     if missing:
         print(f"ERROR: Missing env vars: {', '.join(missing)}")
@@ -186,36 +144,64 @@ def main():
     from squid_digest.x import XClient
     client = XClient()
 
-    # --- Authoritative dedupe via X search API (fail-open) ---
-    if not args.force:
-        username = os.getenv("X_ACCOUNT_USERNAME", "")
-        if username:
-            start_of_day = datetime(date.year, date.month, date.day, tzinfo=timezone.utc)
-            query = f'from:{username} url:"{digest_url}"'
-            existing = client.search_recent(query, start_time=start_of_day.isoformat())
-            if existing:
-                tweet_id = existing[0].get("id", "unknown")
-                print(f"\u23ed Digest tweet already exists (id: {tweet_id}), skipping")
-                save_meta(date, {"tweet_id": tweet_id, "tweet_status": "ok"})
-                return
-        else:
-            print("\u2139 X_ACCOUNT_USERNAME not set, skipping API dedupe check")
+    root_id = meta.get('tweet_id')
+    reply_id = meta.get('tweet_reply_id')
+    username = os.getenv("X_ACCOUNT_USERNAME", "")
+    start_of_day = datetime(date.year, date.month, date.day, tzinfo=timezone.utc)
 
-    # --- Post ---
+    # A root has no URL, so its date-stamped masthead—not the reply URL—is the
+    # crash-recovery key. Search remains fail-open, matching the prior runner.
+    if not args.force and not root_id and username:
+        existing = client.search_recent(
+            _root_search_query(date, username), start_time=start_of_day.isoformat(),
+        )
+        if existing and existing[0].get('id'):
+            root_id = existing[0]['id']
+            save_meta(date, {"tweet_id": root_id, "tweet_status": "ROOT_POSTED"})
+            print(f"\u23ed Native digest root already exists (id: {root_id})")
     print("\nPosting to X...")
-    try:
-        result = client.post_tweet(tweet)
-        tweet_id = result.get("data", {}).get("id")
-        if tweet_id:
-            save_meta(date, {"tweet_id": tweet_id, "tweet_status": "ok"})
-            print(f"\u2713 Posted: https://x.com/i/web/status/{tweet_id}")
-        else:
-            print(f"\u26a0 Post returned unexpected response: {result}")
+    if not root_id:
+        try:
+            result = client.post_tweet(root)
+            root_id = result.get("data", {}).get("id")
+            if not root_id:
+                raise RuntimeError(f"root post returned unexpected response: {result}")
+            save_meta(date, {"tweet_id": root_id, "tweet_status": "ROOT_POSTED"})
+            print(f"\u2713 Native root posted: https://x.com/i/web/status/{root_id}")
+        except Exception as exc:
+            print(f"\u2717 Failed to post native root: {exc}")
             save_meta(date, {"tweet_status": "FAILED"})
             sys.exit(1)
-    except Exception as e:
-        print(f"\u2717 Failed to post: {e}")
-        save_meta(date, {"tweet_status": "FAILED"})
+
+    if not args.force and not reply_id and username:
+        existing = client.search_recent(
+            f'from:{username} url:"{tracked_digest_url}"',
+            start_time=start_of_day.isoformat(),
+        )
+        reply = next((row for row in existing if str(row.get('id')) != str(root_id)), None)
+        if reply and reply.get('id'):
+            reply_id = reply['id']
+            save_meta(date, {"tweet_reply_id": reply_id, "tweet_status": "ok"})
+            print(f"\u23ed Digest source reply already exists (id: {reply_id})")
+
+    if reply_id and not args.force:
+        print(f"\u23ed Digest distribution already complete (root={root_id}, reply={reply_id})")
+        return
+
+    try:
+        result = client.post_tweet(source_reply, in_reply_to_tweet_id=str(root_id))
+        reply_id = result.get("data", {}).get("id")
+        if not reply_id:
+            raise RuntimeError(f"source reply returned unexpected response: {result}")
+        save_meta(date, {
+            "tweet_id": root_id,
+            "tweet_reply_id": reply_id,
+            "tweet_status": "ok",
+        })
+        print(f"\u2713 Source reply posted: https://x.com/i/web/status/{reply_id}")
+    except Exception as exc:
+        print(f"\u2717 Failed to post digest source reply: {exc}")
+        save_meta(date, {"tweet_id": root_id, "tweet_status": "ROOT_POSTED_REPLY_FAILED"})
         sys.exit(1)
 
 
