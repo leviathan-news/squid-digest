@@ -1,5 +1,5 @@
 {
-  "cash": -1282.3303326268633,
+  "cash": -1064.7899076730514,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -236,8 +236,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": -5.670027029040075,
-      "entry_price": 84.34541788839365,
+      "quantity": -8.321047813632237,
+      "entry_price": 83.6170203248679,
       "entry_date": "2026-08-27T22:58:31.192172",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -2798,6 +2798,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-01T17:20:18.539545",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 2.6510207845921623,
+      "price": 82.05911708356476,
+      "value": 217.54042495381196,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3648,6 +3660,10 @@
     [
       "2026-08-31T19:31:15.095650",
       6873.87826154196
+    ],
+    [
+      "2026-09-01T17:20:18.539545",
+      6978.086566546842
     ]
   ]
 }
