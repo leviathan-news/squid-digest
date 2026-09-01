@@ -46,12 +46,15 @@ class XClient:
             resource_owner_secret=self.access_token_secret,
         )
 
-    def post_tweet(self, text: str) -> dict:
+    def post_tweet(self, text: str, *, in_reply_to_tweet_id: Optional[str] = None) -> dict:
         """Post a tweet and return the API response JSON.
 
         Raises on HTTP errors (429 rate-limit, 403 cap exceeded, etc.).
         """
-        resp = self._session.post(f"{_API_BASE}/tweets", json={"text": text})
+        payload = {"text": text}
+        if in_reply_to_tweet_id:
+            payload['reply'] = {'in_reply_to_tweet_id': str(in_reply_to_tweet_id)}
+        resp = self._session.post(f"{_API_BASE}/tweets", json=payload)
         resp.raise_for_status()
         return resp.json()
 

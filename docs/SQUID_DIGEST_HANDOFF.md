@@ -86,6 +86,19 @@ python scripts/send_email.py --type public --digest-file writeup/signals_2025-10
 python scripts/send_email.py --type public --digest-file writeup/digest_2025-10-19.md
 ```
 
+### X Distribution Contract
+
+`send-digest.yml` runs `scripts/post_x.py` only after the canonical Ghost
+digest is published. The X root carries the complete readable digest as native,
+URL-free text (up to the account's 25,000-character long-post entitlement).
+The one tracked canonical digest URL is posted as its immediate first reply.
+
+The metadata file records `tweet_id` as soon as the root is accepted and
+`tweet_reply_id` only after the reply is accepted. A reply failure leaves the
+confirmed root ID intact with `ROOT_POSTED_REPLY_FAILED`, so a rerun resumes the
+reply without publishing a duplicate root. Oversized roots fail rather than
+silently truncating editorial content.
+
 ## Configuration
 
 ### Environment Variables
@@ -148,7 +161,6 @@ The system is working correctly when:
 
 ## Final Notes
 The system is currently stable and working as intended. The main workflow generates both content types, creates proper Ghost drafts, and commits files automatically. Future improvements should focus on automation and analytics rather than core functionality fixes.
-
 
 
 
