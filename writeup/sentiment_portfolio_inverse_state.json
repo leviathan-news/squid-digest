@@ -1,5 +1,5 @@
 {
-  "cash": -1064.7899076730514,
+  "cash": -1668.919964902965,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -192,14 +192,6 @@
       "entry_price": 93.02721822998753,
       "entry_date": "2026-07-30T15:24:04.368312",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "DOGE": {
-      "symbol": "DOGE",
-      "token_name": "Dogecoin",
-      "quantity": -7448.88552756336,
-      "entry_price": 0.07032258299894394,
-      "entry_date": "2026-08-09T14:01:15.281406",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "TON": {
       "symbol": "TON",
@@ -2810,6 +2802,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-02T17:10:55.636093",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "COVER",
+      "quantity": 7448.88552756336,
+      "price": 0.08110341540280501,
+      "value": 604.1300572299135,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -80.3051864682069,
+      "entry_price": 0.07032258299894394
     }
   ],
   "daily_values": [
@@ -3664,6 +3668,10 @@
     [
       "2026-09-01T17:20:18.539545",
       6978.086566546842
+    ],
+    [
+      "2026-09-02T17:10:55.636093",
+      7307.802469994085
     ]
   ]
 }

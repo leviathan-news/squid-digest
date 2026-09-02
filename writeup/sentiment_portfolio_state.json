@@ -1,5 +1,5 @@
 {
-  "cash": 6230.2751611818485,
+  "cash": 10917.593845272482,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -209,14 +209,6 @@
       "entry_date": "2026-08-05T15:28:57.211741",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "DOGE": {
-      "symbol": "DOGE",
-      "token_name": "Dogecoin",
-      "quantity": 21168.43758547854,
-      "entry_price": 0.07019523042830217,
-      "entry_date": "2026-08-09T14:01:15.281406",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
@@ -256,6 +248,14 @@
       "entry_price": 83.84590765252456,
       "entry_date": "2026-08-27T22:58:31.192172",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "quantity": -36625.90634949364,
+      "entry_price": 0.08110341540280501,
+      "entry_date": "2026-09-02T17:10:55.636093",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3474,6 +3474,30 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-02T17:10:55.636093",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SELL",
+      "quantity": 21168.43758547854,
+      "price": 0.08110341540280501,
+      "value": 1716.8325869234166,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 230.90923280361812,
+      "entry_price": 0.07019523042830217
+    },
+    {
+      "date": "2026-09-02T17:10:55.636093",
+      "symbol": "DOGE",
+      "token_name": "Dogecoin",
+      "action": "SHORT",
+      "quantity": 36625.90634949364,
+      "price": 0.08110341540280501,
+      "value": 2970.4860971672165,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4328,6 +4352,10 @@
     [
       "2026-09-01T17:20:18.539545",
       10577.857382756283
+    ],
+    [
+      "2026-09-02T17:10:55.636093",
+      9901.620323890722
     ]
   ]
 }
