@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Singapore MAS proposes stablecoin licensing framework under Payment Services Act amendments; public feedback open until October 16.** [mas.gov.sg](https://leviathannews.xyz/redirect/299496?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Alpaca partners with Kalshi to offer CFTC-regulated event contracts on its brokerage platform** [𝕏/@AlpacaHQ](https://leviathannews.xyz/redirect/299475?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid in talks with Kraken parent Payward to launch regulated crypto futures in the U.S.** [archive.ph](https://leviathannews.xyz/redirect/299437?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **North Korean hackers move tens of millions through Hyperliquid as US officials weigh onshoring the platform** [Coindesk](https://leviathannews.xyz/redirect/299438?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockstream report evaluates lattice-based signatures Dilithium, Falcon, and Hawk for Bitcoin adoption** [𝕏/@Blockstream](https://leviathannews.xyz/redirect/299473?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitfinex Securities raises $50 million to launch tokenized nickel trading backed by $1.6 billion metal stockpile** [archive.ph](https://leviathannews.xyz/redirect/300007?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Theorem launches ready-to-use exchange infrastructure for tokenized asset secondary markets** [𝕏/@theorem_markets](https://leviathannews.xyz/redirect/300004?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings for $5.5M, shifting to a bitcoin-only strategy with roughly 1,506 BTC worth $115M** [The Block](https://leviathannews.xyz/redirect/300249?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nansen and Monad launch Metropolis, a six-week global hackathon with four tracks and over $250K in prizes for builders developing startups on Monad** [𝕏/@monad](https://leviathannews.xyz/redirect/300039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC announces Sept. 17 roundtable on 24-hour trading, bringing Robinhood, NYSE, BlackRock, Nasdaq, DTCC and major market firms together to assess readiness** [𝕏/@SECGov](https://leviathannews.xyz/redirect/300038?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/01/signals_2026-09-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/01/signals_2026-09-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/02/signals_2026-09-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/02/signals_2026-09-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
