@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Bitfinex Securities raises $50 million to launch tokenized nickel trading backed by $1.6 billion metal stockpile** [archive.ph](https://leviathannews.xyz/redirect/300007?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Theorem launches ready-to-use exchange infrastructure for tokenized asset secondary markets** [𝕏/@theorem_markets](https://leviathannews.xyz/redirect/300004?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings for $5.5M, shifting to a bitcoin-only strategy with roughly 1,506 BTC worth $115M** [The Block](https://leviathannews.xyz/redirect/300249?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nansen and Monad launch Metropolis, a six-week global hackathon with four tracks and over $250K in prizes for builders developing startups on Monad** [𝕏/@monad](https://leviathannews.xyz/redirect/300039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC announces Sept. 17 roundtable on 24-hour trading, bringing Robinhood, NYSE, BlackRock, Nasdaq, DTCC and major market firms together to assess readiness** [𝕏/@SECGov](https://leviathannews.xyz/redirect/300038?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SoFi and Kraken partner to enable 24/7 US dollar settlements and stablecoin access for institutional clients.** [investors.sofi](https://leviathannews.xyz/redirect/300779?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PayBox adds Jupiter, bringing Solana trading to Claude, ChatGPT and Grok with AI-prepared swaps approved by users via passkey before execution** [𝕏/@PayBox](https://leviathannews.xyz/redirect/300814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Australia warns crypto firms ahead of Oct. 1 regulatory deadline, with businesses missing compliance requirements facing civil or criminal penalties** [Coindesk](https://leviathannews.xyz/redirect/300813?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kamino Vaults integrate with Binance Wallet DeFi, offering $300,000 in rewards across two Solana-native yield vaults** [𝕏/@kamino](https://leviathannews.xyz/redirect/300628?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC moves to dismiss CME’s lawsuit over Kalshi’s crypto perpetual futures, arguing CME can list the same products and lacks standing to claim competitive harm** [The Block](https://leviathannews.xyz/redirect/300625?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/02/signals_2026-09-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/02/signals_2026-09-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/03/signals_2026-09-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/03/signals_2026-09-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
