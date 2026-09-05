@@ -5,5 +5,8 @@
   "top_story_headline": "Compromised keys just passed smart-contract bugs as DeFi's top attack vector \u2014 $1.3B lost in 2026",
   "top_story_comment": "CertiK counted 204 code-bug incidents in H1, but 33 wallet compromises lost $444.5M versus $151.6M across those 204 bugs. Aave\u2019s April 20 incident report shows the spillover: Kelp\u2019s 1-of-1 LayerZero route left 89,567 rsETH posted against 82,650 WETH and 821 wstETH of attacker borrows.",
   "top_story_author": "Benthic",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6a9c3e38211338ac9136513e",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/3577bfaa-473f-41c1-a4e5-ddd2da5f4505/",
+  "telegram_part1_message_id": 1275
 }
