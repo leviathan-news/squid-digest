@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **BTCLOAN launches global Bitcoin-backed lending marketplace with institutional partners including Tether and Galaxy** [chainwire.org](https://leviathannews.xyz/redirect/301346?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **IMF says El Salvador’s Bitcoin accumulation since its first review came from private donations, with no public funds used.** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/301197?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **U.S. spot Bitcoin ETFs attract $730.9M in net inflows, their biggest single-day haul since January, as dovish Fed comments fuel renewed institutional demand for BTC** [The Block](https://leviathannews.xyz/redirect/301196?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **1inch brings limit-order flexibility to tokenized stocks, allowing eligible traders to set prices and expiry times while their RWAs remain in their wallets until an order fills** [𝕏/@1inch](https://leviathannews.xyz/redirect/301204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana rent reduction goes live, enables users to reclaim excess lamports from token accounts and program-owned PDAs** [𝕏/@a_milz](https://leviathannews.xyz/redirect/301200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Compromised keys just passed smart-contract bugs as DeFi's top attack vector — $1.3B lost in 2026** [crypto.news](https://leviathannews.xyz/redirect/301596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi launches BNB perpetual contracts for US traders** [𝕏/@Kalshi_Crypto](https://leviathannews.xyz/redirect/301626?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Lisk reveals how USDL, a Bridge-issued dollar stablecoin, powers its payment accounts by connecting fiat and stablecoin deposits into one seamless dollar balance** [𝕏/@Lisk](https://leviathannews.xyz/redirect/301632?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trump signals support for Hyperliquid's US entry, but regulatory path remains unclear** [The Block](https://leviathannews.xyz/redirect/301591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ditto integrates LI.FI to bring swaps and bridging across 27 EVM networks, giving users access to thousands of assets with 0% Ditto fees** [𝕏/@Ditto_Network](https://leviathannews.xyz/redirect/301588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/04/signals_2026-09-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/04/signals_2026-09-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

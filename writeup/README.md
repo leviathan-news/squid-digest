@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (September 04, 2026)
+## 🔥 Latest Headlines (September 05, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/09/04/signals_2026-09-04.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/09/04/signals_2026-09-04.md)
+📊 [View Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/09/05/signals_2026-09-05.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Aug 28 - Sep 04)
+### 📅 This Week (Aug 29 - Sep 05)
+
+[**Saturday, September 05, 2026**](writeup/2026/09/05/signals_2026-09-05.md)
 
 [**Friday, September 04, 2026**](writeup/2026/09/04/signals_2026-09-04.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, August 29, 2026**](writeup/2026/08/29/signals_2026-08-29.md)
 
-[**Friday, August 28, 2026**](writeup/2026/08/28/signals_2026-08-28.md)
+### 📅 Last Week (Aug 22 - Aug 28)
 
-### 📅 Last Week (Aug 22 - Aug 27)
+[**Friday, August 28, 2026**](writeup/2026/08/28/signals_2026-08-28.md)
 
 [**Thursday, August 27, 2026**](writeup/2026/08/27/signals_2026-08-27.md)
 
@@ -58,7 +60,7 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, August 22, 2026**](writeup/2026/08/22/signals_2026-08-22.md)
 
-### 📅 Week of Aug 14 - Aug 18
+### 📅 Week of Aug 15 - Aug 18
 
 [**Tuesday, August 18, 2026**](writeup/2026/08/18/signals_2026-08-18.md)
 
@@ -68,9 +70,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, August 15, 2026**](writeup/2026/08/15/signals_2026-08-15.md)
 
-[**Friday, August 14, 2026**](writeup/2026/08/14/signals_2026-08-14.md)
+### 📅 Week of Aug 09 - Aug 14
 
-### 📅 Week of Aug 09 - Aug 12
+[**Friday, August 14, 2026**](writeup/2026/08/14/signals_2026-08-14.md)
 
 [**Wednesday, August 12, 2026**](writeup/2026/08/12/signals_2026-08-12.md)
 
