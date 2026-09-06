@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (September 05, 2026)
+## 🔥 Latest Headlines (September 06, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/09/05/signals_2026-09-05.md)
+📊 [View Full Analysis →](writeup/2026/09/06/signals_2026-09-06.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/09/06/signals_2026-09-06.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Aug 29 - Sep 05)
+### 📅 This Week (Aug 30 - Sep 06)
+
+[**Sunday, September 06, 2026**](writeup/2026/09/06/signals_2026-09-06.md)
 
 [**Saturday, September 05, 2026**](writeup/2026/09/05/signals_2026-09-05.md)
 
@@ -42,9 +44,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, August 30, 2026**](writeup/2026/08/30/signals_2026-08-30.md)
 
-[**Saturday, August 29, 2026**](writeup/2026/08/29/signals_2026-08-29.md)
+### 📅 Last Week (Aug 23 - Aug 29)
 
-### 📅 Last Week (Aug 22 - Aug 28)
+[**Saturday, August 29, 2026**](writeup/2026/08/29/signals_2026-08-29.md)
 
 [**Friday, August 28, 2026**](writeup/2026/08/28/signals_2026-08-28.md)
 
@@ -58,9 +60,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, August 23, 2026**](writeup/2026/08/23/signals_2026-08-23.md)
 
-[**Saturday, August 22, 2026**](writeup/2026/08/22/signals_2026-08-22.md)
+### 📅 Week of Aug 16 - Aug 22
 
-### 📅 Week of Aug 15 - Aug 18
+[**Saturday, August 22, 2026**](writeup/2026/08/22/signals_2026-08-22.md)
 
 [**Tuesday, August 18, 2026**](writeup/2026/08/18/signals_2026-08-18.md)
 
@@ -68,9 +70,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, August 16, 2026**](writeup/2026/08/16/signals_2026-08-16.md)
 
-[**Saturday, August 15, 2026**](writeup/2026/08/15/signals_2026-08-15.md)
+### 📅 Week of Aug 10 - Aug 15
 
-### 📅 Week of Aug 09 - Aug 14
+[**Saturday, August 15, 2026**](writeup/2026/08/15/signals_2026-08-15.md)
 
 [**Friday, August 14, 2026**](writeup/2026/08/14/signals_2026-08-14.md)
 
@@ -79,8 +81,6 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 [**Tuesday, August 11, 2026**](writeup/2026/08/11/signals_2026-08-11.md)
 
 [**Monday, August 10, 2026**](writeup/2026/08/10/signals_2026-08-10.md)
-
-[**Sunday, August 09, 2026**](writeup/2026/08/09/signals_2026-08-09.md)
 <!-- DAILY_UPDATE_END -->
 
 ---

@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Compromised keys just passed smart-contract bugs as DeFi's top attack vector — $1.3B lost in 2026** [crypto.news](https://leviathannews.xyz/redirect/301596?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi launches BNB perpetual contracts for US traders** [𝕏/@Kalshi_Crypto](https://leviathannews.xyz/redirect/301626?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Lisk reveals how USDL, a Bridge-issued dollar stablecoin, powers its payment accounts by connecting fiat and stablecoin deposits into one seamless dollar balance** [𝕏/@Lisk](https://leviathannews.xyz/redirect/301632?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trump signals support for Hyperliquid's US entry, but regulatory path remains unclear** [The Block](https://leviathannews.xyz/redirect/301591?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ditto integrates LI.FI to bring swaps and bridging across 27 EVM networks, giving users access to thousands of assets with 0% Ditto fees** [𝕏/@Ditto_Network](https://leviathannews.xyz/redirect/301588?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Institutional investors including UBS and Jane Street hold $75 million in Hyperliquid ETF positions** [The Block](https://leviathannews.xyz/redirect/301695?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Autonolas faces a malicious governance proposal backed by a Tornado-funded attacker, with three days to block a treasury ownership transfer putting ~$100K in ETH at risk** [𝕏/@DefimonAlerts](https://leviathannews.xyz/redirect/301789?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin praises years of Poseidon hash research, saying it made client-side SNARK generation fast for modern Ethereum privacy protocols** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/301788?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether-backed Chilean exchange Orionx begins permanent shutdown after forensic audit finds $7M+ in customer assets moved outside its custody** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/301757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bank of Korea study finds dollar-backed stablecoin buying pressure may weaken local currencies as market makers balance Binance positions** [Coindesk](https://leviathannews.xyz/redirect/301722?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/05/signals_2026-09-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/06/signals_2026-09-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/06/signals_2026-09-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
