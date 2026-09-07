@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Institutional investors including UBS and Jane Street hold $75 million in Hyperliquid ETF positions** [The Block](https://leviathannews.xyz/redirect/301695?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Autonolas faces a malicious governance proposal backed by a Tornado-funded attacker, with three days to block a treasury ownership transfer putting ~$100K in ETH at risk** [𝕏/@DefimonAlerts](https://leviathannews.xyz/redirect/301789?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin praises years of Poseidon hash research, saying it made client-side SNARK generation fast for modern Ethereum privacy protocols** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/301788?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether-backed Chilean exchange Orionx begins permanent shutdown after forensic audit finds $7M+ in customer assets moved outside its custody** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/301757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bank of Korea study finds dollar-backed stablecoin buying pressure may weaken local currencies as market makers balance Binance positions** [Coindesk](https://leviathannews.xyz/redirect/301722?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RedotPay receives independent AML/CFT controls review from a Big Four firm, covering governance, customer due diligence, transaction monitoring and staff training** [𝕏/@RedotPay](https://leviathannews.xyz/redirect/302026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SBI Shinsei Trust Bank and SBI VC Trade commit ¥1B to JPYSC, advancing stablecoin use cases through reserve asset management with Japanese Government Bonds** [𝕏/@StartaleGroup](https://leviathannews.xyz/redirect/302027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DBS and Citi complete weekend USD payment via Swift’s Digital Ledger using tokenized deposits** [Coindesk](https://leviathannews.xyz/redirect/302042?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase-backed Router Protocol to shut down by Sept. 30 after failed acquisition efforts, citing thin bridge fees and falling cross-chain demand** [The Block](https://leviathannews.xyz/redirect/301934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **o2 launches HYPE prop trading with up to $10K capital, zero maker fees and 100% profit retention** [𝕏/@o2dotapp](https://leviathannews.xyz/redirect/302092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/06/signals_2026-09-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/06/signals_2026-09-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/07/signals_2026-09-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/07/signals_2026-09-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
