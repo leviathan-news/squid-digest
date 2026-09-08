@@ -8,6 +8,10 @@ on:
     - cron: '17 14 * * *'
   workflow_dispatch:  # Allow manual triggering for testing
 
+concurrency:
+  group: squid-digest-distribution
+  cancel-in-progress: false
+
 jobs:
   send-digest:
     runs-on: ubuntu-latest
@@ -98,6 +102,9 @@ jobs:
         X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
         X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         X_ACCOUNT_USERNAME: ${{ secrets.X_ACCOUNT_USERNAME }}
+        # Authorized 28-day digest-only comparison beginning 2026-09-09.
+        # Assignment is frozen in the day's metadata before X I/O.
+        X_DIGEST_LINK_EXPERIMENT_ENABLED: '1'
       run: |
         TODAY=$(date -u '+%Y-%m-%d')
 

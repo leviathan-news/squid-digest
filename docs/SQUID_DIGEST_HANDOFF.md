@@ -91,13 +91,39 @@ python scripts/send_email.py --type public --digest-file writeup/digest_2025-10-
 `send-digest.yml` runs `scripts/post_x.py` only after the canonical Ghost
 digest is published. The X root carries the complete readable digest as native,
 URL-free text (up to the account's 25,000-character long-post entitlement).
-The one tracked canonical digest URL is posted as its immediate first reply.
+The renderer converts the source's mixed Markdown and HTML into text before it
+removes URLs, preserving paragraphs, list items, entities, and link labels while
+dropping images and hidden markup. Any leftover HTML or oversized body stops the
+post.
 
-The metadata file records `tweet_id` as soon as the root is accepted and
-`tweet_reply_id` only after the reply is accepted. A reply failure leaves the
-confirmed root ID intact with `ROOT_POSTED_REPLY_FAILED`, so a rerun resumes the
-reply without publishing a duplicate root. Oversized roots fail rather than
-silently truncating editorial content.
+From 2026-09-09 through 2026-10-06, the explicitly enabled
+`digest-link-reply-20260908-v1` experiment compares the same URL-free native
+root with either its tracked canonical-link reply or no reply/link at all. The
+28 assignments are deterministic and balanced by weekday within each
+fortnight. The day's assignment, exact root/reply payloads, hashes, attempt
+states, timestamps, and estimated cost are frozen in `meta_YYYY-MM-DD.json`
+before X I/O. A timeout becomes `unknown` and must reconcile by exact read-back;
+the next normal run performs that bounded reconciliation before stopping.
+Neither `--force` nor a normal retry blindly repeats an unproven create.
+
+`.github/workflows/collect-x-outcomes.yml` takes one cumulative snapshot at
+least 24 hours after delivery, bounded to two digests per run. It records actual
+measurement age, separates snapshots later than 30 hours, and compares root
+impressions, engagements, profile clicks, reposts, and quotes. Link-reply URL
+clicks are descriptive. X does not expose copy-link actions or follows per post,
+so the report uses profile clicks and reposts/quotes as direct growth proxies.
+Late snapshots remain visible but are excluded from arm rates. All recorded API
+costs are internal estimates, not vendor billing evidence. Scheduled collectors
+share the distribution workflow's concurrency group; local paid collectors also
+take a checkout-level lock. A partial metrics batch gets one bounded retry, then
+freezes an unavailable outcome rather than repeatedly buying the same read.
+
+Preview due reads without I/O and print the aggregate report with:
+
+```bash
+uv run python scripts/collect_x_outcomes.py
+uv run python scripts/collect_x_outcomes.py --report
+```
 
 ## Configuration
 
@@ -161,8 +187,6 @@ The system is working correctly when:
 
 ## Final Notes
 The system is currently stable and working as intended. The main workflow generates both content types, creates proper Ghost drafts, and commits files automatically. Future improvements should focus on automation and analytics rather than core functionality fixes.
-
-
 
 
 
