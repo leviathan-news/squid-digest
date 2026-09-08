@@ -54,7 +54,7 @@ class XClient:
         payload = {"text": text}
         if in_reply_to_tweet_id:
             payload['reply'] = {'in_reply_to_tweet_id': str(in_reply_to_tweet_id)}
-        resp = self._session.post(f"{_API_BASE}/tweets", json=payload)
+        resp = self._session.post(f"{_API_BASE}/tweets", json=payload, timeout=30)
         resp.raise_for_status()
         return resp.json()
 
@@ -68,18 +68,41 @@ class XClient:
             query: Search query string (e.g. ``from:handle url:"…"``)
             start_time: ISO 8601 timestamp to restrict results
         """
-        params = {"query": query, "max_results": 10}
+        params = {"query": query, "max_results": 10, "tweet.fields": "created_at,referenced_tweets,note_tweet"}
         if start_time:
             params["start_time"] = start_time
 
         try:
-            resp = self._session.get(f"{_API_BASE}/tweets/search/recent", params=params)
+            resp = self._session.get(f"{_API_BASE}/tweets/search/recent", params=params, timeout=30)
             if resp.status_code == 200:
                 data = resp.json()
-                return data.get("data", [])
+                rows = data.get("data", [])
+                for row in rows:
+                    row['text'] = row.get('note_tweet', {}).get('text') or row.get('text', '')
+                return rows
             # Non-200 → fail open
             print(f"⚠ X search returned {resp.status_code}, proceeding anyway")
             return []
         except Exception as e:
             print(f"⚠ X search failed ({e}), proceeding anyway")
             return []
+
+    def get_posts(self, post_ids: list[str]) -> list[dict]:
+        """Fetch owned-post engagement snapshots in one bounded request."""
+        ids = [str(value) for value in post_ids if value]
+        if not ids or len(ids) > 100:
+            raise ValueError("get_posts requires between 1 and 100 IDs")
+        resp = self._session.get(
+            f"{_API_BASE}/tweets",
+            params={
+                "ids": ",".join(ids),
+                "tweet.fields": "created_at,public_metrics,non_public_metrics,organic_metrics",
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        body = resp.json()
+        rows = body.get("data", [])
+        if not isinstance(rows, list):
+            raise RuntimeError("X metrics response has no data list")
+        return rows

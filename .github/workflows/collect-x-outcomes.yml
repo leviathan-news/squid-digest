@@ -1,0 +1,50 @@
+name: Collect X Digest Outcomes
+
+on:
+  schedule:
+    # About one hour after the daily distribution workflow, so the previous
+    # day's post is at least 24 hours old under normal scheduler drift.
+    - cron: '17 15 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: squid-digest-distribution
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v3
+        with:
+          version: latest
+      - run: uv sync
+      - name: Collect bounded outcome snapshots
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          uv run python scripts/collect_x_outcomes.py --execute --max-digests 2
+          uv run python scripts/collect_x_outcomes.py --report
+      - name: Commit outcome metadata
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add writeup/**/meta_*.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No X outcome metadata changes to commit"
+          else
+            git commit -m "📊 Collect X digest outcomes $(date -u '+%Y-%m-%d')"
+            git pull --rebase --autostash origin main
+            git push
+          fi

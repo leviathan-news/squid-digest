@@ -161,12 +161,27 @@ def load_meta(date: datetime) -> dict:
 def save_meta(date: datetime, data: dict) -> None:
     """Merge *data* into the per-date metadata JSON and write it back."""
     import json
+    import tempfile
 
     meta_path = get_meta_path(date)
     existing = load_meta(date)
     existing.update(data)
     meta_path.parent.mkdir(parents=True, exist_ok=True)
-    meta_path.write_text(json.dumps(existing, indent=2) + "\n")
+    # X delivery attempts must survive a crash without a half-written receipt.
+    with tempfile.NamedTemporaryFile(mode='w', dir=meta_path.parent, delete=False) as handle:
+        temporary = handle.name
+        try:
+            handle.write(json.dumps(existing, indent=2) + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        except BaseException:
+            os.unlink(temporary)
+            raise
+    try:
+        os.replace(temporary, meta_path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
 
 
 def resolve_digest_url(date: datetime) -> str:
