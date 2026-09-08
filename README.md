@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **RedotPay receives independent AML/CFT controls review from a Big Four firm, covering governance, customer due diligence, transaction monitoring and staff training** [𝕏/@RedotPay](https://leviathannews.xyz/redirect/302026?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SBI Shinsei Trust Bank and SBI VC Trade commit ¥1B to JPYSC, advancing stablecoin use cases through reserve asset management with Japanese Government Bonds** [𝕏/@StartaleGroup](https://leviathannews.xyz/redirect/302027?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DBS and Citi complete weekend USD payment via Swift’s Digital Ledger using tokenized deposits** [Coindesk](https://leviathannews.xyz/redirect/302042?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase-backed Router Protocol to shut down by Sept. 30 after failed acquisition efforts, citing thin bridge fees and falling cross-chain demand** [The Block](https://leviathannews.xyz/redirect/301934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **o2 launches HYPE prop trading with up to $10K capital, zero maker fees and 100% profit retention** [𝕏/@o2dotapp](https://leviathannews.xyz/redirect/302092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid's U.S. entry could capture up to $300 million monthly derivatives market, analysts estimate** [hypurr.co](https://leviathannews.xyz/redirect/302271?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anoma expands Zcash-style privacy to assets on six EVM chains, with Solana support planned.** [𝕏/@anoma](https://leviathannews.xyz/redirect/302199?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arc Mainnet launches September 16 with LI.FI bringing universal liquidity on Day 1, enabling swaps, cross-chain bridging and one-click multi-step transactions** [𝕏/@lifiprotocol](https://leviathannews.xyz/redirect/302200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Australia cancels 45 crypto and remittance registrations, citing fraud and money laundering risks** [CoinTelegraph](https://leviathannews.xyz/redirect/302397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cronos says $9.19M remains unrecovered after Tectonic attacker borrowed $120.4M using manipulated TONIC collateral, while a chain rollback reversed roughly $111.2M** [The Block](https://leviathannews.xyz/redirect/302372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/07/signals_2026-09-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/07/signals_2026-09-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/08/signals_2026-09-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/08/signals_2026-09-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
