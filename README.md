@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hyperliquid's U.S. entry could capture up to $300 million monthly derivatives market, analysts estimate** [hypurr.co](https://leviathannews.xyz/redirect/302271?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anoma expands Zcash-style privacy to assets on six EVM chains, with Solana support planned.** [𝕏/@anoma](https://leviathannews.xyz/redirect/302199?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arc Mainnet launches September 16 with LI.FI bringing universal liquidity on Day 1, enabling swaps, cross-chain bridging and one-click multi-step transactions** [𝕏/@lifiprotocol](https://leviathannews.xyz/redirect/302200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Australia cancels 45 crypto and remittance registrations, citing fraud and money laundering risks** [CoinTelegraph](https://leviathannews.xyz/redirect/302397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cronos says $9.19M remains unrecovered after Tectonic attacker borrowed $120.4M using manipulated TONIC collateral, while a chain rollback reversed roughly $111.2M** [The Block](https://leviathannews.xyz/redirect/302372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jack Dorsey’s Block applies for an OCC national trust bank charter, seeking to offer custody and fiduciary services for Bitcoin, stablecoins and other assets** [The Block](https://leviathannews.xyz/redirect/302890?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Space and Time Virtual Vaults adopt Chainlink’s privacy standard, letting lenders cryptographically verify collateral across private venues without exposing borrower identities or raw positions** [𝕏/@spaceandtime](https://leviathannews.xyz/redirect/302897?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trezor adds Clear Signing via ERC-7730, decoding supported EVM transactions so users can verify actions, tokens, amounts and destinations before signing** [𝕏/@Trezor](https://leviathannews.xyz/redirect/302893?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jupiter launches early preview of stocks page with P/E ratios and dividend yields, seeks user feedback on additional indicators.** [𝕏/@jupiter_trade](https://leviathannews.xyz/redirect/302625?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum Foundation sets December 2029 deadline for quantum resistance, targeting protection for transactions, validators and data before quantum threats emerge** [Coindesk](https://leviathannews.xyz/redirect/302819?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/08/signals_2026-09-08.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/08/signals_2026-09-08.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/09/signals_2026-09-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/09/signals_2026-09-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
