@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-09-08",
+  "last_processed_date": "2026-09-09",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 11.60763666376464,
-      "last_signal_date": "2026-09-08",
+      "score": 14.046931550813168,
+      "last_signal_date": "2026-09-09",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 1.94776595369752,
+      "score": 1.5978212770460116,
       "last_signal_date": "2026-09-05",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.153122924592546,
-      "last_signal_date": "2026-09-07",
+      "score": 6.6673053776643005,
+      "last_signal_date": "2026-09-09",
       "token_name": "Solana"
     },
     "STETH": {
@@ -27,37 +27,37 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.038094176693889856,
+      "score": 0.021029690509880565,
       "last_signal_date": "2026-08-28",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.0409030947425806,
-      "last_signal_date": "2026-09-07",
+      "score": 2.9427705651138907,
+      "last_signal_date": "2026-09-09",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.1390743360113529,
+      "score": 0.8054471872691916,
       "last_signal_date": "2026-09-02",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 9.850436130154204,
+      "score": 8.921773106400844,
       "last_signal_date": "2026-09-07",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.11428253008166954,
+      "score": 0.06308907152964169,
       "last_signal_date": "2026-08-28",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 1.9033903060212392,
+      "score": 1.7239456424939554,
       "last_signal_date": "2026-09-07",
       "token_name": "Avalanche"
     },
@@ -69,8 +69,8 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 2.009795524050086,
-      "last_signal_date": "2026-09-03",
+      "score": 3.493272335535714,
+      "last_signal_date": "2026-09-09",
       "token_name": "ChainLink Token"
     },
     "TON": {
@@ -87,7 +87,7 @@
     },
     "DOGE": {
       "symbol": "DOGE",
-      "score": -0.7071067811865475,
+      "score": -0.5,
       "last_signal_date": "2026-09-02",
       "token_name": "Dogecoin"
     },
@@ -123,7 +123,7 @@
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.8619728212469777,
+      "score": 0.7429971445684742,
       "last_signal_date": "2026-09-06",
       "token_name": "Arbitrum"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.04114417525902454,
+      "score": 0.02057208762951227,
       "last_signal_date": "2026-08-26",
       "token_name": "Monero"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 0.07618835338777971,
+      "score": 0.04205938101976113,
       "last_signal_date": "2026-08-28",
       "token_name": "Injective"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.7665877282497111,
+      "score": 0.542059381019761,
       "last_signal_date": "2026-09-02",
       "token_name": "Monad"
     },
@@ -213,7 +213,7 @@
     },
     "SEI": {
       "symbol": "SEI",
-      "score": 0.038094176693889856,
+      "score": 0.021029690509880565,
       "last_signal_date": "2026-08-28",
       "token_name": "Sei"
     },
@@ -255,13 +255,13 @@
     },
     "AERO": {
       "symbol": "AERO",
-      "score": 0.011048543456039806,
+      "score": 0.0,
       "last_signal_date": "2026-08-25",
       "token_name": "Aerodrome Finance"
     },
     "cbBTC": {
       "symbol": "cbBTC",
-      "score": -0.04205938101976113,
+      "score": -0.02209708691207961,
       "last_signal_date": "2026-08-27",
       "token_name": "cbBTC"
     }
