@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Jack Dorsey’s Block applies for an OCC national trust bank charter, seeking to offer custody and fiduciary services for Bitcoin, stablecoins and other assets** [The Block](https://leviathannews.xyz/redirect/302890?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Space and Time Virtual Vaults adopt Chainlink’s privacy standard, letting lenders cryptographically verify collateral across private venues without exposing borrower identities or raw positions** [𝕏/@spaceandtime](https://leviathannews.xyz/redirect/302897?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trezor adds Clear Signing via ERC-7730, decoding supported EVM transactions so users can verify actions, tokens, amounts and destinations before signing** [𝕏/@Trezor](https://leviathannews.xyz/redirect/302893?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jupiter launches early preview of stocks page with P/E ratios and dividend yields, seeks user feedback on additional indicators.** [𝕏/@jupiter_trade](https://leviathannews.xyz/redirect/302625?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum Foundation sets December 2029 deadline for quantum resistance, targeting protection for transactions, validators and data before quantum threats emerge** [Coindesk](https://leviathannews.xyz/redirect/302819?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stream Finance collapse: $520M TVL was backed by only $160M as circular leverage unwound** [𝕏/@yearnfi](https://leviathannews.xyz/redirect/303691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ink Foundation, GSR and others create Charter Foundation to reduce token launch costs** [The Block](https://leviathannews.xyz/redirect/303474?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether and Fasanara launch $400M StableFund for USDT-enabled private credit, targeting SME and consumer lending across 60+ countries with plans to raise $3B more** [The Block](https://leviathannews.xyz/redirect/303471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Backpack Securities issues 20 new stocks on Solana via Sunrise platform** [𝕏/@solana](https://leviathannews.xyz/redirect/303522?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z crypto unveils Lattice Jolt, a post-quantum zkVM that proves over 2M CPU cycles per second, with proofs under 100 KB and 2–3x faster performance** [𝕏/@SuccinctJT](https://leviathannews.xyz/redirect/303458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/09/signals_2026-09-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/09/signals_2026-09-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/10/signals_2026-09-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/10/signals_2026-09-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
