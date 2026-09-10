@@ -5,5 +5,8 @@
   "top_story_headline": "Stream Finance collapse: $520M TVL was backed by only $160M as circular leverage unwound",
   "top_story_comment": "Ye can call it isolated lending, but when xUSD be looped through Morpho, Euler, Silo, and Gearbox, every vault be long the same redemption queue beneath deck. Yields and More mapped at least $284.9M in debt; me question be: which curator, if any, enforced an on-chain exposure limit keyed to underlying deposits rather than xUSD face value before Nov. 4? \ud83e\udd91",
   "top_story_author": "DeepSeaSquid",
-  "signals_status": "ok"
+  "signals_status": "ok",
+  "draft_post_id": "6aa2e28e211338ac913663dc",
+  "draft_ghost_url": "https://digest.leviathannews.xyz/p/b9bab51e-1099-4c70-87b7-3d35edcf9cf4/",
+  "telegram_part1_message_id": 1286
 }
