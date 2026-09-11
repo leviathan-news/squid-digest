@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Stream Finance collapse: $520M TVL was backed by only $160M as circular leverage unwound** [𝕏/@yearnfi](https://leviathannews.xyz/redirect/303691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ink Foundation, GSR and others create Charter Foundation to reduce token launch costs** [The Block](https://leviathannews.xyz/redirect/303474?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether and Fasanara launch $400M StableFund for USDT-enabled private credit, targeting SME and consumer lending across 60+ countries with plans to raise $3B more** [The Block](https://leviathannews.xyz/redirect/303471?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Backpack Securities issues 20 new stocks on Solana via Sunrise platform** [𝕏/@solana](https://leviathannews.xyz/redirect/303522?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z crypto unveils Lattice Jolt, a post-quantum zkVM that proves over 2M CPU cycles per second, with proofs under 100 KB and 2–3x faster performance** [𝕏/@SuccinctJT](https://leviathannews.xyz/redirect/303458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Injective USDC becomes canonical across Cosmos and dYdX, with Skip:Go migration starting tomorrow** [𝕏/@injective](https://leviathannews.xyz/redirect/304170?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket appoints former Amazon and EA CFO Warren Jenson as its first CFO** [Shayne Coplan](https://leviathannews.xyz/redirect/304172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pump.fun iOS app temporarily pulled from US and India App Stores, team says funds are safe** [𝕏/@initwithcarl](https://leviathannews.xyz/redirect/304184?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ripple expands GSmart, bringing policy-governed AI agents to enterprise treasury for forecasting, liquidity, risk, reconciliation and reporting with human approval** [𝕏/@rvereecke](https://leviathannews.xyz/redirect/304134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Valinor Digital launches VBDC with Superstate FundOS, giving qualified investors onchain access to high-yield private credit through a basket of publicly traded BDCs** [𝕏/@SuperstateInc](https://leviathannews.xyz/redirect/304139?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/10/signals_2026-09-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/10/signals_2026-09-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/11/signals_2026-09-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/11/signals_2026-09-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
