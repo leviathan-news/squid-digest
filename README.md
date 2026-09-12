@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Injective USDC becomes canonical across Cosmos and dYdX, with Skip:Go migration starting tomorrow** [𝕏/@injective](https://leviathannews.xyz/redirect/304170?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket appoints former Amazon and EA CFO Warren Jenson as its first CFO** [Shayne Coplan](https://leviathannews.xyz/redirect/304172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pump.fun iOS app temporarily pulled from US and India App Stores, team says funds are safe** [𝕏/@initwithcarl](https://leviathannews.xyz/redirect/304184?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ripple expands GSmart, bringing policy-governed AI agents to enterprise treasury for forecasting, liquidity, risk, reconciliation and reporting with human approval** [𝕏/@rvereecke](https://leviathannews.xyz/redirect/304134?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Valinor Digital launches VBDC with Superstate FundOS, giving qualified investors onchain access to high-yield private credit through a basket of publicly traded BDCs** [𝕏/@SuperstateInc](https://leviathannews.xyz/redirect/304139?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZenLedger launches ZenTaxCredit to help startups claim up to $1.25M in R&D tax credits** [Prnewswire](https://leviathannews.xyz/redirect/304845?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFiLlama launches Verified APY, measuring real yields earned by depositors onchain across 260+ pools, $99B TVL, 47 protocols and 12 chains** [𝕏/@DefiLlama](https://leviathannews.xyz/redirect/304750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood weighs issuer consent for tokenized stocks, citing investor property rights** [𝕏/@vladtenev](https://leviathannews.xyz/redirect/304747?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Daniele Sesta launches Equilibra, a custom AMM with adaptive fees, on Robinhood Chain** [𝕏/@danielesesta](https://leviathannews.xyz/redirect/304744?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Caroline Ellison joins Manifund under pseudonym "Carol" after FTX prison term** [manifund.substack](https://leviathannews.xyz/redirect/304807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/11/signals_2026-09-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/11/signals_2026-09-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/12/signals_2026-09-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/12/signals_2026-09-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
