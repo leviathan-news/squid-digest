@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **ZenLedger launches ZenTaxCredit to help startups claim up to $1.25M in R&D tax credits** [Prnewswire](https://leviathannews.xyz/redirect/304845?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFiLlama launches Verified APY, measuring real yields earned by depositors onchain across 260+ pools, $99B TVL, 47 protocols and 12 chains** [𝕏/@DefiLlama](https://leviathannews.xyz/redirect/304750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Robinhood weighs issuer consent for tokenized stocks, citing investor property rights** [𝕏/@vladtenev](https://leviathannews.xyz/redirect/304747?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Daniele Sesta launches Equilibra, a custom AMM with adaptive fees, on Robinhood Chain** [𝕏/@danielesesta](https://leviathannews.xyz/redirect/304744?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Caroline Ellison joins Manifund under pseudonym "Carol" after FTX prison term** [manifund.substack](https://leviathannews.xyz/redirect/304807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LCX launches Liberty DEX, opening its self-built routing engine to builders via API, SDK and MCP** [Lcx](https://leviathannews.xyz/redirect/304991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ampleforth governance attack risks $2.5M treasury via malicious proposal** [ꘜ/@defimon_alerts](https://leviathannews.xyz/redirect/305038?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap tops $70B in monthly volume, beating the next three DEXs combined** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/305041?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Reroll.gg to launch $REROLL token on HyperEVM, with 30% of supply airdropped to players** [𝕏/@rerollgg](https://leviathannews.xyz/redirect/305006?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The Standard Reserve launches September 14 with whitelist mint, Dutch auction, and anti-sniping tax** [𝕏/@standard_rsv](https://leviathannews.xyz/redirect/305013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/12/signals_2026-09-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/12/signals_2026-09-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/13/signals_2026-09-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/13/signals_2026-09-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
