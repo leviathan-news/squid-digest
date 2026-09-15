@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **LCX launches Liberty DEX, opening its self-built routing engine to builders via API, SDK and MCP** [Lcx](https://leviathannews.xyz/redirect/304991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ampleforth governance attack risks $2.5M treasury via malicious proposal** [ꘜ/@defimon_alerts](https://leviathannews.xyz/redirect/305038?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Uniswap tops $70B in monthly volume, beating the next three DEXs combined** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/305041?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Reroll.gg to launch $REROLL token on HyperEVM, with 30% of supply airdropped to players** [𝕏/@rerollgg](https://leviathannews.xyz/redirect/305006?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The Standard Reserve launches September 14 with whitelist mint, Dutch auction, and anti-sniping tax** [𝕏/@standard_rsv](https://leviathannews.xyz/redirect/305013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CoinEx to wind down after nine years, citing market downturn and rising regulatory costs** [𝕏/@coinexcom](https://leviathannews.xyz/redirect/305807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood Chain and BNB Smart Chain go live on Jupiter’s Universal Deposit, opening two more routes for users to bring assets onto Solana** [𝕏/@JupiterExchange](https://leviathannews.xyz/redirect/305698?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethena joins Circle, Chainlink and Aave among onchain firms completing SOC 2 Type II, committing to continuous operational security coverage** [𝕏/@ethena](https://leviathannews.xyz/redirect/305697?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **0x warns malicious Uniswap v4 hooks are exploiting quote mismatches, with 54.2% of 84,163 hooks analyzed deemed malicious across six chains** [𝕏/@0xProject](https://leviathannews.xyz/redirect/305691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UAE adopts Avalanche for national digital identity infrastructure, with UAE PASS Digital Vault serving 12M+ people through verified documents** [𝕏/@avax](https://leviathannews.xyz/redirect/305688?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/13/signals_2026-09-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/13/signals_2026-09-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/15/signals_2026-09-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/15/signals_2026-09-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
