@@ -1,5 +1,5 @@
 {
-  "cash": -1668.919964902965,
+  "cash": -1612.682807668219,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -84,8 +84,8 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": -11899.816493173983,
-      "entry_price": 0.03317760746524202,
+      "quantity": -14440.436825307,
+      "entry_price": 0.031234830580971436,
       "entry_date": "2026-04-18T13:59:21.488802",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -2814,6 +2814,18 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": -80.3051864682069,
       "entry_price": 0.07032258299894394
+    },
+    {
+      "date": "2026-09-15T17:43:51.038957",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "SHORT",
+      "quantity": 2540.6203321330177,
+      "price": 0.02213520710807313,
+      "value": 56.237157234745894,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3716,6 +3728,10 @@
     [
       "2026-09-13T17:01:12.089950",
       6728.707927835248
+    ],
+    [
+      "2026-09-15T17:43:51.038957",
+      7376.585202830425
     ]
   ]
 }
