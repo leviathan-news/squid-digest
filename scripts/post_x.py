@@ -13,6 +13,7 @@ Usage:
 
 import argparse
 import hashlib
+import json
 import os
 import re
 import sys
@@ -80,6 +81,14 @@ def _build_source_reply(digest_url: str) -> str:
 
 def _root_search_query(date: datetime, username: str) -> str:
     return f'from:{username} "SQUID DIGEST" "{date.strftime("%B %d, %Y")}"'
+
+
+def _format_x_failure(exc: Exception) -> str:
+    """Use the client's bounded provider projection when one is available."""
+    diagnostic = getattr(exc, "diagnostic", None)
+    if isinstance(diagnostic, dict):
+        return json.dumps(diagnostic, sort_keys=True)
+    return str(exc)
 
 
 def main():
@@ -198,7 +207,7 @@ def main():
             print(f"\u2713 Native root posted: https://x.com/i/web/status/{root_id}")
         except Exception as exc:
             persist(root_state='unknown')
-            print(f"\u2717 Failed to post native root: {exc}")
+            print(f"\u2717 Failed to post native root: {_format_x_failure(exc)}")
             save_meta(date, {"tweet_status": "FAILED"})
             sys.exit(1)
 
@@ -244,7 +253,7 @@ def main():
         print(f"\u2713 Source reply posted: https://x.com/i/web/status/{reply_id}")
     except Exception as exc:
         persist(reply_state='unknown')
-        print(f"\u2717 Failed to post digest source reply: {exc}")
+        print(f"\u2717 Failed to post digest source reply: {_format_x_failure(exc)}")
         save_meta(date, {"tweet_id": root_id, "tweet_status": "ROOT_POSTED_REPLY_FAILED"})
         sys.exit(1)
 
