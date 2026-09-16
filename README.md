@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **CoinEx to wind down after nine years, citing market downturn and rising regulatory costs** [𝕏/@coinexcom](https://leviathannews.xyz/redirect/305807?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Robinhood Chain and BNB Smart Chain go live on Jupiter’s Universal Deposit, opening two more routes for users to bring assets onto Solana** [𝕏/@JupiterExchange](https://leviathannews.xyz/redirect/305698?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethena joins Circle, Chainlink and Aave among onchain firms completing SOC 2 Type II, committing to continuous operational security coverage** [𝕏/@ethena](https://leviathannews.xyz/redirect/305697?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **0x warns malicious Uniswap v4 hooks are exploiting quote mismatches, with 54.2% of 84,163 hooks analyzed deemed malicious across six chains** [𝕏/@0xProject](https://leviathannews.xyz/redirect/305691?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UAE adopts Avalanche for national digital identity infrastructure, with UAE PASS Digital Vault serving 12M+ people through verified documents** [𝕏/@avax](https://leviathannews.xyz/redirect/305688?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash commits $80,000 to fund Ledger integration of its new Ironwood pool, enabling ZEC holders to self-custody funds on Ledger devices** [𝕏/@ZcashLabs](https://leviathannews.xyz/redirect/306362?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cardano Foundation joins Mastercard’s Crypto Partner Program to explore cross-border payments, B2B transactions and stablecoin settlement** [𝕏/@Cardano_CF](https://leviathannews.xyz/redirect/306358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Astar Fi launches public beta for onchain personal finance manager on Ethereum and Base** [𝕏/@Astar_Fi](https://leviathannews.xyz/redirect/306346?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Phantom adds auto slippage setting to help traders reduce failed transactions** [𝕏/@phantom](https://leviathannews.xyz/redirect/306370?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Acctual joins Altitude to bring invoicing into its global operating account, alongside deeper bill pay and connected tools for managing business finances** [𝕏/@altitude](https://leviathannews.xyz/redirect/306369?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/15/signals_2026-09-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/15/signals_2026-09-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/16/signals_2026-09-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/16/signals_2026-09-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
