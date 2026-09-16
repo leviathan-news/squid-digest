@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "src"))
 
-from post_x import _build_native_root, _native_text  # noqa: E402
+from post_x import _CASHTAG, _build_native_root, _native_text  # noqa: E402
 
 
 def test_september_7_digest_preserves_stories_without_html():
@@ -18,7 +18,8 @@ def test_september_7_digest_preserves_stories_without_html():
     assert "Swift’s Digital Ledger using tokenized deposits - Coindesk" in rendered
     assert "customer due diligence, transaction monitoring and staff training" in rendered
     assert "Governance • RedotPay • AML" in rendered
-    assert "HYPE ($HYPE): BUY" in rendered
+    assert "HYPE (HYPE): BUY" in rendered
+    assert len(_CASHTAG.findall(rendered)) == 1
     assert not any(token in rendered for token in ("<div", "<a ", "href=", "style=", "<img", "https://", "**", "*Disclaimer"))
 
 
@@ -44,6 +45,31 @@ def test_numeric_comparisons_survive():
 def test_empty_body_cannot_publish_just_a_masthead():
     with pytest.raises(ValueError, match="empty"):
         _build_native_root(datetime(2026, 9, 8), '<img src="a">', "intro")
+
+
+def test_native_root_limits_many_cashtags_but_keeps_symbols_and_currency():
+    rendered = _build_native_root(
+        datetime(2026, 9, 16),
+        "Assets: $ETH, $USDC, and $1INCH. The grant is $80,000; price is $0.42.",
+        "$SOL is today's lead.",
+    )
+
+    assert "$SOL is today's lead." in rendered
+    assert "Assets: ETH, USDC, and 1INCH." in rendered
+    assert "$80,000" in rendered
+    assert "$0.42" in rendered
+    assert len(_CASHTAG.findall(rendered)) == 1
+
+
+def test_native_root_keeps_a_single_cashtag_and_ignores_cashtags_in_removed_urls():
+    rendered = _build_native_root(
+        datetime(2026, 9, 16),
+        "[$BTC](https://example.test/$ETH) is visible; `then $SOL`.",
+        "No ticker here.",
+    )
+
+    assert "$BTC is visible; then SOL." in rendered
+    assert len(_CASHTAG.findall(rendered)) == 1
 
 
 def test_leftover_escaped_markup_is_held():

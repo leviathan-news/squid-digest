@@ -41,6 +41,27 @@ from squid_digest.x.native import native_text as _native_text
 from squid_digest.x.policy import assignment
 
 NATIVE_DIGEST_ROOT_MAX_CHARS = 25_000
+# X accepts only one cashtag in a post. Native digests can legitimately
+# mention many assets, so retain the first for discoverability and render the
+# rest as ordinary prose rather than leaving a provider-specific token limit
+# to reject the complete digest.
+# A cashtag must contain a letter; dollar-denominated figures such as $80,000
+# and $0.42 remain untouched.
+_CASHTAG = re.compile(r"\$(?P<symbol>(?=[A-Za-z0-9_]*[A-Za-z])[A-Za-z0-9_]+)\b")
+
+
+def _limit_native_cashtags(text: str) -> str:
+    """Keep one cashtag and render further asset symbols as plain text."""
+    seen_cashtag = False
+
+    def replace(match: re.Match[str]) -> str:
+        nonlocal seen_cashtag
+        if not seen_cashtag:
+            seen_cashtag = True
+            return match.group(0)
+        return match.group("symbol")
+
+    return _CASHTAG.sub(replace, text)
 
 
 def _build_native_root(date: datetime, content: str, blurb: str) -> str:
@@ -50,7 +71,7 @@ def _build_native_root(date: datetime, content: str, blurb: str) -> str:
     if not body:
         raise ValueError('native digest body is empty')
     parts = [title, _native_text(blurb), body]
-    root = '\n\n'.join(part for part in parts if part).strip()
+    root = _limit_native_cashtags('\n\n'.join(part for part in parts if part).strip())
     if not root:
         raise ValueError('native digest root is empty')
     if re.search(r'https?://', root, flags=re.IGNORECASE):
