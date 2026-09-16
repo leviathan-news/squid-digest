@@ -1,5 +1,5 @@
 {
-  "cash": 10445.842684257168,
+  "cash": 9178.55390095287,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -108,8 +108,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": 27.190879665788714,
-      "entry_price": 85.15548262205223,
+      "quantity": 40.352023794934695,
+      "entry_price": 88.78715185066919,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -3522,6 +3522,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-16T17:40:23.468625",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "BUY",
+      "quantity": 13.161144129145981,
+      "price": 96.2901683067073,
+      "value": 1267.2887833042992,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4428,6 +4440,10 @@
     [
       "2026-09-15T17:43:51.038957",
       9752.509257302181
+    ],
+    [
+      "2026-09-16T17:40:23.468625",
+      10153.302789333424
     ]
   ]
 }
