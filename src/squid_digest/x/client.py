@@ -1,17 +1,82 @@
 """Minimal X (Twitter) API v2 client for posting digest tweets.
 
-Uses OAuth 1.0a User Context via requests-oauthlib.  Only two
-operations are needed: post a tweet and search recent tweets (for
-idempotency checks).
+Uses OAuth 1.0a User Context via requests-oauthlib. Posting, bounded
+idempotency reads, outcome reads, and a non-posting identity diagnostic share
+the same narrow client.
 """
 
 import os
-from typing import Optional
+import re
+from typing import Any, Optional
 
+import requests
 from requests_oauthlib import OAuth1Session
 
 
 _API_BASE = "https://api.x.com/2"
+_MAX_DIAGNOSTIC_TEXT = 320
+_SENSITIVE_VALUE = re.compile(
+    r"(?ix)\b(?:authorization\s*:\s*bearer|bearer|"
+    r"oauth[ _-]?(?:token|signature)|access[ _-]?token|"
+    r"api[ _-]?key|client[ _-]?secret|secret)"
+    r"(?:\s*[:=]\s*|\s+)[^\s,;]+"
+)
+
+
+def _safe_diagnostic_text(value: object) -> Optional[str]:
+    """Return bounded provider text without echoing a credential-shaped value."""
+    if isinstance(value, int):
+        return str(value)
+    if not isinstance(value, str):
+        return None
+    redacted = _SENSITIVE_VALUE.sub("[REDACTED]", value)
+    return redacted[:_MAX_DIAGNOSTIC_TEXT]
+
+
+def _error_diagnostic(response: Any) -> dict[str, object]:
+    """Project a failed X response to a small, safe-to-log diagnostic."""
+    diagnostic: dict[str, object] = {"status": int(response.status_code)}
+    try:
+        payload = response.json()
+    except (TypeError, ValueError):
+        return diagnostic
+
+    if not isinstance(payload, dict):
+        return diagnostic
+
+    for key in ("title", "type", "detail", "code"):
+        value = _safe_diagnostic_text(payload.get(key))
+        if value:
+            diagnostic[key] = value
+
+    errors = payload.get("errors")
+    if isinstance(errors, list):
+        projected = []
+        for error in errors[:3]:
+            if not isinstance(error, dict):
+                continue
+            row = {}
+            for key in ("title", "type", "detail", "code"):
+                value = _safe_diagnostic_text(error.get(key))
+                if value:
+                    row[key] = value
+            if row:
+                projected.append(row)
+        if projected:
+            diagnostic["errors"] = projected
+    return diagnostic
+
+
+class XAPIError(RuntimeError):
+    """A failed X response whose public diagnostic is safe to emit in CI logs."""
+
+    def __init__(self, operation: str, diagnostic: dict[str, object]):
+        self.operation = operation
+        self.diagnostic = diagnostic
+        title = diagnostic.get("title") or diagnostic.get("type") or "X API error"
+        super().__init__(
+            f"{operation} failed (status={diagnostic.get('status', 'unknown')}; {title})"
+        )
 
 
 class XClient:
@@ -55,8 +120,60 @@ class XClient:
         if in_reply_to_tweet_id:
             payload['reply'] = {'in_reply_to_tweet_id': str(in_reply_to_tweet_id)}
         resp = self._session.post(f"{_API_BASE}/tweets", json=payload, timeout=30)
-        resp.raise_for_status()
+        try:
+            resp.raise_for_status()
+        except requests.HTTPError as exc:
+            raise XAPIError("post_tweet", _error_diagnostic(resp)) from exc
         return resp.json()
+
+    def diagnose_authenticated_user(self) -> dict[str, object]:
+        """Perform one non-posting OAuth identity check with safe error evidence.
+
+        This intentionally does not test write authorization: diagnostics must not
+        create, reply to, or delete an X post.
+        """
+        try:
+            response = self._session.get(
+                f"{_API_BASE}/users/me",
+                params={"user.fields": "id,name,username"},
+                timeout=30,
+            )
+        except requests.RequestException as exc:
+            return {
+                "ok": False,
+                "operation": "get_authenticated_user",
+                "failure_class": type(exc).__name__,
+            }
+
+        if not response.ok:
+            return {
+                "ok": False,
+                "operation": "get_authenticated_user",
+                **_error_diagnostic(response),
+            }
+
+        try:
+            data = response.json().get("data", {})
+        except (TypeError, ValueError):
+            return {
+                "ok": False,
+                "operation": "get_authenticated_user",
+                "status": int(response.status_code),
+                "failure_class": "InvalidJSON",
+            }
+        if not isinstance(data, dict) or not data.get("id") or not data.get("username"):
+            return {
+                "ok": False,
+                "operation": "get_authenticated_user",
+                "status": int(response.status_code),
+                "failure_class": "UnexpectedIdentityPayload",
+            }
+        return {
+            "ok": True,
+            "operation": "get_authenticated_user",
+            "status": int(response.status_code),
+            "account": {"id": str(data["id"]), "username": str(data["username"])},
+        }
 
     def search_recent(self, query: str, start_time: Optional[str] = None) -> list:
         """Search recent tweets (last 7 days).
