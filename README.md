@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ethereum’s Glamsterdam upgrade raises testnet block gas limit to 200M, paving the way for higher capacity ahead of Oct. 6 Sepolia test** [Coindesk](https://leviathannews.xyz/redirect/307539?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK regulator raids three illegal peer-to-peer crypto trading sites in London** [Coindesk](https://leviathannews.xyz/redirect/307541?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **World launches World Money super app with stablecoins and Stripe integration** [The Block](https://leviathannews.xyz/redirect/307542?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Avalanche Treasury CEO warns AI agents could overwhelm blockchain capacity as financial markets move toward 24/5 trading by mid-2027** [The Block](https://leviathannews.xyz/redirect/307543?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **US sanctions Iranian exchange BitBank over alleged bitcoin transfers to IRGC** [The Block](https://leviathannews.xyz/redirect/307544?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Switchboard winds down oracle operations, citing AI and bear market pressure on data intermediaries** [𝕏/@SwitchboardFDN](https://leviathannews.xyz/redirect/308112?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bastion receives preliminary OCC approval for a national trust bank charter, advancing its stablecoin custody, payments and issuance infrastructure for institutions** [𝕏/@Bastion](https://leviathannews.xyz/redirect/308113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase CEO Brian Armstrong pushes back on WSJ claims over CLARITY Act, saying key concerns were fixed before he strongly backed the Senate draft** [𝕏/@brian_armstrong](https://leviathannews.xyz/redirect/308114?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Haruko confirms cyberattack affecting 15 clients, with some funds reported lost** [archive.ph](https://leviathannews.xyz/redirect/308039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic partners with Accenture on independent frontier AI evaluation, pledging $1B each over five years** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/308049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/18/signals_2026-09-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/18/signals_2026-09-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/19/signals_2026-09-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/19/signals_2026-09-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
