@@ -23,7 +23,30 @@
     "root_attempted_at": "2026-09-19T17:18:33.646292+00:00",
     "root_posted_at": "2026-09-19T17:18:34.038521+00:00",
     "reply_state": "not_applicable",
-    "estimated_delivery_mdollars": 15
+    "estimated_delivery_mdollars": 15,
+    "outcome": {
+      "status": "collected",
+      "measured_at": "2026-09-20T18:12:10.429419+00:00",
+      "actual_age_hours": 24.893,
+      "timing": "nominal_24h",
+      "measurement_basis": "current_cumulative_x_snapshot",
+      "root_metrics": {
+        "impression_count": 411,
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "engagements": 18,
+        "user_profile_clicks": 1,
+        "url_link_clicks": 0
+      },
+      "reply_metrics": null,
+      "missing_post_ids": [],
+      "api_resources_read": 1,
+      "estimated_read_mdollars": 5,
+      "cost_basis": "estimated_mdollars_not_vendor_billing"
+    }
   },
   "tweet_id": "2101360309562695843",
   "tweet_status": "ok",
