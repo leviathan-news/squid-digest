@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Switchboard winds down oracle operations, citing AI and bear market pressure on data intermediaries** [𝕏/@SwitchboardFDN](https://leviathannews.xyz/redirect/308112?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bastion receives preliminary OCC approval for a national trust bank charter, advancing its stablecoin custody, payments and issuance infrastructure for institutions** [𝕏/@Bastion](https://leviathannews.xyz/redirect/308113?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase CEO Brian Armstrong pushes back on WSJ claims over CLARITY Act, saying key concerns were fixed before he strongly backed the Senate draft** [𝕏/@brian_armstrong](https://leviathannews.xyz/redirect/308114?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Haruko confirms cyberattack affecting 15 clients, with some funds reported lost** [archive.ph](https://leviathannews.xyz/redirect/308039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic partners with Accenture on independent frontier AI evaluation, pledging $1B each over five years** [𝕏/@AnthropicAI](https://leviathannews.xyz/redirect/308049?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **PancakeSwap introduces Pre-Access campaigns on Binance Wallet, offering users indirect exposure to popular companies before they potentially go public** [𝕏/@BinanceWallet](https://leviathannews.xyz/redirect/308302?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **GSR maps 2,300+ token listings since 2013 to study launch performance, float and FDV** [𝕏/@GSR_io](https://leviathannews.xyz/redirect/308232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ripple says asset managers are preparing for XRP Ledger’s Batch V1.1, enabling up to eight transactions to settle atomically after extensive security reviews** [Coindesk](https://leviathannews.xyz/redirect/308238?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Visa moves to close Crossmint memecoin rewards loophole after The Block probe** [The Block](https://leviathannews.xyz/redirect/308239?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Iceberg launches decentralized prop firm with instant funding and on-chain payouts, no evaluation required** [𝕏/@Icebergdotcash](https://leviathannews.xyz/redirect/308287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/19/signals_2026-09-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/19/signals_2026-09-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/20/signals_2026-09-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/20/signals_2026-09-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
