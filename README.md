@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **PancakeSwap introduces Pre-Access campaigns on Binance Wallet, offering users indirect exposure to popular companies before they potentially go public** [𝕏/@BinanceWallet](https://leviathannews.xyz/redirect/308302?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **GSR maps 2,300+ token listings since 2013 to study launch performance, float and FDV** [𝕏/@GSR_io](https://leviathannews.xyz/redirect/308232?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ripple says asset managers are preparing for XRP Ledger’s Batch V1.1, enabling up to eight transactions to settle atomically after extensive security reviews** [Coindesk](https://leviathannews.xyz/redirect/308238?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Visa moves to close Crossmint memecoin rewards loophole after The Block probe** [The Block](https://leviathannews.xyz/redirect/308239?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Iceberg launches decentralized prop firm with instant funding and on-chain payouts, no evaluation required** [𝕏/@Icebergdotcash](https://leviathannews.xyz/redirect/308287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZetaChain token holders vote 99.4% to shut down its Layer 1 and migrate ZETA to Solana, with the team shifting focus toward its Anuma AI app** [The Block](https://leviathannews.xyz/redirect/308458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ZCode open-sources code and apologizes after security issues, citing CAICT and NSFOCUS audits** [𝕏/@zcode_ai](https://leviathannews.xyz/redirect/308459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DeFiLlama launches team dashboards, giving teams private workspaces to organize shared data and collaborate on dashboards in real time** [𝕏/@DefiLlama](https://leviathannews.xyz/redirect/308466?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Gnosis Pay simplifies branded Visa card launches by consolidating 15+ vendors and regulatory touchpoints into one API covering issuing, KYC, disputes and compliance** [𝕏/@gnosispay](https://leviathannews.xyz/redirect/308488?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid adds trailing stops to perpetual markets, letting traders automatically trigger market orders after the mark price retraces by a set distance or percentage** [𝕏/@HyperliquidNews](https://leviathannews.xyz/redirect/308472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/20/signals_2026-09-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/20/signals_2026-09-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/21/signals_2026-09-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/21/signals_2026-09-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
