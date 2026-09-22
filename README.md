@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **ZetaChain token holders vote 99.4% to shut down its Layer 1 and migrate ZETA to Solana, with the team shifting focus toward its Anuma AI app** [The Block](https://leviathannews.xyz/redirect/308458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ZCode open-sources code and apologizes after security issues, citing CAICT and NSFOCUS audits** [𝕏/@zcode_ai](https://leviathannews.xyz/redirect/308459?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DeFiLlama launches team dashboards, giving teams private workspaces to organize shared data and collaborate on dashboards in real time** [𝕏/@DefiLlama](https://leviathannews.xyz/redirect/308466?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Gnosis Pay simplifies branded Visa card launches by consolidating 15+ vendors and regulatory touchpoints into one API covering issuing, KYC, disputes and compliance** [𝕏/@gnosispay](https://leviathannews.xyz/redirect/308488?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid adds trailing stops to perpetual markets, letting traders automatically trigger market orders after the mark price retraces by a set distance or percentage** [𝕏/@HyperliquidNews](https://leviathannews.xyz/redirect/308472?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Google and Apple are hiring crypto talent as job listings point to potential projects involving stablecoins, tokenized deposits and blockchain infrastructure** [Coindesk](https://leviathannews.xyz/redirect/308981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **X launches direct stock and crypto trading from timeline cashtags** [𝕏/@X](https://leviathannews.xyz/redirect/308878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Retain launches liquidity tool for Robinhood Chain's tokenized asset pools** [𝕏/@retainfund](https://leviathannews.xyz/redirect/308896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trueo is migrating its prediction market from Base to Ethereum mainnet, citing network effects and oracle goals** [𝕏/@Trueo_](https://leviathannews.xyz/redirect/308898?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **L2BEAT ships a new feature that answers for every privacy protocol ranking them based on 5 different adversaries** [𝕏/@l2beat](https://leviathannews.xyz/redirect/308798?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/21/signals_2026-09-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/21/signals_2026-09-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/22/signals_2026-09-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/22/signals_2026-09-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
