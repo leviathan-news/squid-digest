@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Google and Apple are hiring crypto talent as job listings point to potential projects involving stablecoins, tokenized deposits and blockchain infrastructure** [Coindesk](https://leviathannews.xyz/redirect/308981?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **X launches direct stock and crypto trading from timeline cashtags** [𝕏/@X](https://leviathannews.xyz/redirect/308878?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Retain launches liquidity tool for Robinhood Chain's tokenized asset pools** [𝕏/@retainfund](https://leviathannews.xyz/redirect/308896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trueo is migrating its prediction market from Base to Ethereum mainnet, citing network effects and oracle goals** [𝕏/@Trueo_](https://leviathannews.xyz/redirect/308898?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **L2BEAT ships a new feature that answers for every privacy protocol ranking them based on 5 different adversaries** [𝕏/@l2beat](https://leviathannews.xyz/redirect/308798?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Treasury doubles long-bond buybacks as Bessent says he is 'the house** [𝕏/@ctindale](https://leviathannews.xyz/redirect/309585?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid open interest hits an all-time high of $18B, marking a new record for the decentralized derivatives trading platform** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/309623?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase and Microsoft dismantle EvilTokens, an AI cybercrime platform, leading to arrests** [𝕏/@coinbase](https://leviathannews.xyz/redirect/309515?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JTX launches autocompound feature to automatically reinvest Stonk rewards into original assets** [𝕏/@jtx_trade](https://leviathannews.xyz/redirect/309537?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SEC trading director says tokenization and crypto aren't naturally politicized, calls for bipartisan support** [𝕏/@SECGov](https://leviathannews.xyz/redirect/309547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/22/signals_2026-09-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/22/signals_2026-09-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/23/signals_2026-09-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/23/signals_2026-09-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
