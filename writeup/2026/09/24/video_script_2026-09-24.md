@@ -1,0 +1,4 @@
+# 🎙️ SQUID Digest — Video Script — September 24, 2026
+> Draft — read time ≈ 1 min
+
+GM Fam, and welcome to SQUID Digest. First up, Hut 8 just won the Poolin bankruptcy auction for Texas data centers with a 140 million dollar bid. Big power play, big Texas energy. Next, motocross race results are now onchain for the first time using Injective, permanently stored on the ledger. Finally, racing you can verify. Meanwhile, a White House adviser is defending Trump's crypto ties after the Clarity Act failed in the Senate. Same old story, new headlines. In other news, Privy is expanding TRON support with new transaction, webhook, policy control and transfer capabilities, making stablecoin products easier to build. Builders, go touch grass later. And finally, Plasma One is opening to all users, letting them create accounts and start spending. The doors are open, the cards are out. And that's all the news that's fit to ink. Squids, we'll see you on the next tide.
