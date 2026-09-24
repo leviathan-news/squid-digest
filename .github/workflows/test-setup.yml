@@ -98,7 +98,7 @@ jobs:
         uv run python -c "
         import os
         # Temporarily remove env vars to test error handling
-        test_vars = ['PERPLEXITY_API_KEY', 'OPENAI_API_KEY', 'LLM_CHAT_PROVIDER']
+        test_vars = ['DEEPSEEK_API_KEY', 'OPENAI_API_KEY', 'LLM_CHAT_PROVIDER']
         for var in test_vars:
             if var in os.environ:
                 del os.environ[var]
@@ -106,7 +106,7 @@ jobs:
         # Try importing config - should handle missing vars gracefully (uses defaults)
         from squid_digest.config import (
             LLM_CHAT_PROVIDER,
-            PERPLEXITY_CHAT_MODEL,
+            DEEPSEEK_CHAT_MODEL,
             OPENAI_CHAT_MODEL,
             WRITEUP_DIR,
             get_llm_config
@@ -114,8 +114,8 @@ jobs:
         
         # Config should use defaults when env vars are missing
         print(f'✓ Config imported successfully')
-        print(f'  - LLM_CHAT_PROVIDER: {LLM_CHAT_PROVIDER} (default: perplexity)')
-        print(f'  - PERPLEXITY_API_KEY: {\"set\" if PERPLEXITY_CHAT_MODEL[\"API_KEY\"] else \"None (uses default)\"}')
+        print(f'  - LLM_CHAT_PROVIDER: {LLM_CHAT_PROVIDER} (default: deepseek)')
+        print(f'  - DEEPSEEK_API_KEY: {\"set\" if DEEPSEEK_CHAT_MODEL[\"API_KEY\"] else \"None (uses default)\"}')
         print(f'  - Config handles missing environment variables gracefully')
         "
     

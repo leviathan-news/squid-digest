@@ -12,7 +12,7 @@ import httpx
 load_dotenv()
 from squid_digest.tools.leviathan import LeviathanNewsFetcher
 from squid_digest.core.digest_engine import DigestEngine
-from squid_digest.llm import PerplexityChatProvider
+from squid_digest.llm import DeepSeekChatProvider
 from squid_digest.config import (
     WRITEUP_DIR, BACKTEST_INITIAL_CAPITAL, BACKTEST_PORTFOLIO_STATE_FILE,
     BACKTEST_PORTFOLIO_STATE_FILE_BUY, BACKTEST_PORTFOLIO_STATE_FILE_SELL,
@@ -553,7 +553,7 @@ def transform_trading_signals_markdown(trading_signals_text: str) -> str:
         # This handles cases where it might still be captured
         reason = re.sub(r'\s*\(\[more info\]\([^)]+\)\)\s*$', '', reason, flags=re.MULTILINE).strip()
 
-        # Strip Perplexity citation markers like [1], [2]
+        # Strip citation markers like [1], [2]
         reason = re.sub(r'\[\d+\]', '', reason).strip()
 
         # Get emoji for signal type
@@ -1132,7 +1132,7 @@ def fetch_news(limit=5, verbose=False, resolve_urls=False):
             logger.info("✓ Skipping URL resolution (use --resolve-urls if needed)")
     
     if verbose:
-        logger.info("✓ Skipping content scraping - Perplexity will handle this")
+        logger.info("✓ Skipping content scraping - LLM reasons over headlines")
         logger.info("News fetch process completed successfully")
     
     return news
@@ -1169,7 +1169,7 @@ async def each_news_content(limit=5, verbose=False):
     
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
-        llm_chat_provider=PerplexityChatProvider(),
+        llm_chat_provider=DeepSeekChatProvider(),
     )
     
     data_file = Path(".data/leviathan_news_content.json")
@@ -1222,7 +1222,7 @@ async def bundle_writeup(verbose=False):
 
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
-        llm_chat_provider=PerplexityChatProvider(),
+        llm_chat_provider=DeepSeekChatProvider(),
     )
     
     # Read the raw news data

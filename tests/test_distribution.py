@@ -526,7 +526,7 @@ class TestAgentsChatCaptionQuote:
 
 
 class TestGenerateBlurb:
-    """Tests for generate_blurb fallback chain (without Perplexity API)."""
+    """Tests for generate_blurb fallback chain (without the DeepSeek API)."""
 
     def _generate_no_api(self, headlines):
         """Call generate_blurb with API key disabled to test template fallback."""
@@ -718,7 +718,7 @@ class TestBlurbRefusalFallback:
         assert result == text
 
     def test_overlong_valid_blurb_truncated_at_word_boundary(self):
-        """Tier 1: a valid (non-refusal) Perplexity response over max_chars
+        """Tier 1: a valid (non-refusal) DeepSeek response over max_chars
         must be cut at a word boundary, never mid-word."""
         text = (
             "Bitcoin surges past 80K while Ethereum layer-2 networks post record "

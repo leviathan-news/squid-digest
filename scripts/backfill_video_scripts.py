@@ -20,7 +20,7 @@ load_dotenv()
 
 from squid_digest.config import WRITEUP_DIR, get_writeup_file_path, load_meta
 from squid_digest.tools.leviathan import LeviathanNewsFetcher
-from squid_digest.llm import PerplexityChatProvider
+from squid_digest.llm import DeepSeekChatProvider
 from squid_digest.core.digest_engine import DigestEngine
 
 from digest import generate_video_script
@@ -120,7 +120,7 @@ async def backfill_video_scripts(target_dates, verbose=False):
 
     engine = DigestEngine(
         news_fetcher=LeviathanNewsFetcher(),
-        llm_chat_provider=PerplexityChatProvider(),
+        llm_chat_provider=DeepSeekChatProvider(),
     )
 
     for target_date in target_dates:

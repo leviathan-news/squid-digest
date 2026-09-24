@@ -1,5 +1,5 @@
 """LLM providers."""
 
-from .providers import OpenAIChatProvider, PerplexityChatProvider, LLMChatProvider
+from .providers import OpenAIChatProvider, DeepSeekChatProvider, LLMChatProvider
 
-__all__ = ["OpenAIChatProvider", "PerplexityChatProvider", "LLMChatProvider"]
+__all__ = ["OpenAIChatProvider", "DeepSeekChatProvider", "LLMChatProvider"]

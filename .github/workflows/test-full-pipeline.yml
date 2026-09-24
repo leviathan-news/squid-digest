@@ -11,7 +11,7 @@ jobs:
     name: Test Full Pipeline End-to-End
     runs-on: ubuntu-latest
     
-    # This workflow uses API credits (Perplexity, CoinGecko, Leviathan)
+    # This workflow uses API credits (DeepSeek, CoinGecko, Leviathan)
     # Only run when you need to validate the full pipeline works
     
     steps:
@@ -36,11 +36,11 @@ jobs:
     - name: Validate required secrets
       run: |
         # Check for required secrets (but don't fail if missing - test will fail gracefully)
-        if [ -z "${{ secrets.PERPLEXITY_API_KEY }}" ]; then
-          echo "⚠️  WARNING: PERPLEXITY_API_KEY secret is not set!"
+        if [ -z "${{ secrets.DEEPSEEK_API_KEY }}" ]; then
+          echo "⚠️  WARNING: DEEPSEEK_API_KEY secret is not set!"
           echo "   The test will fail when trying to generate signals"
         else
-          echo "✓ PERPLEXITY_API_KEY is set"
+          echo "✓ DEEPSEEK_API_KEY is set"
         fi
         
         if [ -z "${{ secrets.COINGECKO_API_KEY }}" ]; then
@@ -54,9 +54,9 @@ jobs:
       run: |
         # Set up minimal .env for testing (secrets come from GitHub Secrets)
         cat > .env << EOF
-        PERPLEXITY_API_KEY=${{ secrets.PERPLEXITY_API_KEY }}
+        DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
         COINGECKO_API_KEY=${{ secrets.COINGECKO_API_KEY }}
-        LLM_CHAT_PROVIDER=perplexity
+        LLM_CHAT_PROVIDER=deepseek
         DJANGO_SECRET_KEY=test-secret-key-not-for-production
         DJANGO_DEBUG=False
         DJANGO_ALLOWED_HOSTS=localhost
@@ -72,7 +72,7 @@ jobs:
         echo ""
         echo "⚠️  This test will:"
         echo "  - Fetch news from Leviathan API"
-        echo "  - Generate signals using Perplexity API (uses credits)"
+        echo "  - Generate signals using DeepSeek API (uses credits)"
         echo "  - Fetch prices from CoinGecko API"
         echo "  - Generate backtest results"
         echo "  - Create test files"
@@ -124,13 +124,13 @@ jobs:
         echo "The full pipeline was tested end-to-end:"
         echo "  ✓ Dependencies installed"
         echo "  ✓ News fetched from Leviathan API"
-        echo "  ✓ Signals generated using Perplexity API"
+        echo "  ✓ Signals generated using DeepSeek API"
         echo "  ✓ Prices fetched from CoinGecko API"
         echo "  ✓ Backtest executed"
         echo "  ✓ Files generated and cleaned up"
         echo ""
         echo "⚠️  Note: This test used API credits"
-        echo "   - Perplexity API: ~1-2 API calls"
+        echo "   - DeepSeek API: ~1-2 API calls"
         echo "   - CoinGecko API: Multiple price fetches"
         echo "   - Leviathan API: News fetch"
         echo ""

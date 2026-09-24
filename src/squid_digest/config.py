@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Base LLM configuration
-LLM_CHAT_PROVIDER = os.getenv("LLM_CHAT_PROVIDER", "perplexity")
+LLM_CHAT_PROVIDER = os.getenv("LLM_CHAT_PROVIDER", "deepseek")
 
 # Individual provider configurations
 OPENAI_CHAT_MODEL = {
@@ -14,21 +14,11 @@ OPENAI_CHAT_MODEL = {
     "MAX_TOKENS": int(os.getenv("OPENAI_MAX_TOKENS", 1000)),
 }
 
-PERPLEXITY_CHAT_MODEL = {
-    "API_KEY": os.getenv("PERPLEXITY_API_KEY"),
-    "MODEL": os.getenv("PERPLEXITY_CHAT_MODEL", "sonar-reasoning-pro"),
-    "TEMPERATURE": float(os.getenv("PERPLEXITY_TEMPERATURE", 0.7)),
-    "MAX_TOKENS": int(os.getenv("PERPLEXITY_MAX_TOKENS", 4000)),
-    "REASONING": os.getenv("PERPLEXITY_REASONING", "high"),
-}
-
-# DeepSeek is the FALLBACK provider only (2026-07-16): when
-# DEEPSEEK_API_KEY is set, Perplexity chat failures (401/quota/etc.)
-# degrade to DeepSeek's OpenAI-compatible endpoint instead of crashing the
-# daily pipeline. The digest was dark 2026-07-02 → 07-15 because a
-# Perplexity 401 had no fallback. DeepSeek has no web search — reasoning
-# runs over the provided headlines only, which is the pipeline's normal
-# input contract anyway.
+# DeepSeek is the sole digest provider (2026-09-24). It was added as a
+# fallback on 2026-07-16 after a Perplexity 401 left the digest dark
+# 2026-07-02 → 07-15; the Perplexity key kept failing, so DeepSeek served
+# every run from then on and Perplexity was removed. No web search —
+# reasoning runs over the provided headlines only.
 DEEPSEEK_CHAT_MODEL = {
     "API_KEY": os.getenv("DEEPSEEK_API_KEY"),
     "MODEL": os.getenv("DEEPSEEK_CHAT_MODEL", "deepseek-chat"),
@@ -94,10 +84,10 @@ def get_llm_config() -> Dict[str, Any]:
             "PROVIDER": "openai",
             "CHAT_MODEL": OPENAI_CHAT_MODEL,
         }
-    elif LLM_CHAT_PROVIDER == "perplexity":
+    elif LLM_CHAT_PROVIDER == "deepseek":
         return {
-            "PROVIDER": "perplexity",
-            "CHAT_MODEL": PERPLEXITY_CHAT_MODEL,
+            "PROVIDER": "deepseek",
+            "CHAT_MODEL": DEEPSEEK_CHAT_MODEL,
         }
     else:
         raise ValueError(f"Unsupported LLM provider: {LLM_CHAT_PROVIDER}")
@@ -249,7 +239,7 @@ _BLURB_REFUSAL_PATTERNS = (
 
 
 def _looks_like_refusal(blurb: str) -> bool:
-    """True when a Perplexity response looks like a refusal or is unusably short."""
+    """True when an LLM response looks like a refusal or is unusably short."""
     if not blurb or len(blurb) < 20:
         return True
     lowered = blurb.lower()
