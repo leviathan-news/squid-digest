@@ -1604,9 +1604,10 @@ async def bundle_writeup(verbose=False):
 
                 # Fetch prices for candidates and every held position, so
                 # rebalance() can close rotated-out positions and value them
-                # at today's price instead of their entry price.
+                # at today's price instead of their entry price. BTC is always
+                # priced for the buy-and-hold benchmark.
                 price_fetcher = PriceFetcher()
-                all_candidates = set(long_candidates + short_candidates) | held_symbols(
+                all_candidates = set(long_candidates + short_candidates) | {'BTC'} | held_symbols(
                     SENTIMENT_PORTFOLIO_STATE_FILE, SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE
                 )
                 prices = {}
@@ -1936,7 +1937,7 @@ async def bundle_writeup(verbose=False):
 
                                 # Candidates plus held positions (see initial path above)
                                 retry_price_fetcher = PriceFetcher()
-                                all_candidates = set(long_candidates + short_candidates) | held_symbols(
+                                all_candidates = set(long_candidates + short_candidates) | {'BTC'} | held_symbols(
                                     SENTIMENT_PORTFOLIO_STATE_FILE, SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE
                                 )
                                 prices = {}
