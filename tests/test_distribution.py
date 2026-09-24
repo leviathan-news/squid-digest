@@ -173,6 +173,32 @@ class TestBroadcastCaption:
         assert len(caption) <= limit
         assert "SQUID DIGEST" in caption
 
+    def test_overlong_blurb_trimmed_at_word_boundary(self):
+        """When the blurb alone forces the last-resort trim branch, the
+        trimmed line must end at a word boundary, never mid-word."""
+        words = [
+            "alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf",
+            "hotel", "india", "juliet", "kilo", "lima", "mike", "november",
+            "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform",
+            "victor", "whiskey", "xray", "yankee", "zulu",
+        ]
+        blurb_text = " ".join(words * 20)
+        meta = {
+            "blurb": blurb_text,
+            "top_story_headline": "Major exchange launches new feature",
+            "top_story_comment": "This is a great development for the ecosystem",
+            "top_story_author": "CryptoUser",
+        }
+        caption, limit = self._build(meta=meta)
+        assert len(caption) <= limit
+
+        blurb_line = caption.split("\n")[3]
+        assert blurb_line.endswith("…")
+        body = blurb_line[:-1]
+        assert blurb_text.startswith(body)
+        next_index = len(body)
+        assert next_index == len(blurb_text) or blurb_text[next_index] == " "
+
 
 class TestAgentsChatCaption:
     """Tests for _build_caption in post_agents_chat.py."""
@@ -236,6 +262,32 @@ class TestAgentsChatCaption:
         caption, _ = self._build()
         assert "$BTC" in caption
         assert "$ETH" in caption
+
+    def test_overlong_blurb_trimmed_at_word_boundary(self):
+        """When the blurb alone forces the last-resort trim branch, the
+        trimmed line must end at a word boundary, never mid-word."""
+        words = [
+            "alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf",
+            "hotel", "india", "juliet", "kilo", "lima", "mike", "november",
+            "oscar", "papa", "quebec", "romeo", "sierra", "tango", "uniform",
+            "victor", "whiskey", "xray", "yankee", "zulu",
+        ]
+        blurb_text = " ".join(words * 20)
+        meta = {
+            "blurb": blurb_text,
+            "top_story_headline": "Major exchange launches new feature",
+            "top_story_comment": "This is a great development for the ecosystem",
+            "top_story_author": "CryptoUser",
+        }
+        caption, limit = self._build(meta=meta)
+        assert len(caption) <= limit
+
+        blurb_line = caption.split("\n")[3]
+        assert blurb_line.endswith("…")
+        body = blurb_line[:-1]
+        assert blurb_text.startswith(body)
+        next_index = len(body)
+        assert next_index == len(blurb_text) or blurb_text[next_index] == " "
 
 
 class TestPickTopYap:
@@ -504,6 +556,113 @@ class TestGenerateBlurb:
         assert "In today's digest:" in result
         assert "Only headline" in result
 
+    def test_headlines_never_clipped_mid_word(self):
+        """Regression for 2026-09-22: the old h[:60] slice produced fragments
+        like 'job listings po' and 'timeline cas,'. The fix must never ship
+        a partial headline — either the whole headline appears, or it (and
+        anything after it in rank order) is dropped.
+
+        Arithmetic: h1 (157 chars) alone renders at 176 chars, h1+h2 renders
+        at 246 chars — both under the 280 budget. h1+h2+h3 would render at
+        323 chars, over budget, so h3 is dropped entirely rather than any
+        headline being sliced.
+        """
+        headlines = [
+            "Google and Apple are hiring crypto talent as job listings point to "
+            "potential projects involving stablecoins, tokenized deposits and "
+            "blockchain infrastructure",
+            "X launches direct stock and crypto trading from timeline cashtags",
+            "Retain launches liquidity tool for Robinhood Chain's tokenized asset pools",
+        ]
+        result = self._generate_no_api(headlines)
+
+        from squid_digest.config import TEMPLATE_BLURB_MAX_CHARS
+
+        expected = (
+            "In today's digest: " + headlines[0] + " and " + headlines[1]
+        )
+        assert result == expected
+        assert len(result) <= TEMPLATE_BLURB_MAX_CHARS
+        # No mid-word fragments from the old bug (the old h[:60] slice cut
+        # mid-word and then appended a comma separator).
+        assert "job listings po," not in result
+        assert "timeline cas," not in result
+        # The included headlines appear in full; the dropped one is absent.
+        assert headlines[0] in result
+        assert headlines[1] in result
+        assert headlines[2] not in result
+        assert "Retain" not in result
+
+    def test_single_headline_over_budget_cut_at_word_boundary(self):
+        from squid_digest.config import TEMPLATE_BLURB_MAX_CHARS
+
+        long_headline = (
+            "Regulators across seven jurisdictions coordinate a sweeping new "
+            "framework for stablecoin issuance oversight that industry groups "
+            "say could reshape how tokenized deposits and on-chain settlement "
+            "rails interact with traditional correspondent banking networks worldwide"
+        )
+        result = self._generate_no_api([long_headline])
+
+        assert len(result) <= TEMPLATE_BLURB_MAX_CHARS
+        assert result.endswith("…")
+        prefix = "In today's digest: "
+        assert result.startswith(prefix)
+        cut_text = result[len(prefix):-1].rstrip()
+        # What remains before the ellipsis must be a whole-word prefix of
+        # the original headline (never a sliced token) — the character right
+        # after the cut in the source must be a word boundary.
+        assert long_headline.startswith(cut_text)
+        next_index = len(cut_text)
+        assert next_index == len(long_headline) or long_headline[next_index] == " "
+
+
+class TestTruncateAtWord:
+    """Unit tests for truncate_at_word in squid_digest/config.py."""
+
+    def _truncate(self, text, limit):
+        from squid_digest.config import truncate_at_word
+        return truncate_at_word(text, limit)
+
+    def test_short_text_unchanged(self):
+        assert self._truncate("hello world", 100) == "hello world"
+
+    def test_exact_length_unchanged(self):
+        assert self._truncate("hello", 5) == "hello"
+
+    def test_long_text_cut_at_word_boundary(self):
+        text = "The quick brown fox jumps over the lazy dog"
+        result = self._truncate(text, 20)
+        assert len(result) <= 20
+        assert result.endswith("…")
+        body = result[:-1].rstrip()
+        assert text.startswith(body)
+        # Confirm it landed on a word boundary, not mid-word.
+        next_index = len(body)
+        assert next_index == len(text) or text[next_index] == " "
+
+    def test_no_whitespace_falls_back_to_hard_cut(self):
+        text = "a" * 50
+        result = self._truncate(text, 10)
+        assert len(result) <= 10
+
+    def test_result_length_always_within_limit(self):
+        import random
+        random.seed(42)
+        words = ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta"]
+        for _ in range(20):
+            text = " ".join(random.choices(words, k=random.randint(1, 15)))
+            limit = random.randint(1, 60)
+            result = self._truncate(text, limit)
+            assert len(result) <= limit
+
+    def test_strips_trailing_punctuation_before_ellipsis(self):
+        text = "First clause, second clause, third clause continues on and on"
+        result = self._truncate(text, 20)
+        body = result[:-1] if result.endswith("…") else result
+        assert not body.endswith(",")
+        assert not body.endswith(" ")
+
 
 class TestBlurbRefusalFallback:
     """Tests for the refusal / too-short detection in generate_blurb Tier-1."""
@@ -543,6 +702,24 @@ class TestBlurbRefusalFallback:
         text = "Bitcoin hits $77K as Anthropic ships Opus 4.7 and DeFi TVL hits new highs"
         result = self._patched_generate(text)
         assert result == text
+
+    def test_overlong_valid_blurb_truncated_at_word_boundary(self):
+        """Tier 1: a valid (non-refusal) Perplexity response over max_chars
+        must be cut at a word boundary, never mid-word."""
+        text = (
+            "Bitcoin surges past 80K while Ethereum layer-2 networks post record "
+            "transaction volume amid growing institutional interest and a wave of "
+            "new stablecoin issuances across multiple blockchains"
+        )
+        assert len(text) > 140
+        result = self._patched_generate(text)
+
+        assert len(result) <= 140
+        assert result.endswith("…")
+        body = result[:-1].rstrip()
+        assert text.startswith(body)
+        next_index = len(body)
+        assert next_index == len(text) or text[next_index] == " "
 
 
 class TestPromoteFirstNonDuplicate:

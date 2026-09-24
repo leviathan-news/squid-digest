@@ -36,6 +36,7 @@ from squid_digest.config import (
     DEFAULT_BLURB,
     SQUID_DIGEST_IMAGE_URL,
     TELEGRAM_CHANNEL_INVITE,
+    truncate_at_word,
 )
 
 
@@ -165,8 +166,11 @@ def _build_caption(date: datetime, meta: dict, content: str, digest_url: str) ->
         caption = '\n'.join(lines)
 
     if len(caption) > CAPTION_LIMIT:
-        over = len(caption) - CAPTION_LIMIT + 3
-        blurb = blurb[:-over] + "..."
+        # Truncate blurb at a word boundary. truncate_at_word's ellipsis is
+        # a single char (vs. the 3-char "..." this replaces), so trim by 1
+        # instead of 3 to keep the result comfortably under CAPTION_LIMIT.
+        over = len(caption) - CAPTION_LIMIT + 1
+        blurb = truncate_at_word(blurb, len(blurb) - over)
         lines[3] = blurb
         caption = '\n'.join(lines)
 
