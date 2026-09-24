@@ -300,15 +300,13 @@ async def main(auto_cleanup=False, send_email=False):
         print(f"  ⚠️  Warning: File was last modified {time_since_mod:.1f} seconds ago")
         print("    This might be a pre-existing file, not the newly generated one")
     
-    # Read a snippet to verify it's the new content (check for backtest section)
-    with open(signals_file, 'r', encoding='utf-8') as f:
-        content_preview = f.read(1000)
-        if "Backtest Results" in content_preview:
-            print("  ✓ File contains backtest section (likely newly generated)")
-        elif time_since_mod < 120:
-            print("  ✓ File was recently modified (likely newly generated)")
-        else:
-            print("  ⚠️  File might be stale - check if backtest section is present")
+    # The portfolio section sits near the end of the file, so the old
+    # 1000-char preview check could never find it; rely on mtime here and
+    # check the full content in Step 3.
+    if time_since_mod < 120:
+        print("  ✓ File was recently modified (likely newly generated)")
+    else:
+        print("  ⚠️  File might be stale - check if portfolio section is present")
     
     # Step 3: Display generated content
     print()
@@ -326,22 +324,24 @@ async def main(auto_cleanup=False, send_email=False):
     with open(signals_file_abs, 'r', encoding='utf-8') as f:
         full_content = f.read()
     
-    # Check for backtest section and signals
-    has_backtest = "Backtest Results" in full_content
+    # Check for portfolio section and signals. "Sentiment Portfolio" replaced
+    # the legacy "Backtest Results" section; accept either, as
+    # validate_signals_output.py does.
+    has_portfolio = "## 📈 Sentiment Portfolio" in full_content or "Backtest Results" in full_content
     has_signals = "## 🎯 Trading Signals" in full_content or "**$" in full_content
     
     print(f"✓ File size: {len(full_content):,} characters")
     print(f"  Contains signals: {has_signals}")
-    print(f"  Contains backtest: {has_backtest}")
+    print(f"  Contains portfolio: {has_portfolio}")
     
     if not has_signals:
         print("  ⚠️  Warning: No trading signals found in file")
-    if not has_backtest:
-        print("  ⚠️  Warning: No backtest section found")
+    if not has_portfolio:
+        print("  ⚠️  Warning: No portfolio section found")
         print("     Possible reasons:")
-        print("     - No signals were generated (backtest only runs if signals exist)")
+        print("     - No signals were generated (portfolio only runs if signals exist)")
         print("     - ACTIVE_PROMPT wasn't set to 'signals'")
-        print("     - Backtest failed silently")
+        print("     - Portfolio update failed silently")
     
     # Show a preview of the content structure
     lines = full_content.split('\n')
