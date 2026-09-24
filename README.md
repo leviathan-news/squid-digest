@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Treasury doubles long-bond buybacks as Bessent says he is 'the house** [𝕏/@ctindale](https://leviathannews.xyz/redirect/309585?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid open interest hits an all-time high of $18B, marking a new record for the decentralized derivatives trading platform** [𝕏/@HyperliquidX](https://leviathannews.xyz/redirect/309623?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase and Microsoft dismantle EvilTokens, an AI cybercrime platform, leading to arrests** [𝕏/@coinbase](https://leviathannews.xyz/redirect/309515?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JTX launches autocompound feature to automatically reinvest Stonk rewards into original assets** [𝕏/@jtx_trade](https://leviathannews.xyz/redirect/309537?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SEC trading director says tokenization and crypto aren't naturally politicized, calls for bipartisan support** [𝕏/@SECGov](https://leviathannews.xyz/redirect/309547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hut 8 wins Poolin bankruptcy auction for Texas data centers with $140 million bid** [The Block](https://leviathannews.xyz/redirect/310077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Motocross race results recorded onchain for the first time using Injective, with race results permanently stored on the ledger** [𝕏/@injective](https://leviathannews.xyz/redirect/310166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **White House adviser defends Trump's crypto ties after Clarity Act fails in Senate** [Coindesk](https://leviathannews.xyz/redirect/310078?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Privy expands TRON support with new transaction, webhook, policy control and transfer capabilities, making stablecoin products easier to build** [𝕏/@privy_io](https://leviathannews.xyz/redirect/310167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Plasma One opens to all users, letting them create accounts and start spending** [𝕏/@Plasma](https://leviathannews.xyz/redirect/310082?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/23/signals_2026-09-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/23/signals_2026-09-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/24/signals_2026-09-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/24/signals_2026-09-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
