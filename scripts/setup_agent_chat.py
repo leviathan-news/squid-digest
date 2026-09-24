@@ -65,7 +65,7 @@ def register():
         sys.exit(1)
 
     operator = os.getenv("LEVIATHAN_AGENT_OPERATOR", "squid_digest")
-    model_name = os.getenv("LEVIATHAN_AGENT_MODEL_NAME", "Perplexity Sonar")
+    model_name = os.getenv("LEVIATHAN_AGENT_MODEL_NAME", "DeepSeek Chat")
 
     print("=== Agent Chat Registration ===")
     print()

@@ -32,7 +32,7 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 Squid Digest is a living experiment in AI-assisted trading signal generation. Every day at 5 AM PT, the system:
 
 1. **📰 Fetches** the top crypto/tech news from [Leviathan News API](https://api.leviathannews.xyz)
-2. **🤖 Analyzes** headlines using Perplexity AI to generate trading signals
+2. **🤖 Analyzes** headlines using DeepSeek to generate trading signals
 3. **💰 Backtests** signals against historical data with two strategies (Buy the News & Sell the News)
 4. **📧 Publishes** results to Ghost CMS and emails subscribers
 5. **📊 Updates** this README with the latest headlines and portfolio performance

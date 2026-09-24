@@ -9,7 +9,7 @@ from langchain_core.prompts import (
 from dotenv import load_dotenv
 
 from squid_digest.tools import LeviathanNewsFetcher
-from squid_digest.llm import OpenAIChatProvider, PerplexityChatProvider, LLMChatProvider
+from squid_digest.llm import OpenAIChatProvider, DeepSeekChatProvider, LLMChatProvider
 from squid_digest.context.prompts.template import SYSTEM_MESSAGE, ACTIVE_PROMPT, get_system_message, get_active_prompt
 
 load_dotenv()

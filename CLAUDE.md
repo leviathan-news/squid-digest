@@ -126,9 +126,9 @@ User runs: python manage.py pull_news --limit 10
 ### Configuration
 All configuration via environment variables in `.env`:
 - `DJANGO_SECRET_KEY`, `DJANGO_DEBUG`, `DJANGO_ALLOWED_HOSTS`, `TIME_ZONE` - Django settings
-- `PERPLEXITY_API_KEY` - Perplexity AI authentication (default)
+- `DEEPSEEK_API_KEY` - DeepSeek authentication (default provider)
 - `OPENAI_API_KEY` - OpenAI authentication (optional)
-- `LLM_CHAT_PROVIDER` - LLM provider selection (perplexity/openai)
+- `LLM_CHAT_PROVIDER` - LLM provider selection (deepseek/openai)
 - `GHOST_URL`, `GHOST_ADMIN_API_KEY` - Ghost CMS configuration
 
 ### External APIs
