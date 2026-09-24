@@ -209,6 +209,34 @@ def resolve_public_digest_url(date: datetime) -> str:
     return meta.get("published_ghost_url") or get_canonical_url(date)
 
 
+def truncate_at_word(text: str, limit: int) -> str:
+    """Truncate *text* to at most *limit* chars without cutting a word in half.
+
+    A blurb that ends mid-word ("...blockchain infrastructu") reads as
+    broken, so we always cut at the last whitespace boundary that leaves
+    room for a trailing single-char ellipsis (U+2026), stripping trailing
+    punctuation first. Falls back to a hard cut only when no whitespace is
+    available to cut on.
+    """
+    if len(text) <= limit:
+        return text
+    if limit <= 1:
+        return text[:limit]
+
+    budget = limit - 1  # reserve one char for the ellipsis
+    window = text[:budget]
+    cut = window.rfind(" ")
+    if cut <= 0:
+        return text[:limit]
+
+    return window[:cut].rstrip(" ,;:-") + "…"
+
+
+# Tier 2 template fallback budget for generate_blurb(); headlines are only
+# included whole, so this bounds how many/how much of them fit.
+TEMPLATE_BLURB_MAX_CHARS = 280
+
+
 _BLURB_REFUSAL_PATTERNS = (
     "i cannot",
     "i'm unable",
@@ -229,10 +257,10 @@ def _looks_like_refusal(blurb: str) -> bool:
 
 
 def generate_blurb(headlines: list, max_chars: int = 140) -> str:
-    """Generate a human-sounding blurb from headlines via Perplexity.
+    """Generate a human-sounding blurb from headlines via DeepSeek.
 
     Fallback chain:
-    1. Perplexity AI (short completion, 10s timeout)
+    1. DeepSeek (short completion, 10s timeout)
     2. Smart template ("In today's digest: h1, h2, and h3")
     3. DEFAULT_BLURB constant
 
@@ -246,8 +274,11 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
     if not headlines:
         return DEFAULT_BLURB
 
-    # --- Tier 1: Perplexity AI ---
-    api_key = PERPLEXITY_CHAT_MODEL.get("API_KEY")
+    # --- Tier 1: DeepSeek ---
+    # Was a direct Perplexity call; its key has returned 401 since July 2026,
+    # so every blurb fell through to the template. The main digest already
+    # runs on DeepSeek via the fallback in llm/providers.py.
+    api_key = DEEPSEEK_CHAT_MODEL.get("API_KEY")
     if api_key:
         try:
             import httpx
@@ -260,10 +291,10 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             )
 
             resp = httpx.post(
-                "https://api.perplexity.ai/chat/completions",
+                f"{DEEPSEEK_CHAT_MODEL['BASE_URL']}/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "sonar",
+                    "model": DEEPSEEK_CHAT_MODEL["MODEL"],
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": 100,
                     "temperature": 0.7,
@@ -272,30 +303,52 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             )
             resp.raise_for_status()
             blurb = resp.json()["choices"][0]["message"]["content"].strip()
-            # Strip <think>...</think> tags and Perplexity citation markers [1], [2]
+            # Strip <think>...</think> tags and citation markers [1], [2]
             import re
             blurb = re.sub(r'<think>.*?</think>', '', blurb, flags=re.DOTALL).strip()
             blurb = re.sub(r'\[\d+\]', '', blurb).strip()
             if _looks_like_refusal(blurb):
                 logger.warning(
-                    "Perplexity returned refusal or too-short blurb: %r. Falling through to template.",
+                    "DeepSeek returned refusal or too-short blurb: %r. Falling through to template.",
                     blurb[:80],
                 )
             elif blurb and len(blurb) <= max_chars:
                 return blurb
             elif blurb:
-                return blurb[:max_chars - 3] + "..."
+                return truncate_at_word(blurb, max_chars)
         except Exception as e:
-            logger.warning(f"Perplexity blurb generation failed: {e}")
+            logger.warning(f"DeepSeek blurb generation failed: {e}")
 
     # --- Tier 2: Smart template ---
-    short = [h[:60] for h in headlines[:3]]
-    if len(short) >= 3:
-        return f"In today's digest: {short[0]}, {short[1]}, and {short[2]}"
-    elif len(short) == 2:
-        return f"In today's digest: {short[0]} and {short[1]}"
-    elif short:
-        return f"In today's digest: {short[0]}"
+    # Headlines are used whole or not at all — never sliced mid-word (the
+    # old `h[:60]` here produced fragments like "job listings po"). Add
+    # headlines in rank order while the fully rendered sentence still fits
+    # the budget, stopping (not skipping ahead) at the first one that
+    # doesn't fit.
+    prefix = "In today's digest: "
+    candidates = [h.strip().rstrip(".") for h in headlines[:3] if h and h.strip()]
+    if candidates:
+        accepted: list = []
+        for h in candidates:
+            trial = accepted + [h]
+            if len(_render_digest_template(prefix, trial)) <= TEMPLATE_BLURB_MAX_CHARS:
+                accepted = trial
+            else:
+                break
+        if accepted:
+            return _render_digest_template(prefix, accepted)
+        # Even the top-ranked headline alone doesn't fit; cut it at a word
+        # boundary rather than dropping it entirely.
+        return prefix + truncate_at_word(candidates[0], TEMPLATE_BLURB_MAX_CHARS - len(prefix))
 
     # --- Tier 3: Default ---
     return DEFAULT_BLURB
+
+
+def _render_digest_template(prefix: str, items: list) -> str:
+    """Render the Tier 2 "In today's digest: ..." sentence for 1-3 items."""
+    if len(items) == 1:
+        return f"{prefix}{items[0]}"
+    if len(items) == 2:
+        return f"{prefix}{items[0]} and {items[1]}"
+    return f"{prefix}{items[0]}, {items[1]}, and {items[2]}"
