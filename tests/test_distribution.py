@@ -533,7 +533,7 @@ class TestGenerateBlurb:
         from unittest.mock import patch
         from squid_digest.config import generate_blurb
         # Patch the config dict to remove API key, forcing template fallback
-        with patch.dict("squid_digest.config.PERPLEXITY_CHAT_MODEL", {"API_KEY": None}):
+        with patch.dict("squid_digest.config.DEEPSEEK_CHAT_MODEL", {"API_KEY": None}):
             return generate_blurb(headlines)
 
     def test_empty_headlines_returns_default(self):
@@ -667,21 +667,35 @@ class TestTruncateAtWord:
 class TestBlurbRefusalFallback:
     """Tests for the refusal / too-short detection in generate_blurb Tier-1."""
 
-    def _patched_generate(self, perplexity_text, headlines=None):
-        """Invoke generate_blurb with Perplexity patched to return *perplexity_text*."""
+    def _patched_generate(self, llm_text, headlines=None):
+        """Invoke generate_blurb with the DeepSeek call patched to return *llm_text*."""
         from unittest.mock import patch, MagicMock
         from squid_digest.config import generate_blurb
 
         headlines = headlines or ["Headline A rises", "Headline B falls", "Headline C launches"]
         fake_resp = MagicMock()
         fake_resp.raise_for_status.return_value = None
-        fake_resp.json.return_value = {"choices": [{"message": {"content": perplexity_text}}]}
+        fake_resp.json.return_value = {"choices": [{"message": {"content": llm_text}}]}
 
         with patch.dict(
-            "squid_digest.config.PERPLEXITY_CHAT_MODEL", {"API_KEY": "test-key"}
+            "squid_digest.config.DEEPSEEK_CHAT_MODEL", {"API_KEY": "test-key"}
         ):
             with patch("httpx.post", return_value=fake_resp):
                 return generate_blurb(headlines)
+
+    def test_request_goes_to_deepseek(self):
+        from unittest.mock import patch, MagicMock
+        from squid_digest.config import generate_blurb
+
+        fake_resp = MagicMock()
+        fake_resp.json.return_value = {"choices": [{"message": {"content": "Bitcoin rallies while Ethereum L2 fees drop"}}]}
+        config = {"API_KEY": "test-key", "BASE_URL": "https://api.deepseek.com", "MODEL": "deepseek-chat"}
+        with patch.dict("squid_digest.config.DEEPSEEK_CHAT_MODEL", config):
+            with patch("httpx.post", return_value=fake_resp) as post:
+                generate_blurb(["Headline A rises"])
+        assert post.call_args.args[0] == "https://api.deepseek.com/chat/completions"
+        assert post.call_args.kwargs["json"]["model"] == "deepseek-chat"
+        assert post.call_args.kwargs["headers"]["Authorization"] == "Bearer test-key"
 
     def test_refusal_phrase_falls_through(self):
         result = self._patched_generate(

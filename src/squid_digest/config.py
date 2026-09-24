@@ -257,10 +257,10 @@ def _looks_like_refusal(blurb: str) -> bool:
 
 
 def generate_blurb(headlines: list, max_chars: int = 140) -> str:
-    """Generate a human-sounding blurb from headlines via Perplexity.
+    """Generate a human-sounding blurb from headlines via DeepSeek.
 
     Fallback chain:
-    1. Perplexity AI (short completion, 10s timeout)
+    1. DeepSeek (short completion, 10s timeout)
     2. Smart template ("In today's digest: h1, h2, and h3")
     3. DEFAULT_BLURB constant
 
@@ -274,8 +274,11 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
     if not headlines:
         return DEFAULT_BLURB
 
-    # --- Tier 1: Perplexity AI ---
-    api_key = PERPLEXITY_CHAT_MODEL.get("API_KEY")
+    # --- Tier 1: DeepSeek ---
+    # Was a direct Perplexity call; its key has returned 401 since July 2026,
+    # so every blurb fell through to the template. The main digest already
+    # runs on DeepSeek via the fallback in llm/providers.py.
+    api_key = DEEPSEEK_CHAT_MODEL.get("API_KEY")
     if api_key:
         try:
             import httpx
@@ -288,10 +291,10 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             )
 
             resp = httpx.post(
-                "https://api.perplexity.ai/chat/completions",
+                f"{DEEPSEEK_CHAT_MODEL['BASE_URL']}/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "sonar",
+                    "model": DEEPSEEK_CHAT_MODEL["MODEL"],
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": 100,
                     "temperature": 0.7,
@@ -300,13 +303,13 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             )
             resp.raise_for_status()
             blurb = resp.json()["choices"][0]["message"]["content"].strip()
-            # Strip <think>...</think> tags and Perplexity citation markers [1], [2]
+            # Strip <think>...</think> tags and citation markers [1], [2]
             import re
             blurb = re.sub(r'<think>.*?</think>', '', blurb, flags=re.DOTALL).strip()
             blurb = re.sub(r'\[\d+\]', '', blurb).strip()
             if _looks_like_refusal(blurb):
                 logger.warning(
-                    "Perplexity returned refusal or too-short blurb: %r. Falling through to template.",
+                    "DeepSeek returned refusal or too-short blurb: %r. Falling through to template.",
                     blurb[:80],
                 )
             elif blurb and len(blurb) <= max_chars:
@@ -314,7 +317,7 @@ def generate_blurb(headlines: list, max_chars: int = 140) -> str:
             elif blurb:
                 return truncate_at_word(blurb, max_chars)
         except Exception as e:
-            logger.warning(f"Perplexity blurb generation failed: {e}")
+            logger.warning(f"DeepSeek blurb generation failed: {e}")
 
     # --- Tier 2: Smart template ---
     # Headlines are used whole or not at all — never sliced mid-word (the
