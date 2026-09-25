@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hut 8 wins Poolin bankruptcy auction for Texas data centers with $140 million bid** [The Block](https://leviathannews.xyz/redirect/310077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Motocross race results recorded onchain for the first time using Injective, with race results permanently stored on the ledger** [𝕏/@injective](https://leviathannews.xyz/redirect/310166?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **White House adviser defends Trump's crypto ties after Clarity Act fails in Senate** [Coindesk](https://leviathannews.xyz/redirect/310078?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Privy expands TRON support with new transaction, webhook, policy control and transfer capabilities, making stablecoin products easier to build** [𝕏/@privy_io](https://leviathannews.xyz/redirect/310167?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Plasma One opens to all users, letting them create accounts and start spending** [𝕏/@Plasma](https://leviathannews.xyz/redirect/310082?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kelp DAO sues LayerZero and co-founder Bryan Pellegrino over rsETH bridge exploit** [𝕏/@kelpdao](https://leviathannews.xyz/redirect/310846?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bybit offers support to Bitget after security incident, updates Lazarus Bounty to trace stolen funds** [𝕏/@benbybit](https://leviathannews.xyz/redirect/310773?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC says U.S. commodities firms can invest in tokenized assets and use blockchain records, signaling broader acceptance of blockchain in financial markets** [Coindesk](https://leviathannews.xyz/redirect/310751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Multicoin's Spencer Applebaum and Shayon Sengupta publish "DeFi 2.0" essay on how RWA market structure will reshape DeFi primitives.** [multicoin.capital](https://leviathannews.xyz/redirect/310750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bullish, Alpaca and Apex Fintech form a coalition to develop issuer-backed tokenized stocks linked directly to official shareholder records** [Coindesk](https://leviathannews.xyz/redirect/310753?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/24/signals_2026-09-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/24/signals_2026-09-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/25/signals_2026-09-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/25/signals_2026-09-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
