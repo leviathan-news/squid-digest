@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kelp DAO sues LayerZero and co-founder Bryan Pellegrino over rsETH bridge exploit** [𝕏/@kelpdao](https://leviathannews.xyz/redirect/310846?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bybit offers support to Bitget after security incident, updates Lazarus Bounty to trace stolen funds** [𝕏/@benbybit](https://leviathannews.xyz/redirect/310773?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CFTC says U.S. commodities firms can invest in tokenized assets and use blockchain records, signaling broader acceptance of blockchain in financial markets** [Coindesk](https://leviathannews.xyz/redirect/310751?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Multicoin's Spencer Applebaum and Shayon Sengupta publish "DeFi 2.0" essay on how RWA market structure will reshape DeFi primitives.** [multicoin.capital](https://leviathannews.xyz/redirect/310750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bullish, Alpaca and Apex Fintech form a coalition to develop issuer-backed tokenized stocks linked directly to official shareholder records** [Coindesk](https://leviathannews.xyz/redirect/310753?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **US freezes $84 million tied to Tether and Bitfinex-linked payments firm Capstone, accused of posing as a tech services company.** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/310924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jumper plans to spin out of LI.FI as independent company, with Marko as CEO, targeting onchain finance super-app** [𝕏/@PhilippZentner](https://leviathannews.xyz/redirect/311343?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bitcoin proposal adds Zcash-style shielded privacy without changing protocol rules** [Coindesk](https://leviathannews.xyz/redirect/311280?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nillion begins Blacklight node migration from its L2 to Ethereum L1, with operators moving ahead of the Blacklight L1 mainnet launch on October 5** [𝕏/@nillion](https://leviathannews.xyz/redirect/311350?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tempo releases guide on tokenized deposits, bank ledger design and interbank settlement** [𝕏/@tempo](https://leviathannews.xyz/redirect/311282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/25/signals_2026-09-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/25/signals_2026-09-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/26/signals_2026-09-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/26/signals_2026-09-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
