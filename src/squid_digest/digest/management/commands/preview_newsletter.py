@@ -129,7 +129,7 @@ class Command(BaseCommand):
         # Extract key sections for summary
         has_top_stories = '## 🔥 Top Stories' in content
         has_signals = '## 🎯 Trading Signals' in content
-        has_backtest = '## 📈 Backtest Results' in content
+        has_portfolio = '## 📈 Sentiment Portfolio' in content or '## 📈 Backtest Results' in content
         has_market_snapshot = '## 💰 Market Snapshot' in content
         
         # Count signals if present
@@ -144,7 +144,7 @@ class Command(BaseCommand):
         self.stdout.write(f'  ✓ Trading Signals: {"Yes" if has_signals else "No"}')
         if has_signals:
             self.stdout.write(f'     → {signal_count} signal(s) found')
-        self.stdout.write(f'  ✓ Backtest Results: {"Yes" if has_backtest else "No"}')
+        self.stdout.write(f'  ✓ Portfolio: {"Yes" if has_portfolio else "No"}')
         self.stdout.write('')
         
         # Show content preview
