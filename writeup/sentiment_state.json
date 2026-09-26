@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-09-25",
+  "last_processed_date": "2026-09-26",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 0.23465843201708259,
-      "last_signal_date": "2026-09-18",
+      "score": 1.1579134144272991,
+      "last_signal_date": "2026-09-26",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 3.136666752205746,
+      "score": 2.840953304382556,
       "last_signal_date": "2026-09-24",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 7.061282240960638,
+      "score": 5.792619481008857,
       "last_signal_date": "2026-09-22",
       "token_name": "Solana"
     },
@@ -33,31 +33,31 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 3.601458221520057,
-      "last_signal_date": "2026-09-25",
+      "score": 4.427490333190884,
+      "last_signal_date": "2026-09-26",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.5006051660782385,
+      "score": 1.1149453535208322,
       "last_signal_date": "2026-09-20",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 2.527023458430006,
+      "score": 2.178225539820207,
       "last_signal_date": "2026-09-23",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": 0.06567228991582622,
+      "score": 0.038094176693889856,
       "last_signal_date": "2026-09-15",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 1.2336039022785925,
+      "score": 0.8301538648543919,
       "last_signal_date": "2026-09-18",
       "token_name": "Avalanche"
     },
@@ -69,19 +69,19 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 1.5227255071784702,
+      "score": 1.2491455710331614,
       "last_signal_date": "2026-09-22",
       "token_name": "ChainLink Token"
     },
     "TON": {
       "symbol": "TON",
-      "score": 0.25,
+      "score": 0.16823752407904452,
       "last_signal_date": "2026-09-18",
       "token_name": "Toncoin"
     },
     "ADA": {
       "symbol": "ADA",
-      "score": 0.21549320531174443,
+      "score": 0.13134457983165243,
       "last_signal_date": "2026-09-16",
       "token_name": "Cardano"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 1.0110200797965818,
+      "score": 0.9621829095388168,
       "last_signal_date": "2026-09-25",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 2.8098179136502077,
+      "score": 2.674090089263314,
       "last_signal_date": "2026-09-25",
       "token_name": "UNI"
     },
@@ -117,7 +117,7 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.9516951530106196,
+      "score": -0.8619728212469777,
       "last_signal_date": "2026-09-24",
       "token_name": "World Liberty Financial"
     },
@@ -129,7 +129,7 @@
     },
     "TRX": {
       "symbol": "TRX",
-      "score": 1.5782025477087491,
+      "score": 1.4294153944614012,
       "last_signal_date": "2026-09-24",
       "token_name": "Tron"
     },
@@ -183,7 +183,7 @@
     },
     "INJ": {
       "symbol": "INJ",
-      "score": 2.474250539550429,
+      "score": 2.2409872649885627,
       "last_signal_date": "2026-09-24",
       "token_name": "Injective"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.5083080606234108,
+      "score": 0.309817233221067,
       "last_signal_date": "2026-09-16",
       "token_name": "Monad"
     },
@@ -219,7 +219,7 @@
     },
     "rsETH": {
       "symbol": "rsETH",
-      "score": -2.0,
+      "score": -1.9033903060212392,
       "last_signal_date": "2026-09-25",
       "token_name": "Kelp DAO Restaked ETH"
     },
