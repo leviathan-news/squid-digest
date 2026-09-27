@@ -1,5 +1,5 @@
 {
-  "cash": 6225.3908075196405,
+  "cash": 5803.2417107391975,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -164,8 +164,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 2.1815771338788323,
-      "entry_price": 580.0437284088803,
+      "quantity": 2.725168846547889,
+      "entry_price": 619.2494213577986,
       "entry_date": "2026-07-16T09:40:41.164284",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -3570,6 +3570,18 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-27T17:45:44.947897",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 0.5435917126690568,
+      "price": 776.5922234312112,
+      "value": 422.14909678044296,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4520,6 +4532,10 @@
     [
       "2026-09-26T17:12:19.801331",
       14623.389330189704
+    ],
+    [
+      "2026-09-27T17:45:44.947897",
+      14698.175558013907
     ]
   ]
 }
