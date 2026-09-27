@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **US freezes $84 million tied to Tether and Bitfinex-linked payments firm Capstone, accused of posing as a tech services company.** [𝕏/@coinbureau](https://leviathannews.xyz/redirect/310924?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jumper plans to spin out of LI.FI as independent company, with Marko as CEO, targeting onchain finance super-app** [𝕏/@PhilippZentner](https://leviathannews.xyz/redirect/311343?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bitcoin proposal adds Zcash-style shielded privacy without changing protocol rules** [Coindesk](https://leviathannews.xyz/redirect/311280?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nillion begins Blacklight node migration from its L2 to Ethereum L1, with operators moving ahead of the Blacklight L1 mainnet launch on October 5** [𝕏/@nillion](https://leviathannews.xyz/redirect/311350?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tempo releases guide on tokenized deposits, bank ledger design and interbank settlement** [𝕏/@tempo](https://leviathannews.xyz/redirect/311282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kamino explains Auto Rollover, letting fixed-rate borrowers renew at the same or lower rate, switch to variable rates, or enter gradual Auto-repay** [𝕏/@kamino](https://leviathannews.xyz/redirect/311485?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anoma launches private tokenized stocks on Anomapay for BNB Chain bStocks** [𝕏/@anoma](https://leviathannews.xyz/redirect/311349?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Researcher outlines a $5T AI roll-up opportunity, arguing agents could transform small businesses by automating workflows and expanding EBITDA margins** [𝕏/@gregisenberg](https://leviathannews.xyz/redirect/311486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Wazz links 53 Robinhood Chain token launches to alleged $18.43M rug pull** [ꘜ/@BenthicNews](https://leviathannews.xyz/redirect/311530?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Live crypto drainer QR code promising 100 USDC found in Warsaw park** [𝕏/@Solana_Emperor](https://leviathannews.xyz/redirect/311482?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/26/signals_2026-09-26.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/26/signals_2026-09-26.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/27/signals_2026-09-27.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/27/signals_2026-09-27.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
