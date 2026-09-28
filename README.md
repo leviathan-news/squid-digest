@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kamino explains Auto Rollover, letting fixed-rate borrowers renew at the same or lower rate, switch to variable rates, or enter gradual Auto-repay** [𝕏/@kamino](https://leviathannews.xyz/redirect/311485?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anoma launches private tokenized stocks on Anomapay for BNB Chain bStocks** [𝕏/@anoma](https://leviathannews.xyz/redirect/311349?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Researcher outlines a $5T AI roll-up opportunity, arguing agents could transform small businesses by automating workflows and expanding EBITDA margins** [𝕏/@gregisenberg](https://leviathannews.xyz/redirect/311486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Wazz links 53 Robinhood Chain token launches to alleged $18.43M rug pull** [ꘜ/@BenthicNews](https://leviathannews.xyz/redirect/311530?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Live crypto drainer QR code promising 100 USDC found in Warsaw park** [𝕏/@Solana_Emperor](https://leviathannews.xyz/redirect/311482?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic introduces Claude Sonnet 5.5, a faster and cheaper upgrade over Sonnet 5 with more than 30% higher speed** [𝕏/@claudeai](https://leviathannews.xyz/redirect/312015?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nansen launches on Claude, bringing smart money and onchain data to users through AI** [𝕏/@nansen_ai](https://leviathannews.xyz/redirect/311704?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether says it helped freeze nearly $550M in Iran-linked USD₮ in 2026 as U.S. authorities expand efforts against sanctions-evasion networks** [𝕏/@tether](https://leviathannews.xyz/redirect/311999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto options remain tiny onchain despite $3T daily U.S. volume, as liquidity, asset coverage and complex UX hold back retail adoption** [𝕏/@domdosu](https://leviathannews.xyz/redirect/311998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CoinMarketCap promotes chief product officer David Salamon to CEO as Rush steps down after five years** [𝕏/@davidsalamon](https://leviathannews.xyz/redirect/311934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/27/signals_2026-09-27.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/27/signals_2026-09-27.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/28/signals_2026-09-28.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/28/signals_2026-09-28.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
