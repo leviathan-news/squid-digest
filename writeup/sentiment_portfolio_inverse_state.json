@@ -1,5 +1,5 @@
 {
-  "cash": -236.4529285794357,
+  "cash": 555.9336713640287,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -185,14 +185,6 @@
       "entry_date": "2026-07-30T15:24:04.368312",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "TON": {
-      "symbol": "TON",
-      "token_name": "Toncoin",
-      "quantity": 332.6722397040772,
-      "entry_price": 1.3318205847075222,
-      "entry_date": "2026-08-10T14:32:39.552071",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
@@ -231,6 +223,14 @@
       "quantity": -969.8020029826719,
       "entry_price": 0.2027334913262988,
       "entry_date": "2026-09-17T17:39:54.471220",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TON": {
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "quantity": -159.68308252763308,
+      "entry_price": 1.609379576424188,
+      "entry_date": "2026-09-28T20:08:08.819759",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2862,6 +2862,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-28T20:08:08.819759",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SELL",
+      "quantity": 332.6722397040772,
+      "price": 1.609379576424188,
+      "value": 535.3959082230336,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 92.33617142438857,
+      "entry_price": 1.3318205847075222
+    },
+    {
+      "date": "2026-09-28T20:08:08.819759",
+      "symbol": "TON",
+      "token_name": "Toncoin",
+      "action": "SHORT",
+      "quantity": 159.68308252763308,
+      "price": 1.609379576424188,
+      "value": 256.9906917204308,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3816,6 +3840,10 @@
     [
       "2026-09-27T17:45:44.947897",
       6656.950101697346
+    ],
+    [
+      "2026-09-28T20:08:08.819759",
+      6929.29770549037
     ]
   ]
 }
