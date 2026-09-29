@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Anthropic introduces Claude Sonnet 5.5, a faster and cheaper upgrade over Sonnet 5 with more than 30% higher speed** [𝕏/@claudeai](https://leviathannews.xyz/redirect/312015?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nansen launches on Claude, bringing smart money and onchain data to users through AI** [𝕏/@nansen_ai](https://leviathannews.xyz/redirect/311704?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether says it helped freeze nearly $550M in Iran-linked USD₮ in 2026 as U.S. authorities expand efforts against sanctions-evasion networks** [𝕏/@tether](https://leviathannews.xyz/redirect/311999?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto options remain tiny onchain despite $3T daily U.S. volume, as liquidity, asset coverage and complex UX hold back retail adoption** [𝕏/@domdosu](https://leviathannews.xyz/redirect/311998?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CoinMarketCap promotes chief product officer David Salamon to CEO as Rush steps down after five years** [𝕏/@davidsalamon](https://leviathannews.xyz/redirect/311934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Telegram wallet rebrands as Walt, expanding beyond a simple Toncoin wallet to a full crypto platform** [𝕏/@walt_io](https://leviathannews.xyz/redirect/312039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **StuckFunds helps wallets recover crypto left unclaimed after bridging across 84 bridges on over 500k wallets** [𝕏/@Moudinho3](https://leviathannews.xyz/redirect/312200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic's leaked IPO prospectus shows $42B net loss and $518B in planned infrastructure spending** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/312122?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI outlines its approach to securing frontier reinforcement learning training runs** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/312195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Relay refunds $312K to 5,600 users after API flaw exposed pending trades to MEV sandwich attacks** [𝕏/@_jasonmaier](https://leviathannews.xyz/redirect/312176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/28/signals_2026-09-28.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/28/signals_2026-09-28.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/29/signals_2026-09-29.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/29/signals_2026-09-29.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
