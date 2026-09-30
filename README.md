@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Telegram wallet rebrands as Walt, expanding beyond a simple Toncoin wallet to a full crypto platform** [𝕏/@walt_io](https://leviathannews.xyz/redirect/312039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **StuckFunds helps wallets recover crypto left unclaimed after bridging across 84 bridges on over 500k wallets** [𝕏/@Moudinho3](https://leviathannews.xyz/redirect/312200?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic's leaked IPO prospectus shows $42B net loss and $518B in planned infrastructure spending** [𝕏/@zerohedge](https://leviathannews.xyz/redirect/312122?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI outlines its approach to securing frontier reinforcement learning training runs** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/312195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Relay refunds $312K to 5,600 users after API flaw exposed pending trades to MEV sandwich attacks** [𝕏/@_jasonmaier](https://leviathannews.xyz/redirect/312176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DPRK-linked attackers move $3.8M of Bitget exploit funds into ZEC shielded Ironwood pool** [ꘜ/@investigations](https://leviathannews.xyz/redirect/312828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI's GPT-6.1 Sol matches Astra-level performance at one-fifth the price, with a new 300 tokens-per-second tier** [𝕏/@VentureBeat](https://leviathannews.xyz/redirect/312570?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SlowMist links Bitget hot wallet theft to zero-day exploit and fake withdrawal tool** [𝕏/@SlowMist_Team](https://leviathannews.xyz/redirect/312764?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK opens FCA crypto authorisation gateway, with applications due by February 2027** [fca.org.uk](https://leviathannews.xyz/redirect/312817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid-based perpetuals exchange papertrade.xyz sets October 10, 2026 launch date** [𝕏/@papertrade_xyz](https://leviathannews.xyz/redirect/312639?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/29/signals_2026-09-29.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/29/signals_2026-09-29.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/30/signals_2026-09-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/30/signals_2026-09-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
