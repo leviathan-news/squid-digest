@@ -1,5 +1,5 @@
 {
-  "cash": 2267.2633277081713,
+  "cash": 2513.869033539279,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -228,8 +228,8 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": -2.3960767923930693,
-      "entry_price": 167.05455929043669,
+      "quantity": -3.949256979600529,
+      "entry_price": 163.7982186906985,
       "entry_date": "2026-09-29T18:39:21.222269",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -2922,6 +2922,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-09-30T18:27:42.723800",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "SHORT",
+      "quantity": 1.5531801872074595,
+      "price": 158.77469199146316,
+      "value": 246.60570583110746,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3884,6 +3896,10 @@
     [
       "2026-09-29T18:39:21.222269",
       8306.14232447887
+    ],
+    [
+      "2026-09-30T18:27:42.723800",
+      7834.188774332326
     ]
   ]
 }
