@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DPRK-linked attackers move $3.8M of Bitget exploit funds into ZEC shielded Ironwood pool** [ꘜ/@investigations](https://leviathannews.xyz/redirect/312828?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI's GPT-6.1 Sol matches Astra-level performance at one-fifth the price, with a new 300 tokens-per-second tier** [𝕏/@VentureBeat](https://leviathannews.xyz/redirect/312570?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SlowMist links Bitget hot wallet theft to zero-day exploit and fake withdrawal tool** [𝕏/@SlowMist_Team](https://leviathannews.xyz/redirect/312764?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK opens FCA crypto authorisation gateway, with applications due by February 2027** [fca.org.uk](https://leviathannews.xyz/redirect/312817?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid-based perpetuals exchange papertrade.xyz sets October 10, 2026 launch date** [𝕏/@papertrade_xyz](https://leviathannews.xyz/redirect/312639?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood Wallet adds Arcus RFQ system for swaps across 190+ tokenized stocks** [The Block](https://leviathannews.xyz/redirect/313484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Judge dismisses $LIBRA and $M3M3 class action with prejudice, rejecting RICO claims** [𝕏/@GivnerAriel](https://leviathannews.xyz/redirect/313416?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Titan launches testnet on Canton Network with private orderbooks and early mainnet waitlist access** [𝕏/@TitanExchange_](https://leviathannews.xyz/redirect/313599?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid policy group urges EU to classify perpetual futures under MiFID II, not MiCA** [𝕏/@HyperliquidPC](https://leviathannews.xyz/redirect/313486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SBI Holdings completes Bitbank takeover, making the Japanese crypto exchange a wholly owned subsidiary** [crypto.news](https://leviathannews.xyz/redirect/313487?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/09/30/signals_2026-09-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/09/30/signals_2026-09-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/01/signals_2026-10-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/01/signals_2026-10-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
