@@ -104,7 +104,7 @@ class ArticleReviewer:
         # Check for required sections
         has_top_stories = '## 🔥 Top Stories' in content or 'Top Stories' in content
         has_signals = '## 🎯 Trading Signals' in content
-        has_backtest = '## 📈 Backtest Results' in content or 'Backtest Results' in content
+        has_backtest = 'Sentiment Portfolio' in content or 'Backtest Results' in content
         
         # Check if signals section has content
         signals = self.signal_parser.parse_file(filepath)
