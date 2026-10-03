@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Robinhood Wallet adds Arcus RFQ system for swaps across 190+ tokenized stocks** [The Block](https://leviathannews.xyz/redirect/313484?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Judge dismisses $LIBRA and $M3M3 class action with prejudice, rejecting RICO claims** [𝕏/@GivnerAriel](https://leviathannews.xyz/redirect/313416?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Titan launches testnet on Canton Network with private orderbooks and early mainnet waitlist access** [𝕏/@TitanExchange_](https://leviathannews.xyz/redirect/313599?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyperliquid policy group urges EU to classify perpetual futures under MiFID II, not MiCA** [𝕏/@HyperliquidPC](https://leviathannews.xyz/redirect/313486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SBI Holdings completes Bitbank takeover, making the Japanese crypto exchange a wholly owned subsidiary** [crypto.news](https://leviathannews.xyz/redirect/313487?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase secures ADGM licence to arrange and custody tokenised securities, establishing UAE hub for blockchain-based equity markets** [Thefintechtimes](https://leviathannews.xyz/redirect/314301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Entropy.io launches first affiliate badges for active community members. CEO Kintsugi announced the hand-picked rewards, which recognize contributions like timely updates and audience growth.** [𝕏/@entropymarkets](https://leviathannews.xyz/redirect/314195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenWorld announces proposed acquisition of Blocksight, advancing agentic tokenization infrastructure for its real-world assets platform.** [Businesswire](https://leviathannews.xyz/redirect/314251?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI CEO addresses speculation over Cerebras partnership, calling the AI chipmaker a close partner in pushing the frontiers of speed** [𝕏/@sama](https://leviathannews.xyz/redirect/314287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ripple and XRPL Foundation launch XRP Asia in Singapore to expand developer, startup and community support across Asia-Pacific** [𝕏/@XRPAsiaOfficial](https://leviathannews.xyz/redirect/314288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/01/signals_2026-10-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/01/signals_2026-10-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/03/signals_2026-10-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/03/signals_2026-10-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
