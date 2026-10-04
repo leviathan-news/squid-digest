@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Coinbase secures ADGM licence to arrange and custody tokenised securities, establishing UAE hub for blockchain-based equity markets** [Thefintechtimes](https://leviathannews.xyz/redirect/314301?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Entropy.io launches first affiliate badges for active community members. CEO Kintsugi announced the hand-picked rewards, which recognize contributions like timely updates and audience growth.** [𝕏/@entropymarkets](https://leviathannews.xyz/redirect/314195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenWorld announces proposed acquisition of Blocksight, advancing agentic tokenization infrastructure for its real-world assets platform.** [Businesswire](https://leviathannews.xyz/redirect/314251?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI CEO addresses speculation over Cerebras partnership, calling the AI chipmaker a close partner in pushing the frontiers of speed** [𝕏/@sama](https://leviathannews.xyz/redirect/314287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ripple and XRPL Foundation launch XRP Asia in Singapore to expand developer, startup and community support across Asia-Pacific** [𝕏/@XRPAsiaOfficial](https://leviathannews.xyz/redirect/314288?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockaid reports ongoing exploit on unnamed Base vault, over $6M drained via whitelisted contract** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/314460?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Japan adds crypto exchange Garantex to its Russia sanctions list, freezing assets and restricting payments involving the sanctioned entities** [Coinfomania](https://leviathannews.xyz/redirect/314463?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **THORChain begins soft launch of ZEC, warning shallow liquidity may cause higher slippage on larger trades** [𝕏/@THORChain](https://leviathannews.xyz/redirect/314438?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Russia’s Finance Ministry pays employee wages in digital rubles for the first time, expanding CBDC use into government payroll operations** [CoinTelegraph](https://leviathannews.xyz/redirect/314447?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions** [Coindesk](https://leviathannews.xyz/redirect/314448?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/03/signals_2026-10-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/03/signals_2026-10-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/04/signals_2026-10-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/04/signals_2026-10-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
