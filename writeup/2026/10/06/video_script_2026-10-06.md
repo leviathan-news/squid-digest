@@ -1,0 +1,4 @@
+# 🎙️ SQUID Digest — Video Script — October 06, 2026
+> Draft — read time ≈ 1 min
+
+GM Fam, and welcome to SQUID Digest. First up, the crypto super PAC Fairshake says it will back 19 House Republicans and 13 Democrats, but it's skipping pro-crypto swing-seat Democrats. Critics say that bipartisan shine is starting to wear off. Next, Hadrian raises 40 million dollars to tackle the AI hacking cybersecurity crisis, because apparently the robots need bodyguards too. Meanwhile, Grayscale files an 8-K with the SEC for a Hyperliquid staking ETF, another step in the great staking-ification of everything. In other news, Category Labs unveils Monad private settlement for confidential institutional transactions, giving the big money a quieter lane to move. And finally, Polymarket unveils Protocol V2, rebuilding its smart contract foundation from the ground up. New rails, same degen energy. And that's all the news that's fit to ink. Squids, we'll see you on the next tide.
