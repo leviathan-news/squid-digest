@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Blockaid reports ongoing exploit on unnamed Base vault, over $6M drained via whitelisted contract** [𝕏/@blockaid_](https://leviathannews.xyz/redirect/314460?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Japan adds crypto exchange Garantex to its Russia sanctions list, freezing assets and restricting payments involving the sanctioned entities** [Coinfomania](https://leviathannews.xyz/redirect/314463?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **THORChain begins soft launch of ZEC, warning shallow liquidity may cause higher slippage on larger trades** [𝕏/@THORChain](https://leviathannews.xyz/redirect/314438?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Russia’s Finance Ministry pays employee wages in digital rubles for the first time, expanding CBDC use into government payroll operations** [CoinTelegraph](https://leviathannews.xyz/redirect/314447?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions** [Coindesk](https://leviathannews.xyz/redirect/314448?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto super PAC Fairshake will back 19 House Republicans and 13 Democrats, skipping pro-crypto swing-seat Democrats. Critics say its bipartisan image is slipping.** [Semafor](https://leviathannews.xyz/redirect/315186?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hadrian raises $40M to tackle the AI hacking cyber security crisis.** [tech.eu](https://leviathannews.xyz/redirect/315183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grayscale files 8-K with SEC for Hyperliquid staking ETF** [sec.gov](https://leviathannews.xyz/redirect/314916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Category Labs unveils Monad private settlement for confidential institutional transactions** [𝕏/@monad](https://leviathannews.xyz/redirect/315021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Polymarket unveils Protocol V2, rebuilding its smart contract foundation** [𝕏/@0xrajath](https://leviathannews.xyz/redirect/315022?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/04/signals_2026-10-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/04/signals_2026-10-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/06/signals_2026-10-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/06/signals_2026-10-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
