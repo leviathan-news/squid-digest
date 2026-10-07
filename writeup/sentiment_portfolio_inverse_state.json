@@ -1,5 +1,5 @@
 {
-  "cash": 2742.710247703838,
+  "cash": 1461.1289867288092,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -92,8 +92,8 @@
     "rsETH": {
       "symbol": "rsETH",
       "token_name": "Kelp DAO Restaked ETH",
-      "quantity": 1.2269200977339336,
-      "entry_price": 2062.5537262280773,
+      "quantity": 1.8045304729505678,
+      "entry_price": 2287.0709278818767,
       "entry_date": "2026-04-19T13:58:00.589260",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -231,6 +231,14 @@
       "quantity": -3.949256979600529,
       "entry_price": 163.7982186906985,
       "entry_date": "2026-09-29T18:39:21.222269",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "AERO": {
+      "symbol": "AERO",
+      "token_name": "Aerodrome Finance",
+      "quantity": -396.78448193031113,
+      "entry_price": 0.7936784757555542,
+      "entry_date": "2026-10-07T19:21:51.327190",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -2946,6 +2954,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-10-07T19:21:51.327190",
+      "symbol": "rsETH",
+      "token_name": "Kelp DAO Restaked ETH",
+      "action": "BUY",
+      "quantity": 0.5776103752166343,
+      "price": 2763.9748735437165,
+      "value": 1596.5005637969352,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-10-07T19:21:51.327190",
+      "symbol": "AERO",
+      "token_name": "Aerodrome Finance",
+      "action": "SHORT",
+      "quantity": 396.78448193031113,
+      "price": 0.7936784757555542,
+      "value": 314.91930282190657,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3928,6 +3960,10 @@
     [
       "2026-10-06T18:55:49.414030",
       7954.752522450242
+    ],
+    [
+      "2026-10-07T19:21:51.327190",
+      8312.794809632212
     ]
   ]
 }
