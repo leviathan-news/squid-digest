@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Crypto super PAC Fairshake will back 19 House Republicans and 13 Democrats, skipping pro-crypto swing-seat Democrats. Critics say its bipartisan image is slipping.** [Semafor](https://leviathannews.xyz/redirect/315186?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hadrian raises $40M to tackle the AI hacking cyber security crisis.** [tech.eu](https://leviathannews.xyz/redirect/315183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Grayscale files 8-K with SEC for Hyperliquid staking ETF** [sec.gov](https://leviathannews.xyz/redirect/314916?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Category Labs unveils Monad private settlement for confidential institutional transactions** [𝕏/@monad](https://leviathannews.xyz/redirect/315021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Polymarket unveils Protocol V2, rebuilding its smart contract foundation** [𝕏/@0xrajath](https://leviathannews.xyz/redirect/315022?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Frax Finance plans to migrate frxETH and FRAX protocol-owned liquidity to Aero at launch** [𝕏/@fraxfinance](https://leviathannews.xyz/redirect/315977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Justin Drake on X urges crypto "bunker mode", warning AI could break ECDSA within months. Holders should calmly move funds to fresh addresses and adopt hash-based cryptography.** [𝕏/@drakefjustin](https://leviathannews.xyz/redirect/315896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **GSR launches Hare with Turtle to curate onchain finance vaults, backed by Aave, Paxos, Chainlink** [𝕏/@hare_xyz](https://leviathannews.xyz/redirect/315827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Texas has frozen new data centre permits after ERCOT's queue hit 474 GW, over five times record peak demand. Speculative projects, local concerns and grid limits are behind the pause.** [𝕏/@rmcentush](https://leviathannews.xyz/redirect/315880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Morgan Stanley files 8-K with SEC for new Ethereum Trust** [sec.gov](https://leviathannews.xyz/redirect/315716?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/06/signals_2026-10-06.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/06/signals_2026-10-06.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/07/signals_2026-10-07.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/07/signals_2026-10-07.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
