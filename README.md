@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Frax Finance plans to migrate frxETH and FRAX protocol-owned liquidity to Aero at launch** [𝕏/@fraxfinance](https://leviathannews.xyz/redirect/315977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Justin Drake on X urges crypto "bunker mode", warning AI could break ECDSA within months. Holders should calmly move funds to fresh addresses and adopt hash-based cryptography.** [𝕏/@drakefjustin](https://leviathannews.xyz/redirect/315896?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **GSR launches Hare with Turtle to curate onchain finance vaults, backed by Aave, Paxos, Chainlink** [𝕏/@hare_xyz](https://leviathannews.xyz/redirect/315827?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Texas has frozen new data centre permits after ERCOT's queue hit 474 GW, over five times record peak demand. Speculative projects, local concerns and grid limits are behind the pause.** [𝕏/@rmcentush](https://leviathannews.xyz/redirect/315880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Morgan Stanley files 8-K with SEC for new Ethereum Trust** [sec.gov](https://leviathannews.xyz/redirect/315716?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Based Visa Card discloses security breach exposing KYC data of some cardholders, while funds and card credentials remain safe** [𝕏/@BasedOneX](https://leviathannews.xyz/redirect/316369?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **ESMA orders EU crypto firms to stop supporting non-MiCA-compliant stablecoins** [esma.europa.eu](https://leviathannews.xyz/redirect/316350?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cointelegraph seeks buyer after web traffic plunges, putting the crypto media company up for sale** [Coindesk](https://leviathannews.xyz/redirect/316151?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase to launch spot margin with unified portfolio for spot and derivatives positions** [𝕏/@coinbase](https://leviathannews.xyz/redirect/316156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin warns AI-driven math could threaten lattice cryptography and urges larger security parameters** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/316157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/07/signals_2026-10-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/07/signals_2026-10-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/08/signals_2026-10-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/08/signals_2026-10-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
