@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Based Visa Card discloses security breach exposing KYC data of some cardholders, while funds and card credentials remain safe** [𝕏/@BasedOneX](https://leviathannews.xyz/redirect/316369?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **ESMA orders EU crypto firms to stop supporting non-MiCA-compliant stablecoins** [esma.europa.eu](https://leviathannews.xyz/redirect/316350?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cointelegraph seeks buyer after web traffic plunges, putting the crypto media company up for sale** [Coindesk](https://leviathannews.xyz/redirect/316151?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase to launch spot margin with unified portfolio for spot and derivatives positions** [𝕏/@coinbase](https://leviathannews.xyz/redirect/316156?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin warns AI-driven math could threaten lattice cryptography and urges larger security parameters** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/316157?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **October SQUID Drop (covering September) Discussion Thread** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/316629?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Citrini Research: tokenized assets and AI agents may finally give blockchain a real use case** [Citriniresearch](https://leviathannews.xyz/redirect/316627?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK sanctions three crypto exchanges over alleged ties to Russia's A7 ruble stablecoin network** [Coindesk](https://leviathannews.xyz/redirect/316932?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jito urges validators to run v4.3.0-jito.0 as Alpenglow mainnet activation nears in mid-October** [𝕏/@jito](https://leviathannews.xyz/redirect/317083?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zcash developers target January for quantum-resistant payments, focusing on public transactions** [Coindesk](https://leviathannews.xyz/redirect/316935?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/08/signals_2026-10-08.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/08/signals_2026-10-08.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/09/signals_2026-10-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/09/signals_2026-10-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
