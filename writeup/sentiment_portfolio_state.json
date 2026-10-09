@@ -1,5 +1,5 @@
 {
-  "cash": -5307.046201290395,
+  "cash": -933.8317621329229,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -55,14 +55,6 @@
       "quantity": 181.22772022334345,
       "entry_price": 8.74593914044927,
       "entry_date": "2026-03-01T13:35:42.340123",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "TRX": {
-      "symbol": "TRX",
-      "token_name": "Tron",
-      "quantity": 4676.352582684363,
-      "entry_price": 0.3085835310415881,
-      "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_LONG"
     },
     "wstETH": {
@@ -248,6 +240,14 @@
       "entry_price": 1.609379576424188,
       "entry_date": "2026-09-28T20:08:08.819759",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": -8507.626520039024,
+      "entry_price": 0.33170671806162877,
+      "entry_date": "2026-10-09T18:49:47.325825",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3610,6 +3610,30 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": -2466.624627958363,
       "entry_price": 98.1543255717883
+    },
+    {
+      "date": "2026-10-09T18:49:47.325825",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SELL",
+      "quantity": 4676.352582684363,
+      "price": 0.33170671806162877,
+      "value": 1551.1775677012517,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 108.13217534106093,
+      "entry_price": 0.3085835310415881
+    },
+    {
+      "date": "2026-10-09T18:49:47.325825",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "SHORT",
+      "quantity": 8507.626520039024,
+      "price": 0.33170671806162877,
+      "value": 2822.0368714562205,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4600,6 +4624,10 @@
     [
       "2026-10-08T19:17:34.970898",
       9646.333222386938
+    ],
+    [
+      "2026-10-09T18:49:47.325825",
+      9879.770009154714
     ]
   ]
 }

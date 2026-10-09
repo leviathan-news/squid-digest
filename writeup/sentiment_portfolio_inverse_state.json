@@ -1,5 +1,5 @@
 {
-  "cash": 1461.1289867288092,
+  "cash": 0.0,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -55,14 +55,6 @@
       "quantity": -75.84678178906766,
       "entry_price": 8.812883971585807,
       "entry_date": "2026-03-01T13:35:42.340123",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "TRX": {
-      "symbol": "TRX",
-      "token_name": "Tron",
-      "quantity": -3087.3157562737733,
-      "entry_price": 0.29308334170867967,
-      "entry_date": "2026-03-05T13:59:01.839079",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "SQUID": {
@@ -240,6 +232,14 @@
       "entry_price": 0.7936784757555542,
       "entry_date": "2026-10-07T19:21:51.327190",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "TRX": {
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "quantity": 1317.566349422204,
+      "entry_price": 0.33170671806162877,
+      "entry_date": "2026-10-09T18:49:47.325825",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -2978,6 +2978,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-10-09T18:49:47.325825",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "COVER",
+      "quantity": 3087.3157562737733,
+      "price": 0.33170671806162877,
+      "value": 1024.0833771335288,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -119.24255837495161,
+      "entry_price": 0.29308334170867967
+    },
+    {
+      "date": "2026-10-09T18:49:47.325825",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 1317.566349422204,
+      "price": 0.33170671806162877,
+      "value": 437.04560959528044,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -3968,6 +3992,10 @@
     [
       "2026-10-08T19:17:34.970898",
       7503.323223279729
+    ],
+    [
+      "2026-10-09T18:49:47.325825",
+      7395.023415131062
     ]
   ]
 }
