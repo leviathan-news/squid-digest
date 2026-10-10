@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **October SQUID Drop (covering September) Discussion Thread** [digest.leviathannews.xyz](https://leviathannews.xyz/redirect/316629?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Citrini Research: tokenized assets and AI agents may finally give blockchain a real use case** [Citriniresearch](https://leviathannews.xyz/redirect/316627?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK sanctions three crypto exchanges over alleged ties to Russia's A7 ruble stablecoin network** [Coindesk](https://leviathannews.xyz/redirect/316932?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Jito urges validators to run v4.3.0-jito.0 as Alpenglow mainnet activation nears in mid-October** [𝕏/@jito](https://leviathannews.xyz/redirect/317083?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zcash developers target January for quantum-resistant payments, focusing on public transactions** [Coindesk](https://leviathannews.xyz/redirect/316935?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC proposes classifying prediction market event contracts as swaps, escalating its jurisdictional battle with U.S. states** [cftc.gov](https://leviathannews.xyz/redirect/317204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **XRP Ledger patched a decade-old bug that could have created billions of XRP from nothing** [Coindesk](https://leviathannews.xyz/redirect/317206?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DTCC and Chainlink detail 24/7 collateral plan, Collateral AppChain launch set for Q1 2027** [𝕏/@chainlink](https://leviathannews.xyz/redirect/317224?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nvidia-backed AI data center firm Firmus withdraws planned $5B IPO, citing market volatility and inadequate valuation terms** [CNBC](https://leviathannews.xyz/redirect/317208?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Evernorth completes SPAC merger with Armada II, holds 473 million XRP ahead of Nasdaq debut** [Prnewswire](https://leviathannews.xyz/redirect/317209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/09/signals_2026-10-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/09/signals_2026-10-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/10/signals_2026-10-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/10/signals_2026-10-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
