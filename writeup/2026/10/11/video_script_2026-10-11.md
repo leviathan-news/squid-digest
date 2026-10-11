@@ -1,0 +1,4 @@
+# 🎙️ SQUID Digest — Video Script — October 11, 2026
+> Draft — read time ≈ 1 min
+
+GM Fam, and welcome to SQUID Digest. First up, Ledger confirms an unauthorized hardware implant in one user's device and halts reseller sales. Not the kind of hardware wallet update anyone asked for. Next, France's committee backs a stablecoin conversion tax and a crypto exit tax starting in 2027. Apparently the only thing leaving France faster than a tax exile is your unrealized gains. Meanwhile, CZ Binance shares a condensed guide on crypto self-custody and inheritance planning. Because nothing says family love like a seed phrase your heirs can actually find. Also on the board, Kalshi is investigating bets on Trump's press secretary pick placed before the announcement. Somebody clearly had a hot tip and a cold wallet. And finally, that's your morning dose of chaos, calm, and questionable timing. And that's all the news that's fit to ink. Squids, we'll see you on the next tide.
