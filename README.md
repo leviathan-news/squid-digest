@@ -11,15 +11,14 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **CFTC proposes classifying prediction market event contracts as swaps, escalating its jurisdictional battle with U.S. states** [cftc.gov](https://leviathannews.xyz/redirect/317204?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **XRP Ledger patched a decade-old bug that could have created billions of XRP from nothing** [Coindesk](https://leviathannews.xyz/redirect/317206?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DTCC and Chainlink detail 24/7 collateral plan, Collateral AppChain launch set for Q1 2027** [𝕏/@chainlink](https://leviathannews.xyz/redirect/317224?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nvidia-backed AI data center firm Firmus withdraws planned $5B IPO, citing market volatility and inadequate valuation terms** [CNBC](https://leviathannews.xyz/redirect/317208?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Evernorth completes SPAC merger with Armada II, holds 473 million XRP ahead of Nasdaq debut** [Prnewswire](https://leviathannews.xyz/redirect/317209?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ledger confirms unauthorized hardware implant in one user's device, halts reseller sales** [𝕏/@Ledger_Support](https://leviathannews.xyz/redirect/317292?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **France committee backs stablecoin conversion tax and crypto exit tax from 2027** [Financefeeds](https://leviathannews.xyz/redirect/317293?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CZ Binance shares condensed guide on crypto self-custody and inheritance planning** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/317304?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi investigates bets on Trump's press secretary pick placed before announcement** [The Block](https://leviathannews.xyz/redirect/317303?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/10/signals_2026-10-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/10/signals_2026-10-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/11/signals_2026-10-11.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/11/signals_2026-10-11.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
