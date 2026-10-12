@@ -11,14 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Ledger confirms unauthorized hardware implant in one user's device, halts reseller sales** [𝕏/@Ledger_Support](https://leviathannews.xyz/redirect/317292?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **France committee backs stablecoin conversion tax and crypto exit tax from 2027** [Financefeeds](https://leviathannews.xyz/redirect/317293?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CZ Binance shares condensed guide on crypto self-custody and inheritance planning** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/317304?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi investigates bets on Trump's press secretary pick placed before announcement** [The Block](https://leviathannews.xyz/redirect/317303?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meta launches Muse Wonder AI models for agentic tasks in law, finance, and health** [about.fb](https://leviathannews.xyz/redirect/317776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **The FSB warns global stablecoins cross borders and sectors, so no single country can manage their risks alone. Its new note maps how risks spread and what data regulators need to monitor them.** [fsb.org](https://leviathannews.xyz/redirect/317541?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **IMF warns 40% of jobs worldwide will be augmented, downgraded or eliminated by AI, with graduates hit first. Leaders urge permanent crisis-era support and incentives to hire young people.** [CNBC](https://leviathannews.xyz/redirect/317533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mike Ippolito, back from Token2049 and KBW: crypto has changed. Institutions now lead, as retail and altcoins fade, and KBW was 60–70% institutional. Stablecoins, exchange consolidation and RWAs drive growth.** [𝕏/@mikeippolito_](https://leviathannews.xyz/redirect/317492?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **3iQ's UAE sister company receives in-principal approval for Category 4 license from Abu Dhabi's ADGM** [Prnewswire](https://leviathannews.xyz/redirect/317489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/11/signals_2026-10-11.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/11/signals_2026-10-11.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/12/signals_2026-10-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/12/signals_2026-10-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
