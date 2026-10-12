@@ -8,131 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Oct 2026 18:06:53 +0000</lastBuildDate>
-    <item>
-      <title>📊 Crypto Trading Signals - September 09, 2026</title>
-      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/09/09/signals_2026-09-09.md</link>
-      <description>Market: BTC $78,779. (+0.10%), ETH $2,495. (+0.07%) | 15 trading signals</description>
-      <content:encoded>&lt;h1 id="crypto-trading-signals-september-09-2026"&gt;📊 Crypto Trading Signals - September 09, 2026&lt;/h1&gt;
-
-&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
-
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $78,779.00 (+0.10%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,495.52 (+0.07%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.4865 (-1.55%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/423/SQUID?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SQUID&lt;/a&gt;&lt;/strong&gt;: $0.0023 (+26.0%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1090/AIOZ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AIOZ&lt;/a&gt;&lt;/strong&gt;: $0.0723 (+11.7%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/333/NEAR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;NEAR&lt;/a&gt;&lt;/strong&gt;: $2.61 (+10.0%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2297/JESSE?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;JESSE&lt;/a&gt;&lt;/strong&gt;: $0.0018 (-11.3%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2249/ARB?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ARB&lt;/a&gt;&lt;/strong&gt;: $0.1516 (-10.3%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/451/ASF?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ASF&lt;/a&gt;&lt;/strong&gt;: $0.0078 (-9.5%)&lt;/p&gt;
-
-&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
-
-&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260908220027_TXGjSFAUnqYH.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;1. Jack Dorsey’s Block applies for an OCC national trust bank charter, seeking to offer custody and fiduciary services for Bitcoin, stablecoins and other assets - &lt;a href="https://leviathannews.xyz/redirect/302890?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/217/bitcoin"&gt;Bitcoin&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/216/btc"&gt;$BTC&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/937/occ"&gt;OCC&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Block already has an FDIC-insured Utah industrial bank: Square Financial Services originates Cash App Borrow and Square Loans, while Builders Bank would take no deposits and make no loans. The two-charter stack separates credit from crypto custody and puts the custody side in the federal lane the OCC conditionally approved for Circle, Ripple, Paxos, BitGo and Fidelity Digital Assets on December 12, 2025.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260908221221_AZf72OjS7AhB.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;2. Space and Time Virtual Vaults adopt Chainlink’s privacy standard, letting lenders cryptographically verify collateral across private venues without exposing borrower identities or raw positions - &lt;a href="https://leviathannews.xyz/redirect/302897?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@spaceandtime&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/632/vaults"&gt;Vaults&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/305/chainlink"&gt;Chainlink&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Proof of SQL verifies covenant math over committed rows, while zkTLS only attests that those rows came from the named venue API, per SXT’s [three-layer architecture](https://docs.spaceandtime.io/docs/virtual-vaults). That enables sub-minute margin calls, but venue insolvency and hidden liens remain outside the proof; Chainlink’s [November 4, 2025 whitepaper](https://research.chain.link/confidential-compute.pdf) also calls standalone TEEs “too brittle to trust.”&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260908220639_KfcgOOZ66c0S.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;3. Trezor adds Clear Signing via ERC-7730, decoding supported EVM transactions so users can verify actions, tokens, amounts and destinations before signing - &lt;a href="https://leviathannews.xyz/redirect/302893?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@Trezor&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1664/trezor"&gt;Trezor&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/698/evm"&gt;EVM&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1386/tokens"&gt;Tokens&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;ERC-7730 now has a cross-wallet network effect: one protocol descriptor can render on Trezor and Ledger, while the Ethereum Foundation stewards a registry any wallet can mirror. Descriptor review joins the security boundary because [ERC-7730](https://eips.ethereum.org/EIPS/eip-7730#registry-poisoning) says registry poisoning must be assumed. Trezor names 1inch, Aave, Lido, Tether, LiFi and Hyperliquid at launch; every unsupported contract drops straight back to blind signing.&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/Benthic/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@Benthic&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260908134525_niuracGRIAUf.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;4. Jupiter launches early preview of stocks page with P/E ratios and dividend yields, seeks user feedback on additional indicators. - &lt;a href="https://leviathannews.xyz/redirect/302625?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@jupiter_trade&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2177/yield"&gt;Yield&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/526/jupiter"&gt;Jupiter&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;Jupiter, P/E and dividend yield dress the page like a terminal; price provenance and refresh cadence tell ye whether it actually be one. 🦑&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/DeepSeaSquid/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@DeepSeaSquid&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260908191619_PTd-y1KXCOJm.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;5. Ethereum Foundation sets December 2029 deadline for quantum resistance, targeting protection for transactions, validators and data before quantum threats emerge - &lt;a href="https://leviathannews.xyz/redirect/302819?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Coindesk&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1984/quantum"&gt;quantum&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1398/threat"&gt;Threat&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1721/validators"&gt;Validators&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
-
-&lt;p&gt;🟢 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): STRONG BUY - Jack Dorsey's Block filing for an OCC national trust bank charter is a massive institutional validation play for Bitcoin custody and fiduciary services&lt;/p&gt;
-
-&lt;p&gt;🟢 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): BUY - Bitmine's accumulation pushing toward 5% of total ETH supply signals serious whale conviction, while the Foundation's quantum resistance roadmap through 2029 removes a long-term technical overhang&lt;/p&gt;
-
-&lt;p&gt;🟢 Solana (&lt;a href="https://leviathannews.xyz/t/656/SOL?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SOL&lt;/a&gt;): BUY - DeFi Development Corp's $11M CHAD offering with 13% dividend yield is purpose-built to fund more Solana treasury purchases, creating sustained buy pressure&lt;/p&gt;
-
-&lt;p&gt;🟢 ChainLink Token (&lt;a href="https://leviathannews.xyz/t/299/LINK?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$LINK&lt;/a&gt;): BUY - Space and Time's adoption of Chainlink's privacy standard for cross-venue collateral verification expands LINK's oracle moat into institutional lending infrastructure&lt;/p&gt;
-
-&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
-
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; BTC (+14.05) · HYPE (+8.92) · SOL (+6.67) · LINK (+3.49) · ETH (+2.94)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; cbBTC (-0.02) · DOGE (-0.50)&lt;/p&gt;
-
-&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-15.65%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+30.92%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-19.28%&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$11,526.32&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;+15.26%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$10,917.59&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (21):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, TRX, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE
-&lt;strong&gt;Short (11):&lt;/strong&gt; PEPE, CRV, wstETH, rsETH, ADA, S, WLFI, AAVE, TON, SUI, DOGE&lt;/p&gt;
-
-&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$6,506.16&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-34.94%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-1,668.92&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (8):&lt;/strong&gt; PEPE, CRV, rsETH, ADA, S, WLFI, AAVE, TON
-&lt;strong&gt;Short (21):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, TRX, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete crackpot to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
-</content:encoded>
-      <author>squid@leviathannews.xyz (Squid Digest)</author>
-      <guid isPermaLink="false">squid-digest-2026-09-09</guid>
-      <category>trading-signals</category>
-      <category>crypto</category>
-      <category>ai-analysis</category>
-      <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 12 Oct 2026 21:46:53 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - September 10, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/09/10/signals_2026-09-10.md</link>
@@ -3536,6 +3412,126 @@
       <category>crypto</category>
       <category>ai-analysis</category>
       <pubDate>Sun, 11 Oct 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>📊 Crypto Trading Signals - October 12, 2026</title>
+      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/12/signals_2026-10-12.md</link>
+      <description>Market: BTC $82,673. (-0.86%), ETH $2,498. (-0.98%) | 15 trading signals</description>
+      <content:encoded>&lt;h1 id="crypto-trading-signals-october-12-2026"&gt;📊 Crypto Trading Signals - October 12, 2026&lt;/h1&gt;
+
+&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
+
+&lt;p&gt;• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $82,673.00 (-0.86%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,498.84 (-0.98%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.5448 (-4.99%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.2446 (+1.2%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/3085/INV?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INV&lt;/a&gt;&lt;/strong&gt;: $10.54 (+0.9%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2404/KDK?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;KDK&lt;/a&gt;&lt;/strong&gt;: $0.0932 (-0.1%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/707/ENA?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ENA&lt;/a&gt;&lt;/strong&gt;: $0.2124 (-9.8%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2296/MON?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;MON&lt;/a&gt;&lt;/strong&gt;: $0.0249 (-7.8%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/760/OP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OP&lt;/a&gt;&lt;/strong&gt;: $0.1335 (-7.8%)&lt;/p&gt;
+
+&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
+
+&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261012192034_WPVtQXxN2Ebe_daf97403fee64f209b22d3f7dc8c2a9d_4393db20c3e8de26c73ab8d6d44a85c1.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. Meta launches Muse Wonder AI models for agentic tasks in law, finance, and health - &lt;a href="https://leviathannews.xyz/redirect/317776?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;about.fb&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1469/ai-agents"&gt;AI Agents&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261012094311_bt5fl8v44NF__a53697c151c84f2bb53097082803bf18_acc6010535835cb4c78836bfc8dd1c65.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. The FSB warns global stablecoins cross borders and sectors, so no single country can manage their risks alone. Its new note maps how risks spread and what data regulators need to monitor them. - &lt;a href="https://leviathannews.xyz/redirect/317541?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;fsb.org&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2954/risks"&gt;Risks&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/494/regulation"&gt;Regulation&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/399/stablecoins"&gt;Stablecoins&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261012093129_kBDO7LpOI2Vu_8f87a44323b648c2b8f34d226314ca0f_8fc76ad9dcba02a403d4248fbe05a26b.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. IMF warns 40% of jobs worldwide will be augmented, downgraded or eliminated by AI, with graduates hit first. Leaders urge permanent crisis-era support and incentives to hire young people. - &lt;a href="https://leviathannews.xyz/redirect/317533?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;CNBC&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1891/imf"&gt;IMF&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1319/jobs"&gt;Jobs&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261012073215_yidquVE7XsH9_f56bd2df3d024ae5ae73d499c02e2385_f02e1309beb7852d33fd73f99a68f4c8.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Mike Ippolito, back from Token2049 and KBW: crypto has changed. Institutions now lead, as retail and altcoins fade, and KBW was 60–70% institutional. Stablecoins, exchange consolidation and RWAs drive growth. - &lt;a href="https://leviathannews.xyz/redirect/317492?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@mikeippolito_&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/486/real-world-assets"&gt;Real World Assets&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/3063/exchange"&gt;Exchange&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261012072531_OqF8OhV9wJej_174019c9743440969b3af4bf76e224e3_edc3a055f7862f3b530c91e132a332be.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. 3iQ's UAE sister company receives in-principal approval for Category 4 license from Abu Dhabi's ADGM - &lt;a href="https://leviathannews.xyz/redirect/317489?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Prnewswire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1362/uae"&gt;UAE&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
+
+&lt;p&gt;🟢 XRP (&lt;a href="https://leviathannews.xyz/t/479/XRP?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$XRP&lt;/a&gt;): BUY - Standard Chartered now offers RLUSD custody on XRP Ledger and joins Ripple's collateral plan, a major institutional validation for the network&lt;/p&gt;
+
+&lt;p&gt;🟢 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): BUY - Bitmine added 12,532 ETH as Tom Lee flags a potential largest-ever crypto bull market, signaling strong institutional accumulation&lt;/p&gt;
+
+&lt;p&gt;🟢 Sui (&lt;a href="https://leviathannews.xyz/t/851/SUI?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SUI&lt;/a&gt;): BUY - Sui Foundation is deploying $30 million into a data network to expand ecosystem infrastructure, a direct investment in growth&lt;/p&gt;
+
+&lt;p&gt;🟡 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK BUY - South Korea's first traditional bank loans backed by bitcoin mark another step in mainstream BTC integration&lt;/p&gt;
+
+&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
+
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+7.59) · SOL (+5.52) · XRP (+4.21) · BTC (+3.71) · UNI (+3.62)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; TRX (-1.48)&lt;/p&gt;
+
+&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-11.60%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+11.82%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-20.95%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$10,022.92&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;+0.23%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-527.25&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (22):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE, ADA, TON
+&lt;strong&gt;Short (9):&lt;/strong&gt; PEPE, CRV, wstETH, rsETH, S, WLFI, SUI, DOGE, TRX&lt;/p&gt;
+
+&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$6,745.82&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-32.54%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$0.00&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (6):&lt;/strong&gt; PEPE, CRV, rsETH, S, WLFI, TRX
+&lt;strong&gt;Short (24):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE, ADA, TON, AAVE, AERO&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete goof to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+</content:encoded>
+      <author>squid@leviathannews.xyz (Squid Digest)</author>
+      <guid isPermaLink="false">squid-digest-2026-10-12</guid>
+      <category>trading-signals</category>
+      <category>crypto</category>
+      <category>ai-analysis</category>
+      <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
