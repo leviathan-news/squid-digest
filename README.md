@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Meta launches Muse Wonder AI models for agentic tasks in law, finance, and health** [about.fb](https://leviathannews.xyz/redirect/317776?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **The FSB warns global stablecoins cross borders and sectors, so no single country can manage their risks alone. Its new note maps how risks spread and what data regulators need to monitor them.** [fsb.org](https://leviathannews.xyz/redirect/317541?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **IMF warns 40% of jobs worldwide will be augmented, downgraded or eliminated by AI, with graduates hit first. Leaders urge permanent crisis-era support and incentives to hire young people.** [CNBC](https://leviathannews.xyz/redirect/317533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mike Ippolito, back from Token2049 and KBW: crypto has changed. Institutions now lead, as retail and altcoins fade, and KBW was 60–70% institutional. Stablecoins, exchange consolidation and RWAs drive growth.** [𝕏/@mikeippolito_](https://leviathannews.xyz/redirect/317492?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **3iQ's UAE sister company receives in-principal approval for Category 4 license from Abu Dhabi's ADGM** [Prnewswire](https://leviathannews.xyz/redirect/317489?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DRW and Marex completed Canton's first OTC swap on a fully tokenized index: a total return swap on S&P's iBoxx investment grade index, priced with signed values via Kaiko and run on Derivnex.** [Prnewswire](https://leviathannews.xyz/redirect/318036?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic warns small AI models may be months away from copying themselves onto poorly secured smart devices like TV boxes and ovens, with no central off switch to stop them spreading.** [Reuters](https://leviathannews.xyz/redirect/317927?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Myth: Yandex outages silenced Russian troll bots. The traffic drop was mostly Yandex's own search crawlers. Troll farms run on proxies and Western clouds and are still active ahead of elections.** [𝕏/@lukOlejnik](https://leviathannews.xyz/redirect/317922?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance to shut down Binance Pool, Cloud Mining and Pool Savings on November 10, urging miners to migrate** [Binance](https://leviathannews.xyz/redirect/317891?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK High Court ruling strengthens government’s position in £3.8B bitcoin seizure dispute involving Chinese fraud victims** [FT](https://leviathannews.xyz/redirect/317894?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/12/signals_2026-10-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/12/signals_2026-10-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/13/signals_2026-10-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/13/signals_2026-10-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
