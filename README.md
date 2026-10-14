@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DRW and Marex completed Canton's first OTC swap on a fully tokenized index: a total return swap on S&P's iBoxx investment grade index, priced with signed values via Kaiko and run on Derivnex.** [Prnewswire](https://leviathannews.xyz/redirect/318036?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic warns small AI models may be months away from copying themselves onto poorly secured smart devices like TV boxes and ovens, with no central off switch to stop them spreading.** [Reuters](https://leviathannews.xyz/redirect/317927?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Myth: Yandex outages silenced Russian troll bots. The traffic drop was mostly Yandex's own search crawlers. Troll farms run on proxies and Western clouds and are still active ahead of elections.** [𝕏/@lukOlejnik](https://leviathannews.xyz/redirect/317922?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance to shut down Binance Pool, Cloud Mining and Pool Savings on November 10, urging miners to migrate** [Binance](https://leviathannews.xyz/redirect/317891?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK High Court ruling strengthens government’s position in £3.8B bitcoin seizure dispute involving Chinese fraud victims** [FT](https://leviathannews.xyz/redirect/317894?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **🗣 Rumours say Patrick Witt may be leaving the White House Crypto Council, its last staffer, as his DoD detail ends. With the Clarity Act stalled, is crypto still a White House priority?** [𝕏/@RUMSHQ](https://leviathannews.xyz/redirect/318739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Squid DAO's October SQUID drop closes in 24 hours. Vote via Telegram in under one minute 🦑** [ꘜ/@SquidDAOalert](https://leviathannews.xyz/redirect/318606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BitMEX sued for £20m by UK investor who says it sold unregulated crypto derivatives** [Theguardian](https://leviathannews.xyz/redirect/318563?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI engineer arrested after FBI says recording device was found hidden in executive conference room** [𝕏/@BillMelugin_](https://leviathannews.xyz/redirect/318263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Interpol-wanted HEX founder Richard Heart arrested in Istanbul raid with $600K cash and 64 luxury watches seized** [tr.euronews](https://leviathannews.xyz/redirect/318619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/13/signals_2026-10-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/13/signals_2026-10-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/14/signals_2026-10-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/14/signals_2026-10-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
