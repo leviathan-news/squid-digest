@@ -1,5 +1,5 @@
 {
-  "cash": 285.8017363365139,
+  "cash": 0.0,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -236,8 +236,8 @@
     "TRX": {
       "symbol": "TRX",
       "token_name": "Tron",
-      "quantity": 1317.566349422204,
-      "entry_price": 0.33170671806162877,
+      "quantity": 2173.127737777266,
+      "entry_price": 0.3326299385746842,
       "entry_date": "2026-10-09T18:49:47.325825",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -3022,6 +3022,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-10-14T18:01:33.882460",
+      "symbol": "TRX",
+      "token_name": "Tron",
+      "action": "BUY",
+      "quantity": 855.5613883550619,
+      "price": 0.3340517001193897,
+      "value": 285.8017363365139,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4032,6 +4044,10 @@
     [
       "2026-10-13T19:54:42.828265",
       6897.987691788776
+    ],
+    [
+      "2026-10-14T18:01:33.882460",
+      7066.771432763523
     ]
   ]
 }
