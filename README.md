@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **🗣 Rumours say Patrick Witt may be leaving the White House Crypto Council, its last staffer, as his DoD detail ends. With the Clarity Act stalled, is crypto still a White House priority?** [𝕏/@RUMSHQ](https://leviathannews.xyz/redirect/318739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Squid DAO's October SQUID drop closes in 24 hours. Vote via Telegram in under one minute 🦑** [ꘜ/@SquidDAOalert](https://leviathannews.xyz/redirect/318606?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BitMEX sued for £20m by UK investor who says it sold unregulated crypto derivatives** [Theguardian](https://leviathannews.xyz/redirect/318563?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI engineer arrested after FBI says recording device was found hidden in executive conference room** [𝕏/@BillMelugin_](https://leviathannews.xyz/redirect/318263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Interpol-wanted HEX founder Richard Heart arrested in Istanbul raid with $600K cash and 64 luxury watches seized** [tr.euronews](https://leviathannews.xyz/redirect/318619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **xAI launches Grok Voice 3.0, claiming sub-second responses and 70% Starlink call resolution** [𝕏/@SpaceXSI](https://leviathannews.xyz/redirect/318800?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A16z crypto says Clarity's Senate setback is not the whole story on US crypto policy** [a16zcrypto.substack](https://leviathannews.xyz/redirect/318791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grayscale says investors may be overlooking Ethereum, Solana, and BNB Chain as tokenization grows** [Youtube](https://leviathannews.xyz/redirect/318922?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto.com launches Predict Pro, an exchange-grade platform for trading real-world events** [Crypto](https://leviathannews.xyz/redirect/319195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EU banking authority classifies USDC as first significant e-money token under MiCA** [eba.europa.eu](https://leviathannews.xyz/redirect/318954?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/14/signals_2026-10-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/14/signals_2026-10-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/15/signals_2026-10-15.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/15/signals_2026-10-15.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
