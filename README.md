@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **xAI launches Grok Voice 3.0, claiming sub-second responses and 70% Starlink call resolution** [𝕏/@SpaceXSI](https://leviathannews.xyz/redirect/318800?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A16z crypto says Clarity's Senate setback is not the whole story on US crypto policy** [a16zcrypto.substack](https://leviathannews.xyz/redirect/318791?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Grayscale says investors may be overlooking Ethereum, Solana, and BNB Chain as tokenization grows** [Youtube](https://leviathannews.xyz/redirect/318922?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto.com launches Predict Pro, an exchange-grade platform for trading real-world events** [Crypto](https://leviathannews.xyz/redirect/319195?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **EU banking authority classifies USDC as first significant e-money token under MiCA** [eba.europa.eu](https://leviathannews.xyz/redirect/318954?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Google's Willow chip cuts magic state errors 40-fold, a step toward practical quantum computing** [Scientificamerican](https://leviathannews.xyz/redirect/319346?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Farcaster acquired by Balaji's Network School, plans techno-optimist moderation and human verification** [The Block](https://leviathannews.xyz/redirect/319435?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Quantum Alliance forms as experts debate how to protect 6.4 million bitcoin from future quantum threats** [Coindesk](https://leviathannews.xyz/redirect/319728?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI says its research model spent another wallet's testnet ETH without authorization** [The Block](https://leviathannews.xyz/redirect/319729?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **SBI Holdings and Startale join Open Standard to explore yen-dollar stablecoin interoperability** [Startale](https://leviathannews.xyz/redirect/319443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/15/signals_2026-10-15.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/15/signals_2026-10-15.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/16/signals_2026-10-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/16/signals_2026-10-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
