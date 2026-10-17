@@ -264,6 +264,63 @@ class TestDigestGeneration(unittest.TestCase):
             # Run the async test
             asyncio.run(run_test())
 
+    def test_rank_news_by_clicks_and_views_beats_whale_vote_weight(self):
+        """Top stories must rank by clicks/views instead of single-voter whale weight."""
+        from squid_digest.tools.leviathan import (
+            LeviathanNewsFetcher,
+            rank_news_by_clicks_and_views,
+        )
+
+        raw_page_1 = [
+            {
+                "id": 319945,
+                "headline": "Low-click story boosted by single whale vote",
+                "date_posted": "2026-10-17T08:09:00+00:00",
+                "engagement": {"views_total": 31, "views_human": 28, "views_bot": 3},
+                "vote_details": {"total_vote_weight": 2177, "upvotes": 2},
+                "yap_count": 0,
+            },
+            {
+                "id": 319891,
+                "headline": "Medium-click story with whale vote",
+                "date_posted": "2026-10-17T00:00:36+00:00",
+                "engagement": {"views_total": 50, "views_human": 44, "views_bot": 6},
+                "vote_details": {"total_vote_weight": 2176, "upvotes": 2},
+                "yap_count": 2,
+            },
+        ]
+        raw_page_2 = [
+            {
+                "id": 319863,
+                "headline": "Highest-click story buried on page 2 without whale vote",
+                "date_posted": "2026-10-16T22:15:00+00:00",
+                "engagement": {"views_total": 61, "views_human": 54, "views_bot": 7},
+                "vote_details": {"total_vote_weight": 2, "upvotes": 2},
+                "yap_count": 0,
+            },
+            {
+                "id": 319898,
+                "headline": "Second highest-click story",
+                "date_posted": "2026-10-17T00:00:50+00:00",
+                "engagement": {"views_total": 59, "views_human": 50, "views_bot": 9},
+                "vote_details": {"total_vote_weight": 2169, "upvotes": 1},
+                "yap_count": 0,
+            },
+        ]
+
+        ranked = rank_news_by_clicks_and_views(raw_page_1 + raw_page_2)
+        self.assertEqual([item["id"] for item in ranked], [319863, 319898, 319891, 319945])
+
+        fetcher = LeviathanNewsFetcher()
+        with patch.object(
+            fetcher,
+            "fetch_all_news_24h",
+            return_value=rank_news_by_clicks_and_views(raw_page_1 + raw_page_2),
+        ) as mock_fetch_24h:
+            top_2 = fetcher.fetch_news(limit=2, save=False)
+            mock_fetch_24h.assert_called_once_with(save=False)
+            self.assertEqual([item["id"] for item in top_2], [319863, 319898])
+
 
 if __name__ == "__main__":
     unittest.main()

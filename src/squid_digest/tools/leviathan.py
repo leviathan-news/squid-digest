@@ -109,6 +109,70 @@ def clean_excessive_newlines(text):
     return cleaned
 
 
+def _extract_clicks_and_views(item: Dict[str, Any]) -> tuple[int, int]:
+    """Extract (views_total/clicks, views_human) from a Leviathan API news item."""
+    engagement = item.get("engagement") or {}
+    views_total = engagement.get("views_total")
+    if views_total is None:
+        views_total = item.get("total_clicks")
+    if views_total is None:
+        views_total = item.get("clicks")
+
+    views_human = engagement.get("views_human")
+    if views_human is None:
+        views_human = views_total
+
+    return int(views_total or 0), int(views_human or 0)
+
+
+def rank_news_by_clicks_and_views(news_items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Rank 24h news items by clicks/views instead of raw whale vote_weight.
+
+    The upstream `?sort_type=top&sort_timeframe=1` endpoint orders by
+    `buzziness = Sum(votes__weight) + comment_count`, where a single high-weight
+    voter (~2,170 weight) overrides actual reader clicks/views across the entire
+    24h window.
+
+    When engagement/click metrics are present on the payload, sort descending by:
+      1. total clicks / views (`engagement.views_total` / `clicks`)
+      2. human views (`engagement.views_human`)
+      3. approved comment count (`yap_count` / `total_comments`)
+      4. distinct upvote count (`vote_details.upvotes`, NOT raw vote_weight)
+      5. `date_posted` and `id`
+    """
+    if not news_items:
+        return []
+
+    has_click_metrics = any(
+        any(_extract_clicks_and_views(item))
+        for item in news_items
+        if isinstance(item, dict)
+    )
+    if not has_click_metrics:
+        return list(news_items)
+
+    def _sort_key(item: Dict[str, Any]) -> tuple:
+        views_total, views_human = _extract_clicks_and_views(item)
+        comments = (
+            item.get("yap_count")
+            or item.get("total_comments")
+            or len(item.get("top_yaps") or [])
+            or 0
+        )
+        vote_details = item.get("vote_details") or {}
+        upvotes = vote_details.get("upvotes") or item.get("upvotes") or 0
+        return (
+            views_total,
+            views_human,
+            int(comments or 0),
+            int(upvotes or 0),
+            str(item.get("date_posted") or ""),
+            int(item.get("id") or 0),
+        )
+
+    return sorted(news_items, key=_sort_key, reverse=True)
+
+
 class LeviathanNewsFetcher:
     """Fetches news from Leviathan News API."""
 
@@ -123,7 +187,11 @@ class LeviathanNewsFetcher:
 
     def fetch_news(self, limit: int = 10, save: bool = True) -> List[Dict[str, Any]]:
         """
-        Fetch top news items sorted by top/trending.
+        Fetch top news items from the past 24 hours ranked by clicks/views.
+
+        Fetches all pages of the 24-hour window (`fetch_all_news_24h`) so stories
+        with high clicks/views that were buried on page 2+ by single-voter
+        `vote_weight` are properly surfaced in the top `limit` stories.
 
         Args:
             limit: Number of news items to fetch
@@ -134,33 +202,8 @@ class LeviathanNewsFetcher:
         Raises:
             requests.HTTPError: If API request fails
         """
-        params = {"sort_type": "top", "sort_timeframe": 1}
-
-        def make_request():
-            response = requests.get(self.BASE_URL, params=params, timeout=self.timeout)
-            response.raise_for_status()
-            return response.json()
-
-        try:
-            data = retry_request_with_backoff(make_request)
-        except Exception as e:
-            logger.error(f"Failed to fetch news after retries: {e}")
-            # Try to load cached data as fallback
-            cached_file = self.SAVE_DIR / "leviathan_news.json"
-            if cached_file.exists():
-                logger.warning("Using cached news data as fallback")
-                with open(cached_file, "r") as f:
-                    cached_data = json.load(f)
-                return cached_data[:limit] if isinstance(cached_data, list) else []
-            else:
-                logger.error("No cached data available and API request failed")
-                raise
-
-        # Handle different response formats
-        if isinstance(data, list):
-            news = data[:limit]
-        else:
-            news = data.get("results")[:limit] or data.get("items")[:limit] or []
+        all_news_24h = self.fetch_all_news_24h(save=save)
+        news = rank_news_by_clicks_and_views(all_news_24h)[:limit]
         if save:
             with open(self.SAVE_DIR / "leviathan_news.json", "w") as f:
                 json.dump(news, f)
@@ -168,8 +211,8 @@ class LeviathanNewsFetcher:
 
     def fetch_all_news_24h(self, save: bool = False) -> List[Dict[str, Any]]:
         """
-        Fetch ALL news items from the past 24 hours (not just top/limited).
-        Useful for comprehensive review of all headlines.
+        Fetch ALL news items from the past 24 hours, ranked by clicks/views.
+        Useful for comprehensive review of all headlines and top-story selection.
 
         Args:
             save: Whether to save the results to cache file
@@ -200,7 +243,7 @@ class LeviathanNewsFetcher:
                 logger.warning("Using cached news data as fallback")
                 with open(cached_file, "r") as f:
                     cached_data = json.load(f)
-                return cached_data if isinstance(cached_data, list) else []
+                return rank_news_by_clicks_and_views(cached_data) if isinstance(cached_data, list) else []
             else:
                 logger.error("No cached data available and API request failed")
                 raise
@@ -224,6 +267,8 @@ class LeviathanNewsFetcher:
             except Exception as e:
                 logger.warning(f"Failed to fetch page {page_num} of news: {e}. Continuing with available data.")
                 break
+
+        all_news = rank_news_by_clicks_and_views(all_news)
         
         if save:
             with open(self.SAVE_DIR / "leviathan_news_24h.json", "w") as f:
