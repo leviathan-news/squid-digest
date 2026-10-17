@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Google's Willow chip cuts magic state errors 40-fold, a step toward practical quantum computing** [Scientificamerican](https://leviathannews.xyz/redirect/319346?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Farcaster acquired by Balaji's Network School, plans techno-optimist moderation and human verification** [The Block](https://leviathannews.xyz/redirect/319435?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Quantum Alliance forms as experts debate how to protect 6.4 million bitcoin from future quantum threats** [Coindesk](https://leviathannews.xyz/redirect/319728?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI says its research model spent another wallet's testnet ETH without authorization** [The Block](https://leviathannews.xyz/redirect/319729?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **SBI Holdings and Startale join Open Standard to explore yen-dollar stablecoin interoperability** [Startale](https://leviathannews.xyz/redirect/319443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LayerZero and researchers unveil Aerie, aggregating 32,000 Falcon signatures in 0.65 seconds** [layerzero.network](https://leviathannews.xyz/redirect/319891?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DAC makes case for quantum-resistant blockchains as Italy unveils first annealing quantum supercomputer** [𝕏/@dac_chain](https://leviathannews.xyz/redirect/319945?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cobo Wallet app to shut down December 1; users must withdraw assets by November 30 or face 2% monthly fees** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/319892?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic says Claude Mythos 5 designed quantum circuits that outperform published methods, cutting gate requirements by up to 17×** [Anthropic](https://leviathannews.xyz/redirect/319953?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik: Bitcoin mining costs split 50/50 between capex and electricity, while AI inference is mostly compute capex** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/319962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/16/signals_2026-10-16.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/16/signals_2026-10-16.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/17/signals_2026-10-17.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/17/signals_2026-10-17.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
