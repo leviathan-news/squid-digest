@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **LayerZero and researchers unveil Aerie, aggregating 32,000 Falcon signatures in 0.65 seconds** [layerzero.network](https://leviathannews.xyz/redirect/319891?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DAC makes case for quantum-resistant blockchains as Italy unveils first annealing quantum supercomputer** [𝕏/@dac_chain](https://leviathannews.xyz/redirect/319945?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cobo Wallet app to shut down December 1; users must withdraw assets by November 30 or face 2% monthly fees** [𝕏/@WuBlockchain](https://leviathannews.xyz/redirect/319892?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic says Claude Mythos 5 designed quantum circuits that outperform published methods, cutting gate requirements by up to 17×** [Anthropic](https://leviathannews.xyz/redirect/319953?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik: Bitcoin mining costs split 50/50 between capex and electricity, while AI inference is mostly compute capex** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/319962?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nine US-listed companies object to tokenized stock trading on OKXICE, including Broadcom, CoreWeave and Verizon, amid concerns over market transparency** [The Block](https://leviathannews.xyz/redirect/320087?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **a16z crypto’s Chris Dixon and Circle CEO explore how AI agents and blockchains could transform global finance** [a16zcrypto.substack](https://leviathannews.xyz/redirect/320089?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Chinese AI startup StepFun launches its first AI agent smartphone, the STEPX Neo, priced at 3,999 yuan** [Caixinglobal](https://leviathannews.xyz/redirect/320109?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenCode Console says 1.4% of users were affected by a security breach as it works with Anthropic, OpenAI and Google on remediation** [𝕏/@opencode](https://leviathannews.xyz/redirect/320092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Portal Ventures-backed Vest raises $13 million to build a proprietary trading firm that shares traders' profits** [archive.ph](https://leviathannews.xyz/redirect/320103?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/17/signals_2026-10-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/17/signals_2026-10-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/18/signals_2026-10-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/18/signals_2026-10-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
