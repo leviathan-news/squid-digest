@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Nine US-listed companies object to tokenized stock trading on OKXICE, including Broadcom, CoreWeave and Verizon, amid concerns over market transparency** [The Block](https://leviathannews.xyz/redirect/320087?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **a16z crypto’s Chris Dixon and Circle CEO explore how AI agents and blockchains could transform global finance** [a16zcrypto.substack](https://leviathannews.xyz/redirect/320089?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Chinese AI startup StepFun launches its first AI agent smartphone, the STEPX Neo, priced at 3,999 yuan** [Caixinglobal](https://leviathannews.xyz/redirect/320109?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenCode Console says 1.4% of users were affected by a security breach as it works with Anthropic, OpenAI and Google on remediation** [𝕏/@opencode](https://leviathannews.xyz/redirect/320092?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Portal Ventures-backed Vest raises $13 million to build a proprietary trading firm that shares traders' profits** [archive.ph](https://leviathannews.xyz/redirect/320103?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyperliquid retail app users down $280M all-time, with fees taking over half of losses** [𝕏/@hansonbirringer](https://leviathannews.xyz/redirect/320358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Crypto.com and Novig sue Missouri over sports event contracts as Kalshi, Polymarket and Robinhood hold off** [The Block](https://leviathannews.xyz/redirect/320261?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Abu Dhabi launches TAMM Global to bring its AI-native government platform to the world.** [Businesswire](https://leviathannews.xyz/redirect/320257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zakura proposes one-time viewing keys for Zcash swaps to limit quantum privacy risks without splitting wallet funds across accounts** [Zakura](https://leviathannews.xyz/redirect/320265?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **World launches World ID suite for banks and makes Zoom deepfake check generally available** [The Block](https://leviathannews.xyz/redirect/320262?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/18/signals_2026-10-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/18/signals_2026-10-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/19/signals_2026-10-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/19/signals_2026-10-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
