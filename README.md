@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Hyperliquid retail app users down $280M all-time, with fees taking over half of losses** [𝕏/@hansonbirringer](https://leviathannews.xyz/redirect/320358?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Crypto.com and Novig sue Missouri over sports event contracts as Kalshi, Polymarket and Robinhood hold off** [The Block](https://leviathannews.xyz/redirect/320261?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Abu Dhabi launches TAMM Global to bring its AI-native government platform to the world.** [Businesswire](https://leviathannews.xyz/redirect/320257?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Zakura proposes one-time viewing keys for Zcash swaps to limit quantum privacy risks without splitting wallet funds across accounts** [Zakura](https://leviathannews.xyz/redirect/320265?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **World launches World ID suite for banks and makes Zoom deepfake check generally available** [The Block](https://leviathannews.xyz/redirect/320262?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **France's parliament approves 31% capital gains tax on stablecoin trades** [Coindesk](https://leviathannews.xyz/redirect/320977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cboe EDGX seeks SEC approval for generic listing criteria for options on multi-crypto asset trusts** [sec.gov](https://leviathannews.xyz/redirect/320643?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MiniMax releases M3.1 Flash, claiming frontier-level AI performance at one-third the cost and three times the speed** [𝕏/@minimax_ai](https://leviathannews.xyz/redirect/320880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BlackRock files for iShares Bitcoin Managed Protection ETF aimed at downside protection** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/320733?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase partners with Thunes to connect stablecoin payments to local bank accounts and mobile wallets worldwide** [𝕏/@coinbase](https://leviathannews.xyz/redirect/320804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/19/signals_2026-10-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/19/signals_2026-10-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/20/signals_2026-10-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/20/signals_2026-10-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
