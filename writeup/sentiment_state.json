@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-10-19",
+  "last_processed_date": "2026-10-20",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 1.5844991686917944,
-      "last_signal_date": "2026-10-17",
+      "score": 3.365795218700757,
+      "last_signal_date": "2026-10-20",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 1.3446522152840736,
+      "score": 1.2178833315876707,
       "last_signal_date": "2026-10-18",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 5.492869985646394,
-      "last_signal_date": "2026-10-16",
+      "score": 6.505995455178904,
+      "last_signal_date": "2026-10-20",
       "token_name": "Solana"
     },
     "STETH": {
@@ -33,20 +33,20 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 8.468277800467467,
-      "last_signal_date": "2026-10-17",
+      "score": 8.299425306772093,
+      "last_signal_date": "2026-10-20",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 2.2046262703331654,
+      "score": 1.638031023698187,
       "last_signal_date": "2026-10-14",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": -3.823770025413258,
-      "last_signal_date": "2026-10-19",
+      "score": -1.6390633994130912,
+      "last_signal_date": "2026-10-20",
       "token_name": "HYPE"
     },
     "ENA": {
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 0.8047534135511188,
+      "score": 0.5415588871599986,
       "last_signal_date": "2026-10-12",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.2968954676857125,
+      "score": 0.18095981449015358,
       "last_signal_date": "2026-10-10",
       "token_name": "ChainLink Token"
     },
@@ -93,19 +93,19 @@
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.21549320531174443,
+      "score": 0.13134457983165243,
       "last_signal_date": "2026-10-10",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.05441223714001795,
+      "score": 0.028587009699423564,
       "last_signal_date": "2026-10-07",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 2.4380879998685216,
+      "score": 1.9034376884010045,
       "last_signal_date": "2026-10-15",
       "token_name": "Uniswap"
     },
@@ -117,25 +117,25 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 0.041464159508919095,
+      "score": 0.021784370435086377,
       "last_signal_date": "2026-10-07",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.8619728212469777,
+      "score": 0.7429971445684742,
       "last_signal_date": "2026-10-17",
       "token_name": "Arbitrum"
     },
     "TRX": {
       "symbol": "TRX",
-      "score": -0.1306111971582523,
+      "score": -0.07576294399242361,
       "last_signal_date": "2026-10-09",
       "token_name": "Tron"
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.7022784925712865,
+      "score": 0.5217909146723183,
       "last_signal_date": "2026-10-14",
       "token_name": "Leviathan Points"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 4.855085459031859,
+      "score": 4.620561298812959,
       "last_signal_date": "2026-10-19",
       "token_name": "Monero"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.02209708691207961,
+      "score": 0.011048543456039806,
       "last_signal_date": "2026-10-06",
       "token_name": "Monad"
     },
@@ -255,7 +255,7 @@
     },
     "AERO": {
       "symbol": "AERO",
-      "score": 0.04205938101976113,
+      "score": 0.02209708691207961,
       "last_signal_date": "2026-10-07",
       "token_name": "Aerodrome Finance"
     },
@@ -267,7 +267,7 @@
     },
     "frxETH": {
       "symbol": "frxETH",
-      "score": 0.04205938101976113,
+      "score": 0.02209708691207961,
       "last_signal_date": "2026-10-07",
       "token_name": "Frax Ether"
     }
