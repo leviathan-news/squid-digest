@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **France's parliament approves 31% capital gains tax on stablecoin trades** [Coindesk](https://leviathannews.xyz/redirect/320977?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cboe EDGX seeks SEC approval for generic listing criteria for options on multi-crypto asset trusts** [sec.gov](https://leviathannews.xyz/redirect/320643?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MiniMax releases M3.1 Flash, claiming frontier-level AI performance at one-third the cost and three times the speed** [𝕏/@minimax_ai](https://leviathannews.xyz/redirect/320880?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BlackRock files for iShares Bitcoin Managed Protection ETF aimed at downside protection** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/320733?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase partners with Thunes to connect stablecoin payments to local bank accounts and mobile wallets worldwide** [𝕏/@coinbase](https://leviathannews.xyz/redirect/320804?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Private keys compromised: HTTPS certificates for any website can be forged. Stay safe.** [𝕏/@IntCyberDigest](https://leviathannews.xyz/redirect/321382?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan issues first long-term bitcoin return forecast, projecting 10% annually with 55% volatility** [The Block](https://leviathannews.xyz/redirect/321372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **HoneyB developer Nectar Group raises $5 million at $30 million valuation to build bitcoin yield platform** [The Block](https://leviathannews.xyz/redirect/321404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Mastercard opens early access to Agent Pay for Machines after Cloudflare, Coinbase pilots** [𝕏/@Mastercard](https://leviathannews.xyz/redirect/321300?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Circle partners with Allaria to expand USDC liquidity and institutional access in Argentina** [𝕏/@circle](https://leviathannews.xyz/redirect/321303?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/20/signals_2026-10-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/20/signals_2026-10-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/21/signals_2026-10-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/21/signals_2026-10-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
