@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-10-20",
+  "last_processed_date": "2026-10-21",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 3.365795218700757,
-      "last_signal_date": "2026-10-20",
+      "score": 4.203210995663829,
+      "last_signal_date": "2026-10-21",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 1.2178833315876707,
+      "score": 1.049782331278293,
       "last_signal_date": "2026-10-18",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 6.505995455178904,
+      "score": 6.1917243402028825,
       "last_signal_date": "2026-10-20",
       "token_name": "Solana"
     },
@@ -33,19 +33,19 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 8.299425306772093,
+      "score": 7.8985228372286755,
       "last_signal_date": "2026-10-20",
       "token_name": "Ethereum"
     },
     "XRP": {
       "symbol": "XRP",
-      "score": 1.638031023698187,
+      "score": 1.1582628446509304,
       "last_signal_date": "2026-10-14",
       "token_name": "XRP"
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": -1.6390633994130912,
+      "score": -1.559888692698548,
       "last_signal_date": "2026-10-20",
       "token_name": "HYPE"
     },
@@ -63,13 +63,13 @@
     },
     "SUI": {
       "symbol": "SUI",
-      "score": 0.5415588871599986,
+      "score": 0.34683778514339686,
       "last_signal_date": "2026-10-12",
       "token_name": "Sui"
     },
     "LINK": {
       "symbol": "LINK",
-      "score": 0.18095981449015358,
+      "score": 0.10496839925205939,
       "last_signal_date": "2026-10-10",
       "token_name": "ChainLink Token"
     },
@@ -93,21 +93,21 @@
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.13134457983165243,
+      "score": 0.07618835338777971,
       "last_signal_date": "2026-10-10",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.028587009699423564,
+      "score": 0.014293504849711782,
       "last_signal_date": "2026-10-07",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 1.9034376884010045,
-      "last_signal_date": "2026-10-15",
-      "token_name": "Uniswap"
+      "score": 3.4142487673459634,
+      "last_signal_date": "2026-10-21",
+      "token_name": "UNI"
     },
     "KDK": {
       "symbol": "KDK",
@@ -117,25 +117,25 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": 0.021784370435086377,
+      "score": 0.010892185217543189,
       "last_signal_date": "2026-10-07",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.7429971445684742,
+      "score": 0.6095068271022377,
       "last_signal_date": "2026-10-17",
       "token_name": "Arbitrum"
     },
     "TRX": {
       "symbol": "TRX",
-      "score": -0.07576294399242361,
+      "score": -0.04182453599354564,
       "last_signal_date": "2026-10-09",
       "token_name": "Tron"
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": 0.5217909146723183,
+      "score": 0.3689618941263275,
       "last_signal_date": "2026-10-14",
       "token_name": "Leviathan Points"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 4.620561298812959,
+      "score": 4.184951710516869,
       "last_signal_date": "2026-10-19",
       "token_name": "Monero"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.011048543456039806,
+      "score": 0.0,
       "last_signal_date": "2026-10-06",
       "token_name": "Monad"
     },
@@ -255,7 +255,7 @@
     },
     "AERO": {
       "symbol": "AERO",
-      "score": 0.02209708691207961,
+      "score": 0.011048543456039806,
       "last_signal_date": "2026-10-07",
       "token_name": "Aerodrome Finance"
     },
@@ -267,7 +267,7 @@
     },
     "frxETH": {
       "symbol": "frxETH",
-      "score": 0.02209708691207961,
+      "score": 0.011048543456039806,
       "last_signal_date": "2026-10-07",
       "token_name": "Frax Ether"
     }
