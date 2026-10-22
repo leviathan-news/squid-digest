@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Private keys compromised: HTTPS certificates for any website can be forged. Stay safe.** [𝕏/@IntCyberDigest](https://leviathannews.xyz/redirect/321382?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **JPMorgan issues first long-term bitcoin return forecast, projecting 10% annually with 55% volatility** [The Block](https://leviathannews.xyz/redirect/321372?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **HoneyB developer Nectar Group raises $5 million at $30 million valuation to build bitcoin yield platform** [The Block](https://leviathannews.xyz/redirect/321404?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Mastercard opens early access to Agent Pay for Machines after Cloudflare, Coinbase pilots** [𝕏/@Mastercard](https://leviathannews.xyz/redirect/321300?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Circle partners with Allaria to expand USDC liquidity and institutional access in Argentina** [𝕏/@circle](https://leviathannews.xyz/redirect/321303?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Imperial merges Armada and sunsets Phoenix to form single Solana perp DEX** [𝕏/@ImperialPerps](https://leviathannews.xyz/redirect/321865?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Intel Trade opens Hyperliquid data platform to more traders after friends-and-family phase** [𝕏/@IntelTrade](https://leviathannews.xyz/redirect/322021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic opens research preview of Claude Duet, a proactive agent app on Opus 5.5** [𝕏/@claudeai](https://leviathannews.xyz/redirect/322013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Qualitate raises $25M from Insight Partners to challenge Gartner, McKinsey and GLG with AI-led expert interviews** [𝕏/@S_Kadakia](https://leviathannews.xyz/redirect/321864?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **GPU startup raises $1 billion Series A to build megakernel framework for cheaper AI training** [𝕏/@flappyairplanes](https://leviathannews.xyz/redirect/322037?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/21/signals_2026-10-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/21/signals_2026-10-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/22/signals_2026-10-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/22/signals_2026-10-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
