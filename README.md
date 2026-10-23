@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Imperial merges Armada and sunsets Phoenix to form single Solana perp DEX** [𝕏/@ImperialPerps](https://leviathannews.xyz/redirect/321865?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Intel Trade opens Hyperliquid data platform to more traders after friends-and-family phase** [𝕏/@IntelTrade](https://leviathannews.xyz/redirect/322021?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic opens research preview of Claude Duet, a proactive agent app on Opus 5.5** [𝕏/@claudeai](https://leviathannews.xyz/redirect/322013?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Qualitate raises $25M from Insight Partners to challenge Gartner, McKinsey and GLG with AI-led expert interviews** [𝕏/@S_Kadakia](https://leviathannews.xyz/redirect/321864?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **GPU startup raises $1 billion Series A to build megakernel framework for cheaper AI training** [𝕏/@flappyairplanes](https://leviathannews.xyz/redirect/322037?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana users can now launch their own stablecoin in under a minute via Reflect Money** [𝕏/@solana](https://leviathannews.xyz/redirect/322603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A lawsuit accuses Trump and World Liberty Financial of illegally profiting from over $2B USD in crypto deals linked to the UAE's "Spy Sheikh". The White House calls it frivolous.** [CNBC](https://leviathannews.xyz/redirect/322612?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase launches 'for Agents' page to connect ChatGPT, Grok, and other AI agents to its platform** [𝕏/@CoinbaseDev](https://leviathannews.xyz/redirect/322757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI compute is the new oil. Spending hit $360 Billion last year and could reach $2.3T USD by 2030. CME, ICE, DRW and Jump are racing to build futures and markets to trade it.** [Economist](https://leviathannews.xyz/redirect/322932?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OP Stack's 54 chains handled 66.8% of L2 and L3 transactions in 2026, Optimism says** [𝕏/@Optimism](https://leviathannews.xyz/redirect/322599?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/22/signals_2026-10-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/22/signals_2026-10-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/23/signals_2026-10-23.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/23/signals_2026-10-23.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
