@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Solana users can now launch their own stablecoin in under a minute via Reflect Money** [𝕏/@solana](https://leviathannews.xyz/redirect/322603?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **A lawsuit accuses Trump and World Liberty Financial of illegally profiting from over $2B USD in crypto deals linked to the UAE's "Spy Sheikh". The White House calls it frivolous.** [CNBC](https://leviathannews.xyz/redirect/322612?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase launches 'for Agents' page to connect ChatGPT, Grok, and other AI agents to its platform** [𝕏/@CoinbaseDev](https://leviathannews.xyz/redirect/322757?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AI compute is the new oil. Spending hit $360 Billion last year and could reach $2.3T USD by 2030. CME, ICE, DRW and Jump are racing to build futures and markets to trade it.** [Economist](https://leviathannews.xyz/redirect/322932?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OP Stack's 54 chains handled 66.8% of L2 and L3 transactions in 2026, Optimism says** [𝕏/@Optimism](https://leviathannews.xyz/redirect/322599?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI's former science chief launches Warp Sciences with $215M Series A for AI-driven robotic labs** [𝕏/@kevinweil](https://leviathannews.xyz/redirect/323025?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kimi releases K3.1 Pro, a 3T-class open-weight model with 1M-token context and faster highspeed API** [𝕏/@kimi_moonshot](https://leviathannews.xyz/redirect/323146?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Futu Securities launches BNB on-chain deposits and withdrawals via BEP20 for Hong Kong professional investors** [𝕏/@futufriends](https://leviathannews.xyz/redirect/323050?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **People search API launches with 1 billion profiles for agents to find decision makers, founders and engineers** [𝕏/@mynameisyahia](https://leviathannews.xyz/redirect/323287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Branchpoint opens testnet to select early users for feedback on programmable conditional markets** [𝕏/@BranchpointXYZ](https://leviathannews.xyz/redirect/323282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/23/signals_2026-10-23.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/23/signals_2026-10-23.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/24/signals_2026-10-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/24/signals_2026-10-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
