@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **OpenAI's former science chief launches Warp Sciences with $215M Series A for AI-driven robotic labs** [𝕏/@kevinweil](https://leviathannews.xyz/redirect/323025?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kimi releases K3.1 Pro, a 3T-class open-weight model with 1M-token context and faster highspeed API** [𝕏/@kimi_moonshot](https://leviathannews.xyz/redirect/323146?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Futu Securities launches BNB on-chain deposits and withdrawals via BEP20 for Hong Kong professional investors** [𝕏/@futufriends](https://leviathannews.xyz/redirect/323050?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **People search API launches with 1 billion profiles for agents to find decision makers, founders and engineers** [𝕏/@mynameisyahia](https://leviathannews.xyz/redirect/323287?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Branchpoint opens testnet to select early users for feedback on programmable conditional markets** [𝕏/@BranchpointXYZ](https://leviathannews.xyz/redirect/323282?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Keystone Wallet says breach exposed customer shipping data, not private keys** [𝕏/@keystonewallet](https://leviathannews.xyz/redirect/323444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Robinhood CEO calls for builders on Robinhood Chain; developers launch free game where players rob the rich** [𝕏/@robtown_rh](https://leviathannews.xyz/redirect/323505?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EPFL's LogSync implantable chip decodes brain-network states and triggers stimulation at under 200 microwatts** [actu.epfl.ch](https://leviathannews.xyz/redirect/323443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Bankless argues AI-powered bug hunting is reshaping crypto security, pushing protocols toward faster upgrades or simpler code that is easier to verify** [𝕏/@Bankless](https://leviathannews.xyz/redirect/323504?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Coinbase launches live crypto prediction markets for BTC, ETH and SOL** [𝕏/@coinbase](https://leviathannews.xyz/redirect/323512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/24/signals_2026-10-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/24/signals_2026-10-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/25/signals_2026-10-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/25/signals_2026-10-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
