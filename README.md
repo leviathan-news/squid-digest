@@ -11,15 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Keystone Wallet says breach exposed customer shipping data, not private keys** [𝕏/@keystonewallet](https://leviathannews.xyz/redirect/323444?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Robinhood CEO calls for builders on Robinhood Chain; developers launch free game where players rob the rich** [𝕏/@robtown_rh](https://leviathannews.xyz/redirect/323505?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **EPFL's LogSync implantable chip decodes brain-network states and triggers stimulation at under 200 microwatts** [actu.epfl.ch](https://leviathannews.xyz/redirect/323443?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Bankless argues AI-powered bug hunting is reshaping crypto security, pushing protocols toward faster upgrades or simpler code that is easier to verify** [𝕏/@Bankless](https://leviathannews.xyz/redirect/323504?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Coinbase launches live crypto prediction markets for BTC, ETH and SOL** [𝕏/@coinbase](https://leviathannews.xyz/redirect/323512?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **🚨 Binance freezes $3B USD as hack proves bigger than a stolen laptop
+Binance found more breach points, will cover all losses from SAFU and company funds, and expects withdrawals back in about 45 hours. Deposits are unaffected.** [𝕏/@binance](https://leviathannews.xyz/redirect/326414?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arkham now tracks Binance hacker entity funds in full. 5.7B tracked so far** [Arkm](https://leviathannews.xyz/redirect/326344?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Unconfirmed reports suggest Binance wallet drained to new address via Tornado Cash–funded call** [𝕏/@spreekaway](https://leviathannews.xyz/redirect/325993?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CZ to Elon: "Bad time to troll. Please stop."
+CZ asked Elon Musk to show some support, pointing out that Binance's SPCX shares, from its 500M USD investment in the Twitter takeover, are now worth more than $1B USD.** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/326458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Aave freezes all DAO-operated V3 and V4 markets as precaution after Binance incident** [𝕏/@StaniKulechov](https://leviathannews.xyz/redirect/326149?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/25/signals_2026-10-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/25/signals_2026-10-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/30/signals_2026-10-30.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/30/signals_2026-10-30.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
