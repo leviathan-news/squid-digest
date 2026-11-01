@@ -1,5 +1,5 @@
 {
-  "cash": 712.2509546554126,
+  "cash": -713.584293089058,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -47,14 +47,6 @@
       "quantity": -643.7634508230508,
       "entry_price": 0.9676381405361252,
       "entry_date": "2026-02-12T14:09:40.932839",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "LINK": {
-      "symbol": "LINK",
-      "token_name": "ChainLink Token",
-      "quantity": -75.84678178906766,
-      "entry_price": 8.812883971585807,
-      "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "SQUID": {
@@ -111,14 +103,6 @@
       "quantity": -2848.8422038339136,
       "entry_price": 0.08055573431456148,
       "entry_date": "2026-06-06T14:26:47.202149",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "ENA": {
-      "symbol": "ENA",
-      "token_name": "Ethena",
-      "quantity": -3040.5251089270023,
-      "entry_price": 0.07825722349383751,
-      "entry_date": "2026-06-12T16:13:27.411325",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "INJ": {
@@ -3050,6 +3034,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "COVER",
+      "quantity": 75.84678178906766,
+      "price": 11.48079683217568,
+      "value": 870.781492094648,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -202.3526045694074,
+      "entry_price": 8.812883971585807
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "COVER",
+      "quantity": 3040.5251089270023,
+      "price": 0.1825519394726197,
+      "value": 555.0537556498225,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -317.11070266189745,
+      "entry_price": 0.07825722349383751
     }
   ],
   "daily_values": [
@@ -4112,6 +4120,10 @@
     [
       "2026-10-30T18:38:43.883630",
       8074.755402453597
+    ],
+    [
+      "2026-11-01T18:26:25.512644",
+      5418.679589439637
     ]
   ]
 }

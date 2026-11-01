@@ -1,5 +1,5 @@
 {
-  "cash": -1359.4926857188025,
+  "cash": 3875.227875599391,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -47,14 +47,6 @@
       "quantity": 1325.6867750688264,
       "entry_price": 0.9951674394755292,
       "entry_date": "2026-02-13T13:58:53.500749",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "LINK": {
-      "symbol": "LINK",
-      "token_name": "ChainLink Token",
-      "quantity": 181.22772022334345,
-      "entry_price": 8.74593914044927,
-      "entry_date": "2026-03-01T13:35:42.340123",
       "entry_signal": "SENTIMENT_LONG"
     },
     "wstETH": {
@@ -119,14 +111,6 @@
       "quantity": 5778.418434520737,
       "entry_price": 0.08055573431456148,
       "entry_date": "2026-06-06T14:26:47.202149",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ENA": {
-      "symbol": "ENA",
-      "token_name": "Ethena",
-      "quantity": 6882.508799590981,
-      "entry_price": 0.07833809404210086,
-      "entry_date": "2026-06-12T16:13:27.411325",
       "entry_signal": "SENTIMENT_LONG"
     },
     "INJ": {
@@ -239,6 +223,22 @@
       "quantity": -31.54026970255503,
       "entry_price": 77.23766455395644,
       "entry_date": "2026-10-18T16:33:30.796138",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "LINK": {
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "quantity": -41.322623834666516,
+      "entry_price": 11.48079683217568,
+      "entry_date": "2026-11-01T18:26:25.512644",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ENA": {
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "quantity": -7796.410986190305,
+      "entry_price": 0.1825519394726197,
+      "entry_date": "2026-11-01T18:26:25.512644",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3686,6 +3686,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "SELL",
+      "quantity": 181.22772022334345,
+      "price": 11.48079683217568,
+      "value": 2080.638636242582,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 495.6320246068526,
+      "entry_price": 8.74593914044927
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "LINK",
+      "token_name": "ChainLink Token",
+      "action": "SHORT",
+      "quantity": 41.322623834666516,
+      "price": 11.48079683217568,
+      "value": 474.4166488182266,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SELL",
+      "quantity": 6882.508799590981,
+      "price": 0.1825519394726197,
+      "value": 1256.4153298027052,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 717.2527082147602,
+      "entry_price": 0.07833809404210086
+    },
+    {
+      "date": "2026-11-01T18:26:25.512644",
+      "symbol": "ENA",
+      "token_name": "Ethena",
+      "action": "SHORT",
+      "quantity": 7796.410986190305,
+      "price": 0.1825519394726197,
+      "value": 1423.2499464546797,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4748,6 +4796,10 @@
     [
       "2026-10-30T18:38:43.883630",
       4980.365265831513
+    ],
+    [
+      "2026-11-01T18:26:25.512644",
+      9488.332976364532
     ]
   ]
 }

@@ -1,0 +1,4 @@
+# 🎙️ SQUID Digest — Video Script — November 01, 2026
+> Draft — read time ≈ 1 min
+
+GM Fam, and welcome to SQUID Digest. First up, Binance says ninety percent of the hacked funds are now covered, with withdrawals set to resume Sunday. Next, b14g has paused its contracts after ninety-seven million CORE was withdrawn without authorization. Meanwhile, the FBI is attributing that six billion dollar Binance crypto theft to North Korea and urging services to block the linked addresses. In other news, a sixteen-year-old built Forge, a fully automated AI post-training infrastructure, at a Y Combinator hackathon. And finally, Uniswap is opening its TJAR fee-conversion framework to all apps after a fifteen point three million dollar month. And that's all the news that's fit to ink. Squids, we'll see you on the next tide.
