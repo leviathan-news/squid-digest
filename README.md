@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **🚨 Binance freezes $3B USD as hack proves bigger than a stolen laptop
-Binance found more breach points, will cover all losses from SAFU and company funds, and expects withdrawals back in about 45 hours. Deposits are unaffected.** [𝕏/@binance](https://leviathannews.xyz/redirect/326414?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arkham now tracks Binance hacker entity funds in full. 5.7B tracked so far** [Arkm](https://leviathannews.xyz/redirect/326344?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Unconfirmed reports suggest Binance wallet drained to new address via Tornado Cash–funded call** [𝕏/@spreekaway](https://leviathannews.xyz/redirect/325993?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CZ to Elon: "Bad time to troll. Please stop."
-CZ asked Elon Musk to show some support, pointing out that Binance's SPCX shares, from its 500M USD investment in the Twitter takeover, are now worth more than $1B USD.** [𝕏/@cz_binance](https://leviathannews.xyz/redirect/326458?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Aave freezes all DAO-operated V3 and V4 markets as precaution after Binance incident** [𝕏/@StaniKulechov](https://leviathannews.xyz/redirect/326149?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance says 90% of hacked funds now covered, plans to resume withdrawals Sunday** [𝕏/@binance](https://leviathannews.xyz/redirect/327258?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **b14g pauses contracts after 97M CORE withdrawn without authorization** [𝕏/@b14g_network](https://leviathannews.xyz/redirect/327360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FBI attributes $6 billion Binance crypto theft to North Korea, urges services to block linked addresses** [fbi.gov](https://leviathannews.xyz/redirect/327341?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **16-year-old builds Forge, fully automated AI post-training infrastructure, at Y Combinator hackathon** [𝕏/@VirSanghavi13](https://leviathannews.xyz/redirect/327381?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Uniswap opens TJAR fee-conversion framework to all apps after $15.3M month** [𝕏/@Uniswap](https://leviathannews.xyz/redirect/327259?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/10/30/signals_2026-10-30.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/10/30/signals_2026-10-30.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/01/signals_2026-11-01.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/01/signals_2026-11-01.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
