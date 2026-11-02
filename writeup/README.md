@@ -15,26 +15,28 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 01, 2026)
+## 🔥 Latest Headlines (November 02, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/11/01/signals_2026-11-01.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/11/01/signals_2026-11-01.md)
+📊 [View Full Analysis →](writeup/2026/11/02/signals_2026-11-02.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/11/02/signals_2026-11-02.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Oct 25 - Nov 01)
+### 📅 This Week (Oct 30 - Nov 02)
+
+[**Monday, November 02, 2026**](writeup/2026/11/02/signals_2026-11-02.md)
 
 [**Sunday, November 01, 2026**](writeup/2026/11/01/signals_2026-11-01.md)
 
 [**Friday, October 30, 2026**](writeup/2026/10/30/signals_2026-10-30.md)
 
-[**Sunday, October 25, 2026**](writeup/2026/10/25/signals_2026-10-25.md)
+### 📅 Last Week (Oct 19 - Oct 25)
 
-### 📅 Last Week (Oct 18 - Oct 24)
+[**Sunday, October 25, 2026**](writeup/2026/10/25/signals_2026-10-25.md)
 
 [**Saturday, October 24, 2026**](writeup/2026/10/24/signals_2026-10-24.md)
 
@@ -48,9 +50,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, October 19, 2026**](writeup/2026/10/19/signals_2026-10-19.md)
 
-[**Sunday, October 18, 2026**](writeup/2026/10/18/signals_2026-10-18.md)
+### 📅 Week of Oct 12 - Oct 18
 
-### 📅 Week of Oct 11 - Oct 17
+[**Sunday, October 18, 2026**](writeup/2026/10/18/signals_2026-10-18.md)
 
 [**Saturday, October 17, 2026**](writeup/2026/10/17/signals_2026-10-17.md)
 
@@ -64,9 +66,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Monday, October 12, 2026**](writeup/2026/10/12/signals_2026-10-12.md)
 
-[**Sunday, October 11, 2026**](writeup/2026/10/11/signals_2026-10-11.md)
+### 📅 Week of Oct 06 - Oct 11
 
-### 📅 Week of Oct 06 - Oct 10
+[**Sunday, October 11, 2026**](writeup/2026/10/11/signals_2026-10-11.md)
 
 [**Saturday, October 10, 2026**](writeup/2026/10/10/signals_2026-10-10.md)
 

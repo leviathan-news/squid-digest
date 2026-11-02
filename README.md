@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Binance says 90% of hacked funds now covered, plans to resume withdrawals Sunday** [𝕏/@binance](https://leviathannews.xyz/redirect/327258?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **b14g pauses contracts after 97M CORE withdrawn without authorization** [𝕏/@b14g_network](https://leviathannews.xyz/redirect/327360?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **FBI attributes $6 billion Binance crypto theft to North Korea, urges services to block linked addresses** [fbi.gov](https://leviathannews.xyz/redirect/327341?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **16-year-old builds Forge, fully automated AI post-training infrastructure, at Y Combinator hackathon** [𝕏/@VirSanghavi13](https://leviathannews.xyz/redirect/327381?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Uniswap opens TJAR fee-conversion framework to all apps after $15.3M month** [𝕏/@Uniswap](https://leviathannews.xyz/redirect/327259?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Initia L1 and rollups back online after security incident, withdrawals rate-limited** [𝕏/@initia](https://leviathannews.xyz/redirect/327808?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Spot bitcoin ETFs post largest daily outflows in four months after record Binance hack** [The Block](https://leviathannews.xyz/redirect/327778?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **EU entity suspected of losing over $106M from exchange accounts on Nov 1** [ꘜ/@investigations](https://leviathannews.xyz/redirect/327960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **THORChain halts trading across 10 chains after Ethereum reorg triggers 10 ETH payout from vault** [𝕏/@THORChain](https://leviathannews.xyz/redirect/327735?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **India's RBI and FIU-IND scrutinize offshore crypto cards from Visa, Mastercard and RedotPay** [𝕏/@CryptoTimes_io](https://leviathannews.xyz/redirect/327811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/01/signals_2026-11-01.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/01/signals_2026-11-01.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/02/signals_2026-11-02.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/02/signals_2026-11-02.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
