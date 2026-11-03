@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Initia L1 and rollups back online after security incident, withdrawals rate-limited** [𝕏/@initia](https://leviathannews.xyz/redirect/327808?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Spot bitcoin ETFs post largest daily outflows in four months after record Binance hack** [The Block](https://leviathannews.xyz/redirect/327778?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **EU entity suspected of losing over $106M from exchange accounts on Nov 1** [ꘜ/@investigations](https://leviathannews.xyz/redirect/327960?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **THORChain halts trading across 10 chains after Ethereum reorg triggers 10 ETH payout from vault** [𝕏/@THORChain](https://leviathannews.xyz/redirect/327735?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **India's RBI and FIU-IND scrutinize offshore crypto cards from Visa, Mastercard and RedotPay** [𝕏/@CryptoTimes_io](https://leviathannews.xyz/redirect/327811?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kim Yo Jong suggests US may be behind Binance hack** [𝕏/@w00tcake](https://leviathannews.xyz/redirect/328397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DefiLlama launches verification of onchain asset and vault backing, expanding beyond TVL tracking** [ꘜ/@defillama_tg](https://leviathannews.xyz/redirect/328449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NEAR governance approves cut to token issuance ceiling, lowering it from 2.5% to 1.6% over 24 months** [The Block](https://leviathannews.xyz/redirect/328705?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance details how North Korean actors used tampered Homebrew, fake job interviews, and compromised internal AI tools to access wallet signing service** [𝕏/@binance](https://leviathannews.xyz/redirect/329001?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anchorage Digital says client assets are safe after Binance incident, details hardware-based custody controls** [𝕏/@nathanmccauley](https://leviathannews.xyz/redirect/328432?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/02/signals_2026-11-02.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/02/signals_2026-11-02.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/03/signals_2026-11-03.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/03/signals_2026-11-03.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
