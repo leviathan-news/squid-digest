@@ -1,5 +1,5 @@
 {
-  "cash": -713.584293089058,
+  "cash": -3163.411513393151,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -151,14 +151,6 @@
       "quantity": -1.9701405352064156,
       "entry_price": 334.66462706953286,
       "entry_date": "2026-07-19T14:35:19.464652",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.031568059228968964,
-      "entry_price": 72357.371504,
-      "entry_date": "2026-08-10T14:32:39.552071",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "ETH": {
@@ -3058,6 +3050,18 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": -317.11070266189745,
       "entry_price": 0.07825722349383751
+    },
+    {
+      "date": "2026-11-03T20:12:17.090114",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.031568059228968964,
+      "price": 77604.61935702298,
+      "value": 2449.827220304093,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -165.64543101330992,
+      "entry_price": 72357.371504
     }
   ],
   "daily_values": [
@@ -4128,6 +4132,10 @@
     [
       "2026-11-02T22:20:49.276886",
       4938.306770815937
+    ],
+    [
+      "2026-11-03T20:12:17.090114",
+      3504.7887124241847
     ]
   ]
 }
