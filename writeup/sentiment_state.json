@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-11-03",
+  "last_processed_date": "2026-11-04",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": -0.6440735053707982,
+      "score": -0.5833526153397384,
       "last_signal_date": "2026-11-02",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 2.6111474960720193,
+      "score": 2.4850164158075567,
       "last_signal_date": "2026-11-03",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 2.9378213288442163,
+      "score": 2.795910319072258,
       "last_signal_date": "2026-11-03",
       "token_name": "Solana"
     },
@@ -33,7 +33,7 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 1.2752192590920584,
+      "score": 1.2136199879037055,
       "last_signal_date": "2026-11-03",
       "token_name": "Ethereum"
     },
@@ -45,13 +45,13 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.11965103342033445,
-      "last_signal_date": "2026-10-24",
+      "score": 1.0694053399776808,
+      "last_signal_date": "2026-11-04",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": -1.9213300346464088,
+      "score": -1.5,
       "last_signal_date": "2026-10-30",
       "token_name": "Ethena"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": -0.6404433448821364,
+      "score": -0.5000000000000001,
       "last_signal_date": "2026-10-30",
       "token_name": "ChainLink Token"
     },
@@ -93,19 +93,19 @@
     },
     "OP": {
       "symbol": "OP",
-      "score": 0.27907202366124884,
+      "score": 0.15406024744205746,
       "last_signal_date": "2026-10-23",
       "token_name": "Optimism"
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -0.5001775076085624,
+      "score": -0.3904931728977622,
       "last_signal_date": "2026-10-30",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 5.106577155522468,
+      "score": 4.401730717661069,
       "last_signal_date": "2026-11-01",
       "token_name": "UNI"
     },
@@ -117,13 +117,13 @@
     },
     "WLFI": {
       "symbol": "WLFI",
-      "score": -0.27602237841845306,
+      "score": -0.15237670677555942,
       "last_signal_date": "2026-10-23",
       "token_name": "World Liberty Financial"
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 1.3374944187807667,
+      "score": 1.0441941738241591,
       "last_signal_date": "2026-10-30",
       "token_name": "Arbitrum"
     },
@@ -147,13 +147,13 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": 2.0,
+      "score": 1.9033903060212392,
       "last_signal_date": "2026-11-03",
       "token_name": "NEAR"
     },
     "PEPE": {
       "symbol": "PEPE",
-      "score": -1.2808866897642728,
+      "score": -1.0000000000000002,
       "last_signal_date": "2026-10-30",
       "token_name": "Pepe"
     },
@@ -171,7 +171,7 @@
     },
     "XMR": {
       "symbol": "XMR",
-      "score": 0.6463275666625006,
+      "score": 0.39394106442517074,
       "last_signal_date": "2026-10-25",
       "token_name": "Monero"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 0.47584757650530984,
+      "score": 0.29003234654004073,
       "last_signal_date": "2026-10-25",
       "token_name": "Monad"
     },

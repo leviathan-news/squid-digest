@@ -1,5 +1,5 @@
 {
-  "cash": 7955.223536836995,
+  "cash": 8051.764223159769,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -236,8 +236,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.008591355688812157,
-      "entry_price": 77604.61935702298,
+      "quantity": -0.009795804988364756,
+      "entry_price": 77918.00420898857,
       "entry_date": "2026-11-03T20:12:17.090114",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -3794,6 +3794,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-04T20:26:51.359714",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.0012044492995526,
+      "price": 80153.383258752,
+      "value": 96.54068632277495,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4868,6 +4880,10 @@
     [
       "2026-11-03T20:12:17.090114",
       13271.946894305314
+    ],
+    [
+      "2026-11-04T20:26:51.359714",
+      13833.522450385262
     ]
   ]
 }
