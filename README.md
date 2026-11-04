@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Kim Yo Jong suggests US may be behind Binance hack** [𝕏/@w00tcake](https://leviathannews.xyz/redirect/328397?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **DefiLlama launches verification of onchain asset and vault backing, expanding beyond TVL tracking** [ꘜ/@defillama_tg](https://leviathannews.xyz/redirect/328449?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NEAR governance approves cut to token issuance ceiling, lowering it from 2.5% to 1.6% over 24 months** [The Block](https://leviathannews.xyz/redirect/328705?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance details how North Korean actors used tampered Homebrew, fake job interviews, and compromised internal AI tools to access wallet signing service** [𝕏/@binance](https://leviathannews.xyz/redirect/329001?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anchorage Digital says client assets are safe after Binance incident, details hardware-based custody controls** [𝕏/@nathanmccauley](https://leviathannews.xyz/redirect/328432?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Traversal AI raises $120M at $1B valuation to build self-maintaining production software** [𝕏/@_anish_agarwal](https://leviathannews.xyz/redirect/329435?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Elysium launches HyperEVM testnet with 15-second PvP trading battles on live Hyperliquid prices** [𝕏/@tonychilla_eth](https://leviathannews.xyz/redirect/329486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenHack launches AI security engineer powered by Claude Mythos, free scanning until Nov 11** [𝕏/@openhack](https://leviathannews.xyz/redirect/329538?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Varda Space opens $VARDA token round at $3B valuation to fund in-orbit drug manufacturing** [𝕏/@Starcap_xyz](https://leviathannews.xyz/redirect/329130?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nous Research opens Hermes mobile beta waitlist after rapid signups at NousCon 2026** [𝕏/@NousResearch](https://leviathannews.xyz/redirect/329401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/03/signals_2026-11-03.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/03/signals_2026-11-03.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/04/signals_2026-11-04.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/04/signals_2026-11-04.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
