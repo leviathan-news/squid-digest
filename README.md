@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Traversal AI raises $120M at $1B valuation to build self-maintaining production software** [𝕏/@_anish_agarwal](https://leviathannews.xyz/redirect/329435?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Elysium launches HyperEVM testnet with 15-second PvP trading battles on live Hyperliquid prices** [𝕏/@tonychilla_eth](https://leviathannews.xyz/redirect/329486?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenHack launches AI security engineer powered by Claude Mythos, free scanning until Nov 11** [𝕏/@openhack](https://leviathannews.xyz/redirect/329538?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Varda Space opens $VARDA token round at $3B valuation to fund in-orbit drug manufacturing** [𝕏/@Starcap_xyz](https://leviathannews.xyz/redirect/329130?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nous Research opens Hermes mobile beta waitlist after rapid signups at NousCon 2026** [𝕏/@NousResearch](https://leviathannews.xyz/redirect/329401?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Grok Bot can now make phone calls, according to post on X** [𝕏/@bot](https://leviathannews.xyz/redirect/329921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI launches ChatGPT Images 2.6 with GIF creation, reusable reference images, and two new API models** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/329995?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Axiommathai releases 16M-line formalization of the Stacks Project built by an agent swarm** [𝕏/@axiommathai](https://leviathannews.xyz/redirect/330039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arkansas sues Kalshi over alleged illegal gambling platform, citing mental harm** [The Block](https://leviathannews.xyz/redirect/330176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI prototype pipeline found and validated 948 Linux kernel privilege-escalation exploits** [Openai](https://leviathannews.xyz/redirect/329990?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/04/signals_2026-11-04.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/04/signals_2026-11-04.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/05/signals_2026-11-05.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/05/signals_2026-11-05.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
