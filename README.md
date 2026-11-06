@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Grok Bot can now make phone calls, according to post on X** [𝕏/@bot](https://leviathannews.xyz/redirect/329921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI launches ChatGPT Images 2.6 with GIF creation, reusable reference images, and two new API models** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/329995?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Axiommathai releases 16M-line formalization of the Stacks Project built by an agent swarm** [𝕏/@axiommathai](https://leviathannews.xyz/redirect/330039?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arkansas sues Kalshi over alleged illegal gambling platform, citing mental harm** [The Block](https://leviathannews.xyz/redirect/330176?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI prototype pipeline found and validated 948 Linux kernel privilege-escalation exploits** [Openai](https://leviathannews.xyz/redirect/329990?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Former FBI agent pleads guilty to cryptocurrency theft, Justice Department says** [justice.gov](https://leviathannews.xyz/redirect/330609?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Zipline raises $1.5B at $21.5B valuation and signs largest autonomous vehicle contract with Walmart** [𝕏/@Keller](https://leviathannews.xyz/redirect/330687?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AI agents cut exploit time to hours, but patching remains the bottleneck, 23 years of data show** [a16z.news](https://leviathannews.xyz/redirect/330614?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Buttonxyz launches Tailor, an AI tool aiming to bring institutional-grade trading intelligence to retail** [𝕏/@buttonxyz](https://leviathannews.xyz/redirect/330655?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Quest launches personal AI agent that maps your relationships and controls your messaging apps** [𝕏/@VNallatamby](https://leviathannews.xyz/redirect/330665?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/05/signals_2026-11-05.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/05/signals_2026-11-05.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/06/signals_2026-11-06.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/06/signals_2026-11-06.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
