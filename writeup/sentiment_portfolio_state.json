@@ -1,5 +1,5 @@
 {
-  "cash": 8051.764223159769,
+  "cash": 4225.884392406187,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -209,14 +209,6 @@
       "entry_date": "2026-10-09T18:49:47.325825",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "HYPE": {
-      "symbol": "HYPE",
-      "token_name": "HYPE",
-      "quantity": -31.54026970255503,
-      "entry_price": 77.23766455395644,
-      "entry_date": "2026-10-18T16:33:30.796138",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "LINK": {
       "symbol": "LINK",
       "token_name": "ChainLink Token",
@@ -240,6 +232,14 @@
       "entry_price": 77918.00420898857,
       "entry_date": "2026-11-03T20:12:17.090114",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "HYPE": {
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "quantity": 17.2758376794021,
+      "entry_price": 78.37330823652815,
+      "entry_date": "2026-11-06T19:58:09.463582",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -3806,6 +3806,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-06T19:58:09.463582",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "COVER",
+      "quantity": 31.54026970255503,
+      "price": 78.37330823652815,
+      "value": 2471.915279261575,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -35.81850803431416,
+      "entry_price": 77.23766455395644
+    },
+    {
+      "date": "2026-11-06T19:58:09.463582",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 17.2758376794021,
+      "price": 78.37330823652815,
+      "value": 1353.9645514920078,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4888,6 +4912,10 @@
     [
       "2026-11-05T20:42:01.665482",
       9469.241426755738
+    ],
+    [
+      "2026-11-06T19:58:09.463582",
+      9161.075177343666
     ]
   ]
 }
