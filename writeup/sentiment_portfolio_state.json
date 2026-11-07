@@ -1,5 +1,5 @@
 {
-  "cash": 4225.884392406187,
+  "cash": 6111.487656825499,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -56,14 +56,6 @@
       "entry_price": 2628.5058184553905,
       "entry_date": "2026-03-11T14:03:10.976040",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "SQUID": {
-      "symbol": "SQUID",
-      "token_name": "Leviathan Points",
-      "quantity": 346785.3380096301,
-      "entry_price": 0.0021863525555225988,
-      "entry_date": "2026-04-12T13:57:18.362748",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "AVAX": {
       "symbol": "AVAX",
@@ -236,10 +228,18 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": 17.2758376794021,
-      "entry_price": 78.37330823652815,
+      "quantity": 19.197430647451323,
+      "entry_price": 78.29311065085795,
       "entry_date": "2026-11-06T19:58:09.463582",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "SQUID": {
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "quantity": -859469.167159478,
+      "entry_price": 0.0016867628399324709,
+      "entry_date": "2026-11-07T18:03:42.102919",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3830,6 +3830,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-07T18:03:42.102919",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 1.921592968049226,
+      "price": 77.57210443603769,
+      "value": 149.0620104010702,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-07T18:03:42.102919",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "SELL",
+      "quantity": 346785.3380096301,
+      "price": 0.0016867628399324709,
+      "value": 584.9446215880655,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -173.25038838705746,
+      "entry_price": 0.0021863525555225988
+    },
+    {
+      "date": "2026-11-07T18:03:42.102919",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "SHORT",
+      "quantity": 859469.167159478,
+      "price": 0.0016867628399324709,
+      "value": 1449.7206532323166,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4916,6 +4952,10 @@
     [
       "2026-11-06T19:58:09.463582",
       9161.075177343666
+    ],
+    [
+      "2026-11-07T18:03:42.102919",
+      9103.682613802568
     ]
   ]
 }

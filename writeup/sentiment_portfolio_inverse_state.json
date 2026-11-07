@@ -1,5 +1,5 @@
 {
-  "cash": -2739.3402037705114,
+  "cash": -2975.694138300226,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -47,14 +47,6 @@
       "quantity": -643.7634508230508,
       "entry_price": 0.9676381405361252,
       "entry_date": "2026-02-12T14:09:40.932839",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "SQUID": {
-      "symbol": "SQUID",
-      "token_name": "Leviathan Points",
-      "quantity": -171204.60861949972,
-      "entry_price": 0.0022248630919136634,
-      "entry_date": "2026-04-12T13:57:18.362748",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "AVAX": {
@@ -220,8 +212,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": -5.410915006200909,
-      "entry_price": 78.37330823652815,
+      "quantity": -6.086771845408737,
+      "entry_price": 78.2843449762132,
       "entry_date": "2026-11-06T19:58:09.463582",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -3082,6 +3074,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-07T18:03:42.102919",
+      "symbol": "SQUID",
+      "token_name": "Leviathan Points",
+      "action": "COVER",
+      "quantity": 171204.60861949972,
+      "price": 0.0016867628399324709,
+      "value": 288.78157184455455,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 92.1252430384942,
+      "entry_price": 0.0022248630919136634
+    },
+    {
+      "date": "2026-11-07T18:03:42.102919",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "SHORT",
+      "quantity": 0.6758568392078286,
+      "price": 77.57210443603769,
+      "value": 52.42763731484001,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4168,6 +4184,10 @@
     [
       "2026-11-06T19:58:09.463582",
       5738.62756410653
+    ],
+    [
+      "2026-11-07T18:03:42.102919",
+      5772.8599249386625
     ]
   ]
 }
