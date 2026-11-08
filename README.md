@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Treasury cuts off MEXC Global over alleged $16 billion in transactions tied to Iran, North Korea and Russia** [The Block](https://leviathannews.xyz/redirect/331181?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Atomarine raises $19M seed round for nuclear-powered floating data centers** [𝕏/@DimitrisKoute](https://leviathannews.xyz/redirect/331174?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ondo says Anthropic will be tokenized onchain on its IPO day** [𝕏/@Ondo](https://leviathannews.xyz/redirect/331034?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI partners with Hacktron to hunt vulnerabilities in third-party service connections** [Openai](https://leviathannews.xyz/redirect/331183?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Startup open-sources AI simulation agent that cut data center cooling costs by $227k a year** [𝕏/@StandardPhys](https://leviathannews.xyz/redirect/331172?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance tells users in some European countries to withdraw crypto before fees begin, with accounts closing by year-end** [Coindesk](https://leviathannews.xyz/redirect/331351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BNB Chain's Red Alarm flags high-risk dApps and contracts to give users more information** [𝕏/@BNBCHAIN](https://leviathannews.xyz/redirect/331254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vitalik Buterin argues ETH as store of value makes more sense than ETH as fee-burning token** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/331374?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Saylor traces bitcoin treasury credit to four centuries of financial history** [𝕏/@saylor](https://leviathannews.xyz/redirect/331253?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Pudgy Penguins' Huddle launches Flake Finder, a free tool to locate forgotten funds across chains** [𝕏/@pudgypenguins](https://leviathannews.xyz/redirect/331354?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/07/signals_2026-11-07.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/07/signals_2026-11-07.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/08/signals_2026-11-08.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/08/signals_2026-11-08.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
