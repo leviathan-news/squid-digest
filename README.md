@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Binance tells users in some European countries to withdraw crypto before fees begin, with accounts closing by year-end** [Coindesk](https://leviathannews.xyz/redirect/331351?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BNB Chain's Red Alarm flags high-risk dApps and contracts to give users more information** [𝕏/@BNBCHAIN](https://leviathannews.xyz/redirect/331254?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vitalik Buterin argues ETH as store of value makes more sense than ETH as fee-burning token** [𝕏/@VitalikButerin](https://leviathannews.xyz/redirect/331374?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Saylor traces bitcoin treasury credit to four centuries of financial history** [𝕏/@saylor](https://leviathannews.xyz/redirect/331253?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Pudgy Penguins' Huddle launches Flake Finder, a free tool to locate forgotten funds across chains** [𝕏/@pudgypenguins](https://leviathannews.xyz/redirect/331354?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance's Bitcoin mining hashrate falls 65% to 9.2 EH/s as mining pool prepares to shut down after producing just one block in a week** [Coindesk](https://leviathannews.xyz/redirect/331546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Stablecoin payments surge 45% to $482 billion as total supply stagnates at $305 billion, signalling growing usage despite slower issuance** [Coindesk](https://leviathannews.xyz/redirect/331548?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana moves to scrap transaction feature exploited in $270 million Drift hack** [Coindesk](https://leviathannews.xyz/redirect/331544?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Galxe consolidates team and brand under Gravity, winds down Galxe Quest, ID, and Passport services** [𝕏/@Galxe](https://leviathannews.xyz/redirect/331564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Anthropic releases Claude Fable 5.2 and Mythos 5.2, citing gains in coding, science, and speed** [Anthropic](https://leviathannews.xyz/redirect/331921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/08/signals_2026-11-08.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/08/signals_2026-11-08.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/09/signals_2026-11-09.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/09/signals_2026-11-09.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
