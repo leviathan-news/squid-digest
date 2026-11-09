@@ -1,5 +1,5 @@
 {
-  "cash": -2861.4131435565637,
+  "cash": -5201.683976344231,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -38,14 +38,6 @@
       "token_name": "Optimism",
       "quantity": -4077.016977465261,
       "entry_price": 0.17399090636533984,
-      "entry_date": "2026-02-12T14:09:40.932839",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "NEAR": {
-      "symbol": "NEAR",
-      "token_name": "NEAR",
-      "quantity": -643.7634508230508,
-      "entry_price": 0.9676381405361252,
       "entry_date": "2026-02-12T14:09:40.932839",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -3110,6 +3102,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-09T23:00:29.662347",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "COVER",
+      "quantity": 643.7634508230508,
+      "price": 3.635296209804447,
+      "value": 2340.270832787668,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -1717.340764288132,
+      "entry_price": 0.9676381405361252
     }
   ],
   "daily_values": [
@@ -4204,6 +4208,10 @@
     [
       "2026-11-08T18:26:46.058262",
       6796.600126676778
+    ],
+    [
+      "2026-11-09T23:00:29.662347",
+      5701.949819689071
     ]
   ]
 }

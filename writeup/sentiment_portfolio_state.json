@@ -1,5 +1,5 @@
 {
-  "cash": 6437.657776211913,
+  "cash": 12965.020949011758,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -38,14 +38,6 @@
       "token_name": "Optimism",
       "quantity": 10038.647628476405,
       "entry_price": 0.1590330065176709,
-      "entry_date": "2026-02-13T13:58:53.500749",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "NEAR": {
-      "symbol": "NEAR",
-      "token_name": "NEAR",
-      "quantity": 1325.6867750688264,
-      "entry_price": 0.9951674394755292,
       "entry_date": "2026-02-13T13:58:53.500749",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -239,6 +231,14 @@
       "quantity": -859469.167159478,
       "entry_price": 0.0016867628399324709,
       "entry_date": "2026-11-07T18:03:42.102919",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "NEAR": {
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "quantity": -469.86516790502276,
+      "entry_price": 3.635296209804447,
+      "entry_date": "2026-11-09T23:00:29.662347",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3878,6 +3878,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-09T23:00:29.662347",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SELL",
+      "quantity": 1325.6867750688264,
+      "price": 3.635296209804447,
+      "value": 4819.264108795585,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 3499.9837953037695,
+      "entry_price": 0.9951674394755292
+    },
+    {
+      "date": "2026-11-09T23:00:29.662347",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SHORT",
+      "quantity": 469.86516790502276,
+      "price": 3.635296209804447,
+      "value": 1708.0990640042594,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4972,6 +4996,10 @@
     [
       "2026-11-08T18:26:46.058262",
       8623.329285357106
+    ],
+    [
+      "2026-11-09T23:00:29.662347",
+      10401.296828029017
     ]
   ]
 }
