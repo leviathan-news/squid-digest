@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Binance's Bitcoin mining hashrate falls 65% to 9.2 EH/s as mining pool prepares to shut down after producing just one block in a week** [Coindesk](https://leviathannews.xyz/redirect/331546?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Stablecoin payments surge 45% to $482 billion as total supply stagnates at $305 billion, signalling growing usage despite slower issuance** [Coindesk](https://leviathannews.xyz/redirect/331548?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana moves to scrap transaction feature exploited in $270 million Drift hack** [Coindesk](https://leviathannews.xyz/redirect/331544?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Galxe consolidates team and brand under Gravity, winds down Galxe Quest, ID, and Passport services** [𝕏/@Galxe](https://leviathannews.xyz/redirect/331564?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Anthropic releases Claude Fable 5.2 and Mythos 5.2, citing gains in coding, science, and speed** [Anthropic](https://leviathannews.xyz/redirect/331921?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Prediction markets hit record $194.1B quarter as Kalshi card deposits concentrate in states without legal sports betting** [𝕏/@Ommiii_](https://leviathannews.xyz/redirect/332064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Binance blocks MEXC transactions after FinCEN flags MEXC as a primary money laundering concern** [𝕏/@binance](https://leviathannews.xyz/redirect/332218?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NEAR AI discloses security breach after SGLang vulnerability exposed user data, 18 legacy AI agents and two customers' API keys** [near.ai](https://leviathannews.xyz/redirect/332082?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **MegaETH Foundation rebrands as MEGA, commits $30 million to new products starting with AI inference** [𝕏/@megaeth](https://leviathannews.xyz/redirect/332318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Nixorokish sues Ethereum Foundation over Mandate-related firing, per lex_node** [𝕏/@lex_node](https://leviathannews.xyz/redirect/332037?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/09/signals_2026-11-09.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/09/signals_2026-11-09.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/10/signals_2026-11-10.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/10/signals_2026-11-10.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
