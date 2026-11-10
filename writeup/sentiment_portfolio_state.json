@@ -1,5 +1,5 @@
 {
-  "cash": 12965.020949011758,
+  "cash": 12150.271691463251,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -209,14 +209,6 @@
       "entry_date": "2026-11-01T18:26:25.512644",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": -0.014095725432866541,
-      "entry_price": 77288.6573939671,
-      "entry_date": "2026-11-03T20:12:17.090114",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
@@ -236,10 +228,18 @@
     "NEAR": {
       "symbol": "NEAR",
       "token_name": "NEAR",
-      "quantity": -469.86516790502276,
-      "entry_price": 3.635296209804447,
+      "quantity": -661.28623628486,
+      "entry_price": 3.617884591500426,
       "entry_date": "2026-11-09T23:00:29.662347",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": 0.006267629417824419,
+      "entry_price": 73617.90281426466,
+      "entry_date": "2026-11-10T20:29:35.974245",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -3902,6 +3902,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-10T20:29:35.974245",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "COVER",
+      "quantity": 0.014095725432866541,
+      "price": 73617.90281426466,
+      "value": 1037.6977450133277,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 51.741948686923024,
+      "entry_price": 77288.6573939671
+    },
+    {
+      "date": "2026-11-10T20:29:35.974245",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "BUY",
+      "quantity": 0.006267629417824419,
+      "price": 73617.90281426466,
+      "value": 461.4097333572243,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-10T20:29:35.974245",
+      "symbol": "NEAR",
+      "token_name": "NEAR",
+      "action": "SHORT",
+      "quantity": 191.42106837983732,
+      "price": 3.5751457591077274,
+      "value": 684.3582208220457,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5000,6 +5036,10 @@
     [
       "2026-11-09T23:00:29.662347",
       10401.296828029017
+    ],
+    [
+      "2026-11-10T20:29:35.974245",
+      9986.130609232858
     ]
   ]
 }
