@@ -11,15 +11,16 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Prediction markets hit record $194.1B quarter as Kalshi card deposits concentrate in states without legal sports betting** [𝕏/@Ommiii_](https://leviathannews.xyz/redirect/332064?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Binance blocks MEXC transactions after FinCEN flags MEXC as a primary money laundering concern** [𝕏/@binance](https://leviathannews.xyz/redirect/332218?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NEAR AI discloses security breach after SGLang vulnerability exposed user data, 18 legacy AI agents and two customers' API keys** [near.ai](https://leviathannews.xyz/redirect/332082?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **MegaETH Foundation rebrands as MEGA, commits $30 million to new products starting with AI inference** [𝕏/@megaeth](https://leviathannews.xyz/redirect/332318?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Nixorokish sues Ethereum Foundation over Mandate-related firing, per lex_node** [𝕏/@lex_node](https://leviathannews.xyz/redirect/332037?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Jensen Huang Resigns as Nvidia CEO
+According to CNBC, Huang is stepping down after revelations about his relationship with a suspected Chinese spy, ending his 33 years leading the $4 trillion chipmaker.** [CNBC](https://leviathannews.xyz/redirect/333263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OKX-ICE sets November 23 launch for 24/7 tokenized US securities trading, with 70-plus assets expected despite issuer objections** [Reuters](https://leviathannews.xyz/redirect/333005?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **As AI agents become the internet's main users, businesses may soon compete for their business** [a16z.news](https://leviathannews.xyz/redirect/332973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethlabs proposes moving Ethereum's post-quantum upgrade to 2027, citing AI-accelerated risks** [The Block](https://leviathannews.xyz/redirect/333111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Google Cloud launches Professional Agentic Architect certification for building production-ready agents** [𝕏/@googlecloud](https://leviathannews.xyz/redirect/332991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/10/signals_2026-11-10.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/10/signals_2026-11-10.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/12/signals_2026-11-12.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/12/signals_2026-11-12.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
