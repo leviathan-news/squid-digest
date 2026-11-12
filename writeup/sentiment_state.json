@@ -1,21 +1,21 @@
 {
-  "last_processed_date": "2026-11-10",
+  "last_processed_date": "2026-11-12",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": 0.8861428141924296,
+      "score": 0.8026005167314976,
       "last_signal_date": "2026-11-10",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.9329811266363242,
+      "score": 0.8450230847061195,
       "last_signal_date": "2026-11-10",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 3.891893879123958,
+      "score": 3.524980385126421,
       "last_signal_date": "2026-11-10",
       "token_name": "Solana"
     },
@@ -33,8 +33,8 @@
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.3666882757045087,
-      "last_signal_date": "2026-11-10",
+      "score": 1.3321182487137013,
+      "last_signal_date": "2026-11-12",
       "token_name": "Ethereum"
     },
     "XRP": {
@@ -45,19 +45,19 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 1.7808560344008513,
+      "score": 1.323170948447369,
       "last_signal_date": "2026-11-06",
       "token_name": "HYPE"
     },
     "ENA": {
       "symbol": "ENA",
-      "score": -0.12008312716540054,
+      "score": -0.06308907152964169,
       "last_signal_date": "2026-10-30",
       "token_name": "Ethena"
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 4.0152148451920215,
+      "score": 3.4610060680229138,
       "last_signal_date": "2026-11-09",
       "token_name": "Avalanche"
     },
@@ -69,7 +69,7 @@
     },
     "LINK": {
       "symbol": "LINK",
-      "score": -0.04002770905513352,
+      "score": -0.021029690509880565,
       "last_signal_date": "2026-10-30",
       "token_name": "ChainLink Token"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": -0.03126109422553514,
-      "last_signal_date": "2026-10-30",
+      "score": 1.9835760988554776,
+      "last_signal_date": "2026-11-12",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 0.6383221444403087,
+      "score": 0.370268138800987,
       "last_signal_date": "2026-11-01",
       "token_name": "UNI"
     },
@@ -123,7 +123,7 @@
     },
     "ARB": {
       "symbol": "ARB",
-      "score": 0.08359340117379792,
+      "score": 0.043918160615484994,
       "last_signal_date": "2026-10-30",
       "token_name": "Arbitrum"
     },
@@ -135,7 +135,7 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": -0.7429971445684742,
+      "score": -0.5800646930800814,
       "last_signal_date": "2026-11-07",
       "token_name": "Leviathan Points"
     },
@@ -147,13 +147,13 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": -3.230440209705061,
+      "score": -2.925886143919531,
       "last_signal_date": "2026-11-10",
       "token_name": "NEAR"
     },
     "PEPE": {
       "symbol": "PEPE",
-      "score": -0.08005541811026703,
+      "score": -0.04205938101976113,
       "last_signal_date": "2026-10-30",
       "token_name": "Pepe"
     },
