@@ -11,16 +11,17 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Jensen Huang Resigns as Nvidia CEO
-According to CNBC, Huang is stepping down after revelations about his relationship with a suspected Chinese spy, ending his 33 years leading the $4 trillion chipmaker.** [CNBC](https://leviathannews.xyz/redirect/333263?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OKX-ICE sets November 23 launch for 24/7 tokenized US securities trading, with 70-plus assets expected despite issuer objections** [Reuters](https://leviathannews.xyz/redirect/333005?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **As AI agents become the internet's main users, businesses may soon compete for their business** [a16z.news](https://leviathannews.xyz/redirect/332973?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethlabs proposes moving Ethereum's post-quantum upgrade to 2027, citing AI-accelerated risks** [The Block](https://leviathannews.xyz/redirect/333111?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Google Cloud launches Professional Agentic Architect certification for building production-ready agents** [𝕏/@googlecloud](https://leviathannews.xyz/redirect/332991?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DOJ seizes $1.2 billion in stolen Binance crypto and FaceStealer cloud infrastructure in North Korea crackdown** [justice.gov](https://leviathannews.xyz/redirect/333571?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **TRM Labs launches Beacon Concierge to help police seize stolen crypto in minutes** [The Block](https://leviathannews.xyz/redirect/333687?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Live from Stable Summit 🔴
+Our friends and partners at Stable Summit are hosting a live-streamed event, and you're invited to tune in from wherever you are. 
+Stable Summit brings together builders, institutions and policymakers to talk about where stablecoins and digital money are heading, so it's a great chance to hear directly from the people shaping the space.** [Youtube](https://leviathannews.xyz/redirect/333739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Thailand's SEC proposes 5 million baht daily cap on stablecoin transfers to curb money laundering** [The Block](https://leviathannews.xyz/redirect/333750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Google releases Gemini 4 Hydrogen, claiming 2.5x faster task completion than 3.8 Flash** [𝕏/@sundarpichai](https://leviathannews.xyz/redirect/333547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/12/signals_2026-11-12.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/12/signals_2026-11-12.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/13/signals_2026-11-13.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/13/signals_2026-11-13.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
