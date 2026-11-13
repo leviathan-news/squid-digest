@@ -1,5 +1,5 @@
 {
-  "cash": -5065.036225564834,
+  "cash": -5597.73233844098,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -112,14 +112,6 @@
       "entry_price": 0.02019266634194888,
       "entry_date": "2026-06-26T15:34:59.646337",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": -0.8358428410133902,
-      "entry_price": 579.8242142299672,
-      "entry_date": "2026-07-16T09:40:41.164284",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "WLFI": {
       "symbol": "WLFI",
@@ -3134,6 +3126,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-13T20:30:29.813741",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "COVER",
+      "quantity": 0.8358428410133902,
+      "price": 637.3161158266261,
+      "value": 532.696112876146,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -48.0541943658136,
+      "entry_price": 579.8242142299672
     }
   ],
   "daily_values": [
@@ -4240,6 +4244,10 @@
     [
       "2026-11-12T20:50:57.150037",
       6163.477157583791
+    ],
+    [
+      "2026-11-13T20:30:29.813741",
+      6115.717963491684
     ]
   ]
 }

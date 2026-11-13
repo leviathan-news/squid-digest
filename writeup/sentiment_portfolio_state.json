@@ -1,5 +1,5 @@
 {
-  "cash": 11114.18877819417,
+  "cash": 12907.880837550798,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -121,14 +121,6 @@
       "entry_date": "2026-06-25T15:47:07.360703",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": 2.725168846547889,
-      "entry_price": 619.2494213577986,
-      "entry_date": "2026-07-16T09:40:41.164284",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "WLFI": {
       "symbol": "WLFI",
       "token_name": "World Liberty Financial",
@@ -244,10 +236,18 @@
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
-      "quantity": 9.06995398451463,
-      "entry_price": 114.23243326680749,
+      "quantity": 10.72765215857127,
+      "entry_price": 114.01811890427268,
       "entry_date": "2026-11-12T20:50:57.150037",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.3827956569043402,
+      "entry_price": 637.3161158266261,
+      "entry_date": "2026-11-13T20:30:29.813741",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -3958,6 +3958,42 @@
       "signal_type": "SENTIMENT_LONG",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-13T20:30:29.813741",
+      "symbol": "AAVE",
+      "token_name": "Aave",
+      "action": "BUY",
+      "quantity": 1.6576981740566403,
+      "price": 112.84551617306839,
+      "value": 187.06380611057455,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-13T20:30:29.813741",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SELL",
+      "quantity": 2.725168846547889,
+      "price": 637.3161158266261,
+      "value": 1736.7940242536274,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 49.23479292654747,
+      "entry_price": 619.2494213577986
+    },
+    {
+      "date": "2026-11-13T20:30:29.813741",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.3827956569043402,
+      "price": 637.3161158266261,
+      "value": 243.9618412135759,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5064,6 +5100,10 @@
     [
       "2026-11-12T20:50:57.150037",
       10120.030411694766
+    ],
+    [
+      "2026-11-13T20:30:29.813741",
+      9654.513421111023
     ]
   ]
 }
