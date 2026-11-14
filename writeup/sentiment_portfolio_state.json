@@ -1,5 +1,5 @@
 {
-  "cash": 12907.880837550798,
+  "cash": 13741.666972135554,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -225,14 +225,6 @@
       "entry_date": "2026-11-09T23:00:29.662347",
       "entry_signal": "SENTIMENT_SHORT"
     },
-    "BTC": {
-      "symbol": "BTC",
-      "token_name": "Bitcoin",
-      "quantity": 0.006267629417824419,
-      "entry_price": 73617.90281426466,
-      "entry_date": "2026-11-10T20:29:35.974245",
-      "entry_signal": "SENTIMENT_LONG"
-    },
     "AAVE": {
       "symbol": "AAVE",
       "token_name": "Aave",
@@ -247,6 +239,14 @@
       "quantity": -0.3827956569043402,
       "entry_price": 637.3161158266261,
       "entry_date": "2026-11-13T20:30:29.813741",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BTC": {
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "quantity": -0.006411248883021077,
+      "entry_price": 65761.82173222332,
+      "entry_date": "2026-11-14T18:45:27.752073",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3994,6 +3994,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-14T18:45:27.752073",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SELL",
+      "quantity": 0.006267629417824419,
+      "price": 65761.82173222332,
+      "value": 412.17072845860815,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -49.239004898616145,
+      "entry_price": 73617.90281426466
+    },
+    {
+      "date": "2026-11-14T18:45:27.752073",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.006411248883021077,
+      "price": 65761.82173222332,
+      "value": 421.61540612614795,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5104,6 +5128,10 @@
     [
       "2026-11-13T20:30:29.813741",
       9654.513421111023
+    ],
+    [
+      "2026-11-14T18:45:27.752073",
+      9118.917480863547
     ]
   ]
 }
