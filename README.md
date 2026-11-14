@@ -11,17 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DOJ seizes $1.2 billion in stolen Binance crypto and FaceStealer cloud infrastructure in North Korea crackdown** [justice.gov](https://leviathannews.xyz/redirect/333571?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **TRM Labs launches Beacon Concierge to help police seize stolen crypto in minutes** [The Block](https://leviathannews.xyz/redirect/333687?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Live from Stable Summit 🔴
-Our friends and partners at Stable Summit are hosting a live-streamed event, and you're invited to tune in from wherever you are. 
-Stable Summit brings together builders, institutions and policymakers to talk about where stablecoins and digital money are heading, so it's a great chance to hear directly from the people shaping the space.** [Youtube](https://leviathannews.xyz/redirect/333739?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Thailand's SEC proposes 5 million baht daily cap on stablecoin transfers to curb money laundering** [The Block](https://leviathannews.xyz/redirect/333750?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Google releases Gemini 4 Hydrogen, claiming 2.5x faster task completion than 3.8 Flash** [𝕏/@sundarpichai](https://leviathannews.xyz/redirect/333547?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LPs at $15B dinner discuss crypto's shift to frontier tech and whether crypto VCs are still needed** [𝕏/@lmrankhan](https://leviathannews.xyz/redirect/333988?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vaultyo launches public beta for multi-asset trading platform spanning crypto, TradFi and RWAs** [Globenewswire](https://leviathannews.xyz/redirect/334047?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paraguay's $350 million Bitcoin mining power deal faces 2027 cutoff as AI campus secures 286 MW under a 15-year electricity contract** [Coindesk](https://leviathannews.xyz/redirect/334045?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK, Singapore and Thailand central banks complete FX settlement trial linking traditional and tokenized systems** [The Block](https://leviathannews.xyz/redirect/334055?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **RWAs on Solana reach $4.8B market cap, led by tokenized funds at $3.7B** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/334002?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/13/signals_2026-11-13.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/13/signals_2026-11-13.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/14/signals_2026-11-14.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/14/signals_2026-11-14.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
