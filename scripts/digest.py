@@ -34,7 +34,7 @@ from squid_digest.backtest.newsletter_formatter import format_backtest_for_newsl
 from squid_digest.backtest.signal_parser import SignalParser
 from squid_digest.backtest.price_fetcher import PriceFetcher
 from squid_digest.backtest.sentiment_state import SentimentTracker
-from squid_digest.backtest.sentiment_portfolio import SentimentPortfolio, format_sentiment_portfolio_results, format_dual_sentiment_portfolios
+from squid_digest.backtest.sentiment_portfolio import SentimentPortfolio, format_sentiment_portfolio_results, format_dual_sentiment_portfolios, held_symbols
 
 # Allow ACTIVE_PROMPT to be overridden by environment variable
 ACTIVE_PROMPT = os.getenv('ACTIVE_PROMPT', DEFAULT_ACTIVE_PROMPT)
@@ -1602,9 +1602,14 @@ async def bundle_writeup(verbose=False):
                     logger.info(f"  Long candidates: {long_candidates}")
                     logger.info(f"  Short candidates: {short_candidates}")
 
-                # Fetch prices for candidates
+                # Fetch prices for candidates and every held position, so
+                # rebalance() can close rotated-out positions and value them
+                # at today's price instead of their entry price. BTC is always
+                # priced for the buy-and-hold benchmark.
                 price_fetcher = PriceFetcher()
-                all_candidates = set(long_candidates + short_candidates)
+                all_candidates = set(long_candidates + short_candidates) | {'BTC'} | held_symbols(
+                    SENTIMENT_PORTFOLIO_STATE_FILE, SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE
+                )
                 prices = {}
                 token_names = {}
 
@@ -1930,9 +1935,11 @@ async def bundle_writeup(verbose=False):
                                     logger.info(f"  Long candidates: {long_candidates}")
                                     logger.info(f"  Short candidates: {short_candidates}")
 
-                                # Fetch prices for candidates
+                                # Candidates plus held positions (see initial path above)
                                 retry_price_fetcher = PriceFetcher()
-                                all_candidates = set(long_candidates + short_candidates)
+                                all_candidates = set(long_candidates + short_candidates) | {'BTC'} | held_symbols(
+                                    SENTIMENT_PORTFOLIO_STATE_FILE, SENTIMENT_PORTFOLIO_INVERSE_STATE_FILE
+                                )
                                 prices = {}
                                 token_names = {}
 
