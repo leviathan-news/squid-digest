@@ -11,15 +11,16 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **LPs at $15B dinner discuss crypto's shift to frontier tech and whether crypto VCs are still needed** [𝕏/@lmrankhan](https://leviathannews.xyz/redirect/333988?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vaultyo launches public beta for multi-asset trading platform spanning crypto, TradFi and RWAs** [Globenewswire](https://leviathannews.xyz/redirect/334047?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Paraguay's $350 million Bitcoin mining power deal faces 2027 cutoff as AI campus secures 286 MW under a 15-year electricity contract** [Coindesk](https://leviathannews.xyz/redirect/334045?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **UK, Singapore and Thailand central banks complete FX settlement trial linking traditional and tokenized systems** [The Block](https://leviathannews.xyz/redirect/334055?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **RWAs on Solana reach $4.8B market cap, led by tokenized funds at $3.7B** [𝕏/@tokenterminal](https://leviathannews.xyz/redirect/334002?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **A Gnosis Safe compromised as $6.45M drained, including $4.3M USDC and $1.7M syrupUSDC** [𝕏/@PeckShieldAlert](https://leviathannews.xyz/redirect/334622?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **South Korea's Toss to launch non-custodial crypto wallet directly in its app** [The Block](https://leviathannews.xyz/redirect/334422?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **German parliament weighs crypto seizures without criminal charges, shifting burden of proof to holders** [Coindesk](https://leviathannews.xyz/redirect/334672?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Judge Acquits MIT Brothers in $25M Ethereum MEV Case
+A judge ruled that Anton and James Peraire-Bueno's honeypot scheme targeting sandwich bots wasn't wire fraud, as the trades fell outside regulated markets. This follows a 2025 mistrial.** [𝕏/@AggrNews](https://leviathannews.xyz/redirect/334814?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DBS and J.P. Morgan launch 24/7 cross-border tokenised deposit transfers between US and Singapore** [Dbs](https://leviathannews.xyz/redirect/334385?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/14/signals_2026-11-14.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/14/signals_2026-11-14.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/16/signals_2026-11-16.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/16/signals_2026-11-16.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
