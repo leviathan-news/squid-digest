@@ -1,5 +1,5 @@
 {
-  "cash": 13741.666972135554,
+  "cash": 14888.307560749128,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -16,14 +16,6 @@
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "SYRUP": {
-      "symbol": "SYRUP",
-      "token_name": "Maple Finance",
-      "quantity": 3014.546657125718,
-      "entry_price": 0.3966761435161592,
-      "entry_date": "2026-01-13T13:53:29.613208",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "CRV": {
       "symbol": "CRV",
@@ -247,6 +239,14 @@
       "quantity": -0.006411248883021077,
       "entry_price": 65761.82173222332,
       "entry_date": "2026-11-14T18:45:27.752073",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SYRUP": {
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "quantity": -7578.229597452999,
+      "entry_price": 0.1082474094662331,
+      "entry_date": "2026-11-16T22:54:58.052666",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -4018,6 +4018,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-16T22:54:58.052666",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SELL",
+      "quantity": 3014.546657125718,
+      "price": 0.1082474094662331,
+      "value": 326.3168663489518,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -869.4818760492074,
+      "entry_price": 0.3966761435161592
+    },
+    {
+      "date": "2026-11-16T22:54:58.052666",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "SHORT",
+      "quantity": 7578.229597452999,
+      "price": 0.1082474094662331,
+      "value": 820.3237222646216,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5132,6 +5156,10 @@
     [
       "2026-11-14T18:45:27.752073",
       9118.917480863547
+    ],
+    [
+      "2026-11-16T22:54:58.052666",
+      8008.822276628166
     ]
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "cash": -5719.79782364688,
+  "cash": -5775.7451434908935,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -16,14 +16,6 @@
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
       "entry_signal": "SENTIMENT_LONG"
-    },
-    "SYRUP": {
-      "symbol": "SYRUP",
-      "token_name": "Maple Finance",
-      "quantity": -1880.0347059188505,
-      "entry_price": 0.3961528931255436,
-      "entry_date": "2026-01-13T13:53:29.613208",
-      "entry_signal": "SENTIMENT_SHORT"
     },
     "CRV": {
       "symbol": "CRV",
@@ -68,8 +60,8 @@
     "SOL": {
       "symbol": "SOL",
       "token_name": "Solana",
-      "quantity": -14.014025648120949,
-      "entry_price": 83.41247993634735,
+      "quantity": -16.068948093641108,
+      "entry_price": 81.92858625889983,
       "entry_date": "2026-04-20T14:45:27.518127",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -3142,6 +3134,30 @@
       "signal_type": "SENTIMENT_FLIP",
       "pnl": 14.582265573497267,
       "entry_price": 73617.90281426466
+    },
+    {
+      "date": "2026-11-16T22:54:58.052666",
+      "symbol": "SYRUP",
+      "token_name": "Maple Finance",
+      "action": "COVER",
+      "quantity": 1880.0347059188505,
+      "price": 0.1082474094662331,
+      "value": 203.50888662232694,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 541.2723013038562,
+      "entry_price": 0.3961528931255436
+    },
+    {
+      "date": "2026-11-16T22:54:58.052666",
+      "symbol": "SOL",
+      "token_name": "Solana",
+      "action": "SHORT",
+      "quantity": 2.054922445520158,
+      "price": 71.80882524301862,
+      "value": 147.56156677831348,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4256,6 +4272,10 @@
     [
       "2026-11-14T18:45:27.752073",
       6400.280099736826
+    ],
+    [
+      "2026-11-16T22:54:58.052666",
+      6959.294085224238
     ]
   ]
 }
