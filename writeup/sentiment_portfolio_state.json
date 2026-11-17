@@ -1,5 +1,5 @@
 {
-  "cash": 14888.307560749128,
+  "cash": 16081.726091816401,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -247,6 +247,14 @@
       "quantity": -7578.229597452999,
       "entry_price": 0.1082474094662331,
       "entry_date": "2026-11-16T22:54:58.052666",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "SKY": {
+      "symbol": "SKY",
+      "token_name": "Sky",
+      "quantity": -22355.33883967701,
+      "entry_price": 0.053384050209480734,
+      "entry_date": "2026-11-17T21:47:40.528816",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -4042,6 +4050,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-17T21:47:40.528816",
+      "symbol": "SKY",
+      "token_name": "Sky",
+      "action": "SHORT",
+      "quantity": 22355.33883967701,
+      "price": 0.053384050209480734,
+      "value": 1193.4185310672722,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5160,6 +5180,10 @@
     [
       "2026-11-16T22:54:58.052666",
       8008.822276628166
+    ],
+    [
+      "2026-11-17T21:47:40.528816",
+      8033.01485622155
     ]
   ]
 }
