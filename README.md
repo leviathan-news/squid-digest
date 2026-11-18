@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **US introduces new AI chip export and remote-compute restrictions targeting China-linked access through overseas data centres** [Reuters](https://leviathannews.xyz/redirect/334881?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Grvt launches real-world asset perpetuals with funding rates tied to traditional market financing costs** [The Block](https://leviathannews.xyz/redirect/335138?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Optimizely confirms flaw let attackers inject scripts into 178 sites to steal crypto and card data** [Reuters](https://leviathannews.xyz/redirect/335018?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Wallet tied to Sky founder borrowed $1M days before company collapsed, report says** [𝕏/@Protos](https://leviathannews.xyz/redirect/334989?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NVIDIA unveils Nemotron for Science, open models and tools for building AI research agents** [𝕏/@NVIDIAAI](https://leviathannews.xyz/redirect/335015?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Babylon co-founder proposes sunsetting Bitcoin staking as 41,520 BTC remains staked** [forum.babylon.foundation](https://leviathannews.xyz/redirect/335737?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hyundai and JPMorgan test blockchain-based AI agents for cross-border transfers** [Coindesk](https://leviathannews.xyz/redirect/335653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Hong Kong's central bank explores agentic AI to monitor crypto transactions and detect money laundering across onchain and traditional financial systems** [The Block](https://leviathannews.xyz/redirect/335619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Trueo launches NFT-based public raise at 0.1 ETH per NFT, allocating 1,500 TRUE each** [𝕏/@Trueo_](https://leviathannews.xyz/redirect/335533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Blockaid flags K3 Capital sBOLD exploit on Ethereum, with ~$3.43M drained across ~34 transactions** [ꘜ/@Blockaid](https://leviathannews.xyz/redirect/335713?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/17/signals_2026-11-17.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/17/signals_2026-11-17.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/18/signals_2026-11-18.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/18/signals_2026-11-18.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
