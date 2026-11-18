@@ -1,5 +1,5 @@
 {
-  "cash": 16081.726091816401,
+  "cash": 13414.746661676852,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -15,14 +15,6 @@
       "quantity": -528894874.00071347,
       "entry_price": 5.970170935884221e-06,
       "entry_date": "2026-01-10T13:26:34.320813",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "CRV": {
-      "symbol": "CRV",
-      "token_name": "Curve DAO Token",
-      "quantity": -9800.183077078518,
-      "entry_price": 0.23835479537544554,
-      "entry_date": "2026-02-10T14:20:33.216514",
       "entry_signal": "SENTIMENT_SHORT"
     },
     "OP": {
@@ -52,8 +44,8 @@
     "MON": {
       "symbol": "MON",
       "token_name": "Monad",
-      "quantity": 53029.74417870554,
-      "entry_price": 0.02739500810661434,
+      "quantity": 89175.69963196732,
+      "entry_price": 0.022201047055494288,
       "entry_date": "2026-04-18T13:59:21.488802",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -236,8 +228,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.006411248883021077,
-      "entry_price": 65761.82173222332,
+      "quantity": -0.013457222391274436,
+      "entry_price": 64023.92597004396,
       "entry_date": "2026-11-14T18:45:27.752073",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -256,6 +248,14 @@
       "entry_price": 0.053384050209480734,
       "entry_date": "2026-11-17T21:47:40.528816",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "CRV": {
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "quantity": 3091.8555838979014,
+      "entry_price": 0.20011610808268943,
+      "entry_date": "2026-11-18T21:27:02.512345",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -4062,6 +4062,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-18T21:27:02.512345",
+      "symbol": "MON",
+      "token_name": "Monad",
+      "action": "BUY",
+      "quantity": 36145.955453261784,
+      "price": 0.014580984938967716,
+      "value": 527.0436320686081,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-18T21:27:02.512345",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "COVER",
+      "quantity": 9800.183077078518,
+      "price": 0.20011610808268943,
+      "value": 1961.1744958827885,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 374.7461360961661,
+      "entry_price": 0.23835479537544554
+    },
+    {
+      "date": "2026-11-18T21:27:02.512345",
+      "symbol": "CRV",
+      "token_name": "Curve DAO Token",
+      "action": "BUY",
+      "quantity": 3091.8555838979014,
+      "price": 0.20011610808268943,
+      "value": 618.7301062033793,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-18T21:27:02.512345",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.007045973508253359,
+      "price": 62442.585612884206,
+      "value": 439.96880401522446,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5184,6 +5232,10 @@
     [
       "2026-11-17T21:47:40.528816",
       8033.01485622155
+    ],
+    [
+      "2026-11-18T21:27:02.512345",
+      8866.761267888447
     ]
   ]
 }
