@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Babylon co-founder proposes sunsetting Bitcoin staking as 41,520 BTC remains staked** [forum.babylon.foundation](https://leviathannews.xyz/redirect/335737?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hyundai and JPMorgan test blockchain-based AI agents for cross-border transfers** [Coindesk](https://leviathannews.xyz/redirect/335653?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Hong Kong's central bank explores agentic AI to monitor crypto transactions and detect money laundering across onchain and traditional financial systems** [The Block](https://leviathannews.xyz/redirect/335619?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Trueo launches NFT-based public raise at 0.1 ETH per NFT, allocating 1,500 TRUE each** [𝕏/@Trueo_](https://leviathannews.xyz/redirect/335533?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Blockaid flags K3 Capital sBOLD exploit on Ethereum, with ~$3.43M drained across ~34 transactions** [ꘜ/@Blockaid](https://leviathannews.xyz/redirect/335713?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **North Korean hackers routed $518M through Sky's Peg Stability Module, Inca Digital says** [𝕏/@CoinDesk](https://leviathannews.xyz/redirect/336229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **1inch adds Hyperliquid perpetual futures to its dApp and wallet, starting on Android** [𝕏/@1inch](https://leviathannews.xyz/redirect/336231?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BNB Chain and Binance Wallet launch Agent ID Hackathon with 60,000 USDC prize pool** [𝕏/@BinanceWallet](https://leviathannews.xyz/redirect/335717?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Standard Chartered, StraitsX and OCBC complete tokenized deposit interoperability trial** [The Block](https://leviathannews.xyz/redirect/336124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arizona AG Kris Mayes opened a criminal investigation into OpenAI and other AI firms over the “apparent infiltration of banks by rogue AI agents” and potential ongoing state law violations.** [𝕏/@reuters](https://leviathannews.xyz/redirect/336091?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/18/signals_2026-11-18.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/18/signals_2026-11-18.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/19/signals_2026-11-19.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/19/signals_2026-11-19.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
