@@ -1,22 +1,22 @@
 {
-  "last_processed_date": "2026-11-18",
+  "last_processed_date": "2026-11-19",
   "sentiments": {
     "BTC": {
       "symbol": "BTC",
-      "score": -1.2769762044050579,
+      "score": -1.2152920642421918,
       "last_signal_date": "2026-11-18",
       "token_name": "Bitcoin"
     },
     "BNB": {
       "symbol": "BNB",
-      "score": 0.8573003830071984,
-      "last_signal_date": "2026-11-18",
+      "score": 1.8158886191820984,
+      "last_signal_date": "2026-11-19",
       "token_name": "BNB"
     },
     "SOL": {
       "symbol": "SOL",
-      "score": 4.231310946367355,
-      "last_signal_date": "2026-11-18",
+      "score": 5.026918118538589,
+      "last_signal_date": "2026-11-19",
       "token_name": "Solana"
     },
     "STETH": {
@@ -27,13 +27,13 @@
     },
     "CRV": {
       "symbol": "CRV",
-      "score": 0.9516951530106196,
+      "score": 0.8619728212469777,
       "last_signal_date": "2026-11-17",
       "token_name": "Curve DAO Token"
     },
     "ETH": {
       "symbol": "ETH",
-      "score": 0.6739079883454553,
+      "score": 0.641354966083507,
       "last_signal_date": "2026-11-18",
       "token_name": "Ethereum"
     },
@@ -45,8 +45,8 @@
     },
     "HYPE": {
       "symbol": "HYPE",
-      "score": 0.12288902955904438,
-      "last_signal_date": "2026-11-06",
+      "score": 2.0645632318134086,
+      "last_signal_date": "2026-11-19",
       "token_name": "HYPE"
     },
     "ENA": {
@@ -57,7 +57,7 @@
     },
     "AVAX": {
       "symbol": "AVAX",
-      "score": 0.6755098042005298,
+      "score": 0.41172783743471875,
       "last_signal_date": "2026-11-09",
       "token_name": "Avalanche"
     },
@@ -99,13 +99,13 @@
     },
     "AAVE": {
       "symbol": "AAVE",
-      "score": 0.8135988026114249,
+      "score": 0.5753012304917939,
       "last_signal_date": "2026-11-12",
       "token_name": "Aave"
     },
     "UNI": {
       "symbol": "UNI",
-      "score": 1.0,
+      "score": 0.9516951530106196,
       "last_signal_date": "2026-11-18",
       "token_name": "UNI"
     },
@@ -135,7 +135,7 @@
     },
     "SQUID": {
       "symbol": "SQUID",
-      "score": -0.06900559460461327,
+      "score": -0.038094176693889856,
       "last_signal_date": "2026-11-07",
       "token_name": "Leviathan Points"
     },
@@ -147,7 +147,7 @@
     },
     "NEAR": {
       "symbol": "NEAR",
-      "score": -0.7314715359798827,
+      "score": -0.46846607718902994,
       "last_signal_date": "2026-11-10",
       "token_name": "NEAR"
     },
@@ -159,7 +159,7 @@
     },
     "SYRUP": {
       "symbol": "SYRUP",
-      "score": -0.8619728212469777,
+      "score": -0.7429971445684742,
       "last_signal_date": "2026-11-16",
       "token_name": "Maple Finance"
     },
@@ -195,7 +195,7 @@
     },
     "MON": {
       "symbol": "MON",
-      "score": 2.0,
+      "score": 1.9033903060212392,
       "last_signal_date": "2026-11-18",
       "token_name": "Monad"
     },
@@ -267,14 +267,14 @@
     },
     "frxETH": {
       "symbol": "frxETH",
-      "score": 1.0507566386532192,
+      "score": 0.78070918215571,
       "last_signal_date": "2026-11-13",
       "token_name": "Frax Ether"
     },
     "SKY": {
       "symbol": "SKY",
-      "score": -1.9033903060212392,
-      "last_signal_date": "2026-11-17",
+      "score": -4.723945642493955,
+      "last_signal_date": "2026-11-19",
       "token_name": "Sky"
     }
   }

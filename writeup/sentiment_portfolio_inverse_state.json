@@ -1,5 +1,5 @@
 {
-  "cash": -841.4257055159018,
+  "cash": -578.6655644080064,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -191,6 +191,14 @@
       "quantity": -958.821726789786,
       "entry_price": 0.20011610808268943,
       "entry_date": "2026-11-18T21:27:02.512345",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": -0.4560324067524349,
+      "entry_price": 576.1874314571229,
+      "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_SHORT"
     }
   },
@@ -3194,6 +3202,18 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-19T21:39:29.476349",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.4560324067524349,
+      "price": 576.1874314571229,
+      "value": 262.7601411078954,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4320,6 +4340,10 @@
     [
       "2026-11-18T21:27:02.512345",
       5499.3793333591375
+    ],
+    [
+      "2026-11-19T21:39:29.476349",
+      5673.4471772052075
     ]
   ]
 }

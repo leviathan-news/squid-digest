@@ -1,5 +1,5 @@
 {
-  "cash": 13414.746661676852,
+  "cash": 13118.944625188517,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -217,14 +217,6 @@
       "entry_date": "2026-11-12T20:50:57.150037",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "BNB": {
-      "symbol": "BNB",
-      "token_name": "BNB",
-      "quantity": -0.3827956569043402,
-      "entry_price": 637.3161158266261,
-      "entry_date": "2026-11-13T20:30:29.813741",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
@@ -244,8 +236,8 @@
     "SKY": {
       "symbol": "SKY",
       "token_name": "Sky",
-      "quantity": -22355.33883967701,
-      "entry_price": 0.053384050209480734,
+      "quantity": -36937.664130101555,
+      "entry_price": 0.05146764107494771,
       "entry_date": "2026-11-17T21:47:40.528816",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -255,6 +247,14 @@
       "quantity": 3091.8555838979014,
       "entry_price": 0.20011610808268943,
       "entry_date": "2026-11-18T21:27:02.512345",
+      "entry_signal": "SENTIMENT_LONG"
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "quantity": 1.3587868390525768,
+      "entry_price": 576.1874314571229,
+      "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_LONG"
     }
   },
@@ -4110,6 +4110,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-19T21:39:29.476349",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "COVER",
+      "quantity": 0.3827956569043402,
+      "price": 576.1874314571229,
+      "value": 220.56204632465386,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 23.39979488892203,
+      "entry_price": 637.3161158266261
+    },
+    {
+      "date": "2026-11-19T21:39:29.476349",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 1.3587868390525768,
+      "price": 576.1874314571229,
+      "value": 782.9158986914473,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-19T21:39:29.476349",
+      "symbol": "SKY",
+      "token_name": "Sky",
+      "action": "SHORT",
+      "quantity": 14582.325290424544,
+      "price": 0.04852970252916107,
+      "value": 707.6759085277654,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5236,6 +5272,10 @@
     [
       "2026-11-18T21:27:02.512345",
       8866.761267888447
+    ],
+    [
+      "2026-11-19T21:39:29.476349",
+      8452.256070292162
     ]
   ]
 }

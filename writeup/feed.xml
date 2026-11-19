@@ -8,118 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 18 Nov 2026 21:27:58 +0000</lastBuildDate>
-    <item>
-      <title>📊 Crypto Trading Signals - October 13, 2026</title>
-      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/13/signals_2026-10-13.md</link>
-      <description>Market: BTC $83,162. (+0.53%), ETH $2,504. (-0.52%) | 13 trading signals</description>
-      <content:encoded>&lt;h1 id="crypto-trading-signals-october-13-2026"&gt;📊 Crypto Trading Signals - October 13, 2026&lt;/h1&gt;
-
-&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
-
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $83,162.00 (+0.53%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,504.44 (-0.52%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.5365 (-0.76%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/760/OP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OP&lt;/a&gt;&lt;/strong&gt;: $0.1531 (+12.2%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/3085/INV?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INV&lt;/a&gt;&lt;/strong&gt;: $10.74 (+2.6%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2881/NTRN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;NTRN&lt;/a&gt;&lt;/strong&gt;: $0.0005 (+2.5%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/333/NEAR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;NEAR&lt;/a&gt;&lt;/strong&gt;: $5.01 (-8.4%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2297/JESSE?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;JESSE&lt;/a&gt;&lt;/strong&gt;: $0.0012 (-5.0%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1178/LQTY?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;LQTY&lt;/a&gt;&lt;/strong&gt;: $0.2190 (-3.4%)&lt;/p&gt;
-
-&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
-
-&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261013124428_jUkGapBBUAM1_56e8b2880ff84fd0ae3c693e41133e9d_b08e9bebaeb63c930f4406b01048cdd7.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;1. DRW and Marex completed Canton's first OTC swap on a fully tokenized index: a total return swap on S&amp;P's iBoxx investment grade index, priced with signed values via Kaiko and run on Derivnex. - &lt;a href="https://leviathannews.xyz/redirect/318036?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Prnewswire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/658/s-andp"&gt;S&amp;P&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1990/canton"&gt;Canton&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1959/investment"&gt;Investment&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261013075102_kj7yluBo9wRq_efe66307ae7f4fada91fcb53f614864f_ac709ba2c01f963adb7ceed32df6e03e.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;2. Anthropic warns small AI models may be months away from copying themselves onto poorly secured smart devices like TV boxes and ovens, with no central off switch to stop them spreading. - &lt;a href="https://leviathannews.xyz/redirect/317927?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Reuters&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1404/anthropic"&gt;Anthropic&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261013073548_8alC1METeKE5_4900c1a5751349869ea226f58fe50550_a5056b31ad1a13bab90f25e1a0ea0815.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;3. Myth: Yandex outages silenced Russian troll bots. The traffic drop was mostly Yandex's own search crawlers. Troll farms run on proxies and Western clouds and are still active ahead of elections. - &lt;a href="https://leviathannews.xyz/redirect/317922?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@lukOlejnik&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261013054013_3qQ8EmXYch-X_a04387c0d5ef4f9da27dd7b65d1b55ad_086148bd198107032e5a1fdd6d26d255.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;4. Binance to shut down Binance Pool, Cloud Mining and Pool Savings on November 10, urging miners to migrate - &lt;a href="https://leviathannews.xyz/redirect/317891?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Binance&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/432/binance"&gt;Binance&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/563/cloud"&gt;cloud&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2213/shut-down"&gt;Shut Down&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261013054447_67jISljpE-Ef_5d7d89073bef455eb48cc513711d5a8b_c4f9e4caeb29f7d932cf697e642fb864.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;5. UK High Court ruling strengthens government’s position in £3.8B bitcoin seizure dispute involving Chinese fraud victims - &lt;a href="https://leviathannews.xyz/redirect/317894?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;FT&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1608/seizure"&gt;Seizure&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/217/bitcoin"&gt;Bitcoin&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1185/uk"&gt;UK&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
-
-&lt;p&gt;🟠 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK SELL - Binance shutting down its mining pool, cloud mining and pool savings on November 10 forces miner migration and adds near-term sell pressure&lt;/p&gt;
-
-&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
-
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+7.23) · SOL (+4.76) · XRP (+4.01) · UNI (+3.12) · SUI (+3.06)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; TRX (-1.21)&lt;/p&gt;
-
-&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,056.67&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-19.43%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-5,740.61&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (22):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE, ADA, TON
-&lt;strong&gt;Short (8):&lt;/strong&gt; PEPE, CRV, wstETH, rsETH, S, WLFI, DOGE, TRX&lt;/p&gt;
-
-&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$6,897.99&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-31.02%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$285.80&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (6):&lt;/strong&gt; PEPE, CRV, rsETH, S, WLFI, TRX
-&lt;strong&gt;Short (25):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, HYPE, ADA, TON, AAVE, AERO, SUI&lt;/p&gt;
-
-&lt;h3 id="todays-trades"&gt;Today's Trades&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;🔴 SHORT 271.4083 SUI @ $1.05&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete clown to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
-</content:encoded>
-      <author>squid@leviathannews.xyz (Squid Digest)</author>
-      <guid isPermaLink="false">squid-digest-2026-10-13</guid>
-      <category>trading-signals</category>
-      <category>crypto</category>
-      <category>ai-analysis</category>
-      <pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 19 Nov 2026 21:41:47 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - October 14, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/14/signals_2026-10-14.md</link>
@@ -3609,6 +3498,139 @@ A judge ruled that Anton and James Peraire-Bueno's honeypot scheme targeting san
       <category>crypto</category>
       <category>ai-analysis</category>
       <pubDate>Wed, 18 Nov 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>📊 Crypto Trading Signals - November 19, 2026</title>
+      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/11/19/signals_2026-11-19.md</link>
+      <description>Market: BTC $61,502. (-1.27%), ETH $1,738. (-1.36%) | 18 trading signals</description>
+      <content:encoded>&lt;h1 id="crypto-trading-signals-november-19-2026"&gt;📊 Crypto Trading Signals - November 19, 2026&lt;/h1&gt;
+
+&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
+
+&lt;p&gt;• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $61,502.00 (-1.27%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,738.75 (-1.36%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3366 (-2.48%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.0960 (+2.2%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/743/WLFI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;WLFI&lt;/a&gt;&lt;/strong&gt;: $0.0462 (+1.4%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/914/TON?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;TON&lt;/a&gt;&lt;/strong&gt;: $1.01 (+0.2%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/707/ENA?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ENA&lt;/a&gt;&lt;/strong&gt;: $0.1043 (-6.6%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/3085/INV?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INV&lt;/a&gt;&lt;/strong&gt;: $8.03 (-5.7%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2249/ARB?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ARB&lt;/a&gt;&lt;/strong&gt;: $0.1223 (-4.2%)&lt;/p&gt;
+
+&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
+
+&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261119121215_YVlY6gaSMZDC_21735fe35cf6412eb51806a9c0a456f7_ba8ef600196b62101c2966fafb625bf9.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. North Korean hackers routed $518M through Sky's Peg Stability Module, Inca Digital says - &lt;a href="https://leviathannews.xyz/redirect/336229?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@CoinDesk&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/220/dai"&gt;$DAI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/583/defi"&gt;DeFi&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/610/north-korea"&gt;North Korea&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261119121638_4hk7VeVazxnD_559e37de42b342c28e8e9eff93070146_e456f3b492daca1970478c642f3f37ff.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. 1inch adds Hyperliquid perpetual futures to its dApp and wallet, starting on Android - &lt;a href="https://leviathannews.xyz/redirect/336231?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@1inch&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/505/hyperliquid"&gt;Hyperliquid&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/966/wallet"&gt;Wallet&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1214/1inch"&gt;1inch&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261118125559_H3IP88ZOb6qX_4b1613cff2564844a9eba893e43caf45_37bb47dd08f1a58e88e3276d7968fe5c.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. BNB Chain and Binance Wallet launch Agent ID Hackathon with 60,000 USDC prize pool - &lt;a href="https://leviathannews.xyz/redirect/335717?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@BinanceWallet&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/218/usdc"&gt;$USDC&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/219/circle"&gt;Circle&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/431/bnb"&gt;$BNB&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261119071503_T42tp31BdRVb_4e1c34cf9c16427c851698d54b88c41b_aeeea142bb015c5695a98c52b86a0a96.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Standard Chartered, StraitsX and OCBC complete tokenized deposit interoperability trial - &lt;a href="https://leviathannews.xyz/redirect/336124?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1863/standard-chartered"&gt;Standard Chartered&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2002/trial"&gt;Trial&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2947/straitsx"&gt;StraitsX&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261119053341_rEg9FTOderva_556806dcea2e45099108fe340cfc0965_0e0ee3215957c75a69a5602674c51d6a.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. Arizona AG Kris Mayes opened a criminal investigation into OpenAI and other AI firms over the “apparent infiltration of banks by rogue AI agents” and potential ongoing state law violations. - &lt;a href="https://leviathannews.xyz/redirect/336091?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@reuters&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1140/openai"&gt;OpenAI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1469/ai-agents"&gt;AI Agents&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
+
+&lt;p&gt;🔴 Sky (&lt;a href="https://leviathannews.xyz/t/2776/SKY?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SKY&lt;/a&gt;): STRONG SELL - North Korean hackers allegedly routed $518M through Sky's Peg Stability Module, a massive compliance and reputational red flag that could trigger scrutiny and outflows&lt;/p&gt;
+
+&lt;p&gt;🟢 HYPE (&lt;a href="https://leviathannews.xyz/t/1335/HYPE?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$HYPE&lt;/a&gt;): BUY - 1inch integrating Hyperliquid perpetual futures into its dApp and wallet expands retail access and trading volume for the ecosystem&lt;/p&gt;
+
+&lt;p&gt;🟡 BNB (&lt;a href="https://leviathannews.xyz/t/431/BNB?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BNB&lt;/a&gt;): WEAK BUY - BNB Chain and Binance Wallet's Agent ID Hackathon with 60,000 USDC prize pool signals continued ecosystem investment and developer activity&lt;/p&gt;
+
+&lt;p&gt;🟡 Solana (&lt;a href="https://leviathannews.xyz/t/656/SOL?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SOL&lt;/a&gt;): WEAK BUY - PDAX opening Philippine government dollar bonds to stablecoin-funded purchases on Solana from $200 adds real-world asset utility and retail demand&lt;/p&gt;
+
+&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
+
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; SOL (+5.03) · HYPE (+2.06) · MON (+1.90) · BNB (+1.82) · UNI (+0.95)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; SYRUP (-0.74) · BTC (-1.22) · SKY (-4.72)&lt;/p&gt;
+
+&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-34.14%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+18.67%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-9.12%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,452.26&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-15.48%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$13,118.94&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (18):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XMR, ETH, XRP, ADA, TON, HYPE, AAVE, CRV, BNB
+&lt;strong&gt;Short (14):&lt;/strong&gt; PEPE, wstETH, rsETH, S, WLFI, DOGE, TRX, LINK, ENA, SQUID, NEAR, BTC, SYRUP, SKY&lt;/p&gt;
+
+&lt;h3 id="todays-trades"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🟢 BUY 1.3588 BNB @ $576.19&lt;/li&gt;
+&lt;li&gt;🔴 SHORT 14582.3253 SKY @ $0.05&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$5,673.45&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-43.27%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-578.67&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (5):&lt;/strong&gt; PEPE, rsETH, S, WLFI, TRX
+&lt;strong&gt;Short (20):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XMR, ETH, XRP, ADA, TON, AAVE, AERO, SUI, HYPE, CRV, BNB&lt;/p&gt;
+
+&lt;h3 id="todays-trades-2"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🔴 SHORT 0.4560 BNB @ $576.19&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete clodpoll to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+</content:encoded>
+      <author>squid@leviathannews.xyz (Squid Digest)</author>
+      <guid isPermaLink="false">squid-digest-2026-11-19</guid>
+      <category>trading-signals</category>
+      <category>crypto</category>
+      <category>ai-analysis</category>
+      <pubDate>Thu, 19 Nov 2026 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
