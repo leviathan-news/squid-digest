@@ -11,15 +11,16 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **North Korean hackers routed $518M through Sky's Peg Stability Module, Inca Digital says** [𝕏/@CoinDesk](https://leviathannews.xyz/redirect/336229?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **1inch adds Hyperliquid perpetual futures to its dApp and wallet, starting on Android** [𝕏/@1inch](https://leviathannews.xyz/redirect/336231?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BNB Chain and Binance Wallet launch Agent ID Hackathon with 60,000 USDC prize pool** [𝕏/@BinanceWallet](https://leviathannews.xyz/redirect/335717?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Standard Chartered, StraitsX and OCBC complete tokenized deposit interoperability trial** [The Block](https://leviathannews.xyz/redirect/336124?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Arizona AG Kris Mayes opened a criminal investigation into OpenAI and other AI firms over the “apparent infiltration of banks by rogue AI agents” and potential ongoing state law violations.** [𝕏/@reuters](https://leviathannews.xyz/redirect/336091?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Arch Prime opens pre-deposits in USDC and BTC with day-one yield and points toward early access** [𝕏/@Arch_Prime](https://leviathannews.xyz/redirect/336628?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **AMINA Bank becomes Europe's first bank to offer institutional custody and on/off-ramp services for Bridge's Open USD stablecoin** [Businesswire](https://leviathannews.xyz/redirect/336688?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **XMR1 on Hyperliquid drops from $494 to $1 after deployer-linked wallet moves 5.2M tokens** [𝕏/@GoPlusSecurity](https://leviathannews.xyz/redirect/336696?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum's Glamsterdam upgrade slips to 2027 as developers work to fix affected smart contracts** [Coindesk](https://leviathannews.xyz/redirect/336665?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Meta rethinks net-zero as AI emissions soar
+According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's now "re-evaluating" its 2030 net-zero goal.** [Axios](https://leviathannews.xyz/redirect/336656?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/19/signals_2026-11-19.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/19/signals_2026-11-19.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/20/signals_2026-11-20.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/20/signals_2026-11-20.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
