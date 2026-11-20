@@ -271,3 +271,48 @@ class TestFormatResults:
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
+
+
+class TestStalePositionRotation:
+    """Positions that fall out of the targets must be priced so they can close.
+
+    Production state (2026-09) held 32 positions against 8 targets: digest.py
+    only priced today's candidates, so rebalance() skipped closing anything
+    else and valued it at entry price forever.
+    """
+
+    def _held_portfolio(self, tmp_path):
+        portfolio = SentimentPortfolio(cash=10000.0)
+        day1 = datetime(2026, 1, 9)
+        portfolio.rebalance(
+            long_targets=["POL", "ETH"], short_targets=["PEPE"],
+            prices={"POL": 0.5, "ETH": 3000.0, "PEPE": 0.00001}, date=day1,
+        )
+        state = tmp_path / "state.json"
+        portfolio.save(state)
+        return state
+
+    def test_held_symbols_lists_positions_across_state_files(self, tmp_path):
+        from squid_digest.backtest.sentiment_portfolio import held_symbols
+
+        state = self._held_portfolio(tmp_path)
+        missing = tmp_path / "missing.json"
+        assert held_symbols(state, missing) == {"POL", "ETH", "PEPE"}
+
+    def test_rotated_out_positions_close_when_held_symbols_are_priced(self, tmp_path):
+        from squid_digest.backtest.sentiment_portfolio import held_symbols
+
+        state = self._held_portfolio(tmp_path)
+        portfolio = SentimentPortfolio.load(state)
+        candidates = ["SOL"]
+        all_prices = {"POL": 0.25, "ETH": 3300.0, "PEPE": 0.00002, "SOL": 150.0}
+        symbols = set(candidates) | held_symbols(state)
+        prices = {s: all_prices[s] for s in symbols}
+
+        result = portfolio.rebalance(
+            long_targets=["SOL"], short_targets=[], prices=prices, date=datetime(2026, 9, 24),
+        )
+
+        assert result["long_positions"] == ["SOL"]
+        assert result["short_positions"] == []
+        assert {r.split()[1] for r in result["rotations"]} == {"POL", "ETH", "PEPE"}
