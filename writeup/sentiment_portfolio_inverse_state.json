@@ -1,5 +1,5 @@
 {
-  "cash": -578.6655644080064,
+  "cash": -2080.8171160734146,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -105,22 +105,6 @@
       "entry_date": "2026-07-19T14:35:19.464652",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "XMR": {
-      "symbol": "XMR",
-      "token_name": "XMR",
-      "quantity": -1.9701405352064156,
-      "entry_price": 334.66462706953286,
-      "entry_date": "2026-07-19T14:35:19.464652",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.4037464596263569,
-      "entry_price": 1893.8902637504766,
-      "entry_date": "2026-08-15T13:44:23.043986",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "XRP": {
       "symbol": "XRP",
       "token_name": "XRP",
@@ -196,8 +180,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": -0.4560324067524349,
-      "entry_price": 576.1874314571229,
+      "quantity": -0.5096381726275472,
+      "entry_price": 571.6937799272043,
       "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_SHORT"
     }
@@ -3214,6 +3198,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.4037464596263569,
+      "price": 1601.3689411686225,
+      "value": 646.5470405524392,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 118.10444835764304,
+      "entry_price": 1893.8902637504766
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "action": "COVER",
+      "quantity": 1.9701405352064156,
+      "price": 448.80115276500794,
+      "value": 884.201343309709,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -224.8649958202841,
+      "entry_price": 334.66462706953286
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "SHORT",
+      "quantity": 0.05360576587511233,
+      "price": 533.4656026249759,
+      "value": 28.596832196740166,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -4344,6 +4364,10 @@
     [
       "2026-11-19T21:39:29.476349",
       5673.4471772052075
+    ],
+    [
+      "2026-11-20T21:07:40.930574",
+      5801.412178227919
     ]
   ]
 }

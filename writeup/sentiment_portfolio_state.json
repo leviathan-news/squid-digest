@@ -1,5 +1,5 @@
 {
-  "cash": 13118.944625188517,
+  "cash": 18205.87714872579,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -112,22 +112,6 @@
       "entry_price": 0.057314562160049605,
       "entry_date": "2026-07-16T09:40:41.164284",
       "entry_signal": "SENTIMENT_SHORT"
-    },
-    "XMR": {
-      "symbol": "XMR",
-      "token_name": "XMR",
-      "quantity": 4.409548825803347,
-      "entry_price": 334.66462706953286,
-      "entry_date": "2026-07-19T14:35:19.464652",
-      "entry_signal": "SENTIMENT_LONG"
-    },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": 1.194873285010627,
-      "entry_price": 1894.64253109065,
-      "entry_date": "2026-08-15T13:44:23.043986",
-      "entry_signal": "SENTIMENT_LONG"
     },
     "XRP": {
       "symbol": "XRP",
@@ -256,6 +240,22 @@
       "entry_price": 576.1874314571229,
       "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_LONG"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": -0.23953661639459045,
+      "entry_price": 1601.3689411686225,
+      "entry_date": "2026-11-20T21:07:40.930574",
+      "entry_signal": "SENTIMENT_SHORT"
+    },
+    "XMR": {
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "quantity": -1.8068190273848734,
+      "entry_price": 448.80115276500794,
+      "entry_date": "2026-11-20T21:07:40.930574",
+      "entry_signal": "SENTIMENT_SHORT"
     }
   },
   "trades": [
@@ -4146,6 +4146,54 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SELL",
+      "quantity": 1.194873285010627,
+      "price": 1601.3689411686225,
+      "value": 1913.4329672481415,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -350.42477779699243,
+      "entry_price": 1894.64253109065
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "SHORT",
+      "quantity": 0.23953661639459045,
+      "price": 1601.3689411686225,
+      "value": 383.5864977669198,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "XMR",
+      "token_name": "XMR",
+      "action": "SELL",
+      "quantity": 4.409548825803347,
+      "price": 448.80115276500794,
+      "value": 1979.0105961941292,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": 503.29058286175564,
+      "entry_price": 334.66462706953286
+    },
+    {
+      "date": "2026-11-20T21:07:40.930574",
+      "symbol": "XMR",
+      "token_name": "Monero",
+      "action": "SHORT",
+      "quantity": 1.8068190273848734,
+      "price": 448.80115276500794,
+      "value": 810.9024623280817,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5276,6 +5324,10 @@
     [
       "2026-11-19T21:39:29.476349",
       8452.256070292162
+    ],
+    [
+      "2026-11-20T21:07:40.930574",
+      8032.318477126439
     ]
   ]
 }
