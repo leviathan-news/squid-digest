@@ -11,16 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Arch Prime opens pre-deposits in USDC and BTC with day-one yield and points toward early access** [𝕏/@Arch_Prime](https://leviathannews.xyz/redirect/336628?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **AMINA Bank becomes Europe's first bank to offer institutional custody and on/off-ramp services for Bridge's Open USD stablecoin** [Businesswire](https://leviathannews.xyz/redirect/336688?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **XMR1 on Hyperliquid drops from $494 to $1 after deployer-linked wallet moves 5.2M tokens** [𝕏/@GoPlusSecurity](https://leviathannews.xyz/redirect/336696?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum's Glamsterdam upgrade slips to 2027 as developers work to fix affected smart contracts** [Coindesk](https://leviathannews.xyz/redirect/336665?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Meta rethinks net-zero as AI emissions soar
-According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's now "re-evaluating" its 2030 net-zero goal.** [Axios](https://leviathannews.xyz/redirect/336656?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **DCG-spun-out Zcash miner Fortitude wins shareholder approval for merger, advancing its planned Nasdaq listing under the ticker TUDE.** [The Block](https://leviathannews.xyz/redirect/337115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **FBI National Crime Information Center database has been hacked** [Detroitnews](https://leviathannews.xyz/redirect/337101?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI shares research on detecting and disrupting AI model distillation** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/337028?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **NVIDIA expands Microsoft partnership across Azure, Foundry, and edge AI** [𝕏/@NVIDIAAIInfra](https://leviathannews.xyz/redirect/337029?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Vercel completes ISO 42001 certification, bringing independently audited AI governance to its infrastructure, AI Gateway, Vercel Agent and v0 products** [𝕏/@vercel](https://leviathannews.xyz/redirect/337046?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/20/signals_2026-11-20.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/20/signals_2026-11-20.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/21/signals_2026-11-21.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/21/signals_2026-11-21.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)

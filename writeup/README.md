@@ -15,18 +15,20 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 ---
 
 <!-- DAILY_UPDATE_START -->
-## 🔥 Latest Headlines (November 20, 2026)
+## 🔥 Latest Headlines (November 21, 2026)
 
 - ***No headlines found***
 
-📊 [View Full Analysis →](writeup/2026/11/20/signals_2026-11-20.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/11/20/signals_2026-11-20.md)
+📊 [View Full Analysis →](writeup/2026/11/21/signals_2026-11-21.md) | 🌐 [Read on Web](https://digest.leviathannews.xyz) | 📝 [Read on GitHub](https://github.com/leviathan-news/squid-digest/blob/main/writeup/2026/11/21/signals_2026-11-21.md)
 
 ---
 
 
 ## 📚 Recent Publications (Last 4 Weeks)
 
-### 📅 This Week (Nov 13 - Nov 20)
+### 📅 This Week (Nov 14 - Nov 21)
+
+[**Saturday, November 21, 2026**](writeup/2026/11/21/signals_2026-11-21.md)
 
 [**Friday, November 20, 2026**](writeup/2026/11/20/signals_2026-11-20.md)
 
@@ -40,9 +42,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, November 14, 2026**](writeup/2026/11/14/signals_2026-11-14.md)
 
-[**Friday, November 13, 2026**](writeup/2026/11/13/signals_2026-11-13.md)
+### 📅 Last Week (Nov 07 - Nov 13)
 
-### 📅 Last Week (Nov 06 - Nov 12)
+[**Friday, November 13, 2026**](writeup/2026/11/13/signals_2026-11-13.md)
 
 [**Thursday, November 12, 2026**](writeup/2026/11/12/signals_2026-11-12.md)
 
@@ -54,9 +56,9 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Saturday, November 07, 2026**](writeup/2026/11/07/signals_2026-11-07.md)
 
-[**Friday, November 06, 2026**](writeup/2026/11/06/signals_2026-11-06.md)
+### 📅 Week of Nov 01 - Nov 06
 
-### 📅 Week of Oct 30 - Nov 05
+[**Friday, November 06, 2026**](writeup/2026/11/06/signals_2026-11-06.md)
 
 [**Thursday, November 05, 2026**](writeup/2026/11/05/signals_2026-11-05.md)
 
@@ -68,13 +70,11 @@ All writeups are organized by date in folders: `YYYY/MM/DD/`
 
 [**Sunday, November 01, 2026**](writeup/2026/11/01/signals_2026-11-01.md)
 
+### 📅 Week of Oct 25 - Oct 30
+
 [**Friday, October 30, 2026**](writeup/2026/10/30/signals_2026-10-30.md)
 
-### 📅 Week of Oct 24 - Oct 25
-
 [**Sunday, October 25, 2026**](writeup/2026/10/25/signals_2026-10-25.md)
-
-[**Saturday, October 24, 2026**](writeup/2026/10/24/signals_2026-10-24.md)
 <!-- DAILY_UPDATE_END -->
 
 ---
