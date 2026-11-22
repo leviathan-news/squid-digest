@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **DCG-spun-out Zcash miner Fortitude wins shareholder approval for merger, advancing its planned Nasdaq listing under the ticker TUDE.** [The Block](https://leviathannews.xyz/redirect/337115?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **FBI National Crime Information Center database has been hacked** [Detroitnews](https://leviathannews.xyz/redirect/337101?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI shares research on detecting and disrupting AI model distillation** [𝕏/@OpenAI](https://leviathannews.xyz/redirect/337028?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **NVIDIA expands Microsoft partnership across Azure, Foundry, and edge AI** [𝕏/@NVIDIAAIInfra](https://leviathannews.xyz/redirect/337029?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Vercel completes ISO 42001 certification, bringing independently audited AI governance to its infrastructure, AI Gateway, Vercel Agent and v0 products** [𝕏/@vercel](https://leviathannews.xyz/redirect/337046?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Malaysia hackathon contract reportedly asks founders for 10% equity, derivative coverage, and 2% seed commission** [𝕏/@jackminong](https://leviathannews.xyz/redirect/337258?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **LangChain's Harrison Chase outlines "knowledge factory" approach for giving AI agents company-specific knowledge** [𝕏/@hwchase17](https://leviathannews.xyz/redirect/337250?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kalshi faces Monday hearing on New York order it says would shut down exchange nationwide** [Coindesk](https://leviathannews.xyz/redirect/337237?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cyber's CYBER token suspected bridge exploit: 5.21M tokens minted on Solana, sold for ETH** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/337240?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenRouter off-boards 3 inference providers after researchers flag data-handling issues** [𝕏/@OpenRouter](https://leviathannews.xyz/redirect/337245?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/21/signals_2026-11-21.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/21/signals_2026-11-21.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/22/signals_2026-11-22.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/22/signals_2026-11-22.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
