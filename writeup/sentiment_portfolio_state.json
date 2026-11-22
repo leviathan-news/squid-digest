@@ -1,5 +1,5 @@
 {
-  "cash": 18205.87714872579,
+  "cash": 19067.649003847055,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -172,8 +172,8 @@
     "HYPE": {
       "symbol": "HYPE",
       "token_name": "HYPE",
-      "quantity": 19.197430647451323,
-      "entry_price": 78.29311065085795,
+      "quantity": 25.13237214902935,
+      "entry_price": 74.53576433810485,
       "entry_date": "2026-11-06T19:58:09.463582",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -204,8 +204,8 @@
     "BTC": {
       "symbol": "BTC",
       "token_name": "Bitcoin",
-      "quantity": -0.013457222391274436,
-      "entry_price": 64023.92597004396,
+      "quantity": -0.04412740433687477,
+      "entry_price": 61602.88735004715,
       "entry_date": "2026-11-14T18:45:27.752073",
       "entry_signal": "SENTIMENT_SHORT"
     },
@@ -236,8 +236,8 @@
     "BNB": {
       "symbol": "BNB",
       "token_name": "BNB",
-      "quantity": 1.3587868390525768,
-      "entry_price": 576.1874314571229,
+      "quantity": 2.4844421772757226,
+      "entry_price": 566.6066044339824,
       "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_LONG"
     },
@@ -4194,6 +4194,42 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-22T20:25:51.672342",
+      "symbol": "HYPE",
+      "token_name": "HYPE",
+      "action": "BUY",
+      "quantity": 5.934941501578029,
+      "price": 62.38208173847757,
+      "value": 370.2340058645234,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-22T20:25:51.672342",
+      "symbol": "BNB",
+      "token_name": "BNB",
+      "action": "BUY",
+      "quantity": 1.1256553382231458,
+      "price": 555.041517658103,
+      "value": 624.78544728732,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
+    },
+    {
+      "date": "2026-11-22T20:25:51.672342",
+      "symbol": "BTC",
+      "token_name": "Bitcoin",
+      "action": "SHORT",
+      "quantity": 0.030670181945600335,
+      "price": 60540.60297283188,
+      "value": 1856.7913082731063,
+      "signal_type": "SENTIMENT_SHORT",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5332,6 +5368,10 @@
     [
       "2026-11-21T20:07:25.713686",
       8263.901342291847
+    ],
+    [
+      "2026-11-22T20:25:51.672342",
+      8904.998887267859
     ]
   ]
 }
