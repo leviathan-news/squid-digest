@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Malaysia hackathon contract reportedly asks founders for 10% equity, derivative coverage, and 2% seed commission** [𝕏/@jackminong](https://leviathannews.xyz/redirect/337258?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **LangChain's Harrison Chase outlines "knowledge factory" approach for giving AI agents company-specific knowledge** [𝕏/@hwchase17](https://leviathannews.xyz/redirect/337250?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Kalshi faces Monday hearing on New York order it says would shut down exchange nationwide** [Coindesk](https://leviathannews.xyz/redirect/337237?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cyber's CYBER token suspected bridge exploit: 5.21M tokens minted on Solana, sold for ETH** [𝕏/@TheBlockCo](https://leviathannews.xyz/redirect/337240?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenRouter off-boards 3 inference providers after researchers flag data-handling issues** [𝕏/@OpenRouter](https://leviathannews.xyz/redirect/337245?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI, Anthropic and rivals back AI agent standards to prevent commerce chaos** [Coindesk](https://leviathannews.xyz/redirect/337341?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Solana launches AI platform combining autonomous agents, confidential computing and stablecoin payments** [𝕏/@solana](https://leviathannews.xyz/redirect/337405?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Cross River Bank launches first bitcoin-backed loans with LendingUSA, offering up to $250,000** [The Block](https://leviathannews.xyz/redirect/337499?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Visa Crypto Labs launches agent wallet for US users to verify AI agents and earn OUSD on Tempo** [𝕏/@cuysheffield](https://leviathannews.xyz/redirect/337353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Agon raises $70 million in Series A to build Europe's defence AI lab** [Businesswire](https://leviathannews.xyz/redirect/337440?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/22/signals_2026-11-22.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/22/signals_2026-11-22.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/24/signals_2026-11-24.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/24/signals_2026-11-24.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
