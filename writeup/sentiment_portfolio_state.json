@@ -1,5 +1,5 @@
 {
-  "cash": 19067.649003847055,
+  "cash": 17650.497778189194,
   "positions": {
     "POL": {
       "symbol": "POL",
@@ -241,14 +241,6 @@
       "entry_date": "2026-11-19T21:39:29.476349",
       "entry_signal": "SENTIMENT_LONG"
     },
-    "ETH": {
-      "symbol": "ETH",
-      "token_name": "Ethereum",
-      "quantity": -0.23953661639459045,
-      "entry_price": 1601.3689411686225,
-      "entry_date": "2026-11-20T21:07:40.930574",
-      "entry_signal": "SENTIMENT_SHORT"
-    },
     "XMR": {
       "symbol": "XMR",
       "token_name": "Monero",
@@ -256,6 +248,14 @@
       "entry_price": 448.80115276500794,
       "entry_date": "2026-11-20T21:07:40.930574",
       "entry_signal": "SENTIMENT_SHORT"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "quantity": 0.6028653909181388,
+      "entry_price": 1682.2742744625991,
+      "entry_date": "2026-11-24T23:01:51.775314",
+      "entry_signal": "SENTIMENT_LONG"
     }
   },
   "trades": [
@@ -4230,6 +4230,30 @@
       "signal_type": "SENTIMENT_SHORT",
       "pnl": null,
       "entry_price": null
+    },
+    {
+      "date": "2026-11-24T23:01:51.775314",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "COVER",
+      "quantity": 0.23953661639459045,
+      "price": 1682.2742744625991,
+      "value": 402.9662875524356,
+      "signal_type": "SENTIMENT_FLIP",
+      "pnl": -19.379789785515754,
+      "entry_price": 1601.3689411686225
+    },
+    {
+      "date": "2026-11-24T23:01:51.775314",
+      "symbol": "ETH",
+      "token_name": "Ethereum",
+      "action": "BUY",
+      "quantity": 0.6028653909181388,
+      "price": 1682.2742744625991,
+      "value": 1014.1849381054233,
+      "signal_type": "SENTIMENT_LONG",
+      "pnl": null,
+      "entry_price": null
     }
   ],
   "daily_values": [
@@ -5376,6 +5400,10 @@
     [
       "2026-11-24T00:53:45.311381",
       8474.627317749988
+    ],
+    [
+      "2026-11-24T23:01:51.775314",
+      7273.902214703762
     ]
   ]
 }

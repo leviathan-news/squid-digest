@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:02:53 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - October 18, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/18/signals_2026-10-18.md</link>
@@ -3540,60 +3540,58 @@ According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's 
     <item>
       <title>📊 Crypto Trading Signals - November 24, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/11/24/signals_2026-11-24.md</link>
-      <description>Market: BTC $61,177. (+0.13%), ETH $1,707. (-0.44%) | 13 trading signals</description>
+      <description>Market: BTC $59,886. (-2.29%), ETH $1,682. (-1.86%) | 14 trading signals</description>
       <content:encoded>&lt;h1 id="crypto-trading-signals-november-24-2026"&gt;📊 Crypto Trading Signals - November 24, 2026&lt;/h1&gt;
 
 &lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
 
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $61,177.00 (+0.13%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,707.31 (-0.44%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3162 (-1.71%)&lt;/p&gt;
+&lt;p&gt;• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $59,886.00 (-2.29%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,682.28 (-1.86%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3111 (-1.64%)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2356/COW?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;COW&lt;/a&gt;&lt;/strong&gt;: $0.0940 (+5.5%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1616/S?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;S&lt;/a&gt;&lt;/strong&gt;: $0.0284 (+4.0%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/330/UNI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;UNI&lt;/a&gt;&lt;/strong&gt;: $4.86 (+3.8%)&lt;/p&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1985/XMR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;XMR&lt;/a&gt;&lt;/strong&gt;: $508.44 (+4.4%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2356/COW?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;COW&lt;/a&gt;&lt;/strong&gt;: $0.0951 (+2.2%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2776/SKY?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SKY&lt;/a&gt;&lt;/strong&gt;: $0.0411 (+2.0%)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.0832 (-6.9%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/743/WLFI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;WLFI&lt;/a&gt;&lt;/strong&gt;: $0.0415 (-4.7%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1178/LQTY?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;LQTY&lt;/a&gt;&lt;/strong&gt;: $0.1296 (-3.1%)&lt;/p&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.0701 (-14.5%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2479/RSUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;RSUP&lt;/a&gt;&lt;/strong&gt;: $0.0409 (-14.1%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2956/INJ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INJ&lt;/a&gt;&lt;/strong&gt;: $5.85 (-6.5%)&lt;/p&gt;
 
 &lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
 
 &lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
   &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261122223338_8RX61mq3JB_i_606a1f63b08143ba8d81bf6ea52f5213_c9d287de21bf526027b822da78a26b87.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;1. OpenAI, Anthropic and rivals back AI agent standards to prevent commerce chaos - &lt;a href="https://leviathannews.xyz/redirect/337341?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Coindesk&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1140/openai"&gt;OpenAI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1404/anthropic"&gt;Anthropic&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1469/ai-agents"&gt;AI Agents&lt;/a&gt;&lt;/p&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261124133906_bdIo8XJ3ZxOk_6fd243b232b74555b1aae730800e6809_9c5a86c16e15d95af8090628f2b3d0a1.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. JPMorgan, HSBC and StoneX complete first digital gold trades in London - &lt;a href="https://leviathannews.xyz/redirect/338047?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;archive.ph&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/567/gold"&gt;Gold&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1169/jpmorgan"&gt;JPMorgan&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/3044/hsbc"&gt;HSBC&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261123071256_qI0UG5Y6dSzN_1250b3facabe4fd88860a49299e89b4b_ff0c21fd0ddfb4e5a7611415db9dbdcb.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;2. Solana launches AI platform combining autonomous agents, confidential computing and stablecoin payments - &lt;a href="https://leviathannews.xyz/redirect/337405?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@solana&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/338/solana"&gt;Solana&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/656/sol"&gt;$SOL&lt;/a&gt;&lt;/p&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261124053442_gi3I275WpD6F_c1cf012008ed4d378f45d3162e9b6676_5a66e7b2aa4a9a53ca2a5088fa34a749.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. CFTC finalizes rule replacing no-action letters for event contract data reporting - &lt;a href="https://leviathannews.xyz/redirect/337895?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;cftc.gov&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/584/cftc"&gt;CFTC&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261123122219_IGm7XDPiXmG5_f467d5533bd54171ba0a52b22edb5367_9f7e0f793da6c2b2f40060ae79d0a670.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;3. Cross River Bank launches first bitcoin-backed loans with LendingUSA, offering up to $250,000 - &lt;a href="https://leviathannews.xyz/redirect/337499?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/216/btc"&gt;$BTC&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/217/bitcoin"&gt;Bitcoin&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt;&lt;/p&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261124110605_QCfj_tlYeP8J_29e6d96bb86d412081dea9deaa370b22_11894791fe8bbed63648949a253f5ba1.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. Wallstreetbets partners with Hack VC to back founders building frontier technologies - &lt;a href="https://leviathannews.xyz/redirect/337983?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@wallstreetbets&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/562/hacks"&gt;Hacks&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/625/vc"&gt;VC&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261123010038_2Kiy4BZWQ6TT_a2a79ca8923140a2ae7cb4845ee0ae91_67050e9401fee37aca114334d70bb72b.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;4. Visa Crypto Labs launches agent wallet for US users to verify AI agents and earn OUSD on Tempo - &lt;a href="https://leviathannews.xyz/redirect/337353?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@cuysheffield&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/286/ousd"&gt;$OUSD&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/966/wallet"&gt;Wallet&lt;/a&gt;&lt;/p&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261124063803_TGmsKVfq_G4q_8121fe20ea5243b488f9c0cd591e1764_45de4316a2cea75bbfd6234b3e55467d.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Ethereum prepares major cryptographic overhaul as Foundation doubles protocol security team and targets post-quantum transition by 2028–2029 - &lt;a href="https://leviathannews.xyz/redirect/337909?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;blog.ethereum.org&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/227/eth"&gt;$ETH&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/232/ethereum"&gt;Ethereum&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2457/post-quantum"&gt;Post-Quantum&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20260622195225_brand.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;5. Agon raises $70 million in Series A to build Europe's defence AI lab - &lt;a href="https://leviathannews.xyz/redirect/337440?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Businesswire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1960/raises"&gt;Raises&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2692/europe"&gt;Europe&lt;/a&gt;&lt;/p&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261124080324_k8PtgKp-GX0i_b7c1e60a1bae48fc8ad36585efed0ca0_818e6aed47d49bca394e9053fcb05df6.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. OpenAI launches OpenWorks to fund local AI experts working with small businesses at no cost - &lt;a href="https://leviathannews.xyz/redirect/337934?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@jakeottiger&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1140/openai"&gt;OpenAI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
 
-&lt;p&gt;🟢 Solana (&lt;a href="https://leviathannews.xyz/t/656/SOL?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SOL&lt;/a&gt;): BUY - Solana's new AI platform combining autonomous agents, confidential computing and stablecoin payments is a concrete ecosystem catalyst for the chain&lt;/p&gt;
-
-&lt;p&gt;🟠 Bitcoin (&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BTC&lt;/a&gt;): WEAK SELL - Fourth straight week of spot ETF outflows totaling $1.79B led by IBIT signals persistent institutional distribution&lt;/p&gt;
+&lt;p&gt;🟢 Ethereum (&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$ETH&lt;/a&gt;): BUY - Ethereum Foundation doubling protocol security team and targeting post-quantum transition by 2028-2029 signals long-term commitment to staying ahead of existential cryptographic threats&lt;/p&gt;
 
 &lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
 
@@ -3601,15 +3599,15 @@ According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's 
 
 &lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
 
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; SOL (+3.57) · HYPE (+1.20) · BNB (+1.05) · MON (+0.91) · UNI (+0.45)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; BTC (-1.90) · XMR (-2.12) · SKY (-2.74)&lt;/p&gt;
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; SOL (+3.57) · ETH (+1.82) · HYPE (+0.93) · BNB (+0.82) · MON (+0.67)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; XMR (-1.74) · BTC (-1.90) · SKY (-2.14)&lt;/p&gt;
 
 &lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-34.50%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+19.25%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-8.93%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-35.88%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+8.62%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-3.49%&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
@@ -3617,34 +3615,46 @@ According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's 
 &lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,474.63&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-15.25%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$19,067.65&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$7,273.90&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-27.26%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$17,650.50&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Long (16):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, HYPE, AAVE, CRV, BNB
-&lt;strong&gt;Short (16):&lt;/strong&gt; PEPE, wstETH, rsETH, S, WLFI, DOGE, TRX, LINK, ENA, SQUID, NEAR, BTC, SYRUP, SKY, ETH, XMR&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Long (17):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, HYPE, AAVE, CRV, BNB, ETH
+&lt;strong&gt;Short (15):&lt;/strong&gt; PEPE, wstETH, rsETH, S, WLFI, DOGE, TRX, LINK, ENA, SQUID, NEAR, BTC, SYRUP, SKY, XMR&lt;/p&gt;
+
+&lt;h3 id="todays-trades"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🟢 BUY 0.6029 ETH @ $1682.27&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
 
 &lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$5,657.27&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-43.43%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-1,949.12&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$6,062.67&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-39.37%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-1,526.47&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Long (5):&lt;/strong&gt; PEPE, rsETH, S, WLFI, TRX
-&lt;strong&gt;Short (18):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, AAVE, AERO, SUI, HYPE, CRV, BNB&lt;/p&gt;
+&lt;strong&gt;Short (19):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, AAVE, AERO, SUI, HYPE, CRV, BNB, ETH&lt;/p&gt;
+
+&lt;h3 id="todays-trades-2"&gt;Today's Trades&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;🔴 SHORT 0.2512 ETH @ $1682.27&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete screwball to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete kook to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
 </content:encoded>
       <author>squid@leviathannews.xyz (Squid Digest)</author>
       <guid isPermaLink="false">squid-digest-2026-11-24</guid>
