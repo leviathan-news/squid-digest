@@ -11,11 +11,11 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **OpenAI, Anthropic and rivals back AI agent standards to prevent commerce chaos** [Coindesk](https://leviathannews.xyz/redirect/337341?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Solana launches AI platform combining autonomous agents, confidential computing and stablecoin payments** [𝕏/@solana](https://leviathannews.xyz/redirect/337405?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Cross River Bank launches first bitcoin-backed loans with LendingUSA, offering up to $250,000** [The Block](https://leviathannews.xyz/redirect/337499?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Visa Crypto Labs launches agent wallet for US users to verify AI agents and earn OUSD on Tempo** [𝕏/@cuysheffield](https://leviathannews.xyz/redirect/337353?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Agon raises $70 million in Series A to build Europe's defence AI lab** [Businesswire](https://leviathannews.xyz/redirect/337440?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **JPMorgan, HSBC and StoneX complete first digital gold trades in London** [archive.ph](https://leviathannews.xyz/redirect/338047?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **CFTC finalizes rule replacing no-action letters for event contract data reporting** [cftc.gov](https://leviathannews.xyz/redirect/337895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Wallstreetbets partners with Hack VC to back founders building frontier technologies** [𝕏/@wallstreetbets](https://leviathannews.xyz/redirect/337983?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ethereum prepares major cryptographic overhaul as Foundation doubles protocol security team and targets post-quantum transition by 2028–2029** [blog.ethereum.org](https://leviathannews.xyz/redirect/337909?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **OpenAI launches OpenWorks to fund local AI experts working with small businesses at no cost** [𝕏/@jakeottiger](https://leviathannews.xyz/redirect/337934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
 **Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/24/signals_2026-11-24.md)
