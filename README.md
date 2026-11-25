@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **JPMorgan, HSBC and StoneX complete first digital gold trades in London** [archive.ph](https://leviathannews.xyz/redirect/338047?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **CFTC finalizes rule replacing no-action letters for event contract data reporting** [cftc.gov](https://leviathannews.xyz/redirect/337895?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Wallstreetbets partners with Hack VC to back founders building frontier technologies** [𝕏/@wallstreetbets](https://leviathannews.xyz/redirect/337983?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Ethereum prepares major cryptographic overhaul as Foundation doubles protocol security team and targets post-quantum transition by 2028–2029** [blog.ethereum.org](https://leviathannews.xyz/redirect/337909?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **OpenAI launches OpenWorks to fund local AI experts working with small businesses at no cost** [𝕏/@jakeottiger](https://leviathannews.xyz/redirect/337934?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Swiss National Bank and eight partners launch exploratory Swiss Financial Ledger project** [snb.ch](https://leviathannews.xyz/redirect/338077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Verra raises $5M seed round to build institutional memory layer for consulting firms** [Globenewswire](https://leviathannews.xyz/redirect/338317?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **BiswapPoolV3 loses ~$51k in exploit tied to liquidity accounting flaw in burn()** [𝕏/@SlowMist_Team](https://leviathannews.xyz/redirect/338389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Tether invests in Argentine fintech Lemon to expand USD₮ and XAU₮ use across Latin America** [tether.io](https://leviathannews.xyz/redirect/338580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Paybacks raises $10M Pre-A from Foresight Ventures at $100M valuation, launches crypto fee cashback platform** [Globenewswire](https://leviathannews.xyz/redirect/338319?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/24/signals_2026-11-24.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/24/signals_2026-11-24.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/25/signals_2026-11-25.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/25/signals_2026-11-25.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
