@@ -484,6 +484,20 @@ class SentimentPortfolio:
         return cls(cash=initial_capital)
 
 
+def held_symbols(*state_files: Path) -> set:
+    """Symbols currently held across the given portfolio state files.
+
+    rebalance() can only close, and mark to market, a position it has a price
+    for. Callers must price these alongside today's candidates; pricing only
+    the candidates left rotated-out positions open at entry price for months.
+    """
+    symbols = set()
+    for state_file in state_files:
+        if Path(state_file).exists():
+            symbols |= set(SentimentPortfolio.load(Path(state_file)).positions)
+    return symbols
+
+
 def format_sentiment_portfolio_results(
     results: Dict,
     sentiment_rankings: List[Tuple[str, float]],
