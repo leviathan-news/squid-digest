@@ -8,122 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 25 Nov 2026 22:35:32 +0000</lastBuildDate>
-    <item>
-      <title>📊 Crypto Trading Signals - October 19, 2026</title>
-      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/19/signals_2026-10-19.md</link>
-      <description>Market: BTC $81,873. (+1.00%), ETH $2,398. (+1.43%) | 14 trading signals</description>
-      <content:encoded>&lt;h1 id="crypto-trading-signals-october-19-2026"&gt;📊 Crypto Trading Signals - October 19, 2026&lt;/h1&gt;
-
-&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
-
-&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $81,873.00 (+1.00%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $2,398.48 (+1.43%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.5028 (+0.48%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/289/CRV?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;CRV&lt;/a&gt;&lt;/strong&gt;: $0.3650 (+9.5%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2249/ARB?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ARB&lt;/a&gt;&lt;/strong&gt;: $0.1929 (+8.0%)
-• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/329/DOT?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;DOT&lt;/a&gt;&lt;/strong&gt;: $1.14 (+6.7%)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/743/WLFI?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;WLFI&lt;/a&gt;&lt;/strong&gt;: $0.0542 (-4.5%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1090/AIOZ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;AIOZ&lt;/a&gt;&lt;/strong&gt;: $0.1002 (-3.6%)
-• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2479/RSUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;RSUP&lt;/a&gt;&lt;/strong&gt;: $0.0989 (-2.2%)&lt;/p&gt;
-
-&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
-
-&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261019095444_-qX5Tfxa91_V_14ba488e9ad04d0d8a3ce2b8815e2002_222e202f9f104cd5fe28c9fc84f594ed.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;1. Hyperliquid retail app users down $280M all-time, with fees taking over half of losses - &lt;a href="https://leviathannews.xyz/redirect/320358?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@hansonbirringer&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/2059/fees"&gt;Fees&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/505/hyperliquid"&gt;Hyperliquid&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1115/retail"&gt;Retail&lt;/a&gt;&lt;/p&gt;
-    &lt;blockquote style="margin: 8px 0; padding: 8px 12px; border-left: 3px solid #999; background-color: #f5f5f5; font-style: italic;"&gt;💬 &lt;i&gt;No crying in the casino, pls&lt;/i&gt; — &lt;a href="https://leviathannews.xyz/u/w00tcake/comments?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=comments"&gt;@w00tcake&lt;/a&gt;&lt;/blockquote&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261019021513_Ky4pBV-xxeno_5b5d4f7b20714ffcbdfb77d6ec607df3_86f14d66103118487da11239fa7bb459.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;2. Crypto.com and Novig sue Missouri over sports event contracts as Kalshi, Polymarket and Robinhood hold off - &lt;a href="https://leviathannews.xyz/redirect/320261?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/506/polymarket"&gt;Polymarket&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/435/crypto-dotcom"&gt;Crypto.com&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2020/kalshi"&gt;Kalshi&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261019020245_UnqsQdsh7iIC_02df0ecef7d04f3c8a2eeb738f205bfb_2036d87d4d06f46798d9e4a84a3fb569.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;3. Abu Dhabi launches TAMM Global to bring its AI-native government platform to the world. - &lt;a href="https://leviathannews.xyz/redirect/320257?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Businesswire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/553/ai"&gt;AI&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261019023620_j2k7mW86XRw4_95e7f205ac4144d98fbc05466aacadef_a4a5ebb7fcf26dc3228462019bc9164f.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;4. Zakura proposes one-time viewing keys for Zcash swaps to limit quantum privacy risks without splitting wallet funds across accounts - &lt;a href="https://leviathannews.xyz/redirect/320265?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;Zakura&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1984/quantum"&gt;quantum&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2954/risks"&gt;Risks&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/966/wallet"&gt;Wallet&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
-    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261019021938_13zzMtzUWtyj_e12e482e1905449facf65e7d6a0cf002_19f137d2567c8c4564431af41425ac00.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
-    &lt;p style="margin: 0 0 8px 0;"&gt;5. World launches World ID suite for banks and makes Zoom deepfake check generally available - &lt;a href="https://leviathannews.xyz/redirect/320262?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;The Block&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2284/zoom"&gt;Zoom&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
-
-&lt;p&gt;🔴 HYPE (&lt;a href="https://leviathannews.xyz/t/1335/HYPE?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$HYPE&lt;/a&gt;): STRONG SELL - Hyperliquid retail app users are down $280M all-time with fees eating over half the losses, a damning stat that undermines the platform's retail growth narrative&lt;/p&gt;
-
-&lt;p&gt;🟢 Monero (&lt;a href="https://leviathannews.xyz/t/1985/XMR?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$XMR&lt;/a&gt;): BUY - Zakura's one-time viewing keys and QUIC-based P2Pv2 networking layer materially upgrade Zcash's privacy and quantum-resistance story, and privacy-coin narratives tend to lift the whole sector including Monero&lt;/p&gt;
-
-&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
-
-&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; ETH (+8.47) · SOL (+5.49) · XMR (+4.86) · UNI (+2.44) · XRP (+2.20)
-🔴 &lt;strong&gt;Short:&lt;/strong&gt; TRX (-0.13) · HYPE (-3.82)&lt;/p&gt;
-
-&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$8,461.97&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-15.38%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-1,359.49&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (21):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, ADA, TON
-&lt;strong&gt;Short (9):&lt;/strong&gt; PEPE, CRV, wstETH, rsETH, S, WLFI, DOGE, TRX, HYPE&lt;/p&gt;
-
-&lt;h3 id="todays-trades"&gt;Today's Trades&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;🔴 SHORT 5.9546 HYPE @ $77.83&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
-
-&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$6,655.68&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-33.44%&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-833.49&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Long (6):&lt;/strong&gt; PEPE, CRV, rsETH, S, WLFI, TRX
-&lt;strong&gt;Short (24):&lt;/strong&gt; POL, SYRUP, OP, NEAR, LINK, SQUID, AVAX, MON, SOL, weETH, ARB, ENA, INJ, UNI, BNB, XMR, BTC, ETH, XRP, ADA, TON, AAVE, AERO, SUI&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete dork to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
-</content:encoded>
-      <author>squid@leviathannews.xyz (Squid Digest)</author>
-      <guid isPermaLink="false">squid-digest-2026-10-19</guid>
-      <category>trading-signals</category>
-      <category>crypto</category>
-      <category>ai-analysis</category>
-      <pubDate>Mon, 19 Oct 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 26 Nov 2026 22:22:59 +0000</lastBuildDate>
     <item>
       <title>📊 Crypto Trading Signals - October 20, 2026</title>
       <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/10/20/signals_2026-10-20.md</link>
@@ -3660,6 +3545,124 @@ According to Axios, Meta's emissions jumped 45% amid its AI build-out, and it's 
       <category>crypto</category>
       <category>ai-analysis</category>
       <pubDate>Wed, 25 Nov 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>📊 Crypto Trading Signals - November 26, 2026</title>
+      <link>https://raw.githubusercontent.com/leviathan-news/squid-digest/main/writeup/2026/11/26/signals_2026-11-26.md</link>
+      <description>Market: BTC $60,556. (+0.87%), ETH $1,696. (+0.87%) | 14 trading signals</description>
+      <content:encoded>&lt;h1 id="crypto-trading-signals-november-26-2026"&gt;📊 Crypto Trading Signals - November 26, 2026&lt;/h1&gt;
+
+&lt;h2 id="market-snapshot-24h"&gt;💰 Market Snapshot (24h)&lt;/h2&gt;
+
+&lt;p&gt;• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/216/BTC?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;BTC&lt;/a&gt;&lt;/strong&gt;: $60,556.00 (+0.87%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/227/ETH?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;ETH&lt;/a&gt;&lt;/strong&gt;: $1,696.53 (+0.87%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/821/OPEN?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;OPEN&lt;/a&gt;&lt;/strong&gt;: $0.3103 (+0.39%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 Top Gainers:&lt;/strong&gt;
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2776/SKY?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SKY&lt;/a&gt;&lt;/strong&gt;: $0.0465 (+12.0%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/878/SYRUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;SYRUP&lt;/a&gt;&lt;/strong&gt;: $0.0715 (+8.7%)
+• 🟢 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2956/INJ?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;INJ&lt;/a&gt;&lt;/strong&gt;: $6.21 (+4.8%)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;📉 Top Losers:&lt;/strong&gt;
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/1985/XMR?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;XMR&lt;/a&gt;&lt;/strong&gt;: $464.79 (-10.6%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2296/MON?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;MON&lt;/a&gt;&lt;/strong&gt;: $0.0103 (-6.0%)
+• 🔴 &lt;strong&gt;&lt;a href="https://leviathannews.xyz/t/2479/RSUP?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=market_snapshot"&gt;RSUP&lt;/a&gt;&lt;/strong&gt;: $0.0364 (-4.4%)&lt;/p&gt;
+
+&lt;h2 id="top-stories"&gt;🔥 Top Stories&lt;/h2&gt;
+
+&lt;div style="border: 2px solid #FF6B35; border-radius: 8px; overflow: hidden;"&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261126070803_tvZyhHurXWfG_f6af526e13124dadb236889a93496112_a0db282f7d56c26ea2b9aa1aedf9b917.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;1. UK moves to require FCA authorization for DeFi platforms, restrict retail access to offshore services - &lt;a href="https://leviathannews.xyz/redirect/338867?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;FT&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/583/defi"&gt;DeFi&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1115/retail"&gt;Retail&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1185/uk"&gt;UK&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261125233121_lfTpBBeMHts__4c001a4976b24fe7b29b08fbfae30061_75124fd96acf5828c3ae49b5fe7cd881.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;2. Abstract raises $2.5M from HF0 to build cloud inference for robots with 30ms round trip - &lt;a href="https://leviathannews.xyz/redirect/338779?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@quantbagel&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/563/cloud"&gt;cloud&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1045/abstract"&gt;Abstract (chain)&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1960/raises"&gt;Raises&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261126070153_g07vsdBGDTfk_f166d890339141c3a0e863a53462e2ce_8f3f0d47f0e43f6577105797ae675e58.png" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;3. Kakao Pay, Samsung Card and ZAN join LayerZero's Zero blockchain as validators ahead of November 30 mainnet launch - &lt;a href="https://leviathannews.xyz/redirect/338861?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;layerzero.network&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1721/validators"&gt;Validators&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1948/launch"&gt;Launch&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/2140/mainnet"&gt;Mainnet&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261126005202_0uNsmE2AE2-r_70aca8df337644b5b3ae923fbd5c4f16_2c54189b35558abdb81e0f0c64732a4c.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;4. Ulys_AI raises $17M to turn ideas into investments, backed by Tom Lee and BitMine - &lt;a href="https://leviathannews.xyz/redirect/338778?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;𝕏/@Ulys_AI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/1730/bitmine"&gt;BitMine&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1733/tom-lee"&gt;Tom Lee&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1959/investment"&gt;Investment&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="padding: 16px; border-bottom: 1px solid #e0e0e0;"&gt;
+    &lt;img src="https://images.weserv.nl/?url=https%3A%2F%2Fleviathan-media.nyc3.digitaloceanspaces.com%2Fmedia%2F20261126065346_2VSgyEFIvCx8_4af0a70be8ab4c7e83af414aaaad1a74_8f6d673c4605d0f8be255ab6e7ac9f8e.jpg" alt="Story Image" style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 12px;"&gt;
+    &lt;p style="margin: 0 0 8px 0;"&gt;5. Ukraine's parliament passes crypto regulation and tax bill, with rules set to take effect in July 2027 - &lt;a href="https://leviathannews.xyz/redirect/338857?utm_medium=digest&amp;utm_source=digest&amp;utm_campaign=news&amp;skip_landing=true"&gt;&lt;strong&gt;thedefiant.io&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;p style="margin: 0 0 8px 0; font-size: 0.9em;"&gt;🏷️ &lt;a href="https://leviathannews.xyz/t/494/regulation"&gt;Regulation&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/948/crypto"&gt;Crypto&lt;/a&gt; • &lt;a href="https://leviathannews.xyz/t/1452/the-defiant"&gt;The Defiant&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="trading-signals"&gt;🎯 Trading Signals&lt;/h2&gt;
+
+&lt;p&gt;🟢 AAVE (&lt;a href="https://leviathannews.xyz/t/2360/AAVE?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$AAVE&lt;/a&gt;): BUY - Mobile savings app going public after $63M in early access balances signals real product-market fit and new retail inflow channel&lt;/p&gt;
+
+&lt;p&gt;🟢 BNB (&lt;a href="https://leviathannews.xyz/t/431/BNB?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$BNB&lt;/a&gt;): BUY - New L1 litepaper targeting high-frequency trading, payments and AI agents expands BNB Chain's addressable market and burns narrative&lt;/p&gt;
+
+&lt;p&gt;🔴 Sky (&lt;a href="https://leviathannews.xyz/t/2776/SKY?utm_medium=digest&amp;amp;utm_source=digest&amp;amp;utm_campaign=trading_signals"&gt;$SKY&lt;/a&gt;): SELL - Emergency governance vote to unstick $25M USDS transfer amid stalled stUSDS withdrawals points to liquidity stress in the protocol&lt;/p&gt;
+
+&lt;h2 id="sentiment-portfolio"&gt;📈 Sentiment Portfolio&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Daily signals accumulate into sentiment scores (14-day half-life decay). Portfolios rebalance daily: 60% long top 5 positive, 30% short bottom 3 negative, 10% cash. Momentum follows sentiment; Contrarian inverts it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="current-sentiment-rankings"&gt;Current Sentiment Rankings&lt;/h3&gt;
+
+&lt;p&gt;🟢 &lt;strong&gt;Long:&lt;/strong&gt; SOL (+3.08) · BNB (+2.43) · AAVE (+2.01) · XRP (+1.90) · ETH (+1.57)
+🔴 &lt;strong&gt;Short:&lt;/strong&gt; XMR (-1.01) · BTC (-1.64) · SKY (-3.12)&lt;/p&gt;
+
+&lt;h3 id="benchmark"&gt;Benchmark&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BTC Buy &amp;amp; Hold:&lt;/strong&gt; &lt;code&gt;-35.17%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;+12.96%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrarian Alpha vs BTC:&lt;/strong&gt; &lt;code&gt;-5.33%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="momentum-strategy"&gt;Momentum Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$7,779.34&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-22.21%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$17,650.50&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (17):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, HYPE, AAVE, CRV, BNB, ETH
+&lt;strong&gt;Short (15):&lt;/strong&gt; PEPE, wstETH, rsETH, S, WLFI, DOGE, TRX, LINK, ENA, SQUID, NEAR, BTC, SYRUP, SKY, XMR&lt;/p&gt;
+
+&lt;h3 id="contrarian-strategy"&gt;Contrarian Strategy&lt;/h3&gt;
+
+&lt;h3 id="portfolio-summary-2"&gt;Portfolio Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Portfolio Value:&lt;/strong&gt; &lt;code&gt;$5,950.63&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Return:&lt;/strong&gt; &lt;code&gt;-40.49%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cash:&lt;/strong&gt; &lt;code&gt;$-1,526.47&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="current-positions-2"&gt;Current Positions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Long (5):&lt;/strong&gt; PEPE, rsETH, S, WLFI, TRX
+&lt;strong&gt;Short (19):&lt;/strong&gt; POL, OP, AVAX, MON, SOL, weETH, ARB, INJ, UNI, XRP, ADA, TON, AAVE, AERO, SUI, HYPE, CRV, BNB, ETH&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Trading strategies generated by AI, which is wrong about everything, so you'd have to be a complete dumb-bell to take financial advice from one!&lt;/em&gt;&lt;/p&gt;
+</content:encoded>
+      <author>squid@leviathannews.xyz (Squid Digest)</author>
+      <guid isPermaLink="false">squid-digest-2026-11-26</guid>
+      <category>trading-signals</category>
+      <category>crypto</category>
+      <category>ai-analysis</category>
+      <pubDate>Thu, 26 Nov 2026 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
