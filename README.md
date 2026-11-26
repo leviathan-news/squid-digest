@@ -11,15 +11,15 @@ AI-powered daily digest generator that pulls top headlines from Leviathan News, 
 ## 📊 Latest News Headlines (December 31, 2025)
 
 ### 🔥 Top Headlines
-- **Swiss National Bank and eight partners launch exploratory Swiss Financial Ledger project** [snb.ch](https://leviathannews.xyz/redirect/338077?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Verra raises $5M seed round to build institutional memory layer for consulting firms** [Globenewswire](https://leviathannews.xyz/redirect/338317?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **BiswapPoolV3 loses ~$51k in exploit tied to liquidity accounting flaw in burn()** [𝕏/@SlowMist_Team](https://leviathannews.xyz/redirect/338389?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Tether invests in Argentine fintech Lemon to expand USD₮ and XAU₮ use across Latin America** [tether.io](https://leviathannews.xyz/redirect/338580?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
-- **Paybacks raises $10M Pre-A from Foresight Ventures at $100M valuation, launches crypto fee cashback platform** [Globenewswire](https://leviathannews.xyz/redirect/338319?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **UK moves to require FCA authorization for DeFi platforms, restrict retail access to offshore services** [FT](https://leviathannews.xyz/redirect/338867?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Abstract raises $2.5M from HF0 to build cloud inference for robots with 30ms round trip** [𝕏/@quantbagel](https://leviathannews.xyz/redirect/338779?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Kakao Pay, Samsung Card and ZAN join LayerZero's Zero blockchain as validators ahead of November 30 mainnet launch** [layerzero.network](https://leviathannews.xyz/redirect/338861?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ulys_AI raises $17M to turn ideas into investments, backed by Tom Lee and BitMine** [𝕏/@Ulys_AI](https://leviathannews.xyz/redirect/338778?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
+- **Ukraine's parliament passes crypto regulation and tax bill, with rules set to take effect in July 2027** [thedefiant.io](https://leviathannews.xyz/redirect/338857?utm_medium=digest&utm_source=digest&utm_campaign=news&skip_landing=true)
 
 ### 📈 Portfolio Performance
-**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/25/signals_2026-11-25.md)
-**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/25/signals_2026-11-25.md)
+**Buy Strategy:** $10,782.62 (+7.83%) | [Full Analysis →](writeup/2026/11/26/signals_2026-11-26.md)
+**Sell Strategy:** $7,439.99 (-25.60%) | [Full Analysis →](writeup/2026/11/26/signals_2026-11-26.md)
 
 **GitHub:** 12-31-25 | [Archives](writeup/)
 **digest.leviathannews.xyz:** 12-31-25 | [Archives](https://digest.leviathannews.xyz)
